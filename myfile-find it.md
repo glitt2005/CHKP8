@@ -38,6 +38,7 @@ saludo(); // devuelve: "Hola, David Casas"
 const numbers = [1, 2, 3, 4, 5];numbers.forEach(function(number, index, array) {  console.log(`Elemento: ${number}, Índice: ${index}, Array: ${array}`);});
 
 
+
 `<span style="color: blue;">Este texto será azul</span>` o `<span style="color: #0000FF;">Este texto será azul (código hexadecimal)</span>`.
 
 ## Open a file
@@ -46,7 +47,9 @@ You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening 
 
 ## Save a file
 
-You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
+
+<font color ="red" >texto resaltado</font>
+can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
 
 ## Synchronize a file
 
@@ -142,6 +145,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxND
-I2MTgxNDAwLC0yMjg5MzUyNF19
+eyJoaXN0b3J5IjpbMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMD
+c5NDc5OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
 -->
