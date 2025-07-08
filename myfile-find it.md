@@ -7,7 +7,7 @@ how can I access to my viel
 
 # ¿Qué tipo de bucles hay en JS?
 
-<![if !supportLists]>2. <![endif]>¿Cuáles son las diferencias entre const, let y var?
+# ¿Cuáles son las diferencias entre const, let y var?
 
 <![if !supportLists]>3. <![endif]>¿Qué es una función de flecha?
 
@@ -132,5 +132,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjY0NDg5LC0yMjg5MzUyNF19
+eyJoaXN0b3J5IjpbMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
 -->
