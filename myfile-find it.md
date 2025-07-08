@@ -4,7 +4,7 @@ OBJETIVO:  imprimir todos los elementos de un array , 3 formas:
 Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de datos.
  
 
-## 1) Bucle <font color ="green"><font face="Consolas"><font size = 3.5>for</font>:
+## 1) Bucle <font color ="green"><font face="Consolas"><font size = 6>for</font>:
 
 
 
@@ -230,7 +230,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjg4MTIwOSwxODkxMzg0NjcxLC05OT
+eyJoaXN0b3J5IjpbMTg0NzE3NTQ4NSwxODkxMzg0NjcxLC05OT
 gyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5
 NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLT
 IyODkzNTI0XX0=
