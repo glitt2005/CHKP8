@@ -36,11 +36,9 @@ saludo(); // devuelve: "Hola, David Casas"
 
 ```
 const numbers = [1, 2, 3, 4, 5];numbers.forEach(function(number, index, array) {  console.log(`Elemento: ${number}, Índice: ${index}, Array: ${array}`);});
-``` The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
-	> To start syncing your workspace, just sign in with Google in the menu.
 
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
+
+`<span style="color: blue;">Este texto será azul</span>` o `<span style="color: #0000FF;">Este texto será azul (código hexadecimal)</span>`.
 
 ## Open a file
 
@@ -144,6 +142,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE1MDU3OTYsLTIwNzk0Nzk5MSwxND
+eyJoaXN0b3J5IjpbLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxND
 I2MTgxNDAwLC0yMjg5MzUyNF19
 -->
