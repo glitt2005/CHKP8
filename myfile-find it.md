@@ -17,10 +17,10 @@ El bucle <font color ="green"><strong>for</strong></font> tradicional s uno de l
 }
 
 
-<p style="font-family: console;">Este texto tendrá la fuente Arial</p>
-V```r
-<p style="font-family:
-```entajas:
+<p style="font-family:consolas;">Este texto tendrá la fuente Arial</p>
+
+<p style="font-family: Arial;">Este texto tendrá la fuente Arial</p>`.
+
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
 •	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
 •	Compatibilidad amplia: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
@@ -229,7 +229,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI4NDMyNywtOTk4MjczMDI4LDE0OT
-k5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1
-MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
+eyJoaXN0b3J5IjpbNjA1NDEwMTI3LC05OTgyNzMwMjgsMTQ5OT
+kwODE2MywtODkyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5MzUy
+OSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLTIyODkzNTI0XX0=
 -->
