@@ -17,9 +17,10 @@ El bucle <font color ="green"><strong>for</strong></font> tradicional s uno de l
 }
 
 
-<p style="font-family: Consolas, monospace;">Este texto tendrá la fuente Arial</p>
+<p style="font-family: Consolas;">Este texto tendrá la fuente Arial</p>
 
 <p style="font-family: Arial;">Este texto tendrá la fuente Arial</p>.
+<span style="font-family: Consolas;">Texto con fuente Consolas</span>.
 
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
 •	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
@@ -229,7 +230,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTU1MzY0OCwxODkxMzg0NjcxLC05OT
+eyJoaXN0b3J5IjpbLTg5ODk3NzU2NCwxODkxMzg0NjcxLC05OT
 gyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5
 NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLT
 IyODkzNTI0XX0=
