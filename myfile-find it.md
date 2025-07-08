@@ -1,5 +1,3 @@
-how can I access to my viel
-
 
 # ¿Qué tipo de bucles hay en JS?
 
@@ -132,6 +130,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMj
-g5MzUyNF19
+eyJoaXN0b3J5IjpbMTU4MzYxMjM1MSwtMjA3OTQ3OTkxLDE0Mj
+YxODE0MDAsLTIyODkzNTI0XX0=
 -->
