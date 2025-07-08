@@ -22,7 +22,12 @@ There are two types of synchronization and they can complement each other:
 <span style="color:blue">some *blue* text</span>.
 
 
-- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
+```
+JavaScript
+
+```
+const numbers = [1, 2, 3, 4, 5];numbers.forEach(function(number, index, array) {  console.log(`Elemento: ${number}, Índice: ${index}, Array: ${array}`);});
+``` The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
 	> To start syncing your workspace, just sign in with Google in the menu.
 
 - The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
@@ -130,6 +135,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MzYxMjM1MSwtMjA3OTQ3OTkxLDE0Mj
-YxODE0MDAsLTIyODkzNTI0XX0=
+eyJoaXN0b3J5IjpbLTE2MTk5NTM2MjcsLTIwNzk0Nzk5MSwxND
+I2MTgxNDAwLC0yMjg5MzUyNF19
 -->
