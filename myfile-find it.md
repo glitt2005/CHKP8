@@ -16,6 +16,18 @@ let array = [1, 2, 3];
 
 }
 
+```JavaScript
+function  saludo() {
+
+var  usuario  = {
+email: 'prueba@gmail.com',
+nombre: 'Federico Faggin'
+}
+console.log("Hola, ".concat(usuario.nombre));
+}
+  
+saludo(); // "Hola, Federico Faggin"
+```
 <font face="Consolas">Este texto está en Arial.</font>
 
 
@@ -230,8 +242,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MjExNzk0OSwxODkxMzg0NjcxLC05OT
-gyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5
-NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLT
-IyODkzNTI0XX0=
+eyJoaXN0b3J5IjpbLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOT
+k4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTEx
+OTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC
+0yMjg5MzUyNF19
 -->
