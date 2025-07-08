@@ -15,7 +15,12 @@ El bucle <font color ="green"><strong>for</strong></font> tradicional s uno de l
         console.log(array[i]); // Imprime 1, luego 2, luego 3
 
 }
-Ventajas:
+```r
+<p style="font-family: console> hello <
+```
+V```r
+<p style="font-family:
+```entajas:
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
 •	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
 •	Compatibilidad amplia: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
@@ -224,7 +229,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OT
-IyNjE4ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5
-OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbLTE1OTU5NTYwMzMsLTk5ODI3MzAyOCwxND
+k5OTA4MTYzLC04OTIyNjE4ODUsMjc0MTkxMTk1LC0xMDI4Mjkz
+NTI5LC0yMDc5NDc5OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ
+==
 -->
