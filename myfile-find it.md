@@ -2,6 +2,24 @@ how can I access to my viel
 
 # Checking modificatios
 
+
+<![endif]-->
+
+# ¿Qué tipo de bucles hay en JS?
+
+<![if !supportLists]>2. <![endif]>¿Cuáles son las diferencias entre const, let y var?
+
+<![if !supportLists]>3. <![endif]>¿Qué es una función de flecha?
+
+<![if !supportLists]>4. <![endif]>¿Qué es la deconstrucción de variables?
+
+<![if !supportLists]>5. <![endif]>¿Qué hace el operador de extensión en JS?
+
+<![if !supportLists]>6. <![endif]>¿Qué es la programación orientada a objetos?
+
+<![if !supportLists]>7. <![endif]>¿Qué es una promesa en JS?
+
+<![if !supportLists]>8. <![endif]>¿Qué hacen async y await por nosotros?
 There are two types of synchronization and they can complement each other: 
 <span style="color:blue">some *blue* text</span>.
 
@@ -114,5 +132,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODkzNTI0XX0=
+eyJoaXN0b3J5IjpbMTQyNjY0NDg5LC0yMjg5MzUyNF19
 -->
