@@ -10,7 +10,7 @@ Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de dato
 
 El bucle <font color ="green"><strong>for</strong></font> tradicional s uno de los más antiguos y versátiles en JavaScript. Es ideal cuando necesitas un control preciso sobre el índice en cada iteración o necesitas manipular la secuencia de iteración.
 
-    let array = [1, 2, 3];
+let array = [1, 2, 3];
     for (let i = 0; i < array.length; i++) {
         console.log(array[i]); // Imprime 1, luego 2, luego 3
 
@@ -230,7 +230,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzE3NTQ4NSwxODkxMzg0NjcxLC05OT
+eyJoaXN0b3J5IjpbMjA5MjExNzk0OSwxODkxMzg0NjcxLC05OT
 gyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5
 NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLT
 IyODkzNTI0XX0=
