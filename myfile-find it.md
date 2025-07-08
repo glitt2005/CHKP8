@@ -19,7 +19,7 @@
 
 
 There are two types of synchronization and they can complement each other: 
-<span style="color:blue">some *blue* text</span>.
+<font color ="blue">some <strong>*blue*</strong> text</font>.
 
 
 ```JavaScript
@@ -145,6 +145,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMD
-c5NDc5OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMj
+gyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUy
+NF19
 -->
