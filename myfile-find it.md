@@ -22,8 +22,17 @@ There are two types of synchronization and they can complement each other:
 <span style="color:blue">some *blue* text</span>.
 
 
-```
-JavaScript
+```JavaScript
+var  usuario  = {
+email: 'prueba@gmail.com',
+nombre: 'David Casas'
+}
+
+function  saludo(){
+console.log("Hola, ".concat(usuario.nombre));
+}
+
+saludo(); // devuelve: "Hola, David Casas"
 
 ```
 const numbers = [1, 2, 3, 4, 5];numbers.forEach(function(number, index, array) {  console.log(`Elemento: ${number}, Índice: ${index}, Array: ${array}`);});
@@ -135,6 +144,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTk5NTM2MjcsLTIwNzk0Nzk5MSwxND
+eyJoaXN0b3J5IjpbLTE2NTE1MDU3OTYsLTIwNzk0Nzk5MSwxND
 I2MTgxNDAwLC0yMjg5MzUyNF19
 -->
