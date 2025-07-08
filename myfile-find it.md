@@ -5,6 +5,23 @@ Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de dato
  
 
 ## 1) Bucle <font color ="green">for</font>:
+
+
+
+El bucle for tradicional s uno de los más antiguos y versátiles en JavaScript. Es ideal cuando necesitas un control preciso sobre el índice en cada iteración o necesitas manipular la secuencia de iteración.
+let array = [1, 2, 3];
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i]); // Imprime 1, luego 2, luego 3
+}
+Ventajas:
+•	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
+•	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
+•	Compatibilidad amplia: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
+Limitaciones:
+•	Propenso a errores: Es fácil olvidar incrementar el índice o establecer incorrectamente las condiciones del bucle.
+•	Código más verboso: Requiere más líneas de código en comparación con otras alternativas.
+
+
 Tenemos que declarar 3 cosas:  (VARIABLE ; CONDICIÓN;  INCREMENTADOR):
 A)	Una VARIABLE ITERADORA que será utilizada a lo largo del bucle:
 >	var i, y lo ponemos a 0 var i = 0, que en realidad representa al índice de cada uno de los elementos (altuve = 0, Bregman = 1, etc.). 
@@ -205,7 +222,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5OTkwODE2MywtODkyMjYxODg1LDI3ND
-E5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0
-MDAsLTIyODkzNTI0XX0=
+eyJoaXN0b3J5IjpbLTEzOTA3OTcxNzcsMTQ5OTkwODE2MywtOD
+kyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3
+OTkxLDE0MjYxODE0MDAsLTIyODkzNTI0XX0=
 -->
