@@ -16,8 +16,8 @@ El bucle <font color ="green"><strong>for</strong></font> tradicional s uno de l
 
 }
 
-<p style="font-family: console> hello </p>
 
+<p style="font-family: console;">Este texto tendrá la fuente Arial</p>
 V```r
 <p style="font-family:
 ```entajas:
@@ -229,7 +229,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODE3ODY3MCwtOTk4MjczMDI4LDE0OT
+eyJoaXN0b3J5IjpbLTE3MzI4NDMyNywtOTk4MjczMDI4LDE0OT
 k5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1
 MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
 -->
