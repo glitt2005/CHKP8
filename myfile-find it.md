@@ -15,9 +15,9 @@ El bucle <font color ="green"><strong>for</strong></font> tradicional s uno de l
         console.log(array[i]); // Imprime 1, luego 2, luego 3
 
 }
-```r
-<p style="font-family: console> hello <
-```
+
+<p style="font-family: console> hello </p>
+
 V```r
 <p style="font-family:
 ```entajas:
@@ -229,8 +229,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU5NTYwMzMsLTk5ODI3MzAyOCwxND
-k5OTA4MTYzLC04OTIyNjE4ODUsMjc0MTkxMTk1LC0xMDI4Mjkz
-NTI5LC0yMDc5NDc5OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ
-==
+eyJoaXN0b3J5IjpbLTY0ODE3ODY3MCwtOTk4MjczMDI4LDE0OT
+k5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1
+MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
 -->
