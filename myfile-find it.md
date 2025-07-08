@@ -17,7 +17,7 @@ El bucle <font color ="green"><strong>for</strong></font> tradicional s uno de l
 }
 
 
-<p style="font-family: Consolas, monospace">Este texto tendrá la fuente Arial</p>
+<p style="font-family: Consolas, monospace;">Este texto tendrá la fuente Arial</p>
 
 <p style="font-family: Arial;">Este texto tendrá la fuente Arial</p>.
 
@@ -229,8 +229,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA1NjIzODY1LDE4OTEzODQ2NzEsLTk5OD
-I3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4ODUsMjc0MTkxMTk1
-LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMTQyNjE4MTQwMCwtMj
-I4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbMTczMTU1MzY0OCwxODkxMzg0NjcxLC05OT
+gyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5
+NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLT
+IyODkzNTI0XX0=
 -->
