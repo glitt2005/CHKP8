@@ -294,7 +294,10 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 # 2 ¿Cuáles son las diferencias entre const, let y var?
 
 
-
+## 1. Variablew &ensp;<font color ="green"><font face="Consolas"><font size = 6>  while</font>:
+1.Durante años, solo only  the VAR variable.  Cuando creamos un variable con VAR, estamos creando una variable GLOBAL, lo que significa que puede entrar en conflicto con otras variables, contaminar la variable global, y el poder averiguar qué está pasando exactamente en el programa para dar error, pues puede llevar muchísimo tiempo solventar este problema de nombrado: necesitamos controlar dónde están nuestras variables declaradas y dónde tenemos acceso a ellas, pero con VAR esto es algo muy difícil de hacer.
+2.	LET vino hace unos años, y se convirtió en una mejor manera de definir variables, ya que no contaminaba el espacio de nombramiento global, en otras palabras, era mucho más específico, estaba más limitado; si se creaba dentro de, o añaden en, una función, sólo estaría disponible en esa función: no habría otros momentos en los que estuviera disponible. No entramos en la diferencia entre LET y VAR, porque ya lo vimos en otra guía.
+3.	CONST es la más nueva. También se ha convertido en una de las más famosa a la hora de declarar variables. Se puede ver en los desarrolladores que es la preferida por encima de las otras opciones y la mayoría de aplicaciones se ven sobre todo CONST y LET. Por norma general en los programas modernos (especialmente en React, Angular o plataformas del estilo) se utiliza CONST, las BUENAS PRÁCTICAS dicen que ésta debería ser nuestra mejor opción por defecto. Si es demasiado específica (VEREMOS EJEMPLOS), usaríamos LET. Pero es difícil que veamos VAR en las aplicaciones modernas. No es que no pueda haber casos en los que necesitemos una variable global, en la que utilizaríamos VAR, pero de normal no va a ser así.
 
 
 
@@ -474,7 +477,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NT
-kzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2
-LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbMjA0ODA5OTY2MCwtNDY2NzE3ODc4LC05OD
+UyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5
+LC00MzU3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NT
+E0MDMzNF19
 -->
