@@ -352,7 +352,7 @@ console.log(b); // 1 - ha cambiado: var- alcance global
 - En la mayoría de aplicaciones se ven sobre todo la  variable **`const`**  y la  variable **`let`**. 
 - Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable **`const`**.
 
-EJEMPLO;
+EJEMPLO:
 
 ```JavaScript
 const objeto = {  
@@ -562,9 +562,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTQwMjIyODEsMjA2NTYxMjA5MCwxNT
-c3MDg2MDgwLDQwOTY4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1
-LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mj
-k4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEs
-MTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbMTI2NTUwNjAzOCwyMDY1NjEyMDkwLDE1Nz
+cwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUs
+LTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOT
+gxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwx
+NTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
 -->
