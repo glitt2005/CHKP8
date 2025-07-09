@@ -93,7 +93,9 @@ for (diaSemana in diasDeLaSemana) {
 }
 ```
 
-Como vemos la sintaxis es más sencilla y corta que la anterior
+Como vemos la sintaxis es más sencilla y corta que la anterior.
+
+**CONVENCIÓN SINTÁCTICA**:  Para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular.  Aquí la hemos puesto algo más larga para que se vea claramente la diferencia entre las dos.
 2. Método forEach
 forEach es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 let array = [1, 2, 3];
@@ -362,11 +364,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjM3MjE2ODEsLTIwOTQ1MjgwODEsMT
-IyMTAzMzY4NSwxNjI5OTM4OTI5LC03ODMxNzc3NDUsLTY5NTYw
-NzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMT
-k1NTQwMDEwOSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4
-NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NS
-wyNzQxOTExOTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2
-MTgxNDAwXX0=
+eyJoaXN0b3J5IjpbNTQ4NTE4NTk2LC0yMDk0NTI4MDgxLDEyMj
+EwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC02OTU2MDcy
+ODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAsLTE5NT
+U0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OTEzODQ2
+NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4ODUsMj
+c0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMTQyNjE4
+MTQwMF19
 -->
