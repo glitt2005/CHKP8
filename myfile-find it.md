@@ -318,6 +318,10 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 
 
 
+POR QUÉ USAR **<font color ="green"><font face="Consolas"><big> const</font></big></font></font>** EN LUGAR DE **<font color ="green"><font face="Consolas"><big> let</font></big></font></font>:**
+
+IMAGINEMOS un programa que modificamos y que por error utilizamos el nombre de una variable que ya ha sido declarada. En este caso, “city”
+
 
 
 
@@ -493,8 +497,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NT
-I4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTks
-LTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MT
-QwMzM0XX0=
+eyJoaXN0b3J5IjpbODA2NDQ2NTU1LC02MzI1MjkyNSwtNDY2Nz
+E3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcs
+NjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUxLDE1NDk2OD
+kyMTYsMTk5NTE0MDMzNF19
 -->
