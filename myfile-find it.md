@@ -57,6 +57,9 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
 
 
 
+## 1) Bucle <font color ="green"><font face="Consolas"><font size = 6>for</font>:
+
+
 
 
 
@@ -329,7 +332,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MDQwMzEyMSwxNjI5OTM4OTI5LC03OD
+eyJoaXN0b3J5IjpbLTQxMTg5NjE5MSwxNjI5OTM4OTI5LC03OD
 MxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1
 LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5Nz
 kwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgx
