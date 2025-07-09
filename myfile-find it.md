@@ -32,8 +32,14 @@ for (diaSemana = 0; diaSemana < diasDeLaSemana.length; diaSemana++) {
 NECESITAMOS:
 - una <font color ="green">**variable iteradora**</font>. Aquí es  `diaSemana` será utilizada a lo largo del bucle y recorrerá cada elemento del array  `diasDeLaSemana`. Pero ojo! esta **variable iteradora** no representa un valor, sino un **índice**!
 - declarar <font color ="green">**una condición**</font>, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla. En nuestro caso, la condición es que sea menor que menor que 7.
-	- **Ojo!** ponemos **< 7 (o sea, hasta 6 inclusive**) porque recordemos que los **índices comienzan en 0** (no en 1). Por lo tanto siempre va a restar 1 del número total de los elementos del array. 
-	- Otra opción es poner
+	- **Ojo!** ponemos **`< 7` (o sea, hasta 6 inclusive**) en lugar de `<=7 porque recordemos que los **índices comienzan en 0** (no en 1). Por lo tanto siempre va a restar 1 del número total de los elementos del array. 
+	- Otra opción es poner un -1 al final:
+
+```JavaScript
+for (diaSemana = 0; diaSemana <= diasDeLaSemana.length; diaSemana++) {
+    console.log(diasDeLaSemana[diaSemana]);
+}
+```
 - un tipo de <font color ="green">**incrementador**</font>:  **var++**, que aumentará en 1, cada vez que haga el bucle.
  
 #### VENTAJAS
@@ -317,7 +323,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxOTMwMTA4OCwxNjI5OTM4OTI5LC03OD
+eyJoaXN0b3J5IjpbLTk0ODM4NTEzNSwxNjI5OTM4OTI5LC03OD
 MxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1
 LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5Nz
 kwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgx
