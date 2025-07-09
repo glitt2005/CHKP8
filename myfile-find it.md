@@ -299,6 +299,7 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 - Cuando creamos un variable con <font color ="green"><font face="Consolas"><big> var</font></big></font></font>, estamos creando una **variable GLOBAL**, lo que significa que puede entrar en conflicto con otras variables, **contaminar la variable global**. 
 	- El poder averiguar qué está pasando exactamente en el programa para dar error, pues puede llevar muchísimo tiempo solventar este problema de nombrado.
 	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con <font color ="green"><font face="Consolas"><big> var</font></big></font></font>   esto es algo muy difícil de hacer.
+	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, hoy en día no tiene demasiado sentido utilizar `var` en nuestro código.
 
 PONER EJEMPLO DE VAR;
 
@@ -553,9 +554,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2ND
-Q2NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwt
-ODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3Nj
-U4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
-
+eyJoaXN0b3J5IjpbODcyMDM5OTMwLDE1NzcwODYwODAsNDA5Nj
+gwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwt
+OTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMDU5OD
+gxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5
+OTUxNDAzMzRdfQ==
 -->
