@@ -188,7 +188,49 @@ while (diaSemana < diasDeLaSemana.length) {
 ```
 
 
+## 5) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>  do - while</font>:
+
+ 
+
+#### SINTAXIS
+
+
+```javascript
+while (condition) {
+  // código
+  // llamado "cuerpo del bucle"
+}
+```
+Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bucle será ejecutado.
+
+NECESITAMOS
+- una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
+- para evitar **UN BUCLE INFINITO**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Añadimos este elemento nualmente dentro del código a ejecutar, dentro de las llaves{}.
+
+ 
+#### EJEMPLO:  Imprimimos los días de la semana
+```JavaScript
+var diasDeLaSemana = [
+    "lunes",
+    "martes",
+    "miercoles",
+    "jueves",
+    "viernes",
+    "sábado",
+    "domingo"
+];
+   
+let diaSemana = 0; 
+while (diaSemana < diasDeLaSemana.length) {
+  console.log(diasDeLaSemana[diaSemana]);
+  diaSemana++;
+}
+
+```
+
+
 #### VENTAJAS
+
 
 •	Es relativamente nuevo; **el 
 TEXTO EN CONSOLA
@@ -390,11 +432,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2MzQ3MDEsLTIwMTg2NTQ4ODUsMTc0MT
-c2NDIyMSwyMTE3NTgxNDA5LDExMjE4NjQzNjIsODQ3NzU1MTU0
-LC0yMDk0NTI4MDgxLDEyMjEwMzM2ODUsMTYyOTkzODkyOSwtNz
-gzMTc3NzQ1LC02OTU2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2
-NSw4NzcwMDQ3ODAsLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOT
-c5MDU4NTU1LDE4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4
-MTYzXX0=
+eyJoaXN0b3J5IjpbMTk5NTE0MDMzNCw4NDYzNDcwMSwtMjAxOD
+Y1NDg4NSwxNzQxNzY0MjIxLDIxMTc1ODE0MDksMTEyMTg2NDM2
+Miw4NDc3NTUxNTQsLTIwOTQ1MjgwODEsMTIyMTAzMzY4NSwxNj
+I5OTM4OTI5LC03ODMxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2
+NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMT
+UwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4Mjcz
+MDI4XX0=
 -->
