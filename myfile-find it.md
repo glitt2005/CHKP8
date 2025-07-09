@@ -295,9 +295,10 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 
 
 ## 1. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  var</font>
-- Durante años, en JavaScript sólo existenia la  variable <font color ="green"><font face="Consolas"><big> var</font></big></font></font> .  
-- Cuando creamos un variable con <font color ="green"><font face="Consolas"><big> var</font></big></font></font>.  , estamos creando una **variable GLOBAL**, lo que significa que puede entrar en conflicto con otras variables, **contaminar la variable global**, y el poder averiguar qué está pasando exactamente en el programa para dar error, pues puede llevar muchísimo tiempo solventar este problema de nombrado.
-- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con <font color ="green"><font face="Consolas"><big> var</font></big></font></font>   esto es algo muy difícil de hacer.
+- Durante muchos años, en JavaScript **sólo existía** la  variable <font color ="green"><font face="Consolas"><big> var</font></big></font></font>.  
+- Cuando creamos un variable con <font color ="green"><font face="Consolas"><big> var</font></big></font></font>, estamos creando una **variable GLOBAL**, lo que significa que puede entrar en conflicto con otras variables, **contaminar la variable global**. 
+	- El poder averiguar qué está pasando exactamente en el programa para dar error, pues puede llevar muchísimo tiempo solventar este problema de nombrado.
+	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con <font color ="green"><font face="Consolas"><big> var</font></big></font></font>   esto es algo muy difícil de hacer.
 
 ## 1. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  let</font>
 
@@ -483,8 +484,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTE0MzEzOCwtNDY2NzE3ODc4LC05OD
-UyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5
-LC00MzU3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NT
-E0MDMzNF19
+eyJoaXN0b3J5IjpbNTg2MDUxMTc2LC00NjY3MTc4NzgsLTk4NT
+I4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTks
+LTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MT
+QwMzM0XX0=
 -->
