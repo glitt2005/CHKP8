@@ -103,7 +103,7 @@ Como vemos la sintaxis es más sencilla y corta que la anterior.
 Esto muy común cuando llamamos a una API, es decir, salimos a otro servidor(por wjemtplo Twitter) y extraemos tweets. Éstos son con frecuencia enviados en formato objeto, es decir con una estructura de pares clave:valor.
 Si queremos mostrar esos datos en una página, la forma de hacerlo es iterando sobre esos datos, ese objeto.  Y una de las formas más comunes de hacerlo es mediante este bucle  <font color ="green">**for - in**</font>.
 
-#### EJEMPLO:  Imprimimos características de un coche**
+#### EJEMPLO:  Imprimimos características de un coche
 
 
 ```JavaScript
@@ -126,8 +126,9 @@ La propiedad color tiene el valor: Rojo
 */
 ```
 NOTAS:
-1. `propiedad`es el elemento iterador, que representa a la clave del par clave:valor de cada objeto.
-2. Precisamente como se trata de un objeto, para extraer el `valor`de objeto necesitaremos utilizar la sintaxis adecuada, que son los corchetes [ ].  **No funcionaría si utilizáramos la dot notation o anotación con puntos para ojetos** (nos devolvería `underfined`). Ciertamente éste último sistema de notación es considerado **una buena práctica**, pero en ciertos casos, como en éste, donde la misma **variable iteradora corresponde** también **a la clave** del par clave:valor del objeto, necesitamos ser **más específicos** y utilizar **la sintaxis de corchetes [ ].**
+1. `propiedad`es el **elemento iterador**, que representa a la **clave** del par clave:valor de cada objeto.
+2. Precisamente como se trata de un objeto, para extraer el `valor`de objeto necesitaremos utilizar la sintaxis adecuada, que son los **corchetes [ ].**  
+**No funcionaría si utilizáramos la *dot notation* o anotación con puntos para ojetos** (nos devolvería `underfined`). Ciertamente éste último sistema de notación es considerado **una buena práctica**, pero en ciertos casos, como en éste, donde la misma **variable iteradora corresponde** también **a la clave** del par clave:valor del objeto, necesitamos ser **más específicos** y utilizar **la sintaxis de corchetes [ ].**
 
 
 
@@ -486,7 +487,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzY3NTI3MSwtODY1OTMxODQ4LDE4Nj
+eyJoaXN0b3J5IjpbLTY4ODIyODkyMSwtODY1OTMxODQ4LDE4Nj
 I5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUx
 LDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
 -->
