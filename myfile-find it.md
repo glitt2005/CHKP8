@@ -105,13 +105,17 @@ El método <font color ="green">**forEach()**</font>    es un método específic
 
 #### SINTAXIS
 
-
-
 ```javascript
 array.forEach(function() {
     // código
 });
 ```
+
+NECESITAMOS:
+-	**Elemento iterador**: nombre de la variable que representa cada elemento a iterar.
+-	**Colección**: sobre la que se van a iterrar los elementos
+-	**Instrucciones a ejecutar** ( LA CALLBACKFN, que técnicamente no es una función 
+
 #### EJEMPLO:  Imprimimos los días de la semana
 ```JavaScript
 var diasDeLaSemana = [
@@ -347,11 +351,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA4OTM4ODYsODQ3NzU1MTU0LC0yMD
-k0NTI4MDgxLDEyMjEwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3
-NzQ1LC02OTU2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4Nz
-cwMDQ3ODAsLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4
-NTU1LDE4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC
-04OTIyNjE4ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5
-NDc5OTFdfQ==
+eyJoaXN0b3J5IjpbLTExNzg4NDc0OCw4NDc3NTUxNTQsLTIwOT
+Q1MjgwODEsMTIyMTAzMzY4NSwxNjI5OTM4OTI5LC03ODMxNzc3
+NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1LDg3Nz
+AwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5NzkwNTg1
+NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLT
+g5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1MjksLTIwNzk0
+Nzk5MV19
 -->
