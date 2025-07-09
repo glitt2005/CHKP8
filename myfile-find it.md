@@ -372,14 +372,8 @@ EJEMPLO DE CONST VS. LET:
 const casa  =  "Benidorm";  
 console.log(casa);
   
-casa: "Marbella";
+casa = "Marbella";
 console.log(casa);       // imprime "Benidorm"  
-  
-objeto.valor = 20; 
-// Esto es válido, se puede modificar la propiedad de un objeto const. 
-
-objeto = { nombre: "Nuevo", valor: 30 }; 
-// Esto daría error, no se puede reasignar la constante objeto.
 ```
 
 ## <font color ="green"><font face="Consolas"><big>  Buenas Prácticas</font></big>
@@ -574,9 +568,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTM5ODMzMiwxMjY1NTA2MDM4LDIwNj
-U2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1
-LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OT
-MxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYs
-MzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
+eyJoaXN0b3J5IjpbODExNzAwMzM3LDEyNjU1MDYwMzgsMjA2NT
+YxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MDY0NDY1NTUs
+LTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5Mz
+E4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwz
+MDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
