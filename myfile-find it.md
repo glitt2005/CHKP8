@@ -16,6 +16,8 @@ let array = [1, 2, 3];
 
 }
 
+
+CÓDIGO 
 ```JavaScript
 function  saludo() {
 
@@ -26,13 +28,16 @@ nombre: 'Federico Faggin'
 console.log("Hola, ".concat(usuario.nombre));
 }
   
+
 saludo(); // "Hola, Federico Faggin"
 ```
+
+TEXTO EN CONSOLA
+
 <font face="Consolas">Este texto está en Consolas.</fon
 
 
-<p style="font-family: Arial;">Este texto tendrá la fuente Arial</p>.
-<span style ="font-family:ConsolasTexto con fuente Consolas</span>.
+
 
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
 •	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
@@ -242,8 +247,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTU4NTQ1NzcsLTE5NzkwNTg1NTUsMT
-g5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2
-MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MS
-wxNDI2MTgxNDAwLC0yMjg5MzUyNF19
+eyJoaXN0b3J5IjpbLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OT
+EzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4
+ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMT
+QyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
 -->
