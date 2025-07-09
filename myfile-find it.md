@@ -295,11 +295,11 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 
 
 ## 1. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  var</font>
-- Durante muchos años, en JavaScript **sólo existía** la  variable `var`  
-- Cuando creamos un variable con`var`, estamos creando una **variable GLOBAL**, lo que significa que puede entrar en conflicto con otras variables, **contaminar la variable global**. 
-	- El poder averiguar qué está pasando exactamente en el programa para dar error, pues puede llevar muchísimo tiempo solventar este problema de nombrado.
-	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con `var`   esto es algo muy difícil de hacer.
-	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, hoy en día no tiene demasiado sentido utilizar `var` en nuestro código.
+- Durante muchos años, en JavaScript **sólo existía** la  variable **`var`**.  
+- Cuando creamos un variable con **`var`**, estamos creando una **variable GLOBAL**, lo que significa que puede entrar en conflicto con otras variables, **contaminar la variable global**. 
+	- El poder averiguar qué está pasando exactamente en el programa para dar error, pues p**uede llevar muchísimo tiempo solventar** este problema de nombrado.
+	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con **`var`**   esto es algo muy difícil de hacer.
+	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, **hoy en día no tiene demasiado sentido utilizar** **`var`** en nuestro código.
 
 PONER EJEMPLO DE VAR;
 
@@ -554,7 +554,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMDQyMzgwMCwxNTc3MDg2MDgwLDQwOT
+eyJoaXN0b3J5IjpbMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOT
 Y4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4Nzgs
 LTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OT
 g4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwx
