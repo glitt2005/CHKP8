@@ -38,7 +38,7 @@ TEXTO EN CONSOLA
 
 
 IMAGEN
-![enter image description here](%5CscreenBG.jpg)
+![miImagen](screenBG.jpg)
 
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
 •	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
@@ -248,8 +248,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyODI4OTI4LC0xNTAxMTA3NSwtMTk3OT
-A1ODU1NSwxODkxMzg0NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2
-MywtODkyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5MzUyOSwtMj
-A3OTQ3OTkxLDE0MjYxODE0MDAsLTIyODkzNTI0XX0=
+eyJoaXN0b3J5IjpbMTU4ODMzNjM4NSwtMTUwMTEwNzUsLTE5Nz
+kwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgx
+NjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1MjksLT
+IwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
 -->
