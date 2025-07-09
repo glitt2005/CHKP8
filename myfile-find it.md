@@ -103,7 +103,24 @@ Como vemos la sintaxis es más sencilla y corta que la anterior.
 Esto muy común cuando llamamos a una API, es decir, salimos a otro servidor(por wjemtplo Twitter) y extraemos tweets. Éstos son con frecuencia enviados en formato objeto, es decir con una estructura de pares clave:valor.
 Si queremos mostrar esos datos en una página, la forma de hacerlo es iterando sobre esos datos, ese objeto.  Y una de las formas más comunes de hacerlo es mediante este bucle  <font color ="green">**for - in**</font>.
 
+#### EJEMPLO:  Imprimimos los días de la semana**
 
+
+```JavaScript
+var diasDeLaSemana = [
+    "lunes",
+    "martes",
+    "miercoles",
+    "jueves",
+    "viernes",
+    "sábado",
+    "domingo"
+];
+    
+for (diaSemana in diasDeLaSemana) {
+    console.log(diasDeLaSemana[diaSemana]);
+}
+```
 
 
 
@@ -464,7 +481,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTQ1NTE1NCw2MDA1OTg4MTksLTQzNT
+eyJoaXN0b3J5IjpbLTY4MDMxNDk3Nyw2MDA1OTg4MTksLTQzNT
 c2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0
 XX0=
 -->
