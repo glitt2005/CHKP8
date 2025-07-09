@@ -300,7 +300,7 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 	- El poder averiguar qué está pasando exactamente en el programa para dar error, pues p**uede llevar muchísimo tiempo solventar** este problema de nombrado.
 	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con **`var`**   esto es algo muy difícil de hacer.
 	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, **hoy en día no tiene demasiado sentido utilizar** **`var`** en nuestro código.
-- tolera redeclaraciones:
+- tolera **redeclaraciones**:
  ```JavaScript
 var user =  "Pete";
 var user =  "John";
@@ -308,7 +308,7 @@ console.log(user); // John
  ```
 	
 
-PONER EJEMPLO DE **`var`**;
+EJEMPLO DEL ALCANDE DE **`var`**;
 
 ```JavaScript
 var mensajeGlobal = "Hola, soy global!";
@@ -336,6 +336,7 @@ console.log(dentroDeBloque); // Imprime "Dentro de un bloque", porque var ignora
 - `let`  limita el alcance de las variables al bloque donde se definen, evitando efectos secundarios no deseados en otros bloques de código.
 - `let`  no permite redeclarar la misma variable en el mismo ámbito, lo que ayuda a evitar errores.
 - El alcance de bloque de  `let`  hace que el código sea más fácil de entender y mantener.
+- No tolera redeclara
 
  EJEMPLO DE **`let`** vs. **`var`**;
 
@@ -596,7 +597,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg1MTk0MTEsMTcwNDI2NzA4NCwtOT
+eyJoaXN0b3J5IjpbLTE4NzE4MzIxMjIsMTcwNDI2NzA4NCwtOT
 EwNzY2NDEwLDEwNjg5MDczOTIsMTI2NTUwNjAzOCwyMDY1NjEy
 MDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNj
 MyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0
