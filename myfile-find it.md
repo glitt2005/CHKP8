@@ -74,7 +74,7 @@ for (variable in objecto)
   declaración
 ```
 
-**CONVENCIÓN SINTÁCTICA**:  Para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular.  Aquí hemos puesto un nombre algo más largo para que se vea rápidamente la diferencia entre los dos.
+**CONVENCIÓN SINTÁCTICA**:  Para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular.  Aquí pondremos un nombre de array algo más largo (```diasDeLaSemana` ) para que se vea rápidamente la diferencia entre los dos.
 
 #### EJEMPLO:  Imprimiremos los días de la semana**
 
@@ -366,11 +366,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTcwODIzMywtMjA5NDUyODA4MSwxMj
-IxMDMzNjg1LDE2Mjk5Mzg5MjksLTc4MzE3Nzc0NSwtNjk1NjA3
-MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MDA0NzgwLC0xOT
-U1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1NSwxODkxMzg0
-NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LD
-I3NDE5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYx
-ODE0MDBdfQ==
+eyJoaXN0b3J5IjpbNTA5MjM3ODkxLC0yMDk0NTI4MDgxLDEyMj
+EwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC02OTU2MDcy
+ODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAsLTE5NT
+U0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OTEzODQ2
+NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4ODUsMj
+c0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMTQyNjE4
+MTQwMF19
 -->
