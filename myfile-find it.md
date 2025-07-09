@@ -310,8 +310,8 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 - En la mayoría de aplicaciones se ven sobre todo la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font> y la  variable <font color ="green"><font face="Consolas"><big> let</font></big></font></font>. 
 - Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>.
 
-## Buenas 3. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  const</font>
--  las BUENAS PRÁCTICAS dicen que ésta debería ser nuestra mejor opción por defecto. Si es demasiado específica (VEREMOS EJEMPLOS), usaríamos LET. Pero es difícil que veamos VAR en las aplicaciones modernas. No es que no pueda haber casos en los que necesitemos una variable global, en la que utilizaríamos VAR, pero de normal no va a ser así.
+## <font color ="green"><font face="Consolas"><big>  Buenas Prácticas</font></big>
+-  Las BUENAS PRÁCTICAS dicen que ésta debería ser nuestra mejor opción por defecto. Si es demasiado específica (VEREMOS EJEMPLOS), usaríamos LET. Pero es difícil que veamos VAR en las aplicaciones modernas. No es que no pueda haber casos en los que necesitemos una variable global, en la que utilizaríamos VAR, pero de normal no va a ser así.
 
 
 
@@ -491,8 +491,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDE5MjE0OCwtNDY2NzE3ODc4LC05OD
-UyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5
-LC00MzU3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NT
-E0MDMzNF19
+eyJoaXN0b3J5IjpbLTExMjcyMTMyMDcsLTQ2NjcxNzg3OCwtOT
+g1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgx
+OSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OT
+UxNDAzMzRdfQ==
 -->
