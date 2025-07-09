@@ -40,6 +40,8 @@ TEXTO EN CONSOLA
 IMAGEN
 ![enter image description here](screenBG.jpg)
 
+<img alt="OpenWebDocs Logo: Carle el ratón de biblioteca" src="screenBG.jpg" />
+
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
 •	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
 •	Compatibilidad amplia: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
@@ -248,8 +250,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOT
-c5MDU4NTU1LDE4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4
-MTYzLC04OTIyNjE4ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC
-0yMDc5NDc5OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbLTQ1MjI1MTUzNSwtMTk1NTQwMDEwOSwtMT
+UwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4Mjcz
+MDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLT
+EwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5
+MzUyNF19
 -->
