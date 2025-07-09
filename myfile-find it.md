@@ -305,7 +305,7 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 - <font color ="green"><font face="Consolas"><big> let</font></big></font></font> vino hace unos años, y se convirtió en una **mejor** manera de definir variables, ya que **no contaminaba el espacio de nombramiento global**, 
 - Como consecuencia,  era mucho más específico, estaba **más limitado**; si se creaba dentro de una función o se añadía a ella, **sólo estaría disponible en esa función:** no habría otros momentos en los que estuviera disponible. 
 ## 3. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  const</font>
-- La  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>	 es **la más nueva.** 
+- La  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>	 es **la más nueva**, y es una abreviación de la "**constante**". 
 - Se ha convertido en **una de las más populares** a la hora de declarar variables. Se puede ver en los desarrolladores que **es la preferida por encima de las otras opciones** 
 - En la mayoría de aplicaciones se ven sobre todo la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font> y la  variable <font color ="green"><font face="Consolas"><big> let</font></big></font></font>. 
 - Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>.
@@ -515,8 +515,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE4NzI2NDIsODA2NDQ2NTU1LC02Mz
-I1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4
-LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMz
-M1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
+eyJoaXN0b3J5IjpbMjAzNDM1NjA2MSw4MDY0NDY1NTUsLTYzMj
+UyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4NDgs
+MTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMz
+U5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
