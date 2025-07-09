@@ -245,9 +245,9 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
         En comparación con los bucles  **`for`**  y  **`while`**, el  **`do...while`**  se usa **con menos frecuencia**, ya que a menudo se puede lograr la misma lógica con los otros tipos de bucles.
     
 -   **Puede ser más difícil de entender:**
-        Para algunos desarrolladores, la estructura del  `do...while`  **puede resultar menos intuitiva que otros bucles**, especialmente si no están familiarizados con su ejecución garantizada una vez.
+        Para algunos desarrolladores, la estructura del  **`do...while`**  **puede resultar menos intuitiva que otros bucles**, especialmente si no están familiarizados con su ejecución garantizada una vez.
 
-#### VENTAJAS
+#### HASTA AQUÍ
 
 
 •	Es relativamente nuevo; **el 
@@ -450,6 +450,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OT
-Y4OTIxNiwxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMz
+M1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
 -->
