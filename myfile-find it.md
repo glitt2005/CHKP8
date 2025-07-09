@@ -228,8 +228,9 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 
 
 
-**VENTAJA**: 
-El hecho de que GARANTICE que al menos va a recorrer el bucle UNA VEZ, proporciona información. 
+**VENTAJAS**: 
+- El hecho de que GARANTICE que **al menos va a recorrer el bucle UNA VEZ, proporciona información**. 
+- Permite definir l**a lógica del bucle antes de evaluar la condición**, lo que puede ser **más conveniente en ciertos escenarios**.
 
  **EJEMPLO DE APLICACIÓN**: típíco en **juegos**, cuando queremos que siempre haga el proceso al menos una vez. Por ej. un **jugador que juega y te aseguras de que lo haga al menos una vez,** y si sigue ganando, puede comprobarlo en esa condición WHILE y puede seguir iterando.
 
@@ -440,6 +441,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MDEzODM4MSwxNTQ5Njg5MjE2LDE5OT
+eyJoaXN0b3J5IjpbMTI4NTQzMDgwMCwxNTQ5Njg5MjE2LDE5OT
 UxNDAzMzRdfQ==
 -->
