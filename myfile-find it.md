@@ -313,20 +313,15 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 EJEMPLO;
 
 ```JavaScript
-var diasDeLaSemana = [
-    "lunes",
-    "martes",
-    "miercoles",
-    "jueves",
-    "viernes",
-    "sábado",
-    "domingo"
-];
-   
-let diaSemana = 0; 
-do {
-    console.log(diasDeLaSemana[diaSemana]); diaSemana++;
-} while (diaSemana < diasDeLaSemana.length)
+const objeto = {  
+nombre: "Ejemplo",  
+valor: 10 };  
+  
+objeto.valor = 20; 
+// Esto es válido, se puede modificar la propiedad de un objeto const. 
+
+objeto = { nombre: "Nuevo", valor: 30 }; 
+// Esto daría error, no se puede reasignar la constante objeto.
 ```
 
 
@@ -520,8 +515,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTM2ODcxOCw4MDY0NDY1NTUsLTYzMj
-UyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4NDgs
-MTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMz
-U5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbLTE1NzE4NzI2NDIsODA2NDQ2NTU1LC02Mz
+I1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4
+LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMz
+M1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
 -->
