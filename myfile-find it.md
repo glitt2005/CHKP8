@@ -368,15 +368,24 @@ objeto = { nombre: "Nuevo", valor: 30 };
 
 
 EJEMPLO DE CONST VS. LET:
-
+1) const
 
 ```JavaScript
 const casa  =  "Benidorm";  
 console.log(casa);
   
 casa = "Marbella";
-console.log(casa);       // imprime "Benidorm"  
+console.log(casa);       
+
+// Devuelve un error:
+/ /TypeError: Assignment to constant variable. 
 ```
+1) let
+
+
+
+
+
 
 ## <font color ="green"><font face="Consolas"><big>  Buenas Prácticas</font></big>
 -  **Ésta debería ser nuestra mejor opción por defecto**. 
@@ -570,9 +579,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDY4MTA0NzUsMTI2NTUwNjAzOCwyMD
-Y1NjEyMDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1
-NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NT
-kzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2
-LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbMjA1MTQ2NTMzMSwxMjY1NTA2MDM4LDIwNj
+U2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1
+LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OT
+MxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYs
+MzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
 -->
