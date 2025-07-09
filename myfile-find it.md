@@ -318,8 +318,8 @@ objeto = { nombre: "Nuevo", valor: 30 };
 
 ## 2. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  let</font>
 
-- <font color ="green"><font face="Consolas"><big> let</font></big></font></font> vino hace unos años, y se convirtió en una **mejor** manera de definir variables, ya que **no contaminaba el espacio de nombramiento global**.
-- <font color ="green"><font face="Consolas"><big> let</font></big></font></font> permite reasignar el valor de la variable.
+- **`let`** vino hace unos años, y se convirtió en una **mejor** manera de definir variables, ya que **no contaminaba el espacio de nombramiento global**.
+- **`let`** permite reasignar el valor de la variable.
 - Como consecuencia,  era mucho más específico, estaba **más limitado**; si se creaba dentro de una función o se añadía a ella, **sólo estaría disponible en esa función:** no habría otros momentos en los que estuviera disponible. 
 
 PONER EJEMPLO DE LET;
@@ -338,7 +338,7 @@ objeto = { nombre: "Nuevo", valor: 30 };
 
 
 ## 3. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  const</font>
-- La  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>	 es **la más nueva**, y es una abreviación de "**constante**". 
+- La  variable **`const`** es **la más nueva**, y es una abreviación de "**constante**". 
 - Su valor n**o puede ser reasignado después de su inicialización**.
 - Se ha convertido en **una de las más populares** a la hora de declarar variables. Se puede ver en los desarrolladores que **es la preferida por encima de las otras opciones** .
 - En la mayoría de aplicaciones se ven sobre todo la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font> y la  variable <font color ="green"><font face="Consolas"><big> let</font></big></font></font>. 
@@ -554,9 +554,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Nzg4OTEwNiwxNTc3MDg2MDgwLDQwOT
-Y4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4Nzgs
-LTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OT
-g4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwx
-OTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbNjg0ODcyOTA2LDE1NzcwODYwODAsNDA5Nj
+gwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwt
+OTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMDU5OD
+gxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5
+OTUxNDAzMzRdfQ==
 -->
