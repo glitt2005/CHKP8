@@ -114,7 +114,7 @@ array.forEach(function() {
 NECESITAMOS:
 -	**Elemento iterador**: nombre de la variable que representa cada elemento a iterar.
 -	**Colección**: sobre la que se van a iterrar los elementos
--	**Instrucciones a ejecutar**.  La función dentro de una función se llama función callback. Técnicamente no es una función 
+-	**Instrucciones a ejecutar**.  La función dentro de una función se llama función callback. Técnicamente no es una función normal, ya que esto sucede automáticamente.
 
 #### EJEMPLO:  Imprimimos los días de la semana
 ```JavaScript
@@ -351,11 +351,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDA5OTEwODEsODQ3NzU1MTU0LC0yMD
-k0NTI4MDgxLDEyMjEwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3
-NzQ1LC02OTU2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4Nz
-cwMDQ3ODAsLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4
-NTU1LDE4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC
-04OTIyNjE4ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5
-NDc5OTFdfQ==
+eyJoaXN0b3J5IjpbODAzNTYyODIyLDg0Nzc1NTE1NCwtMjA5ND
+UyODA4MSwxMjIxMDMzNjg1LDE2Mjk5Mzg5MjksLTc4MzE3Nzc0
+NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MD
+A0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1
+NSwxODkxMzg0NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2MywtOD
+kyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3
+OTkxXX0=
 -->
