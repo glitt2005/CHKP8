@@ -4,7 +4,7 @@ OBJETIVO:  imprimir todos los elementos de un array , 3 formas:
 Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de datos.
  
 
-## 1) Bucle <font color ="green"><font face="Consolas"><font size = 6>for</font>:
+## 1) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>for</font>:
 
 
 El bucle <font color ="green">**for**</font> es el más clásico, y constituye ** uno de los más antiguos y versátiles** en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
@@ -58,7 +58,7 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
 
 
 
-## 2) Bucle <font color ="green"><font face="Consolas"><font size = 6>for - in</font>:
+## 2) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>for - in</font>:
 
 El bucle <font color ="green">**for-in**</font> es más moderno que el anterior y tiene un lectura más sencilla y moderna para recorrer arrays. Generalmente se utiliza más que el bucle <font color ="green">**for**</font>
 
@@ -97,7 +97,7 @@ for (diaSemana in diasDeLaSemana) {
 Como vemos la sintaxis es más sencilla y corta que la anterior.
 
 
-## 3) Bucle <font color ="green"><font face="Consolas"><font size = 6>forEach()</font>:
+## 3) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>forEach()</font>:
 
 
 
@@ -147,7 +147,7 @@ diasDeLaSemana.forEach(function(diaSemana){
 
 
 
-## 4) Bucle   <font color ="green"><font face="Consolas"><font size = 6>  while</font>:
+## 4) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>  while</font>:
 
  
 
@@ -351,11 +351,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzk2NDg2OSwxMTIxODY0MzYyLDg0Nz
-c1NTE1NCwtMjA5NDUyODA4MSwxMjIxMDMzNjg1LDE2Mjk5Mzg5
-MjksLTc4MzE3Nzc0NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNj
-c0NjU1NjUsODc3MDA0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3
-NSwtMTk3OTA1ODU1NSwxODkxMzg0NjcxLC05OTgyNzMwMjgsMT
-Q5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5
-MzUyOV19
+eyJoaXN0b3J5IjpbLTEyNDEyNjIzOTksMTEyMTg2NDM2Miw4ND
+c3NTUxNTQsLTIwOTQ1MjgwODEsMTIyMTAzMzY4NSwxNjI5OTM4
+OTI5LC03ODMxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLT
+Y3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEw
+NzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LD
+E0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgy
+OTM1MjldfQ==
 -->
