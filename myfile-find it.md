@@ -413,35 +413,21 @@ console.log(casa);  //devuelve:"Marbella"
 -  **La variable `const` debería ser nuestra mejor opción por defecto**. 
 - Si es demasiado específica, usaríamos **`let`**. 
 - Sin embargo, es difícil que veamos **`var`** en las aplicaciones modernas. No es que no pueda **haber casos en los que necesitemos una variable global**, en los que sería la ocasión para utiliar **`var`**, pero de normal no va a ser así.
+<br>
 
-**EN RESUMEN:**
 
- **1**. Usar  **`const`**  para declarar variables que no van a cambiar su valor a lo largo del programa.
- **2.**    Usar **`let`**  para variables que puedan ser reasignadas.
- **3.**  Evitar el uso de  **`var`** debido a sus problemas de ámbito y *hoisting*.
 
-| var| let | const |
-|----------|----------|----------|
-| | var| let | const | 1    | Cell 2   | Cell 3   |
-| Row 2    | Cell 5   | Cell 6   |
-| Row 3    | Cell 8   | Cell 9   |
+EN RESUMEN:****
 
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Column 1     | Cell 2   | Cell 3   |
-| Row 2    | Cell 5   | Cell 6   |
-| Row 3    | Cell 8   | Cell 9   |
-ç```markdown
+
 | Variable | Propósito |
 | --- | --- |
 | **`var`** | sólo situaciones donde necesitas un alcance de función específico (o para funciones de práctica y aprendizaje de codificación.Evitar el uso de  **`var`** debido a sus problemas de ámbito y *hoisting*|
 | **`let`**  | para variables que puedan ser reasignadas |
-| **`const`** | Show file differences that **haven't been** staged |
-```
+| **`const`** | Spara declarar variables que no van a cambiar su valor a lo largo del programa |
 
-POR QUÉ USAR **<font color ="green"><font face="Consolas"><big> const</font></big></font></font>** EN LUGAR DE **<font color ="green"><font face="Consolas"><big> let</font></big></font></font>:**
 
-IMAGINEMOS un programa que modificamos y que por error utilizamos el nombre de una variable que ya ha sido declarada. En este caso, “city”
+
 
 
 
@@ -618,7 +604,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTMzNTY5OSwtODQ2ODk0NDE0LDE3MD
+eyJoaXN0b3J5IjpbLTk0MTk3MDU2OCwtODQ2ODk0NDE0LDE3MD
 QyNjcwODQsLTkxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNjU1MDYw
 MzgsMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MD
 Y0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1
