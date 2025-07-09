@@ -118,11 +118,13 @@ for (let propiedad in coche) {
   console.log("La propiedad " + propiedad + " tiene el valor: " + coche[propiedad]);
 }
 
-*/Imprime:
+/* Imprime:
 La propiedad marca tiene el valor: Toyota
 La propiedad modelo tiene el valor: Auris
 La propiedad año tiene el valor: 2013
-La propiedad color tiene el valor: Rojo */
+La propiedad color tiene el valor: Rojo
+*/
+
 ```
 
 
@@ -484,7 +486,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMD
-U5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2
-LDE5OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbNTM3ODU4NjQwLC04NjU5MzE4NDgsMTg2Mj
+k4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEs
+MTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
