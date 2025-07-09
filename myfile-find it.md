@@ -150,8 +150,39 @@ diasDeLaSemana.forEach(function(diaSemana){
 ## 4) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>  while</font>:
 
  
-`while`  `(`condition`)`  `{`  `// código`  `// llamado "cuerpo del bucle"`  `}`
 
+#### SINTAXIS
+
+```javascript
+`while`  `(`condition`)`  `{`  `// código`  `// llamado "cuerpo del bucle"`  `}`
+```
+
+NECESITAMOS:
+-	**Elemento iterador**: nombre de la variable que representa cada elemento a iterar.
+-	**Colección**: sobre la que se van a iterrar los elementos
+-	**Instrucciones a ejecutar**.  La función dentro de una función se llama función callback. Técnicamente no es una función normal, ya que esto sucede automáticamente.
+
+#### EJEMPLO:  Imprimimos los días de la semana
+```JavaScript
+var diasDeLaSemana = [
+    "lunes",
+   "martes",
+    "miercoles",
+    "jueves",
+    "viernes",
+    "sábado",
+    "domingo"
+];
+    
+diasDeLaSemana.forEach(function(diaSemana){
+    console.log(diaSemana);
+})
+```
+
+
+#### VENTAJAS
+
+•	Es relativamente nuevo; **el 
 TEXTO EN CONSOLA
 
 <font face="Consolas">Este texto está en Consolas.</font>
@@ -351,11 +382,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxNzIyNjEsMTEyMTg2NDM2Miw4NDc3NT
-UxNTQsLTIwOTQ1MjgwODEsMTIyMTAzMzY4NSwxNjI5OTM4OTI5
-LC03ODMxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3ND
-Y1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUs
-LTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OT
-k5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1
-MjldfQ==
+eyJoaXN0b3J5IjpbLTk1Nzk5NjcxOSwxMTIxODY0MzYyLDg0Nz
+c1NTE1NCwtMjA5NDUyODA4MSwxMjIxMDMzNjg1LDE2Mjk5Mzg5
+MjksLTc4MzE3Nzc0NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNj
+c0NjU1NjUsODc3MDA0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3
+NSwtMTk3OTA1ODU1NSwxODkxMzg0NjcxLC05OTgyNzMwMjgsMT
+Q5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5
+MzUyOV19
 -->
