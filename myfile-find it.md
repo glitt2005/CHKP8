@@ -304,15 +304,20 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 PONER EJEMPLO DE **`var`**;
 
 ```JavaScript
-const objeto = {  
-nombre: "Ejemplo",  
-valor: 10 };  
-  
-objeto.valor = 20; 
-// Esto es válido, se puede modificar la propiedad de un objeto const. 
+var mensajeGlobal = "Hola, soy global!";
 
-objeto = { nombre: "Nuevo", valor: 30 }; 
-// Esto daría error, no se puede reasignar la constante objeto.
+function mostrarMensaje() {
+  console.log(mensajeGlobal); // Accede a la variable global
+}
+
+mostrarMensaje(); // Imprime "Hola, soy global!"
+console.log(mensajeGlobal); // Imprime "Hola, soy global!"
+
+if (true) {
+  var dentroDeBloque = "Dentro de un bloque";
+}
+
+console.log(dentroDeBloque); // Imprime "Dentro de un bloque", porque var ignora el bloque
 ```
 
 
@@ -584,9 +589,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNj
-U2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1
-LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OT
-MxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYs
-MzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
+eyJoaXN0b3J5IjpbLTkxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNj
+U1MDYwMzgsMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgy
+OSw4MDY0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NT
+I4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTks
+LTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MT
+QwMzM0XX0=
 -->
