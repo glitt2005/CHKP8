@@ -338,11 +338,11 @@ if (a === 5) {
   console.log(a);  // 4
   console.log(b);  // 1
 } 
-
+// Fuera del bloque if
 console.log(a); // 5
 console.log(b); // 1
 ```
-```
+
 
 
 ## 3. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  const</font>
@@ -562,9 +562,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTcyMzk2NiwyMDY1NjEyMDkwLDE1Nz
-cwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUs
-LTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOT
-gxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwx
-NTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbMTIyNjUwMDAxLDIwNjU2MTIwOTAsMTU3Nz
+A4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1MjkyNSwt
+NDY2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4LDE4NjI5OD
+EwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUxLDE1
+NDk2ODkyMTYsMTk5NTE0MDMzNF19
 -->
