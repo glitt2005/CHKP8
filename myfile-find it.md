@@ -14,7 +14,7 @@ NECESITAMOS:
 - declarar **una condición**, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla.
 - un tipo de **incrementador**:  var++, que aumentará en 1, cada vez que haga el bucle.
  
-**EJEMPLO:  Imprimiremos los números del 5 al 10 inclusives.**
+#### EJEMPLO:  Imprimiremos los números del 5 al 10 inclusives.**
 
 ```JavaScript
 for (let num = 5; num <= 10; num++) {
@@ -24,24 +24,15 @@ for (let num = 5; num <= 10; num++) {
 
 #### VENTAJAS
 
-:
+
 •	**Control total sobre el índice**: Pueds acceder y manipular el índice en cada iteración.
 •	**Flexibilidad**: Permite saltar o repetir elementos modificando el índice según sea necesario.
 •	**Compatibilidad amplia**: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
 
 
-Limitaciones:
-•	Propenso a errores: Es fácil olvidar incrementar el índice o establecer incorrectamente las condiciones del bucle.
-•	Código más verboso: Requiere más líneas de código en comparación con otras alternativas.
-Ejemplo de uso en matrices bidimensionales:
-let matrix = [
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9]
-];
-for (let i = 0; i < matrix.length; i++) {
-    for (let j = 0; j < matrix[i].length; j++) {
-        console.log(matrix[i][j]); // Imprime cada elemento en la matriz
+#### LIMITACIONES
+•	**Propenso a errores**: Es fácil olvidar incrementar el índice o establecer incorrectamente las condiciones del bucle.
+•	**Código más verboso**: Requiere más líneas de código en comparación con otras 
     }
 }
 Este tipo de control detallado sobre índices es una gran ventaja del bucle for en estructuras complejas.
@@ -313,10 +304,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTI2OTA1NywtNzgzMTc3NzQ1LC02OT
-U2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAs
-LTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OT
-EzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4
-ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMT
-QyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbLTIwNDEyMjcyMDYsLTc4MzE3Nzc0NSwtNj
+k1NjA3MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MDA0Nzgw
+LC0xOTU1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1NSwxOD
+kxMzg0NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYx
+ODg1LDI3NDE5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLD
+E0MjYxODE0MDAsLTIyODkzNTI0XX0=
 -->
