@@ -163,10 +163,8 @@ while (condition) {
 Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bucle será ejecutado.
 
 NECESITAMOS
-- una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos en caso de que no quieras tener acceso a esta variable fuera más tarde.
-Y esta sería la forma, pero ojo, si sólo hacemos:
- 
-nos daría un bucle infinito de imprimir solo el primero todo el rato, ya que aún no tenemos nada que haga cambiar el valor de la variable iterativa i.
+- una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
+- para evitar **un bucle infinito**, necesitamos  daría un bucle infinito de imprimir solo el primero todo el rato, ya que aún no tenemos nada que haga cambiar el valor de la variable iterativa i.
 o		NECESITAMOS EL INCREMENTADOR!!
 
 Lo añadimos manualmente dentro de las {}, después de lo que queramos que imprima:
@@ -398,7 +396,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODU2NzkyNywxNzQxNzY0MjIxLDIxMT
+eyJoaXN0b3J5IjpbMTI5OTQxOTM2NCwxNzQxNzY0MjIxLDIxMT
 c1ODE0MDksMTEyMTg2NDM2Miw4NDc3NTUxNTQsLTIwOTQ1Mjgw
 ODEsMTIyMTAzMzY4NSwxNjI5OTM4OTI5LC03ODMxNzc3NDUsLT
 Y5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1LDg3NzAwNDc4
