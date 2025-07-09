@@ -420,6 +420,11 @@ console.log(casa);  //devuelve:"Marbella"
  **2.**    Usar **`let`**  para variables que puedan ser reasignadas.
  **3.**  Evitar el uso de  **`var`** debido a sus problemas de ámbito y *hoisting*.
 
+| var| let | const |
+|----------|----------|----------|
+| | var| let | const | 1    | Cell 2   | Cell 3   |
+| Row 2    | Cell 5   | Cell 6   |
+| Row 3    | Cell 8   | Cell 9   |
 
 
 POR QUÉ USAR **<font color ="green"><font face="Consolas"><big> const</font></big></font></font>** EN LUGAR DE **<font color ="green"><font face="Consolas"><big> let</font></big></font></font>:**
@@ -601,10 +606,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MT
-A3NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIw
-OTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02Mz
-I1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4
-LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMz
-M1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
+eyJoaXN0b3J5IjpbLTE5MjUzOTk3NDMsLTg0Njg5NDQxNCwxNz
+A0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2
+MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksOD
+A2NDQ2NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2
+NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00Mz
+U3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMz
+NF19
 -->
