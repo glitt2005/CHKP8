@@ -207,11 +207,12 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 
 
 VENTAJA: 
+El hecho de que GARANTICE que al menos va a recorrer el bucle UNA VEZ, proporciona información. 
+
+ **EJEMPLO DE APLICACIÓN**: típíco en **juegos**, cuando queremos que siempre haga el proceso al menos una vez. Por ej. un **jugador que juega y te aseguras de que lo haga al menos una vez,** y si sigue ganando, puede comprobarlo en esa condición WHILE y puede seguir iterando.
 
 
-- una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
-- para evitar **UN BUCLE INFINITO**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Añadimos este elemento nualmente dentro del código a ejecutar, dentro de las llaves{}.
-
+INCONVENIENTES: 
  
 #### EJEMPLO:  Imprimimos los días de la semana
 ```JavaScript
@@ -437,5 +438,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mzk1NzIwMywxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbLTUwNjkwNjkwNCwxOTk1MTQwMzM0XX0=
 -->
