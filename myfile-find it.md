@@ -34,7 +34,7 @@ saludo(); // "Hola, Federico Faggin"
 
 TEXTO EN CONSOLA
 
-<font face="Consolas">Este texto está en Consolas.</fon
+<font face="Consolas">Este texto está en Consolas.</font>
 
 
 IMAGEN
@@ -259,9 +259,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NT
-QwMDEwOSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3
-MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNz
-QxOTExOTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgx
-NDAwLC0yMjg5MzUyNF19
+eyJoaXN0b3J5IjpbLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMD
+Q3ODAsLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1
+LDE4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OT
+IyNjE4ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5
+OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
 -->
