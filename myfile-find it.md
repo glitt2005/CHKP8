@@ -380,7 +380,7 @@ console.log(casa);
 // Devuelve un error:
 //           "TypeError: Assignment to constant variable". 
 ```
-**1) let:  la variable se ha podido cambiar**
+**1)`let` : la variable se ha podido cambiar**
 ```JavaScript
 let casa  =  "Benidorm";  
 console.log(casa);   //devuelve: "Benidorm"
@@ -393,7 +393,7 @@ console.log(casa);  //devuelve:"Marbella"
 
 
 ## <font color ="green"><font face="Consolas"><big>  Buenas Prácticas</font></big>
--  **Ésta debería ser nuestra mejor opción por defecto**. 
+-  **La variable `const` debería ser nuestra mejor opción por defecto**. 
 - Si es demasiado específica, usaríamos **`let`**. 
 - Sin embargo, es difícil que veamos **`var`** en las aplicaciones modernas. No es que no pueda **haber casos en los que necesitemos una variable global**, en los que sería la ocasión para utiliar **`var`**, pero de normal no va a ser así.
 
@@ -584,9 +584,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNjU4NzM5LDEyNjU1MDYwMzgsMjA2NT
-YxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MDY0NDY1NTUs
-LTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5Mz
-E4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwz
-MDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbLTQ1MzA2NDk4NCwxMjY1NTA2MDM4LDIwNj
+U2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1
+LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OT
+MxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYs
+MzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
 -->
