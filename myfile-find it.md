@@ -22,10 +22,14 @@ for (let num = 5; num <= 10; num++) {
 }
 ```
 
-Ventajas:
-•	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
-•	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
-•	Compatibilidad amplia: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
+#### VENTAJAS
+
+:
+•	**Control total sobre el índice**: Pueds acceder y manipular el índice en cada iteración.
+•	**Flexibilidad**: Permite saltar o repetir elementos modificando el índice según sea necesario.
+•	**Compatibilidad amplia**: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
+
+
 Limitaciones:
 •	Propenso a errores: Es fácil olvidar incrementar el índice o establecer incorrectamente las condiciones del bucle.
 •	Código más verboso: Requiere más líneas de código en comparación con otras alternativas.
@@ -309,10 +313,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzE3Nzc0NSwtNjk1NjA3MjgxLC03NT
-A1MTY2NywtNjc0NjU1NjUsODc3MDA0NzgwLC0xOTU1NDAwMTA5
-LC0xNTAxMTA3NSwtMTk3OTA1ODU1NSwxODkxMzg0NjcxLC05OT
-gyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5
-NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLT
-IyODkzNTI0XX0=
+eyJoaXN0b3J5IjpbLTM4OTI2OTA1NywtNzgzMTc3NzQ1LC02OT
+U2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAs
+LTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OT
+EzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4
+ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMT
+QyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
 -->
