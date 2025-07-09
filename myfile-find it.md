@@ -6,6 +6,7 @@ Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de dato
 
 ## 1) Bucle <font color ="green"><font face="Consolas"><font size = 6>for</font>:
 
+<span style="color: blue;">Este texto es azul.</span>
 
 El bucle for tradicional **es uno de los más antiguos y versátiles** en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
 
