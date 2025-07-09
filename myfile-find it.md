@@ -107,18 +107,15 @@ Si queremos mostrar esos datos en una página, la forma de hacerlo es iterando s
 
 
 ```JavaScript
-var diasDeLaSemana = [
-    "lunes",
-    "martes",
-    "miercoles",
-    "jueves",
-    "viernes",
-    "sábado",
-    "domingo"
-];
-    
-for (diaSemana in diasDeLaSemana) {
-    console.log(diasDeLaSemana[diaSemana]);
+const coche = {
+  marca: "Toyota",
+  modelo: "Auris",
+  año: 2013,
+  color: "Rojo"
+};
+
+for (let propiedad in coche) {
+  console.log("La propiedad " + propiedad + " tiene el valor: " + coche[propiedad]);
 }
 ```
 
@@ -481,7 +478,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDMxNDk3Nyw2MDA1OTg4MTksLTQzNT
+eyJoaXN0b3J5IjpbMTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNT
 c2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0
 XX0=
 -->
