@@ -300,6 +300,8 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 	- El poder averiguar qué está pasando exactamente en el programa para dar error, pues p**uede llevar muchísimo tiempo solventar** este problema de nombrado.
 	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con **`var`**   esto es algo muy difícil de hacer.
 	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, **hoy en día no tiene demasiado sentido utilizar** **`var`** en nuestro código.
+- tolera redeclaraciones:
+	
 
 PONER EJEMPLO DE **`var`**;
 
@@ -589,10 +591,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNj
-U1MDYwMzgsMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgy
-OSw4MDY0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NT
-I4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTks
-LTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MT
-QwMzM0XX0=
+eyJoaXN0b3J5IjpbMTcwNDI2NzA4NCwtOTEwNzY2NDEwLDEwNj
+g5MDczOTIsMTI2NTUwNjAzOCwyMDY1NjEyMDkwLDE1NzcwODYw
+ODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUsLTQ2Nj
+cxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgxMDI3
+LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Nj
+g5MjE2LDE5OTUxNDAzMzRdfQ==
 -->
