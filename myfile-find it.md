@@ -16,7 +16,7 @@ for (inicialización; condición; actualización) { // código a ejecutar }
 #### EJEMPLO:  Imprimiremos los días de la semana
 
 ```JavaScript
-var diasDeLaSemana = [
+var diasDeLaSemana = [**strong text**
     "lunes",
     "martes",
     "miercoles",
@@ -31,8 +31,8 @@ for (diaSemana = 0; diaSemana < diasDeLaSemana.length; diaSemana++) {
 }
 ```
 NECESITAMOS:
-- una <font color ="green">**variable iteradora**</font>. Aquí es  `diaSemana` será utilizada a lo largo del bucle y recorrerá cada elemento del array  `diasDeLaSemana`. Pero ojo! esta **variable iteradora** no representa un valor, sino un **índice**!
-- declarar <font color ="green">**una condición**</font>, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla. En nuestro caso, la condición es que sea menor que menor que 7.
+1.  una <font color ="green">**variable iteradora**</font>. Aquí es  `diaSemana` será utilizada a lo largo del bucle y recorrerá cada elemento del array  `diasDeLaSemana`. Pero ojo! esta **variable iteradora** no representa un valor, sino un **índice**!
+2.  declarar <font color ="green">**una condición**</font>, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla. En nuestro caso, la condición es que sea menor que menor que 7.
 	- **Ojo!** ponemos **`< 7` (o sea, hasta 6 inclusive**) en lugar de `<=7` porque recordemos que los **índices comienzan en 0** (no en 1). Por lo tanto siempre va a restar 1 del número total de los elementos del array. 
 	- Otra opción es poner un **-1** al final, y funcionaría: sería cuestión de gustos en cuánto a qué te parece más fácil de leer.
 
@@ -41,7 +41,7 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
     console.log(diasDeLaSemana[diaSemana]);
 }
 ```
-- un tipo de <font color ="green">**incrementador**</font>:  **var++**, que aumentará en 1, cada vez que haga el bucle.
+3.  un tipo de <font color ="green">**incrementador**</font>:  **var++**, que aumentará en 1, cada vez que haga el bucle.
  
 #### VENTAJAS
 
@@ -360,11 +360,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTI5NDI1OTgsLTIwOTQ1MjgwODEsMT
-IyMTAzMzY4NSwxNjI5OTM4OTI5LC03ODMxNzc3NDUsLTY5NTYw
-NzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMT
-k1NTQwMDEwOSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4
-NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NS
-wyNzQxOTExOTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2
-MTgxNDAwXX0=
+eyJoaXN0b3J5IjpbLTYyNTk0OTA4MywtMjA5NDUyODA4MSwxMj
+IxMDMzNjg1LDE2Mjk5Mzg5MjksLTc4MzE3Nzc0NSwtNjk1NjA3
+MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MDA0NzgwLC0xOT
+U1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1NSwxODkxMzg0
+NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LD
+I3NDE5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYx
+ODE0MDBdfQ==
 -->
