@@ -368,7 +368,7 @@ objeto = { nombre: "Nuevo", valor: 30 };
 
 
 EJEMPLO DE CONST VS. LET:
-1) const
+**1) `const` : esta variable no se puede cambiar**
 
 ```JavaScript
 const casa  =  "Benidorm";  
@@ -378,10 +378,9 @@ casa = "Marbella";
 console.log(casa);       
 
 // Devuelve un error:
-/ /TypeError: Assignment to constant variable. 
+//           "TypeError: Assignment to constant variable". 
 ```
-1) let
-
+**1) let:  la variable se ha podido cambiar**
 ```JavaScript
 let casa  =  "Benidorm";  
 console.log(casa);   //devuelve: "Benidorm"
@@ -585,9 +584,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQ4OTA0MTcsMTI2NTUwNjAzOCwyMD
-Y1NjEyMDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1
-NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NT
-kzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2
-LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbNTUxNjU4NzM5LDEyNjU1MDYwMzgsMjA2NT
+YxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MDY0NDY1NTUs
+LTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5Mz
+E4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwz
+MDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
