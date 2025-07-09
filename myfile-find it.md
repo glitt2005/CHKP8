@@ -124,9 +124,9 @@ La propiedad modelo tiene el valor: Auris
 La propiedad año tiene el valor: 2013
 La propiedad color tiene el valor: Rojo
 */
-
 ```
-
+NOTAS:
+1. `propiedad`es el elemento iterador, que representa a la clave del par clave:valor de cada objeto
 
 
 
@@ -486,7 +486,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3ODU4NjQwLC04NjU5MzE4NDgsMTg2Mj
+eyJoaXN0b3J5IjpbNTk5ODM1MTQ3LC04NjU5MzE4NDgsMTg2Mj
 k4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEs
 MTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
