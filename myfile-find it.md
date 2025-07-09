@@ -34,7 +34,7 @@ NECESITAMOS:
 1.  una <font color ="green">**variable iteradora**</font>. Aquí es  `diaSemana` será utilizada a lo largo del bucle y recorrerá cada elemento del array  `diasDeLaSemana`. Pero ojo! esta **variable iteradora** no representa un valor, sino un **índice**!
 2.  declarar <font color ="green">**una condición**</font>, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla. En nuestro caso, la condición es que sea menor que menor que 7.
 	- **Ojo!** ponemos **`< 7` (o sea, hasta 6 inclusive**) en lugar de `<=7` porque recordemos que los **índices comienzan en 0** (no en 1). Por lo tanto siempre va a restar 1 del número total de los elementos del array. 
-	- Otra opción es poner un **-1** al final, y funcionaría: sería cuestión de gustos en cuánto a qué te parece más fácil de leer.
+	- Otra opción es poner un **-1 al final**, y funcionaría: **sería cuestión de gustos** en cuánto a qué te parece más fácil de leer.
 
 ```JavaScript
 for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
@@ -42,9 +42,9 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
 }
 ```
 3. un tipo de <font color ="green">**incrementador**</font>:  **var++**, que aumentará en 1, cada vez que haga el bucle.
+
  
 #### VENTAJAS
-
 
 •	**Control total sobre el índice**: Pueds acceder y manipular el índice en cada iteración.
 •	**Flexibilidad**: Permite saltar o repetir elementos modificando el índice según sea necesario.
@@ -103,7 +103,7 @@ Como vemos la sintaxis es más sencilla y corta que la anterior.
 Esto muy común cuando llamamos a una API, es decir, salimos a otro servidor(por wjemtplo Twitter) y extraemos tweets. Éstos son con frecuencia enviados en formato objeto, es decir con una estructura de pares clave:valor.
 Si queremos mostrar esos datos en una página, la forma de hacerlo es iterando sobre esos datos, ese objeto.  Y una de las formas más comunes de hacerlo es mediante este bucle  <font color ="green">**for - in**</font>.
 
-#### EJEMPLO:  Imprimimos los días de la semana**
+#### EJEMPLO:  Imprimimos características de un coche**
 
 
 ```JavaScript
@@ -486,7 +486,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU3MDk2ODgsLTg2NTkzMTg0OCwxOD
-YyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1
-MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbMTQwNzY3NTI3MSwtODY1OTMxODQ4LDE4Nj
+I5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUx
+LDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
 -->
