@@ -69,9 +69,11 @@ El bucle <font color ="green">**for-in**</font> es más moderno que el anterior 
 
 #### SINTAXIS
 
-`for (variable in object)
-  statement
-`
+```JavaScript
+for (variable in objecto)
+  declaración
+```
+
 2. Método forEach
 forEach es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 let array = [1, 2, 3];
@@ -340,10 +342,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk4MzEyNTc1LDE2Mjk5Mzg5MjksLTc4Mz
-E3Nzc0NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNjc0NjU1NjUs
-ODc3MDA0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OT
-A1ODU1NSwxODkxMzg0NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2
-MywtODkyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5MzUyOSwtMj
-A3OTQ3OTkxLDE0MjYxODE0MDAsLTIyODkzNTI0XX0=
+eyJoaXN0b3J5IjpbMTIyMTAzMzY4NSwxNjI5OTM4OTI5LC03OD
+MxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1
+LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5Nz
+kwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgx
+NjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1MjksLT
+IwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
 -->
