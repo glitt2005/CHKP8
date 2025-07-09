@@ -305,7 +305,7 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 - <font color ="green"><font face="Consolas"><big> let</font></big></font></font> vino hace unos años, y se convirtió en una **mejor** manera de definir variables, ya que **no contaminaba el espacio de nombramiento global**, 
 - Como consecuencia,  era mucho más específico, estaba **más limitado**; si se creaba dentro de una función o se añadía a ella, **sólo estaría disponible en esa función:** no habría otros momentos en los que estuviera disponible. 
 ## 1. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  const</font>
-3- 	CONST es la más nueva. También se ha convertido en una de las más famosa a la hora de declarar variables. Se puede ver en los desarrolladores que es la preferida por encima de las otras opciones y la mayoría de aplicaciones se ven sobre todo CONST y LET. Por norma general en los programas modernos (especialmente en React, Angular o plataformas del estilo) se utiliza CONST, las BUENAS PRÁCTICAS dicen que ésta debería ser nuestra mejor opción por defecto. Si es demasiado específica (VEREMOS EJEMPLOS), usaríamos LET. Pero es difícil que veamos VAR en las aplicaciones modernas. No es que no pueda haber casos en los que necesitemos una variable global, en la que utilizaríamos VAR, pero de normal no va a ser así.
+- La  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>	 es la más nueva. También se ha convertido en una de las más famosa a la hora de declarar variables. Se puede ver en los desarrolladores que es la preferida por encima de las otras opciones y la mayoría de aplicaciones se ven sobre todo CONST y LET. Por norma general en los programas modernos (especialmente en React, Angular o plataformas del estilo) se utiliza CONST, las BUENAS PRÁCTICAS dicen que ésta debería ser nuestra mejor opción por defecto. Si es demasiado específica (VEREMOS EJEMPLOS), usaríamos LET. Pero es difícil que veamos VAR en las aplicaciones modernas. No es que no pueda haber casos en los que necesitemos una variable global, en la que utilizaríamos VAR, pero de normal no va a ser así.
 
 
 
@@ -485,7 +485,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MzAzNTcyOSwtNDY2NzE3ODc4LC05OD
+eyJoaXN0b3J5IjpbLTE4MjkyMzAzNSwtNDY2NzE3ODc4LC05OD
 UyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5
 LC00MzU3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NT
 E0MDMzNF19
