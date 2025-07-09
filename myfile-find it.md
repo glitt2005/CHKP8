@@ -162,7 +162,19 @@ while (condition) {
 ```
 Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bucle será ejecutado.
 
-.
+NECESITAMOS
+- una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos en caso de que no quieras tener acceso a esta variable fuera más tarde.
+Y esta sería la forma, pero ojo, si sólo hacemos:
+ 
+nos daría un bucle infinito de imprimir solo el primero todo el rato, ya que aún no tenemos nada que haga cambiar el valor de la variable iterativa i.
+o		NECESITAMOS EL INCREMENTADOR!!
+
+Lo añadimos manualmente dentro de las {}, después de lo que queramos que imprima:
+
+ 
+
+
+
 
 #### EJEMPLO:  Imprimimos los días de la semana
 ```JavaScript
@@ -386,11 +398,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTc2NDIyMSwyMTE3NTgxNDA5LDExMj
-E4NjQzNjIsODQ3NzU1MTU0LC0yMDk0NTI4MDgxLDEyMjEwMzM2
-ODUsMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC02OTU2MDcyODEsLT
-c1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAsLTE5NTU0MDAx
-MDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OTEzODQ2NzEsLT
-k5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4ODUsMjc0MTkx
-MTk1XX0=
+eyJoaXN0b3J5IjpbMTk3ODU2NzkyNywxNzQxNzY0MjIxLDIxMT
+c1ODE0MDksMTEyMTg2NDM2Miw4NDc3NTUxNTQsLTIwOTQ1Mjgw
+ODEsMTIyMTAzMzY4NSwxNjI5OTM4OTI5LC03ODMxNzc3NDUsLT
+Y5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1LDg3NzAwNDc4
+MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMT
+g5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2
+MTg4NV19
 -->
