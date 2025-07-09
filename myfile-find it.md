@@ -42,6 +42,15 @@ IMAGEN
 
 <img alt="OpenWebDocs Logo: Carle el ratón de biblioteca" src="screenBG.jpg" />
 
+```
+![<texto-alt>](<url-de-la-imagen>)
+<img alt="<texto-alt>" src="<url-de-la-imagen>">
+```
+
+
+
+
+
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
 •	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
 •	Compatibilidad amplia: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
@@ -250,9 +259,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjI1MTUzNSwtMTk1NTQwMDEwOSwtMT
-UwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4Mjcz
-MDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLT
-EwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5
-MzUyNF19
+eyJoaXN0b3J5IjpbOTg3NDE2NTAxLC0xOTU1NDAwMTA5LC0xNT
+AxMTA3NSwtMTk3OTA1ODU1NSwxODkxMzg0NjcxLC05OTgyNzMw
+MjgsMTQ5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5NSwtMT
+AyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLTIyODkz
+NTI0XX0=
 -->
