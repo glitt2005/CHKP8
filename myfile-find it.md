@@ -301,7 +301,11 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con **`var`**   esto es algo muy difícil de hacer.
 	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, **hoy en día no tiene demasiado sentido utilizar** **`var`** en nuestro código.
 - tolera redeclaraciones:
-- `var` user `=`  `"Pete"``;`  `var` user `=`  `"John"``;`  `// este "var" no hace nada (ya estaba declarado)`  `// ...no dispara ningún error`  `alert``(`user`)``;`  `// John`
+ ```JavaScript
+var user =  "Pete";
+var user =  "John";
+console.log(user); // John
+ ```
 	
 
 PONER EJEMPLO DE **`var`**;
@@ -592,7 +596,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI0MTg3MDEsMTcwNDI2NzA4NCwtOT
+eyJoaXN0b3J5IjpbLTE2Njg1MTk0MTEsMTcwNDI2NzA4NCwtOT
 EwNzY2NDEwLDEwNjg5MDczOTIsMTI2NTUwNjAzOCwyMDY1NjEy
 MDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNj
 MyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0
