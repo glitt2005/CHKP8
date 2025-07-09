@@ -325,7 +325,7 @@ objeto = { nombre: "Nuevo", valor: 30 };
 - `let`  no permite redeclarar la misma variable en el mismo ámbito, lo que ayuda a evitar errores.
 - El alcance de bloque de  `let`  hace que el código sea más fácil de entender y mantener.
 
-PONER EJEMPLO DE LET;
+PONER EJEMPLO DE LET vs. VAR;
 
 ```JavaScript
 const objeto = {  
@@ -557,7 +557,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMzY1NDA1NCwyMDY1NjEyMDkwLDE1Nz
+eyJoaXN0b3J5IjpbMTY3OTMxNjQwMiwyMDY1NjEyMDkwLDE1Nz
 cwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUs
 LTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOT
 gxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwx
