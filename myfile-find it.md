@@ -10,9 +10,9 @@ Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de dato
 El bucle for tradicional **es uno de los más antiguos y versátiles** en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
 
 NECESITAMOS:
-- una **variable iteradora** que será utilizada a lo largod el bucle y recorrerá cada elemento del array. Pero ojo! esta variable iteradora no representa un valor, sino un índice!
-- declarar una condición, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla.
-- un tipo de incrementador:  var++, que aumentará en 1, cada vez que haga el bucle.
+- una **variable iteradora** que será utilizada a lo largo del bucle y recorrerá cada elemento del array. Pero ojo! esta variable iteradora no representa un valor, sino un índice!
+- declarar **una condición**, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla.
+- un tipo de **incrementador**:  var++, que aumentará en 1, cada vez que haga el bucle.
  
 
 }
@@ -303,7 +303,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTc5MTA0NywtNzUwNTE2NjcsLTY3ND
+eyJoaXN0b3J5IjpbLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3ND
 Y1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUs
 LTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OT
 k5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1
