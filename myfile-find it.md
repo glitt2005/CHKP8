@@ -333,13 +333,13 @@ console.log(dentroDeBloque); // Imprime "Dentro de un bloque", porque var ignora
 - **`let`** vino hace unos años, y se convirtió en una **mejor** manera de definir variables, ya que **no contaminaba el espacio de nombramiento global**.
 - **`let`** permite reasignar el valor de la variable.
 - Como consecuencia,  era mucho más específico, estaba **más limitado**; si se creaba dentro de una función o se añadía a ella, **sólo estaría disponible en esa función:** no habría otros momentos en los que estuviera disponible. 
-- `let`  limita el alcance de las variables al bloque donde se definen, evitando efectos secundarios no deseados en otros bloques de código.
-- `let`  no permite redeclarar la misma variable en el mismo ámbito, lo que ayuda a evitar errores.
-- El alcance de bloque de  `let`  hace que el código sea más fácil de entender y mantener.
-- No tolera redeclaraciones:
+- **`let`** limita el alcance de las variables al bloque donde se definen, evitando efectos secundarios no deseados en otros bloques de código.
+- **`let`** no permite redeclarar la misma variable en el mismo ámbito, lo que ayuda a evitar errores.
+- El alcance de bloque de  **`let`** hace que el código sea más fácil de entender y mantener.
+- **No tolera redeclaraciones**:
 ```JavaScript
 let user;
-let user;  // SyntaxError: 'user' ya fue declarado
+let user;  // Identifier 'user' has already been declared
 ```
 
  EJEMPLO DE **`let`** vs. **`var`**;
@@ -601,10 +601,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDg0MjgxMzUsMTcwNDI2NzA4NCwtOT
-EwNzY2NDEwLDEwNjg5MDczOTIsMTI2NTUwNjAzOCwyMDY1NjEy
-MDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNj
-MyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0
-OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMD
-MzNTk1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MT
+A3NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIw
+OTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02Mz
+I1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4
+LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMz
+M1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
 -->
