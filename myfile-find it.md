@@ -313,7 +313,7 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 ## <font color ="green"><font face="Consolas"><big>  Buenas Prácticas</font></big>
 -  Las BUENAS PRÁCTICAS dicen que **ésta debería ser nuestra mejor opción por defecto**. 
 - Si es demasiado específica (VEREMOS EJEMPLOS), usaríamosL<font color ="green"><font face="Consolas"><big> let</font></big></font></font>. 
-- Sin embargo, es difícil que veamos <font color ="green"><font face="Consolas"><big> var</font></big></font></font> en las aplicaciones modernas. No es que no pueda **haber casos en los que necesitemos una variable global**, en la que utilizaríamos VAR, pero de normal no va a ser así.
+- Sin embargo, es difícil que veamos <font color ="green"><font face="Consolas"><big> var</font></big></font></font> en las aplicaciones modernas. No es que no pueda **haber casos en los que necesitemos una variable global**, en los que sería la ocasión para utiliar <font color ="green"><font face="Consolas"><big> var</font></big></font></font>, pero de normal no va a ser así.
 
 
 
@@ -493,8 +493,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI2NDIxNDQsLTQ2NjcxNzg3OCwtOT
-g1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgx
-OSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OT
-UxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbLTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NT
+I4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTks
+LTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MT
+QwMzM0XX0=
 -->
