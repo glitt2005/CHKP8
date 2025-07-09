@@ -103,6 +103,12 @@ Como vemos la sintaxis es más sencilla y corta que la anterior.
 
 El método <font color ="green">**forEach()**</font>    es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 
+```javascript
+array.forEach(function() {
+    // código
+});
+```
+
 
 let array = [1, 2, 3];
 array.forEach(elemento => {
@@ -111,7 +117,7 @@ array.forEach(elemento => {
 #### VENTAJAS
 •	**Sintaxis concisa:** Más fácil de leer y escribir, especialmente con funciones flecha.
 •	**Evita errores de índice**: No necesitas preocuparte por manejar el índice manualmente.
-•	Ideal para operaciones en cada elemento: Perfecto para aplicar una operación a cada elemento.
+•	Ideal para **operaciones en cada elemento**: Perfecto para aplicar una operación a cada elemento.
 #### LIMITACIONES
 •	**No permite break o continue**: No puedes interrumpir o saltar iteraciones dentro del bucle.
 •	**Solo para arrays:** No funciona directamente con otros iterables como cadenas o conjuntos.
@@ -342,11 +348,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NDQ1OTA2MCwtMjA5NDUyODA4MSwxMj
-IxMDMzNjg1LDE2Mjk5Mzg5MjksLTc4MzE3Nzc0NSwtNjk1NjA3
-MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MDA0NzgwLC0xOT
-U1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1NSwxODkxMzg0
-NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LD
-I3NDE5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYx
-ODE0MDBdfQ==
+eyJoaXN0b3J5IjpbODQ3NzU1MTU0LC0yMDk0NTI4MDgxLDEyMj
+EwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC02OTU2MDcy
+ODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAsLTE5NT
+U0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OTEzODQ2
+NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4ODUsMj
+c0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMTQyNjE4
+MTQwMF19
 -->
