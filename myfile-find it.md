@@ -213,7 +213,7 @@ El hecho de que GARANTICE que al menos va a recorrer el bucle UNA VEZ, proporcio
 
 
 LIMITACIONES: 
- -	Si pongo que la variable iteradora diaSemana es 21, me daría UNDEFINED; sin embargo con el bucle WHILE no imprimiría NADA. EL DO-WHILE siempre va a ejecutar el programa al menos UNA VEZ (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos i = 21).
+ -	Si pongo que variable iteradora diaSemana es 21, me daría **undef**; sin embargo con el bucle WHILE no imprimiría NADA. EL DO-WHILE siempre va a ejecutar el programa al menos UNA VEZ (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos i = 21).
 
 
 
@@ -439,6 +439,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExNzIwMDAzLDE1NDk2ODkyMTYsMTk5NT
-E0MDMzNF19
+eyJoaXN0b3J5IjpbMTY3NjgzMTUxMiwxNTQ5Njg5MjE2LDE5OT
+UxNDAzMzRdfQ==
 -->
