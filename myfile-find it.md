@@ -164,13 +164,9 @@ Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bu
 
 NECESITAMOS
 - una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
-- para evitar **un bucle infinito**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Lo añadimos manualmente dentro de las {}, después de lo que queramos que imprima:
+- para evitar **UN BUCLE INFINITO**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Añadimos este elemento nualmente dentro del código a ejecutar, dentro de las llaves{}.
 
  
-
-
-
-
 #### EJEMPLO:  Imprimimos los días de la semana
 ```JavaScript
 var diasDeLaSemana = [
@@ -393,7 +389,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjYyMTA4ODgsMTc0MTc2NDIyMSwyMT
+eyJoaXN0b3J5IjpbLTIwMTg2NTQ4ODUsMTc0MTc2NDIyMSwyMT
 E3NTgxNDA5LDExMjE4NjQzNjIsODQ3NzU1MTU0LC0yMDk0NTI4
 MDgxLDEyMjEwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC
 02OTU2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3
