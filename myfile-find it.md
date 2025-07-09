@@ -32,7 +32,7 @@ for (diaSemana = 0; diaSemana < diasDeLaSemana.length; diaSemana++) {
 NECESITAMOS:
 - una <font color ="green">**variable iteradora**</font>. Aquí es  `diaSemana` será utilizada a lo largo del bucle y recorrerá cada elemento del array  `diasDeLaSemana`. Pero ojo! esta **variable iteradora** no representa un valor, sino un **índice**!
 - declarar <font color ="green">**una condición**</font>, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla. En nuestro caso, la condición es que sea menor que menor que 7.
--  
+- Ojo! ponemos < 7 (o sea, hasta 6 inclusive) porque recordemos que los índices comienzan en 0, y por tanto, ya estaría contando 
 - un tipo de <font color ="green">**incrementador**</font>:  **var++**, que aumentará en 1, cada vez que haga el bucle.
  
 #### VENTAJAS
@@ -316,10 +316,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA3MzY0OTgsMTYyOTkzODkyOSwtNz
-gzMTc3NzQ1LC02OTU2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2
-NSw4NzcwMDQ3ODAsLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOT
-c5MDU4NTU1LDE4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4
-MTYzLC04OTIyNjE4ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC
-0yMDc5NDc5OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbMjE0MTI1MDc1OCwxNjI5OTM4OTI5LC03OD
+MxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1
+LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5Nz
+kwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgx
+NjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1MjksLT
+IwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
 -->
