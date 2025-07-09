@@ -117,6 +117,8 @@ const coche = {
 for (let propiedad in coche) {
   console.log("La propiedad " + propiedad + " tiene el valor: " + coche[propiedad]);
 }
+
+/
 ```
 
 
@@ -478,7 +480,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNT
-c2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0
-XX0=
+eyJoaXN0b3J5IjpbLTcxMDk4ODEzMiwxODYyOTgxMDI3LDYwMD
+U5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2
+LDE5OTUxNDAzMzRdfQ==
 -->
