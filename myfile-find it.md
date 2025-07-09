@@ -434,9 +434,9 @@ console.log(casa);  //devuelve:"Marbella"
 ç```markdown
 | Variable | Propósito |
 | --- | --- |
-| **haven't been** | List all *new or modified* files |
-| **haven't been** | Show file differences that **haven't been** staged |
-| **haven't been** | Show file differences that **haven't been** staged |
+| **`var`** | declarar variables que no van a cambiar su valor a lo largo del programa.Evitar el uso de  **`var`** debido a sus problemas de ámbito y *hoisting*|
+| **`let`**  | para variables que puedan ser reasignadas |
+| **`const`** | Show file differences that **haven't been** staged |
 ```
 
 POR QUÉ USAR **<font color ="green"><font face="Consolas"><big> const</font></big></font></font>** EN LUGAR DE **<font color ="green"><font face="Consolas"><big> let</font></big></font></font>:**
@@ -618,11 +618,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3NzgyNjY2LC04NDY4OTQ0MTQsMTcwND
-I2NzA4NCwtOTEwNzY2NDEwLDEwNjg5MDczOTIsMTI2NTUwNjAz
-OCwyMDY1NjEyMDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNj
-Q0NjU1NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUs
-LTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1Nz
-Y1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRd
-fQ==
+eyJoaXN0b3J5IjpbLTE5MjUwMTY1MSwtODQ2ODk0NDE0LDE3MD
+QyNjcwODQsLTkxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNjU1MDYw
+MzgsMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MD
+Y0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1
+LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNT
+c2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0
+XX0=
 -->
