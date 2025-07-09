@@ -325,7 +325,7 @@ objeto = { nombre: "Nuevo", valor: 30 };
 - `let`  no permite redeclarar la misma variable en el mismo ámbito, lo que ayuda a evitar errores.
 - El alcance de bloque de  `let`  hace que el código sea más fácil de entender y mantener.
 
-PONER EJEMPLO DE LET vs. VAR;
+ EJEMPLO DE LET vs. VAR;
 
 ```JavaScript
 var a = 5;
@@ -339,8 +339,8 @@ if (a === 5) {
   console.log(b);  // 1
 } 
 
-console.log(a); // 5 - sigue igual
-console.log(b); // 1 - al
+console.log(a); // 5 - sigue igual, let- cambia solo bloque if
+console.log(b); // 1 - ha cambiado: var- alcance global
 ```
 
 
@@ -562,7 +562,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjkxNzQ4MzYsMjA2NTYxMjA5MCwxNT
+eyJoaXN0b3J5IjpbLTEyMTQwMjIyODEsMjA2NTYxMjA5MCwxNT
 c3MDg2MDgwLDQwOTY4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1
 LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mj
 k4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEs
