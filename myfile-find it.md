@@ -200,12 +200,11 @@ while (condition) {
   // llamado "cuerpo del bucle"
 }
 ```
-
+Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bucle será ejecutado.
 Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do - while**</font></font>  </font>  tiene una sintaxis similar al bucle <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> , pero casi al revés, ya que seguiría el concepto de "**haz esto mientras se cumple esta condición**", y precisamente esta condición se pone a lo último, o sea, que **la controla al final.**
 
 
 
-Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bucle será ejecutado.
 
 NECESITAMOS
 - una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
@@ -436,5 +435,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MTU0NjIzMywxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbLTE3Mzc2NTAwNTUsMTk5NTE0MDMzNF19
 -->
