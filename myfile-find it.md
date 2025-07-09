@@ -230,11 +230,9 @@ var diasDeLaSemana = [
 ];
    
 let diaSemana = 0; 
-while (diaSemana < diasDeLaSemana.length) {
-  console.log(diasDeLaSemana[diaSemana]);
-  diaSemana++;
-}
-
+do {
+    console.log(diasDeLaSemana[diaSemana]); diaSemana++;
+} while (diaSemana < diasDeLaSemana.length)
 ```
 
 
@@ -441,5 +439,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbNDExNzIwMDAzLDE1NDk2ODkyMTYsMTk5NT
+E0MDMzNF19
 -->
