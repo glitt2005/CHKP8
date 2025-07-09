@@ -302,12 +302,13 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 
 ## 2. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  let</font>
 
-- <font color ="green"><font face="Consolas"><big> let</font></big></font></font> vino hace unos años, y se convirtió en una **mejor** manera de definir variables, ya que **no contaminaba el espacio de nombramiento global**, 
+- <font color ="green"><font face="Consolas"><big> let</font></big></font></font> vino hace unos años, y se convirtió en una **mejor** manera de definir variables, ya que **no contaminaba el espacio de nombramiento global**.
+- <font color ="green"><font face="Consolas"><big> let</font></big></font></font> permite reasignar el valor de la variable.
 - Como consecuencia,  era mucho más específico, estaba **más limitado**; si se creaba dentro de una función o se añadía a ella, **sólo estaría disponible en esa función:** no habría otros momentos en los que estuviera disponible. 
 ## 3. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  const</font>
 - La  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>	 es **la más nueva**, y es una abreviación de "**constante**". 
 - Su valor n**o puede ser reasignado después de su inicialización**.
-- Se ha convertido en **una de las más populares** a la hora de declarar variables. Se puede ver en los desarrolladores que **es la preferida por encima de las otras opciones** 
+- Se ha convertido en **una de las más populares** a la hora de declarar variables. Se puede ver en los desarrolladores que **es la preferida por encima de las otras opciones** .
 - En la mayoría de aplicaciones se ven sobre todo la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font> y la  variable <font color ="green"><font face="Consolas"><big> let</font></big></font></font>. 
 - Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>.
 
@@ -516,8 +517,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2NTczMjQ0LDgwNjQ0NjU1NSwtNjMyNT
-I5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwx
-ODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNT
-k1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbLTI4MDU1MjI2Nyw4MDY0NDY1NTUsLTYzMj
+UyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4NDgs
+MTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMz
+U5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
