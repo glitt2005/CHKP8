@@ -41,7 +41,7 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
     console.log(diasDeLaSemana[diaSemana]);
 }
 ```
-3.  un tipo de <font color ="green">**incrementador**</font>:  **var++**, que aumentará en 1, cada vez que haga el bucle.
+3. un tipo de <font color ="green">**incrementador**</font>:  **var++**, que aumentará en 1, cada vez que haga el bucle.
  
 #### VENTAJAS
 
@@ -92,6 +92,8 @@ for (diaSemana in diasDeLaSemana) {
     console.log(diasDeLaSemana[diaSemana]);
 }
 ```
+
+Como vemos la sintaxis es más sencilla y corta que la anterior
 2. Método forEach
 forEach es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 let array = [1, 2, 3];
@@ -360,11 +362,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTk0OTA4MywtMjA5NDUyODA4MSwxMj
-IxMDMzNjg1LDE2Mjk5Mzg5MjksLTc4MzE3Nzc0NSwtNjk1NjA3
-MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MDA0NzgwLC0xOT
-U1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1NSwxODkxMzg0
-NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LD
-I3NDE5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYx
-ODE0MDBdfQ==
+eyJoaXN0b3J5IjpbLTExNjM3MjE2ODEsLTIwOTQ1MjgwODEsMT
+IyMTAzMzY4NSwxNjI5OTM4OTI5LC03ODMxNzc3NDUsLTY5NTYw
+NzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMT
+k1NTQwMDEwOSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4
+NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NS
+wyNzQxOTExOTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2
+MTgxNDAwXX0=
 -->
