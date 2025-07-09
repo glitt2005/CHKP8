@@ -431,6 +431,13 @@ console.log(casa);  //devuelve:"Marbella"
 | Column 1     | Cell 2   | Cell 3   |
 | Row 2    | Cell 5   | Cell 6   |
 | Row 3    | Cell 8   | Cell 9   |
+ç```markdown
+| Variable | Propósito |
+| --- | --- |
+| **haven't been** | List all *new or modified* files |
+| **haven't been** | Show file differences that **haven't been** staged |
+| **haven't been** | Show file differences that **haven't been** staged |
+```
 
 POR QUÉ USAR **<font color ="green"><font face="Consolas"><big> const</font></big></font></font>** EN LUGAR DE **<font color ="green"><font face="Consolas"><big> let</font></big></font></font>:**
 
@@ -611,11 +618,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTY2MjYzODAsLTg0Njg5NDQxNCwxNz
-A0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2
-MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksOD
-A2NDQ2NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2
-NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00Mz
-U3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMz
-NF19
+eyJoaXN0b3J5IjpbNjA3NzgyNjY2LC04NDY4OTQ0MTQsMTcwND
+I2NzA4NCwtOTEwNzY2NDEwLDEwNjg5MDczOTIsMTI2NTUwNjAz
+OCwyMDY1NjEyMDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNj
+Q0NjU1NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUs
+LTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1Nz
+Y1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRd
+fQ==
 -->
