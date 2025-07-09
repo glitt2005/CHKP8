@@ -295,10 +295,10 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 
 
 ## 1. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  var</font>
-- Durante muchos años, en JavaScript **sólo existía** la  variable <font color ="green"><font face="Consolas"><big> var</font></big></font></font>.  
-- Cuando creamos un variable con <font color ="green"><font face="Consolas"><big> var</font></big></font></font>, estamos creando una **variable GLOBAL**, lo que significa que puede entrar en conflicto con otras variables, **contaminar la variable global**. 
+- Durante muchos años, en JavaScript **sólo existía** la  variable `var`  
+- Cuando creamos un variable con`var`, estamos creando una **variable GLOBAL**, lo que significa que puede entrar en conflicto con otras variables, **contaminar la variable global**. 
 	- El poder averiguar qué está pasando exactamente en el programa para dar error, pues puede llevar muchísimo tiempo solventar este problema de nombrado.
-	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con <font color ="green"><font face="Consolas"><big> var</font></big></font></font>   esto es algo muy difícil de hacer.
+	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con `var`   esto es algo muy difícil de hacer.
 	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, hoy en día no tiene demasiado sentido utilizar `var` en nuestro código.
 
 PONER EJEMPLO DE VAR;
@@ -364,8 +364,8 @@ objeto = { nombre: "Nuevo", valor: 30 };
 
 ## <font color ="green"><font face="Consolas"><big>  Buenas Prácticas</font></big>
 -  **Ésta debería ser nuestra mejor opción por defecto**. 
-- Si es demasiado específica, usaríamos<font color ="green"><font face="Consolas"><big> let</font></big></font></font>. 
-- Sin embargo, es difícil que veamos <font color ="green"><font face="Consolas"><big> var</font></big></font></font> en las aplicaciones modernas. No es que no pueda **haber casos en los que necesitemos una variable global**, en los que sería la ocasión para utiliar <font color ="green"><font face="Consolas"><big> var</font></big></font></font>, pero de normal no va a ser así.
+- Si es demasiado específica, usaríamos`let`. 
+- Sin embargo, es difícil que veamos `var`en las aplicaciones modernas. No es que no pueda **haber casos en los que necesitemos una variable global**, en los que sería la ocasión para utiliar `var`, pero de normal no va a ser así.
 
 **EN RESUMEN:**
 
@@ -554,9 +554,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODcyMDM5OTMwLDE1NzcwODYwODAsNDA5Nj
-gwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwt
-OTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMDU5OD
-gxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5
-OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbMTU1Nzg4OTEwNiwxNTc3MDg2MDgwLDQwOT
+Y4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4Nzgs
+LTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OT
+g4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwx
+OTk1MTQwMzM0XX0=
 -->
