@@ -33,9 +33,8 @@ for (let num = 5; num <= 10; num++) {
 #### LIMITACIONES
 •	**Propenso a errores**: Es fácil olvidar incrementar el índice o establecer incorrectamente las condiciones del bucle.
 •	**Código más verboso**: Requiere más líneas de código en comparación con otras 
-    }
-}
-Este tipo de control detallado sobre índices es una gran ventaja del bucle for en estructuras complejas.
+
+
 2. Método forEach
 forEach es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 let array = [1, 2, 3];
@@ -304,7 +303,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDEyMjcyMDYsLTc4MzE3Nzc0NSwtNj
+eyJoaXN0b3J5IjpbLTE3OTg1OTUxMDcsLTc4MzE3Nzc0NSwtNj
 k1NjA3MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MDA0Nzgw
 LC0xOTU1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1NSwxOD
 kxMzg0NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYx
