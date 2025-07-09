@@ -417,7 +417,7 @@ console.log(casa);  //devuelve:"Marbella"
 
 
 
-EN RESUMEN:****
+EN RESUMEN:
 
 
 | Variable | Propósito |
@@ -604,7 +604,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTk3MDU2OCwtODQ2ODk0NDE0LDE3MD
+eyJoaXN0b3J5IjpbLTY3Nzk1NDE4NCwtODQ2ODk0NDE0LDE3MD
 QyNjcwODQsLTkxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNjU1MDYw
 MzgsMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MD
 Y0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1
