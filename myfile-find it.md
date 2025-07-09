@@ -55,6 +55,12 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
 •	**Código más verboso**: Requiere más líneas de código en comparación con otras 
 
 
+
+
+
+
+
+
 2. Método forEach
 forEach es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 let array = [1, 2, 3];
@@ -323,10 +329,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODY0NDEzMTUsMTYyOTkzODkyOSwtNz
-gzMTc3NzQ1LC02OTU2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2
-NSw4NzcwMDQ3ODAsLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOT
-c5MDU4NTU1LDE4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4
-MTYzLC04OTIyNjE4ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC
-0yMDc5NDc5OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbMTE4MDQwMzEyMSwxNjI5OTM4OTI5LC03OD
+MxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1
+LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5Nz
+kwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgx
+NjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1MjksLT
+IwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
 -->
