@@ -212,8 +212,11 @@ El hecho de que GARANTICE que al menos va a recorrer el bucle UNA VEZ, proporcio
  **EJEMPLO DE APLICACIÓN**: típíco en **juegos**, cuando queremos que siempre haga el proceso al menos una vez. Por ej. un **jugador que juega y te aseguras de que lo haga al menos una vez,** y si sigue ganando, puede comprobarlo en esa condición WHILE y puede seguir iterando.
 
 
-INCONVENIENTES: 
- 
+LIMITACIONES: 
+ -	Si pongo que la variable iteradora diaSemana es 21, me daría UNDEFINED; sin embargo con el bucle WHILE no imprimiría NADA. EL DO-WHILE siempre va a ejecutar el programa al menos UNA VEZ (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos i = 21).
+
+
+
 #### EJEMPLO:  Imprimimos los días de la semana
 ```JavaScript
 var diasDeLaSemana = [
@@ -438,5 +441,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjkwNjkwNCwxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbMTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
