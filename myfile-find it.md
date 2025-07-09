@@ -128,7 +128,7 @@ La propiedad color tiene el valor: Rojo
 NOTAS:
 1. `propiedad`es el **elemento iterador**, que representa a la **clave** del par clave:valor de cada objeto.
 2. Precisamente como se trata de un objeto, para extraer el `valor`de objeto necesitaremos utilizar la sintaxis adecuada, que son los **corchetes [ ].**  
-**No funcionaría si utilizáramos la *dot notation* o anotación con puntos para ojetos** (nos devolvería `underfined`). Ciertamente éste último sistema de notación es considerado **una buena práctica**, pero en ciertos casos, como en éste, donde la misma **variable iteradora corresponde** también **a la clave** del par clave:valor del objeto, necesitamos ser **más específicos** y utilizar **la sintaxis de corchetes [ ].**
+**No funcionaría** si utilizáramos la ***dot notation*** o anotación con puntos para objetos (nos devolvería **`underfined`**).  Ciertamente éste último sistema de notación es considerado **una buena práctica**, pero en ciertos casos, como en éste, donde la misma **variable iteradora corresponde** también **a la clave** del par clave:valor del objeto, necesitamos ser **más específicos** y utilizar **la sintaxis de corchetes [ ].**
 
 
 
@@ -487,7 +487,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODIyODkyMSwtODY1OTMxODQ4LDE4Nj
-I5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUx
-LDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
+eyJoaXN0b3J5IjpbLTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mj
+k4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEs
+MTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
