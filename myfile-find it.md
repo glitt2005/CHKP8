@@ -284,7 +284,7 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 -   **Puede ser más difícil de entender:**
         Para algunos desarrolladores, la estructura del  **`do...while`**  **puede resultar menos intuitiva que otros bucles**, especialmente si no están familiarizados con su ejecución garantizada una vez.
 
-#### HASTA AQUÍ
+
 
 
 
@@ -309,6 +309,29 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 - Se ha convertido en **una de las más populares** a la hora de declarar variables. Se puede ver en los desarrolladores que **es la preferida por encima de las otras opciones** 
 - En la mayoría de aplicaciones se ven sobre todo la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font> y la  variable <font color ="green"><font face="Consolas"><big> let</font></big></font></font>. 
 - Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>.
+
+EJEMPLO;
+
+```JavaScript
+var diasDeLaSemana = [
+    "lunes",
+    "martes",
+    "miercoles",
+    "jueves",
+    "viernes",
+    "sábado",
+    "domingo"
+];
+   
+let diaSemana = 0; 
+do {
+    console.log(diasDeLaSemana[diaSemana]); diaSemana++;
+} while (diaSemana < diasDeLaSemana.length)
+```
+
+
+
+
 
 ## <font color ="green"><font face="Consolas"><big>  Buenas Prácticas</font></big>
 -  Las BUENAS PRÁCTICAS dicen que **ésta debería ser nuestra mejor opción por defecto**. 
@@ -497,8 +520,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2NDQ2NTU1LC02MzI1MjkyNSwtNDY2Nz
-E3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcs
-NjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUxLDE1NDk2OD
-kyMTYsMTk5NTE0MDMzNF19
+eyJoaXN0b3J5IjpbLTE0OTM2ODcxOCw4MDY0NDY1NTUsLTYzMj
+UyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4NDgs
+MTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMz
+U5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
