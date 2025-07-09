@@ -194,7 +194,7 @@ while (diaSemana < diasDeLaSemana.length) {
 
 #### SINTAXIS
 
-El bucle <font color ="green"><font size = 6><font face="Conolas">**do - while**</font></font>  </font>  intaxis similar a WHILE loop, pero casi al revés! Haz esto MIENTRAS ESTO (o sea, esto ultimo = condición), pero esta condición se pone AL FINAL, la controla al final.
+El bucle <font color ="green"><font size = 5><font face="Conolas">**do - while**</font></font>  </font>  tiene una sintaxis similar al bucle <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> , pero casi al revés, ya que seguiría el concepto de "haz esto MIENTRAS ESTO (o sea, esto ultimo = condición), pero esta condición se pone AL FINAL, la controla al final.
 ```javascript
 while (condition) {
   // código
@@ -432,5 +432,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0OTcyMzI0NywxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbLTU4MTE2MDQ1NywxOTk1MTQwMzM0XX0=
 -->
