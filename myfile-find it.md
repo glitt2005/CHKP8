@@ -150,7 +150,7 @@ diasDeLaSemana.forEach(function(diaSemana){
 ## 4) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>  while</font>:
 
  
-
+`while`  `(`condition`)`  `{`  `// código`  `// llamado "cuerpo del bucle"`  `}`
 
 TEXTO EN CONSOLA
 
@@ -351,11 +351,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDEyNjIzOTksMTEyMTg2NDM2Miw4ND
-c3NTUxNTQsLTIwOTQ1MjgwODEsMTIyMTAzMzY4NSwxNjI5OTM4
-OTI5LC03ODMxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLT
-Y3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEw
-NzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LD
-E0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgy
-OTM1MjldfQ==
+eyJoaXN0b3J5IjpbMzMxNzIyNjEsMTEyMTg2NDM2Miw4NDc3NT
+UxNTQsLTIwOTQ1MjgwODEsMTIyMTAzMzY4NSwxNjI5OTM4OTI5
+LC03ODMxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3ND
+Y1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUs
+LTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OT
+k5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1
+MjldfQ==
 -->
