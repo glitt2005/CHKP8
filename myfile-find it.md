@@ -101,20 +101,21 @@ Como vemos la sintaxis es más sencilla y corta que la anterior.
 
 
 
+El método <font color ="green">**forEach()**</font>    es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 
-forEach() es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
+
 let array = [1, 2, 3];
 array.forEach(elemento => {
     console.log(elemento); // Imprime 1, luego 2, luego 3
 });
-Ventajas:
-•	Sintaxis concisa: Más fácil de leer y escribir, especialmente con funciones flecha.
-•	Evita errores de índice: No necesitas preocuparte por manejar el índice manualmente.
+#### VENTAJAS
+•	**Sintaxis concisa:** Más fácil de leer y escribir, especialmente con funciones flecha.
+•	**Evita errores de índice**: No necesitas preocuparte por manejar el índice manualmente.
 •	Ideal para operaciones en cada elemento: Perfecto para aplicar una operación a cada elemento.
-Limitaciones:
-•	No permite break o continue: No puedes interrumpir o saltar iteraciones dentro del bucle.
-•	Solo para arrays: No funciona directamente con otros iterables como cadenas o conjuntos.
-•	Asincronía limitada: forEach no es ideal para manejar funciones asíncronas con async/await, ya que no esperará a que cada operación termine.
+#### LIMITACIONES
+•	**No permite break o continue**: No puedes interrumpir o saltar iteraciones dentro del bucle.
+•	**Solo para arrays:** No funciona directamente con otros iterables como cadenas o conjuntos.
+•	**Asincronía limitada:** forEach no es ideal para manejar funciones asíncronas con async/await, ya que no esperará a que cada operación termine.
 
 
 
@@ -341,7 +342,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzIwNjM0NSwtMjA5NDUyODA4MSwxMj
+eyJoaXN0b3J5IjpbLTM0NDQ1OTA2MCwtMjA5NDUyODA4MSwxMj
 IxMDMzNjg1LDE2Mjk5Mzg5MjksLTc4MzE3Nzc0NSwtNjk1NjA3
 MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MDA0NzgwLC0xOT
 U1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1NSwxODkxMzg0
