@@ -17,7 +17,7 @@ El bucle for tradicional **es uno de los más antiguos y versátiles** en JavaSc
 ```JavaScript
 var diasDeLaSemana = [
     "lunes",
-   "martes",
+    "martes",
     "miercoles",
     "jueves",
     "viernes",
@@ -315,7 +315,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTc2NTY2OCwxNjI5OTM4OTI5LC03OD
+eyJoaXN0b3J5IjpbLTQxMjM3NjcyMiwxNjI5OTM4OTI5LC03OD
 MxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1
 LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5Nz
 kwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgx
