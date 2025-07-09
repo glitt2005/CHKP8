@@ -14,9 +14,13 @@ NECESITAMOS:
 - declarar **una condición**, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla.
 - un tipo de **incrementador**:  var++, que aumentará en 1, cada vez que haga el bucle.
  
-EJEMPLO:  Imprimiremos los números del 5 al 10 inclusives.
+**EJEMPLO:  Imprimiremos los números del 5 al 10 inclusives.**
 
-
+```JavaScript
+for (let num = 5; num <= 10; num++) {
+  console.log(num);
+}
+```
 
 Ventajas:
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
@@ -305,10 +309,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTIzOTU0LC02OTU2MDcyODEsLTc1MD
-UxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAsLTE5NTU0MDAxMDks
-LTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OTEzODQ2NzEsLTk5OD
-I3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4ODUsMjc0MTkxMTk1
-LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMTQyNjE4MTQwMCwtMj
-I4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbLTc4MzE3Nzc0NSwtNjk1NjA3MjgxLC03NT
+A1MTY2NywtNjc0NjU1NjUsODc3MDA0NzgwLC0xOTU1NDAwMTA5
+LC0xNTAxMTA3NSwtMTk3OTA1ODU1NSwxODkxMzg0NjcxLC05OT
+gyNzMwMjgsMTQ5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5
+NSwtMTAyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLT
+IyODkzNTI0XX0=
 -->
