@@ -336,7 +336,11 @@ console.log(dentroDeBloque); // Imprime "Dentro de un bloque", porque var ignora
 - `let`  limita el alcance de las variables al bloque donde se definen, evitando efectos secundarios no deseados en otros bloques de código.
 - `let`  no permite redeclarar la misma variable en el mismo ámbito, lo que ayuda a evitar errores.
 - El alcance de bloque de  `let`  hace que el código sea más fácil de entender y mantener.
-- No tolera redeclara
+- No tolera redeclaraciones:
+```JavaScript
+let user;
+let user;  // SyntaxError: 'user' ya fue declarado
+```
 
  EJEMPLO DE **`let`** vs. **`var`**;
 
@@ -597,7 +601,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE4MzIxMjIsMTcwNDI2NzA4NCwtOT
+eyJoaXN0b3J5IjpbLTE0MDg0MjgxMzUsMTcwNDI2NzA4NCwtOT
 EwNzY2NDEwLDEwNjg5MDczOTIsMTI2NTUwNjAzOCwyMDY1NjEy
 MDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNj
 MyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0
