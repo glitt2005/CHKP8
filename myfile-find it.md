@@ -434,7 +434,7 @@ console.log(casa);  //devuelve:"Marbella"
 ç```markdown
 | Variable | Propósito |
 | --- | --- |
-| **`var`** | declarar variables que no van a cambiar su valor a lo largo del programa.Evitar el uso de  **`var`** debido a sus problemas de ámbito y *hoisting*|
+| **`var`** | sólo situaciones donde necesitas un alcance de función específico (o para funciones de práctica y aprendizaje de codificación.Evitar el uso de  **`var`** debido a sus problemas de ámbito y *hoisting*|
 | **`let`**  | para variables que puedan ser reasignadas |
 | **`const`** | Show file differences that **haven't been** staged |
 ```
@@ -618,7 +618,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUwMTY1MSwtODQ2ODk0NDE0LDE3MD
+eyJoaXN0b3J5IjpbLTg5OTMzNTY5OSwtODQ2ODk0NDE0LDE3MD
 QyNjcwODQsLTkxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNjU1MDYw
 MzgsMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MD
 Y0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1
