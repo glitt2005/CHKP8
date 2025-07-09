@@ -10,8 +10,9 @@ Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de dato
 El bucle <font color ="green">**for**</font> tradicional **es uno de los más antiguos y versátiles** en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
 
 #### SINTAXIS
-
-`for (inicialización; condición; actualización) { // código a ejecutar }`
+```JavaScript
+for (inicialización; condición; actualización) { // código a ejecutar }
+```
 #### EJEMPLO:  Imprimiremos los números del 5 al 10 inclusives.**
 
 ```JavaScript
@@ -66,6 +67,11 @@ El bucle <font color ="green">**for-in**</font> es más moderno que el anterior 
 -	El bucle <font color ="green">**for-in**</font>  interpreta que **debe iterar tantas veces como elementos** estén contenidos en la colección
 
 
+#### SINTAXIS
+
+`for (variable in object)
+  statement
+`
 2. Método forEach
 forEach es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 let array = [1, 2, 3];
@@ -334,10 +340,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDU2NDMzMjYsMTYyOTkzODkyOSwtNz
-gzMTc3NzQ1LC02OTU2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2
-NSw4NzcwMDQ3ODAsLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOT
-c5MDU4NTU1LDE4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4
-MTYzLC04OTIyNjE4ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC
-0yMDc5NDc5OTEsMTQyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbOTk4MzEyNTc1LDE2Mjk5Mzg5MjksLTc4Mz
+E3Nzc0NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNjc0NjU1NjUs
+ODc3MDA0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OT
+A1ODU1NSwxODkxMzg0NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2
+MywtODkyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5MzUyOSwtMj
+A3OTQ3OTkxLDE0MjYxODE0MDAsLTIyODkzNTI0XX0=
 -->
