@@ -14,7 +14,8 @@ NECESITAMOS:
 - declarar **una condición**, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla.
 - un tipo de **incrementador**:  var++, que aumentará en 1, cada vez que haga el bucle.
  
-EJEMPLO:
+EJEMPLO:  Imprimiremos los números del 5 al 10 inclusives.
+
 
 
 Ventajas:
@@ -304,10 +305,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE4NjIzNjgsLTY5NTYwNzI4MSwtNz
-UwNTE2NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEw
-OSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOT
-k4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTEx
-OTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC
-0yMjg5MzUyNF19
+eyJoaXN0b3J5IjpbMTE3NTIzOTU0LC02OTU2MDcyODEsLTc1MD
+UxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAsLTE5NTU0MDAxMDks
+LTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OTEzODQ2NzEsLTk5OD
+I3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4ODUsMjc0MTkxMTk1
+LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMTQyNjE4MTQwMCwtMj
+I4OTM1MjRdfQ==
 -->
