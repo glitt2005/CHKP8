@@ -321,6 +321,9 @@ objeto = { nombre: "Nuevo", valor: 30 };
 - **`let`** vino hace unos años, y se convirtió en una **mejor** manera de definir variables, ya que **no contaminaba el espacio de nombramiento global**.
 - **`let`** permite reasignar el valor de la variable.
 - Como consecuencia,  era mucho más específico, estaba **más limitado**; si se creaba dentro de una función o se añadía a ella, **sólo estaría disponible en esa función:** no habría otros momentos en los que estuviera disponible. 
+- `let`  limita el alcance de las variables al bloque donde se definen, evitando efectos secundarios no deseados en otros bloques de código.
+- `let`  no permite redeclarar la misma variable en el mismo ámbito, lo que ayuda a evitar errores.
+- El alcance de bloque de  `let`  hace que el código sea más fácil de entender y mantener.
 
 PONER EJEMPLO DE LET;
 
@@ -554,9 +557,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOT
-Y4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4Nzgs
-LTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OT
-g4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwx
-OTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbLTkwMzY1NDA1NCwyMDY1NjEyMDkwLDE1Nz
+cwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUs
+LTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOT
+gxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwx
+NTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
 -->
