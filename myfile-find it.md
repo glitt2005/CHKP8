@@ -301,7 +301,7 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con **`var`**   esto es algo muy difícil de hacer.
 	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, **hoy en día no tiene demasiado sentido utilizar** **`var`** en nuestro código.
 
-PONER EJEMPLO DE VAR;
+PONER EJEMPLO DE **`var`**;
 
 ```JavaScript
 const objeto = {  
@@ -325,7 +325,7 @@ objeto = { nombre: "Nuevo", valor: 30 };
 - `let`  no permite redeclarar la misma variable en el mismo ámbito, lo que ayuda a evitar errores.
 - El alcance de bloque de  `let`  hace que el código sea más fácil de entender y mantener.
 
- EJEMPLO DE LET vs. VAR;
+ EJEMPLO DE **`let`** vs. **`var`**;
 
 ```JavaScript
 var a = 5;
@@ -352,7 +352,7 @@ console.log(b); // 1 - ha cambiado: var- alcance global
 - En la mayoría de aplicaciones se ven sobre todo la  variable **`const`**  y la  variable **`let`**. 
 - Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable **`const`**.
 
-EJEMPLO:
+EJEMPLO DE **`const`**:
 
 ```JavaScript
 const objeto = {  
@@ -367,7 +367,7 @@ objeto = { nombre: "Nuevo", valor: 30 };
 ```
 
 
-EJEMPLO DE CONST VS. LET:
+EJEMPLO DE **`const`** VS. **`let`**:
 **1) `const` : esta variable no se puede cambiar**
 
 ```JavaScript
@@ -584,7 +584,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MzA2NDk4NCwxMjY1NTA2MDM4LDIwNj
+eyJoaXN0b3J5IjpbMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNj
 U2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1
 LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OT
 MxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYs
