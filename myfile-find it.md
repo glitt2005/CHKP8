@@ -9,7 +9,9 @@ Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de dato
 
 El bucle for tradicional **es uno de los más antiguos y versátiles** en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
 
+#### SINTAXIS
 
+`for (inicialización; condición; actualización) { // código a ejecutar }`
 #### EJEMPLO:  Imprimiremos los números del 5 al 10 inclusives.**
 
 ```JavaScript
@@ -303,10 +305,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC02OT
-U2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAs
-LTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OT
-EzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4
-ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMT
-QyNjE4MTQwMCwtMjI4OTM1MjRdfQ==
+eyJoaXN0b3J5IjpbLTQ1Mzg5MTM1MiwxNjI5OTM4OTI5LC03OD
+MxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1
+LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5Nz
+kwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgx
+NjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1MjksLT
+IwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
 -->
