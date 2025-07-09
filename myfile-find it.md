@@ -14,8 +14,9 @@ NECESITAMOS:
 - declarar **una condición**, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla.
 - un tipo de **incrementador**:  var++, que aumentará en 1, cada vez que haga el bucle.
  
+EJEMPLO:
 
-}
+
 Ventajas:
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
 •	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
@@ -303,9 +304,10 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3ND
-Y1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUs
-LTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OT
-k5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1
-MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
+eyJoaXN0b3J5IjpbLTEzMTE4NjIzNjgsLTY5NTYwNzI4MSwtNz
+UwNTE2NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEw
+OSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOT
+k4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTEx
+OTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC
+0yMjg5MzUyNF19
 -->
