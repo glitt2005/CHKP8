@@ -1,13 +1,13 @@
 
 # ¿Qué tipo de bucles hay en JS?
-OBJETIVO:  imprimir todos los elementos de un array , 3 formas:
+
 Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de datos.
  
 
 ## 1) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>for</font>:
 
 
-El bucle <font color ="green">**for**</font> es el más clásico, y constituye ** uno de los más antiguos y versátiles** en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
+El bucle <font color ="green">**for**</font> es el más clásico, y constituye  **uno de los más antiguos y versátile**s en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
 
 #### SINTAXIS
 ```JavaScript
@@ -486,7 +486,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzY5Mzk0OCwtODY1OTMxODQ4LDE4Nj
-I5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUx
-LDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
+eyJoaXN0b3J5IjpbLTE1NzU3MDk2ODgsLTg2NTkzMTg0OCwxOD
+YyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1
+MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
 -->
