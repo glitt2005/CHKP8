@@ -77,7 +77,7 @@ for (variable in objecto)
 **CONVENCIÓN SINTÁCTICA**:  Para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular.  Aquí pondremos un nombre de array algo más largo (`diasDeLaSemana` ) para que se vea rápidamente la diferencia entre los dos.
 
 
-### A) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 5>for - in</font></font> </font>en arrays:
+### A) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 5>for - in</font></font> </font> &ensp;  en arrays:
 #### EJEMPLO:  Imprimimos los días de la semana**
 
 
@@ -453,7 +453,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2MjQwOTExLDYwMDU5ODgxOSwtNDM1Nz
-Y1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRd
-fQ==
+eyJoaXN0b3J5IjpbLTE1MDYyNTE5NDQsNjAwNTk4ODE5LC00Mz
+U3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMz
+NF19
 -->
