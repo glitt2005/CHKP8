@@ -426,6 +426,11 @@ console.log(casa);  //devuelve:"Marbella"
 | Row 2    | Cell 5   | Cell 6   |
 | Row 3    | Cell 8   | Cell 9   |
 
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Column 1     | Cell 2   | Cell 3   |
+| Row 2    | Cell 5   | Cell 6   |
+| Row 3    | Cell 8   | Cell 9   |
 
 POR QUÉ USAR **<font color ="green"><font face="Consolas"><big> const</font></big></font></font>** EN LUGAR DE **<font color ="green"><font face="Consolas"><big> let</font></big></font></font>:**
 
@@ -606,7 +611,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjUzOTk3NDMsLTg0Njg5NDQxNCwxNz
+eyJoaXN0b3J5IjpbLTE2NTY2MjYzODAsLTg0Njg5NDQxNCwxNz
 A0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2
 MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksOD
 A2NDQ2NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2
