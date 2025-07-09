@@ -7,7 +7,7 @@ Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de dato
 ## 1) Bucle <font color ="green"><font face="Consolas"><font size = 6>for</font>:
 
 
-El bucle <font color ="green">**for**</font> tradicional **es uno de los más antiguos y versátiles** en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
+El bucle <font color ="green">**for**</font> es el más clásico, y constituye ** uno de los más antiguos y versátiles** en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
 
 #### SINTAXIS
 ```JavaScript
@@ -342,10 +342,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTAzMzY4NSwxNjI5OTM4OTI5LC03OD
-MxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1
-LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5Nz
-kwNTg1NTUsMTg5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgx
-NjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1MjksLT
-IwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5MzUyNF19
+eyJoaXN0b3J5IjpbLTE3ODA4MzAyNzMsMTIyMTAzMzY4NSwxNj
+I5OTM4OTI5LC03ODMxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2
+NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMT
+UwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4Mjcz
+MDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLT
+EwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5
+MzUyNF19
 -->
