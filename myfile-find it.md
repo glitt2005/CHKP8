@@ -238,17 +238,14 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 
 **LIMITACIONES**: 
  -	**Puede devolver  `undefined`**
- 
-	 Si ponemos que variable iteradora `diaSemana` es **10**, nos devolvería  **`undefined`**  ; sin embargo con el bucle  <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> **no imprimiría nada**. El bucle  <font color ="green"><font size = 5><font face="Conolas">**do - while**</font></font>  </font>siempre **va a ejecutar el programa al menos UNA VEZ** (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos diaSemana = 10).
+ 	 Si ponemos que variable iteradora `diaSemana` es **10**, nos devolvería  **`undefined`**  ; sin embargo con el bucle  <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> **no imprimiría nada**. El bucle  <font color ="green"><font size = 5><font face="Conolas">**do - while**</font></font>  </font>siempre **va a ejecutar el programa al menos UNA VEZ** (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos diaSemana = 10).
  -	  **Riesgo de bucles infinitos:**     
- -	 Si la condición del  **`while`  nunca se vuelve falsa, el bucle se ejecutará indefinidamente,** lo que puede causar problemas en la aplicación. Es crucial **asegurarse de que la condición eventualmente se evalúe como falsa** para evitar este problema.
+		 Si la condición del  **`while`  nunca se vuelve falsa, el bucle se ejecutará indefinidamente,** lo que puede causar problemas en la aplicación. Es crucial **asegurarse de que la condición eventualmente se evalúe como falsa** para evitar este problema.
  -  **Menos común que otros bucles:**
-    
-    En comparación con los bucles  `for`  y  `while`, el  `do...while`  se usa con menos frecuencia, ya que a menudo se puede lograr la misma lógica con los otros tipos de bucles.
+        En comparación con los bucles  **`for`**  y  **`while`**, el  **`do...while`**  se usa **con menos frecuencia**, ya que a menudo se puede lograr la misma lógica con los otros tipos de bucles.
     
 -   **Puede ser más difícil de entender:**
-    
-    Para algunos desarrolladores, la estructura del  `do...while`  puede resultar menos intuitiva que otros bucles, especialmente si no están familiarizados con su ejecución garantizada una vez.
+        Para algunos desarrolladores, la estructura del  `do...while`  **puede resultar menos intuitiva que otros bucles**, especialmente si no están familiarizados con su ejecución garantizada una vez.
 
 #### VENTAJAS
 
@@ -453,6 +450,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NT
-E0MDMzNF19
+eyJoaXN0b3J5IjpbLTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OT
+Y4OTIxNiwxOTk1MTQwMzM0XX0=
 -->
