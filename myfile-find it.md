@@ -369,9 +369,11 @@ objeto = { nombre: "Nuevo", valor: 30 };
 
 EJEMPLO DE CONST VS. LET:
 ```JavaScript
-const casa  =  "{  
-nombre: "Ejemplo",  
-valor: 10 };  
+const casa  =  "Benidorm";  
+console.log(casa);
+  
+casa: "Marbella";
+console.log(casa);       // imprime "Benidorm"  
   
 objeto.valor = 20; 
 // Esto es válido, se puede modificar la propiedad de un objeto const. 
@@ -572,7 +574,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDI1OTg2MCwxMjY1NTA2MDM4LDIwNj
+eyJoaXN0b3J5IjpbLTIyOTM5ODMzMiwxMjY1NTA2MDM4LDIwNj
 U2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1
 LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OT
 MxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYs
