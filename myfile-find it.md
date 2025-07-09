@@ -147,7 +147,7 @@ diasDeLaSemana.forEach(function(diaSemana){
 
 
 
-## 4) Bucle  <font color ="green"><font face="Consolas"><font size = 6>do - while</font>:
+## 4) Bucle   <font color ="green"><font face="Consolas"><font size = 6>  while</font>:
 
  
 
@@ -351,7 +351,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTEyNjY5MSwxMTIxODY0MzYyLDg0Nz
+eyJoaXN0b3J5IjpbMTgyMzk2NDg2OSwxMTIxODY0MzYyLDg0Nz
 c1NTE1NCwtMjA5NDUyODA4MSwxMjIxMDMzNjg1LDE2Mjk5Mzg5
 MjksLTc4MzE3Nzc0NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNj
 c0NjU1NjUsODc3MDA0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3
