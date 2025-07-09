@@ -38,13 +38,13 @@ TEXTO EN CONSOLA
 
 
 IMAGEN
-![enter image description here](/screenBG.jpg)
 
-<img alt="OpenWebDocs Logo: Carle el ratón de biblioteca" src="screenBG.jpg" />
+![enter image description here](screenBG.jpg)
+
+<img alt="prueba" src="screenBG.jpg"/>
 
 
-![<texto-slgo>](/screenBG.jpg)
-<img alt="<texto-alt>" src="screen.jpg">
+
 
 
 
@@ -259,9 +259,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3MDA0NzgwLC0xOTU1NDAwMTA5LC0xNT
-AxMTA3NSwtMTk3OTA1ODU1NSwxODkxMzg0NjcxLC05OTgyNzMw
-MjgsMTQ5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5NSwtMT
-AyODI5MzUyOSwtMjA3OTQ3OTkxLDE0MjYxODE0MDAsLTIyODkz
-NTI0XX0=
+eyJoaXN0b3J5IjpbLTY3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NT
+QwMDEwOSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3
+MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNz
+QxOTExOTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgx
+NDAwLC0yMjg5MzUyNF19
 -->
