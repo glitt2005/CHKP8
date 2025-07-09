@@ -127,26 +127,21 @@ array.forEach(elemento => {
 
 El bucle <font color ="green"><strong>for</strong></font> tradicional s uno de los más antiguos y versátiles en JavaScript. Es ideal cuando necesitas un control preciso sobre el índice en cada iteración o necesitas manipular la secuencia de iteración.
 
-let array = [1, 2, 3];
-    for (let i = 0; i < array.length; i++) {
-        console.log(array[i]); // Imprime 1, luego 2, luego 3
-
-}
-
-
-CÓDIGO 
+ 
 ```JavaScript
-function  saludo() {
-
-var  usuario  = {
-email: 'prueba@gmail.com',
-nombre: 'Federico Faggin'
-}
-console.log("Hola, ".concat(usuario.nombre));
-}
-  
-
-saludo(); // "Hola, Federico Faggin"
+var diasDeLaSemana = [
+    "lunes",
+   "martes",
+    "miercoles",
+    "jueves",
+    "viernes",
+    "sábado",
+    "domingo"
+];
+    
+diasDeLaSemana.forEach(function(diaSemana){
+    console.log(diaSemana);
+})
 ```
 
 TEXTO EN CONSOLA
@@ -348,11 +343,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3NzU1MTU0LC0yMDk0NTI4MDgxLDEyMj
-EwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC02OTU2MDcy
-ODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAsLTE5NT
-U0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OTEzODQ2
-NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4ODUsMj
-c0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5NDc5OTEsMTQyNjE4
-MTQwMF19
+eyJoaXN0b3J5IjpbLTU4ODE3ODI3LDg0Nzc1NTE1NCwtMjA5ND
+UyODA4MSwxMjIxMDMzNjg1LDE2Mjk5Mzg5MjksLTc4MzE3Nzc0
+NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MD
+A0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1
+NSwxODkxMzg0NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2MywtOD
+kyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3
+OTkxXX0=
 -->
