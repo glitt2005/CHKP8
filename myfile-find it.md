@@ -137,8 +137,12 @@ array.forEach(elemento => {
     console.log(elemento); // Imprime 1, luego 2, luego 3
 });
 #### VENTAJAS
-•	**Sintaxis concisa:** Más fácil de leer y escribir, especialmente con funciones flecha.
-•	**Evita errores de índice**: No necesitas preocuparte por manejar el índice manualmente.
+
+•	Es relativamente nuevo; el más moderno, funcional y sencillo en Javascript.
+
+- **Sintaxis concisa:** Más fácil de leer y escribir, especialmente con funciones flecha.
+•	
+**Evita errores de índice**: No necesitas preocuparte por manejar el índice manualmente.
 •	Ideal para **operaciones en cada elemento**: Perfecto para aplicar una operación a cada elemento.
 #### LIMITACIONES
 •	**No permite break o continue**: No puedes interrumpir o saltar iteraciones dentro del bucle.
@@ -351,7 +355,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzNTYyODIyLDg0Nzc1NTE1NCwtMjA5ND
+eyJoaXN0b3J5IjpbODg2MzE1ODgxLDg0Nzc1NTE1NCwtMjA5ND
 UyODA4MSwxMjIxMDMzNjg1LDE2Mjk5Mzg5MjksLTc4MzE3Nzc0
 NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MD
 A0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1
