@@ -164,10 +164,7 @@ Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bu
 
 NECESITAMOS
 - una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
-- para evitar **un bucle infinito**, necesitamos  daría un bucle infinito de imprimir solo el primero todo el rato, ya que aún no tenemos nada que haga cambiar el valor de la variable iterativa i.
-o		NECESITAMOS EL INCREMENTADOR!!
-
-Lo añadimos manualmente dentro de las {}, después de lo que queramos que imprima:
+- para evitar **un bucle infinito**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Lo añadimos manualmente dentro de las {}, después de lo que queramos que imprima:
 
  
 
@@ -396,11 +393,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTQxOTM2NCwxNzQxNzY0MjIxLDIxMT
-c1ODE0MDksMTEyMTg2NDM2Miw4NDc3NTUxNTQsLTIwOTQ1Mjgw
-ODEsMTIyMTAzMzY4NSwxNjI5OTM4OTI5LC03ODMxNzc3NDUsLT
-Y5NTYwNzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1LDg3NzAwNDc4
-MCwtMTk1NTQwMDEwOSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMT
-g5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2
-MTg4NV19
+eyJoaXN0b3J5IjpbLTE0MjYyMTA4ODgsMTc0MTc2NDIyMSwyMT
+E3NTgxNDA5LDExMjE4NjQzNjIsODQ3NzU1MTU0LC0yMDk0NTI4
+MDgxLDEyMjEwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC
+02OTU2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3
+ODAsLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LD
+E4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIy
+NjE4ODVdfQ==
 -->
