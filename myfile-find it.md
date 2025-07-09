@@ -120,7 +120,7 @@ NECESITAMOS:
 ```JavaScript
 var diasDeLaSemana = [
     "lunes",
-   "martes",
+    "martes",
     "miercoles",
     "jueves",
     "viernes",
@@ -168,7 +168,7 @@ Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bu
 ```JavaScript
 var diasDeLaSemana = [
     "lunes",
-   "martes",
+    "martes",
     "miercoles",
     "jueves",
     "viernes",
@@ -176,9 +176,11 @@ var diasDeLaSemana = [
     "domingo"
 ];
     
-diasDeLaSemana.forEach(function(diaSemana){
-    console.log(diaSemana);
-})
+let diaSemana = 0;
+while (diaSemana < diasDeLaSemana.length) {
+  console.log(diasDeLaSemana[diaSemana]);
+  diaSemana++;
+}
 ```
 
 
@@ -384,11 +386,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNzU4MTQwOSwxMTIxODY0MzYyLDg0Nz
-c1NTE1NCwtMjA5NDUyODA4MSwxMjIxMDMzNjg1LDE2Mjk5Mzg5
-MjksLTc4MzE3Nzc0NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNj
-c0NjU1NjUsODc3MDA0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3
-NSwtMTk3OTA1ODU1NSwxODkxMzg0NjcxLC05OTgyNzMwMjgsMT
-Q5OTkwODE2MywtODkyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5
-MzUyOV19
+eyJoaXN0b3J5IjpbMTc0MTc2NDIyMSwyMTE3NTgxNDA5LDExMj
+E4NjQzNjIsODQ3NzU1MTU0LC0yMDk0NTI4MDgxLDEyMjEwMzM2
+ODUsMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC02OTU2MDcyODEsLT
+c1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAsLTE5NTU0MDAx
+MDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OTEzODQ2NzEsLT
+k5ODI3MzAyOCwxNDk5OTA4MTYzLC04OTIyNjE4ODUsMjc0MTkx
+MTk1XX0=
 -->
