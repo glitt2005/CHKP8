@@ -1,5 +1,5 @@
 
-# ¿Qué tipo de bucles hay en JS?
+# 1 ¿Qué tipo de bucles hay en JS?
 
 Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de datos.
  
@@ -287,6 +287,50 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 #### HASTA AQUÍ
 
 
+
+
+
+
+# 2 ¿Cuáles son las diferencias entre const, let y var?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 3 ¿Qué es una función de flecha?
+
+# 4 ¿Qué es la deconstrucción de variables?
+
+# 5 ¿Qué hace el operador de extensión en JS?
+
+# 6 ¿Qué es la programación orientada a objetos?
+
+# 7. ¿Qué es una promesa en JS?
+
+# 8. ¿Qué hacen async y await por nosotros?
+
+
+
+
+
 •	Es relativamente nuevo; **el 
 TEXTO EN CONSOLA
 
@@ -299,63 +343,6 @@ IMAGEN
 
 <img alt="prueba" src="screenBG.jpg"/>
 
-
-
-
-
-
-
-
-
-•	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
-•	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
-•	Compatibilidad amplia: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
-Limitaciones:
-•	Propenso a errores: Es fácil olvidar incrementar el índice o establecer incorrectamente las condiciones del bucle.
-•	Código más verboso: Requiere más líneas de código en comparación con otras alternativas.
-
-
-
-En la segunda iteración, la variable i será 1  i = 1 y comprobará el paso anterior ha cambiado. Para sumar uno más, usamos ++  poniendo delante la variable a incrementar. Como al final incrementamos (i++), pues irá al siguiente i = 2, hasta que llegue a 3, ya que length = 4, y se para en el momento de que es mayor.
-
-D)	Y ahora lo que queremos que haga, dentro de llaves {} . Imprimos con console.log la variable players, pero cogiendo como índice la variable i, ya que se refiere al cada uno de los elementos  (var i = 0 representa el índice):
-
- 
-
-
-
-
-  
-3)	 Función  forEach() 
-
-NECESITAMOS: 
--	Elemento: nombre de la variable que representa cada elemento a iterar.
--	Colección: sobre la que se van a iterrar los elementos
--	Instrucciones a ejecutar ( LA CALLBACKFN, que técnicamente no es una función porque 
-
-
-forEach(function(arg)) 
-o	function() toma otra función como argumento, pero técnicamente no va a ser una función, porque esto sucede automáticamente)
- 
-
--	Sintaxis clara y sencilla.
--	ForEach() es relativamente NUEVO, el MÁS MODERNO, FUNCIONAL Y SENCILLO en JS (primero FOR, luego FOR IN, y luego se incorporó forEach()   )
--	Al no depender de índices, reduce la posibilidad de cometer errores al acceder a elementos de la colección.
-Otro ejemplo :
-
-# ¿Cuáles son las diferencias entre const, let y var?
-
-# ¿Qué es una función de flecha?
-
-# ¿Qué es la deconstrucción de variables?
-
-# ¿Qué hace el operador de extensión en JS?
-
-# ¿Qué es la programación orientada a objetos?
-
-# 7. ¿Qué es una promesa en JS?
-
-# 8. ¿Qué hacen async y await por nosotros?
 
 
 
@@ -487,7 +474,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mj
-k4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEs
-MTU0OTY4OTIxNiwxOTk1MTQwMzM0XX0=
+eyJoaXN0b3J5IjpbLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NT
+kzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2
+LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRdfQ==
 -->
