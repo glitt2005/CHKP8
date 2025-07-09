@@ -60,7 +60,7 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
 
 ## 2) Bucle <font color ="green"><font face="Consolas"><font size = 6>for - in</font>:
 
-El bucle <font color ="green">**for-in**</font> es más moderno que el anterior y tiene un lectura más sencilla y moderna. Generalmente se utilizamás que el bucle <font color ="green">**for**</font>
+El bucle <font color ="green">**for-in**</font> es más moderno que el anterior y tiene un lectura más sencilla y moderna para recorrer arrays. Generalmente se utiliza más que el bucle <font color ="green">**for**</font>
 
 -	**Sin condiciones**
 -	**Sin incrementadores**
@@ -342,7 +342,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODA4MzAyNzMsMTIyMTAzMzY4NSwxNj
+eyJoaXN0b3J5IjpbLTIwOTQ1MjgwODEsMTIyMTAzMzY4NSwxNj
 I5OTM4OTI5LC03ODMxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2
 NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMT
 UwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4Mjcz
