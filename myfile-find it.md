@@ -166,15 +166,7 @@ Limitaciones:
 •	Código más verboso: Requiere más líneas de código en comparación con otras alternativas.
 
 
-Tenemos que declarar 3 cosas:  (VARIABLE ; CONDICIÓN;  INCREMENTADOR):
-A)	Una VARIABLE ITERADORA que será utilizada a lo largo del bucle:
->	var i, y lo ponemos a 0 var i = 0, que en realidad representa al índice de cada uno de los elementos (altuve = 0, Bregman = 1, etc.). 
->	OJO! la variable iteradora no representa un valor, sino un índice. 
-B)	Declarar una CONDICIÓN, es decir, queremos que se tiene que cumplir durante el bucle. El bucle se parará cuando esta condición no se cumpla. 
->	i < players.length  (ver nota más abajo sobre por qué se usa el signo de > y no el de >= .
-C)	Un tipo de INCREMENTADOR -  var++       i++,
->	Con cada iteración (con cada vez que pasemos por el bucle, que empieza en 0 elementos como length).
-  
+
 En la segunda iteración, la variable i será 1  i = 1 y comprobará el paso anterior ha cambiado. Para sumar uno más, usamos ++  poniendo delante la variable a incrementar. Como al final incrementamos (i++), pues irá al siguiente i = 2, hasta que llegue a 3, ya que length = 4, y se para en el momento de que es mayor.
 
 D)	Y ahora lo que queremos que haga, dentro de llaves {} . Imprimos con console.log la variable players, pero cogiendo como índice la variable i, ya que se refiere al cada uno de los elementos  (var i = 0 representa el índice):
@@ -183,26 +175,6 @@ D)	Y ahora lo que queremos que haga, dentro de llaves {} . Imprimos con console.
 
 
 
-
-
-NOTA SOBRE EL SIGNO DE < respecto a ÍNDICE - LENGTH
-Tenemos que tener en cuenta que length nos da el Nº DE ELEMENTOS
-Sin embargo, los índices empiezan en 0, así que, si tenemos 4 elementos (length), el índice del último es 3. 
--	Por eso, hacemos que SIGA EL BUCLE MIENTRAS EL ÍNDICE SEA MENOR QUE LENGTH, por que si es igual y pusiéramos >= entonces, haría el bucle, claro, pero el último saldría undefined:
-
-Podríamos poner >= con el truco de poner .players.length – 1:
- 
-Y saldría lo mismo, algunos desarrolladores lo harían así. Pero quizá más fácil de leer es la primera forma, aunque depende de gustos.
-
-
-2)	Bucle  for – in :
-
-(y Jordan dice el bucle for está bien, pero que él personalmente prefiere el for- in ya que es algo más moderno por decirlo así). PARECE MÁS SENCILLA Y MODERNA, típicamente usada más que el bucle FOR anterior. 
-. y también se utiliza para datos que NO SEAN ARRAYS o colecciones.
--	Sin condiciones
--	Sin incrementadores
--	For – in interpreta que debe iterar tantas veces como elementos estén contenidos en la colección
-CONVENCIÓN SINTÁCTICA: para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular. Player. Imprimimos también la variable PLAYER para probar que representa el índice, y no el valor.
 
   
 3)	 Función  forEach() 
@@ -366,7 +338,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5MjM3ODkxLC0yMDk0NTI4MDgxLDEyMj
+eyJoaXN0b3J5IjpbNTkyNDQ4NjcyLC0yMDk0NTI4MDgxLDEyMj
 EwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3NzQ1LC02OTU2MDcy
 ODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4NzcwMDQ3ODAsLTE5NT
 U0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4NTU1LDE4OTEzODQ2
