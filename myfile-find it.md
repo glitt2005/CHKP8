@@ -194,7 +194,7 @@ while (diaSemana < diasDeLaSemana.length) {
 
 #### SINTAXIS
 
-
+Sintaxis similar a WHILE loop, pero casi al revés! Haz esto MIENTRAS ESTO (o sea, esto ultimo = condición), pero esta condición se pone AL FINAL, la controla al final.
 ```javascript
 while (condition) {
   // código
@@ -432,5 +432,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTE0MDMzNF19
+eyJoaXN0b3J5IjpbMTU1NjQ3MjQ1OCwxOTk1MTQwMzM0XX0=
 -->
