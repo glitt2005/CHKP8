@@ -213,8 +213,7 @@ El hecho de que GARANTICE que al menos va a recorrer el bucle UNA VEZ, proporcio
 
 
 LIMITACIONES: 
- -	Si pongo que variable iteradora diaSemana es 21, me daría **`undefined`**; sin embargo con el bucle  <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> **no imprimiría nada**. El bucle  <font color ="green"><font size = 5><font face="Conolas">**do - while**</font></font>  </font>
- HILE siempre va a ejecutar el programa al menos UNA VEZ (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos i = 21).
+ -	Si pongo que variable iteradora diaSemana es 10, me daría **`undefined`**; sin embargo con el bucle  <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> **no imprimiría nada**. El bucle  <font color ="green"><font size = 5><font face="Conolas">**do - while**</font></font>  </font>siempre **va a ejecutar el programa al menos UNA VEZ** (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos diaSemana = 10).
 
 
 
@@ -440,6 +439,6 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzQ2NjQwNSwxNTQ5Njg5MjE2LDE5OT
-UxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbLTE3MjUxMTYyMjUsMTU0OTY4OTIxNiwxOT
+k1MTQwMzM0XX0=
 -->
