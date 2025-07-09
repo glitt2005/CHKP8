@@ -70,7 +70,7 @@ El bucle <font color ="green">**for-in**</font> es más moderno que el anterior 
 #### SINTAXIS
 
 ```JavaScript
-for (variable in objecto)
+for (variable in array)
   declaración
 ```
 
@@ -450,6 +450,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMz
-M1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
+eyJoaXN0b3J5IjpbLTE2NDAzNTQxMTgsNjAwNTk4ODE5LC00Mz
+U3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMz
+NF19
 -->
