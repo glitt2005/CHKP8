@@ -328,15 +328,20 @@ objeto = { nombre: "Nuevo", valor: 30 };
 PONER EJEMPLO DE LET vs. VAR;
 
 ```JavaScript
-const objeto = {  
-nombre: "Ejemplo",  
-valor: 10 };  
-  
-objeto.valor = 20; 
-// Esto es válido, se puede modificar la propiedad de un objeto const. 
+var a = 5;
+var b = 10;
 
-objeto = { nombre: "Nuevo", valor: 30 }; 
-// Esto daría error, no se puede reasignar la constante objeto.
+if (a === 5) {
+  let a = 4; // El alcance es dentro del bloque if
+  var b = 1; // El alcance es global
+
+  console.log(a);  // 4
+  console.log(b);  // 1
+} 
+
+console.log(a); // 5
+console.log(b); // 1
+```
 ```
 
 
@@ -557,7 +562,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTMxNjQwMiwyMDY1NjEyMDkwLDE1Nz
+eyJoaXN0b3J5IjpbMTYyMTcyMzk2NiwyMDY1NjEyMDkwLDE1Nz
 cwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUs
 LTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOT
 gxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwx
