@@ -370,9 +370,7 @@ objeto = { nombre: "Nuevo", valor: 30 };
 
  **1**. Usar  **`const`**  para declarar variables que no van a cambiar su valor a lo largo del programa.
  **2.**    Usar **`let`**  para variables que puedan ser reasignadas.
- **3.**  Evitar el uso de  **`var`** debido a sus problemas de ámbito y  `hoist
-
-ing`.
+ **3.**  Evitar el uso de  **`var`** debido a sus problemas de ámbito y *hoisting*.
 
 
 
@@ -555,9 +553,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE0MDI2MTIsNDA5NjgwODI5LDgwNj
-Q0NjU1NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUs
-LTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1Nz
-Y1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5OTUxNDAzMzRd
-fQ==
+eyJoaXN0b3J5IjpbMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2ND
+Q2NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwt
+ODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3Nj
+U4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMzNF19
+
 -->
