@@ -28,11 +28,11 @@ console.log("Hola, ".concat(usuario.nombre));
   
 saludo(); // "Hola, Federico Faggin"
 ```
-<font face="Consolas">Este texto está en Arial.</font>
+<font face="Consolas">Este texto está en Consolas.</fon
 
 
 <p style="font-family: Arial;">Este texto tendrá la fuente Arial</p>.
-<span style="font-family: Consolas;">Texto con fuente Consolas</span>.
+<span style ="font-family:ConsolasTexto con fuente Consolas</span>.
 
 •	Control total sobre el índice: Pueds acceder y manipular el índice en cada iteración.
 •	Flexibilidad: Permite saltar o repetir elementos modificando el índice según sea necesario.
@@ -242,8 +242,8 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOT
-k4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTEx
-OTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC
-0yMjg5MzUyNF19
+eyJoaXN0b3J5IjpbLTIwOTU4NTQ1NzcsLTE5NzkwNTg1NTUsMT
+g5MTM4NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2
+MTg4NSwyNzQxOTExOTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MS
+wxNDI2MTgxNDAwLC0yMjg5MzUyNF19
 -->
