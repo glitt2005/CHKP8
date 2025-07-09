@@ -341,8 +341,8 @@ objeto = { nombre: "Nuevo", valor: 30 };
 - La  variable **`const`** es **la más nueva**, y es una abreviación de "**constante**". 
 - Su valor n**o puede ser reasignado después de su inicialización**.
 - Se ha convertido en **una de las más populares** a la hora de declarar variables. Se puede ver en los desarrolladores que **es la preferida por encima de las otras opciones** .
-- En la mayoría de aplicaciones se ven sobre todo la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font> y la  variable <font color ="green"><font face="Consolas"><big> let</font></big></font></font>. 
-- Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable <font color ="green"><font face="Consolas"><big> const</font></big></font></font>.
+- En la mayoría de aplicaciones se ven sobre todo la  variable **`const`**  y la  variable **`let`**. 
+- Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable **`const`**.
 
 EJEMPLO;
 
@@ -364,8 +364,8 @@ objeto = { nombre: "Nuevo", valor: 30 };
 
 ## <font color ="green"><font face="Consolas"><big>  Buenas Prácticas</font></big>
 -  **Ésta debería ser nuestra mejor opción por defecto**. 
-- Si es demasiado específica, usaríamos`let`. 
-- Sin embargo, es difícil que veamos `var`en las aplicaciones modernas. No es que no pueda **haber casos en los que necesitemos una variable global**, en los que sería la ocasión para utiliar `var`, pero de normal no va a ser así.
+- Si es demasiado específica, usaríamos **`let`**. 
+- Sin embargo, es difícil que veamos **`var`** en las aplicaciones modernas. No es que no pueda **haber casos en los que necesitemos una variable global**, en los que sería la ocasión para utiliar **`var`**, pero de normal no va a ser así.
 
 **EN RESUMEN:**
 
@@ -554,9 +554,9 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0ODcyOTA2LDE1NzcwODYwODAsNDA5Nj
-gwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwt
-OTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMDU5OD
-gxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2LDE5
-OTUxNDAzMzRdfQ==
+eyJoaXN0b3J5IjpbMTIzMDQyMzgwMCwxNTc3MDg2MDgwLDQwOT
+Y4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4Nzgs
+LTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OT
+g4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwx
+OTk1MTQwMzM0XX0=
 -->
