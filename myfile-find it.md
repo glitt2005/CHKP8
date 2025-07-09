@@ -13,7 +13,7 @@ El bucle <font color ="green">**for**</font> es el más clásico, y constituye *
 ```JavaScript
 for (inicialización; condición; actualización) { // código a ejecutar }
 ```
-#### EJEMPLO:  Imprimiremos los números del 5 al 10 inclusives.**
+#### EJEMPLO:  Imprimiremos los días de la semana
 
 ```JavaScript
 var diasDeLaSemana = [
@@ -74,6 +74,24 @@ for (variable in objecto)
   declaración
 ```
 
+
+#### EJEMPLO:  Imprimiremos los días de la semana**
+
+```JavaScript
+var diasDeLaSemana = [
+    "lunes",
+    "martes",
+    "miercoles",
+    "jueves",
+    "viernes",
+    "sábado",
+    "domingo"
+];
+    
+for (diaSemana in diasDeLaSemana) {
+    console.log(diasDeLaSemana[diaSemana]);
+}
+```
 2. Método forEach
 forEach es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 let array = [1, 2, 3];
@@ -342,11 +360,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTQ1MjgwODEsMTIyMTAzMzY4NSwxNj
-I5OTM4OTI5LC03ODMxNzc3NDUsLTY5NTYwNzI4MSwtNzUwNTE2
-NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMTk1NTQwMDEwOSwtMT
-UwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4NDY3MSwtOTk4Mjcz
-MDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NSwyNzQxOTExOTUsLT
-EwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2MTgxNDAwLC0yMjg5
-MzUyNF19
+eyJoaXN0b3J5IjpbLTE3MTI5NDI1OTgsLTIwOTQ1MjgwODEsMT
+IyMTAzMzY4NSwxNjI5OTM4OTI5LC03ODMxNzc3NDUsLTY5NTYw
+NzI4MSwtNzUwNTE2NjcsLTY3NDY1NTY1LDg3NzAwNDc4MCwtMT
+k1NTQwMDEwOSwtMTUwMTEwNzUsLTE5NzkwNTg1NTUsMTg5MTM4
+NDY3MSwtOTk4MjczMDI4LDE0OTk5MDgxNjMsLTg5MjI2MTg4NS
+wyNzQxOTExOTUsLTEwMjgyOTM1MjksLTIwNzk0Nzk5MSwxNDI2
+MTgxNDAwXX0=
 -->
