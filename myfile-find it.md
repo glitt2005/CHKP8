@@ -339,8 +339,8 @@ if (a === 5) {
   console.log(b);  // 1
 } 
 
-console.log(a); // 5
-console.log(b); // 1
+console.log(a); // 5 - sigue igual
+console.log(b); // 1 - al
 ```
 
 
@@ -562,7 +562,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI4NTczNDQsMjA2NTYxMjA5MCwxNT
+eyJoaXN0b3J5IjpbLTEwMjkxNzQ4MzYsMjA2NTYxMjA5MCwxNT
 c3MDg2MDgwLDQwOTY4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1
 LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mj
 k4MTAyNyw2MDA1OTg4MTksLTQzNTc2NTgwNiwzMDAzMzU5NTEs
