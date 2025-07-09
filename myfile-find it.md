@@ -70,13 +70,17 @@ El bucle <font color ="green">**for-in**</font> es más moderno que el anterior 
 #### SINTAXIS
 
 ```JavaScript
-for (variable in array)
+for (variable in objecto)
   declaración
 ```
 
 **CONVENCIÓN SINTÁCTICA**:  Para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular.  Aquí pondremos un nombre de array algo más largo (`diasDeLaSemana` ) para que se vea rápidamente la diferencia entre los dos.
 
+
+### BUCL
+
 #### EJEMPLO:  Imprimimos los días de la semana**
+
 
 ```JavaScript
 var diasDeLaSemana = [
@@ -450,7 +454,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAzNTQxMTgsNjAwNTk4ODE5LC00Mz
-U3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTYsMTk5NTE0MDMz
-NF19
+eyJoaXN0b3J5IjpbMTA2NjkzOTkwNCw2MDA1OTg4MTksLTQzNT
+c2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0
+XX0=
 -->
