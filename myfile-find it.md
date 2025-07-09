@@ -13,7 +13,7 @@ El bucle <font color ="green">**for**</font> es el más clásico, y constituye *
 ```JavaScript
 for (inicialización; condición; actualización) { // código a ejecutar }
 ```
-#### EJEMPLO:  Imprimiremos los días de la semana
+#### EJEMPLO:  Imprimimos los días de la semana
 
 ```JavaScript
 var diasDeLaSemana = [**strong text**
@@ -76,7 +76,7 @@ for (variable in objecto)
 
 **CONVENCIÓN SINTÁCTICA**:  Para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular.  Aquí pondremos un nombre de array algo más largo (```diasDeLaSemana` ) para que se vea rápidamente la diferencia entre los dos.
 
-#### EJEMPLO:  Imprimiremos los días de la semana**
+#### EJEMPLO:  Imprimimos los días de la semana**
 
 ```JavaScript
 var diasDeLaSemana = [
@@ -103,13 +103,31 @@ Como vemos la sintaxis es más sencilla y corta que la anterior.
 
 El método <font color ="green">**forEach()**</font>    es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 
+#### SINTAXIS
+
+
+
 ```javascript
 array.forEach(function() {
     // código
 });
 ```
-
-
+#### EJEMPLO:  Imprimimos los días de la semana
+```JavaScript
+var diasDeLaSemana = [
+    "lunes",
+   "martes",
+    "miercoles",
+    "jueves",
+    "viernes",
+    "sábado",
+    "domingo"
+];
+    
+diasDeLaSemana.forEach(function(diaSemana){
+    console.log(diaSemana);
+})
+```
 let array = [1, 2, 3];
 array.forEach(elemento => {
     console.log(elemento); // Imprime 1, luego 2, luego 3
@@ -128,21 +146,7 @@ array.forEach(elemento => {
 El bucle <font color ="green"><strong>for</strong></font> tradicional s uno de los más antiguos y versátiles en JavaScript. Es ideal cuando necesitas un control preciso sobre el índice en cada iteración o necesitas manipular la secuencia de iteración.
 
  
-```JavaScript
-var diasDeLaSemana = [
-    "lunes",
-   "martes",
-    "miercoles",
-    "jueves",
-    "viernes",
-    "sábado",
-    "domingo"
-];
-    
-diasDeLaSemana.forEach(function(diaSemana){
-    console.log(diaSemana);
-})
-```
+
 
 TEXTO EN CONSOLA
 
@@ -343,11 +347,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODE3ODI3LDg0Nzc1NTE1NCwtMjA5ND
-UyODA4MSwxMjIxMDMzNjg1LDE2Mjk5Mzg5MjksLTc4MzE3Nzc0
-NSwtNjk1NjA3MjgxLC03NTA1MTY2NywtNjc0NjU1NjUsODc3MD
-A0NzgwLC0xOTU1NDAwMTA5LC0xNTAxMTA3NSwtMTk3OTA1ODU1
-NSwxODkxMzg0NjcxLC05OTgyNzMwMjgsMTQ5OTkwODE2MywtOD
-kyMjYxODg1LDI3NDE5MTE5NSwtMTAyODI5MzUyOSwtMjA3OTQ3
-OTkxXX0=
+eyJoaXN0b3J5IjpbLTEwODA4OTM4ODYsODQ3NzU1MTU0LC0yMD
+k0NTI4MDgxLDEyMjEwMzM2ODUsMTYyOTkzODkyOSwtNzgzMTc3
+NzQ1LC02OTU2MDcyODEsLTc1MDUxNjY3LC02NzQ2NTU2NSw4Nz
+cwMDQ3ODAsLTE5NTU0MDAxMDksLTE1MDExMDc1LC0xOTc5MDU4
+NTU1LDE4OTEzODQ2NzEsLTk5ODI3MzAyOCwxNDk5OTA4MTYzLC
+04OTIyNjE4ODUsMjc0MTkxMTk1LC0xMDI4MjkzNTI5LC0yMDc5
+NDc5OTFdfQ==
 -->
