@@ -832,7 +832,7 @@ console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 45
 ```
 
-Sintax
+
 # 5 ¿Qué hace el operador de extensión en JS?
 
 # 6 ¿Qué es la programación orientada a objetos?
@@ -988,7 +988,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU0MzEwMjQsLTI1OTU3MzEyMCw2NT
+eyJoaXN0b3J5IjpbLTEzMjI2MjQ5MzEsLTI1OTU3MzEyMCw2NT
 A2MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUwOTE0MTcz
 LC01MjAyNjI4NzgsMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMz
 M2MjI2MTY5LC02MTAyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0
