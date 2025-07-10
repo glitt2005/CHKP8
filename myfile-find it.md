@@ -538,7 +538,7 @@ obj.obtenerValorFlecha(); // Salida: 10
 
 EN RESUMEN:
 
-1. VENTAJAS 
+##### 1. VENTAJAS DE LAS FUNCIONES FLECHA
 
 -   **Contexto Léxico:** `this`  en una función flecha se evalúa en el contexto donde la función fue definida, no donde es llamada.
     
@@ -553,7 +553,7 @@ EN RESUMEN:
     Son ideales para funciones cortas y funciones que se pasan como argumentos a otras funciones.
     
 
-#####2. LIMITACIONES DE LAS FUNCIONES FLECHA
+##### 2. LIMITACIONES DE LAS FUNCIONES FLECHA
 
 - **No pueden usarse como constructores** (no se pueden llamar con **`new`**).
 - **No tienen su propio objeto `arguments`** con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea.
@@ -789,7 +789,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2MTAxNzA4LC0xMTYzMzA5NzY1LDEyND
+eyJoaXN0b3J5IjpbMzIyMzg1NjczLC0xMTYzMzA5NzY1LDEyND
 A3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2
 NjQ3LC0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LD
 EyNDYxNDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIz
