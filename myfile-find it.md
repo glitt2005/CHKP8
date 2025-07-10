@@ -649,27 +649,30 @@ obj.obtenerValorFlecha(); // Salida: 10
 En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** son términos que se refieren a la misma característica del lenguaje, introducida en ECMAScript 6 (**ES6**). Ambos términos se utilizan indistintamente para describir la **sintaxis que permite extraer valores de arreglos y propiedades de objetos en variables individuales de manera más concisa.**
 
 
-
 <table>
     <thead>
         <tr>
-            <th></th>
-            <th>DECONSTRUCCIÓN:</th>
-            <th></th>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
         </tr>
     </thead>
     <tbody>
-                 <tr>
-                  <td rowspan=4 align="center">Extraer </td>
-                 <td rowspan=2 align="center"><p>valores de arrays<br><br>
-                 para asignarlos a objetos</p> <br>
-         propiedades de objetos</td>
-                  </tr>
-         <td align="center"></td>
         <tr>
+            <td rowspan=4 align="center">Extraer</td>
+            <td rowspan=2 align="center">valores de arrays</td>
+            <td align="center">R3 Text A</td>
         </tr>
         <tr>
-      <body>
+            <td align="center">R3 Text B</td>
+        </tr>
+        <tr>
+            <td rowspan=2 align="center">propiedades de objetos</td>
+            <td align="center">R3 Text C</td>
+        </tr>
+        <tr>
+            <td align="center">R3 Text D</td>
+        </tr>
     </tbody>
 </table>
 
@@ -832,11 +835,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3MTE2OTkzLDc1ODk4ODM5LDE5MzA4OD
-M2MiwtMjIxNzg4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcs
-MzIyMzg1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMD
-UwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2
-NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMj
-AwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcx
-ODQ1Mjk3NF19
+eyJoaXN0b3J5IjpbMTgzMjE3ODc0MCw3NTg5ODgzOSwxOTMwOD
+gzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMDEzNDU3
+LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMj
+A1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzEx
+NjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLD
+IwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3
+MTg0NTI5NzRdfQ==
 -->
