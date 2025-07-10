@@ -553,7 +553,7 @@ i.b ) Expresión de Función Nombrada
 <br>
 <br>
 
-
+i.a ) Expresión de Función Anónima
 ii ) Declaración de función tradicional o regular
 
 <img src="funcionDeclarada.png" width="50%" Alt="funcion declarada anónima">
@@ -561,7 +561,7 @@ ii ) Declaración de función tradicional o regular
 <br>
 <br>
 
-
+i.a ) Expresión de Función Anónima
 iii ) Función flecha:
 
 <img src="funcionFlecha1.png" width="50%" Alt="funcionFlecha1">
@@ -988,11 +988,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxOTkwMzE1LDEzMDk3MDUyNDUsLTEzMj
-I2MjQ5MzEsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMTI0NzI4NTc5
-LDY1NjMyNDA4MywxODUwOTE0MTczLC01MjAyNjI4NzgsMTY1MT
-EzNDcyMiwtMTIxODYzNDY4OCwxMzM2MjI2MTY5LC02MTAyODM1
-LDExNTkwMTQzMTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwxOTMwOD
-gzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMDEzNDU3
+eyJoaXN0b3J5IjpbMTU1MTEwNzMwNywzOTE5OTAzMTUsMTMwOT
+cwNTI0NSwtMTMyMjYyNDkzMSwtMjU5NTczMTIwLDY1MDYxMjgy
+LDExMjQ3Mjg1NzksNjU2MzI0MDgzLDE4NTA5MTQxNzMsLTUyMD
+I2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4NjM0Njg4LDEzMzYyMjYx
+NjksLTYxMDI4MzUsMTE1OTAxNDMxMywxODMyMTc4NzQwLDc1OD
+k4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4LC0xMjU5MDE3Njk5
 XX0=
 -->
