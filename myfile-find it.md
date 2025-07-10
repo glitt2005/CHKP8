@@ -442,7 +442,7 @@ Una **función flecha** (o ***arrow function***) es una  forma concisa de defini
 Las funciones flecha **son de las funciones más cruciales para aprender en Javascript** ya que están por todos los lados. Su **sintaxis** es completamente **diferente** a cualquier otra declaración de variable.
 
 
-
+## 0) Ejemplos FUNCIÓN DECLARA
 
 Se caracterizan por:
 
@@ -559,8 +559,6 @@ EN RESUMEN:
 0.  SIN PARÁMETROS
 
 ```JavaScript
-
-// SIN PARÁMETROS
 
 // a) sin parámetros, función declarada 
 function hello1() {
@@ -788,11 +786,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0ODk3MTA5NiwtNzQyMDEzNDU3LDMyMj
-M4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5
-NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzExNjQ0Mi
-wxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLDIwMDY3
-NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3MTg0NT
-I5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3Mzcy
-LC0xMjg0ODQ5NjMzXX0=
+eyJoaXN0b3J5IjpbODMwODM5NTgsLTc0MjAxMzQ1NywzMjIzOD
+U2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUx
+NCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMT
+M5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0
+NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOT
+c0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3Miwt
+MTI4NDg0OTYzM119
 -->
