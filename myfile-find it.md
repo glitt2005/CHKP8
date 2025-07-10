@@ -465,31 +465,34 @@ function hello4(x){
 }
 console.log(hello4('milburn'));
 
-// one parameter, arrow function
+// b) un parámetro, función FLECHA
 const hello5 = x => {
    return  'one parameter, arrow function ' + 'Hello, ' + x;
 }
 console.log(hello5('milburn'));
 
-// b) un parámet, arrow function single line 
+// b) un parámetro, arrow FECHA UNA LÍNEA 
 const hello6 = x => 'Hello, ' + x;
 console.log('one parameter, arrow function single line ' + hello6('milburn'));
 
+
+
+
 //DOS PARAMETROS
 
-// two parameters, regular function
+// a) dos parámetros, función declarada
 function hello7(x,y){
     return 'Hello, ' + x + ' ' + y; 
 }
 console.log('two parameters, regular function ' + hello7('milburn', 'gomes'));
 
-// two parameters, arrow function
+// b) dos parámetros, función FLECHA
 const hello8 = (x,y) =>{
     return 'two parameters, arrow function ' + 'Hello, ' + x + ' ' + y;
 }
 console.log(hello8('milburn', 'gomes'));
 
-// two parameters, arrow function single line 
+// c) dos parámetros, función FLECHA EN UNA SOLA LÍNEA
 const hello9 = (x,y) =>  "Hello, " + x + " " + y;
 console.log('two parameters, arrow function single line ' + hello9('milburn', 'gomes'));
 ```
@@ -651,11 +654,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njk4MjQ2MzUsLTk0MDYzMDczOSwtMz
-k4OTk3NDg4LC02Nzc5NTQxODQsLTg0Njg5NDQxNCwxNzA0MjY3
-MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LD
-IwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2
-NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtOD
-Y1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4
-MDZdfQ==
+eyJoaXN0b3J5IjpbMTY3MjQyNzM3LC05NDA2MzA3MzksLTM5OD
+k5NzQ4OCwtNjc3OTU0MTg0LC04NDY4OTQ0MTQsMTcwNDI2NzA4
+NCwtOTEwNzY2NDEwLDEwNjg5MDczOTIsMTI2NTUwNjAzOCwyMD
+Y1NjEyMDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1
+NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NT
+kzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2
+XX0=
 -->
