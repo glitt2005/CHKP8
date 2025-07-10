@@ -437,9 +437,10 @@ EN RESUMEN:
 
 una función flecha (o arrow function) es una  forma concisa de definir funciones anónimas, introducida en ES6 (EcmaScript 2015). 
 
-Se caracterizan
--  por su sintaxis más compacta 
--  tener un comportamiento diferente en cuanto al manejo del  `this`
+Se caracterizan por:
+-   su sintaxis más compacta 
+-  tener un comportamiento diferente en cuanto al manejo del  `this`. A diferencia de las funciones tradicionales, las funciones flecha no tienen su propio  `this`. El valor de  `this`  dentro de una función flecha es el mismo que el de su entorno léxico (el contexto donde fue definida).
+
 ```JavaScript
 
 // SIN PARÁMETROS
@@ -668,7 +669,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDA5ODQ2OSwtMTAyMTk2OTIyOSwxNj
+eyJoaXN0b3J5IjpbLTM4ODUzNjk5MywtMTAyMTk2OTIyOSwxNj
 cyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQx
 ODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMT
 A2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4
