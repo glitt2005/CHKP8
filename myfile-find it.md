@@ -553,11 +553,11 @@ EN RESUMEN:
     Son ideales para funciones cortas y funciones que se pasan como argumentos a otras funciones.
     
 
-2. LIMITACIONES DE LAS FUNCIONES FLECHA
-3.
-- No pueden usarse como constructores (no se pueden llamar con `new`).
-- no tienen su propio objeto `arguments` con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea.
-- su `this` se determina en el momento de la creación de la función, y se hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.
+#####2. LIMITACIONES DE LAS FUNCIONES FLECHA
+
+- **No pueden usarse como constructores** (no se pueden llamar con **`new`**).
+- **No tienen su propio objeto `arguments`** con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea.
+- Su **`this`** se determina en el momento de la creación de la función, y se **hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.**
 
 
 
@@ -789,7 +789,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NTM3NDQwLC0xMTYzMzA5NzY1LDEyND
+eyJoaXN0b3J5IjpbNzQ2MTAxNzA4LC0xMTYzMzA5NzY1LDEyND
 A3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2
 NjQ3LC0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LD
 EyNDYxNDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIz
