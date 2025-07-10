@@ -660,8 +660,8 @@ En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** so
     </thead>
     <tbody>
         <tr>
-            <td rowspan=4 align="center">Extraer</td>
-            <td rowspan=2 align="center">valores de arrays</td>
+            <td rowspan=3 align="center">Extraer</td>
+            <td rowspan=2 align="center">Valores de arrays</td>
                         <td align="center"></td>
                </tr>      
                <td rowspan=2 align="center">valores de arrays</td>   
@@ -845,11 +845,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg5NDYyNTUsMTgzMjE3ODc0MCw3NT
-g5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5
-OSwtNzQyMDEzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMj
-QwNzM2MTI5LC0xMjA1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3
-NjY0NywtMTg2MzExNjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3Ni
-wxMjQ2MTQ3NDExLDIwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEy
-MzY1NjE1NDhdfQ==
+eyJoaXN0b3J5IjpbMTU3Nzc3MTMxNCwxODMyMTc4NzQwLDc1OD
+k4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4LC0xMjU5MDE3Njk5
+LC03NDIwMTM0NTcsMzIyMzg1NjczLC0xMTYzMzA5NzY1LDEyND
+A3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2
+NjQ3LC0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LD
+EyNDYxNDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIz
+NjU2MTU0OF19
 -->
