@@ -466,20 +466,20 @@ console.log('sin parámetros, funcíon FLECHA EN UNA SOLA LÍNEA  ' + hello3());
 
 // a) un parámetro, función declarada
 function hello4(x){
-    return 'one parameter, regular function ' + 'Hello, ' + x;
+    return 'un parámetro, función declarada ' + 'Hello, ' + x;
 }
 console.log(hello4('milburn'));
 
 
 // b) un parámetro, función FLECHA
 const hello5 = x => {
-   return  'one parameter, arrow function ' + 'Hello, ' + x;
+   return  'un parámetro, función FLECHA ' + 'Hello, ' + x;
 }
 console.log(hello5('milburn'));
 
-// c) un parámetro, arrow FECHA UNA LÍNEA 
+// c) un parámetro, función FECHA EN UNA SOLA LÍNEA 
 const hello6 = x => 'Hello, ' + x;
-console.log('one parameter, arrow function single line ' + hello6('milburn'));
+console.log('un parámetro, función FECHA EN UNA SOLA LÍNEA ' + hello6('milburn'));
 
 
 
@@ -500,7 +500,7 @@ console.log(hello8('milburn', 'gomes'));
 
 // c) dos parámetros, función FLECHA EN UNA SOLA LÍNEA
 const hello9 = (x,y) =>  "Hello, " + x + " " + y;
-console.log('two parameters, arrow function single line ' + hello9('milburn', 'gomes'));
+console.log('dos parámetros, arrow function single line ' + hello9('milburn', 'gomes'));
 ```
 
 # 4 ¿Qué es la deconstrucción de variables?
@@ -660,7 +660,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4Mzk3ODUyNSwxNjcyNDI3MzcsLTk0MD
+eyJoaXN0b3J5IjpbLTIwNjM0MTY3MSwxNjcyNDI3MzcsLTk0MD
 YzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQsLTg0Njg5NDQx
 NCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMj
 Y1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4
