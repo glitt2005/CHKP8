@@ -733,13 +733,18 @@ console.log(quinto);  // Output: 5
 
 Hubiera sido **mucho más largo y tedioso** el hacer algo como:
 ```JavaScript
-const itemPrimero = numeros[0];
-console.log(itemPrimero);
+const numeros = [1, 2, 3, 4, 5];
+
+const itemPrimero = numeros[0]; 
+console.log(itemPrimero);// Output: 1
+
 const itemSegundo = numeros[1];
 console.log(itemSegundo);
+
 const itemQuinto = numeros[4];
 console.log(itemQuinto);
 ```
+y luego tener que usar esas variables, etc.
 <br>
 
 #### DECONSTRUCCIÓN DE OBJETOS:
@@ -952,11 +957,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODQ5MDEzNiw2NTYzMjQwODMsMTg1MD
-kxNDE3MywtNTIwMjYyODc4LDE2NTExMzQ3MjIsLTEyMTg2MzQ2
-ODgsMTMzNjIyNjE2OSwtNjEwMjgzNSwxMTU5MDE0MzEzLDE4Mz
-IxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYyLC0yMjE3ODg5Nzgs
-LTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzODU2NzMsLTExNj
-MzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUxNCwxMTY0NzYz
-Mjk4XX0=
+eyJoaXN0b3J5IjpbLTEyNjEwNDEzMTcsNjU2MzI0MDgzLDE4NT
+A5MTQxNzMsLTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4NjM0
+Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMxMywxOD
+MyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4
+LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1NjczLC0xMT
+YzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2
+MzI5OF19
 -->
