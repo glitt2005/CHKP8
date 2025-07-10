@@ -695,6 +695,23 @@ En esencia, la **desconstrucción** facilita la extracción de datos de estructu
 -   **Extracción selectiva:** Permite extraer solo las propiedades necesarias, ignorando las demás.
 -   **Asignación múltiple:** Se pueden asignar múltiples variables en una sola línea.
 
+EJEMPLO BÁSICO:
+Un ejemplo básico para el intercambio de turnos en un juego sería hacer uso de la desestructuración **para intercambiar los valores de las variables que representan los jugadores actuales**.
+
+```JavaScript
+let jugador1 = "X";
+let jugador2 = "O";
+
+// Intercambio de turnos usando desestructuración
+[jugador1, jugador2] = [jugador2, jugador1];
+
+console.log(jugador1); // Output: O
+console.log(jugador2); // Output: X
+```
+
+Esta es la magia que 
+
+
 ```JavaScript
 const jugador = {
   nombre: "Messi",
@@ -865,11 +882,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMz
-M2MjI2MTY5LC02MTAyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0
-MCw3NTg5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OT
-AxNzY5OSwtNzQyMDEzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2
-NSwxMjQwNzM2MTI5LC0xMjA1MDM5NTE0LDExNjQ3NjMyOTgsMT
-QyMzU3NjY0NywtMTg2MzExNjQ0MiwxMzk3MzkyNDc0LDM2NDc2
-Njk3Nl19
+eyJoaXN0b3J5IjpbLTE1MjA5NjMxNTgsMTY1MTEzNDcyMiwtMT
+IxODYzNDY4OCwxMzM2MjI2MTY5LC02MTAyODM1LDExNTkwMTQz
+MTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwxOTMwODgzNjIsLTIyMT
+c4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMDEzNDU3LDMyMjM4NTY3
+MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5NTE0LD
+ExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzExNjQ0MiwxMzk3
+MzkyNDc0XX0=
 -->
