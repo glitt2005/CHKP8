@@ -519,12 +519,10 @@ miFuncion(); // Salida: undefined!!!!
 <br>
 <br>
 
-#### b) EJEMPLO - **`this`**  en DECLARACIÓN DE FUNCIÓN:
+#### b) EJEMPLO - **`this`**  EN FUNCIÓN FLECHA:
 
-El problema  quería resuelto con una función flecha de
+El problema anterior quedaría resuelto con una función flecha de la siguiente manera:
 
-Funciones flecha (Arrow functions):
- la siguiente manera:
 ```JavaScript
 this.valor = 20;
 this.obtenerValorFlecha = () => {
@@ -791,11 +789,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTQxNjUwNTMsLTEyMDUwMzk1MTQsMT
-E2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLDEzOTcz
-OTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMjAwNjc2NDUwNy
-wtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcxODQ1Mjk3NCwt
-MTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOTczNzIsLTEyOD
-Q4NDk2MzMsLTUxNDI1ODgzLC0xMDIxOTY5MjI5LDE2NzI0Mjcz
-NywtOTQwNjMwNzM5XX0=
+eyJoaXN0b3J5IjpbMTI0MDczNjEyOSwtMTIwNTAzOTUxNCwxMT
+Y0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5NzM5
+MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC
+0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0x
+MzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3MiwtMTI4ND
+g0OTYzMywtNTE0MjU4ODMsLTEwMjE5NjkyMjksMTY3MjQyNzM3
+LC05NDA2MzA3MzldfQ==
 -->
