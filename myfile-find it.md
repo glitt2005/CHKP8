@@ -543,6 +543,40 @@ i.a ) Expresión de Función Anónima
 <br>
 <br>
 
+i.b ) Expresión de Función Nombrada
+
+<img src="funcionDeclaradanombrada.png" width="50%" Alt="función declarada nombrada">
+
+
+
+(El nombre  `decirHola`  es útil para identificar la función en los errores, pero no se usa para llamar a la función.)
+
+<br>
+<b>
+<br>
+<br>
+
+
+ii ) Declaración de función tradicional o regular
+
+
+<img src="funcionDeclarada.png" width="50%" Alt="funcion declarada anónima">
+
+<br>
+<br>
+<br>
+
+
+
+iii ) Función flecha:
+
+
+<img src="funcionFlecha1.png" width="50%" Alt="funcionFlecha1">
+<br>
+<br>
+
+En realidad, si comparamos una función regular con una flecha, en lugar de tener que escribir "function" cada vez que queremos declarar una función, eliminar esa palabra y utilizar "=>"  justo delante de las llaves {} para para declarar una función de flecha. 
+
 
 
 ## 2) Particular manejo de `this`
@@ -591,59 +625,6 @@ obj.obtenerValorFlecha(); // Salida: 10
 ```
 
 <BR>
-
-
-
-
-
-
-
-i.b ) Expresión de Función Nombrada
-
-<img src="funcionDeclaradanombrada.png" width="50%" Alt="función declarada nombrada">
-
-
-
-
-
-
-
-
-
-
-
-
-
-(El nombre  `decirHola`  es útil para identificar la función en los errores, pero no se usa para llamar a la función.)
-
-<br>
-<b>
-<br>
-<br>
-
-
-ii ) Declaración de función tradicional o regular
-
-
-<img src="funcionDeclarada.png" width="50%" Alt="funcion declarada anónima">
-
-<br>
-<br>
-<br>
-
-
-
-iii ) Función flecha:
-
-
-<img src="funcionFlecha1.png" width="50%" Alt="funcionFlecha1">
-<br>
-<br>
-
-En realidad, si comparamos una función regular con una flecha, en lugar de tener que escribir "function" cada vez que queremos declarar una función, eliminar esa palabra y utilizar "=>"  justo delante de las llaves {} para para declarar una función de flecha. 
-
-
-
 
 ## 3) EN RESUMEN
 
@@ -1014,11 +995,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NT
-ExMDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5
-MzEsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1Nj
-MyNDA4MywxODUwOTE0MTczLC01MjAyNjI4NzgsMTY1MTEzNDcy
-MiwtMTIxODYzNDY4OCwxMzM2MjI2MTY5LC02MTAyODM1LDExNT
-kwMTQzMTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwxOTMwODgzNjJd
-fQ==
+eyJoaXN0b3J5IjpbLTE2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNz
+Q4ODQ4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LDEzMDk3MDUy
+NDUsLTEzMjI2MjQ5MzEsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMT
+I0NzI4NTc5LDY1NjMyNDA4MywxODUwOTE0MTczLC01MjAyNjI4
+NzgsMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMzM2MjI2MTY5LC
+02MTAyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0MCw3NTg5ODgz
+OV19
 -->
