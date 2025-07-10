@@ -650,7 +650,9 @@ En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** so
 
 
 <table>
-<caption>Título de la tabla</caption>
+<caption>¿QUÉ HACEMOS AL DECONSTRUIR?</caption>
+<br>
+<br>
     <thead>
         <tr>
             <th></th>
@@ -832,7 +834,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTQ2NjA3NSwtNjEwMjgzNSwxMTU5MD
+eyJoaXN0b3J5IjpbMTA4OTc4MTMzMiwtNjEwMjgzNSwxMTU5MD
 E0MzEzLDE4MzIxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYyLC0y
 MjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzOD
 U2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUx
