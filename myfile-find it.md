@@ -690,6 +690,26 @@ En esencia, la **desconstrucción** facilita la extracción de datos de estructu
 -  el código **más legible**
 -  **evita** la necesidad de **acceder repetidamente** a los elementos de la estructura original.
 
+
+-   **Código más limpio y legible:** Evita la necesidad de acceder a las propiedades del objeto usando la notación de punto (`jugador.nombre`).
+-   **Extracción selectiva:** Permite extraer solo las propiedades necesarias, ignorando las demás.
+-   **Asignación múltiple:** Se pueden asignar múltiples variables en una sola línea.
+
+```JavaScript
+const jugador = {
+  nombre: "Messi",
+  posicion: "Delantero",
+  dorsal: 10
+};
+
+// Desestructuración del objeto jugador
+const { nombre, posicion, dorsal } = jugador;
+
+console.log(nombre);   // Imprime: Messi
+console.log(posicion); // Imprime: Delantero
+console.log(dorsal);   // Imprime: 10
+```
+
 # 5 ¿Qué hace el operador de extensión en JS?
 
 # 6 ¿Qué es la programación orientada a objetos?
@@ -845,11 +865,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg2MzQ2ODgsMTMzNjIyNjE2OSwtNj
-EwMjgzNSwxMTU5MDE0MzEzLDE4MzIxNzg3NDAsNzU4OTg4Mzks
-MTkzMDg4MzYyLC0yMjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0Mj
-AxMzQ1NywzMjIzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEy
-OSwtMTIwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLT
-E4NjMxMTY0NDIsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0
-NzQxMV19
+eyJoaXN0b3J5IjpbMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMz
+M2MjI2MTY5LC02MTAyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0
+MCw3NTg5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OT
+AxNzY5OSwtNzQyMDEzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2
+NSwxMjQwNzM2MTI5LC0xMjA1MDM5NTE0LDExNjQ3NjMyOTgsMT
+QyMzU3NjY0NywtMTg2MzExNjQ0MiwxMzk3MzkyNDc0LDM2NDc2
+Njk3Nl19
 -->
