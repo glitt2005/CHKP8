@@ -502,7 +502,7 @@ Funciones flecha (Arrow functions):
 
 -   **Contexto Léxico:** `this`  en una función flecha se evalúa en el contexto donde la función fue definida, no donde es llamada.
     
--   No tienen su propio  `this`: No tienen su propio  `this`,  `arguments`,  `new.target`  o  `super`.
+-   No tienen su propio  `this`: No tienen su propio  `this`.
     
 -   **Uso recomendado:** Son útiles cuando se quiere mantener el  `this`  del contexto envolvente, como en callbacks o métodos de objetos donde no se requiere que  `this`  apunte al objeto que llama a la función.
 
@@ -755,11 +755,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUwMzk1MTQsMTE2NDc2MzI5OCwxND
-IzNTc2NjQ3LC0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2
-OTc2LDEyNDYxNDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MC
-wtMTIzNjU2MTU0OCwtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwx
-MjYwODE2MzM0LDE1NDAxOTczNzIsLTEyODQ4NDk2MzMsLTUxND
-I1ODgzLC0xMDIxOTY5MjI5LDE2NzI0MjczNywtOTQwNjMwNzM5
-LC0zOTg5OTc0ODhdfQ==
+eyJoaXN0b3J5IjpbMTU1Mjg5MDc5NSwtMTIwNTAzOTUxNCwxMT
+Y0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5NzM5
+MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC
+0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0x
+MzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3MiwtMTI4ND
+g0OTYzMywtNTE0MjU4ODMsLTEwMjE5NjkyMjksMTY3MjQyNzM3
+LC05NDA2MzA3MzldfQ==
 -->
