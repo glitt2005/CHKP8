@@ -650,9 +650,9 @@ En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** so
 
 |              |        |         |
 |:------------ |:------------:| ------------:|
-|          | Valores de arrays      |       |
-|Extraer     |                       |para asignarlos a variables      |
-|            | propiedades de objetos      |       |
+|          | **valores de arrays**      |       |
+|Extraer                            |para asignarlos a variables      |
+|            | **propiedades de objetos**      |       |
 |            |     |      |
 
 En esencia, la desestructuración (o deconstrucción) facilita la extracción de datos de estructuras complejas como arreglos y objetos y su asignación a variables separadas, haciendo el código más legible y evitando la necesidad de acceder repetidamente a los elementos de la estructura original.
@@ -811,11 +811,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4OTg4MzksMTkzMDg4MzYyLC0yMjE3OD
-g5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzODU2NzMs
-LTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUxNCwxMT
-Y0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5NzM5
-MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC
-0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0x
-MzEwMzM2OTM5XX0=
+eyJoaXN0b3J5IjpbMTA2NzEzMTcwMSw3NTg5ODgzOSwxOTMwOD
+gzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMDEzNDU3
+LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMj
+A1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzEx
+NjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLD
+IwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3
+MTg0NTI5NzRdfQ==
 -->
