@@ -685,7 +685,7 @@ font-weight: normal;
 
 <br>
 
-En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas:
+En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas, y poder hacer comparaciones, reordenaciones. En lugar de acceder mediante índices, atributo por a
 
 -  el código **más legible**
 -  **evita** la necesidad de **acceder repetidamente** a los elementos de la estructura original.
@@ -887,11 +887,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc1OTAyNDUsMTY1MTEzNDcyMiwtMT
-IxODYzNDY4OCwxMzM2MjI2MTY5LC02MTAyODM1LDExNTkwMTQz
-MTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwxOTMwODgzNjIsLTIyMT
-c4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMDEzNDU3LDMyMjM4NTY3
-MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5NTE0LD
-ExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzExNjQ0MiwxMzk3
-MzkyNDc0XX0=
+eyJoaXN0b3J5IjpbMTA0MTUzNDU2MCwxNjUxMTM0NzIyLC0xMj
+E4NjM0Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMx
+MywxODMyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNz
+g4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1Njcz
+LC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1MTQsMT
+E2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLDEzOTcz
+OTI0NzRdfQ==
 -->
