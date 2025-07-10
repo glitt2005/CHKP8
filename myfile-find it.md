@@ -437,7 +437,7 @@ EN RESUMEN:
 <img src="funcionFlecha0.png" width="50%">
 <br>
 
-Una **función flech**a (o ***arrow function***) es una  forma concisa de definir funciones anónimas, introducida en ES6 (EcmaScript 2015). 
+Una **función flecha** (o ***arrow function***) es una  forma concisa de definir funciones anónimas, introducida en ES6 (EcmaScript **2015**). 
 
 Las funciones flecha **son de las funciones más cruciales para aprender en Javascript** ya que están por todos los lados. Su **sintaxis** es completamente **diferente** a cualquier otra declaración de variable.
 
@@ -733,7 +733,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTc1NTU4MSwtMTg2MzExNjQ0MiwxMz
+eyJoaXN0b3J5IjpbMTY2OTE1NDY5MSwtMTg2MzExNjQ0MiwxMz
 k3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLDIwMDY3NjQ1
 MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3MTg0NTI5Nz
 QsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3MzcyLC0x
