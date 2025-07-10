@@ -538,6 +538,8 @@ obj.obtenerValorFlecha(); // Salida: 10
 
 EN RESUMEN:
 
+1. VENTAJAS 
+
 -   **Contexto Léxico:** `this`  en una función flecha se evalúa en el contexto donde la función fue definida, no donde es llamada.
     
 -   No tienen su propio  `this`
@@ -545,16 +547,14 @@ EN RESUMEN:
 -   **Uso recomendado:** Son útiles cuando se quiere mantener el  `this`  del contexto envolvente, como en **callbacks** o **métodos de objetos** donde no se requiere que  **`this`  apunte al objeto que llama a la función.**
 
 
-
-
-    
     
 -   **Mayor concisión:**
     
     Son ideales para funciones cortas y funciones que se pasan como argumentos a otras funciones.
     
 
-Desventajas de las funciones flecha:
+2. LIMITACIONES DE LAS FUNCIONES FLECHA
+
 
 -   **No son adecuadas para todos los casos:** No se deben usar como constructores (no se puede usar con  `new`) ni como métodos que necesitan acceder al objeto actual con  `this`.
 -   `arguments`  no disponible: No tienen acceso al objeto  `arguments`.
@@ -786,7 +786,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzIyNDI0NywxMjQwNzM2MTI5LC0xMj
+eyJoaXN0b3J5IjpbMTkzODA2NDQzNywxMjQwNzM2MTI5LC0xMj
 A1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzEx
 NjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLD
 IwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3
