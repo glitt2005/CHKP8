@@ -673,42 +673,12 @@ En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** so
     </tbody>
 </table>
 
-<table style="width:100%;">
-  <caption style="caption-side: bottom; background-color: lightgrey;">Título de la Tabla</caption>
-  <thead>
-    <tr>
-      <th>Encabezado 1</th>
-      <th>Encabezado 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Dato 1</td>
-      <td>Dato 2</td>
-    </tr>
-    <tr style="background-color: lightgrey;">
-      <td>Dato 3</td>
-      <td>Dato 4</td>
-    </tr>
-  </tbody>
-</table>
+
 <br>
 <br>
 
   
-<table>  
-<caption>Título de la tabla</caption>  
-<br>
-<br>
-<tr>  
-<th>Encabezado 1</th>  
-<th>Encabezado 2</th>  
-</tr>  
-<tr>  
-<td>Dato 1</td>  
-<td>Dato 2</td>  
-</tr>  
-</table>  
+
 <br>
 
 En esencia, la desestructuración (o deconstrucción) facilita la extracción de datos de estructuras complejas como arreglos y objetos y su asignación a variables separadas, haciendo el código más legible y evitando la necesidad de acceder repetidamente a los elementos de la estructura original.
@@ -867,11 +837,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1ODk2Nzc3LC02MTAyODM1LDExNTkwMT
-QzMTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwxOTMwODgzNjIsLTIy
-MTc4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMDEzNDU3LDMyMjM4NT
-Y3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5NTE0
-LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzExNjQ0MiwxMz
-k3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLDIwMDY3NjQ1
-MDddfQ==
+eyJoaXN0b3J5IjpbMTYzMDM3MDUzNCwtNjEwMjgzNSwxMTU5MD
+E0MzEzLDE4MzIxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYyLC0y
+MjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzOD
+U2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUx
+NCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMT
+M5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0
+NTA3XX0=
 -->
