@@ -1,5 +1,5 @@
 
-# 1 ¿Qué tipo de bucles hay en JS?
+# 1.  ¿Qué tipo de bucles hay en JS?
 
 Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de datos.
  
@@ -77,7 +77,7 @@ for (variable in objecto)
 **CONVENCIÓN SINTÁCTICA**:  Para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular.  Aquí pondremos un nombre de array algo más largo (`diasDeLaSemana` ) para que se vea rápidamente la diferencia entre los dos.
 
 
-### A) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 5>for - in</font></font> </font> &ensp;  en arrays:
+### a) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 5>for - in</font></font> </font> &ensp;  en arrays:
 #### EJEMPLO:  Imprimimos los días de la semana**
 
 
@@ -99,7 +99,7 @@ for (diaSemana in diasDeLaSemana) {
 
 Como vemos la sintaxis es más sencilla y corta que la anterior.
 
-### B) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 5>for - in</font></font> </font> &ensp;  en objetos:
+### b) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 5>for - in</font></font> </font> &ensp;  en objetos:
 Esto muy común cuando llamamos a una API, es decir, salimos a otro servidor(por wjemtplo Twitter) y extraemos tweets. Éstos son con frecuencia enviados en formato objeto, es decir con una estructura de pares clave:valor.
 Si queremos mostrar esos datos en una página, la forma de hacerlo es iterando sobre esos datos, ese objeto.  Y una de las formas más comunes de hacerlo es mediante este bucle  <font color ="green">**for - in**</font>.
 
@@ -364,7 +364,7 @@ console.log(b); // 1 - ha cambiado: var- alcance global
 
 ## 3. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  const</font>
 - La  variable **`const`** es **la más nueva**, y es una abreviación de "**constante**". 
-- Su valor n**o puede ser reasignado después de su inicialización**.
+- Su valor **no puede ser reasignado después de su inicialización**.
 - Se ha convertido en **una de las más populares** a la hora de declarar variables. Se puede ver en los desarrolladores que **es la preferida por encima de las otras opciones** .
 - En la mayoría de aplicaciones se ven sobre todo la  variable **`const`**  y la  variable **`let`**. 
 - Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable **`const`**.
@@ -604,11 +604,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Nzk1NDE4NCwtODQ2ODk0NDE0LDE3MD
-QyNjcwODQsLTkxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNjU1MDYw
-MzgsMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MD
-Y0NDY1NTUsLTYzMjUyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1
-LC04NjU5MzE4NDgsMTg2Mjk4MTAyNyw2MDA1OTg4MTksLTQzNT
-c2NTgwNiwzMDAzMzU5NTEsMTU0OTY4OTIxNiwxOTk1MTQwMzM0
-XX0=
+eyJoaXN0b3J5IjpbOTg4Nzc5NDM0LC02Nzc5NTQxODQsLTg0Nj
+g5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5
+MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MD
+k2ODA4MjksODA2NDQ2NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4
+LC05ODUyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNT
+k4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUxLDE1NDk2ODkyMTZd
+fQ==
 -->
