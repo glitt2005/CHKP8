@@ -659,10 +659,10 @@ En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** so
         </tr>
     </thead>
     <tbody>
-              <tr>
-            <td rowspan=4 align="center">Extraer</td>
-            <td rowspan=2 align="center">valores de arrays</td>
-            </tr>
+                 <tr>
+                  <td rowspan=4 align="center">Extraer </td>
+                 <td rowspan=2 align="center">valores de arrays</td>
+                  </tr>
          <td align="center"><BR>para asignarlos a objetos</td>
         <tr>
             <td align="center"></td>
@@ -833,7 +833,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjA2OTY5OSw3NTg5ODgzOSwxOTMwOD
+eyJoaXN0b3J5IjpbLTQ1NDU1Njg5Myw3NTg5ODgzOSwxOTMwOD
 gzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMDEzNDU3
 LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMj
 A1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzEx
