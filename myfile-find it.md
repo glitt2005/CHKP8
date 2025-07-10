@@ -485,7 +485,7 @@ iii) **Función flecha:**
 <br>
 <br>
 
-En realidad, si comparamos una función regular con una flecha, en lugar de tener que escribir "function" cada vez que queremos declarar una función, eliminar esa palabra y utilizar "=>" para declarar una función de flecha. 
+En realidad, si comparamos una función regular con una flecha, en lugar de tener que escribir "function" cada vez que queremos declarar una función, eliminar esa palabra y utilizar "=>"  justo delante delpara declarar una función de flecha. 
 
 -  tener un comportamiento diferente en cuanto al manejo del  `this`. A diferencia de las funciones tradicionales, las funciones flecha no tienen su propio  `this`. El valor de  `this`  dentro de una función flecha es el mismo que el de su entorno léxico (el contexto donde fue definida).
 
@@ -736,11 +736,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMzU3NjY0NywtMTg2MzExNjQ0MiwxMz
-k3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLDIwMDY3NjQ1
-MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3MTg0NTI5Nz
-QsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3MzcyLC0x
-Mjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIyOSwxNjcyND
-I3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQs
-LTg0Njg5NDQxNF19
+eyJoaXN0b3J5IjpbLTEyOTUzNjEzOTIsMTQyMzU3NjY0NywtMT
+g2MzExNjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3
+NDExLDIwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1ND
+gsLTE3MTg0NTI5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwx
+NTQwMTk3MzcyLC0xMjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMT
+k2OTIyOSwxNjcyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4
+LC02Nzc5NTQxODRdfQ==
 -->
