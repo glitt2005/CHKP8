@@ -442,9 +442,82 @@ Una **función flecha** (o ***arrow function***) es una  forma concisa de defini
 Las funciones flecha **son de las funciones más cruciales para aprender en Javascript** ya que están por todos los lados. Su **sintaxis** es completamente **diferente** a cualquier otra declaración de variable.
 
 
-## 0) Ejemplos FUNCIÓN DECLARA
+## 0) Ejemplos FUNCIÓN DECLARADA vs FUNCIÓN FLECHA
 
-Se caracterizan por:
+
+0.  SIN PARÁMETROS
+
+```JavaScript
+
+// a) sin parámetros, función declarada 
+function hello1() {
+    return 'Hello!';
+}
+console.log('sin parámetros, función declarada ' + hola1());
+
+
+
+// b) sin parámetros, función FLECHA
+const hello2 = () => {
+    return 'Hello!';
+}
+console.log('sin parámetros, función FLECHA ' + hola2());
+
+
+// c) sin parámetros, función FLECHA EN UNA SOLA LÍNEA
+const hello3 = () => 'Hello!';
+console.log('sin parámetros, funcíon FLECHA EN UNA SOLA LÍNEA  ' + hello3());
+```
+
+<br>
+1. CON 1 PARÁMETRO
+
+
+
+```JavaScript
+
+// a) un parámetro, función declarada
+function hello4(x){
+    return 'un parámetro, función declarada ' + 'Hello, ' + x;
+}
+console.log(hello4('milburn'));
+
+
+// b) un parámetro, función FLECHA
+const hello5 = x => {
+   return  'un parámetro, función FLECHA ' + 'Hello, ' + x;
+}
+console.log(hello5('milburn'));
+
+// c) un parámetro, función FECHA EN UNA SOLA LÍNEA 
+const hello6 = x => 'Hello, ' + x;
+console.log('un parámetro, función FECHA EN UNA SOLA LÍNEA ' + hello6('milburn'));
+```
+
+<br>
+
+2. CON DOS PARÁMETROS:
+```JavaScript
+// a) dos parámetros, función declarada
+function hello7(x,y){
+    return 'Hello, ' + x + ' ' + y; 
+    
+}
+console.log('dos parámetros, función declarada ' + hello7('milburn', 'gomes'));
+
+
+// b) dos parámetros, función FLECHA
+const hello8 = (x,y) =>{
+    return 'dos parámetros, función FLECHA ' + 'Hello, ' + x + ' ' + y;
+}
+console.log(hello8('milburn', 'gomes'));
+
+
+// c) dos parámetros, función FLECHA EN UNA SOLA LÍNEA
+const hello9 = (x,y) =>  "Hello, " + x + " " + y;
+console.log('dos parámetros, función FLECHA EN UNA SOLA LÍNEA ' + hello9('milburn', 'gomes'));
+```
+
 
 ## 1) Sintaxis concisa
 Su sintaxis más **compacta** ; efectivamente su concisa sintaxis hace que sea muy utilizada.  
@@ -556,78 +629,6 @@ EN RESUMEN:
 - **No tienen su propio objeto `arguments`** con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea.
 - Su **`this`** se determina en el momento de la creación de la función, y se **hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.**
 <br><br>
-0.  SIN PARÁMETROS
-
-```JavaScript
-
-// a) sin parámetros, función declarada 
-function hello1() {
-    return 'Hello!';
-}
-console.log('sin parámetros, función declarada ' + hola1());
-
-
-
-// b) sin parámetros, función FLECHA
-const hello2 = () => {
-    return 'Hello!';
-}
-console.log('sin parámetros, función FLECHA ' + hola2());
-
-
-// c) sin parámetros, función FLECHA EN UNA SOLA LÍNEA
-const hello3 = () => 'Hello!';
-console.log('sin parámetros, funcíon FLECHA EN UNA SOLA LÍNEA  ' + hello3());
-```
-
-<br>
-1. CON 1 PARÁMETRO
-
-
-
-```JavaScript
-
-// a) un parámetro, función declarada
-function hello4(x){
-    return 'un parámetro, función declarada ' + 'Hello, ' + x;
-}
-console.log(hello4('milburn'));
-
-
-// b) un parámetro, función FLECHA
-const hello5 = x => {
-   return  'un parámetro, función FLECHA ' + 'Hello, ' + x;
-}
-console.log(hello5('milburn'));
-
-// c) un parámetro, función FECHA EN UNA SOLA LÍNEA 
-const hello6 = x => 'Hello, ' + x;
-console.log('un parámetro, función FECHA EN UNA SOLA LÍNEA ' + hello6('milburn'));
-```
-
-<br>
-
-2. CON DOS PARÁMETROS:
-```JavaScript
-// a) dos parámetros, función declarada
-function hello7(x,y){
-    return 'Hello, ' + x + ' ' + y; 
-    
-}
-console.log('dos parámetros, función declarada ' + hello7('milburn', 'gomes'));
-
-
-// b) dos parámetros, función FLECHA
-const hello8 = (x,y) =>{
-    return 'dos parámetros, función FLECHA ' + 'Hello, ' + x + ' ' + y;
-}
-console.log(hello8('milburn', 'gomes'));
-
-
-// c) dos parámetros, función FLECHA EN UNA SOLA LÍNEA
-const hello9 = (x,y) =>  "Hello, " + x + " " + y;
-console.log('dos parámetros, función FLECHA EN UNA SOLA LÍNEA ' + hello9('milburn', 'gomes'));
-```
 
 # 4 ¿Qué es la deconstrucción de variables?
 
@@ -786,11 +787,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMwODM5NTgsLTc0MjAxMzQ1NywzMjIzOD
-U2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUx
-NCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMT
-M5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0
-NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOT
-c0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3Miwt
-MTI4NDg0OTYzM119
+eyJoaXN0b3J5IjpbMTYyNDU1OTg1LC03NDIwMTM0NTcsMzIyMz
+g1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1
+MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLD
+EzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMjAwNjc2
+NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcxODQ1Mj
+k3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOTczNzIs
+LTEyODQ4NDk2MzNdfQ==
 -->
