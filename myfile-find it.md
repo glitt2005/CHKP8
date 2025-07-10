@@ -491,7 +491,12 @@ En realidad, si comparamos una función regular con una flecha, en lugar de tene
 
 ## 2) Particular manejo de `this`
 
-La palabra clave `this` tiene un comportamiento diferente en las **funciones flecha**.  A diferencia de las funciones tradicionales, las funciones flecha **no tienen su propio  `this`** .  El valor de  **`this`**  dentro de una función flecha es el mismo que el de su entorno léxico (el contexto donde fue definida).
+La palabra clave `this` tiene un comportamiento diferente en las **funciones flecha**.  A diferencia de las funciones tradicionales, las funciones flecha **no tienen su propio  `this`** .  El valor de  **`this`**  dentro de una función flecha es el mismo que **el de su entorno léxico (el contexto donde fue definida).**
+
+
+
+
+
 
 Ventajas de las funciones flecha:
 
@@ -740,11 +745,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjU3MDc4NDIsMTQyMzU3NjY0NywtMT
-g2MzExNjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3
-NDExLDIwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1ND
-gsLTE3MTg0NTI5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwx
-NTQwMTk3MzcyLC0xMjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMT
-k2OTIyOSwxNjcyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4
-LC02Nzc5NTQxODRdfQ==
+eyJoaXN0b3J5IjpbMTgwNDkwMDk1MiwxNDIzNTc2NjQ3LC0xOD
+YzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0
+MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OC
+wtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1
+NDAxOTczNzIsLTEyODQ4NDk2MzMsLTUxNDI1ODgzLC0xMDIxOT
+Y5MjI5LDE2NzI0MjczNywtOTQwNjMwNzM5LC0zOTg5OTc0ODgs
+LTY3Nzk1NDE4NF19
 -->
