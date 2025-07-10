@@ -750,15 +750,17 @@ y luego tener que usar esas variables, etc.
 
 #### DECONSTRUCCIÓN DE OBJETOS:
 
-La desestructuración de objetos permite extraer propiedades específicas de un objeto y asignarlas a variables con nombres iguales a las propiedades o con nombres distintos usando un alias.
+La desestructuración de objetos permite extraer pro**piedades específicas de un objeto y asignarlas a variables con nombres iguales a las propiedades** o con nombres distintos usando un alias.
 
 
 
 ```JavaScript
 const persona = {  nombre: 'Juan',  edad: 30,  ciudad: 'Madrid'};// Desestructuración con nombres de variables iguales a las propiedades
-const { nombre, edad, ciudad } = persona;console.log(nombre); // Output: Juan
+const { nombre, edad, ciudad } = persona; 
+console.log(nombre); // Output: Juan
 console.log(edad);   // Output: 30
 console.log(ciudad); // Output: Madrid
+
 // Desestructuración con alias
 const { nombre: nombrePersona, edad: edadPersona } = persona;console.log(nombrePersona); // Output: Juan
 console.log(edadPersona);   // Output: 30
@@ -958,11 +960,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0MzA0NjcyLDY1NjMyNDA4MywxODUwOT
-E0MTczLC01MjAyNjI4NzgsMTY1MTEzNDcyMiwtMTIxODYzNDY4
-OCwxMzM2MjI2MTY5LC02MTAyODM1LDExNTkwMTQzMTMsMTgzMj
-E3ODc0MCw3NTg5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwt
-MTI1OTAxNzY5OSwtNzQyMDEzNDU3LDMyMjM4NTY3MywtMTE2Mz
-MwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5NTE0LDExNjQ3NjMy
-OThdfQ==
+eyJoaXN0b3J5IjpbLTEyOTUwNDQwMDgsNjU2MzI0MDgzLDE4NT
+A5MTQxNzMsLTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4NjM0
+Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMxMywxOD
+MyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4
+LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1NjczLC0xMT
+YzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2
+MzI5OF19
 -->
