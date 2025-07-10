@@ -709,7 +709,9 @@ console.log(jugador1); // Output: O
 console.log(jugador2); // Output: X
 ```
 
-Esta es la magia que 
+ En este ejemplo, la línea  `[jugador1, jugador2] = [jugador2, jugador1];` realiza la magia: 
+		1. Se crea un arreglo con los valores actuales de  `jugador2`  y  `jugador1`. 
+		 2. Luego, la desestructuración asigna el primer valor (anteriormente el de  `jugador2`) a  `jugador1`  y el segundo valor (anteriormente el de  `jugador1`) a  `jugador2`, logrando así el intercambio
 
 
 ```JavaScript
@@ -882,11 +884,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjA5NjMxNTgsMTY1MTEzNDcyMiwtMT
-IxODYzNDY4OCwxMzM2MjI2MTY5LC02MTAyODM1LDExNTkwMTQz
-MTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwxOTMwODgzNjIsLTIyMT
-c4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMDEzNDU3LDMyMjM4NTY3
-MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5NTE0LD
-ExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzExNjQ0MiwxMzk3
-MzkyNDc0XX0=
+eyJoaXN0b3J5IjpbMTUwNTk3NjM0NSwxNjUxMTM0NzIyLC0xMj
+E4NjM0Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMx
+MywxODMyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNz
+g4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1Njcz
+LC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1MTQsMT
+E2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLDEzOTcz
+OTI0NzRdfQ==
 -->
