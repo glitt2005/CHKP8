@@ -554,6 +554,9 @@ EN RESUMEN:
     
 
 2. LIMITACIONES DE LAS FUNCIONES FLECHA
+3.
+- No pueden usarse como constructores (no se pueden llamar con `new`).
+- 
 
 
 -   **No son adecuadas para todos los casos:** No se deben usar como constructores (no se puede usar con  `new`) ni como métodos que necesitan acceder al objeto actual con  `this`.
@@ -786,7 +789,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODA2NDQzNywxMjQwNzM2MTI5LC0xMj
+eyJoaXN0b3J5IjpbLTcyODUwMTQwOSwxMjQwNzM2MTI5LC0xMj
 A1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzEx
 NjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLD
 IwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3
