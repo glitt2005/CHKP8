@@ -456,7 +456,7 @@ console.log('sin parámetros, función FLECHA ' + hola2());
 
 // c) sin parámetros, función FLECHA EN UNA SOLA LÍNEA
 const hello3 = () => 'Hello!';
-console.log('no parameters, arrow function single line  ' + hello3());
+console.log('sin parámetros, funcíon FLECHA EN UNA SOLA LÍNEA  ' + hello3());
 
 
 
@@ -470,13 +470,14 @@ function hello4(x){
 }
 console.log(hello4('milburn'));
 
+
 // b) un parámetro, función FLECHA
 const hello5 = x => {
    return  'one parameter, arrow function ' + 'Hello, ' + x;
 }
 console.log(hello5('milburn'));
 
-// b) un parámetro, arrow FECHA UNA LÍNEA 
+// c) un parámetro, arrow FECHA UNA LÍNEA 
 const hello6 = x => 'Hello, ' + x;
 console.log('one parameter, arrow function single line ' + hello6('milburn'));
 
@@ -659,7 +660,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjA0ODY0MCwxNjcyNDI3MzcsLTk0MD
+eyJoaXN0b3J5IjpbLTU4Mzk3ODUyNSwxNjcyNDI3MzcsLTk0MD
 YzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQsLTg0Njg5NDQx
 NCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMj
 Y1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4
