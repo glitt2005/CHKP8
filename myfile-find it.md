@@ -719,7 +719,7 @@ console.log(jugador2); // Output: X
 
 #### DECONSTRUCCIÓN DE ARREGLOS:
 
-La desestructuración de arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí las dos comas extras (,) sustituyen cada una a una
+La desestructuración de arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí las dos comas extras (,) sustituyen cada una de ellas a un elemento del array siguiendo el orden:
 
 
 
@@ -941,7 +941,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDEzMjE4MywxODUwOTE0MTczLC01Mj
+eyJoaXN0b3J5IjpbLTExOTAyMTk1NywxODUwOTE0MTczLC01Mj
 AyNjI4NzgsMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMzM2MjI2
 MTY5LC02MTAyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0MCw3NT
 g5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5
