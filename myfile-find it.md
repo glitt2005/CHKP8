@@ -648,15 +648,34 @@ obj.obtenerValorFlecha(); // Salida: 10
 # 4 ¿Qué es la deconstrucción de variables?
 En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** son términos que se refieren a la misma característica del lenguaje, introducida en ECMAScript 6 (**ES6**). Ambos términos se utilizan indistintamente para describir la **sintaxis que permite extraer valores de arreglos y propiedades de objetos en variables individuales de manera más concisa.**
 
-|              |        |         |
-|:------------ |:------------:| ------------:|
-|          | **valores de arrays**      |       |
-|
-&#124;
-Extraer     |                       |para asignarlos a variables      |
-|            | **propiedades de objetos**      |       |
-|            |     |      |
 
+
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4 align="center">Extraer</td>
+            <td rowspan=2 align="center">valores de arrays</td>
+            <td align="center">propiedades de ob</td>
+        </tr>
+        <tr>
+            <td align="center">R3 Text B</td>
+        </tr>
+        <tr>
+            <td rowspan=2 align="center">R2 Text B</td>
+            <td align="center">R3 Text C</td>
+        </tr>
+        <tr>
+            <td align="center">R3 Text D</td>
+        </tr>
+    </tbody>
+</table>
 En esencia, la desestructuración (o deconstrucción) facilita la extracción de datos de estructuras complejas como arreglos y objetos y su asignación a variables separadas, haciendo el código más legible y evitando la necesidad de acceder repetidamente a los elementos de la estructura original.
 # 5 ¿Qué hace el operador de extensión en JS?
 
@@ -813,11 +832,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMDQzNTIwLDc1ODk4ODM5LDE5MzA4OD
-M2MiwtMjIxNzg4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcs
-MzIyMzg1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMD
-UwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2
-NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMj
-AwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcx
-ODQ1Mjk3NF19
+eyJoaXN0b3J5IjpbLTE1NTE5NjI5NDksNzU4OTg4MzksMTkzMD
+g4MzYyLC0yMjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1
+NywzMjIzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMT
+IwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMx
+MTY0NDIsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMS
+wyMDA2NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0x
+NzE4NDUyOTc0XX0=
 -->
