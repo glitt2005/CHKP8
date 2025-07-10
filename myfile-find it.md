@@ -517,7 +517,7 @@ console.log(hello8('milburn', 'gomes'));
 const hello9 = (x,y) =>  "Hello, " + x + " " + y;
 console.log('dos parámetros, función FLECHA EN UNA SOLA LÍNEA ' + hello9('milburn', 'gomes'));
 ```
-### CARACTERÍSTICAS PRINCIPALES:  SU SINTAXIS Y SU MANEJO DEL this`this` 
+### CARACTERÍSTICAS PRINCIPALES:  SU SINTAXIS Y SU MANEJO DEL <big>`this`</big> 
 
 ## 1) Sintaxis concisa
 Su sintaxis más **compacta** ; efectivamente su concisa sintaxis hace que sea muy utilizada.  
@@ -787,11 +787,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQ3OTc1NjUsLTc0MjAxMzQ1NywzMj
-IzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAz
-OTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0ND
-IsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2
-NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4ND
-UyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3
-MiwtMTI4NDg0OTYzM119
+eyJoaXN0b3J5IjpbMTczMTYwMjQ1MiwtNzQyMDEzNDU3LDMyMj
+M4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5
+NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzExNjQ0Mi
+wxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLDIwMDY3
+NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3MTg0NT
+I5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3Mzcy
+LC0xMjg0ODQ5NjMzXX0=
 -->
