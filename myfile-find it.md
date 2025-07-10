@@ -394,7 +394,7 @@ casa = "Marbella";
 console.log(casa);       
 
 // Devuelve un error:
-//           "TypeError: Assignment to constant variable". 
+//           "TypeError: Assignment to constant variable^*1^". 
 ```
 **1)`let` : la variable se ha podido cambiar**
 ```JavaScript
@@ -795,11 +795,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMj
-IzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAz
-OTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0ND
-IsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2
-NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4ND
-UyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3
-MiwtMTI4NDg0OTYzM119
+eyJoaXN0b3J5IjpbLTE4NDgxNzY3OTYsLTEyNTkwMTc2OTksLT
+c0MjAxMzQ1NywzMjIzODU2NzMsLTExNjMzMDk3NjUsMTI0MDcz
+NjEyOSwtMTIwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2ND
+csLTE4NjMxMTY0NDIsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0
+NjE0NzQxMSwyMDA2NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NT
+YxNTQ4LC0xNzE4NDUyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYz
+MzQsMTU0MDE5NzM3Ml19
 -->
