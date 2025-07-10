@@ -805,8 +805,10 @@ function mostrarInfo({ nombre, edad }) {
 const persona2 = { nombre: 'Ana', edad: 25 };
 mostrarInfo(persona2);   // Output: Nombre: Ana, Edad: 25
 ```
-####  Parámetros de funciones - EJEMPLO 2:
+<br>
 
+####  Parámetros de funciones - EJEMPLO 2:
+```JavaScript
 function mostrarNumeros([primero, segundo]) {
     console.log(`
     Primer número: ${primero}, 
@@ -815,7 +817,7 @@ function mostrarNumeros([primero, segundo]) {
     mostrarNumeros([10, 20]); // Output: Primer número: 10, Segundo número: 20
 ```
 
-Debemos llamar a la función siempre teniendo en cuenta el tipo de datos que contiene.
+**NOTA**: Debemos llamar a la función siempre teniendo en cuenta **el tipo de datos que contiene**. En el Ejemplo 1 se trata de un objeto, y por ello, al invo
 ####  VALORES POR DEFECTO:
 La desestructuración permite establecer valores por defecto para las variables, en caso de que la propiedad o elemento del arreglo no exista.
 
@@ -981,11 +983,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzMzE5Mzk0LDExMjQ3Mjg1NzksNjU2Mz
-I0MDgzLDE4NTA5MTQxNzMsLTUyMDI2Mjg3OCwxNjUxMTM0NzIy
-LC0xMjE4NjM0Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OT
-AxNDMxMywxODMyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2Miwt
-MjIxNzg4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMz
-g1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1
-MTRdfQ==
+eyJoaXN0b3J5IjpbLTQ3NzM0NDA3MCwxMTI0NzI4NTc5LDY1Nj
+MyNDA4MywxODUwOTE0MTczLC01MjAyNjI4NzgsMTY1MTEzNDcy
+MiwtMTIxODYzNDY4OCwxMzM2MjI2MTY5LC02MTAyODM1LDExNT
+kwMTQzMTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwxOTMwODgzNjIs
+LTIyMTc4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMDEzNDU3LDMyMj
+M4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5
+NTE0XX0=
 -->
