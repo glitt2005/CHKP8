@@ -493,8 +493,18 @@ En realidad, si comparamos una función regular con una flecha, en lugar de tene
 
 La palabra clave `this` tiene un comportamiento diferente en las **funciones flecha**.  A diferencia de las funciones tradicionales, las funciones flecha **no tienen su propio  `this`** .  El valor de  **`this`**  dentro de una función flecha es el mismo que **el de su entorno léxico (el contexto donde fue definida).**
 
+EJEMPLO:
+
+En una declaración de función normal, no podrá acceder al this
 
 
+Funciones flecha (Arrow functions):
+
+-   **Contexto Léxico:** `this`  en una función flecha se evalúa en el contexto donde la función fue definida, no donde es llamada.
+    
+-   No tienen su propio  `this`: No tienen su propio  `this`,  `arguments`,  `new.target`  o  `super`.
+    
+-   **Uso recomendado:** Son útiles cuando se quiere mantener el  `this`  del contexto envolvente, como en callbacks o métodos de objetos donde no se requiere que  `this`  apunte al objeto que llama a la función.
 
 **strong text**
 
@@ -745,11 +755,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xOD
-YzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0
-MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OC
-wtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1
-NDAxOTczNzIsLTEyODQ4NDk2MzMsLTUxNDI1ODgzLC0xMDIxOT
-Y5MjI5LDE2NzI0MjczNywtOTQwNjMwNzM5LC0zOTg5OTc0ODgs
-LTY3Nzk1NDE4NF19
+eyJoaXN0b3J5IjpbLTEzODkzNjM1ODksMTE2NDc2MzI5OCwxND
+IzNTc2NjQ3LC0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2
+OTc2LDEyNDYxNDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MC
+wtMTIzNjU2MTU0OCwtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwx
+MjYwODE2MzM0LDE1NDAxOTczNzIsLTEyODQ4NDk2MzMsLTUxND
+I1ODgzLC0xMDIxOTY5MjI5LDE2NzI0MjczNywtOTQwNjMwNzM5
+LC0zOTg5OTc0ODhdfQ==
 -->
