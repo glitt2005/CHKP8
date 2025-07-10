@@ -556,7 +556,7 @@ EN RESUMEN:
 - **No tienen su propio objeto `arguments`** con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea.
 - Su **`this`** se determina en el momento de la creación de la función, y se **hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.**
 
-
+1.  SIN PARÁMETROS
 
 ```JavaScript
 
@@ -580,7 +580,10 @@ console.log('sin parámetros, función FLECHA ' + hola2());
 // c) sin parámetros, función FLECHA EN UNA SOLA LÍNEA
 const hello3 = () => 'Hello!';
 console.log('sin parámetros, funcíon FLECHA EN UNA SOLA LÍNEA  ' + hello3());
+```
 
+
+2. CON 1 PARÁMETRO
 
 
 
@@ -786,11 +789,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjAxMzQ1NywzMjIzODU2NzMsLTExNj
-MzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUxNCwxMTY0NzYz
-Mjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5NzM5MjQ3NC
-wzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC0xMTM3
-NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0xMzEwMz
-M2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3MiwtMTI4NDg0OTYz
-MywtNTE0MjU4ODNdfQ==
+eyJoaXN0b3J5IjpbLTUyNzYwMjE5NiwtNzQyMDEzNDU3LDMyMj
+M4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5
+NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzExNjQ0Mi
+wxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLDIwMDY3
+NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3MTg0NT
+I5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3Mzcy
+LC0xMjg0ODQ5NjMzXX0=
 -->
