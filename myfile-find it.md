@@ -535,14 +535,14 @@ console.log('dos parámetros, función FLECHA EN UNA SOLA LÍNEA ' + hello9('mil
 **COMPAREMOS** LA SINTAXIS de los 3 tipos de función diferentes:
 <br>
 
-i.a) Expresión de Función Anónima
+i.-a) Expresión de Función Anónima
 
 <img src="expresionDeFuncion.png" width="50%" Alt="expresionDefuncion">
 
 <br>
 <br>
 
-i.b) Expresión de Función Nombrada
+i.-b) Expresión de Función Nombrada
 
 <img src="funcionDeclaradanombrada.png" width="50%" Alt="función declarada nombrada">
 
@@ -554,7 +554,11 @@ i.b) Expresión de Función Nombrada
 <br>
 
 
-ii) Declaración de función tradicional o regular
+ii
+
+ 1. List item
+
+) Declaración de función tradicional o regular
 
 <img src="funcionDeclarada.png" width="50%" Alt="funcion declarada anónima">
 <br>
@@ -988,11 +992,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMj
-U5NTczMTIwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2MzI0MDgz
-LDE4NTA5MTQxNzMsLTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMj
-E4NjM0Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMx
-MywxODMyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNz
-g4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1Njcz
-XX0=
+eyJoaXN0b3J5IjpbLTIwNTI4NDI2NDEsMTMwOTcwNTI0NSwtMT
+MyMjYyNDkzMSwtMjU5NTczMTIwLDY1MDYxMjgyLDExMjQ3Mjg1
+NzksNjU2MzI0MDgzLDE4NTA5MTQxNzMsLTUyMDI2Mjg3OCwxNj
+UxMTM0NzIyLC0xMjE4NjM0Njg4LDEzMzYyMjYxNjksLTYxMDI4
+MzUsMTE1OTAxNDMxMywxODMyMTc4NzQwLDc1ODk4ODM5LDE5Mz
+A4ODM2MiwtMjIxNzg4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0
+NTddfQ==
 -->
