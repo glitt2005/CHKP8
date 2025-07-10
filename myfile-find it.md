@@ -437,17 +437,17 @@ console.log('Welcome to Arrow Functions!');
 
 // SIN PARÁMETROS
 
-// a) sin parámetros, regular function
+// a) sin parámetros, función declarada 
 function hello1() {
     return 'Hello!';
 }
-console.log('no parameters, regular function ' + hello1());
+console.log('sin parámetros, función declarada ' + hola1());
 
 // b) sin parámetros, función FLECHA
 const hello2 = () => {
     return 'Hello!';
 }
-console.log('no parameters, arrow function ' + hello2());
+console.log('sin parámetros, función FLECHA ' + hola2());
 
 // no parameter, arrow function single line 
 const hello3 = () => 'Hello!';
@@ -651,11 +651,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nz
-c5NTQxODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0
-MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMT
-U3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1Mjky
-NSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4LDE4Nj
-I5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUx
-XX0=
+eyJoaXN0b3J5IjpbLTE5NTQ1MzY2MDUsLTk0MDYzMDczOSwtMz
+k4OTk3NDg4LC02Nzc5NTQxODQsLTg0Njg5NDQxNCwxNzA0MjY3
+MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LD
+IwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2
+NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05ODUyODg2NSwtOD
+Y1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4
+MDZdfQ==
 -->
