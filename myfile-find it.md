@@ -442,7 +442,7 @@ Una **función flecha** (o ***arrow function***) es una  forma concisa de defini
 Las funciones flecha **son de las funciones más cruciales para aprender en Javascript** ya que están por todos los lados. Su **sintaxis** es completamente **diferente** a cualquier otra declaración de variable.
 
 
-## 0) Ejemplos FUNCIÓN DECLARADA vs FUNCIÓN FLECHA
+## Ejemplos FUNCIÓN DECLARADA vs FUNCIÓN FLECHA
 
 
 0.  SIN PARÁMETROS
@@ -517,7 +517,7 @@ console.log(hello8('milburn', 'gomes'));
 const hello9 = (x,y) =>  "Hello, " + x + " " + y;
 console.log('dos parámetros, función FLECHA EN UNA SOLA LÍNEA ' + hello9('milburn', 'gomes'));
 ```
-
+### CARACTERÍSTICAS PRINCIPALES:  SU SINTAXIS Y SU MANEJO DEL this`this` 
 
 ## 1) Sintaxis concisa
 Su sintaxis más **compacta** ; efectivamente su concisa sintaxis hace que sea muy utilizada.  
@@ -787,11 +787,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDU1OTg1LC03NDIwMTM0NTcsMzIyMz
-g1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1
-MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLD
-EzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMjAwNjc2
-NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcxODQ1Mj
-k3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOTczNzIs
-LTEyODQ4NDk2MzNdfQ==
+eyJoaXN0b3J5IjpbLTEwODQ3OTc1NjUsLTc0MjAxMzQ1NywzMj
+IzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAz
+OTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0ND
+IsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2
+NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4ND
+UyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3
+MiwtMTI4NDg0OTYzM119
 -->
