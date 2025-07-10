@@ -499,7 +499,7 @@ La palabra clave **`this`** tiene un comportamiento diferente en las **funciones
  
 - Si una **función regular se llama directamente** o se pasa como **callback sin un contexto** específico, `this` dentro de esa función se referirá al **objeto global**
 
-- De hecho, el principal problema al acceder a **`this`** dentro de una declaración de función en JavaScript es que  **su valor depende del contexto de llamada de la función, no de dónde se declara.** Esto puede llevar a **comportamientos inesperados si la función se pasa como callback o se usa en diferentes contextos,** ya que  `this`  podría referirse a algo distinto a lo que se esperaba.
+- De hecho, el principal problema al acceder a **`this`** dentro de una declaración de función en JavaScript es que  **su valor depende del contexto de llamada de la función, no de dónde se declara**.  Esto puede llevar a **comportamientos inesperados si la función se pasa como callback o se usa en diferentes contextos,** ya que  **`this`**  podría referirse a algo distinto a lo que se esperaba.
 
 En el siguiente caso, no podríamos acceder al `this` de la función `MiObjeto()` mi necesitamos:
 
@@ -791,7 +791,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTk0MDM5LDEyNDA3MzYxMjksLTEyMD
+eyJoaXN0b3J5IjpbNTg5MTIxMTUzLDEyNDA3MzYxMjksLTEyMD
 UwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2
 NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMj
 AwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcx
