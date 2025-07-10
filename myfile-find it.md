@@ -655,6 +655,11 @@ En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** so
 <br>
     <thead>
         <tr>
+        p {  
+font-family: 'Open Sans', sans-serif;  
+font-weight: lighter;  
+font-size: 14px;  
+}
             <th>Acción</th>
             <th>qué</th>
             <th>objetivo</th>
@@ -837,7 +842,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDM3MDUzNCwtNjEwMjgzNSwxMTU5MD
+eyJoaXN0b3J5IjpbLTQyNzQ5NTg0MiwtNjEwMjgzNSwxMTU5MD
 E0MzEzLDE4MzIxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYyLC0y
 MjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzOD
 U2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUx
