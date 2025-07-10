@@ -534,25 +534,20 @@ this.obtenerValorFlecha = () => {
 obj.obtenerValorFlecha(); // Salida: 10
 ```
 
+<BR>
 
+EN RESUMEN:
 
 -   **Contexto Léxico:** `this`  en una función flecha se evalúa en el contexto donde la función fue definida, no donde es llamada.
     
--   No tienen su propio  `this`: No tienen su propio  `this`.
+-   No tienen su propio  `this`
     
--   **Uso recomendado:** Son útiles cuando se quiere mantener el  `this`  del contexto envolvente, como en callbacks o métodos de objetos donde no se requiere que  `this`  apunte al objeto que llama a la función.
+-   **Uso recomendado:** Son útiles cuando se quiere mantener el  `this`  del contexto envolvente, como en **callbacks** o **métodos de objetos** donde no se requiere que  **`this`  apunte al objeto que llama a la función.**
 
-**strong text**
 
-Ventajas de las funciones flecha:
 
--   **Código más legible:**
+
     
-    La sintaxis más corta puede hacer que el código sea más fácil de leer, especialmente en funciones cortas.
-    
--   `this`  léxico:
-    
-    Evita problemas con el  `this`  en ciertos contextos, como callbacks o métodos de objetos.
     
 -   **Mayor concisión:**
     
@@ -791,11 +786,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg2NTU1NDQsMTI0MDczNjEyOSwtMT
-IwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMx
-MTY0NDIsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMS
-wyMDA2NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0x
-NzE4NDUyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MD
-E5NzM3MiwtMTI4NDg0OTYzMywtNTE0MjU4ODMsLTEwMjE5Njky
-MjksMTY3MjQyNzM3XX0=
+eyJoaXN0b3J5IjpbMTk3NzIyNDI0NywxMjQwNzM2MTI5LC0xMj
+A1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzEx
+NjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLD
+IwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3
+MTg0NTI5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMT
+k3MzcyLC0xMjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIy
+OSwxNjcyNDI3MzddfQ==
 -->
