@@ -493,8 +493,8 @@ En realidad, si comparamos una función regular con una flecha, en lugar de tene
 
 La palabra clave `this` tiene un comportamiento diferente en las **funciones flecha**.  A diferencia de las funciones tradicionales, las funciones flecha **no tienen su propio  `this`** .  El valor de  **`this`**  dentro de una función flecha es el mismo que **el de su entorno léxico (el contexto donde fue definida).**
 
-EJEMPLO:
-
+EJEMPLO - DECLARACIÓN DE FUNCIÓN:
+En el   **contexto de llamada:**,  `this`  en una función regular se determina en el momento de la llamada, según cómo se invoque la función.
 En una declaración de función normal, no podrá acceder al this
 
 
@@ -755,7 +755,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkzNjM1ODksMTE2NDc2MzI5OCwxND
+eyJoaXN0b3J5IjpbLTExODg2NTg4MjUsMTE2NDc2MzI5OCwxND
 IzNTc2NjQ3LC0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2
 OTc2LDEyNDYxNDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MC
 wtMTIzNjU2MTU0OCwtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwx
