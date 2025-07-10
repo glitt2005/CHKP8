@@ -366,8 +366,8 @@ console.log(b); // 1 - ha cambiado: var- alcance global
 - La  variable **`const`** es **la más nueva**, y es una abreviación de "**constante**". 
 - Su valor **no puede ser reasignado después de su inicialización**.
 - Se ha convertido en **una de las más populares** a la hora de declarar variables. Se puede ver en los desarrolladores que **es la preferida por encima de las otras opciones** .
-- En la mayoría de aplicaciones se ven sobre todo la  variable **`const`**  y la  variable **`let`**. 
-- Por norma general en los programas modernos (especialmente en *React*, *Angular* o plataformas del estilo) se utiliza la  variable **`const`**.
+- En la **mayoría de aplicaciones** se ven sobre todo la **variable `const`  y la  variable `let`**. 
+- Por norma general en los programas modernos (especialmente en ***React*, *Angular*** o plataformas del estilo) se utiliza **la  variable **`const`**.**
 
 EJEMPLO DE **`const`**:
 
@@ -604,7 +604,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4Nzc5NDM0LC02Nzc5NTQxODQsLTg0Nj
+eyJoaXN0b3J5IjpbODA4ODI3NTc2LC02Nzc5NTQxODQsLTg0Nj
 g5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5
 MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MD
 k2ODA4MjksODA2NDQ2NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4
