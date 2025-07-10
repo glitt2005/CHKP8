@@ -450,17 +450,22 @@ a) Expresión de Función
 
 <img src="expresionDeFuncion.png" width="50%">
 
+<br>
+
+
 
 
 b) Declaración de función tradicional o regular
 
 <img src="funcionDeclarada.png" width="50%">
+<br>
 
 
 
 c) Función flecha:
 
 <img src="funcionFlecha1.png" width="50%">
+<br>
 
 
 En lugar de tener que escribir "function" cada vez que queremos declarar una función, podemos utilizar la sintaxis "=>" para declarar una función de flecha. 
@@ -713,11 +718,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzY1NjE1NDgsLTE3MTg0NTI5NzQsLT
-EzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3MzcyLC0xMjg0
-ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIyOSwxNjcyNDI3Mz
-csLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQsLTg0
-Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNz
-M5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0
-MDk2ODA4MjldfQ==
+eyJoaXN0b3J5IjpbLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLT
+E3MTg0NTI5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQw
+MTk3MzcyLC0xMjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OT
+IyOSwxNjcyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02
+Nzc5NTQxODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3Nj
+Y0MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAs
+MTU3NzA4NjA4MF19
 -->
