@@ -646,7 +646,7 @@ obj.obtenerValorFlecha(); // Salida: 10
 
 
 # 4 ¿Qué es la deconstrucción de variables?
-En JavaScript, **deconstrucción** (o *destructuring*) y **desestructuración** (o *destructuring*) son términos que se refieren a la misma característica del lenguaje, introducida en ECMAScript 6 (**ES6**). Ambos términos se utilizan indistintamente para describir la **sintaxis que permite extraer valores de arreglos y propiedades de objetos en variables individuales de manera más concisa.**
+En JavaScript, **deconstrucción** (o *destructuring*) y **desestructuración** (o *destructuring*) son términos que se refieren a la misma característica del lenguaje, introducida en ECMAScript 6 (**ES6**). Ambos términos se utilizan indistintamente para describir la **sintaxis que permite intercambiar valores de variables de manera más concisa.**
 
 
 <table>
@@ -841,7 +841,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MDU0NzQ5NiwxMzM2MjI2MTY5LC02MT
+eyJoaXN0b3J5IjpbMjA3OTUyMzQyOSwxMzM2MjI2MTY5LC02MT
 AyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwx
 OTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMD
 EzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5
