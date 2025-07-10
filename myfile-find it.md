@@ -451,7 +451,8 @@ a) Expresión de Función
 <img src="expresionDeFuncion.png" width="50%">
 <img src="ruta/a/tu/imagen.jpg" width="300" height="200">
 
-<img src="/MarkdownToolboxSmall.png" width="58" height="56"/>
+<img src="/expresionDeFuncion.png" width="58" height="56"/>
+
 
 
 b) Declaración de función tradicional o regular
@@ -714,7 +715,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTAyNzIzNywxNTQwMTk3MzcyLC0xMj
+eyJoaXN0b3J5IjpbMTI2MDgxNjMzNCwxNTQwMTk3MzcyLC0xMj
 g0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIyOSwxNjcyNDI3
 MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQsLT
 g0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkw
