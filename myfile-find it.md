@@ -798,11 +798,22 @@ La desestructuración también se puede utilizar **al pasar argumentos a funcion
 ```JavaScript
 function mostrarInfo({ nombre, edad }) {
   console.log(`Nombre: ${nombre}, Edad: ${edad}`);
-}const persona2 = { nombre: 'Ana', edad: 25 };mostrarInfo(persona2); // Output: Nombre: Ana, Edad: 25function mostrarNumeros([primero, segundo]) {  console.log(`Primer número: ${primero}, Segundo número: ${segundo}`);}mostrarNumeros([10, 20]); // Output: Primer número: 10, Segundo número: 20
+}
+
+const persona2 = { nombre: 'Ana', edad: 25 };
+mostrarInfo(persona2);   // Output: Nombre: Ana, Edad: 25
+
+
+function mostrarNumeros([primero, segundo]) {
+    console.log(`
+    Primer número: ${primero}, 
+    Segundo número: ${segundo}
+    `);}
+    mostrarNumeros([10, 20]); // Output: Primer número: 10, Segundo número: 20
 ```
 
-Valores por Defecto:
-
+Debemos llamar a la función siempre teniendo en cuenta el tipo de datos que contiene.
+####  VALORES POR DEFECTO:
 La desestructuración permite establecer valores por defecto para las variables, en caso de que la propiedad o elemento del arreglo no exista.
 
 
@@ -967,11 +978,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDcyODU3OSw2NTYzMjQwODMsMTg1MD
-kxNDE3MywtNTIwMjYyODc4LDE2NTExMzQ3MjIsLTEyMTg2MzQ2
-ODgsMTMzNjIyNjE2OSwtNjEwMjgzNSwxMTU5MDE0MzEzLDE4Mz
-IxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYyLC0yMjE3ODg5Nzgs
-LTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzODU2NzMsLTExNj
-MzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUxNCwxMTY0NzYz
-Mjk4XX0=
+eyJoaXN0b3J5IjpbLTEwNDA0Nzc4MjgsMTEyNDcyODU3OSw2NT
+YzMjQwODMsMTg1MDkxNDE3MywtNTIwMjYyODc4LDE2NTExMzQ3
+MjIsLTEyMTg2MzQ2ODgsMTMzNjIyNjE2OSwtNjEwMjgzNSwxMT
+U5MDE0MzEzLDE4MzIxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYy
+LC0yMjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMj
+IzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAz
+OTUxNF19
 -->
