@@ -288,11 +288,10 @@ Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do 
 
 
 
-
+--------------------------
 
 
 # 2 ¿Cuáles son las diferencias entre const, let y var?
-
 
 ## 1. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  var</font>
 - Durante muchos años, en JavaScript **sólo existía** la  variable **`var`**.  
@@ -427,6 +426,7 @@ EN RESUMEN:
 | **`const`** | Spara declarar variables que no van a cambiar su valor a lo largo del programa |
 
 
+---
 
 
 
@@ -794,11 +794,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDUwMzc5NzIsLTc0MjAxMzQ1NywzMj
-IzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAz
-OTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0ND
-IsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2
-NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4ND
-UyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3
-MiwtMTI4NDg0OTYzM119
+eyJoaXN0b3J5IjpbNTAzNzYzOTMzLC03NDIwMTM0NTcsMzIyMz
+g1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1
+MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLD
+EzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMjAwNjc2
+NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcxODQ1Mj
+k3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOTczNzIs
+LTEyODQ4NDk2MzNdfQ==
 -->
