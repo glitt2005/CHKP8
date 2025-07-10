@@ -447,11 +447,11 @@ Se caracterizan por:
 -   Su sintaxis más compacta ; efectivamente su concisa sintaxis hace que sea muy utilizada.  Comparemos:
 
 a) Expresión de Función
-![expresión de función ](expresionDeFuncion.png)
+
 <img src="expresionDeFuncion.png" width="50%">
 <img src="ruta/a/tu/imagen.jpg" width="300" height="200">
 
-<img src="/expresionDeFuncion.png" width="58" height="56"/>
+
 
 
 
@@ -715,11 +715,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDgxNjMzNCwxNTQwMTk3MzcyLC0xMj
-g0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIyOSwxNjcyNDI3
-MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQsLT
-g0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkw
-NzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MC
-w0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1MjkyNSwtNDY2NzE3
-ODc4XX0=
+eyJoaXN0b3J5IjpbLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNT
+QwMTk3MzcyLC0xMjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2
+OTIyOSwxNjcyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC
+02Nzc5NTQxODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3
+NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOT
+AsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1
+MjkyNV19
 -->
