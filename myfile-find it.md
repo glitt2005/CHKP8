@@ -496,7 +496,7 @@ La palabra clave `this` tiene un comportamiento diferente en las **funciones fle
 
 
 
-
+**strong text**
 
 Ventajas de las funciones flecha:
 
@@ -745,7 +745,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDkwMDk1MiwxNDIzNTc2NjQ3LC0xOD
+eyJoaXN0b3J5IjpbMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xOD
 YzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0
 MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OC
 wtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1
