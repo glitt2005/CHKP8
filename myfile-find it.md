@@ -674,6 +674,21 @@ En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** so
 
 <br>
 <br>
+
+<table>
+  <tr>
+    <th>Encabezado 1</th>
+    <th>Encabezado 2</th>
+  </tr>
+  <tr>
+    <td>Dato 1</td>
+    <td>Dato 2</td>
+  </tr>
+  <tr>
+    <td>Dato 3</td>
+    <td>Dato 4</td>
+  </tr>
+</table>
 En esencia, la desestructuración (o deconstrucción) facilita la extracción de datos de estructuras complejas como arreglos y objetos y su asignación a variables separadas, haciendo el código más legible y evitando la necesidad de acceder repetidamente a los elementos de la estructura original.
 # 5 ¿Qué hace el operador de extensión en JS?
 
@@ -830,11 +845,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjU5MjQ1MCwxODMyMTc4NzQwLDc1OD
-k4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4LC0xMjU5MDE3Njk5
-LC03NDIwMTM0NTcsMzIyMzg1NjczLC0xMTYzMzA5NzY1LDEyND
-A3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2
-NjQ3LC0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LD
-EyNDYxNDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIz
-NjU2MTU0OF19
+eyJoaXN0b3J5IjpbLTE5NTg5NDYyNTUsMTgzMjE3ODc0MCw3NT
+g5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5
+OSwtNzQyMDEzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMj
+QwNzM2MTI5LC0xMjA1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3
+NjY0NywtMTg2MzExNjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3Ni
+wxMjQ2MTQ3NDExLDIwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEy
+MzY1NjE1NDhdfQ==
 -->
