@@ -654,11 +654,16 @@ En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** so
 <br>
 <br>
     <thead>
+    <style>  
+.no-bold th {  
+font-weight: normal;  
+}  
         <tr>
              <th>Acción</th>
             <th>qué</th>
             <th>objetivo</th>
        </tr>
+       </style>
     </thead>
     <tbody>
         <tr>
@@ -836,11 +841,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjIyNjE2OSwtNjEwMjgzNSwxMTU5MD
-E0MzEzLDE4MzIxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYyLC0y
-MjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzOD
-U2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUx
-NCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMT
-M5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0
-NTA3XX0=
+eyJoaXN0b3J5IjpbLTE3NjY2NjEyNDcsMTMzNjIyNjE2OSwtNj
+EwMjgzNSwxMTU5MDE0MzEzLDE4MzIxNzg3NDAsNzU4OTg4Mzks
+MTkzMDg4MzYyLC0yMjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0Mj
+AxMzQ1NywzMjIzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEy
+OSwtMTIwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLT
+E4NjMxMTY0NDIsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0
+NzQxMV19
 -->
