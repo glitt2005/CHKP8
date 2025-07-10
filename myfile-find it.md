@@ -710,9 +710,9 @@ console.log(jugador2); // Output: X
 ```
 
  En este ejemplo, la línea  `[jugador1, jugador2] = [jugador2, jugador1];` realiza la magia: 
-```
+
 &nbsp; 1. Se crea un arreglo con los valores actuales de  `jugador2`  y  `jugador1`. 
-> 2. Luego, la desestructuración asigna el primer valor (anteriormente el de  `jugador2`) a  `jugador1`  y el segundo valor (anteriormente el de  `jugador1`) a  `jugador2`, logrando así el intercambio
+&nbsp; 2. Luego, la desestructuración asigna el primer valor (anteriormente el de  `jugador2`) a  `jugador1`  y el segundo valor (anteriormente el de  `jugador1`) a  `jugador2`, logrando así el intercambio
 
 
 ```JavaScript
@@ -885,7 +885,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDQyODkzMSwxNjUxMTM0NzIyLC0xMj
+eyJoaXN0b3J5IjpbLTM0Mzg4MzU3MywxNjUxMTM0NzIyLC0xMj
 E4NjM0Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMx
 MywxODMyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNz
 g4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1Njcz
