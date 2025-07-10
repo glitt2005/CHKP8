@@ -556,11 +556,11 @@ EN RESUMEN:
 2. LIMITACIONES DE LAS FUNCIONES FLECHA
 3.
 - No pueden usarse como constructores (no se pueden llamar con `new`).
-- no tienen su propio objeto `arguments` con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea. y su `this` se hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.
+- no tienen su propio objeto `arguments` con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea.
+- su `this` se determina en el momento de la creación de la función, y se hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.
 
 
--   **No son adecuadas para todos los casos:** No se deben usar como constructores (no se puede usar con  `new`) ni como métodos que necesitan acceder al objeto actual con  `this`.
--   `arguments`  no disponible: No tienen acceso al objeto  `arguments`.
+
 ```JavaScript
 
 // SIN PARÁMETROS
@@ -789,11 +789,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMT
-IwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMx
-MTY0NDIsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMS
-wyMDA2NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0x
-NzE4NDUyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MD
-E5NzM3MiwtMTI4NDg0OTYzMywtNTE0MjU4ODMsLTEwMjE5Njky
-MjksMTY3MjQyNzM3XX0=
+eyJoaXN0b3J5IjpbLTU0NTM3NDQwLC0xMTYzMzA5NzY1LDEyND
+A3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2
+NjQ3LC0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LD
+EyNDYxNDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIz
+NjU2MTU0OCwtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwxMjYwOD
+E2MzM0LDE1NDAxOTczNzIsLTEyODQ4NDk2MzMsLTUxNDI1ODgz
+LC0xMDIxOTY5MjI5XX0=
 -->
