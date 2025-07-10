@@ -495,13 +495,13 @@ La palabra clave **`this`** tiene un comportamiento diferente en las **funciones
 
 #### a) EJEMPLO - **`this`**  en DECLARACIÓN DE FUNCIÓN:
 
-- En el  **contexto de llamada**,  `this`  en una **función regular** se determina **en el momento de la llamada**, **según cómo se invoque la función.**
+- En el  **contexto de llamada**,  **`this`**  en una **función regular** se determina **en el momento de la llamada**, **según cómo se invoque la función.**
  
-- Si una **función regular se llama directamente** o se pasa como **callback sin un contexto** específico, `this` dentro de esa función se referirá al **objeto global**
+- Si una **función regular se llama directamente** o se pasa como **callback sin un contexto** específico, **`this`** dentro de esa función se referirá al **objeto global**
 
-- De hecho, el principal problema al acceder a **`this`** dentro de una declaración de función en JavaScript es que  **su valor depende del contexto de llamada de la función, no de dónde se declara**.  Esto puede llevar a **comportamientos inesperados si la función se pasa como callback o se usa en diferentes contextos,** ya que  **`this`**  podría referirse a algo distinto a lo que se esperaba.
+- De hecho, el principal problema al acceder a  **`this`**  dentro de una declaración de función en JavaScript es que  **su valor depende del contexto de llamada de la función, no de dónde se declara**.  Esto puede llevar a **comportamientos inesperados si la función se pasa como callback o se usa en diferentes contextos,** ya que  **`this`**  podría referirse a algo distinto a lo que se esperaba.
 
-En el siguiente caso, no podríamos acceder al `this` de la función `MiObjeto()` mi necesitamos:
+En el siguiente caso, no podríamos acceder al ,  **`this`**  de la función `MiObjeto()` que necesitamos:
 
 ```JavaScript
 function MiObjeto() {
@@ -791,11 +791,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5MTIxMTUzLDEyNDA3MzYxMjksLTEyMD
-UwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2
-NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMj
-AwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcx
-ODQ1Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOT
-czNzIsLTEyODQ4NDk2MzMsLTUxNDI1ODgzLC0xMDIxOTY5MjI5
-LDE2NzI0MjczN119
+eyJoaXN0b3J5IjpbLTE4Njg2NTU1NDQsMTI0MDczNjEyOSwtMT
+IwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMx
+MTY0NDIsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMS
+wyMDA2NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0x
+NzE4NDUyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MD
+E5NzM3MiwtMTI4NDg0OTYzMywtNTE0MjU4ODMsLTEwMjE5Njky
+MjksMTY3MjQyNzM3XX0=
 -->
