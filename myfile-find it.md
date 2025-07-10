@@ -432,8 +432,63 @@ EN RESUMEN:
 
 
 # 3 ¿Qué es una función de flecha?
+```JavaScript
+console.log('Welcome to Arrow Functions!');
 
+// NO PARAMETERS
 
+// no parameter, regular function
+function hello1() {
+    return 'Hello!';
+}
+console.log('no parameters, regular function ' + hello1());
+
+// no parameter, arrow function
+const hello2 = () => {
+    return 'Hello!';
+}
+console.log('no parameters, arrow function ' + hello2());
+
+// no parameter, arrow function single line 
+const hello3 = () => 'Hello!';
+console.log('no parameters, arrow function single line  ' + hello3());
+
+// UN PARÁMETRO
+
+// one parameter, regular function
+function hello4(x){
+    return 'one parameter, regular function ' + 'Hello, ' + x;
+}
+console.log(hello4('milburn'));
+
+// one parameter, arrow function
+const hello5 = x => {
+   return  'one parameter, arrow function ' + 'Hello, ' + x;
+}
+console.log(hello5('milburn'));
+
+// one parameter, arrow function single line 
+const hello6 = x => 'Hello, ' + x;
+console.log('one parameter, arrow function single line ' + hello6('milburn'));
+
+//DOS PARAMETROS
+
+// two parameters, regular function
+function hello7(x,y){
+    return 'Hello, ' + x + ' ' + y; 
+}
+console.log('two parameters, regular function ' + hello7('milburn', 'gomes'));
+
+// two parameters, arrow function
+const hello8 = (x,y) =>{
+    return 'two parameters, arrow function ' + 'Hello, ' + x + ' ' + y;
+}
+console.log(hello8('milburn', 'gomes'));
+
+// two parameters, arrow function single line 
+const hello9 = (x,y) =>  "Hello, " + x + " " + y;
+console.log('two parameters, arrow function single line ' + hello9('milburn', 'gomes'));
+```
 
 # 4 ¿Qué es la deconstrucción de variables?
 
@@ -592,11 +647,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5ODk5NzQ4OCwtNjc3OTU0MTg0LC04ND
-Y4OTQ0MTQsMTcwNDI2NzA4NCwtOTEwNzY2NDEwLDEwNjg5MDcz
-OTIsMTI2NTUwNjAzOCwyMDY1NjEyMDkwLDE1NzcwODYwODAsND
-A5NjgwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUsLTQ2NjcxNzg3
-OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgxMDI3LDYwMD
-U5ODgxOSwtNDM1NzY1ODA2LDMwMDMzNTk1MSwxNTQ5Njg5MjE2
+eyJoaXN0b3J5IjpbMTkzMjQxODAxMywtMzk4OTk3NDg4LC02Nz
+c5NTQxODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0
+MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMT
+U3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1Mjky
+NSwtNDY2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4LDE4Nj
+I5ODEwMjcsNjAwNTk4ODE5LC00MzU3NjU4MDYsMzAwMzM1OTUx
 XX0=
 -->
