@@ -447,7 +447,7 @@ a) Sintaxis declaración de función tradicional o regular:
 
 
 b) Sintaxis función flecha:
-![enter image description here](funcionFlecha1)
+![funcionFlecha](funcionFlecha1)
 
 
 
@@ -702,11 +702,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAyOTAzNDUsLTEwMjE5NjkyMjksMT
-Y3MjQyNzM3LC05NDA2MzA3MzksLTM5ODk5NzQ4OCwtNjc3OTU0
-MTg0LC04NDY4OTQ0MTQsMTcwNDI2NzA4NCwtOTEwNzY2NDEwLD
-EwNjg5MDczOTIsMTI2NTUwNjAzOCwyMDY1NjEyMDkwLDE1Nzcw
-ODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUsLT
-Q2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgx
-MDI3XX0=
+eyJoaXN0b3J5IjpbMTEwMTMyOTg2NywtMTAyMTk2OTIyOSwxNj
+cyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQx
+ODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMT
+A2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4
+NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1MjkyNSwtND
+Y2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEw
+MjddfQ==
 -->
