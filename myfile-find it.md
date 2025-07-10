@@ -541,14 +541,13 @@ EN RESUMEN:
 ##### 1. VENTAJAS DE LAS FUNCIONES FLECHA
 - **Contexto Léxico:** A diferencia de las funciones regulares, las funciones flecha **no tienen su propio enlace a  `this`.** En cambio,  `this`  dentro de una función flecha se refiere al contexto léxico, es decir, al **valor de  `this`  en el ámbito donde la función flecha fue definida. Esto evita errores comunes** relacionados con el contexto de  `this`  al usar funciones de **callback** dentro de **métodos de objetos o en otros contextos donde  `this`  podría cambiar dinámicamente.**
 
+
     
 -   **Uso recomendado:** Son útiles cuando se quiere mantener el  `this`  del contexto envolvente, como en **callbacks** o **métodos de objetos** donde no se requiere que  **`this`  apunte al objeto que llama a la función.**
 
 
     
--   **Mayor concisión:**
-    
-    Son ideales para funciones cortas y funciones que se pasan como argumentos a otras funciones.
+-   **Mayor concisión:** Son ideales para funciones **cortas** y funciones que se pasan como argumentos a otras funciones.
     
 
 ##### 2. LIMITACIONES DE LAS FUNCIONES FLECHA
@@ -787,7 +786,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDc3NjA3MywzMjIzODU2NzMsLTExNj
+eyJoaXN0b3J5IjpbLTc0MjAxMzQ1NywzMjIzODU2NzMsLTExNj
 MzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUxNCwxMTY0NzYz
 Mjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5NzM5MjQ3NC
 wzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC0xMTM3
