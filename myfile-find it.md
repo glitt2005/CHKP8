@@ -382,8 +382,11 @@ objeto = { nombre: "Nuevo", valor: 30 };
 // Esto daría error, no se puede reasignar la constante objeto.
 ```
 
+<br>
 
 EJEMPLO DE **`const`** VS. **`let`**:
+<br>
+
 **1) `const` : esta variable no se puede cambiar**^(*1)^
 
 ```JavaScript
@@ -397,9 +400,10 @@ console.log(casa);
 //           "TypeError: Assignment to constant variable. 
 ```
 
-^(*1)^**OJO!!**  Si estamos utilizando la plataforma web CODEPEN, no nos va a mostrar el error, por ello en este caso deberíamos utilizar otras opciones, **como la consola del navegador.**
+^(*1)^**OJO!!**  Si estamos utilizando la plataforma web **CODEPEN**, **no nos va a mostrar el error**, por ello en este caso deberíamos utilizar otras opciones, **como la consola del navegador.**
+<br>
 
-**1)`let` : la variable se ha podido cambiar**
+**2)`let` : la variable se ha podido cambiar**
 ```JavaScript
 let casa  =  "Benidorm";  
 console.log(casa);   //devuelve: "Benidorm"
@@ -798,11 +802,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTM2MTg5LC0xMjU5MDE3Njk5LC03ND
-IwMTM0NTcsMzIyMzg1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYx
-MjksLTEyMDUwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC
-0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYx
-NDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MT
-U0OCwtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0
-LDE1NDAxOTczNzJdfQ==
+eyJoaXN0b3J5IjpbLTIyMTc4ODk3OCwtMTI1OTAxNzY5OSwtNz
+QyMDEzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2
+MTI5LC0xMjA1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0Ny
+wtMTg2MzExNjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2
+MTQ3NDExLDIwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1Nj
+E1NDgsLTE3MTg0NTI5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMz
+NCwxNTQwMTk3MzcyXX0=
 -->
