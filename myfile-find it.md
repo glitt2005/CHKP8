@@ -438,9 +438,28 @@ EN RESUMEN:
 una función flecha (o arrow function) es una  forma concisa de definir funciones anónimas, introducida en ES6 (EcmaScript 2015). 
 
 Se caracterizan por:
--   su sintaxis más compacta 
--  tener un comportamiento diferente en cuanto al manejo del  `this`. A diferencia de las funciones tradicionales, las funciones flecha no tienen su propio  `this`. El valor de  `this`  dentro de una función flecha es el mismo que el de su entorno léxico (el contexto donde fue definida).
+-   su sintaxis más compacta .Una de las principales ventajas de las funciones de flecha es su sintaxis concisa. En lugar de tener que escribir "function" cada vez que quieres declarar una función, puedes utilizar la sintaxis "=>" para declarar una función de flecha.
 
+-  tener un comportamiento diferente en cuanto al manejo del  `this`. A diferencia de las funciones tradicionales, las funciones flecha no tienen su propio  `this`. El valor de  `this`  dentro de una función flecha es el mismo que el de su entorno léxico (el contexto donde fue definida).
+Ventajas de las funciones flecha:
+
+-   **Código más legible:**
+    
+    La sintaxis más corta puede hacer que el código sea más fácil de leer, especialmente en funciones cortas.
+    
+-   `this`  léxico:
+    
+    Evita problemas con el  `this`  en ciertos contextos, como callbacks o métodos de objetos.
+    
+-   **Mayor concisión:**
+    
+    Son ideales para funciones cortas y funciones que se pasan como argumentos a otras funciones.
+    
+
+Desventajas de las funciones flecha:
+
+-   **No son adecuadas para todos los casos:** No se deben usar como constructores (no se puede usar con  `new`) ni como métodos que necesitan acceder al objeto actual con  `this`.
+-   `arguments`  no disponible: No tienen acceso al objeto  `arguments`.
 ```JavaScript
 
 // SIN PARÁMETROS
@@ -669,7 +688,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODUzNjk5MywtMTAyMTk2OTIyOSwxNj
+eyJoaXN0b3J5IjpbLTkxNjg5NzA4NiwtMTAyMTk2OTIyOSwxNj
 cyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQx
 ODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMT
 A2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4
