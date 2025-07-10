@@ -729,7 +729,7 @@ const [primero, segundo, , , quinto] = numeros;console.log(primero); // Output: 
 console.log(segundo); // Output: 2
 console.log(quinto);  // Output: 5
 ```
-
+Hubiera sido mucho más largo el hacer algo como:
 
 #### DECONSTRUCCIÓN DE OBJETOS:
 
@@ -941,11 +941,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTAyMTk1NywxODUwOTE0MTczLC01Mj
-AyNjI4NzgsMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMzM2MjI2
-MTY5LC02MTAyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0MCw3NT
-g5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5
-OSwtNzQyMDEzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMj
-QwNzM2MTI5LC0xMjA1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3
-NjY0N119
+eyJoaXN0b3J5IjpbNjU2MzI0MDgzLDE4NTA5MTQxNzMsLTUyMD
+I2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4NjM0Njg4LDEzMzYyMjYx
+NjksLTYxMDI4MzUsMTE1OTAxNDMxMywxODMyMTc4NzQwLDc1OD
+k4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4LC0xMjU5MDE3Njk5
+LC03NDIwMTM0NTcsMzIyMzg1NjczLC0xMTYzMzA5NzY1LDEyND
+A3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2
+NjQ3XX0=
 -->
