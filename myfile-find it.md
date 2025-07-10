@@ -719,7 +719,7 @@ console.log(jugador2); // Output: X
 
 #### DECONSTRUCCIÓN DE ARRAYS:
 
-La desestructuración de arrays arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí las dos comas extras (,) sustituyen cada una de ellas a un elemento del array siguiendo el orden:
+La desestructuración de arrays o arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí las dos comas extras (,) sustituyen cada una de ellas a un elemento del array siguiendo el orden:
 
 ##### ARRAYS - EJEMPLO 1:
 
@@ -964,11 +964,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2OTI3NTkzOSw2NTYzMjQwODMsMTg1MD
-kxNDE3MywtNTIwMjYyODc4LDE2NTExMzQ3MjIsLTEyMTg2MzQ2
-ODgsMTMzNjIyNjE2OSwtNjEwMjgzNSwxMTU5MDE0MzEzLDE4Mz
-IxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYyLC0yMjE3ODg5Nzgs
-LTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzODU2NzMsLTExNj
-MzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUxNCwxMTY0NzYz
-Mjk4XX0=
+eyJoaXN0b3J5IjpbLTEyNjc1NDU0ODYsNjU2MzI0MDgzLDE4NT
+A5MTQxNzMsLTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4NjM0
+Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMxMywxOD
+MyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4
+LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1NjczLC0xMT
+YzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2
+MzI5OF19
 -->
