@@ -433,7 +433,7 @@ EN RESUMEN:
 
 # 3 ¿Qué es una función de flecha?
 
-![función flecha simple](funcionFlecha0.png)
+
 <img src="funcionFlecha0.png" width="50%">
 una función flecha (o arrow function) es una  forma concisa de definir funciones anónimas, introducida en ES6 (EcmaScript 2015). 
 
@@ -451,6 +451,7 @@ a) Expresión de Función
 <img src="expresionDeFuncion.png" width="50%">
 
 <br>
+<br>
 
 
 
@@ -459,14 +460,14 @@ b) Declaración de función tradicional o regular
 
 <img src="funcionDeclarada.png" width="50%">
 <br>
-
+<br>
 
 
 c) Función flecha:
 
 <img src="funcionFlecha1.png" width="50%">
 <br>
-
+<br>
 
 En lugar de tener que escribir "function" cada vez que queremos declarar una función, podemos utilizar la sintaxis "=>" para declarar una función de flecha. 
 
@@ -718,11 +719,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLT
-E3MTg0NTI5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQw
-MTk3MzcyLC0xMjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OT
-IyOSwxNjcyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02
-Nzc5NTQxODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3Nj
-Y0MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAs
-MTU3NzA4NjA4MF19
+eyJoaXN0b3J5IjpbMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMT
+IzNjU2MTU0OCwtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwxMjYw
+ODE2MzM0LDE1NDAxOTczNzIsLTEyODQ4NDk2MzMsLTUxNDI1OD
+gzLC0xMDIxOTY5MjI5LDE2NzI0MjczNywtOTQwNjMwNzM5LC0z
+OTg5OTc0ODgsLTY3Nzk1NDE4NCwtODQ2ODk0NDE0LDE3MDQyNj
+cwODQsLTkxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNjU1MDYwMzgs
+MjA2NTYxMjA5MF19
 -->
