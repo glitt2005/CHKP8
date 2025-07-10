@@ -449,14 +449,17 @@ Se caracterizan por:
 ### 1) Sintaxis concisa
 -   Su sintaxis más compacta ; efectivamente su concisa sintaxis hace que sea muy utilizada.  Comparemos la sintaxis de los 3 tipos de función diferentes:
 
-i) **Expresión de Función**
+i) **a) Expresión de Función Anónima**
 
 <img src="expresionDeFuncion.png" width="50%">
 
 <br>
 <br>
 
+i) **b) Expresión de Función Nombrada**
 
+
+<img src="expresionDeFuncion.png" width="50%">
 
 ii) **Declaración de función tradicional o regular**
 
@@ -721,11 +724,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4NTc2OTYyLDEyNDYxNDc0MTEsMjAwNj
-c2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcxODQ1
-Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOTczNz
-IsLTEyODQ4NDk2MzMsLTUxNDI1ODgzLC0xMDIxOTY5MjI5LDE2
-NzI0MjczNywtOTQwNjMwNzM5LC0zOTg5OTc0ODgsLTY3Nzk1ND
-E4NCwtODQ2ODk0NDE0LDE3MDQyNjcwODQsLTkxMDc2NjQxMCwx
-MDY4OTA3MzkyXX0=
+eyJoaXN0b3J5IjpbMTAyOTAwOTM1MiwxMjQ2MTQ3NDExLDIwMD
+Y3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3MTg0
+NTI5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3Mz
+cyLC0xMjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIyOSwx
+NjcyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NT
+QxODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAs
+MTA2ODkwNzM5Ml19
 -->
