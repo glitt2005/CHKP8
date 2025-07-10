@@ -384,7 +384,7 @@ objeto = { nombre: "Nuevo", valor: 30 };
 
 
 EJEMPLO DE **`const`** VS. **`let`**:
-**1) `const` : esta variable no se puede cambiar**
+**1) `const` : esta variable no se puede cambiar**^(*1)^
 
 ```JavaScript
 const casa  =  "Benidorm";  
@@ -394,8 +394,10 @@ casa = "Marbella";
 console.log(casa);       
 
 // Devuelve un error:
-//           "TypeError: Assignment to constant variable^*1^". 
+//           "TypeError: Assignment to constant variable. 
 ```
+
+^(*1)^OJO! Si estamos utilizando el programa CODEPE
 **1)`let` : la variable se ha podido cambiar**
 ```JavaScript
 let casa  =  "Benidorm";  
@@ -795,11 +797,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDgxNzY3OTYsLTEyNTkwMTc2OTksLT
-c0MjAxMzQ1NywzMjIzODU2NzMsLTExNjMzMDk3NjUsMTI0MDcz
-NjEyOSwtMTIwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2ND
-csLTE4NjMxMTY0NDIsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0
-NjE0NzQxMSwyMDA2NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NT
-YxNTQ4LC0xNzE4NDUyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYz
-MzQsMTU0MDE5NzM3Ml19
+eyJoaXN0b3J5IjpbMTQ2MjUyNzQ5LC0xMjU5MDE3Njk5LC03ND
+IwMTM0NTcsMzIyMzg1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYx
+MjksLTEyMDUwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC
+0xODYzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYx
+NDc0MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MT
+U0OCwtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0
+LDE1NDAxOTczNzJdfQ==
 -->
