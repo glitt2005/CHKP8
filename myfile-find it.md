@@ -459,6 +459,8 @@ i) **a) Expresión de Función Anónima**
 i) **b) Expresión de Función Nombrada**
 
 <img src="funcionDeclaradanombrada.png" width="50%" Alt="función declarada nombrada">
+
+(El nombre  `decirHola`  es útil para identificar la función en los errores, pero no se usa para llamar a la función.)
 <br>
 
 ii) **Declaración de función tradicional o regular**
@@ -724,11 +726,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY0NzY2OTc2LDEyNDYxNDc0MTEsMjAwNj
-c2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcxODQ1
-Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOTczNz
-IsLTEyODQ4NDk2MzMsLTUxNDI1ODgzLC0xMDIxOTY5MjI5LDE2
-NzI0MjczNywtOTQwNjMwNzM5LC0zOTg5OTc0ODgsLTY3Nzk1ND
-E4NCwtODQ2ODk0NDE0LDE3MDQyNjcwODQsLTkxMDc2NjQxMCwx
-MDY4OTA3MzkyXX0=
+eyJoaXN0b3J5IjpbMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0Nj
+E0NzQxMSwyMDA2NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYx
+NTQ4LC0xNzE4NDUyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMz
+QsMTU0MDE5NzM3MiwtMTI4NDg0OTYzMywtNTE0MjU4ODMsLTEw
+MjE5NjkyMjksMTY3MjQyNzM3LC05NDA2MzA3MzksLTM5ODk5Nz
+Q4OCwtNjc3OTU0MTg0LC04NDY4OTQ0MTQsMTcwNDI2NzA4NCwt
+OTEwNzY2NDEwXX0=
 -->
