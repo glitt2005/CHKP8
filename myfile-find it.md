@@ -493,11 +493,13 @@ function hello7(x,y){
 }
 console.log('dos parámetros, función declarada ' + hello7('milburn', 'gomes'));
 
+
 // b) dos parámetros, función FLECHA
 const hello8 = (x,y) =>{
     return 'dos parámetros, función FLECHA ' + 'Hello, ' + x + ' ' + y;
 }
 console.log(hello8('milburn', 'gomes'));
+
 
 // c) dos parámetros, función FLECHA EN UNA SOLA LÍNEA
 const hello9 = (x,y) =>  "Hello, " + x + " " + y;
@@ -661,7 +663,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTAwMzYyNjUsMTY3MjQyNzM3LC05ND
+eyJoaXN0b3J5IjpbLTEwMjE5NjkyMjksMTY3MjQyNzM3LC05ND
 A2MzA3MzksLTM5ODk5NzQ4OCwtNjc3OTU0MTg0LC04NDY4OTQ0
 MTQsMTcwNDI2NzA4NCwtOTEwNzY2NDEwLDEwNjg5MDczOTIsMT
 I2NTUwNjAzOCwyMDY1NjEyMDkwLDE1NzcwODYwODAsNDA5Njgw
