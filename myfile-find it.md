@@ -432,8 +432,10 @@ EN RESUMEN:
 
 
 # 3 ¿Qué es una función de flecha?
+
+
+
 ```JavaScript
-console.log('Welcome to Arrow Functions!');
 
 // SIN PARÁMETROS
 
@@ -443,13 +445,16 @@ function hello1() {
 }
 console.log('sin parámetros, función declarada ' + hola1());
 
+
+
 // b) sin parámetros, función FLECHA
 const hello2 = () => {
     return 'Hello!';
 }
 console.log('sin parámetros, función FLECHA ' + hola2());
 
-// sin parámetros, función FLECHA EN UNA SOLA LÍNEA
+
+// c) sin parámetros, función FLECHA EN UNA SOLA LÍNEA
 const hello3 = () => 'Hello!';
 console.log('no parameters, arrow function single line  ' + hello3());
 
@@ -654,11 +659,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MjQyNzM3LC05NDA2MzA3MzksLTM5OD
-k5NzQ4OCwtNjc3OTU0MTg0LC04NDY4OTQ0MTQsMTcwNDI2NzA4
-NCwtOTEwNzY2NDEwLDEwNjg5MDczOTIsMTI2NTUwNjAzOCwyMD
-Y1NjEyMDkwLDE1NzcwODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1
-NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NT
-kzMTg0OCwxODYyOTgxMDI3LDYwMDU5ODgxOSwtNDM1NzY1ODA2
+eyJoaXN0b3J5IjpbMTQ3NjA0ODY0MCwxNjcyNDI3MzcsLTk0MD
+YzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQsLTg0Njg5NDQx
+NCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMj
+Y1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4
+MjksODA2NDQ2NTU1LC02MzI1MjkyNSwtNDY2NzE3ODc4LC05OD
+UyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEwMjcsNjAwNTk4ODE5
 XX0=
 -->
