@@ -539,12 +539,14 @@ i.a ) Expresión de Función Anónima
 
 <img src="expresionDeFuncion.png" width="50%" Alt="expresionDefuncion">
 
+
 <br>
 <br>
 
 i.b ) Expresión de Función Nombrada
 
 <img src="funcionDeclaradanombrada.png" width="50%" Alt="función declarada nombrada">
+
 
 (El nombre  `decirHola`  es útil para identificar la función en los errores, pero no se usa para llamar a la función.)
 
@@ -553,16 +555,20 @@ i.b ) Expresión de Función Nombrada
 <br>
 <br>
 
-i.a ) Expresión de Función Anónima
+
 ii ) Declaración de función tradicional o regular
 
+
 <img src="funcionDeclarada.png" width="50%" Alt="funcion declarada anónima">
+
 <br>
 <br>
 <br>
 
-i.a ) Expresión de Función Anónima
+
+
 iii ) Función flecha:
+
 
 <img src="funcionFlecha1.png" width="50%" Alt="funcionFlecha1">
 <br>
@@ -988,11 +994,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTEwNzMwNywzOTE5OTAzMTUsMTMwOT
-cwNTI0NSwtMTMyMjYyNDkzMSwtMjU5NTczMTIwLDY1MDYxMjgy
-LDExMjQ3Mjg1NzksNjU2MzI0MDgzLDE4NTA5MTQxNzMsLTUyMD
-I2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4NjM0Njg4LDEzMzYyMjYx
-NjksLTYxMDI4MzUsMTE1OTAxNDMxMywxODMyMTc4NzQwLDc1OD
-k4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4LC0xMjU5MDE3Njk5
-XX0=
+eyJoaXN0b3J5IjpbLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MT
+k5MDMxNSwxMzA5NzA1MjQ1LC0xMzIyNjI0OTMxLC0yNTk1NzMx
+MjAsNjUwNjEyODIsMTEyNDcyODU3OSw2NTYzMjQwODMsMTg1MD
+kxNDE3MywtNTIwMjYyODc4LDE2NTExMzQ3MjIsLTEyMTg2MzQ2
+ODgsMTMzNjIyNjE2OSwtNjEwMjgzNSwxMTU5MDE0MzEzLDE4Mz
+IxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYyLC0yMjE3ODg5Nzhd
+fQ==
 -->
