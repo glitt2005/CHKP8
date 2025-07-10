@@ -434,7 +434,7 @@ EN RESUMEN:
 # 3 ¿Qué es una función de flecha?
 
 ![función flecha simple](funcionFlecha0.png)
-
+<img src="funcionFlecha0.png" width="50%">
 una función flecha (o arrow function) es una  forma concisa de definir funciones anónimas, introducida en ES6 (EcmaScript 2015). 
 
 Las funciones flecha **son de las funciones más cruciales para aprender en Javascript** ya que están por todos los lados. Su **sintaxis** es completamente **diferente** a cualquier otra declaración de variable.
@@ -715,11 +715,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTI5MTI3NSwtMTMxMDMzNjkzOSwxMj
-YwODE2MzM0LDE1NDAxOTczNzIsLTEyODQ4NDk2MzMsLTUxNDI1
-ODgzLC0xMDIxOTY5MjI5LDE2NzI0MjczNywtOTQwNjMwNzM5LC
-0zOTg5OTc0ODgsLTY3Nzk1NDE4NCwtODQ2ODk0NDE0LDE3MDQy
-NjcwODQsLTkxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNjU1MDYwMz
-gsMjA2NTYxMjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MDY0
-NDY1NTVdfQ==
+eyJoaXN0b3J5IjpbLTE3MTg0NTI5NzQsLTEzMTAzMzY5MzksMT
+I2MDgxNjMzNCwxNTQwMTk3MzcyLC0xMjg0ODQ5NjMzLC01MTQy
+NTg4MywtMTAyMTk2OTIyOSwxNjcyNDI3MzcsLTk0MDYzMDczOS
+wtMzk4OTk3NDg4LC02Nzc5NTQxODQsLTg0Njg5NDQxNCwxNzA0
+MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2MD
+M4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2
+NDQ2NTU1XX0=
 -->
