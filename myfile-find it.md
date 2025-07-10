@@ -491,7 +491,7 @@ En realidad, si comparamos una función regular con una flecha, en lugar de tene
 
 ## 2) Particular manejo de `this`
 
-La palabra clave `this` tiene un comportamiento diferente en las **funciones flecha**.  A diferencia de las funciones tradicionales, las funciones flecha no tienen su propio  `this`. El valor de  `this`  dentro de una función flecha es el mismo que el de su entorno léxico (el contexto donde fue definida).
+La palabra clave `this` tiene un comportamiento diferente en las **funciones flecha**.  A diferencia de las funciones tradicionales, las funciones flecha **no tienen su propio  `this`**. El valor de  `this`  dentro de una función flecha es el mismo que el de su entorno léxico (el contexto donde fue definida).
 
 Ventajas de las funciones flecha:
 
@@ -740,7 +740,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTcwNjkxOCwxNDIzNTc2NjQ3LC0xOD
+eyJoaXN0b3J5IjpbLTY2MTUzOTQzMCwxNDIzNTc2NjQ3LC0xOD
 YzMTE2NDQyLDEzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0
 MTEsMjAwNjc2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OC
 wtMTcxODQ1Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1
