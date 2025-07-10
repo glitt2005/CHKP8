@@ -685,7 +685,7 @@ font-weight: normal;
 
 <br>
 
-En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas, y poder hacer comparaciones, reordenaciones. En lugar de acceder mediante índices, atributo por a
+En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas, y poder hacer comparaciones, reordenaciones. En lugar de acceder mediante índices, atributo por atributo, podemos acceder simultáneamente a todos estas propiedades o valores.
 
 -  el código **más legible**
 -  **evita** la necesidad de **acceder repetidamente** a los elementos de la estructura original.
@@ -887,7 +887,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTUzNDU2MCwxNjUxMTM0NzIyLC0xMj
+eyJoaXN0b3J5IjpbLTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMj
 E4NjM0Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMx
 MywxODMyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNz
 g4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1Njcz
