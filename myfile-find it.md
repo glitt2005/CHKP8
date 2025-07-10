@@ -648,12 +648,12 @@ obj.obtenerValorFlecha(); // Salida: 10
 # 4 ¿Qué es la deconstrucción de variables?
 En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** son términos que se refieren a la misma característica del lenguaje, introducida en ECMAScript 6 (**ES6**). Ambos términos se utilizan indistintamente para describir la **sintaxis que permite extraer valores de arreglos y propiedades de objetos en variables individuales de manera más concisa.**
 
-|         |        |         |
+|              |        |         |
 |:------------ |:------------:| ------------:|
-|         | Valores de arrays      |       |
-|Extraer  |                       |para asignarlos a variables      |
-|         | propiedades de objetos      |       |
-|         |     |      |
+|          | Valores de arrays      |       |
+|Extraer     |                       |para asignarlos a variables      |
+|            | propiedades de objetos      |       |
+|            |     |      |
 
 En esencia, la desestructuración (o deconstrucción) facilita la extracción de datos de estructuras complejas como arreglos y objetos y su asignación a variables separadas, haciendo el código más legible y evitando la necesidad de acceder repetidamente a los elementos de la estructura original.
 # 5 ¿Qué hace el operador de extensión en JS?
@@ -811,11 +811,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjY5NTQwMzcsMTkzMDg4MzYyLC0yMj
-E3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzODU2
-NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUxNC
-wxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5
-NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NT
-A3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0
-LC0xMzEwMzM2OTM5XX0=
+eyJoaXN0b3J5IjpbNzU4OTg4MzksMTkzMDg4MzYyLC0yMjE3OD
+g5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMjIzODU2NzMs
+LTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAzOTUxNCwxMT
+Y0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5NzM5
+MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC
+0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0x
+MzEwMzM2OTM5XX0=
 -->
