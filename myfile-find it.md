@@ -721,7 +721,7 @@ console.log(jugador2); // Output: X
 
 La desestructuración de arrays o arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí las dos comas extras (,) sustituyen cada una de ellas a un elemento del array siguiendo el orden:
 
-##### ARRAYS - EJEMPLO:
+#### Arrays - EJEMPLO:
 
 
 ```JavaScript
@@ -752,7 +752,7 @@ y luego tener que usar esas variables, etc.
 #### DECONSTRUCCIÓN DE OBJETOS:
 
 La desestructuración de objetos permite extraer **propiedades específicas de un objeto y asignarlas a variables con nombres iguales a las propiedades** o con nombres distintos usando un alias.
-#####  OBJETOS - EJEMPLO 1:
+####  Objetos - EJEMPLO 1:
 
 
 
@@ -769,7 +769,7 @@ const { nombre: nombrePersona, edad: edadPersona } = persona;
 console.log(nombrePersona); // Output: Juan
 console.log(edadPersona);   // Output: 30
 ```
-#####   OBJETOS - EJEMPLO 2:
+####   Objetos - EJEMPLO 2:
 
 
 ```JavaScript
@@ -795,6 +795,8 @@ La desestructuración también se puede utilizar **al pasar argumentos a funcion
 
 
 
+####  Parámetros de funciones - EJEMPLO 1:
+
 ```JavaScript
 function mostrarInfo({ nombre, edad }) {
   console.log(`Nombre: ${nombre}, Edad: ${edad}`);
@@ -802,7 +804,8 @@ function mostrarInfo({ nombre, edad }) {
 
 const persona2 = { nombre: 'Ana', edad: 25 };
 mostrarInfo(persona2);   // Output: Nombre: Ana, Edad: 25
-
+```
+####  Parámetros de funciones - EJEMPLO 2:
 
 function mostrarNumeros([primero, segundo]) {
     console.log(`
@@ -978,11 +981,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA0Nzc4MjgsMTEyNDcyODU3OSw2NT
-YzMjQwODMsMTg1MDkxNDE3MywtNTIwMjYyODc4LDE2NTExMzQ3
-MjIsLTEyMTg2MzQ2ODgsMTMzNjIyNjE2OSwtNjEwMjgzNSwxMT
-U5MDE0MzEzLDE4MzIxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYy
-LC0yMjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1NywzMj
-IzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAz
-OTUxNF19
+eyJoaXN0b3J5IjpbMjMzMzE5Mzk0LDExMjQ3Mjg1NzksNjU2Mz
+I0MDgzLDE4NTA5MTQxNzMsLTUyMDI2Mjg3OCwxNjUxMTM0NzIy
+LC0xMjE4NjM0Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OT
+AxNDMxMywxODMyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2Miwt
+MjIxNzg4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMz
+g1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1
+MTRdfQ==
 -->
