@@ -516,6 +516,9 @@ const miFuncion = obj.obtenerValor;
 miFuncion(); // Salida: undefined
 
 ```
+
+
+
 Funciones flecha (Arrow functions):
 
 -   **Contexto Léxico:** `this`  en una función flecha se evalúa en el contexto donde la función fue definida, no donde es llamada.
@@ -773,11 +776,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5OTYyODAzLC0xMjA1MDM5NTE0LDExNj
-Q3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzExNjQ0MiwxMzk3Mzky
-NDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLDIwMDY3NjQ1MDcsLT
-ExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3MTg0NTI5NzQsLTEz
-MTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3MzcyLC0xMjg0OD
-Q5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIyOSwxNjcyNDI3Mzcs
-LTk0MDYzMDczOV19
+eyJoaXN0b3J5IjpbMTY4MDY4NTE2MSwtMTIwNTAzOTUxNCwxMT
+Y0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5NzM5
+MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC
+0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0x
+MzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3MiwtMTI4ND
+g0OTYzMywtNTE0MjU4ODMsLTEwMjE5NjkyMjksMTY3MjQyNzM3
+LC05NDA2MzA3MzldfQ==
 -->
