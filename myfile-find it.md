@@ -695,7 +695,7 @@ En esencia, la **desconstrucción** facilita la extracción de datos de estructu
 -   **Extracción selectiva:** Permite extraer solo las propiedades necesarias, ignorando las demás.
 -   **Asignación múltiple:** Se pueden asignar múltiples variables en una sola línea.
 
-####   EJEMPLO BÁSICO:
+####   EJEMPLO BÁSICO: turno de un jugador:
 Un ejemplo básico para el intercambio de turnos en un juego sería hacer uso de la desestructuración **para intercambiar los valores de las variables que representan los jugadores actuales**.
 
 ```JavaScript
@@ -714,7 +714,39 @@ console.log(jugador2); // Output: X
 &nbsp; 1. **Se crea un arreglo** con los valores actuales de  `jugador2`  y  `jugador1`. 
 &nbsp; 2. Luego, la desestructuración **asigna el primer valor** (**anteriormente el de  `jugador2`**) a  **`jugador1`**  y el segundo valor (anteriormente el de  `jugador1`) a  `jugador2`, logrando así el intercambio.
 <br>
-####  DECONSTRUCCIÓN EN OBJETOS:
+
+
+
+Desestructuración de Arreglos:
+
+La desestructuración de arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, utilizando la posición de los elementos dentro del arreglo.
+
+JavaScript
+
+```
+const numeros = [1, 2, 3, 4, 5];// Desestructuración de un arreglo
+const [primero, segundo, , , quinto] = numeros;console.log(primero); // Output: 1
+console.log(segundo); // Output: 2
+console.log(quinto);  // Output: 5
+```
+
+
+Desestructuración de Objetos:
+
+La desestructuración de objetos permite extraer propiedades específicas de un objeto y asignarlas a variables con nombres iguales a las propiedades o con nombres distintos usando un alias.
+
+JavaScript
+
+```
+const persona = {  nombre: 'Juan',  edad: 30,  ciudad: 'Madrid'};// Desestructuración con nombres de variables iguales a las propiedades
+const { nombre, edad, ciudad } = persona;console.log(nombre); // Output: Juan
+console.log(edad);   // Output: 30
+console.log(ciudad); // Output: Madrid
+// Desestructuración con alias
+const { nombre: nombrePersona, edad: edadPersona } = persona;console.log(nombrePersona); // Output: Juan
+console.log(edadPersona);   // Output: 30
+```
+#####   EJEMPLO EN OBJETOS:
 
 
 ```JavaScript
@@ -731,34 +763,7 @@ console.log(nombre);   // Imprime: Messi
 console.log(posicion); // Imprime: Delantero
 console.log(dorsal);   // Imprime: 10
 ```
-Desestructuración de Objetos:
 
-La desestructuración de objetos permite extraer propiedades específicas de un objeto y asignarlas a variables con nombres iguales a las propiedades o con nombres distintos usando un alias.
-
-JavaScript
-
-```
-const persona = {  nombre: 'Juan',  edad: 30,  ciudad: 'Madrid'};// Desestructuración con nombres de variables iguales a las propiedades
-const { nombre, edad, ciudad } = persona;console.log(nombre); // Output: Juan
-console.log(edad);   // Output: 30
-console.log(ciudad); // Output: Madrid
-// Desestructuración con alias
-const { nombre: nombrePersona, edad: edadPersona } = persona;console.log(nombrePersona); // Output: Juan
-console.log(edadPersona);   // Output: 30
-```
-
-Desestructuración de Arreglos:
-
-La desestructuración de arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, utilizando la posición de los elementos dentro del arreglo.
-
-JavaScript
-
-```
-const numeros = [1, 2, 3, 4, 5];// Desestructuración de un arreglo
-const [primero, segundo, , , quinto] = numeros;console.log(primero); // Output: 1
-console.log(segundo); // Output: 2
-console.log(quinto);  // Output: 5
-```
 
 Desestructuración con Parámetros de Funciones:
 
@@ -936,11 +941,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MDkxNDE3MywtNTIwMjYyODc4LDE2NT
-ExMzQ3MjIsLTEyMTg2MzQ2ODgsMTMzNjIyNjE2OSwtNjEwMjgz
-NSwxMTU5MDE0MzEzLDE4MzIxNzg3NDAsNzU4OTg4MzksMTkzMD
-g4MzYyLC0yMjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1
-NywzMjIzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMT
-IwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMx
-MTY0NDJdfQ==
+eyJoaXN0b3J5IjpbMTA5ODgzMDc3MSwxODUwOTE0MTczLC01Mj
+AyNjI4NzgsMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMzM2MjI2
+MTY5LC02MTAyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0MCw3NT
+g5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5
+OSwtNzQyMDEzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMj
+QwNzM2MTI5LC0xMjA1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3
+NjY0N119
 -->
