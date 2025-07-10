@@ -555,8 +555,8 @@ EN RESUMEN:
 - **No pueden usarse como constructores** (no se pueden llamar con **`new`**).
 - **No tienen su propio objeto `arguments`** con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea.
 - Su **`this`** se determina en el momento de la creación de la función, y se **hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.**
-
-1.  SIN PARÁMETROS
+<br><br>
+0.  SIN PARÁMETROS
 
 ```JavaScript
 
@@ -582,13 +582,12 @@ const hello3 = () => 'Hello!';
 console.log('sin parámetros, funcíon FLECHA EN UNA SOLA LÍNEA  ' + hello3());
 ```
 
-
-2. CON 1 PARÁMETRO
-
-
+<br>
+1. CON 1 PARÁMETRO
 
 
-// UN PARÁMETRO
+
+```JavaScript
 
 // a) un parámetro, función declarada
 function hello4(x){
@@ -606,12 +605,12 @@ console.log(hello5('milburn'));
 // c) un parámetro, función FECHA EN UNA SOLA LÍNEA 
 const hello6 = x => 'Hello, ' + x;
 console.log('un parámetro, función FECHA EN UNA SOLA LÍNEA ' + hello6('milburn'));
+```
 
+<br>
 
-
-
-//DOS PARAMETROS
-
+2. CON DOS PARÁMETROS:
+```JavaScript
 // a) dos parámetros, función declarada
 function hello7(x,y){
     return 'Hello, ' + x + ' ' + y; 
@@ -789,7 +788,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzYwMjE5NiwtNzQyMDEzNDU3LDMyMj
+eyJoaXN0b3J5IjpbLTk0ODk3MTA5NiwtNzQyMDEzNDU3LDMyMj
 M4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5
 NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzExNjQ0Mi
 wxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLDIwMDY3
