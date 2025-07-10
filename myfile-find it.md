@@ -451,6 +451,9 @@ a) Expresión de Función
 <img src="expresionDeFuncion.png" width="50%">
 <img src="ruta/a/tu/imagen.jpg" width="300" height="200">
 
+<img src="/MarkdownToolboxSmall.png" width="58" height="56"/>
+
+
 b) Declaración de función tradicional o regular
 ![funcion Declarada](funcionDeclarada.png)
 
@@ -711,11 +714,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDE5NzM3MiwtMTI4NDg0OTYzMywtNT
-E0MjU4ODMsLTEwMjE5NjkyMjksMTY3MjQyNzM3LC05NDA2MzA3
-MzksLTM5ODk5NzQ4OCwtNjc3OTU0MTg0LC04NDY4OTQ0MTQsMT
-cwNDI2NzA4NCwtOTEwNzY2NDEwLDEwNjg5MDczOTIsMTI2NTUw
-NjAzOCwyMDY1NjEyMDkwLDE1NzcwODYwODAsNDA5NjgwODI5LD
-gwNjQ0NjU1NSwtNjMyNTI5MjUsLTQ2NjcxNzg3OCwtOTg1Mjg4
-NjVdfQ==
+eyJoaXN0b3J5IjpbMTIyNTAyNzIzNywxNTQwMTk3MzcyLC0xMj
+g0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIyOSwxNjcyNDI3
+MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQsLT
+g0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkw
+NzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MC
+w0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1MjkyNSwtNDY2NzE3
+ODc4XX0=
 -->
