@@ -439,6 +439,8 @@ una función flecha (o arrow function) es una  forma concisa de definir funcione
 
 Las funciones flecha **son de las funciones más cruciales para aprender en Javascript** ya que están por todos los lados. Su **sintaxis** es completamente **diferente** a cualquier otra declaración de variable.
 
+
+
 Se caracterizan por:
 
 ### 1) Sintaxis concisa
@@ -704,11 +706,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEwMjY5ODE4LC0xMDIxOTY5MjI5LDE2Nz
-I0MjczNywtOTQwNjMwNzM5LC0zOTg5OTc0ODgsLTY3Nzk1NDE4
-NCwtODQ2ODk0NDE0LDE3MDQyNjcwODQsLTkxMDc2NjQxMCwxMD
-Y4OTA3MzkyLDEyNjU1MDYwMzgsMjA2NTYxMjA5MCwxNTc3MDg2
-MDgwLDQwOTY4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1LC00Nj
-Y3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAy
-N119
+eyJoaXN0b3J5IjpbLTQzMjM5ODc2MiwtMTAyMTk2OTIyOSwxNj
+cyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQx
+ODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMT
+A2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4
+NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1MjkyNSwtND
+Y2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEw
+MjddfQ==
 -->
