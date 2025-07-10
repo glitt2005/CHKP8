@@ -448,6 +448,7 @@ Se caracterizan por:
 
 a) Expresión de Función
 ![expresión de función ](expresionDeFuncion.png)
+<img src="expresionDeFuncion.png" width="50%">
 
 b) Declaración de función tradicional o regular
 ![funcion Declarada](funcionDeclarada.png)
@@ -709,11 +710,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDI1ODgzLC0xMDIxOTY5MjI5LDE2Nz
-I0MjczNywtOTQwNjMwNzM5LC0zOTg5OTc0ODgsLTY3Nzk1NDE4
-NCwtODQ2ODk0NDE0LDE3MDQyNjcwODQsLTkxMDc2NjQxMCwxMD
-Y4OTA3MzkyLDEyNjU1MDYwMzgsMjA2NTYxMjA5MCwxNTc3MDg2
-MDgwLDQwOTY4MDgyOSw4MDY0NDY1NTUsLTYzMjUyOTI1LC00Nj
-Y3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4NDgsMTg2Mjk4MTAy
-N119
+eyJoaXN0b3J5IjpbLTEyODQ4NDk2MzMsLTUxNDI1ODgzLC0xMD
+IxOTY5MjI5LDE2NzI0MjczNywtOTQwNjMwNzM5LC0zOTg5OTc0
+ODgsLTY3Nzk1NDE4NCwtODQ2ODk0NDE0LDE3MDQyNjcwODQsLT
+kxMDc2NjQxMCwxMDY4OTA3MzkyLDEyNjU1MDYwMzgsMjA2NTYx
+MjA5MCwxNTc3MDg2MDgwLDQwOTY4MDgyOSw4MDY0NDY1NTUsLT
+YzMjUyOTI1LC00NjY3MTc4NzgsLTk4NTI4ODY1LC04NjU5MzE4
+NDhdfQ==
 -->
