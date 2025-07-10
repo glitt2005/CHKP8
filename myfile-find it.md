@@ -611,7 +611,7 @@ obj.obtenerValorFlecha(); // Salida: 10
 
 <BR>
 
-EN RESUMEN:
+## 3) En resumen
 
 ##### 1. VENTAJAS DE LAS FUNCIONES FLECHA
 - **Contexto Léxico:** A diferencia de las funciones regulares, las funciones flecha **no tienen su propio enlace a  `this`.** En cambio,  `this`  dentro de una función flecha se refiere al contexto léxico, es decir, al **valor de  `this`  en el ámbito donde la función flecha fue definida. Esto evita errores comunes** relacionados con el contexto de  `this`  al usar funciones de **callback** dentro de **métodos de objetos o en otros contextos donde  `this`  podría cambiar dinámicamente.**
@@ -623,6 +623,8 @@ EN RESUMEN:
 
     
 -   **Mayor concisión:** Son ideales para funciones **cortas** y funciones que se pasan como argumentos a otras funciones.
+
+<br>
     
 
 ##### 2. LIMITACIONES DE LAS FUNCIONES FLECHA
@@ -631,6 +633,9 @@ EN RESUMEN:
 - **No tienen su propio objeto `arguments`** con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea.
 - Su **`this`** se determina en el momento de la creación de la función, y se **hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.**
 <br><br>
+
+---
+
 
 # 4 ¿Qué es la deconstrucción de variables?
 
@@ -789,11 +794,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzOTY5NjA3LC03NDIwMTM0NTcsMzIyMz
-g1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1
-MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLD
-EzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMjAwNjc2
-NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcxODQ1Mj
-k3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOTczNzIs
-LTEyODQ4NDk2MzNdfQ==
+eyJoaXN0b3J5IjpbLTE1MDUwMzc5NzIsLTc0MjAxMzQ1NywzMj
+IzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMTIwNTAz
+OTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0ND
+IsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2
+NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4ND
+UyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3
+MiwtMTI4NDg0OTYzM119
 -->
