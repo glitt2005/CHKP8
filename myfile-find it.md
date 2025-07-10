@@ -714,7 +714,7 @@ console.log(jugador2); // Output: X
 &nbsp; 1. **Se crea un arreglo** con los valores actuales de  `jugador2`  y  `jugador1`. 
 &nbsp; 2. Luego, la desestructuración **asigna el primer valor** (**anteriormente el de  `jugador2`**) a  **`jugador1`**  y el segundo valor (anteriormente el de  `jugador1`) a  `jugador2`, logrando así el intercambio.
 <br>
-####   OTRO EJEMPLO:
+####  DECONSTRUCCIÓN EN OBJETOS:
 
 
 ```JavaScript
@@ -731,7 +731,56 @@ console.log(nombre);   // Imprime: Messi
 console.log(posicion); // Imprime: Delantero
 console.log(dorsal);   // Imprime: 10
 ```
+Desestructuración de Objetos:
 
+La desestructuración de objetos permite extraer propiedades específicas de un objeto y asignarlas a variables con nombres iguales a las propiedades o con nombres distintos usando un alias.
+
+JavaScript
+
+```
+const persona = {  nombre: 'Juan',  edad: 30,  ciudad: 'Madrid'};// Desestructuración con nombres de variables iguales a las propiedades
+const { nombre, edad, ciudad } = persona;console.log(nombre); // Output: Juan
+console.log(edad);   // Output: 30
+console.log(ciudad); // Output: Madrid
+// Desestructuración con alias
+const { nombre: nombrePersona, edad: edadPersona } = persona;console.log(nombrePersona); // Output: Juan
+console.log(edadPersona);   // Output: 30
+```
+
+Desestructuración de Arreglos:
+
+La desestructuración de arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, utilizando la posición de los elementos dentro del arreglo.
+
+JavaScript
+
+```
+const numeros = [1, 2, 3, 4, 5];// Desestructuración de un arreglo
+const [primero, segundo, , , quinto] = numeros;console.log(primero); // Output: 1
+console.log(segundo); // Output: 2
+console.log(quinto);  // Output: 5
+```
+
+Desestructuración con Parámetros de Funciones:
+
+La desestructuración también se puede utilizar al pasar argumentos a funciones.
+
+JavaScript
+
+```
+function mostrarInfo({ nombre, edad }) {  console.log(`Nombre: ${nombre}, Edad: ${edad}`);}const persona2 = { nombre: 'Ana', edad: 25 };mostrarInfo(persona2); // Output: Nombre: Ana, Edad: 25function mostrarNumeros([primero, segundo]) {  console.log(`Primer número: ${primero}, Segundo número: ${segundo}`);}mostrarNumeros([10, 20]); // Output: Primer número: 10, Segundo número: 20
+```
+
+Valores por Defecto:
+
+La desestructuración permite establecer valores por defecto para las variables, en caso de que la propiedad o elemento del arreglo no exista.
+
+JavaScript
+
+```
+const usuario = { nombre: 'Pedro' };const { nombre, edad = 18 } = usuario;console.log(nombre); // Output: Pedroconsole.log(edad);   // Output: 18
+```
+
+Sintax
 # 5 ¿Qué hace el operador de extensión en JS?
 
 # 6 ¿Qué es la programación orientada a objetos?
@@ -887,11 +936,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMj
-E4NjM0Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMx
-MywxODMyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNz
-g4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1Njcz
-LC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1MTQsMT
-E2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLDEzOTcz
-OTI0NzRdfQ==
+eyJoaXN0b3J5IjpbMTg1MDkxNDE3MywtNTIwMjYyODc4LDE2NT
+ExMzQ3MjIsLTEyMTg2MzQ2ODgsMTMzNjIyNjE2OSwtNjEwMjgz
+NSwxMTU5MDE0MzEzLDE4MzIxNzg3NDAsNzU4OTg4MzksMTkzMD
+g4MzYyLC0yMjE3ODg5NzgsLTEyNTkwMTc2OTksLTc0MjAxMzQ1
+NywzMjIzODU2NzMsLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMT
+IwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMx
+MTY0NDJdfQ==
 -->
