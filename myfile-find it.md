@@ -443,12 +443,13 @@ Las funciones flecha **son de las funciones más cruciales para aprender en Java
 
 
 
+
 Se caracterizan por:
 
 ### 1) Sintaxis concisa
--   Su sintaxis más compacta ; efectivamente su concisa sintaxis hace que sea muy utilizada.  Comparemos:
+-   Su sintaxis más compacta ; efectivamente su concisa sintaxis hace que sea muy utilizada.  Comparemos la sintaxis de los 3 tipos de función diferentes:
 
-a) **Expresión de Función**
+i) **Expresión de Función**
 
 <img src="expresionDeFuncion.png" width="50%">
 
@@ -457,15 +458,14 @@ a) **Expresión de Función**
 
 
 
-
-b) **Declaración de función tradicional o regular**
+ii) **Declaración de función tradicional o regular**
 
 <img src="funcionDeclarada.png" width="50%">
 <br>
 <br>
 
 
-c) **Función flecha:**
+iii) **Función flecha:**
 
 <img src="funcionFlecha1.png" width="50%">
 <br>
@@ -721,11 +721,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC0xMT
-M3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0xMzEw
-MzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3MiwtMTI4NDg0OT
-YzMywtNTE0MjU4ODMsLTEwMjE5NjkyMjksMTY3MjQyNzM3LC05
-NDA2MzA3MzksLTM5ODk5NzQ4OCwtNjc3OTU0MTg0LC04NDY4OT
-Q0MTQsMTcwNDI2NzA4NCwtOTEwNzY2NDEwLDEwNjg5MDczOTIs
-MTI2NTUwNjAzOF19
+eyJoaXN0b3J5IjpbODQ4NTc2OTYyLDEyNDYxNDc0MTEsMjAwNj
+c2NDUwNywtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcxODQ1
+Mjk3NCwtMTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOTczNz
+IsLTEyODQ4NDk2MzMsLTUxNDI1ODgzLC0xMDIxOTY5MjI5LDE2
+NzI0MjczNywtOTQwNjMwNzM5LC0zOTg5OTc0ODgsLTY3Nzk1ND
+E4NCwtODQ2ODk0NDE0LDE3MDQyNjcwODQsLTkxMDc2NjQxMCwx
+MDY4OTA3MzkyXX0=
 -->
