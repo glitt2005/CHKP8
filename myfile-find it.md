@@ -493,10 +493,14 @@ En realidad, si comparamos una función regular con una flecha, en lugar de tene
 
 La palabra clave `this` tiene un comportamiento diferente en las **funciones flecha**.  A diferencia de las funciones tradicionales, las funciones flecha **no tienen su propio  `this`** .  El valor de  **`this`**  dentro de una función flecha es el mismo que **el de su entorno léxico (el contexto donde fue definida).**
 
-EJEMPLO - DECLARACIÓN DE FUNCIÓN:
+#### EJEMPLO - DECLARACIÓN DE FUNCIÓN:
+
 En el  **contexto de llamada:**,  `this`  en una función regular se determina **en el momento de la llamada**, **según cómo se invoque la función.**
+
 De hecho, el principal problema al acceder a  `this`  dentro de una declaración de función en JavaScript es que  **su valor depende del contexto de llamada de la función, no de dónde se declara.** Esto puede llevar a **comportamientos inesperados si la función se pasa como callback o se usa en diferentes contextos,** ya que  `this`  podría referirse a algo distinto a lo que se esperaba.
+
 En el siguiente caso, no podríamos acceder al `this`que necesitamos:
+
 ```JavaScript
 function MiObjeto() {
   this.valor = 10;
@@ -770,11 +774,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMjUwMjcxNCwtMTIwNTAzOTUxNCwxMT
-Y0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5NzM5
-MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC
-0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0x
-MzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MDE5NzM3MiwtMTI4ND
-g0OTYzMywtNTE0MjU4ODMsLTEwMjE5NjkyMjksMTY3MjQyNzM3
-LC05NDA2MzA3MzldfQ==
+eyJoaXN0b3J5IjpbLTExMTI3MDA3NDIsLTEyMDUwMzk1MTQsMT
+E2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLDEzOTcz
+OTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMjAwNjc2NDUwNy
+wtMTEzNzYwMjg2MCwtMTIzNjU2MTU0OCwtMTcxODQ1Mjk3NCwt
+MTMxMDMzNjkzOSwxMjYwODE2MzM0LDE1NDAxOTczNzIsLTEyOD
+Q4NDk2MzMsLTUxNDI1ODgzLC0xMDIxOTY5MjI5LDE2NzI0Mjcz
+NywtOTQwNjMwNzM5XX0=
 -->
