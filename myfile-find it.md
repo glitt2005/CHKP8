@@ -826,9 +826,10 @@ La desestructuración permite establecer valores por defecto para las variables,
 
 ```JavaScript
 const usuario = { nombre: 'Sammy' };
-const { nombre, edad = 40 } = usuario;
+const { nombre, edad = 45 } = usuario;
 
-console.log(nombre); // Output: Pedroconsole.log(edad);   // Output: 18
+console.log(nombre); // Output: Sammy
+console.log(edad);   // Output: 45
 ```
 
 Sintax
@@ -987,11 +988,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODI5NzM0NCwtMjU5NTczMTIwLDY1MD
-YxMjgyLDExMjQ3Mjg1NzksNjU2MzI0MDgzLDE4NTA5MTQxNzMs
-LTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4NjM0Njg4LDEzMz
-YyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMxMywxODMyMTc4NzQw
-LDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4LC0xMjU5MD
-E3Njk5LC03NDIwMTM0NTcsMzIyMzg1NjczLC0xMTYzMzA5NzY1
-XX0=
+eyJoaXN0b3J5IjpbLTE5NDU0MzEwMjQsLTI1OTU3MzEyMCw2NT
+A2MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUwOTE0MTcz
+LC01MjAyNjI4NzgsMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMz
+M2MjI2MTY5LC02MTAyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0
+MCw3NTg5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OT
+AxNzY5OSwtNzQyMDEzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2
+NV19
 -->
