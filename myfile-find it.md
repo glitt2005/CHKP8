@@ -435,15 +435,15 @@ EN RESUMEN:
 ```JavaScript
 console.log('Welcome to Arrow Functions!');
 
-// NO PARAMETERS
+// SIN PARÁMETROS
 
-// no parameter, regular function
+// a) sin parámetros, regular function
 function hello1() {
     return 'Hello!';
 }
 console.log('no parameters, regular function ' + hello1());
 
-// no parameter, arrow function
+// b) sin parámetros, función FLECHA
 const hello2 = () => {
     return 'Hello!';
 }
@@ -452,6 +452,10 @@ console.log('no parameters, arrow function ' + hello2());
 // no parameter, arrow function single line 
 const hello3 = () => 'Hello!';
 console.log('no parameters, arrow function single line  ' + hello3());
+
+
+
+
 
 // UN PARÁMETRO
 
@@ -647,7 +651,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjQxODAxMywtMzk4OTk3NDg4LC02Nz
+eyJoaXN0b3J5IjpbLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nz
 c5NTQxODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0
 MTAsMTA2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMT
 U3NzA4NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1Mjky
