@@ -556,7 +556,7 @@ EN RESUMEN:
 2. LIMITACIONES DE LAS FUNCIONES FLECHA
 3.
 - No pueden usarse como constructores (no se pueden llamar con `new`).
-- 
+- no tienen su propio objeto `arguments` con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea. y su `this` se hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.
 
 
 -   **No son adecuadas para todos los casos:** No se deben usar como constructores (no se puede usar con  `new`) ni como métodos que necesitan acceder al objeto actual con  `this`.
@@ -789,11 +789,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODUwMTQwOSwxMjQwNzM2MTI5LC0xMj
-A1MDM5NTE0LDExNjQ3NjMyOTgsMTQyMzU3NjY0NywtMTg2MzEx
-NjQ0MiwxMzk3MzkyNDc0LDM2NDc2Njk3NiwxMjQ2MTQ3NDExLD
-IwMDY3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3
-MTg0NTI5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMT
-k3MzcyLC0xMjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIy
-OSwxNjcyNDI3MzddfQ==
+eyJoaXN0b3J5IjpbLTExNjMzMDk3NjUsMTI0MDczNjEyOSwtMT
+IwNTAzOTUxNCwxMTY0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMx
+MTY0NDIsMTM5NzM5MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMS
+wyMDA2NzY0NTA3LC0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0x
+NzE4NDUyOTc0LC0xMzEwMzM2OTM5LDEyNjA4MTYzMzQsMTU0MD
+E5NzM3MiwtMTI4NDg0OTYzMywtNTE0MjU4ODMsLTEwMjE5Njky
+MjksMTY3MjQyNzM3XX0=
 -->
