@@ -445,7 +445,7 @@ Las funciones flecha **son de las funciones más cruciales para aprender en Java
 ## Ejemplos FUNCIÓN DECLARADA vs FUNCIÓN FLECHA
 
 
-0.  SIN PARÁMETROS
+0.  **SIN PARÁMETROS**
 
 ```JavaScript
 
@@ -470,7 +470,8 @@ console.log('sin parámetros, funcíon FLECHA EN UNA SOLA LÍNEA  ' + hello3());
 ```
 
 <br>
-1. CON 1 PARÁMETRO
+
+1.  **CON 1 PARÁMETRO**
 
 
 
@@ -496,7 +497,7 @@ console.log('un parámetro, función FECHA EN UNA SOLA LÍNEA ' + hello6('milbur
 
 <br>
 
-2. CON DOS PARÁMETROS:
+2. **CON 2 PARÁMETROS:**
 ```JavaScript
 // a) dos parámetros, función declarada
 function hello7(x,y){
@@ -794,7 +795,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzNzYzOTMzLC03NDIwMTM0NTcsMzIyMz
+eyJoaXN0b3J5IjpbNDIwNzQ3Mzg5LC03NDIwMTM0NTcsMzIyMz
 g1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1
 MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2NDQyLD
 EzOTczOTI0NzQsMzY0NzY2OTc2LDEyNDYxNDc0MTEsMjAwNjc2
