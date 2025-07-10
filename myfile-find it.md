@@ -736,13 +736,14 @@ Hubiera sido **mucho más largo y tedioso** el hacer algo como:
 const numeros = [1, 2, 3, 4, 5];
 
 const itemPrimero = numeros[0]; 
-console.log(itemPrimero);// Output: 1
+console.log(itemPrimero);       // Output: 1
 
 const itemSegundo = numeros[1];
-console.log(itemSegundo);
+console.log(itemSegundo);       // Output: 2
 
 const itemQuinto = numeros[4];
-console.log(itemQuinto);
+console.log(itemQuinto);        // Output: 5
+
 ```
 y luego tener que usar esas variables, etc.
 <br>
@@ -957,11 +958,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjEwNDEzMTcsNjU2MzI0MDgzLDE4NT
-A5MTQxNzMsLTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4NjM0
-Njg4LDEzMzYyMjYxNjksLTYxMDI4MzUsMTE1OTAxNDMxMywxOD
-MyMTc4NzQwLDc1ODk4ODM5LDE5MzA4ODM2MiwtMjIxNzg4OTc4
-LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcsMzIyMzg1NjczLC0xMT
-YzMzA5NzY1LDEyNDA3MzYxMjksLTEyMDUwMzk1MTQsMTE2NDc2
-MzI5OF19
+eyJoaXN0b3J5IjpbNzM0MzA0NjcyLDY1NjMyNDA4MywxODUwOT
+E0MTczLC01MjAyNjI4NzgsMTY1MTEzNDcyMiwtMTIxODYzNDY4
+OCwxMzM2MjI2MTY5LC02MTAyODM1LDExNTkwMTQzMTMsMTgzMj
+E3ODc0MCw3NTg5ODgzOSwxOTMwODgzNjIsLTIyMTc4ODk3OCwt
+MTI1OTAxNzY5OSwtNzQyMDEzNDU3LDMyMjM4NTY3MywtMTE2Mz
+MwOTc2NSwxMjQwNzM2MTI5LC0xMjA1MDM5NTE0LDExNjQ3NjMy
+OThdfQ==
 -->
