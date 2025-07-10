@@ -451,15 +451,15 @@ Se caracterizan por:
 
 i) **a) Expresión de Función Anónima**
 
-<img src="expresionDeFuncion.png" width="50%">
+<img src="expresionDeFuncion.png" width="50%" lt="expresionDefunciongen">
 
 <br>
 <br>
 
 i) **b) Expresión de Función Nombrada**
 
-
-<img src="expresionDeFuncion.png" width="50%">
+<img src="funcionDeclaradanombrada.png" width="50%">
+<br>
 
 ii) **Declaración de función tradicional o regular**
 
@@ -724,7 +724,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTAwOTM1MiwxMjQ2MTQ3NDExLDIwMD
+eyJoaXN0b3J5IjpbLTU5NzgwNzUzNiwxMjQ2MTQ3NDExLDIwMD
 Y3NjQ1MDcsLTExMzc2MDI4NjAsLTEyMzY1NjE1NDgsLTE3MTg0
 NTI5NzQsLTEzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3Mz
 cyLC0xMjg0ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIyOSwx
