@@ -464,6 +464,7 @@ i.b) **Expresión de Función Nombrada**
 (El nombre  `decirHola`  es útil para identificar la función en los errores, pero no se usa para llamar a la función.)
 <br>
 <br>
+<br>
 
 ii) **Declaración de función tradicional o regular**
 
@@ -728,11 +729,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMDM0MDYzOCwxMzk3MzkyNDc0LDM2ND
-c2Njk3NiwxMjQ2MTQ3NDExLDIwMDY3NjQ1MDcsLTExMzc2MDI4
-NjAsLTEyMzY1NjE1NDgsLTE3MTg0NTI5NzQsLTEzMTAzMzY5Mz
-ksMTI2MDgxNjMzNCwxNTQwMTk3MzcyLC0xMjg0ODQ5NjMzLC01
-MTQyNTg4MywtMTAyMTk2OTIyOSwxNjcyNDI3MzcsLTk0MDYzMD
-czOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQsLTg0Njg5NDQxNCwx
-NzA0MjY3MDg0XX0=
+eyJoaXN0b3J5IjpbLTE4NjMxMTY0NDIsMTM5NzM5MjQ3NCwzNj
+Q3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC0xMTM3NjAy
+ODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0xMzEwMzM2OT
+M5LDEyNjA4MTYzMzQsMTU0MDE5NzM3MiwtMTI4NDg0OTYzMywt
+NTE0MjU4ODMsLTEwMjE5NjkyMjksMTY3MjQyNzM3LC05NDA2Mz
+A3MzksLTM5ODk5NzQ4OCwtNjc3OTU0MTg0LC04NDY4OTQ0MTQs
+MTcwNDI2NzA4NF19
 -->
