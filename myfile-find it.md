@@ -521,6 +521,17 @@ miFuncion(); // Salida: undefined
 
 Funciones flecha (Arrow functions):
 
+```JavaScript
+this.valor = 20;
+this.obtenerValorFlecha = () => {
+  console.log(this.valor); // this se refiere al objeto que la contiene
+};
+
+obj.obtenerValorFlecha(); // Salida: 10
+```
+
+
+
 -   **Contexto Léxico:** `this`  en una función flecha se evalúa en el contexto donde la función fue definida, no donde es llamada.
     
 -   No tienen su propio  `this`: No tienen su propio  `this`.
@@ -776,7 +787,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDY4NTE2MSwtMTIwNTAzOTUxNCwxMT
+eyJoaXN0b3J5IjpbMTExOTk1OTY4MiwtMTIwNTAzOTUxNCwxMT
 Y0NzYzMjk4LDE0MjM1NzY2NDcsLTE4NjMxMTY0NDIsMTM5NzM5
 MjQ3NCwzNjQ3NjY5NzYsMTI0NjE0NzQxMSwyMDA2NzY0NTA3LC
 0xMTM3NjAyODYwLC0xMjM2NTYxNTQ4LC0xNzE4NDUyOTc0LC0x
