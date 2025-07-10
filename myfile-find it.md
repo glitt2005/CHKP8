@@ -797,7 +797,8 @@ La desestructuración también se puede utilizar **al pasar argumentos a funcion
 
 ```JavaScript
 function mostrarInfo({ nombre, edad }) {
-  console.log(`Nombre: ${nombre}, Edad: ${edad}`);}const persona2 = { nombre: 'Ana', edad: 25 };mostrarInfo(persona2); // Output: Nombre: Ana, Edad: 25function mostrarNumeros([primero, segundo]) {  console.log(`Primer número: ${primero}, Segundo número: ${segundo}`);}mostrarNumeros([10, 20]); // Output: Primer número: 10, Segundo número: 20
+  console.log(`Nombre: ${nombre}, Edad: ${edad}`);
+}const persona2 = { nombre: 'Ana', edad: 25 };mostrarInfo(persona2); // Output: Nombre: Ana, Edad: 25function mostrarNumeros([primero, segundo]) {  console.log(`Primer número: ${primero}, Segundo número: ${segundo}`);}mostrarNumeros([10, 20]); // Output: Primer número: 10, Segundo número: 20
 ```
 
 Valores por Defecto:
@@ -966,7 +967,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODQxOTI0Myw2NTYzMjQwODMsMTg1MD
+eyJoaXN0b3J5IjpbMTEyNDcyODU3OSw2NTYzMjQwODMsMTg1MD
 kxNDE3MywtNTIwMjYyODc4LDE2NTExMzQ3MjIsLTEyMTg2MzQ2
 ODgsMTMzNjIyNjE2OSwtNjEwMjgzNSwxMTU5MDE0MzEzLDE4Mz
 IxNzg3NDAsNzU4OTg4MzksMTkzMDg4MzYyLC0yMjE3ODg5Nzgs
