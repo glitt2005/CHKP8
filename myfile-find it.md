@@ -817,7 +817,7 @@ function mostrarNumeros([primero, segundo]) {
     mostrarNumeros([10, 20]); // Output: Primer número: 10, Segundo número: 20
 ```
 
-**NOTA**: Debemos llamar a la función siempre teniendo en cuenta **el tipo de datos que contiene**. En el Ejemplo 1 se trata de un objeto, y por ello, al invo
+**NOTA**: Debemos llamar a la función siempre teniendo en cuenta **el tipo de datos que contiene**. En el Ejemplo 2, vemos que la función ''mostrarNumeros([primero, segundo])
 ####  VALORES POR DEFECTO:
 La desestructuración permite establecer valores por defecto para las variables, en caso de que la propiedad o elemento del arreglo no exista.
 
@@ -983,7 +983,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NzM0NDA3MCwxMTI0NzI4NTc5LDY1Nj
+eyJoaXN0b3J5IjpbLTE0OTM4Mjk1NiwxMTI0NzI4NTc5LDY1Nj
 MyNDA4MywxODUwOTE0MTczLC01MjAyNjI4NzgsMTY1MTEzNDcy
 MiwtMTIxODYzNDY4OCwxMzM2MjI2MTY5LC02MTAyODM1LDExNT
 kwMTQzMTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwxOTMwODgzNjIs
