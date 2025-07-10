@@ -446,13 +446,14 @@ Se caracterizan por:
 ### 1) Sintaxis concisa
 -   Su sintaxis más compacta ; efectivamente su concisa sintaxis hace que sea muy utilizada.  Comparemos:
 
-a) 
+a) Expresión de Función
+![expresión de función e](expresionDeFuncion.png)
 
-b) Sintaxis declaración de función tradicional o regular:
+b) Declaración de función tradicional o regular
 ![funcionDeclarada](funcionDeclarada.png)
 
 
-c) Sintaxis función flecha:
+c) Función flecha:
 ![funcionFlecha](funcionFlecha1)
 
 
@@ -708,11 +709,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDc0NTM3OTQsLTEwMjE5NjkyMjksMT
-Y3MjQyNzM3LC05NDA2MzA3MzksLTM5ODk5NzQ4OCwtNjc3OTU0
-MTg0LC04NDY4OTQ0MTQsMTcwNDI2NzA4NCwtOTEwNzY2NDEwLD
-EwNjg5MDczOTIsMTI2NTUwNjAzOCwyMDY1NjEyMDkwLDE1Nzcw
-ODYwODAsNDA5NjgwODI5LDgwNjQ0NjU1NSwtNjMyNTI5MjUsLT
-Q2NjcxNzg3OCwtOTg1Mjg4NjUsLTg2NTkzMTg0OCwxODYyOTgx
-MDI3XX0=
+eyJoaXN0b3J5IjpbMTA1MTY4NzEzNCwtMTAyMTk2OTIyOSwxNj
+cyNDI3MzcsLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQx
+ODQsLTg0Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMT
+A2ODkwNzM5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4
+NjA4MCw0MDk2ODA4MjksODA2NDQ2NTU1LC02MzI1MjkyNSwtND
+Y2NzE3ODc4LC05ODUyODg2NSwtODY1OTMxODQ4LDE4NjI5ODEw
+MjddfQ==
 -->
