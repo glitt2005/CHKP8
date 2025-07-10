@@ -452,15 +452,13 @@ a) Expresión de Función
 
 
 
-
-
-
 b) Declaración de función tradicional o regular
-![funcion Declarada](funcionDeclarada.png)
+
 <img src="funcionDeclarada.png" width="50%">
 
+
+
 c) Función flecha:
-![funcion Flecha](funcionFlecha1)
 
 <img src="funcionFlecha1.png" width="50%">
 
@@ -715,11 +713,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTg0NTI5NzQsLTEzMTAzMzY5MzksMT
-I2MDgxNjMzNCwxNTQwMTk3MzcyLC0xMjg0ODQ5NjMzLC01MTQy
-NTg4MywtMTAyMTk2OTIyOSwxNjcyNDI3MzcsLTk0MDYzMDczOS
-wtMzk4OTk3NDg4LC02Nzc5NTQxODQsLTg0Njg5NDQxNCwxNzA0
-MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNzM5MiwxMjY1NTA2MD
-M4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0MDk2ODA4MjksODA2
-NDQ2NTU1XX0=
+eyJoaXN0b3J5IjpbLTEyMzY1NjE1NDgsLTE3MTg0NTI5NzQsLT
+EzMTAzMzY5MzksMTI2MDgxNjMzNCwxNTQwMTk3MzcyLC0xMjg0
+ODQ5NjMzLC01MTQyNTg4MywtMTAyMTk2OTIyOSwxNjcyNDI3Mz
+csLTk0MDYzMDczOSwtMzk4OTk3NDg4LC02Nzc5NTQxODQsLTg0
+Njg5NDQxNCwxNzA0MjY3MDg0LC05MTA3NjY0MTAsMTA2ODkwNz
+M5MiwxMjY1NTA2MDM4LDIwNjU2MTIwOTAsMTU3NzA4NjA4MCw0
+MDk2ODA4MjldfQ==
 -->
