@@ -651,7 +651,9 @@ En JavaScript, **deconstrucción** (o destructuring) y **desestructuración** so
 |              |        |         |
 |:------------ |:------------:| ------------:|
 |          | **valores de arrays**      |       |
-|Extraer     |                       |para asignarlos a variables      |
+|
+&#124;
+Extraer     |                       |para asignarlos a variables      |
 |            | **propiedades de objetos**      |       |
 |            |     |      |
 
@@ -811,7 +813,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc4MzI5NTkxLDc1ODk4ODM5LDE5MzA4OD
+eyJoaXN0b3J5IjpbNTYyMDQzNTIwLDc1ODk4ODM5LDE5MzA4OD
 M2MiwtMjIxNzg4OTc4LC0xMjU5MDE3Njk5LC03NDIwMTM0NTcs
 MzIyMzg1NjczLC0xMTYzMzA5NzY1LDEyNDA3MzYxMjksLTEyMD
 UwMzk1MTQsMTE2NDc2MzI5OCwxNDIzNTc2NjQ3LC0xODYzMTE2
