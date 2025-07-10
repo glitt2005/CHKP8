@@ -685,7 +685,10 @@ font-weight: normal;
 
 <br>
 
-En esencia, la desestructuración (o deconstrucción) facilita la extracción de datos de estructuras complejas como arreglos y objetos y su asignación a variables separadas, haciendo el código más legible y evitando la necesidad de acceder repetidamente a los elementos de la estructura original.
+En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas:
+
+-  el código **más legible**
+-  evita la necesidad de acceder repetidamente a los elementos de la estructura original.
 # 5 ¿Qué hace el operador de extensión en JS?
 
 # 6 ¿Qué es la programación orientada a objetos?
@@ -841,7 +844,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3OTUyMzQyOSwxMzM2MjI2MTY5LC02MT
+eyJoaXN0b3J5IjpbMTA3MTU0OTAzOCwxMzM2MjI2MTY5LC02MT
 AyODM1LDExNTkwMTQzMTMsMTgzMjE3ODc0MCw3NTg5ODgzOSwx
 OTMwODgzNjIsLTIyMTc4ODk3OCwtMTI1OTAxNzY5OSwtNzQyMD
 EzNDU3LDMyMjM4NTY3MywtMTE2MzMwOTc2NSwxMjQwNzM2MTI5
