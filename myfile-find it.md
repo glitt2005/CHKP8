@@ -976,8 +976,7 @@ HAY DOS FORMAS DE CREAR UNA NUEVA VARIABLE CON LOS DATOS DE AMBAS SIN MODIFICAR 
 
 ### b) Forma moderna: operador de extensión
 
-
-Mediante la sintaxis **[…vumbers];** 
+Mediante la sintaxis **[…variableOriginal];** 
 
 Vemos los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
@@ -1173,11 +1172,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1NDczMjksMTQ0NzMyMTUyOSwtMTcyMT
-MzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2
-NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLT
-IwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEz
-NDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OT
-AzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00
-NTg1MjA5NjVdfQ==
+eyJoaXN0b3J5IjpbLTIxMTA1Nzc1NDQsMTQ0NzMyMTUyOSwtMT
+cyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5
+NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NT
+EsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUs
+LTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMz
+c2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0
+LC00NTg1MjA5NjVdfQ==
 -->
