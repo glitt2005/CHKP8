@@ -963,7 +963,7 @@ Otra situación que puede pasar, es que **añadamos un string** a algo en este a
 Lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
 De esta forma **evitamos crear los menos efectos secundarios posibles**
 
-Debido a que el método push(), como ya hemos dicho, cambia la variable original, si hacemos la siguiente asignación con la intención de realizar una copiaa, seguiríamos con problema:
+Debido a que **el método `push()`, como ya hemos dicho, cambia la variable original**, si hacemos la siguiente asignación con la intención de realizar una copia, seguiríamos con problema:
 
 ```JavaScript
 const numbers = [1,2,3,4];
@@ -974,7 +974,7 @@ updatedNumbers.push(5);
 console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
 console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
-Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **MODIFICANDO TAMBIÉN LA VARIABLE FUENTE.** Tenemos dos soluciones a esto:
+Vemos que **cambia las dos variables.**  Aquí **no está pasando una copia, sino una referencia**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **como consecuencia MODIFICANDO TAMBIÉN LA VARIABLE FUENTE.** Tenemos dos soluciones a esto:
 
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
@@ -1279,11 +1279,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTIyNzI1ODcsMTcwMDk3NzUzMCwtOT
-A1NzkyNTEwLC0zOTcxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYx
-OSwyMDE4NzI0NTcxLC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LD
-E3MzIwNzQ2MDIsODU2NTUxMjY3LC02Nzg5ODQyNTMsMjAxNDg2
-Mzc4NywxNjIxNTA3MDgwLDE0NDczMjE1MjksLTE3MjEzMzQzMT
-gsMTYzODEyNDMzMywtMjA1NDg1MDIwNywtOTExOTY0NjU5LC0x
-NjM0MjAxMDM3XX0=
+eyJoaXN0b3J5IjpbMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MD
+U3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMTE0MDk4NjE5
+LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMT
+czMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYz
+Nzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOC
+wxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2
+MzQyMDEwMzddfQ==
 -->
