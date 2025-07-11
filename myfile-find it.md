@@ -883,7 +883,7 @@ const { nombre, edad = 45 } = usuario;
 console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 10
 ```
-a) En este caso la variable `usuario+
+a) En este caso la variable `usuario` con contiene el par clave:valor correspondiente a la clave de `edad`, por lo que al deconstruir, podemos añadir
 <br>
 
 ###  6. APLICACIONES
@@ -1055,11 +1055,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODUzODM5NjYsMjI2MDE4NTEsLTIwNz
-E1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2
-NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNS
-wxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1
-MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3Mj
-I3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcs
-MzkxOTkwMzE1XX0=
+eyJoaXN0b3J5IjpbLTcyMDQwNjQ0LDIyNjAxODUxLC0yMDcxNT
+U3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4NzAzMTU1LC0xMzQyNjU1
+MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAsLTE2MTM3NjkwMzUsMT
+IzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIw
+OTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNz
+Q3LC0yNDkyNjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5
+MTk5MDMxNV19
 -->
