@@ -731,8 +731,7 @@ Nos evita tener la tediosa tarea de uno, por uno, cambiar de cada uno de los jug
 
 Una de los procesos más comunes que te encuentras cuando estás implementando, por ejemplo procesos de tipo "***quicksort***" u "ordenamiento rápido" (*algoritmo de ordenación que funciona bajo el principio de "divide y vencerás"*) u otros algoritmos más avanzados, es **la capacidad de intercambiar los valores de las variables.** **Sin la deconstruccion de variables**, sería este procedimiento se convertiría en todo **un reto**! En las v**ersiones modernas de JavaScript** podemos hacer esto de manera **más eficiente en una sola línea de código.**
 
-**APLICACIÓN**
-Una de las aplicaciones típicas en la que se utiliza la deconstrucción de arrays de una forma muy eficiente es en los enlaces de API. Al conectarnos con la URL e inspeccionar los elementos que necesitamos, podemos realizar una deconstrucción de los mismos
+
 
 <br>
 
@@ -859,6 +858,8 @@ console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 45
 ```
 
+### **APLICACIÓN**
+Una de las aplicaciones típicas en la que se utiliza la deconstrucción de arrays de una forma muy eficiente es en los enlaces de API. Al conectarnos con la URL e inspeccionar los elementos que necesitamos, podemos realizar una deconstrucción de los mismos
 
 # 5 ¿Qué hace el operador de extensión en JS?
 
@@ -1015,11 +1016,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3Nzc1NDM2NCwtMTYxMzc2OTAzNSwxMj
-MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
-NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
-csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
-OTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3Mz
-EyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUw
-OTE0MTczXX0=
+eyJoaXN0b3J5IjpbNDQ3OTAwMjA3LC0xNjEzNzY5MDM1LDEyMz
+IxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2
+NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0Ny
+wtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywzOTE5
+OTAzMTUsMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMjU5NTczMT
+IwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2MzI0MDgzLDE4NTA5
+MTQxNzNdfQ==
 -->
