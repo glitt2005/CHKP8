@@ -1206,6 +1206,13 @@ Entonces, recapitulando, lo que hará el programa será:
 Cuando quiera que el **constructor** tome un **objeto** como argumento, entonces **al instanciar también tenemos que poner un objeto como argumento!!**
 
 
+La variable `jon` que hemos 
+
+
+
+
+
+
 
  "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra. Implemento y uso.
  
@@ -1364,11 +1371,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4Nj
-I1NTEsLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1Mjgw
-LDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MD
-A5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2
-MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMT
-kyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0
-MjUzXX0=
+eyJoaXN0b3J5IjpbLTg3MzY4NDMzOSw4OTUwNTc5NDQsMTQ0Mj
+kzMzE3LDc5Nzg2MjU1MSwtMTMzMjM4MjQwNCwtNTc1NTkyOTA0
+LC04MDY0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OT
+c3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2
+MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNj
+A0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUx
+MjY3XX0=
 -->
