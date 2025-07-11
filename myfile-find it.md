@@ -769,17 +769,17 @@ La desestructuración de objetos permite extraer **propiedades específicas de u
 
 
 ```JavaScript
-const persona = {  nombre: 'Juan',  edad: 30,  ciudad: 'Madrid'};// Desestructuración con nombres de variables iguales a las propiedades
+const persona = {  nombre: 'Sammy',  edad: 45,  ciudad: 'Madrid'};// Desestructuración con nombres de variables iguales a las propiedades
 const { nombre, edad, ciudad } = persona; 
 
-console.log(nombre); // Output: Juan
+console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 30
 console.log(ciudad); // Output: Madrid
 
 // Desestructuración con alias
 const { nombre: nombrePersona, edad: edadPersona } = persona;
-console.log(nombrePersona); // Output: Juan
-console.log(edadPersona);   // Output: 30
+console.log(nombrePersona); // Output: Sammy
+console.log(edadPersona);   // Output: 45
 ```
 ####   Objetos - EJEMPLO 2:
 
@@ -1000,11 +1000,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTc2MjUxNCwtNDU4NTIwOTY1LC0xNT
-IzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNzQ3LC0yNDky
-NjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MTk5MDMxNS
-wxMzA5NzA1MjQ1LC0xMzIyNjI0OTMxLC0yNTk1NzMxMjAsNjUw
-NjEyODIsMTEyNDcyODU3OSw2NTYzMjQwODMsMTg1MDkxNDE3My
-wtNTIwMjYyODc4LDE2NTExMzQ3MjIsLTEyMTg2MzQ2ODgsMTMz
-NjIyNjE2OV19
+eyJoaXN0b3J5IjpbMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1OD
+UyMDk2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcy
+Mjc0NywtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNy
+wzOTE5OTAzMTUsMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMjU5
+NTczMTIwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2MzI0MDgzLD
+E4NTA5MTQxNzMsLTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4
+NjM0Njg4XX0=
 -->
