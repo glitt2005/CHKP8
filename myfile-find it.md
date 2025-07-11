@@ -972,9 +972,10 @@ Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SIN
 
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
-El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama sin argumentos toma todos los elementos del array, o sea, **crea una copia superficial (shallow copy) del array original.** 
+El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama **sin argumentos** toma todos los elementos del array, o sea, **crea una copia superficial (shallow copy) del array original.** 
 
-**Una copia superficia** o shallow copy to significa que se crea un nuevo array con los mismos elementos que el original, **pero se trata de un objeto diferente**. Los elementos internos son referenciados desde el objeto orii
+**Una copia superficial** o shallow copy crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
+**Una copia profunda** (deep copy), por otro lado, crea un nuevo objeto y copia recursivamente todos los elementos, incluyendo los objetos y arrays anidados, para que no compartan referencias con el objeto original.os que el original, **pero se trata de un objeto diferente**. Los elementos internos son referenciados desde el objeto orii
 
 ```JavaScript
 const numbers = [1,2,3,4];
@@ -1203,11 +1204,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjM5MTQyMywxNjIxNTA3MDgwLDE0ND
-czMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1
-MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNT
-U0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0x
-MzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NT
-Y1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcs
-MTA1MTc2MjUxNF19
+eyJoaXN0b3J5IjpbMjk1MzI1MDkyLDE2MjE1MDcwODAsMTQ0Nz
+MyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUw
+MjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NT
+QsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEz
+Mzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1Nj
+U5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywx
+MDUxNzYyNTE0XX0=
 -->
