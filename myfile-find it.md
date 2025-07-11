@@ -922,6 +922,9 @@ Su objeto es facilitar **la manipulación y combinación de datos de manera conc
 
 ## 1. COMBINAR o CONCATENAR ARRAYS
 
+
+
+
 //  imprime  [ 1, 2, 3, 4, 5, 8, 9 ]
 
 Si no añadiéramos los puntos  … , el push() de JS interpretaría que tenemos que añadir un array [8,9], precisamente por cómo JS interpreta los arrays:  un conjunto de “cualquier tipo de datos”.  La solución, pues es utilizar el operador de propagación.
@@ -950,7 +953,7 @@ HAY DOS FORMAS DE CREAR UNA NUEVA VARIABLE CON LOS DATOS DE AMBAS SIN MODIFICAR 
 
 Vemos los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
-## 3. ASAR ARGUMENTOS A FUNCIONES
+## 3.  PASAR ARGUMENTOS A FUNCIONES
 
 Es muy común. Tomaremos de la biblioteca el objeto **Math** como ejemplo, que está disponible en todo JS, y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
 
@@ -1142,11 +1145,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMj
-I2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3
-MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MC
-wtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUx
-NzYyNTE0LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNz
-U3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3
-LDE1NTExMDczMDddfQ==
+eyJoaXN0b3J5IjpbLTkxMTk2NDY1OSwtMTYzNDIwMTAzNywtMT
+E3NTA0MzU1NCwyMjYwMTg1MSwtMjA3MTU1NzcyNSwtMTA1NTc5
+Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1NTM3MSw4Mjg1ODUxNj
+ksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEwMTEsMzIz
+ODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2NSwtMTUyMzQzNz
+cyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0NywtMjQ5MjY5MjIx
+LC03NDg4NDgwNzddfQ==
 -->
