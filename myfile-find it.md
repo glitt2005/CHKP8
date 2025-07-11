@@ -1106,9 +1106,15 @@ console.log(abridor); // "Verlander"
 console.log(cerrador); // "Giles"
 console.log(relevos); // { relevo_1: 'Morton', relevo_2: 'Gregerson' }
 ```
-**A traves de la sintaxis <big>`...elemento`</big> ,** haremos mapear este argumento a el resto de elementos que contiene la variable y nos **imprime un objeto con los pares la clave-valor del resto de los elementos**.
+**A traves de la sintaxis <big>`...elemento`**</big> ,** haremos mapear este argumento a el resto de elementos que contiene la variable y nos **imprime un objeto con los pares la clave-valor del resto de los elementos**.
 
 Como hemos visto en el punto nº 4., ésta es la forma que trabaja **la deconstrucción**:  si pasamos un valor tal como `abridor`, lo busca en la variable (que es un objeto) y encuentra la clave, la mapea e imprime su valor.  **Los tres puntos `...` crea un grupo abierto con un número de elementos indeterminado**, que mapeará al resto de elementos en cuanto creamos un variable para ello.
+
+<img src="iconoPrecauc.png" Alt="icono de cuidado">
+
+
+
+**Los nombres de los argumentos, deben coincidir exactamente con los n
 
 Es una de las formas más comunes de hacedr la deconstrucción de objetos utilizado por muchas plataformas como React cuando no sabes cuántos argumentos habrá y necesitas extraer todo lo que haya, para guardarlo en una variable que puedas utilizar más tarde.
 # 6 ¿Qué es la programación orientada a objetos?
@@ -1264,11 +1270,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjIyOTYyNDcsMTE0MDk4NjE5LDIwMT
-g3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMTczMjA3
-NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYzNzg3LD
-E2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4
-MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQyMD
-EwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NTc3MjUs
-LTEwNTU3OTI3NDldfQ==
+eyJoaXN0b3J5IjpbNDUwNDgyNTE2LDExNDA5ODYxOSwyMDE4Nz
+I0NTcxLC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2
+MDIsODU2NTUxMjY3LC02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNj
+IxNTA3MDgwLDE0NDczMjE1MjksLTE3MjEzMzQzMTgsMTYzODEy
+NDMzMywtMjA1NDg1MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMD
+M3LC0xMTc1MDQzNTU0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0x
+MDU1NzkyNzQ5XX0=
 -->
