@@ -977,8 +977,9 @@ Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SIN
 
 ### b) Forma moderna: operador de extensión
 
-#### SINTAXIS
-: la sintaxis
+#### SINTAXIS:
+<big>`[…variableOriginal];` </big>
+<br>
 #### EJEMPLO:
 
 
@@ -994,6 +995,7 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 
 
 
+<br>
 
 Vemos los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
@@ -1189,11 +1191,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ5MDE1MzcsMTQ0NzMyMTUyOSwtMT
-cyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5
-NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NT
-EsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUs
-LTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMz
-c2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0
-LC00NTg1MjA5NjVdfQ==
+eyJoaXN0b3J5IjpbMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC0xNz
+IxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2
+NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MS
+wtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwt
+MTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNz
+Y5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQs
+LTQ1ODUyMDk2NV19
 -->
