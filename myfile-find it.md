@@ -1011,6 +1011,11 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 
 <br>
 
+NOTA: el tipo de copia que se crea es una **copia superficial**, en comparación con una **copia profunda**:
+
+- **una copia superficial (shallow copy)** crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
+-
+- **Una copia profunda (deep copy),** por otro lado, crea un nuevo objeto y copia recursivamente todos los elementos, incluyendo los objetos y arrays anidados, para que no compartan referencias con el objeto original.
 Vemos los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
 ## 3.  PASAR ARGUMENTOS A FUNCIONES
@@ -1205,11 +1210,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NTg0MjAzLDE2MjE1MDcwODAsMTQ0Nz
-MyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUw
-MjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NT
-QsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEz
-Mzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1Nj
-U5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywx
-MDUxNzYyNTE0XX0=
+eyJoaXN0b3J5IjpbLTE5MTgyNDUyMjIsMTYyMTUwNzA4MCwxND
+Q3MzIxNTI5LC0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4
+NTAyMDcsLTkxMTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0Mz
+U1NCwyMjYwMTg1MSwtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwt
+MTMzODcwMzE1NSwtMTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNz
+U2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3
+LDEwNTE3NjI1MTRdfQ==
 -->
