@@ -819,10 +819,9 @@ console.log(dorsal);   // Imprime: 10
 
 
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** 
-En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último ejemplo, para que  `nombre`, `posición`y `dorsal`    se mapeen a los atributos de la variable `jugador` **deben tener exactamente el mismo nombre**, ya que va a chequear si encuentra arriba esos argumentos **como clave del objeto** de la función que se está pasando. (inside of the object that’s being passed in).
-**Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
+En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último ejemplo, para que  `nombre`, `posición`y `dorsal`    se mapeen a los atributos de la variable `jugador` **deben tener exactamente el mismo nombre**, ya que va a chequear si encuentra arriba esos argumentos **como clave del objeto** . 
 
-funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
+.
 <br>
 <br>
 
@@ -1038,11 +1037,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTU0NzU2MiwtMjA3MTU1NzcyNSwtMT
-A1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1NTM3MSw4Mjg1
-ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEwMT
-EsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2NSwtMTUy
-MzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0NywtMjQ5Mj
-Y5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywzOTE5OTAzMTUs
-MTMwOTcwNTI0NV19
+eyJoaXN0b3J5IjpbMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNT
+U3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1
+MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLD
+MyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5NjUsLTE1MjM0
+Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OT
+IyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LDEz
+MDk3MDUyNDVdfQ==
 -->
