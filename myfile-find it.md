@@ -957,6 +957,18 @@ Otra situación que puede pasar, es que **añadamos un string** a algo en este a
 Por ello lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
 De esta forma **evitamos crear los menos efectos secundarios posibles**
 
+Debido a que el método push(), como ya hemos dicho, cambia la variable original, en la siguiente situación, por mucho que hagamos una copia, seguiríamos con problema:
+
+```JavaScript
+const numbers = [1,2,3,4];
+const updatedNumbers = numbers;
+
+updatedNumbers.push(5);
+console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
+console.log(updatedNumbers);
+```
+
+
 
 
 Vemos que **cambia las dos variables.**  Aquí NO **PASA** UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, cambiando esta variable fuente.
@@ -1161,11 +1173,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNj
-M4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQy
-MDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NTc3Mj
-UsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEs
-ODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNSwxMjMyMT
-cxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5NjUs
-LTE1MjM0Mzc3MjVdfQ==
+eyJoaXN0b3J5IjpbLTE4MjQxMzc0ODEsMTQ0NzMyMTUyOSwtMT
+cyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5
+NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NT
+EsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUs
+LTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMz
+c2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0
+LC00NTg1MjA5NjVdfQ==
 -->
