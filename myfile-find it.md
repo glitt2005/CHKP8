@@ -869,6 +869,7 @@ La desestructuración permite establecer valores por defecto para las variables,
 
 
 a) EL VALOR QUE PASAMOS AL DECONSTRUIR **ES UTILIZADO**
+
 ```JavaScript
 const usuario = { nombre: 'Sammy' };
 const { nombre, edad = 45 } = usuario;
@@ -922,10 +923,15 @@ Su objeto es facilitar **la manipulación y combinación de datos de manera conc
 
 ## 1. COMBINAR o CONCATENAR ARRAYS
 
+```JavaScript
+let numbers = [1,2,3,4];
+let newNumbers = [8,9];
 
+numbers.push(...newNumbers);
+console.log(numbers); //imprime [ 1, 2, 3, 4, 5, 8, 9 ]
+```
+Recordemos que el método``` push()``` cambia la variable original.
 
-
-//  imprime  [ 1, 2, 3, 4, 5, 8, 9 ]
 
 Si no añadiéramos los puntos  … , el push() de JS interpretaría que tenemos que añadir un array [8,9], precisamente por cómo JS interpreta los arrays:  un conjunto de “cualquier tipo de datos”.  La solución, pues es utilizar el operador de propagación.
 
@@ -1145,11 +1151,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTk2NDY1OSwtMTYzNDIwMTAzNywtMT
-E3NTA0MzU1NCwyMjYwMTg1MSwtMjA3MTU1NzcyNSwtMTA1NTc5
-Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1NTM3MSw4Mjg1ODUxNj
-ksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEwMTEsMzIz
-ODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2NSwtMTUyMzQzNz
-cyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0NywtMjQ5MjY5MjIx
-LC03NDg4NDgwNzddfQ==
+eyJoaXN0b3J5IjpbLTEyNjU2NzIyMjUsLTkxMTk2NDY1OSwtMT
+YzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MSwtMjA3MTU1
+NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1NT
+M3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEy
+MzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMD
+k2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0
+NywtMjQ5MjY5MjIxXX0=
 -->
