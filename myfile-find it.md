@@ -1138,7 +1138,17 @@ Es una de las formas más comunes de hacer la deconstrucción de objetos utiliza
 # 6 ¿Qué es la programación orientada a objetos?
 
 
-For years older versions of JavaScript did not have the Object Oriented Programming components of classes and instantiation and that was fine for a period of time. But more modern versions of JavaScript have implemented classes.
+Durante años, las versiones antiguas de JavaScript no incluían los componentes de programación orientada a objetos, como clases e instanciación, lo cual estuvo bien durante un tiempo. 
+Sin embargo, las versiones más modernas de JavaScript sí han implementado clases.
+
+
+Comencemos cpon
+Si en la pizarra decido crear un plano de una casa, un plano de planta, dibujo algunos dormitorios y muestro la ubicación de la puerta, y tengo todos estos elementos, estoy dibujando un plano de una casa, un plano bastante pobre. Pero imaginen que es un plano increíble. Técnicamente, esto no es una casa. No creo que vayamos a discutir al respecto.
+Una casa tiene cimientos, madera, techo y todos estos elementos que la convierten en una casa real; esto es simplemente un plano. En programación orientada a objetos, tenemos, y comencemos con el concepto de clase. Una clase es como nuestro plano. Una clase es simplemente una lista de definiciones que indican exactamente cómo debería comportarse. Enumerará atributos para describir lo que se supone que debe hacer la clase y su comportamiento. Imaginemos una clase Usuario. Cada vez que un nuevo usuario accede al sitio y se registra, el programa revisará su clase Usuario y verá el plano. Es importante ver cómo debería comportarse ese usuario y luego pasaremos al siguiente paso. Este es un término que he visto que confunde mucho a los estudiantes: "instanciación". Es un término complejo. Significa que tomamos ese plano y creamos con él un objeto real.
+
+En nuestro ejemplo de usuario, tenemos una clase Usuario con un nombre de usuario y algunas funciones, como indicar qué queremos que haga el usuario después de iniciar sesión, como qué página queremos ver y qué tipo de atributos queremos que estén disponibles para el usuario, como obtener su apellido o algo similar, que su aplicación necesita. Lo que hará el programa es examinar el plano y luego crear e instanciar un objeto con él, el cual será el objeto con el que trabajarán. Si Bob y Sally acceden al sitio, Bob inicia sesión y el sistema examina el plano del usuario, examina la clase y crea una instancia del objeto de usuario Bob. Deja de ser un plano. Ahora es algo que el sistema puede usar.
+En esta sección, abordaremos dos temas: clases e instanciación, ya que son dos de los aspectos más importantes que debes comprender. También abordaremos otros temas, como la comprensión de los métodos estáticos y de instancia, y cómo usar herramientas como "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra.
+Este patrón se observará con frecuencia al usar herramientas como React, View y Angular. Y entonces quiero que puedas ver lo que realmente está sucediendo porque si simplemente tomaste un tutorial de React y viste todas estas diferentes palabras clave como clase e implementos y uso y si ves estas cosas y en realidad no conoces los fundamentos que están sucediendo en el JavaScript puro, podrías pensar que son específicos de ese marco o puede que no entiendas exactamente lo que está sucediendo detrás de escena y eso es lo que quiero hacer es que puedas entender que esto es solo Javascript puro y estamos aprovechando la programación orientada a objetos para construir nuestros propios sistemas.For years older versions of JavaScript did not have the Object Oriented Programming components of classes and instantiation and that was fine for a period of time. But more modern versions of JavaScript have implemented classes.
 
 **Guide Tasks**
 
@@ -1314,11 +1324,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNjEwNzI4MywtODA2NDY1MjgwLDEyOD
-I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
-MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
-QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
-ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0MjUzLD
-IwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC0xNzIx
-MzM0MzE4XX0=
+eyJoaXN0b3J5IjpbLTE2ODIwNTU2NzAsLTgwNjQ2NTI4MCwxMj
+gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
+NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMT
+E0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4
+Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1My
+wyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcy
+MTMzNDMxOF19
 -->
