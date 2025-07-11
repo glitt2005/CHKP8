@@ -1198,7 +1198,7 @@ Entonces, recapitulando, lo que hará el programa será:
 -	Para que tenga acceso a éste, creamos la asignación mediante **la palabra clave `this`**.
 -	Al hacer el paso anterior de `this.name` **estamos añadiendo el atributo** `name` a `this.name`.
 -	Los colores aquí muestran perfectamente que son cosas diferentes:
-	-	 los dos<font color = blue> `name` **en color azul** hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente `name` **en color rojo** en  this.name referencia a una instancia de Instructor, precisamente la instancia que hemos creado en la función jon.  En esta instancia en específico, le decimos que almacene cualquier name (this.name = name) que sea pasado como parámetro con este objeto.
+	-	 los dos <font color = blue> `name` **en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  <font color = maroon>  `name` **en color rojo**</font> en  this.name referencia a una instancia de Instructor, precisamente la instancia que hemos creado en la función jon.  En esta instancia en específico, le decimos que almacene cualquier name (this.name = name) que sea pasado como parámetro con este objeto.
 
 -	Cuando quiera que el constructor tome un objeto como argumento, entonces al instanciar también tenemos que poner un objeto como argumento!!
 
@@ -1361,7 +1361,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzcwNjczMSwtMTMzMjM4MjQwNCwtNT
+eyJoaXN0b3J5IjpbMTA4MjI5MDk4NiwtMTMzMjM4MjQwNCwtNT
 c1NTkyOTA0LC04MDY0NjUyODAsMTI4MjgwNzY3MywxNjczMjUx
 MjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC
 0zOTcxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0
