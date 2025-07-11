@@ -816,11 +816,10 @@ console.log(dorsal);   // Imprime: 10
 
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
-Deb
 
-**Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
 
-funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
+**Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** 
+En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción: funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
 
 funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
@@ -1039,11 +1038,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLT
-EzMzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1
-NjU5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNy
-wxMDUxNzYyNTE0LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1
-NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4OD
-Q4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyNDUs
-LTEzMjI2MjQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTk5ODMyMzk2LC0yMDcxNTU3NzI1LC0xMD
+U1NzkyNzQ5LC0xMzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4
+NTE2OSw0MTI3NTY1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMS
+wzMjM4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIwOTY1LC0xNTIz
+NDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNzQ3LC0yNDkyNj
+kyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MTk5MDMxNSwx
+MzA5NzA1MjQ1XX0=
 -->
