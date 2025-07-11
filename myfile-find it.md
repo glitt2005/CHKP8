@@ -916,11 +916,16 @@ Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos *
 Su objeto es facilitar **la manipulación y combinación de datos de manera concisa**.
 
 
+## 1. CONVERTIR CADENAS EN  ARRAYS
+
+
 **SINTAXIS**: 
 3 puntos seguidos (...) de algún tipo de palabra:
-
-
-
+```JavaScript
+let cadena = "Mundo";
+let array = [...cadena];
+console.log(array); // ["M", "u", "n", "d", "o"]
+```
 ## 1. COMBINAR  ARRAYS
 
 a) Comparemos poniendo el **operador de extensión**:
@@ -1273,11 +1278,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4Nz
-I0NTcxLC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2
-MDIsODU2NTUxMjY3LC02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNj
-IxNTA3MDgwLDE0NDczMjE1MjksLTE3MjEzMzQzMTgsMTYzODEy
-NDMzMywtMjA1NDg1MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMD
-M3LC0xMTc1MDQzNTU0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0x
-MDU1NzkyNzQ5XX0=
+eyJoaXN0b3J5IjpbMTgxMDMzMTY5Niw3NzA2ODMxNjEsMTE0MD
+k4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1
+NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMD
+E0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMz
+NDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NT
+ksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIw
+NzE1NTc3MjVdfQ==
 -->
