@@ -859,7 +859,8 @@ console.log(edad);   // Output: 45
 ```
 
 ###  APLICACIONES
-Aplicacionesque nos encontramos a diario en la que utilizamosJavaScript permite deconstruir arreglos (arrays) y objetos al conectarse con una API. Esta técnica, conocida como "desestructuración", facilita la extracción de datos específicos de estructuras complejas y su asignación a variables individuales, simplificando el manejo de la información recibida de la API.
+Aplicaciones que nos encontramos a diario en la que utilizamos la deconstrucción de arrays y objetos en JavaScript es al conectarse con una API. 
+Esta devuelve típicamente estructuras tipo array y objetos. Una vez hemos identificado el nombre del objeto u array a deconstruir, nos facilita enormemente la extracción de datos específicos de estructuras complejas y su asignación a variables individuales, simplificando el manejo de la información recibida de la API.
 
 # 5 ¿Qué hace el operador de extensión en JS?
 
@@ -1016,7 +1017,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTg3NTg1MywtMTYxMzc2OTAzNSwxMj
+eyJoaXN0b3J5IjpbMTk0OTQwNDU3OSwtMTYxMzc2OTAzNSwxMj
 MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
 NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
 csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
