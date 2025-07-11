@@ -859,9 +859,9 @@ function mostrarNumeros([primero, segundo]) {
 
 Muchas veces **no conocemos los valores que obtendremos, sea como resultado de una petición API** o  datos de formularios o de cualquier otra fuente con los que tratemos con **objetos**.  A menudo sólo tenemos trozos de lo que necesitamos.
 
-Por ello, necesitaremos poner unos VALORES POR DEFECTO PARA ESOS OBJETOS.
+Por ello, necesitaremos poner unos **valores por defecto** para esos objetos.
 
-Sintaxis muy parecida a cómo utilizamos los argumentos por defecto en los tipos de valores de variable normales cuando simplemente pasas un único elemento como argumento. Pero ahora vamos a inegrar eso en un objeto.
+La **sintaxis** muy parecida a cómo utilizamos los argumentos por defecto en los tipos de valores de variable normales **cuando simplemente pasas un único elemento como argumento**. Pero ahora d a integrar eso en un objeto.
 
 La desestructuración permite establecer valores por defecto para las variables, en caso de que la propiedad o elemento del arreglo no exista.
 
@@ -1045,11 +1045,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQzNzU4NTc0LDIyNjAxODUxLC0yMDcxNT
-U3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4NzAzMTU1LC0xMzQyNjU1
-MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAsLTE2MTM3NjkwMzUsMT
-IzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIw
-OTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNz
-Q3LC0yNDkyNjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5
-MTk5MDMxNV19
+eyJoaXN0b3J5IjpbMTEwNjgzODg2OSwyMjYwMTg1MSwtMjA3MT
+U1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1
+NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LD
+EyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUy
+MDk2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMj
+c0NywtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywz
+OTE5OTAzMTVdfQ==
 -->
