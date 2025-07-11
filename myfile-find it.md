@@ -1138,8 +1138,6 @@ Es una de las formas más comunes de hacer la deconstrucción de objetos utiliza
 # 6 ¿Qué es la programación orientada a objetos?
 
 
-<![endif]-->
-
 For years older versions of JavaScript did not have the Object Oriented Programming components of classes and instantiation and that was fine for a period of time. But more modern versions of JavaScript have implemented classes.
 
 **Guide Tasks**
@@ -1316,7 +1314,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODg4ODQyMiwtODA2NDY1MjgwLDEyOD
+eyJoaXN0b3J5IjpbLTMwNjEwNzI4MywtODA2NDY1MjgwLDEyOD
 I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
 MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
 QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
