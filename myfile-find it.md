@@ -1188,7 +1188,7 @@ Entonces, recapitulando, lo que hará el programa será:
 	-  **llamar a otras funciones** dentro de él, etc,
  que es lo que el **constructor** hace.  
  - Éste, pues,  **define el método que se ejecuta al crear una nueva instancia de la clase**. 
- -  Ejecuta todos los procesos que queramos cada vez que se cree un nuevo “**Instructor**” **new** **Instructor**  ({name : **'**………**'**});
+ -  Ejecuta todos los procesos que queramos cada vez que creemos un nuevo objeto. (lo laremos con la palabra clave `new`**   ({name : **'**………**'**});
 
 Si imaginamos la clase como la estructura para una casa, cuando construyes una casa, quieres ciertas cosas dentro de ella, como poner los cimientos o montar la estructura, esto es lo que hace el **constructor**: realizar las tareas básicas, **la base** para cada vez que **instanciemos una clase nueva**. La clase en sí no ejecuta nada: son un conjunto de reglas y pautas para crear objetos; para ejecutar tenemos las **instancias.**
 
@@ -1350,11 +1350,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NDAwMjE5NSwtNTc1NTkyOTA0LC04MD
-Y0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5
-NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2MjYsNz
-cwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNjA0OTI0
-NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUxMjY3LC
-02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0NDcz
-MjE1MjldfQ==
+eyJoaXN0b3J5IjpbLTM2Nzc5Njg5LC01NzU1OTI5MDQsLTgwNj
+Q2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3
+NCwxNzAwOTc3NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3Nz
+A2ODMxNjEsMTE0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3
+ODMsLTE5MjQ4Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLT
+Y3ODk4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMy
+MTUyOV19
 -->
