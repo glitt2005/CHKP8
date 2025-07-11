@@ -922,9 +922,9 @@ Su objeto es facilitar **la manipulación y combinación de datos de manera conc
 **SINTAXIS**: 
 3 puntos seguidos (...) de algún tipo de palabra:
 ```JavaScript
-let cadena = "Mundo";
-let array = [...cadena];
-console.log(array); // ["M", "u", "n", "d", "o"]
+let cadena = "Generador";
+let miarray = [...cadena];
+console.log(miarray); // ['G', 'e', 'n', 'e', 'r', 'a', 'd', 'o', 'r']
 ```
 ## 1. COMBINAR  ARRAYS
 
@@ -1278,11 +1278,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMDMzMTY5Niw3NzA2ODMxNjEsMTE0MD
-k4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1
-NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMD
-E0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMz
-NDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NT
-ksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIw
-NzE1NTc3MjVdfQ==
+eyJoaXN0b3J5IjpbNTkzODg1MzgwLDc3MDY4MzE2MSwxMTQwOT
+g2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2ODU0
+OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0MjUzLDIwMT
+Q4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC0xNzIxMzM0
+MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2NDY1OS
+wtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MSwtMjA3
+MTU1NzcyNV19
 -->
