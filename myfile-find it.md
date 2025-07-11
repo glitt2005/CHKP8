@@ -861,9 +861,9 @@ Muchas veces **no conocemos los valores que obtendremos, sea como resultado de u
 
 Por ello, necesitaremos poner unos **valores por defecto** para esos objetos.
 
-La **sintaxis** muy parecida a cómo utilizamos los argumentos por defecto en los tipos de valores de variable normales **cuando simplemente pasas un único elemento como argumento**. Pero ahora d a integrar eso en un objeto.
+La **sintaxis** muy parecida a cómo utilizamos los argumentos por defecto en los tipos de valores de variable normales **cuando simplemente pasas un único elemento como argumento**. Pero ahora debemos integrar eso en un objeto.
 
-La desestructuración permite establecer valores por defecto para las variables, en caso de que la propiedad o elemento del arreglo no exista.
+La desestructuración permite establecer valores por defecto para las variables, **en el eventual caso de que la propiedad o elemento del array  no exista.**
 
 
 
@@ -1045,11 +1045,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjgzODg2OSwyMjYwMTg1MSwtMjA3MT
-U1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1
-NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LD
-EyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUy
-MDk2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMj
-c0NywtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywz
-OTE5OTAzMTVdfQ==
+eyJoaXN0b3J5IjpbLTEwNzkxMjMyNDcsMjI2MDE4NTEsLTIwNz
+E1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2
+NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNS
+wxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1
+MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3Mj
+I3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcs
+MzkxOTkwMzE1XX0=
 -->
