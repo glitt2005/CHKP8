@@ -1169,14 +1169,14 @@ En nuestro ejemplo:
 
 
 Lo que hará el programa:
-1.  examinar el plano 
-2.  crear e instanciar un objeto con él, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse en algo terminado.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior.  Luego puedo hacer otro objeto con otro nombre y basarlo en la misma plantilla o estructura. Serían dos objetos distintos que tienen una misma estructura.
+1.  **examinar** el plano 
+2.  **crear e instanciar un objeto con él**, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse en algo terminado.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior. 
+3.  Luego puedo **hacer otro objeto** con otro nombre y **basarlo en la misma plantilla** o estructura. Serían dos objetos distintos que tienen una misma estructura.
 
 
 
 
-Si Bob y Sally acceden al sitio, Bob inicia sesión y el sistema examina el plano del usuario, examina la clase y crea una instancia del objeto de usuario Bob. Deja de ser un plano. Ahora es algo que el sistema puede usar.
-En esta sección, abordaremos dos temas: clases e instanciación, ya que son dos de los aspectos más importantes que debes comprender. También abordaremos otros temas, como la comprensión de los métodos estáticos y de instancia, y cómo usar herramientas como "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra.
+ambién abordaremos otros temas, como la comprensión de los métodos estáticos y de instancia, y cómo usar herramientas como "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra.
 Este patrón se observará con frecuencia al usar herramientas como React, View y Angular. Y entonces quiero que puedas ver lo que realmente está sucediendo porque si simplemente tomaste un tutorial de React y viste todas estas diferentes palabras clave como clase e implementos y uso y si ves estas cosas y en realidad no conoces los fundamentos que están sucediendo en el JavaScript puro, podrías pensar que son específicos de ese marco o puede que no entiendas exactamente lo que está sucediendo detrás de escena y eso es lo que quiero hacer es que puedas entender que esto es solo Javascript puro y estamos aprovechando la programación orientada a objetos para construir nuestros propios sistemas.For years older versions of JavaScript did not have the Object Oriented Programming components of classes and instantiation and that was fine for a period of time. But more modern versions of JavaScript have implemented classes.
 
 
@@ -1331,7 +1331,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTI5ODAzOCwtODA2NDY1MjgwLDEyOD
+eyJoaXN0b3J5IjpbMTY4NjY0Mjc4MCwtODA2NDY1MjgwLDEyOD
 I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
 MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
 QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
