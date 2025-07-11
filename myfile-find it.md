@@ -1149,11 +1149,14 @@ Comencemos con una analogía. Crear un plano de una casa:
 - ubicaciones de puertas
 - donde van los enchufes de luz...
 
-Nos hacemos una idea.  Esto NO es una casa. Es la estructura.
+Nos hacemos una idea.  **Esto NO es una casa**. Es la **estructura**.
 
 Esta **estructura** la podemos asociar con lo que en Javascript corresponde a una **clase**.
 
-Una clase es simplemente una lista de definiciones que indican exactamente cómo debería comportarse. **Enumerará atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
+**UNA CLASE:**
+
+- **Una clase** es simplemente una lista de definiciones que indican exactamente cómo debería comportarse.
+-  **Enumerará atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
 
 #### Imaginemos la clase `Usuario`:
 - Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa revisará su clase `Usuario`  y verá el plano, verá esa estructura. Es importante ver cómo debería comportarse ese `Usuario` y para luego pasar al siguiente paso. 
@@ -1343,11 +1346,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyOD
-I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
-MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
-QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
-ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0MjUzLD
-IwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC0xNzIx
-MzM0MzE4XX0=
+eyJoaXN0b3J5IjpbLTE4ODkyMTU2NjAsLTU3NTU5MjkwNCwtOD
+A2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3
+OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LD
+c3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDky
+NDc4MywtMTkyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2Ny
+wtNjc4OTg0MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3
+MzIxNTI5XX0=
 -->
