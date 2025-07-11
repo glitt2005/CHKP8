@@ -1029,9 +1029,11 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 
 ## 3.  PASAR ARGUMENTOS A FUNCIONES 
 
-Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos el método`max()`, 
-- que se utiliza para encontrar el valor más grande de una lista de números
-- -si se proporciona un argumento que no es un número,  `Math.max()`  devuelve  `NaN`  (Not a Number).y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
+Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos el método`max()`, este método: 
+- se utiliza para encontrar **el valor más grande de una lista de números**
+- **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
+
+y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
 
 a)
 
@@ -1221,11 +1223,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2Njg2OSwyMDE0ODYzNzg3LDE2MjE1MD
-cwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMz
-LC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLT
-ExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3
-OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MT
-Y5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMy
-Mzg1MzUwN119
+eyJoaXN0b3J5IjpbMTAzNDk5MTExMiwyMDE0ODYzNzg3LDE2Mj
+E1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0
+MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMz
+csLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEw
+NTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NT
+g1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDEx
+LDMyMzg1MzUwN119
 -->
