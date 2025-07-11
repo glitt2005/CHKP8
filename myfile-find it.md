@@ -964,6 +964,7 @@ const numbers = [1,2,3,4];
 const updatedNumbers = numbers;
 
 updatedNumbers.push(5);
+
 console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
 console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
@@ -1172,7 +1173,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA1Nzc1NDQsMTQ0NzMyMTUyOSwtMT
+eyJoaXN0b3J5IjpbLTE3MDEzNzA1MjIsMTQ0NzMyMTUyOSwtMT
 cyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5
 NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NT
 EsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUs
