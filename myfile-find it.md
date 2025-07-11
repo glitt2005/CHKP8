@@ -859,8 +859,12 @@ console.log(edad);   // Output: 45
 ```
 
 ###  APLICACIONES
-Aplicaciones que nos encontramos a diario en la que utilizamos la deconstrucción de arrays y objetos en JavaScript es al conectarse con una API. 
-Esta devuelve típicamente estructuras tipo array y objetos. Una vez hemos identificado el nombre del objeto u array a deconstruir, nos facilita enormemente la extracción de estos datos específicos de estructuras complejas, así como su asignación a variables individuales, que de otro modo sería tan tedioso trabajar con los tipos de datos que una API devuelve.
+Aplicaciones que nos encontramos a diario en la que utilizamos la deconstrucción de arrays y objetos en JavaScript es al conectarse con una API externa. 
+Esta devuelve típicamente estructuras tipo array y objetos (con todo tipo de claves y valores diferentes). 
+
+En versiones antiguas de JavaScript tenías que crear algún tipo de función que sacara cada uno de esos valores, iterando sobre las claves, almacenándolas en variables, y pasarlas en la función que estés creando. Pero en **versiones modernas de JavaScript**, lo que realmente se puede utilizar es la **deconstrucción** del el objeto.
+
+Una vez hemos identificado el nombre del objeto u array a deconstruir, nos facilita enormemente la extracción de estos datos específicos de estructuras complejas, así como su asignación a variables individuales, que de otro modo sería tan tedioso trabajar con los tipos de datos que una API devuelve.
 
 # 5 ¿Qué hace el operador de extensión en JS?
 
@@ -1017,11 +1021,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEyMz
-IxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2
-NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0Ny
-wtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywzOTE5
-OTAzMTUsMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMjU5NTczMT
-IwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2MzI0MDgzLDE4NTA5
-MTQxNzNdfQ==
+eyJoaXN0b3J5IjpbMTE5NDgyODA4NSw0MTI3NTY1OTAsLTE2MT
+M3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUx
+NCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQxLC
+0xNjMwNzIyNzQ3LC0yNDkyNjkyMjEsLTc0ODg0ODA3NywxNTUx
+MTA3MzA3LDM5MTk5MDMxNSwxMzA5NzA1MjQ1LC0xMzIyNjI0OT
+MxLC0yNTk1NzMxMjAsNjUwNjEyODIsMTEyNDcyODU3OSw2NTYz
+MjQwODNdfQ==
 -->
