@@ -736,7 +736,7 @@ const numeros = [1, 2, 3, 4, 5];// Desestructuración de un arreglo
 const [primero, segundo, , , quinto] = numeros;
 
 console.log(primero); // Output: 1
-**strong text**console.log(segundo); // Output: 2
+console.log(segundo); // Output: 2
 console.log(quinto);  // Output: 5
 ```
 <br>
@@ -1000,7 +1000,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDE3MDQ0MiwtNDU4NTIwOTY1LC0xNT
+eyJoaXN0b3J5IjpbMTA1MTc2MjUxNCwtNDU4NTIwOTY1LC0xNT
 IzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNzQ3LC0yNDky
 NjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MTk5MDMxNS
 wxMzA5NzA1MjQ1LC0xMzIyNjI0OTMxLC0yNTk1NzMxMjAsNjUw
