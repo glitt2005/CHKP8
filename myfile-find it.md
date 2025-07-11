@@ -1108,9 +1108,7 @@ console.log(relevos); // { relevo_1: 'Morton', relevo_2: 'Gregerson' }
 ```
 **A traves de la sintaxis <big>`...elemento`</big> ,** haremos mapear este argumento a el resto de elementos que contiene la variable y nos **imprime un objeto con los pares la clave-valor del resto de los elementos**.
 
-Como hemos visto en el punto nº 4., ésta es la forma que trabaja **la deconstrucción**:  si pasamos un valor tal como `abridor`, lo busca en la variable (que es un objeto) y encuentra la clave, la mapea e imprime su valor.  **Los tres puntos `...` crea un grupo abierto**, que mapeará al resto de elementos en cuanto creamos un variable para ello.
-
-Los tres puntos hacen que JS interprete que hay un número de argumentos indeterminado, y los pone en un objeto.
+Como hemos visto en el punto nº 4., ésta es la forma que trabaja **la deconstrucción**:  si pasamos un valor tal como `abridor`, lo busca en la variable (que es un objeto) y encuentra la clave, la mapea e imprime su valor.  **Los tres puntos `...` crea un grupo abierto con un número de elementos indeterminado**, que mapeará al resto de elementos en cuanto creamos un variable para ello.
 
 Es una de las formas más comunes de hacedr la deconstrucción de objetos utilizado por muchas plataformas como React cuando no sabes cuántos argumentos habrá y necesitas extraer todo lo que haya, para guardarlo en una variable que puedas utilizar más tarde.
 # 6 ¿Qué es la programación orientada a objetos?
@@ -1266,7 +1264,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzIwNDgxNTUsMTE0MDk4NjE5LDIwMT
+eyJoaXN0b3J5IjpbLTE2NjIyOTYyNDcsMTE0MDk4NjE5LDIwMT
 g3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMTczMjA3
 NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYzNzg3LD
 E2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4
