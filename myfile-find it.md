@@ -908,7 +908,85 @@ Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos *
 
 
 # 5 ¿Qué hace el operador de extensión en JS?
+<![endif]-->
 
+**Spread Operator – OPERADOR DE PROPAGACIÓN**
+
+Es una herramienta muy potente de las plataformas más populares de JS.
+
+SINTAXIS: 3 puntos seguidos de algún tipo de palabra:
+
+…palabra
+
+## <![if !supportLists]>1. <![endif]>COMBINAR o CONCATENAR ARRAYS
+
+//  imprime  [ 1, 2, 3, 4, 5, 8, 9 ]
+
+Si no añadiéramos los puntos  … , el push() de JS interpretaría que tenemos que añadir un array [8,9], precisamente por cómo JS interpreta los arrays:  un conjunto de “cualquier tipo de datos”.  La solución, pues es utilizar el operador de propagación.
+
+Como vemos, ha modificado la variable **numbers**.
+
+## <![if !supportLists]>2. <![endif]>COPIAR ARRAYS
+
+Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JS, se sobreentiende que no tienes que hacer cambios en una estructura de datos ya creada. Es una convención común no hacer cambios en esa variable original (por ello usar mejor la variable **LET** y no CONST).
+
+Lo que harías en su lugar es **crear una nueva variable en donde se copiarían esos datos.** Es también una de las razones para **evitar crear los menos efectos secundarios posibles**, ya que si hacemos cambios a una estructura existente y luego otra parte del programa llama a esta estructura sin tener en cuenta que has hecho cambios en ella, **podría causar errores tediosos de arreglar.**
+
+Por ejemplo si añades un string a algo en este array que contiene números, y luego otra parte del programa considera que solo había números enteros (porque en principio era así), y ejecuta un proceso sobre esa estructura, pues daría error.
+
+Por ello lo más limpio y seguro, **UNA BUENA PRÁCTICA**  es hacer una copia de la estructura.
+
+Sabemos que el método push() cambia el valor de la variable, ya que si hacemos:
+
+Vemos que **cambia las dos variables.**  Aquí NO **PASA** UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, cambiando esta variable fuente.
+
+HAY DOS FORMAS DE CREAR UNA NUEVA VARIABLE CON LOS DATOS DE AMBAS SIN MODIFICAR LA VARIABLE EXISTENTE:
+
+<![if !supportLists]>A) <![endif]>FORMA TRADICIONAL: AÑADIENDO slice() a la variable original:
+
+<![if !supportLists]>B) <![endif]>FORMA MÁS MODERNA: con el operador de propagación y la variable original entre corchetes **[…****numbers****];**
+
+Vemos los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
+
+## <![if !supportLists]>3. <![endif]>PASAR ARGUMENTOS A FUNCIONES
+
+Es muy común. Tomaremos de la biblioteca el objeto **Math** como ejemplo, que está disponible en todo JS, y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
+
+a)
+
+Vemos que devuelve el valor máximo sin problemas.
+
+Pero si lo **pasamos en el argumento de una función**, ya la cosa es didferente:
+
+b)
+
+En el caso a) estamos pasando una lista, como si fueran 6 argumentos.
+
+En el caso b) interpreta que solo estamos pasando 1 argumento, cuyo tipo de dato es un array, no un número. Por esto el output de NaN.
+
+Para arreglar esto, solo tenemos que añadir la sintaxis (es decir, los tres puntos **…**) del **operador de propagación** y así poder implementar la **deconstrucción del array**.
+
+Y lo convierte en un conjunto de argumentos de función, que en este caso son **números.**
+
+Es muy popular en las plataformas modernas de JS.
+
+# <![if !supportLists]>4. <![endif]>COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
+
+Utilizando la **deconstrucción de objetos**, vamos a extraer los valores dentro del objeto de la variable, y los tenemos de dos tipos:
+
+<![if !supportLists]>A) <![endif]>Valores que son **fijos**: necesitamos que siempre estén ahí
+
+<![if !supportLists]>B) <![endif]>Otros valores que **pueden estar o no**, y tampoco conocemos el número de ellos
+
+<![if !supportLists]>A) <![endif]>Los fijos: ponemos las claves como parte del nombre de la variable
+
+<![if !supportLists]>B) <![endif]>Los variables: **añadimos un elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
+
+Ésta es la forma que trabaja la deconstrucción: si paso un valor tal como starter, los busca en la variable (que es un objeto) y encuentra las claves, es decir, mapea a las clav es. Y en el caso B) para hacer que el conjunto de relievers sea abierto, pues utilizamos los tres puntos.
+
+Los tres puntos hacen que JS interprete que hay un número de argumentos indeterminado, y los pone en un objeto.
+
+Es una de las formas más comunes de hacedr la deconstrucción de objetos utilizado por muchas plataformas como React cuando no sabes cuántos argumentos habrá y necesitas extraer todo lo que haya, para guardarlo en una variable que puedas utilizar más tarde.
 # 6 ¿Qué es la programación orientada a objetos?
 
 # 7. ¿Qué es una promesa en JS?
@@ -1062,11 +1140,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNz
-E1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2
-NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNS
-wxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1
-MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3Mj
-I3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcs
-MzkxOTkwMzE1XX0=
+eyJoaXN0b3J5IjpbNzgyMzc0NTc4LC0xMTc1MDQzNTU0LDIyNj
+AxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4NzAz
+MTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAsLT
+E2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2
+MjUxNCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1Nz
+QxLC0xNjMwNzIyNzQ3LC0yNDkyNjkyMjEsLTc0ODg0ODA3Nywx
+NTUxMTA3MzA3XX0=
 -->
