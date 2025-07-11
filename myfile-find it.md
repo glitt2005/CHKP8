@@ -1133,8 +1133,12 @@ Es una de las formas más comunes de hacer la deconstrucción de objetos utiliza
 
 **El operador de extensión ... debe colocarse al final de los demás elementos del objeto**.  Generaríamos un error si tratamos de hacer `const {abridor, ...relevos, cerrador}....`. Este error, diría algo así como `// SyntaxError: Rest element must be last element`.
 
+-----
 
 # 6 ¿Qué es la programación orientada a objetos?
+
+
+
 
 # 7. ¿Qué es una promesa en JS?
 
@@ -1287,11 +1291,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OT
-c3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2
-MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNj
-A0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUx
-MjY3LC02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLD
-E0NDczMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1
-NDg1MDIwN119
+eyJoaXN0b3J5IjpbLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2Nz
+MyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1
+MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMTE0MDk4NjE5LDIwMT
+g3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMTczMjA3
+NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYzNzg3LD
+E2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4
+MTI0MzMzXX0=
 -->
