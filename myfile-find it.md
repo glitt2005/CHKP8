@@ -1197,8 +1197,8 @@ Entonces, recapitulando, lo que hará el programa será:
 -	El `constructor ({ name })'`, aquí  `name` es lo que se pasará cuando creemos un nuevo Instructor: **`new Instructor`**). Y queremos hacer algo con este name. 
 -	Para que tenga acceso a éste, creamos la asignación mediante **la palabra clave `this`**.
 -	Al hacer el paso anterior de `this.name` **estamos añadiendo el atributo** `name` a `this.name`.
--	-
-Los colores aquí muestran perfectamente que son cosas diferentes: los dos “name” en color azul hacen referencia al mismo elemento dentro del objecto, pero el siguiente name en color rojo en  this.name referencia a una instancia de Instructor, precisamente la instancia que hemos creado en la función jon.  En esta instancia en específico, le decimos que almacene cualquier name (this.name = name) que sea pasado como parámetro con este objeto.
+-	Los colores aquí muestran perfectamente que son cosas diferentes:
+	-	 los dos<font color = blue> `name` **en color azul** hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente `name` **en color rojo** en  this.name referencia a una instancia de Instructor, precisamente la instancia que hemos creado en la función jon.  En esta instancia en específico, le decimos que almacene cualquier name (this.name = name) que sea pasado como parámetro con este objeto.
 
 -	Cuando quiera que el constructor tome un objeto como argumento, entonces al instanciar también tenemos que poner un objeto como argumento!!
 
@@ -1361,11 +1361,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTIyMTIzNTAsLTEzMzIzODI0MDQsLT
-U3NTU5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1
-MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMC
-wtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcy
-NDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2ODU0OCwxNzMyMDc0Nj
-AyLDg1NjU1MTI2NywtNjc4OTg0MjUzLDIwMTQ4NjM3ODcsMTYy
-MTUwNzA4MF19
+eyJoaXN0b3J5IjpbLTgyNzcwNjczMSwtMTMzMjM4MjQwNCwtNT
+c1NTkyOTA0LC04MDY0NjUyODAsMTI4MjgwNzY3MywxNjczMjUx
+MjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC
+0zOTcxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0
+NTcxLC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MD
+IsODU2NTUxMjY3LC02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNjIx
+NTA3MDgwXX0=
 -->
