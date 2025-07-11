@@ -857,12 +857,13 @@ const { nombre, edad = 45 } = usuario;
 console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 45
 ```
+<br>
 
 ###  APLICACIONES
-Aplicaciones que nos encontramos a diario en la que utilizamos la deconstrucción de arrays y objetos en JavaScript es al conectarse con una API externa. 
-Esta devuelve típicamente estructuras tipo array y objetos (con todo tipo de claves y valores diferentes). 
+Aplicaciones que nos encontramos a diario en la que utilizamos la deconstrucción de arrays y objetos en JavaScript es **al conectarse con una API externa**. 
+Esta devuelve típicamente **estructuras tipo array y objetos** (con todo tipo de claves y valores diferentes). 
 
-En versiones antiguas de JavaScript tenías que crear algún tipo de función que sacara cada uno de esos valores, iterando sobre las claves, almacenándolas en variables, y pasarlas en la función que estés creando. Pero en **versiones modernas de JavaScript**, lo que realmente se puede utilizar es la **deconstrucción** del el objeto.
+**En versiones antiguas de JavaScript** tenías que crear algún tipo de función que sacara cada uno de esos valores, iterando sobre las claves, almacenándolas en variables, y pasarlas en la función que estés creando. Pero en **versiones modernas de JavaScript**, lo que realmente se puede utilizar es la **deconstrucción** del el objeto.
 
 Una vez hemos identificado el nombre del objeto u array a deconstruir, nos facilita enormemente la extracción de estos datos específicos de estructuras complejas, así como su asignación a variables individuales, que de otro modo sería tan tedioso trabajar con los tipos de datos que una API devuelve.
 
@@ -1021,11 +1022,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDgyODA4NSw0MTI3NTY1OTAsLTE2MT
-M3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUx
-NCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQxLC
-0xNjMwNzIyNzQ3LC0yNDkyNjkyMjEsLTc0ODg0ODA3NywxNTUx
-MTA3MzA3LDM5MTk5MDMxNSwxMzA5NzA1MjQ1LC0xMzIyNjI0OT
-MxLC0yNTk1NzMxMjAsNjUwNjEyODIsMTEyNDcyODU3OSw2NTYz
-MjQwODNdfQ==
+eyJoaXN0b3J5IjpbLTEzNTk2ODU4MzksNDEyNzU2NTkwLC0xNj
+EzNzY5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1
+MTQsLTQ1ODUyMDk2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MS
+wtMTYzMDcyMjc0NywtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1
+MTEwNzMwNywzOTE5OTAzMTUsMTMwOTcwNTI0NSwtMTMyMjYyND
+kzMSwtMjU5NTczMTIwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2
+MzI0MDgzXX0=
 -->
