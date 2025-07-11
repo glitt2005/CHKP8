@@ -812,7 +812,8 @@ console.log(nombre);   // Imprime: Messi
 console.log(posicion); // Imprime: Delantero
 console.log(dorsal);   // Imprime: 10
 ```
-OJO!
+<br>
+![icono de Precaución](icons8-precauci%C3%B3n-48.png)
 
 
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
@@ -1036,11 +1037,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMj
-c1NjU5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUw
-NywxMDUxNzYyNTE0LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLT
-E1NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4
-ODQ4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyND
-UsLTEzMjI2MjQ5MzEsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMTI0
-NzI4NTc5XX0=
+eyJoaXN0b3J5IjpbMTExMjA1MTcxMCwtMTM0MjY1NTM3MSw4Mj
+g1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEw
+MTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2NSwtMT
+UyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0NywtMjQ5
+MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywzOTE5OTAzMT
+UsMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMjU5NTczMTIwLDY1
+MDYxMjgyXX0=
 -->
