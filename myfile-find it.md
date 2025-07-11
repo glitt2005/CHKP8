@@ -1042,8 +1042,11 @@ console.log(Math.max (1,5,1,10,2,3));  // devuelve 10
 
 
 Sin embargo si lo **pasamos en el argumento de una función**, ya la cosa es didferente:
+```Javascript
+const numbers = [1,5,1,10,2,3];
+console.log(Math.max (numbers));  // NaN
+```
 
-b)
 
 En el caso a) estamos pasando una lista, como si fueran 6 argumentos.
 
@@ -1225,11 +1228,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2NTUxMjY3LC02Nzg5ODQyNTMsMjAxND
-g2Mzc4NywxNjIxNTA3MDgwLDE0NDczMjE1MjksLTE3MjEzMzQz
-MTgsMTYzODEyNDMzMywtMjA1NDg1MDIwNywtOTExOTY0NjU5LC
-0xNjM0MjAxMDM3LC0xMTc1MDQzNTU0LDIyNjAxODUxLC0yMDcx
-NTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4NzAzMTU1LC0xMzQyNj
-U1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAsLTE2MTM3NjkwMzUs
-MTIzMjE3MTAxMV19
+eyJoaXN0b3J5IjpbNDI0Nzk1OTM0LDg1NjU1MTI2NywtNjc4OT
+g0MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5
+LC0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLT
+kxMTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYw
+MTg1MSwtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMz
+E1NSwtMTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0x
+NjEzNzY5MDM1XX0=
 -->
