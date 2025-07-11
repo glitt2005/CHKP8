@@ -736,7 +736,7 @@ Una de los procesos más comunes que te encuentras cuando estás implementando, 
 <br>
 
 
-### DECONSTRUCCIÓN DE ARRAYS:
+### 2. DECONSTRUCCIÓN DE ARRAYS:
 
 La desestructuración de arrays o arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí **las dos comas extras (,) sustituyen** cada una de ellas a **un elemento del array siguiendo el orden**:
 
@@ -775,7 +775,7 @@ más la demás codificación para utilizar esas variables, etc.
 
 
 
-### DECONSTRUCCIÓN DE OBJETOS:
+### 3. DECONSTRUCCIÓN DE OBJETOS:
 
 La desestructuración de objetos permite extraer **propiedades específicas de un objeto y asignarlas a variables con nombres iguales a las propiedades** o con nombres distintos usando un alias.
 ####  Objetos - EJEMPLO 1:
@@ -825,7 +825,7 @@ En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero n
 <br>
 <br>
 
-### DESESTRUCTURACIÓN CON PARÁMETROS DE FUNCIONES:
+### 4. DESESTRUCTURACIÓN CON PARÁMETROS DE FUNCIONES:
 La desestructuración también se puede utilizar **al pasar argumentos a funciones.**
 
 
@@ -854,7 +854,7 @@ function mostrarNumeros([primero, segundo]) {
 
 **NOTA**: Debemos llamar a la función siempre teniendo en cuenta **el tipo de datos que contiene**. En el Ejemplo 2, vemos que la función  `mostrarNumeros()` contiene **un parámetro conteniendo un array:** `[primero, segundo]`, y por tanto, cuando la invoquemos debemos utilizar **la misma sintaxis con corchetes [].**
 <br>
-###  VALORES POR DEFECTO:
+###  5. VALORES POR DEFECTO:
 La desestructuración permite establecer valores por defecto para las variables, en caso de que la propiedad o elemento del arreglo no exista.
 
 
@@ -868,7 +868,7 @@ console.log(edad);   // Output: 45
 ```
 <br>
 
-###  APLICACIONES
+###  6. APLICACIONES
 Aplicaciones que nos encontramos a diario en la que utilizamos la deconstrucción de arrays y objetos en JavaScript es **al conectarse con una API externa**. 
 Esta devuelve típicamente **estructuras tipo array y objetos** (con todo tipo de claves y valores diferentes). 
 
@@ -1037,7 +1037,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDI2NzEyMiwyMjYwMTg1MSwtMjA3MT
+eyJoaXN0b3J5IjpbMjA3NjY1ODMyOCwyMjYwMTg1MSwtMjA3MT
 U1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1
 NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LD
 EyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUy
