@@ -1106,7 +1106,7 @@ console.log(abridor); // "Verlander"
 console.log(cerrador); // "Giles"
 console.log(relevos); // { relevo_1: 'Morton', relevo_2: 'Gregerson' }
 ```
-n elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
+A traves de la sintaxis <big>**...elemento**</big> por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
 
 Ésta es la forma que trabaja la deconstrucción: si paso un valor tal como starter, los busca en la variable (que es un objeto) y encuentra las claves, es decir, mapea a las clav es. Y en el caso B) para hacer que el conjunto de relievers sea abierto, pues utilizamos los tres puntos.
 
@@ -1266,11 +1266,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMT
-kyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0
-MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC
-0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkx
-MTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMT
-g1MSwtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1
-NSwtMTM0MjY1NTM3MV19
+eyJoaXN0b3J5IjpbODU3MzYyNjYyLDIwMTg3MjQ1NzEsLTE2MD
+Q5MjQ3ODMsLTE5MjQ4Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEy
+NjcsLTY3ODk4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMT
+Q0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0
+ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwND
+M1NTQsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDks
+LTEzMzg3MDMxNTVdfQ==
 -->
