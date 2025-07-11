@@ -1061,9 +1061,9 @@ const numbers = [1,5,1,10,2,3];
 console.log(Math.max (...numbers));  // 10
 ```
 
-Y lo convierte en un conjunto de argumentos de función, que en este caso son **números.**
+Finalmente conseguimos hacerlo:  lo convierte en un conjunto de argumentos de función, que en este caso son **números.**
 
-Es muy popular en las plataformas modernas de JS.
+Este proceso **es muy típico en las plataformas modernas de JavaScript.**
 
 ##  4. COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
 
@@ -1235,7 +1235,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTA0MjE4Myw4NTY1NTEyNjcsLTY3OD
+eyJoaXN0b3J5IjpbMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3OD
 k4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUy
 OSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC
 05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2
