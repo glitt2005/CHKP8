@@ -1181,7 +1181,14 @@ Entonces, recapitulando, lo que hará el programa será:
 
 **Durante muchos años** JavasScript **no tenía** técnicas de OOP ( object-oriented programming ) o de **programación orientada a objetos**.  Había que crear procedimientos alternativos para conseguir lo que se necesitaba, y una de ellas era la utilización **funciones a modo de clases.** Esto durante largo tiempo hasta que éstas últimas han sido finalmente incorporadas.
 
-Si recordamos en nuestros casos de **deconstrucción** anteriormente explicados, pasaremos un nombre, o sea, `name`, **como objeto**.  Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases** específicamente utilizada dentro de ellas. No siempre están en todas las clases, pero generalmente sí, porque necesitaremos realizar procesos **como fijar valores, llamar a otras funciones** dentro de él, etc, que es lo que el **constructor** hace.  Éste, pues,  **define el método que se ejecuta al crear una nueva instancia de la clase**.  Ejecuta todos los procesos que queramos cada vez que se cree un nuevo “**Instructor**” **new** **Instructor**  ({name : **'**………**'**});
+- Si recordamos en nuestros casos de **deconstrucción** anteriormente explicados, pasaremos un nombre, o sea, `name`, **como objeto**.  
+- Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
+- No siempre están en todas las clases, pero generalmente sí, porque necesitaremos realizar procesos
+	- **como fijar valores** 
+	-  **llamar a otras funciones** dentro de él, etc,
+ que es lo que el **constructor** hace.  
+ - Éste, pues,  **define el método que se ejecuta al crear una nueva instancia de la clase**. 
+ -  Ejecuta todos los procesos que queramos cada vez que se cree un nuevo “**Instructor**” **new** **Instructor**  ({name : **'**………**'**});
 
 Si imaginamos la clase como la estructura para una casa, cuando construyes una casa, quieres ciertas cosas dentro de ella, como poner los cimientos o montar la estructura, esto es lo que hace el **constructor**: realizar las tareas básicas, **la base** para cada vez que **instanciemos una clase nueva**. La clase en sí no ejecuta nada: son un conjunto de reglas y pautas para crear objetos; para ejecutar tenemos las **instancias.**
 
@@ -1343,7 +1350,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMDIzNzUyNCwtNTc1NTkyOTA0LC04MD
+eyJoaXN0b3J5IjpbLTU4NDAwMjE5NSwtNTc1NTkyOTA0LC04MD
 Y0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5
 NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2MjYsNz
 cwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNjA0OTI0
