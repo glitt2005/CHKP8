@@ -1032,7 +1032,7 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos el método`max()`, este método: 
 - se utiliza para encontrar **el valor más grande de una lista de números**
 - **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
-- ejemplo: `console.log(Math.max (1,5,1,10,2,3));  //` 
+- ejemplo: `console.log(Math.max (1,5,1,10,2,3));  // devuelve 10` 
 
 
 
@@ -1224,11 +1224,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODk4NDI1MywyMDE0ODYzNzg3LDE2Mj
-E1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0
-MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMz
-csLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEw
-NTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NT
-g1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDEx
-LDMyMzg1MzUwN119
+eyJoaXN0b3J5IjpbOTIyMTYyMzE2LC02Nzg5ODQyNTMsMjAxND
+g2Mzc4NywxNjIxNTA3MDgwLDE0NDczMjE1MjksLTE3MjEzMzQz
+MTgsMTYzODEyNDMzMywtMjA1NDg1MDIwNywtOTExOTY0NjU5LC
+0xNjM0MjAxMDM3LC0xMTc1MDQzNTU0LDIyNjAxODUxLC0yMDcx
+NTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4NzAzMTU1LC0xMzQyNj
+U1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAsLTE2MTM3NjkwMzUs
+MTIzMjE3MTAxMV19
 -->
