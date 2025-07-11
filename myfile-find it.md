@@ -921,7 +921,7 @@ Su objeto es facilitar **la manipulación y combinación de datos de manera conc
 
 
 
-## 1. COMBINAR o CONCATENAR ARRAYS
+## 1. COMBINAR  ARRAYS
 
 a) Comparemos poniendo el **operador de extensión**:
 ```JavaScript
@@ -950,7 +950,7 @@ precisamente por cómo JavaScript interpreta los arrays:  **un conjunto de “cu
 
 ## 2. COPIAR ARRAYS
 
-Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JS, se sobreentiende que no tienes que hacer cambios en una estructura de datos ya creada. Es una convención común no hacer cambios en esa variable original (por ello usar mejor la variable **LET** y no CONST).
+Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JavaScript, se sobreentiende que **no tienes que hacer cambios en una estructura de datos ya creada**. Es una **convención común** no hacer cambios en esa variable original (por ello usar mejor la variable **LET** y no CONST).
 
 Lo que harías en su lugar es **crear una nueva variable en donde se copiarían esos datos.** Es también una de las razones para **evitar crear los menos efectos secundarios posibles**, ya que si hacemos cambios a una estructura existente y luego otra parte del programa llama a esta estructura sin tener en cuenta que has hecho cambios en ella, **podría causar errores tediosos de arreglar.**
 
@@ -1162,11 +1162,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzODEyNDMzMywtMjA1NDg1MDIwNywtOT
-ExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNTU0LDIyNjAx
-ODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4NzAzMT
-U1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAsLTE2
-MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2Mj
-UxNCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQx
-LC0xNjMwNzIyNzQ3XX0=
+eyJoaXN0b3J5IjpbLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMj
+A1NDg1MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1
+MDQzNTU0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNz
+Q5LC0xMzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0
+MTI3NTY1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NT
+M1MDcsMTA1MTc2MjUxNCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1
+LC0xNTc4MDc1NzQxXX0=
 -->
