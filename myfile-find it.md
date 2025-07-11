@@ -1029,7 +1029,7 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 
 ## 3.  PASAR ARGUMENTOS A FUNCIONES 
 
-Esto es algo muy común. Tomaremos de la biblioteca el objeto **Math** como ejemplo, que está disponible en todo JS, y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
+Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
 
 a)
 
@@ -1219,11 +1219,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0ND
-czMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1
-MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNT
-U0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0x
-MzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NT
-Y1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcs
-MTA1MTc2MjUxNF19
+eyJoaXN0b3J5IjpbLTEzOTczMDEwMDksMjAxNDg2Mzc4NywxNj
+IxNTA3MDgwLDE0NDczMjE1MjksLTE3MjEzMzQzMTgsMTYzODEy
+NDMzMywtMjA1NDg1MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMD
+M3LC0xMTc1MDQzNTU0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0x
+MDU1NzkyNzQ5LC0xMzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyOD
+U4NTE2OSw0MTI3NTY1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAx
+MSwzMjM4NTM1MDddfQ==
 -->
