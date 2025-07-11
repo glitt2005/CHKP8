@@ -1093,7 +1093,18 @@ Para **los fijos**: ponemos **las claves** como parte del nombre de la variable.
 
 B) EXTRAYENDO LOS ELEMENTOS OPCIONALES O VARIABLES:
 
+Añadiremos un elemento más com parte del nombre de la variable (tipo objeto):
+```Javascript
+const {abridor,cerrador, ...re} = {
+    abridor: 'Verlander',
+    cerrador: 'Giles',
+    relevo_1: 'Morton',
+    relevo_2: 'Gregerson'
+}
 
+console.log(abridor); // "Verlander"
+console.log(cerrador); // "Giles"
+```
 
 
 - Los variables: **añadimos un elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
@@ -1256,7 +1267,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODY3MTc5OTUsLTE2MDQ5MjQ3ODMsLT
+eyJoaXN0b3J5IjpbLTE2MzkzMzA0NzYsLTE2MDQ5MjQ3ODMsLT
 E5MjQ4Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4
 NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOS
 wtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05
