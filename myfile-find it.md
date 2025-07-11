@@ -1070,13 +1070,12 @@ Este proceso **es muy típico en las plataformas modernas de JavaScript.**
 
 Utilizando la **deconstrucción de objetos**, vamos a extraer los valores dentro del objeto de la variable, y los tenemos de dos tipos:
 
-<![if !supportLists]>A) <![endif]>Valores que son **fijos**: necesitamos que siempre estén ahí
+- Valores que son **fijos**: necesitamos que siempre estén ahí
 
-<![if !supportLists]>B) <![endif]>Otros valores que **pueden estar o no**, y tampoco conocemos el número de ellos
+-  Otros valores que **pueden estar o no**, y tampoco conocemos el número de ellos
+- Los fijos: ponemos las claves como parte del nombre de la variable
 
-<![if !supportLists]>A) <![endif]>Los fijos: ponemos las claves como parte del nombre de la variable
-
-<![if !supportLists]>B) <![endif]>Los variables: **añadimos un elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
+- Los variables: **añadimos un elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
 
 Ésta es la forma que trabaja la deconstrucción: si paso un valor tal como starter, los busca en la variable (que es un objeto) y encuentra las claves, es decir, mapea a las clav es. Y en el caso B) para hacer que el conjunto de relievers sea abierto, pues utilizamos los tres puntos.
 
@@ -1236,11 +1235,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQ4Njg1NDgsMTczMjA3NDYwMiw4NT
-Y1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcw
-ODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC
-0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTEx
-NzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OT
-I3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5
-LDQxMjc1NjU5MF19
+eyJoaXN0b3J5IjpbLTIwMzc1OTE2NjQsLTE5MjQ4Njg1NDgsMT
+czMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYz
+Nzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOC
+wxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2
+MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NT
+c3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUz
+NzEsODI4NTg1MTY5XX0=
 -->
