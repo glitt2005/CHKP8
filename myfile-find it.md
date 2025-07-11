@@ -703,6 +703,9 @@ font-weight: normal;
 -   **Asignación múltiple:** Se pueden asignar **múltiples variables en una sola línea**.
 <br>
 
+**NOTA**:
+- La destructuración **no cambia la variable en sí misma.** Crea nuevas variables yi asigna valores extraidos de la estructura de datos original. La variable original queda intacta.
+
 ####   INTERCAMBIO DE VALORES DE VARIABLE:
 Un ejemplo básico para el intercambio de turnos en un juego sería hacer uso de la desestructuración **para intercambiar los valores de las variables que representan los jugadores actuales**.
 
@@ -1009,11 +1012,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjI0MDMyOCwtMTYxMzc2OTAzNSwxMj
-MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
-NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
-csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
-OTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3Mz
-EyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUw
-OTE0MTczXX0=
+eyJoaXN0b3J5IjpbMTQ5ODk0MzAxLC0xNjEzNzY5MDM1LDEyMz
+IxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2
+NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0Ny
+wtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywzOTE5
+OTAzMTUsMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMjU5NTczMT
+IwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2MzI0MDgzLDE4NTA5
+MTQxNzNdfQ==
 -->
