@@ -908,9 +908,9 @@ Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos *
 
 
 # 5 ¿Qué hace el operador de extensión en JS?
-<![endif]-->
 
-**Spread Operator – OPERADOR DE PROPAGACIÓN**
+
+**El operador de exrteSpread Operator – OPERADOR DE PROPAGACIÓN**
 
 Es una herramienta muy potente de las plataformas más populares de JS.
 
@@ -970,7 +970,7 @@ Y lo convierte en un conjunto de argumentos de función, que en este caso son **
 
 Es muy popular en las plataformas modernas de JS.
 
-# <![if !supportLists]>4. <![endif]>COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
+##<![if !supportLists]>4. <![endif]>COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
 
 Utilizando la **deconstrucción de objetos**, vamos a extraer los valores dentro del objeto de la variable, y los tenemos de dos tipos:
 
@@ -1140,11 +1140,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMzc0NTc4LC0xMTc1MDQzNTU0LDIyNj
-AxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4NzAz
-MTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAsLT
-E2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2
-MjUxNCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1Nz
-QxLC0xNjMwNzIyNzQ3LC0yNDkyNjkyMjEsLTc0ODg0ODA3Nywx
-NTUxMTA3MzA3XX0=
+eyJoaXN0b3J5IjpbLTE3MTA2MDU1ODQsLTExNzUwNDM1NTQsMj
+I2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3
+MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MC
+wtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUx
+NzYyNTE0LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNz
+U3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3
+LDE1NTExMDczMDddfQ==
 -->
