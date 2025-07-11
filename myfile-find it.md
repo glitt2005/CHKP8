@@ -1188,11 +1188,10 @@ Entonces, recapitulando, lo que hará el programa será:
 	-  **llamar a otras funciones** dentro de él, etc,
  que es lo que el **constructor** hace.  
  -**El constructor**, pues,  **define el método que se ejecuta al crear una nueva instancia de la clase**. 
- - La clase en sí 
- -  Ésta, **la instancia**, ejecuta todos los procesos que queramos cada vez que **creemos un nuevo objeto. (lo haremos con la palabra clave `new`** ).
+ - Una **clase** en sí **no ejecuta nada** (son como hemos dicho un conjunto de reglas y pautas para la ejecución)
+ -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto. (lo haremos con la palabra clave `new`** ).
 
-- Una **clase** en sí **no ejecuta nada** (son como hemos dicho un conjunto de reglas y pautas para la ejecución)
-- Un **instancia** es la que **ejecuta** los procesos.
+
 
 
 
@@ -1353,7 +1352,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQwNzQ1OTUsLTU3NTU5MjkwNCwtOD
+eyJoaXN0b3J5IjpbLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtOD
 A2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3
 OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LD
 c3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDky
