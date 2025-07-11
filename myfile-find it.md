@@ -575,7 +575,7 @@ iii ) **Función flecha**:
 <br>
 <br>
 
-En realidad, si comparamos una función regular con una flecha, en lugar de tener que escribir "function" cada vez que queremos declarar una función, eliminar esa palabra y utilizar "=>"  justo delante de las llaves {} para para declarar una función de flecha. 
+En realidad, **si comparamos una función regular con una flecha**, en lugar de tener que escribir "function" cada vez que queremos declarar una función, eliminar esa palabra y utilizar <big>=></big>  justo delante de las llaves {} para para declarar una función de flecha. 
 
 
 
@@ -995,11 +995,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLT
-E2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTEx
-MDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5Mz
-EsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMy
-NDA4MywxODUwOTE0MTczLC01MjAyNjI4NzgsMTY1MTEzNDcyMi
-wtMTIxODYzNDY4OCwxMzM2MjI2MTY5LC02MTAyODM1LDExNTkw
-MTQzMTNdfQ==
+eyJoaXN0b3J5IjpbLTE3MDY1NzA5MzAsLTE1MjM0Mzc3MjUsLT
+E1NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4
+ODQ4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyND
+UsLTEzMjI2MjQ5MzEsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMTI0
+NzI4NTc5LDY1NjMyNDA4MywxODUwOTE0MTczLC01MjAyNjI4Nz
+gsMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMzM2MjI2MTY5LC02
+MTAyODM1XX0=
 -->
