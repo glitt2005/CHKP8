@@ -724,6 +724,9 @@ console.log(jugador2); // Output: X
 
 **NOTA**: Nos evita tener la tediosa tarea de uno, por uno, cambiar de cada uno de los jugadores `jugadorx.nombre`
 
+
+Una de los procesos más comunes que te encuentras cuando estás implementando, por ejemplo procesos de tipo "***quicksort***" u "ordenamiento rápido") u otros algoritmos más avanzados, es la capacidad de intercambiar los valores de las variables. **Sin la deconstruccion de variables**, sería este procedimiento se convertiría en todo un reto! En las versiones modernas de JS podemos hacer esto de manera más eficiente en una sola línea de código.
+
 <br>
 
 
@@ -1006,7 +1009,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI3NDMyNTcsLTE2MTM3NjkwMzUsMT
+eyJoaXN0b3J5IjpbLTE3MzM4MjkzNTcsLTE2MTM3NjkwMzUsMT
 IzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIw
 OTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNz
 Q3LC0yNDkyNjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5
