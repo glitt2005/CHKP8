@@ -1108,7 +1108,7 @@ console.log(relevos); // { relevo_1: 'Morton', relevo_2: 'Gregerson' }
 ```
 **A traves de la sintaxis <big>`...elemento`</big> ,** haremos mapear este argumento a el resto de elementos que contiene la variable y nos **imprime un objeto con los pares la clave-valor del resto de los elementos**.
 
-Ésta es la forma que trabaja la deconstrucción: si paso un valor tal como starter, los busca en la variable (que es un objeto) y encuentra las claves, es decir, mapea a las clav es. Y en el caso B) para hacer que el conjunto de relievers sea abierto, pues utilizamos los tres puntos.
+Como hemos visto en el punto nº 4., ésta es la forma que trabaja l**a deconstrucción**: si paso un valor tal como `abridor`, los busca en la variable (que es un objeto) y encuentra las claves, es decir, mapea a las clav es. Y en el caso B) para hacer que el conjunto de relievers sea abierto, pues utilizamos los tres puntos.
 
 Los tres puntos hacen que JS interprete que hay un número de argumentos indeterminado, y los pone en un objeto.
 
@@ -1266,11 +1266,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MD
-Q5MjQ3ODMsLTE5MjQ4Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEy
-NjcsLTY3ODk4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMT
-Q0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0
-ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwND
-M1NTQsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDks
-LTEzMzg3MDMxNTVdfQ==
+eyJoaXN0b3J5IjpbMTc4NDA3NjYwNCwxMTQwOTg2MTksMjAxOD
+cyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2ODU0OCwxNzMyMDc0
+NjAyLDg1NjU1MTI2NywtNjc4OTg0MjUzLDIwMTQ4NjM3ODcsMT
+YyMTUwNzA4MCwxNDQ3MzIxNTI5LC0xNzIxMzM0MzE4LDE2Mzgx
+MjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2NDY1OSwtMTYzNDIwMT
+AzNywtMTE3NTA0MzU1NCwyMjYwMTg1MSwtMjA3MTU1NzcyNSwt
+MTA1NTc5Mjc0OV19
 -->
