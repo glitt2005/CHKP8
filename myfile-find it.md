@@ -1033,7 +1033,7 @@ Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el o
 - se utiliza para encontrar **el valor más grande de una lista de números**
 - **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
 - ejemplo: 
-       <p> &nbsp;&nbsp;
+
 ```Javascript
 console.log(Math.max (1,5,1,10,2,3));  // devuelve 10 
 ``` 
@@ -1229,7 +1229,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIxMTE4NDk0LC02Nzg5ODQyNTMsMjAxND
+eyJoaXN0b3J5IjpbNzQwMzAxOTY2LC02Nzg5ODQyNTMsMjAxND
 g2Mzc4NywxNjIxNTA3MDgwLDE0NDczMjE1MjksLTE3MjEzMzQz
 MTgsMTYzODEyNDMzMywtMjA1NDg1MDIwNywtOTExOTY0NjU5LC
 0xNjM0MjAxMDM3LC0xMTc1MDQzNTU0LDIyNjAxODUxLC0yMDcx
