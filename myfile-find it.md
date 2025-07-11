@@ -703,7 +703,7 @@ font-weight: normal;
 -   **Asignación múltiple:** Se pueden asignar **múltiples variables en una sola línea**.
 <br>
 
-####   EJEMPLO BÁSICO: turno de un jugador:
+####   INTERCAMBIO DE VALORES DE VARIABLE:
 Un ejemplo básico para el intercambio de turnos en un juego sería hacer uso de la desestructuración **para intercambiar los valores de las variables que representan los jugadores actuales**.
 
 ```JavaScript
@@ -732,7 +732,7 @@ console.log(jugador2); // Output: X
 
 La desestructuración de arrays o arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí **las dos comas extras (,) sustituyen** cada una de ellas a **un elemento del array siguiendo el orden**:
 
-#### Arrays - INTERCAMBIO DE VALORES DE VARIABLE:
+#### Arrays - EJEMPLO 1
 
 
 ```JavaScript
@@ -1006,11 +1006,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODI2MjU1MywtMTYxMzc2OTAzNSwxMj
-MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
-NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
-csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
-OTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3Mz
-EyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUw
-OTE0MTczXX0=
+eyJoaXN0b3J5IjpbLTE4NTI3NDMyNTcsLTE2MTM3NjkwMzUsMT
+IzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIw
+OTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNz
+Q3LC0yNDkyNjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5
+MTk5MDMxNSwxMzA5NzA1MjQ1LC0xMzIyNjI0OTMxLC0yNTk1Nz
+MxMjAsNjUwNjEyODIsMTEyNDcyODU3OSw2NTYzMjQwODMsMTg1
+MDkxNDE3M119
 -->
