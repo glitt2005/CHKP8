@@ -691,8 +691,8 @@ font-weight: normal;
   
 
 
+**VENTAJAS**:
 
-En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas, y poder hacer por ejemplo **comparaciones, reordenaciones, etc.** En lugar de acceder mediante índices, atributo por atributo, podemos acceder simultáneamente a todos estas propiedades o valores.
 
 -  el código **más legible**
 -  **evita** la necesidad de **acceder repetidamente** a los elementos de la estructura original.
@@ -739,7 +739,9 @@ console.log(quinto);  // Output: 5
 ```
 <br>
 
+En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas, y poder hacer por ejemplo **comparaciones, reordenaciones, etc.** En lugar de acceder mediante índices, atributo por atributo, podemos acceder simultáneamente a todos estas propiedades o valores.
 Hubiera sido **mucho más largo y tedioso** el hacer algo como:
+
 ```JavaScript
 const numeros = [1, 2, 3, 4, 5];
 
@@ -995,11 +997,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMTc3NTQ4LC00NTg1MjA5NjUsLTE1Mj
-M0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0OTI2
-OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LD
-EzMDk3MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3MzEyMCw2NTA2
-MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUwOTE0MTczLC
-01MjAyNjI4NzgsMTY1MTEzNDcyMiwtMTIxODYzNDY4OCwxMzM2
-MjI2MTY5XX0=
+eyJoaXN0b3J5IjpbMTg4ODMzNTAyNiwtNDU4NTIwOTY1LC0xNT
+IzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNzQ3LC0yNDky
+NjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MTk5MDMxNS
+wxMzA5NzA1MjQ1LC0xMzIyNjI0OTMxLC0yNTk1NzMxMjAsNjUw
+NjEyODIsMTEyNDcyODU3OSw2NTYzMjQwODMsMTg1MDkxNDE3My
+wtNTIwMjYyODc4LDE2NTExMzQ3MjIsLTEyMTg2MzQ2ODgsMTMz
+NjIyNjE2OV19
 -->
