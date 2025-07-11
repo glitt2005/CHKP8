@@ -1027,7 +1027,7 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 - **Una copia profunda (deep copy),** por otro lado, crea un nuevo objeto y **copia recursivamente todos los elementos, es decir, incluyendo los objetos y arrays anidados**, para que no compartan referencias con el objeto original.
 
 
-## 3.  PASAR ARGUMENTOS A FUNCIONES
+## 3.  PASAR ARGUMENTOS A FUNCIONES 
 
 Esto es algo muy común. Tomaremos de la biblioteca el objeto **Math** como ejemplo, que está disponible en todo JS, y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
 
@@ -1219,11 +1219,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM4ODc0ODMsMTYyMTUwNzA4MCwxND
-Q3MzIxNTI5LC0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4
-NTAyMDcsLTkxMTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0Mz
-U1NCwyMjYwMTg1MSwtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwt
-MTMzODcwMzE1NSwtMTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNz
-U2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3
-LDEwNTE3NjI1MTRdfQ==
+eyJoaXN0b3J5IjpbMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0ND
+czMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1
+MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNT
+U0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0x
+MzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NT
+Y1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcs
+MTA1MTc2MjUxNF19
 -->
