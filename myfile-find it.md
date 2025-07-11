@@ -1093,9 +1093,9 @@ Para **los fijos**: ponemos **las claves** como parte del nombre de la variable.
 
 B) EXTRAYENDO LOS ELEMENTOS OPCIONALES O VARIABLES:
 
-Añadiremos un elemento más com parte del nombre de la variable (tipo objeto):
+Añadiremos un elemento más com parte del nombre de la variable (tipo objeto), haciendo uso del **operador de extensión** o *spread operator*:
 ```Javascript
-const {abridor,cerrador, ...relievers} = {
+const {abridor,cerrador, ...relevos} = {
     abridor: 'Verlander',
     cerrador: 'Giles',
     relevo_1: 'Morton',
@@ -1104,10 +1104,9 @@ const {abridor,cerrador, ...relievers} = {
 
 console.log(abridor); // "Verlander"
 console.log(cerrador); // "Giles"
+console.log(relevos); // { relevo_1: 'Morton', relevo_2: 'Gregerson' }
 ```
-
-
-- Los variables: **añadimos un elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
+n elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
 
 Ésta es la forma que trabaja la deconstrucción: si paso un valor tal como starter, los busca en la variable (que es un objeto) y encuentra las claves, es decir, mapea a las clav es. Y en el caso B) para hacer que el conjunto de relievers sea abierto, pues utilizamos los tres puntos.
 
@@ -1267,7 +1266,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDE5MTkxMiwtMTYwNDkyNDc4MywtMT
+eyJoaXN0b3J5IjpbMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMT
 kyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0
 MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC
 0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkx
