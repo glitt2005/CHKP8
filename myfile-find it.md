@@ -732,7 +732,7 @@ Nos evita tener la tediosa tarea de uno, por uno, cambiar de cada uno de los jug
 Una de los procesos más comunes que te encuentras cuando estás implementando, por ejemplo procesos de tipo "***quicksort***" u "ordenamiento rápido" (*algoritmo de ordenación que funciona bajo el principio de "divide y vencerás"*) u otros algoritmos más avanzados, es **la capacidad de intercambiar los valores de las variables.** **Sin la deconstruccion de variables**, sería este procedimiento se convertiría en todo **un reto**! En las v**ersiones modernas de JavaScript** podemos hacer esto de manera **más eficiente en una sola línea de código.**
 
 **APLICACIÓN**
-Una de las aplicaciones típicas en la que se utiliza la deconstrucción de arrays de una forma muy eficiente es en los enlaces de API. Al conectarnos con la URL e inspeccionar los elementos que necesitamos, podemos realizar una deconstrucción de los mismos (ya que las APIs muy frecuentemente devuelven estructuras tipo arrays).
+Una de las aplicaciones típicas en la que se utiliza la deconstrucción de arrays de una forma muy eficiente es en los enlaces de API. Al conectarnos con la URL e inspeccionar los elementos que necesitamos, podemos realizar una deconstrucción de los mismos
 
 <br>
 
@@ -1015,7 +1015,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTMwNzczNSwtMTYxMzc2OTAzNSwxMj
+eyJoaXN0b3J5IjpbLTk3Nzc1NDM2NCwtMTYxMzc2OTAzNSwxMj
 MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
 NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
 csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
