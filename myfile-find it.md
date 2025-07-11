@@ -1089,7 +1089,12 @@ console.log(abridor); // "Verlander"
 console.log(cerrador); // "Giles"
 ```
 
-- Los fijos: ponemos las claves como parte del nombre de la variable
+Para **los fijos**: ponemos **las claves** como parte del nombre de la variable.
+
+B) EXTRAYENDO LOS ELEMENTOS OPCIONALES O VARIABLES:
+
+
+
 
 - Los variables: **añadimos un elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
 
@@ -1251,11 +1256,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODg3MTQ1NywtMTYwNDkyNDc4MywtMT
-kyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0
-MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC
-0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkx
-MTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMT
-g1MSwtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1
-NSwtMTM0MjY1NTM3MV19
+eyJoaXN0b3J5IjpbLTE2ODY3MTc5OTUsLTE2MDQ5MjQ3ODMsLT
+E5MjQ4Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4
+NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOS
+wtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05
+MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MD
+E4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMx
+NTUsLTEzNDI2NTUzNzFdfQ==
 -->
