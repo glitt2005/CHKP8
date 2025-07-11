@@ -860,6 +860,7 @@ console.log(edad);   // Output: 45
 
 ###  APLICACIONES
 Una de las aplicaciones típicas en la que se utiliza la deconstrucción de una forma muy eficiente es en los enlaces de API. Al conectarnos con la URL e inspeccionar los elementos que necesitamos, podemos realizar una deconstrucción de los mismos
+Si estamos creando un aplicación y queremos compartir enlaces en sitios como Twitter o Facebook, y queremos que estos sitos incorporen por ejemplo, el título, la descripción e imágenes, OPEN GRAPH es una forma de hacerlo
 
 # 5 ¿Qué hace el operador de extensión en JS?
 
@@ -1016,11 +1017,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0NTE3MDgsLTE2MTM3NjkwMzUsMTIzMj
-E3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIwOTY1
-LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNzQ3LC
-0yNDkyNjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MTk5
-MDMxNSwxMzA5NzA1MjQ1LC0xMzIyNjI0OTMxLC0yNTk1NzMxMj
-AsNjUwNjEyODIsMTEyNDcyODU3OSw2NTYzMjQwODMsMTg1MDkx
-NDE3M119
+eyJoaXN0b3J5IjpbMTUzNzMwNzA5MywtMTYxMzc2OTAzNSwxMj
+MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
+NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
+csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
+OTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3Mz
+EyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUw
+OTE0MTczXX0=
 -->
