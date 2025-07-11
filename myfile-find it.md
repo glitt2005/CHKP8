@@ -1065,6 +1065,7 @@ Finalmente conseguimos hacerlo:  lo convierte en un conjunto de argumentos de fu
 
 Este proceso **es muy típico en las plataformas modernas de JavaScript.**
 
+
 ##  4. COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
 
 Utilizando la **deconstrucción de objetos**, vamos a extraer los valores dentro del objeto de la variable, y los tenemos de dos tipos:
@@ -1235,11 +1236,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3OD
-k4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUy
-OSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC
-05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2
-MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MD
-MxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwt
-MTYxMzc2OTAzNV19
+eyJoaXN0b3J5IjpbLTE5MjQ4Njg1NDgsMTczMjA3NDYwMiw4NT
+Y1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcw
+ODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC
+0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTEx
+NzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OT
+I3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5
+LDQxMjc1NjU5MF19
 -->
