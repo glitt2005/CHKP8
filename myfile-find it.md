@@ -1049,7 +1049,7 @@ console.log(Math.max (numbers));  // NaN
 ```
 
 
-Aquí estamos pasando una lista, como si fueran 6 argumentos.
+
 
 En el caso b) interpreta que solo estamos pasando 1 argumento, cuyo tipo de dato es un array, no un número. Por esto el output de NaN.
 
@@ -1229,11 +1229,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU2OTA3NzYsODU2NTUxMjY3LC02Nz
-g5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0NDczMjE1
-MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1MDIwNy
-wtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNTU0LDIy
-NjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4Nz
-AzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAs
-LTE2MTM3NjkwMzVdfQ==
+eyJoaXN0b3J5IjpbMTEzOTgwMDg3Nyw4NTY1NTEyNjcsLTY3OD
+k4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUy
+OSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC
+05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2
+MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MD
+MxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwt
+MTYxMzc2OTAzNV19
 -->
