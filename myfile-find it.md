@@ -1050,11 +1050,16 @@ const numbers = [1,5,1,10,2,3];
 console.log(Math.max (numbers));  // NaN
 ```
 
-Aquí la cosa es difereEn este caso, interpreta que sólo estamos pasando **1 argumento**, cuyo tipo de dato es **un array, no un número**. Por esto el output de **NaN.**
+Aquí la cosa es diferente: en este caso, interpreta que sólo estamos pasando **1 argumento**, cuyo tipo de dato es **un array, no un número**. Por esto el output de **NaN.**
 
 Para arreglar esto, solo tenemos que añadir la **sintaxis (es decir, los tres puntos …) del operador de propagación** y así poder implementar la **deconstrucción del array**:
 
-#### EJEMPLO 2:
+#### EJEMPLO 3 - operador de extensión
+
+```Javascript
+const numbers = [1,5,1,10,2,3];
+console.log(Math.max (...numbers));  // 10
+```
 
 Y lo convierte en un conjunto de argumentos de función, que en este caso son **números.**
 
@@ -1230,11 +1235,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk3MDE1OTYsODU2NTUxMjY3LC02Nz
-g5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0NDczMjE1
-MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1MDIwNy
-wtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNTU0LDIy
-NjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4Nz
-AzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAs
-LTE2MTM3NjkwMzVdfQ==
+eyJoaXN0b3J5IjpbMTgxOTA0MjE4Myw4NTY1NTEyNjcsLTY3OD
+k4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUy
+OSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC
+05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2
+MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MD
+MxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwt
+MTYxMzc2OTAzNV19
 -->
