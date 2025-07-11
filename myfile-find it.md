@@ -813,7 +813,8 @@ console.log(posicion); // Imprime: Delantero
 console.log(dorsal);   // Imprime: 10
 ```
 <br>
-![icono de Precaución](iconoPrecauc.png)
+
+<img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 Deb
 
@@ -1038,11 +1039,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLT
-EzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2
-OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC
-00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2
-MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMD
-czMDcsMzkxOTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5MzEs
-LTI1OTU3MzEyMF19
+eyJoaXN0b3J5IjpbLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLT
+EzMzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1
+NjU5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNy
+wxMDUxNzYyNTE0LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1
+NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4OD
+Q4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyNDUs
+LTEzMjI2MjQ5MzFdfQ==
 -->
