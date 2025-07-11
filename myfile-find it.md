@@ -859,8 +859,7 @@ console.log(edad);   // Output: 45
 ```
 
 ###  APLICACIONES
-Una de las aplicaciones típicas en la que se utiliza la deconstrucción de una forma muy eficiente es en los enlaces de API. Al conectarnos con la URL e inspeccionar los elementos que necesitamos, podemos realizar una deconstrucción de los mismos
-Si estamos creando un aplicación y queremos compartir enlaces en sitios como Twitter o Facebook, y queremos que estos sitos incorporen por ejemplo, el título, la descripción e imágenes, OPEN GRAPH es una forma de hacerlo
+Aplicacionesque nos encontramos a diario en la que utilizamosJavaScript permite deconstruir arreglos (arrays) y objetos al conectarse con una API. Esta técnica, conocida como "desestructuración", facilita la extracción de datos específicos de estructuras complejas y su asignación a variables individuales, simplificando el manejo de la información recibida de la API.
 
 # 5 ¿Qué hace el operador de extensión en JS?
 
@@ -1017,7 +1016,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzMwNzA5MywtMTYxMzc2OTAzNSwxMj
+eyJoaXN0b3J5IjpbMTg5MTg3NTg1MywtMTYxMzc2OTAzNSwxMj
 MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
 NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
 csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
