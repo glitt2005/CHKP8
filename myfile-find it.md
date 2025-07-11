@@ -932,6 +932,16 @@ console.log(numbers); //imprime [ 1, 2, 3, 4, 5, 8, 9 ]
 ```
 Recordemos que el método``` push()``` cambia la variable original.
 
+Si no pusiéramos la extensión (los ...) entonces lo añadiría como un uno elemento, un array (anidado):
+
+```JavaScript
+let numbers = [1,2,3,4];
+let newNumbers = [8,9];
+
+numbers.push(newNumbers);
+console.log(numbers); //imprime [ 1, 2, 3, 4, [ 8, 9 ] ]
+```
+
 
 Si no añadiéramos los puntos  … , el push() de JS interpretaría que tenemos que añadir un array [8,9], precisamente por cómo JS interpreta los arrays:  un conjunto de “cualquier tipo de datos”.  La solución, pues es utilizar el operador de propagación.
 
@@ -1151,7 +1161,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjU2NzIyMjUsLTkxMTk2NDY1OSwtMT
+eyJoaXN0b3J5IjpbLTIwNTQ4NTAyMDcsLTkxMTk2NDY1OSwtMT
 YzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MSwtMjA3MTU1
 NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1NT
 M3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEy
