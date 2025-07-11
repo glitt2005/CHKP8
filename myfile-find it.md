@@ -812,7 +812,10 @@ console.log(nombre);   // Imprime: Messi
 console.log(posicion); // Imprime: Delantero
 console.log(dorsal);   // Imprime: 10
 ```
-OJO! Los 
+OJO!
+**Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
+
+funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
 <br>
 <br>
 
@@ -1028,11 +1031,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzM2OTk0ODMsNDEyNzU2NTkwLC0xNj
-EzNzY5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1
-MTQsLTQ1ODUyMDk2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MS
-wtMTYzMDcyMjc0NywtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1
-MTEwNzMwNywzOTE5OTAzMTUsMTMwOTcwNTI0NSwtMTMyMjYyND
-kzMSwtMjU5NTczMTIwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2
-MzI0MDgzXX0=
+eyJoaXN0b3J5IjpbODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMz
+c2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0
+LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLT
+E2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTEx
+MDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5Mz
+EsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMy
+NDA4M119
 -->
