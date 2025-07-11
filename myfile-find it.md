@@ -1176,8 +1176,10 @@ Lo que hará el programa:
 
 
 
-ambién abordaremos otros temas, como la comprensión de los métodos estáticos y de instancia, y cómo usar herramientas como "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra.
-Este patrón se observará con frecuencia al usar herramientas como React, View y Angular. Y entonces quiero que puedas ver lo que realmente está sucediendo porque si simplemente tomaste un tutorial de React y viste todas estas diferentes palabras clave como clase e implementos y uso y si ves estas cosas y en realidad no conoces los fundamentos que están sucediendo en el JavaScript puro, podrías pensar que son específicos de ese marco o puede que no entiendas exactamente lo que está sucediendo detrás de escena y eso es lo que quiero hacer es que puedas entender que esto es solo Javascript puro y estamos aprovechando la programación orientada a objetos para construir nuestros propios sistemas.For years older versions of JavaScript did not have the Object Oriented Programming components of classes and instantiation and that was fine for a period of time. But more modern versions of JavaScript have implemented classes.
+ "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra. Implemento y uso.
+ 
+
+ Esto se utiliza mucho en React, View y Angular. 
 
 
 # 7. ¿Qué es una promesa en JS?
@@ -1331,11 +1333,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjY0Mjc4MCwtODA2NDY1MjgwLDEyOD
-I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
-MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
-QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
-ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0MjUzLD
-IwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC0xNzIx
-MzM0MzE4XX0=
+eyJoaXN0b3J5IjpbLTE1Njk4MTExMDYsLTgwNjQ2NTI4MCwxMj
+gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
+NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMT
+E0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4
+Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1My
+wyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcy
+MTMzNDMxOF19
 -->
