@@ -927,7 +927,7 @@ let cadena = "Mundo";
 let array = [...cadena];
 console.log(array); // ["M", "u", "n", "d", "o"]
 ```
-## 1. COMBINAR  ARRAYS
+## 2. COMBINAR  ARRAYS
 
 a) Comparemos poniendo el **operador de extensión**:
 ```JavaScript
@@ -954,7 +954,7 @@ precisamente por cómo JavaScript interpreta los arrays:  **un conjunto de “cu
 
 
 
-## 2. COPIAR ARRAYS
+## 3. COPIAR ARRAYS
 
 Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JavaScript, se sobreentiende que **no tienes que hacer cambios en una estructura de datos ya creada**. Es una **convención común**. Una variable declarada con **const** nos da precisamente esa seguridad, ya que nos daría error si más tarde en el programa intentamos cambiar la estructura de datos de esta variable.
 Otra situación que puede pasar, es que **añadamos un string** a algo en este array que contiene números, y luego **otra parte del programa considera que solo había números enteros** (porque en principio era así), y ejecuta un proceso sobre esa estructura:  **nos daría error**.
@@ -1033,7 +1033,7 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 - **Una copia profunda (deep copy),** por otro lado, crea un nuevo objeto y **copia recursivamente todos los elementos, es decir, incluyendo los objetos y arrays anidados**, para que no compartan referencias con el objeto original.
 
 
-## 3.  PASAR ARGUMENTOS A FUNCIONES 
+## 4.  PASAR ARGUMENTOS A FUNCIONES 
 
 Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos **el método`max()`**, este método: 
 - se utiliza para encontrar **el valor más grande de una lista de números**
@@ -1072,7 +1072,7 @@ Finalmente conseguimos hacerlo:  lo convierte en un conjunto de argumentos de fu
 Este proceso **es muy típico en las plataformas modernas de JavaScript.**
 
 
-##  4. COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
+##  5. COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
 
 Utilizando la **deconstrucción de objetos**, vamos a extraer los valores dentro del objeto de la variable, y los tenemos de dos tipos:
 
@@ -1279,11 +1279,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzE1NDYyNiw3NzA2ODMxNjEsMTE0MD
-k4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1
-NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMD
-E0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMz
-NDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NT
-ksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIw
-NzE1NTc3MjVdfQ==
+eyJoaXN0b3J5IjpbLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MD
+Y4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4
+MywtMTkyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNj
+c4OTg0MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIx
+NTI5LC0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMD
+csLTkxMTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwy
+MjYwMTg1MV19
 -->
