@@ -1011,7 +1011,12 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 ###  ¿ Forma a)-tradicional  o  Forma b)-moderna ?
 
 
-Se ven  los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
+Se ven  **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
+
+Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de extensión**.  
+
+Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el último.** No obstante es importante **conocer los dos y tener ambas posibilidades**.
+
 
 
 **NOTA**: el tipo de copia que se crea es una **copia superficial**, en comparación con una **copia profunda**:
@@ -1213,11 +1218,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg4NjY1MDk0LDE2MjE1MDcwODAsMTQ0Nz
-MyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUw
-MjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NT
-QsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEz
-Mzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1Nj
-U5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywx
-MDUxNzYyNTE0XX0=
+eyJoaXN0b3J5IjpbLTcxMjU3NjQ4NCwxNjIxNTA3MDgwLDE0ND
+czMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1
+MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNT
+U0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0x
+MzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NT
+Y1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcs
+MTA1MTc2MjUxNF19
 -->
