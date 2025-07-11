@@ -950,9 +950,9 @@ precisamente por cómo JavaScript interpreta los arrays:  **un conjunto de “cu
 
 ## 2. COPIAR ARRAYS
 
-Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JavaScript, se sobreentiende que **no tienes que hacer cambios en una estructura de datos ya creada**. Es una **convención común**. Una variable declarada con **const** nos da precisamente esa seguridad. 
+Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JavaScript, se sobreentiende que **no tienes que hacer cambios en una estructura de datos ya creada**. Es una **convención común**. Una variable declarada con **const** nos da precisamente esa seguridad, ya que nos daría error s
 
-Por ello, deberno hacer cambios en esa variable original (por ello usar mejor la variable **LET** y no CONST).
+Por ello, deberíamos hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones.
 
 Lo que harías en su lugar es **crear una nueva variable en donde se copiarían esos datos.** Es también una de las razones para **evitar crear los menos efectos secundarios posibles**, ya que si hacemos cambios a una estructura existente y luego otra parte del programa llama a esta estructura sin tener en cuenta que has hecho cambios en ella, **podría causar errores tediosos de arreglar.**
 
@@ -1164,7 +1164,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMDkzNTczOSwtMTcyMTMzNDMxOCwxNj
+eyJoaXN0b3J5IjpbMTUzMzUzMjcxNywtMTcyMTMzNDMxOCwxNj
 M4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQy
 MDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NTc3Mj
 UsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEs
