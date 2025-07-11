@@ -1190,9 +1190,16 @@ Entonces, recapitulando, lo que hará el programa será:
  -**El constructor**, pues,  **define el método que se ejecuta al crear una nueva instancia de la clase**. 
  - Una **clase** en sí **no ejecuta nada** (son como hemos dicho un conjunto de reglas y pautas para la ejecución)
  -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto. (lo haremos con la palabra clave `new`** ).
-
-
+<br>
+#### EJEMPLO CLASE E INSTANCIA:
 <img src="claseConstructor.png" Alt="clase e instancia">
+
+-	El `constructor ({ name }), aquí name es lo que se pasará cuando creemos un nuevo Instructor (new Instructor). Y queremos hacer algo con este name. Y la forma de que podemos hacer es añadirlo y que sea parte de la clase cuando se cree uno nuevo. Y la forma de que esto funciones es crear “this” así:
+
+-	this.name = name; aquí estamos añadiendo el atributo name a this.name
+Los colores aquí muestran perfectamente que son cosas diferentes: los dos “name” en color azul hacen referencia al mismo elemento dentro del objecto, pero el siguiente name en color rojo en  this.name referencia a una instancia de Instructor, precisamente la instancia que hemos creado en la función jon.  En esta instancia en específico, le decimos que almacene cualquier name (this.name = name) que sea pasado como parámetro con este objeto.
+
+-	Cuando quiera que el constructor tome un objeto como argumento, entonces al instanciar también tenemos que poner un objeto como argumento!!
 
 
 
@@ -1353,11 +1360,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzYzMzg3NjAsLTEzMzIzODI0MDQsLT
-U3NTU5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1
-MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMC
-wtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcy
-NDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2ODU0OCwxNzMyMDc0Nj
-AyLDg1NjU1MTI2NywtNjc4OTg0MjUzLDIwMTQ4NjM3ODcsMTYy
-MTUwNzA4MF19
+eyJoaXN0b3J5IjpbNzcyNzE0Mjc3LC0xMzMyMzgyNDA0LC01Nz
+U1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEy
+MzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1MTAsLT
+M5NzE1NDYyNiw3NzA2ODMxNjEsMTE0MDk4NjE5LDIwMTg3MjQ1
+NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMTczMjA3NDYwMi
+w4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYzNzg3LDE2MjE1
+MDcwODBdfQ==
 -->
