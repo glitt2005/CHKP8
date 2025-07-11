@@ -957,7 +957,7 @@ Otra situación que puede pasar, es que **añadamos un string** a algo en este a
 Por ello lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
 De esta forma **evitamos crear los menos efectos secundarios posibles**
 
-Debido a que el método push(), como ya hemos dicho, cambia la variable original, en la siguiente situación, por mucho que hagamos una copia, seguiríamos con problema:
+Debido a que el método push(), como ya hemos dicho, cambia la variable original, si hacemos la siguiente asignación con la intención de realizar una copiaa, seguiríamos con problema:
 
 ```JavaScript
 const numbers = [1,2,3,4];
@@ -965,9 +965,9 @@ const updatedNumbers = numbers;
 
 updatedNumbers.push(5);
 console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
-console.log(updatedNumbers);
+console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
-
+La asignación de la segunda línea no corr
 
 
 
@@ -1173,7 +1173,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQxMzc0ODEsMTQ0NzMyMTUyOSwtMT
+eyJoaXN0b3J5IjpbLTE2MzYwODU4OTUsMTQ0NzMyMTUyOSwtMT
 cyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5
 NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NT
 EsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUs
