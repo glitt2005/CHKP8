@@ -967,11 +967,7 @@ updatedNumbers.push(5);
 console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
 console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
-La asignación de la segunda línea no corr
-
-
-
-Vemos que **cambia las dos variables.**  Aquí NO **PASA** UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, cambiando esta variable fuente.
+Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **modificando también esta variable fuente.**
 
 HAY DOS FORMAS DE CREAR UNA NUEVA VARIABLE CON LOS DATOS DE AMBAS SIN MODIFICAR LA VARIABLE EXISTENTE:
 
@@ -1173,11 +1169,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzYwODU4OTUsMTQ0NzMyMTUyOSwtMT
-cyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5
-NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NT
-EsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUs
-LTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMz
-c2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0
-LC00NTg1MjA5NjVdfQ==
+eyJoaXN0b3J5IjpbMTU4Njk4MTE4MCwxNDQ3MzIxNTI5LC0xNz
+IxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2
+NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MS
+wtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwt
+MTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNz
+Y5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQs
+LTQ1ODUyMDk2NV19
 -->
