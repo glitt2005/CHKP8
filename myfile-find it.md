@@ -1051,9 +1051,11 @@ const numbers = [1,5,1,10,2,3];
 console.log(Math.max (numbers));  // NaN
 ```
 
-En este caso, interpreta que sólo estamos pasando 1 argumento, cuyo tipo de dato es un array, no un número. Por esto el output de NaN.
+En este caso, interpreta que sólo estamos pasando **1 argumento**, cuyo tipo de dato es **un array, no un número**. Por esto el output de **NaN.**
 
-Para arreglar esto, solo tenemos que añadir la sintaxis (es decir, los tres puntos **…**) del **operador de propagación** y así poder implementar la **deconstrucción del array**.
+Para arreglar esto, solo tenemos que añadir la **sintaxis (es decir, los tres puntos …) del operador de propagación** y así poder implementar la **deconstrucción del array**:
+
+
 
 Y lo convierte en un conjunto de argumentos de función, que en este caso son **números.**
 
@@ -1229,7 +1231,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzOTgzNzg4NSw4NTY1NTEyNjcsLTY3OD
+eyJoaXN0b3J5IjpbMTAzMzExMDc3MSw4NTY1NTEyNjcsLTY3OD
 k4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUy
 OSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC
 05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2
