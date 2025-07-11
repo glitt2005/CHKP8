@@ -726,20 +726,23 @@ console.log(jugador2); // Output: X
 
 #### DECONSTRUCCIÓN DE ARRAYS:
 
-La desestructuración de arrays o arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí las dos comas extras (,) sustituyen cada una de ellas a un elemento del array siguiendo el orden:
+La desestructuración de arrays o arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí **las dos comas extras (,) sustituyen** cada una de ellas a **un elemento del array siguiendo el orden**:
 
 #### Arrays - EJEMPLO:
 
 
 ```JavaScript
 const numeros = [1, 2, 3, 4, 5];// Desestructuración de un arreglo
-const [primero, segundo, , , quinto] = numeros;console.log(primero); // Output: 1
-console.log(segundo); // Output: 2
+const [primero, segundo, , , quinto] = numeros;
+
+console.log(primero); // Output: 1
+**strong text**console.log(segundo); // Output: 2
 console.log(quinto);  // Output: 5
 ```
 <br>
 
 En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas, y poder hacer por ejemplo **comparaciones, reordenaciones, etc.** En lugar de acceder mediante índices, atributo por atributo, podemos acceder simultáneamente a todos estas propiedades o valores.
+
 Hubiera sido **mucho más largo y tedioso** el hacer algo como:
 
 ```JavaScript
@@ -755,7 +758,7 @@ const itemQuinto = numeros[4];
 console.log(itemQuinto);        // Output: 5
 
 ```
-y luego tener que usar esas variables, etc.
+más la demás codificación para utilizar esas variables, etc.
 <br>
 
 #### DECONSTRUCCIÓN DE OBJETOS:
@@ -997,7 +1000,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODMzNTAyNiwtNDU4NTIwOTY1LC0xNT
+eyJoaXN0b3J5IjpbLTUwMDE3MDQ0MiwtNDU4NTIwOTY1LC0xNT
 IzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNzQ3LC0yNDky
 NjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MTk5MDMxNS
 wxMzA5NzA1MjQ1LC0xMzIyNjI0OTMxLC0yNTk1NzMxMjAsNjUw
