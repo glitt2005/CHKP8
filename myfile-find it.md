@@ -969,13 +969,13 @@ console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
 Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **modificando también esta variable fuente.** Tenemos dos soluciones a esto:
 
-### Forma tradicional: añadir </big>`slice()`</big> a la variable original
+### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
 HAY DOS FORMAS DE CREAR UNA NUEVA VARIABLE CON LOS DATOS DE AMBAS SIN MODIFICAR LA VARIABLE EXISTENTE:
 
-<![if !supportLists]>A) <![endif]>FORMA TRADICIONAL: AÑADIENDO slice() a la variable original:
 
-<![if !supportLists]>B) <![endif]>FORMA MÁS MODERNA: con el operador de propagación y la variable original entre corchetes **[…****numbers****];**
+### b) Forma moderna: oper la variable original
+<![if !supportLists]>B) <![endif]>FORMA MÁS MODERNA: con el operador de extensión y la variable original entre corchetes **[…****numbers****];**
 
 Vemos los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
@@ -1171,7 +1171,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDg4ODYxMSwxNDQ3MzIxNTI5LC0xNz
+eyJoaXN0b3J5IjpbMTQ1MDA4MTQzOSwxNDQ3MzIxNTI5LC0xNz
 IxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2
 NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MS
 wtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwt
