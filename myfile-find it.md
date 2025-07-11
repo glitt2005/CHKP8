@@ -1082,8 +1082,10 @@ Este proceso **es muy típico en las plataformas modernas de JavaScript.**
 Utilizando la **deconstrucción de objetos**, vamos a extraer los valores dentro del objeto de la variable, y los tenemos de dos tipos:
 
 - Valores que son **fijos**: necesitamos que siempre estén ahí
+-  Otros valores **opcionales** que **pueden estar o no**, y tampoco conocemos el número de ello.
 
--  Otros valores **opcionales** que **pueden estar o no**, y tampoco conocemos el número de ellos
+
+ <br>
 
 
 A) EXTRAYENDO LOS ELEMENTOS FIJOS:
@@ -1101,6 +1103,7 @@ console.log(cerrador); // "Giles"
 ```
 
 Para **los fijos**: ponemos **las claves** como parte del nombre de la variable.
+<br>
 
 B) EXTRAYENDO LOS ELEMENTOS OPCIONALES O VARIABLES:
 
@@ -1284,7 +1287,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDQ0Njc2MiwxNjczMjUxMjM2LDE0OT
+eyJoaXN0b3J5IjpbMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OT
 c3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2
 MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNj
 A0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUx
