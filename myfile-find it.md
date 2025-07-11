@@ -972,7 +972,9 @@ Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SIN
 
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
-El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama sin argumentos toma todos los elementos del array, o sea, **crea una copia superficial (shallow copy) del array original.** Esto significa que se crea un nuevo array con los mismos elementos que el original, **pero se trata de un objeto diferente**.
+El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama sin argumentos toma todos los elementos del array, o sea, **crea una copia superficial (shallow copy) del array original.** 
+
+**Una copia superficia** o shallow copy to significa que se crea un nuevo array con los mismos elementos que el original, **pero se trata de un objeto diferente**. Los elementos internos son referenciados desde el objeto orii
 
 ```JavaScript
 const numbers = [1,2,3,4];
@@ -1201,7 +1203,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MDQzNzU3MCwxNjIxNTA3MDgwLDE0ND
+eyJoaXN0b3J5IjpbMTAwMjM5MTQyMywxNjIxNTA3MDgwLDE0ND
 czMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1
 MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNT
 U0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0x
