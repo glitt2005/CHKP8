@@ -923,6 +923,7 @@ Su objeto es facilitar **la manipulación y combinación de datos de manera conc
 
 ## 1. COMBINAR o CONCATENAR ARRAYS
 
+a) Comparemos poniendo el **operador de extensión**:
 ```JavaScript
 let numbers = [1,2,3,4];
 let newNumbers = [8,9];
@@ -932,7 +933,7 @@ console.log(numbers); //imprime [ 1, 2, 3, 4, 5, 8, 9 ]
 ```
 Recordemos que el método``` push()``` cambia la variable original.
 
-Si no pusiéramos la extensión (los ...) entonces lo añadiría como un uno elemento, un array (anidado):
+b) **Si no pusiéramos la extensión ...** entonces lo añadiría como un  elemento, un array (anidado):
 
 ```JavaScript
 let numbers = [1,2,3,4];
@@ -1161,11 +1162,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTQ4NTAyMDcsLTkxMTk2NDY1OSwtMT
-YzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MSwtMjA3MTU1
-NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1NT
-M3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEy
-MzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMD
-k2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0
-NywtMjQ5MjY5MjIxXX0=
+eyJoaXN0b3J5IjpbMTAzMDk1ODY0LC0yMDU0ODUwMjA3LC05MT
+E5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4
+NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNT
+UsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYx
+Mzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNT
+E0LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEs
+LTE2MzA3MjI3NDddfQ==
 -->
