@@ -871,7 +871,7 @@ Esta devuelve típicamente **estructuras tipo array y objetos** (con todo tipo d
 
 Pero en **versiones modernas de JavaScript**, lo que realmente se puede utilizar es la **deconstrucción** del el objeto.
 
-Una vez hemos identificado el nombre del objeto u array a deconstruir, nos facilita enormemente la extracción de estos datos específicos de estructuras complejas, así como su asignación a variables individuales, que de otro modo sería tan tedioso trabajar con los tipos de datos que una API devuelve.
+Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos **facilita enormemente la extracción de estos datos específicos de estructuras complejas**, así como su asignación a variables individuales, que de otro modo sería tan tedioso trabajar con los tipos de datos que una API devuelve.
 
 # 5 ¿Qué hace el operador de extensión en JS?
 
@@ -1028,11 +1028,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MzU4MTYzNiw0MTI3NTY1OTAsLTE2MT
-M3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUx
-NCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQxLC
-0xNjMwNzIyNzQ3LC0yNDkyNjkyMjEsLTc0ODg0ODA3NywxNTUx
-MTA3MzA3LDM5MTk5MDMxNSwxMzA5NzA1MjQ1LC0xMzIyNjI0OT
-MxLC0yNTk1NzMxMjAsNjUwNjEyODIsMTEyNDcyODU3OSw2NTYz
-MjQwODNdfQ==
+eyJoaXN0b3J5IjpbNDIzODczNDEyLDQxMjc1NjU5MCwtMTYxMz
+c2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0
+LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLT
+E2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTEx
+MDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5Mz
+EsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMy
+NDA4M119
 -->
