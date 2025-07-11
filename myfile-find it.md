@@ -884,7 +884,7 @@ console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 10
 ```
 a) En este caso la variable `usuario` con contiene el par clave:valor correspondiente a la clave de `edad`, por lo que al deconstruir, podemos añadir el nombre de la edad a la variable.
-b) En este caso la variable `usuario` sí contiene el valor de edad, con lo que  ignora por completo qué dato pasamos al deconstruir, que lo interpreta como sustitutivo en caso de existir en la variable.
+b) En este caso la variable `usuario` sí contiene el valor de edad, con lo que  **ignora por completo la clave que pasamos al deconstruir**, ya que **sólo** lo interpreta como sustitutivo (lo utilizará realmente) en caso de no existir en la variable.
 
 <br>
 
@@ -1057,11 +1057,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI3OTc4MjIyLDIyNjAxODUxLC0yMDcxNT
-U3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4NzAzMTU1LC0xMzQyNjU1
-MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAsLTE2MTM3NjkwMzUsMT
-IzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIw
-OTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNz
-Q3LC0yNDkyNjkyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5
-MTk5MDMxNV19
+eyJoaXN0b3J5IjpbMjAyNDQ1NzgwMiwyMjYwMTg1MSwtMjA3MT
+U1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1
+NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LD
+EyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUy
+MDk2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMj
+c0NywtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywz
+OTE5OTAzMTVdfQ==
 -->
