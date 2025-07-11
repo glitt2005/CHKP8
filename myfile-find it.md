@@ -1173,15 +1173,13 @@ En nuestro ejemplo:
 
 Entonces, recapitulando, lo que hará el programa será:
 1.  **examinar** el plano 
-2.  **crear e instanciar un objeto con él**, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse en algo terminado.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior. 
+2.  **crear e instanciar un objeto con él**, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse **en algo terminado**, en ese objeto real.  **Hemos creado un "ejemplar" de algo, basado en la estructura anterior**. 
 3.  Luego puedo **hacer otro objeto** con otro nombre y **basarlo en la misma plantilla** o estructura. Serían dos objetos distintos que tienen una misma estructura.
 
 
 ### CLASES:  CONSTRUCTORES
 
-<![endif]-->
-
-Durante muchos años JS no tenía técnicas de OOP ( object-oriented programming ) o de programación orientada a objetos.  Había que crear procedimientos alternativos para conseguir lo que se necesitaba, y una de ellas era la utilización funciones a modo de **clases.** Esto durante años hasta que éstas últimas han sido finalmente incorporadas.
+**Durante muchos años** JavasScript no tenía técnicas de OOP ( object-oriented programming ) o de **programación orientada a objetos**.  Había que crear procedimientos alternativos para conseguir lo que se necesitaba, y una de ellas era la utilización funciones a modo de **clases.** Esto durante años hasta que éstas últimas han sido finalmente incorporadas.
 
 Si recordamos en nuestros casos de **deconstrucción** estudiados, vamos a pasar un nombre, o sea, “**name**”, **como objeto**.  Cada vez que creemo
 El nombre de “**constructor”** es una **palabra clave** reservada para las **clase,** específicamente utilizada dentro de ellas. No siempre están en todas las clases, pero generalmente sí, porque necesitaremos realizar procesos **como fijar valores, llamar a otras funciones** dentro de él, etc, que es lo que el **constructor** hace.  Éste, pues,  **define el método que se ejecuta al crear una nueva instancia de la clase**.  Ejecuta todos los procesos que queramos cada vez que se cree un nuevo “**Instructor**” **new** **Instructor**  ({name : **'**………**'**});
@@ -1346,11 +1344,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODQzMzMwNSwtNTc1NTkyOTA0LC04MD
-Y0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5
-NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2MjYsNz
-cwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNjA0OTI0
-NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUxMjY3LC
-02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0NDcz
-MjE1MjldfQ==
+eyJoaXN0b3J5IjpbNDAyMTY2MDIsLTU3NTU5MjkwNCwtODA2ND
+Y1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0
+LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MD
+Y4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4
+MywtMTkyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNj
+c4OTg0MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIx
+NTI5XX0=
 -->
