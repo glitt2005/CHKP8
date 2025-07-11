@@ -1033,8 +1033,8 @@ Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el o
 - se utiliza para encontrar **el valor más grande de una lista de números**
 - **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
 - ejemplo: 
-```Javascript
-console.log(Math.max (1,5,1,10,2,3));  // devuelve 10
+\indent   ```Javascript
+console.log(Math.max (1,5,1,10,2,3));  // devuelve 10 
 ```
 
 
@@ -1227,7 +1227,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU2NzY2OTUsLTY3ODk4NDI1MywyMD
+eyJoaXN0b3J5IjpbLTE1NDk5NTA0NzcsLTY3ODk4NDI1MywyMD
 E0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMz
 NDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NT
 ksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIw
