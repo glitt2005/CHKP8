@@ -829,7 +829,7 @@ function mostrarNumeros([primero, segundo]) {
     mostrarNumeros([10, 20]); // Output: Primer número: 10, Segundo número: 20
 ```
 
-**NOTA**: Debemos llamar a la función siempre teniendo en cuenta **el tipo de datos que contiene**. En el Ejemplo 2, vemos que la función  `mostrarNumeros()` contiene **un parámetro conteniendo un array:** `[primero, segundo]`, y por tanto, cuando la invoquemos debemos utilizar la misma sintaxis con corchetes [].
+**NOTA**: Debemos llamar a la función siempre teniendo en cuenta **el tipo de datos que contiene**. En el Ejemplo 2, vemos que la función  `mostrarNumeros()` contiene **un parámetro conteniendo un array:** `[primero, segundo]`, y por tanto, cuando la invoquemos debemos utilizar **la misma sintaxis con corchetes [].**
 <br>
 ####  VALORES POR DEFECTO:
 La desestructuración permite establecer valores por defecto para las variables, en caso de que la propiedad o elemento del arreglo no exista.
@@ -1000,11 +1000,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1OD
-UyMDk2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcy
-Mjc0NywtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNy
-wzOTE5OTAzMTUsMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMjU5
-NTczMTIwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2MzI0MDgzLD
-E4NTA5MTQxNzMsLTUyMDI2Mjg3OCwxNjUxMTM0NzIyLC0xMjE4
-NjM0Njg4XX0=
+eyJoaXN0b3J5IjpbMTIzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MT
+c2MjUxNCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1
+NzQxLC0xNjMwNzIyNzQ3LC0yNDkyNjkyMjEsLTc0ODg0ODA3Ny
+wxNTUxMTA3MzA3LDM5MTk5MDMxNSwxMzA5NzA1MjQ1LC0xMzIy
+NjI0OTMxLC0yNTk1NzMxMjAsNjUwNjEyODIsMTEyNDcyODU3OS
+w2NTYzMjQwODMsMTg1MDkxNDE3MywtNTIwMjYyODc4LDE2NTEx
+MzQ3MjJdfQ==
 -->
