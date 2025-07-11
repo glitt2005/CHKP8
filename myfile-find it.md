@@ -814,7 +814,7 @@ console.log(dorsal);   // Imprime: 10
 ```
 <br>
 ![icono de Precaución](icons8-precauci%C3%B3n-48.png)
-
+Deb
 
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
 
@@ -1037,11 +1037,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjA1MTcxMCwtMTM0MjY1NTM3MSw4Mj
-g1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEw
-MTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2NSwtMT
-UyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0NywtMjQ5
-MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywzOTE5OTAzMT
-UsMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMjU5NTczMTIwLDY1
-MDYxMjgyXX0=
+eyJoaXN0b3J5IjpbLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEsOD
+I4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNSwxMjMyMTcx
+MDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5NjUsLT
+E1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0
+OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkxOTkwMz
+E1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3MzEyMCw2
+NTA2MTI4Ml19
 -->
