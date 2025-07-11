@@ -1170,7 +1170,7 @@ En nuestro ejemplo:
 
 Lo que hará el programa:
 1.  examinar el plano 
-2.  crear e instanciar un objeto con él, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse en algo terminado.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior, en nuestra lista de "
+2.  crear e instanciar un objeto con él, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse en algo terminado.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior.  Luego puedo hacer otro objeto con otro nombre y basarlo en la misma plantilla o estructura. Serían dos objetos distintos que tienen una misma estructura.
 
 
 
@@ -1331,11 +1331,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYxMTkzNjMsLTgwNjQ2NTI4MCwxMj
-gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
-NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMT
-E0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4
-Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1My
-wyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcy
-MTMzNDMxOF19
+eyJoaXN0b3J5IjpbMTYxOTI5ODAzOCwtODA2NDY1MjgwLDEyOD
+I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
+MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
+QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
+ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0MjUzLD
+IwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC0xNzIx
+MzM0MzE4XX0=
 -->
