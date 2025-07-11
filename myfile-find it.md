@@ -728,11 +728,11 @@ console.log(jugador2); // Output: X
 
 
 
-#### DECONSTRUCCIÓN DE ARRAYS:
+### DECONSTRUCCIÓN DE ARRAYS:
 
 La desestructuración de arrays o arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí **las dos comas extras (,) sustituyen** cada una de ellas a **un elemento del array siguiendo el orden**:
 
-#### Arrays - EJEMPLO:
+#### Arrays - INTERCAMBIO DE VALORES DE VARIABLE:
 
 
 ```JavaScript
@@ -767,7 +767,7 @@ más la demás codificación para utilizar esas variables, etc.
 
 
 
-#### DECONSTRUCCIÓN DE OBJETOS:
+### DECONSTRUCCIÓN DE OBJETOS:
 
 La desestructuración de objetos permite extraer **propiedades específicas de un objeto y asignarlas a variables con nombres iguales a las propiedades** o con nombres distintos usando un alias.
 ####  Objetos - EJEMPLO 1:
@@ -808,7 +808,7 @@ console.log(dorsal);   // Imprime: 10
 <br>
 <br>
 
-#### DESESTRUCTURACIÓN CON PARÁMETROS DE FUNCIONES:
+### DESESTRUCTURACIÓN CON PARÁMETROS DE FUNCIONES:
 La desestructuración también se puede utilizar **al pasar argumentos a funciones.**
 
 
@@ -1006,11 +1006,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMj
-M4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIwOTY1LC0xNTIzNDM3
-NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNzQ3LC0yNDkyNjkyMj
-EsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MTk5MDMxNSwxMzA5
-NzA1MjQ1LC0xMzIyNjI0OTMxLC0yNTk1NzMxMjAsNjUwNjEyOD
-IsMTEyNDcyODU3OSw2NTYzMjQwODMsMTg1MDkxNDE3MywtNTIw
-MjYyODc4XX0=
+eyJoaXN0b3J5IjpbLTg1ODI2MjU1MywtMTYxMzc2OTAzNSwxMj
+MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
+NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
+csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
+OTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3Mz
+EyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUw
+OTE0MTczXX0=
 -->
