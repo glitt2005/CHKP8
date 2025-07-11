@@ -1200,7 +1200,10 @@ Entonces, recapitulando, lo que hará el programa será:
 -	Los colores aquí muestran perfectamente que son cosas diferentes:
 	-	 los dos <font color = blue> **`name` en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  **<font color = darkred>  `name` en color rojo**</font> en `this.name` hace referencia **a una instancia de la clase `Instructor`,** precisamente la instancia que hemos creado en la función `jon`.  En esta instancia en específico, le decimos que **almacene cualquier `name`** (`this.name = name`) **que sea pasado como parámetro con este objeto.**
 
--	Cuando quiera que el constructor tome un objeto como argumento, entonces al instanciar también tenemos que poner un objeto como argumento!!
+
+<img src="iconoPrecauc.png" Alt="icono de cuidado">
+
+Cuando quiera que el **constructor** tome un **objeto** como argumento, entonces **al instanciar también tenemos que poner un objeto como argumento!!**
 
 
 
@@ -1361,11 +1364,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MjkzMzE3LDc5Nzg2MjU1MSwtMTMzMj
-M4MjQwNCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMTI4MjgwNzY3
-MywxNjczMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUzMCwtOT
-A1NzkyNTEwLC0zOTcxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYx
-OSwyMDE4NzI0NTcxLC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LD
-E3MzIwNzQ2MDIsODU2NTUxMjY3LC02Nzg5ODQyNTMsMjAxNDg2
-Mzc4N119
+eyJoaXN0b3J5IjpbODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4Nj
+I1NTEsLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1Mjgw
+LDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MD
+A5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2
+MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMT
+kyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0
+MjUzXX0=
 -->
