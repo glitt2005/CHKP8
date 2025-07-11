@@ -1072,7 +1072,9 @@ Utilizando la **deconstrucción de objetos**, vamos a extraer los valores dentro
 
 - Valores que son **fijos**: necesitamos que siempre estén ahí
 
--  Otros valores que **pueden estar o no**, y tampoco conocemos el número de ellos
+-  Otros valores **opcionales** que **pueden estar o no**, y tampoco conocemos el número de ellos
+
+
 - Los fijos: ponemos las claves como parte del nombre de la variable
 
 - Los variables: **añadimos un elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
@@ -1235,7 +1237,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc1OTE2NjQsLTE5MjQ4Njg1NDgsMT
+eyJoaXN0b3J5IjpbLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMT
 czMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYz
 Nzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOC
 wxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2
