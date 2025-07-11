@@ -1075,6 +1075,20 @@ Utilizando la **deconstrucción de objetos**, vamos a extraer los valores dentro
 -  Otros valores **opcionales** que **pueden estar o no**, y tampoco conocemos el número de ellos
 
 
+A) EXTRAYENDO LOS ELEMENTOS FIJOS:
+
+```Javascript
+const {abridor,cerrador} = {
+    abridor: 'Verlander',
+    cerrador: 'Giles',
+    relevo_1: 'Morton',
+    relevo_2: 'Gregerson'
+}
+
+console.log(abridor); // "Verlander"
+console.log(cerrador); // "Giles"
+```
+
 - Los fijos: ponemos las claves como parte del nombre de la variable
 
 - Los variables: **añadimos un elemento más** por parte del nombre de la variable, que mapeará a todo el resto de claves que tiene el objeto, precedido de los tres puntos **…** que es la sintaxis del **operador de propagación, y nos imprimirá un objeto con la clave-valor de todos los elementos que falten:**
@@ -1237,11 +1251,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMT
-czMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYz
-Nzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOC
-wxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2
-MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NT
-c3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUz
-NzEsODI4NTg1MTY5XX0=
+eyJoaXN0b3J5IjpbMTEzODg3MTQ1NywtMTYwNDkyNDc4MywtMT
+kyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0
+MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC
+0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkx
+MTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMT
+g1MSwtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1
+NSwtMTM0MjY1NTM3MV19
 -->
