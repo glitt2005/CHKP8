@@ -885,8 +885,8 @@ const { nombre, edad = 45 } = usuario;
 console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 10
 ```
-a) En este caso la variable `usuario` YA contiene el par clave:valor correspondiente a la clave de `edad`, por lo que al deconstruir, podemos añadir el nombre de la edad a la variable.
-b) En este caso la variable `usuario` sí contiene el valor de edad, con lo que  **ignora por completo la clave que pasamos al deconstruir**, ya que **sólo lo utilizará realmente en caso de no existir en la variable**.
+a) En este caso **la variable `usuario` NO CONTIENE** el par clave:valor correspondiente a la clave de `edad`, por lo que al deconstruir, podemos añadir el nombre de la edad a la variable y por tanto **es utilizado**.
+b) En este caso **la variable `usuario` YA CONTIENE** el valor de edad, con lo que  **ignora por completo la clave que pasamos al deconstruir**, ya que **sólo lo utilizará realmente en caso de no existir en la variable**.
 
 <br>
 
@@ -1059,7 +1059,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Njg5MzQ1NiwyMjYwMTg1MSwtMjA3MT
+eyJoaXN0b3J5IjpbMTMzNzY1NTIwOCwyMjYwMTg1MSwtMjA3MT
 U1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1
 NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LD
 EyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUy
