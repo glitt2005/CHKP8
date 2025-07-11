@@ -954,13 +954,10 @@ Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas
 Otra situación que puede pasar, es que **añadamos un string** a algo en este array que contiene números, y luego **otra parte del programa considera que solo había números enteros** (porque en principio era así), y ejecuta un proceso sobre esa estructura:  **nos daría error**.
 
 **UNA BUENA PRÁCTICA**  
-Por ello lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. De esta forma **evitamos crear los menos efectos secundarios posibles**
+Por ello lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
+De esta forma **evitamos crear los menos efectos secundarios posibles**
 
 
-
-, **UNA BUENA PRÁCTICA**  es hacer una copia de la estructura.
-
-Sabemos que el método push() cambia el valor de la variable, ya que si hacemos:
 
 Vemos que **cambia las dos variables.**  Aquí NO **PASA** UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, cambiando esta variable fuente.
 
@@ -1164,11 +1161,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDg3MDE3MDQsLTE3MjEzMzQzMTgsMT
-YzODEyNDMzMywtMjA1NDg1MDIwNywtOTExOTY0NjU5LC0xNjM0
-MjAxMDM3LC0xMTc1MDQzNTU0LDIyNjAxODUxLC0yMDcxNTU3Nz
-I1LC0xMDU1NzkyNzQ5LC0xMzM4NzAzMTU1LC0xMzQyNjU1Mzcx
-LDgyODU4NTE2OSw0MTI3NTY1OTAsLTE2MTM3NjkwMzUsMTIzMj
-E3MTAxMSwzMjM4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIwOTY1
-LC0xNTIzNDM3NzI1XX0=
+eyJoaXN0b3J5IjpbMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOCwxNj
+M4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2MzQy
+MDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIwNzE1NTc3Mj
+UsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2NTUzNzEs
+ODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNSwxMjMyMT
+cxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5NjUs
+LTE1MjM0Mzc3MjVdfQ==
 -->
