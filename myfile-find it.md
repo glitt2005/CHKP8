@@ -918,9 +918,9 @@ Su objeto es facilitar **la manipulación y combinación de datos de manera conc
 **SINTAXIS**: 
 3 puntos seguidos (...) de algún tipo de palabra:
 
-…palabra
 
-## <![if !supportLists]>1. <![endif]>COMBINAR o CONCATENAR ARRAYS
+
+## 1. COMBINAR o CONCATENAR ARRAYS
 
 //  imprime  [ 1, 2, 3, 4, 5, 8, 9 ]
 
@@ -928,7 +928,7 @@ Si no añadiéramos los puntos  … , el push() de JS interpretaría que tenemos
 
 Como vemos, ha modificado la variable **numbers**.
 
-## <![if !supportLists]>2. <![endif]>COPIAR ARRAYS
+## 2. COPIAR ARRAYS
 
 Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JS, se sobreentiende que no tienes que hacer cambios en una estructura de datos ya creada. Es una convención común no hacer cambios en esa variable original (por ello usar mejor la variable **LET** y no CONST).
 
@@ -950,7 +950,7 @@ HAY DOS FORMAS DE CREAR UNA NUEVA VARIABLE CON LOS DATOS DE AMBAS SIN MODIFICAR 
 
 Vemos los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
-## <![if !supportLists]>3. <![endif]>PASAR ARGUMENTOS A FUNCIONES
+## 3. ASAR ARGUMENTOS A FUNCIONES
 
 Es muy común. Tomaremos de la biblioteca el objeto **Math** como ejemplo, que está disponible en todo JS, y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
 
@@ -972,7 +972,7 @@ Y lo convierte en un conjunto de argumentos de función, que en este caso son **
 
 Es muy popular en las plataformas modernas de JS.
 
-##<![if !supportLists]>4. <![endif]>COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
+##  4. COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
 
 Utilizando la **deconstrucción de objetos**, vamos a extraer los valores dentro del objeto de la variable, y los tenemos de dos tipos:
 
@@ -1142,7 +1142,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkzMzM0NDQsLTExNzUwNDM1NTQsMj
+eyJoaXN0b3J5IjpbLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMj
 I2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3
 MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MC
 wtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUx
