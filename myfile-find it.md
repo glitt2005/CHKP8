@@ -968,16 +968,18 @@ updatedNumbers.push(5);
 console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
 console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
-Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **modificando también esta variable fuente.** Tenemos dos soluciones a esto:
+Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **MODIFICANDO TAMBIÉN LA VARIABLE FUENTE.** Tenemos dos soluciones a esto:
 
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
-HAY DOS FORMAS DE CREAR UNA NUEVA VARIABLE CON LOS DATOS DE AMBAS SIN MODIFICAR LA VARIABLE EXISTENTE:
+
 
 
 ### b) Forma moderna: operador de extensión
 
-Mediante la sintaxis **[…variableOriginal];** 
+#### SINTAXIS
+: la sintaxis
+#### EJEMPLO:
 
 
 ```JavaScript
@@ -1187,7 +1189,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc4MzQ0NTIsMTQ0NzMyMTUyOSwtMT
+eyJoaXN0b3J5IjpbLTIwNzQ5MDE1MzcsMTQ0NzMyMTUyOSwtMT
 cyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5
 NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NT
 EsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUs
