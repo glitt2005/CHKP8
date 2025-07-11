@@ -706,7 +706,7 @@ font-weight: normal;
 **NOTA**:
 - La destructuración **no cambia la variable en sí misma.** Crea nuevas variables yi asigna valores extraidos de la estructura de datos original. **La variable original queda intacta**.
 
-####   INTERCAMBIO DE VALORES DE VARIABLE:
+###   1. INTERCAMBIO DE VALORES DE VARIABLE:
 Un ejemplo básico para el intercambio de turnos en un juego sería hacer uso de la desestructuración **para intercambiar los valores de las variables que representan los jugadores actuales**.
 
 ```JavaScript
@@ -854,7 +854,7 @@ function mostrarNumeros([primero, segundo]) {
 
 **NOTA**: Debemos llamar a la función siempre teniendo en cuenta **el tipo de datos que contiene**. En el Ejemplo 2, vemos que la función  `mostrarNumeros()` contiene **un parámetro conteniendo un array:** `[primero, segundo]`, y por tanto, cuando la invoquemos debemos utilizar **la misma sintaxis con corchetes [].**
 <br>
-####  VALORES POR DEFECTO:
+###  VALORES POR DEFECTO:
 La desestructuración permite establecer valores por defecto para las variables, en caso de que la propiedad o elemento del arreglo no exista.
 
 
@@ -1037,11 +1037,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg3NjExNDMsMjI2MDE4NTEsLTIwNz
-E1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzNDI2
-NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAzNS
-wxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1
-MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3Mj
-I3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcs
-MzkxOTkwMzE1XX0=
+eyJoaXN0b3J5IjpbMTc0MDI2NzEyMiwyMjYwMTg1MSwtMjA3MT
+U1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1
+NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LD
+EyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUy
+MDk2NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMj
+c0NywtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywz
+OTE5OTAzMTVdfQ==
 -->
