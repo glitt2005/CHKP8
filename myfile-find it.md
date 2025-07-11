@@ -978,10 +978,10 @@ Vemos que **cambia las dos variables.**  Aquí **no está pasando una copia, sin
 
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
-El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama **sin argumentos** toma todos los elementos del array, o sea, **crea una copia de todos los elementos del array original** superficial (shallow copy) del array original.** 
+El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama **sin argumentos** toma todos los elementos del array, o sea, **crea una copia de todos los elementos del array original** superficial (shallow copy) del array original. 
 
-**Una copia superficial** o shallow copy crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
-**Una copia profunda** (deep copy), por otro lado, crea un nuevo objeto y copia recursivamente todos los elementos, incluyendo los objetos y arrays anidados, para que no compartan referencias con el objeto original.
+- **Una copia superficial** o shallow copy crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
+- **Una copia profunda** (deep copy), por otro lado, crea un nuevo objeto y copia recursivamente todos los elementos, incluyendo los objetos y arrays anidados, para que no compartan referencias con el objeto original.
 
 
 ```JavaScript
@@ -1279,11 +1279,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MD
-U3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMTE0MDk4NjE5
-LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMT
-czMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYz
-Nzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMzNDMxOC
-wxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NTksLTE2
-MzQyMDEwMzddfQ==
+eyJoaXN0b3J5IjpbLTE0OTY5MTA3MzAsMTQ5Nzc1Nzk3NCwxNz
+AwOTc3NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMx
+NjEsMTE0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLT
+E5MjQ4Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4
+NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOS
+wtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05
+MTE5NjQ2NTldfQ==
 -->
