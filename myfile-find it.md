@@ -1029,7 +1029,7 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 
 ## 3.  PASAR ARGUMENTOS A FUNCIONES 
 
-Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos el método`max()`, este método: 
+Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos **el método`max()`**, este método: 
 - se utiliza para encontrar **el valor más grande de una lista de números**
 - **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
 - ejemplo: 
@@ -1040,6 +1040,7 @@ console.log(Math.max (1,5,1,10,2,3));  // devuelve 10
 </p>
 
 
+<br>
 
 Sin embargo si lo **pasamos en el argumento de una función**, ya la cosa es didferente:
 ```Javascript
@@ -1048,7 +1049,7 @@ console.log(Math.max (numbers));  // NaN
 ```
 
 
-En el caso a) estamos pasando una lista, como si fueran 6 argumentos.
+Aquí estamos pasando una lista, como si fueran 6 argumentos.
 
 En el caso b) interpreta que solo estamos pasando 1 argumento, cuyo tipo de dato es un array, no un número. Por esto el output de NaN.
 
@@ -1228,11 +1229,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI0Nzk1OTM0LDg1NjU1MTI2NywtNjc4OT
-g0MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5
-LC0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLT
-kxMTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYw
-MTg1MSwtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMz
-E1NSwtMTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0x
-NjEzNzY5MDM1XX0=
+eyJoaXN0b3J5IjpbLTE5MTU2OTA3NzYsODU2NTUxMjY3LC02Nz
+g5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0NDczMjE1
+MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1MDIwNy
+wtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNTU0LDIy
+NjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4Nz
+AzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAs
+LTE2MTM3NjkwMzVdfQ==
 -->
