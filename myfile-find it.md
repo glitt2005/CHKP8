@@ -819,7 +819,7 @@ console.log(dorsal);   // Imprime: 10
 
 
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** 
-En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último ejemplo, para que  `nombre`, `posición`y `dorsal`    se mapeen a los atributos de la vadeben tener el mismo nombre (**nombre**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
+En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último ejemplo, para que  `nombre`, `posición`y `dorsal`    se mapeen a los atributos de la variable `jugador` **deben tener exactamente el mismo nombre**, ya que va a chequear si encuentra arriba esos argumentos **como clave del objeto** de la función que se está pasando. (inside of the object that’s being passed in).
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
 
 funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
@@ -1038,7 +1038,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2ODEwMzM5MSwtMjA3MTU1NzcyNSwtMT
+eyJoaXN0b3J5IjpbLTQzNTU0NzU2MiwtMjA3MTU1NzcyNSwtMT
 A1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1NTM3MSw4Mjg1
 ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEwMT
 EsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2NSwtMTUy
