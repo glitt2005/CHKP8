@@ -1179,28 +1179,6 @@ Si Bob y Sally acceden al sitio, Bob inicia sesión y el sistema examina el plan
 En esta sección, abordaremos dos temas: clases e instanciación, ya que son dos de los aspectos más importantes que debes comprender. También abordaremos otros temas, como la comprensión de los métodos estáticos y de instancia, y cómo usar herramientas como "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra.
 Este patrón se observará con frecuencia al usar herramientas como React, View y Angular. Y entonces quiero que puedas ver lo que realmente está sucediendo porque si simplemente tomaste un tutorial de React y viste todas estas diferentes palabras clave como clase e implementos y uso y si ves estas cosas y en realidad no conoces los fundamentos que están sucediendo en el JavaScript puro, podrías pensar que son específicos de ese marco o puede que no entiendas exactamente lo que está sucediendo detrás de escena y eso es lo que quiero hacer es que puedas entender que esto es solo Javascript puro y estamos aprovechando la programación orientada a objetos para construir nuestros propios sistemas.For years older versions of JavaScript did not have the Object Oriented Programming components of classes and instantiation and that was fine for a period of time. But more modern versions of JavaScript have implemented classes.
 
-**Guide Tasks**
-
--   Read Tutorial
--   Watch Guide Video
-
-Now if you have never worked in an object-oriented programming language then some of those concepts may seem very abstract and so in this introduction, I want to walk through what object-oriented programming is and then in the section guides in the screencast we'll see how we can implement that inside of JavaScript.
-
-Through the years as I've been teaching students object-oriented programming techniques. I've noticed that it seems to be one of the concepts that can be very intimidating. And so what I want to give to you is an understanding of the key components that make up object-oriented programming. Because what I've found is it's not really the concept that is confusing but it's the fact that it uses a ton of very confusing words and so I want to give a little bit of clarification on those words. And we're going to start off with a real-world example.
-
-So if on the chalkboard here I decide to create a blueprint for the house or a house and I create a floor plan and I draw up some bedrooms and show where the door is and I have all of these different elements here I'm just drawing a blueprint for a house a very poor blueprint. But just imagine it's an amazing blueprint. Now, this technically is not a house. I don't think we're going to get any arguments on that.
-
-A house has a foundation, it has wood, it has a roof, it has all of these different elements that make it a real-world house this is simply a blueprint. Now in object-oriented programming, we have, and let's start off with the concept of a class. A class is like our blueprint here. A class is simply a list of definitions that say exactly how the class should behave. It will list out attributes so it can describe what the class is supposed to do and the behavior it's going to have.
-
-Let's imagine a User class, every time that a new user comes to the site and registers you're going to look and the program is going to look at your User class and it's going to see the blueprint. It's good to see how that user should behave and then we're going to take it to the next step and this is one of the words that I have seen gets students very confused and the word is instantiation. That's a big word. All it means is that we're taking that blueprint and we're creating a real-world object with it.
-
-So going to our user example if we have a User class and it has a user name and it has some functions such as saying what we want the user to do after they've logged in such as what page we want to see and what kind of attributes we want to have available to the user such as grabbing their last name or anything like that, that their application needs.
-
-What the program's going to do is it's going to look at the blueprint and then it's going to then create and instantiate an object with it and it's going to be the object they are actually going to work with. If you have Bob and Sally come to the site Bob logs in and the system looks at this user blueprint it looks at the class and then it instantiates a bob user object. It's no longer a blueprint. It is now something that your system can use.
-
-Throughout this section, we're going to talk about those two topics classes and instantiation because those are two of the most critical types of things for you to understand and we're going to go into some other topics such as understanding static and instance methods and also seeing how we can use tools such as implements and using which are a couple of key keywords that allow us to take the functionality from one class and poured it over into our own.
-
-This is going to be a pattern that you're going to see quite a bit in using tools such as react and view and angular. And so I want you to be able to see what's actually happening because if say that you simply took a react tutorial and you saw all of these different keywords such as class and implements and using and if you see these things and you don't actually know the fundamentals that are going on in just the pure vanilla javascript you might think that there are specific to that framework or you may not understand exactly what's going on behind the scenes and so that's what I want to do is I want you to be able to understand that this is just pure Javascript and we're leveraging object-oriented programming in order to build out our own systems.
 
 # 7. ¿Qué es una promesa en JS?
 
@@ -1353,7 +1331,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MzI2Mjg2MywtODA2NDY1MjgwLDEyOD
+eyJoaXN0b3J5IjpbMTU2NDkzMDg4MCwtODA2NDY1MjgwLDEyOD
 I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
 MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
 QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
