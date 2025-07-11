@@ -1033,9 +1033,12 @@ Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el o
 - se utiliza para encontrar **el valor más grande de una lista de números**
 - **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
 - ejemplo: 
-\indent   ```Javascript
+<p style="text-indent: 30px;">
+
+```Javascript
 console.log(Math.max (1,5,1,10,2,3));  // devuelve 10 
-```
+``` 
+</p>
 
 
 
@@ -1227,11 +1230,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk5NTA0NzcsLTY3ODk4NDI1MywyMD
-E0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMz
-NDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2NT
-ksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLTIw
-NzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEzND
-I2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OTAz
-NSwxMjMyMTcxMDExXX0=
+eyJoaXN0b3J5IjpbMTI4MjAwNjE4MiwtNjc4OTg0MjUzLDIwMT
+Q4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC0xNzIxMzM0
+MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2NDY1OS
+wtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MSwtMjA3
+MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0Mj
+Y1NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1
+LDEyMzIxNzEwMTFdfQ==
 -->
