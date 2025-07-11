@@ -819,7 +819,7 @@ console.log(dorsal);   // Imprime: 10
 
 
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** 
-En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción: funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
+En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último ejemplo, para que  `nombre`, `posición`y `dorsal`    se mapeen a los atributos de la vadeben tener el mismo nombre (**nombre**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
 
 funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
@@ -1038,11 +1038,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODMyMzk2LC0yMDcxNTU3NzI1LC0xMD
-U1NzkyNzQ5LC0xMzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4
-NTE2OSw0MTI3NTY1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMS
-wzMjM4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIwOTY1LC0xNTIz
-NDM3NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNzQ3LC0yNDkyNj
-kyMjEsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MTk5MDMxNSwx
-MzA5NzA1MjQ1XX0=
+eyJoaXN0b3J5IjpbLTM2ODEwMzM5MSwtMjA3MTU1NzcyNSwtMT
+A1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1NTM3MSw4Mjg1
+ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEwMT
+EsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2NSwtMTUy
+MzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0NywtMjQ5Mj
+Y5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywzOTE5OTAzMTUs
+MTMwOTcwNTI0NV19
 -->
