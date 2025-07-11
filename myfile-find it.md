@@ -698,9 +698,10 @@ font-weight: normal;
 -  **evita** la necesidad de **acceder repetidamente** a los elementos de la estructura original.
 
 
--   **Código más limpio y legible:** Evita la necesidad de acceder a las propiedades del objeto usando la notación de punto (`jugador.nombre`).
--   **Extracción selectiva:** Permite extraer solo las propiedades necesarias, ignorando las demás.
--   **Asignación múltiple:** Se pueden asignar múltiples variables en una sola línea.
+-   **Código más limpio y legible:** Evita la necesidad de **acceder a las propiedades del objeto usando la notación de punto** (`jugador.nombre`).
+-   **Extracción selectiva:** Permite extraer **solo las propiedades necesarias**, ignorando las demás.
+-   **Asignación múltiple:** Se pueden asignar **múltiples variables en una sola línea**.
+<br>
 
 ####   EJEMPLO BÁSICO: turno de un jugador:
 Un ejemplo básico para el intercambio de turnos en un juego sería hacer uso de la desestructuración **para intercambiar los valores de las variables que representan los jugadores actuales**.
@@ -1000,11 +1001,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MT
-c2MjUxNCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1
-NzQxLC0xNjMwNzIyNzQ3LC0yNDkyNjkyMjEsLTc0ODg0ODA3Ny
-wxNTUxMTA3MzA3LDM5MTk5MDMxNSwxMzA5NzA1MjQ1LC0xMzIy
-NjI0OTMxLC0yNTk1NzMxMjAsNjUwNjEyODIsMTEyNDcyODU3OS
-w2NTYzMjQwODMsMTg1MDkxNDE3MywtNTIwMjYyODc4LDE2NTEx
-MzQ3MjJdfQ==
+eyJoaXN0b3J5IjpbLTk0MDc0ODI4MSwxMjMyMTcxMDExLDMyMz
+g1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5NjUsLTE1MjM0Mzc3
+MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OTIyMS
+wtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LDEzMDk3
+MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3MzEyMCw2NTA2MTI4Mi
+wxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUwOTE0MTczLC01MjAy
+NjI4NzhdfQ==
 -->
