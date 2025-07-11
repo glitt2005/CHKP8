@@ -1160,18 +1160,18 @@ Esta **estructura** la podemos asociar con lo que en Javascript corresponde a un
 
 #### Imaginemos la clase `Usuario`:
 - Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa **REVISAR LA CLASE DE `Usuario`**  y verá el plano, **verá esa estructura**. Es lo mismo que decir que es importante ver **cómo debería comportarse ese usuario** y para luego pasar al siguiente paso. 
-- **LA INSTAN**.  Es un término complejo. Significa que tomamos ese plano y creamos con él un objeto real.
+- **LA INSTANCIACIÓN**.  Es un término complejo. Significa que tomamos ese plano y **creamos con él un objeto real**.
 
 En nuestro ejemplo:
 - tenemos una clase `Usuario` 
 - con un **nombre** de usuario 
 - y algunas **funciones**, 
-	- indicar qué queremos que haga el usuario después de iniciar sesión, 
-	- como qué página queremos ver 
-	- qué tipo de atributos queremos que estén disponibles para el usuario, **como obtener su apellido o algo similar**, que su aplicación necesita. 
+	- indicar **qué queremos que haga** el usuario después de iniciar sesión, 
+	-  **qué página** queremos ver 
+	- **qué tipo de atributos** queremos que estén disponibles para el usuario, **como obtener su apellido o algo similar**, que su aplicación necesita. 
 
 
-Lo que hará el programa:
+Entonces, recapitulando, lo que hará el programa será:
 1.  **examinar** el plano 
 2.  **crear e instanciar un objeto con él**, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse en algo terminado.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior. 
 3.  Luego puedo **hacer otro objeto** con otro nombre y **basarlo en la misma plantilla** o estructura. Serían dos objetos distintos que tienen una misma estructura.
@@ -1346,7 +1346,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNzQyNzA5NiwtNTc1NTkyOTA0LC04MD
+eyJoaXN0b3J5IjpbMTM1ODQzMzMwNSwtNTc1NTkyOTA0LC04MD
 Y0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5
 NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2MjYsNz
 cwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNjA0OTI0
