@@ -910,9 +910,7 @@ Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos *
 # 5 ¿Qué hace el operador de extensión en JS?
 
 
-**El operador de exrteSpread Operator – OPERADOR DE PROPAGACIÓN**
-
-Es una herramienta muy potente de las plataformas más populares de JS.
+**El operador de extensión** (también llamado operador de propagación) o **Spread Operator** es una herramienta muy potente de las plataformas más populares de JavaScript. Básicamente, **toma los elementos de un iterable y los 
 
 SINTAXIS: 3 puntos seguidos de algún tipo de palabra:
 
@@ -1140,7 +1138,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA2MDU1ODQsLTExNzUwNDM1NTQsMj
+eyJoaXN0b3J5IjpbLTE5NDI4NjQxMjAsLTExNzUwNDM1NTQsMj
 I2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3
 MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MC
 wtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUx
