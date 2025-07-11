@@ -1029,7 +1029,7 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 
 - una **copia superficial** (*shallow copy*) crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
 
-- una **copia profunda** (*deep copy*), por otro lado, crea un nuevo objeto y **copia recursivamente todos los elementos, es decir, incluyendo los objetos y arrays anidados**, para que no compartan referencias con el objeto original.
+- una **copia profunda** (*deep copy*), por otro lado, crea un nuevo objeto y **copia recursivamente todos los elementos**, es decir, **incluyendo los objetos y arrays anidados**, para que no compartan referencias con el objeto original.
 
 
 ## 4.  PASAR ARGUMENTOS A FUNCIONES 
@@ -1278,7 +1278,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTk5NTkwNCwxNjczMjUxMjM2LDE0OT
+eyJoaXN0b3J5IjpbMTI5MDU2OTkyMCwxNjczMjUxMjM2LDE0OT
 c3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2
 MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNj
 A0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUx
