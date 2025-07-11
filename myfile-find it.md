@@ -1017,9 +1017,10 @@ Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angula
 
 Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el último.** No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
+-----
 
 
-**NOTA**: el tipo de copia que se crea es una **copia superficial**, en comparación con una **copia profunda**:
+**NOTA**: el tipo de copia que se crea en estos casos es una **copia superficial**, en comparación con una **copia profunda**:
 
 - **una copia superficial (shallow copy)** crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
 
@@ -1028,7 +1029,7 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 
 ## 3.  PASAR ARGUMENTOS A FUNCIONES
 
-Es muy común. Tomaremos de la biblioteca el objeto **Math** como ejemplo, que está disponible en todo JS, y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
+Esto es algo muy común. Tomaremos de la biblioteca el objeto **Math** como ejemplo, que está disponible en todo JS, y utilizaremos el método **Math.max()**para encontrar el valor máximo de un conjunto de números. Si alguno de los elementos no es convertible, devolvería **NaN**.
 
 a)
 
@@ -1218,11 +1219,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjU3NjQ4NCwxNjIxNTA3MDgwLDE0ND
-czMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1
-MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNT
-U0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0x
-MzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NT
-Y1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcs
-MTA1MTc2MjUxNF19
+eyJoaXN0b3J5IjpbLTE3ODM4ODc0ODMsMTYyMTUwNzA4MCwxND
+Q3MzIxNTI5LC0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4
+NTAyMDcsLTkxMTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0Mz
+U1NCwyMjYwMTg1MSwtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwt
+MTMzODcwMzE1NSwtMTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNz
+U2NTkwLC0xNjEzNzY5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3
+LDEwNTE3NjI1MTRdfQ==
 -->
