@@ -1123,7 +1123,7 @@ Es una de las formas más comunes de hacer la deconstrucción de objetos utiliza
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 
-**El operador de extensión ... debe colocarse al final de los demás elementos**.  Generaríamos un error si tratamos de hacer `const {abridor, ...relevos, cerrador}....`. Este error, diría algo así como `// SyntaxError: Rest element must be last element`.
+**El operador de extensión ... debe colocarse al final de los demás elementos del objeto**.  Generaríamos un error si tratamos de hacer `const {abridor, ...relevos, cerrador}....`. Este error, diría algo así como `// SyntaxError: Rest element must be last element`.
 
 
 # 6 ¿Qué es la programación orientada a objetos?
@@ -1279,11 +1279,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MD
-Y4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4
-MywtMTkyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNj
-c4OTg0MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIx
-NTI5LC0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMD
-csLTkxMTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwy
-MjYwMTg1MV19
+eyJoaXN0b3J5IjpbMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOT
+cxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcx
+LC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsOD
+U2NTUxMjY3LC02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3
+MDgwLDE0NDczMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMy
+wtMjA1NDg1MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0x
+MTc1MDQzNTU0XX0=
 -->
