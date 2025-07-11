@@ -1007,17 +1007,18 @@ console.log(numbers);  //imprime [ 1, 2, 3, 4 ]
 console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 ```
 
-
+###  ¿forma a) o forma b)?
 
 <br>
+Se ven  los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
-NOTA: el tipo de copia que se crea es una **copia superficial**, en comparación con una **copia profunda**:
+
+**NOTA**: el tipo de copia que se crea es una **copia superficial**, en comparación con una **copia profunda**:
 
 - **una copia superficial (shallow copy)** crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
 
 - **Una copia profunda (deep copy),** por otro lado, crea un nuevo objeto y **copia recursivamente todos los elementos, es decir, incluyendo los objetos y arrays anidados**, para que no compartan referencias con el objeto original.
 
-Vemos los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
 ## 3.  PASAR ARGUMENTOS A FUNCIONES
 
@@ -1211,11 +1212,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2MTI1MzI0LDE2MjE1MDcwODAsMTQ0Nz
-MyMTUyOSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUw
-MjA3LC05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NT
-QsMjI2MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEz
-Mzg3MDMxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1Nj
-U5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywx
-MDUxNzYyNTE0XX0=
+eyJoaXN0b3J5IjpbLTI5OTY4OTg3NiwxNjIxNTA3MDgwLDE0ND
+czMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1
+MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNT
+U0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0x
+MzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NT
+Y1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcs
+MTA1MTc2MjUxNF19
 -->
