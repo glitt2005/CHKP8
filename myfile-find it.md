@@ -1206,7 +1206,15 @@ Entonces, recapitulando, lo que hará el programa será:
 Cuando quiera que el **constructor** tome un **objeto** como argumento, entonces **al instanciar también tenemos que poner un objeto como argumento!!**
 
 
-La variable `jon` se llama **instancia de la clase Instructor**.  En cuanto al tipo de dato, es **un objeto**. De hecho si hacemos un que hemos creado es un objeto. Y precisamente por ello
+La variable `jon` se llama **instancia de la clase Instructor**.  En cuanto al tipo de dato, es **un objeto**. De hecho si hacemos:
+
+```Javascript
+console.log(jon); 
+// imprime: "Object{ name: "Jon Snow"
+
+```
+
+que hemos creado es un objeto. Y precisamente por ello
 
 
 
@@ -1371,11 +1379,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDY5MjkwMyw4OTUwNTc5NDQsMTQ0Mj
-kzMzE3LDc5Nzg2MjU1MSwtMTMzMjM4MjQwNCwtNTc1NTkyOTA0
-LC04MDY0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OT
-c3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2
-MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNj
-A0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUx
-MjY3XX0=
+eyJoaXN0b3J5IjpbLTEzMDY2Mjc0MDcsODk1MDU3OTQ0LDE0ND
+I5MzMxNyw3OTc4NjI1NTEsLTEzMzIzODI0MDQsLTU3NTU5Mjkw
+NCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxND
+k3NzU3OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0
+NjI2LDc3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMT
+YwNDkyNDc4MywtMTkyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1
+MTI2N119
 -->
