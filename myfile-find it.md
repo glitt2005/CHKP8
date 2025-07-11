@@ -704,7 +704,7 @@ font-weight: normal;
 <br>
 
 **NOTA**:
-- La destructuración **no cambia la variable en sí misma.** Crea nuevas variables yi asigna valores extraidos de la estructura de datos original. La variable original queda intacta.
+- La destructuración **no cambia la variable en sí misma.** Crea nuevas variables yi asigna valores extraidos de la estructura de datos original. **La variable original queda intacta**.
 
 ####   INTERCAMBIO DE VALORES DE VARIABLE:
 Un ejemplo básico para el intercambio de turnos en un juego sería hacer uso de la desestructuración **para intercambiar los valores de las variables que representan los jugadores actuales**.
@@ -722,7 +722,7 @@ console.log(jugador2); // Output: X
 
  En este ejemplo, la línea  `[jugador1, jugador2] = [jugador2, jugador1];` realiza la magia: 
 
-&nbsp; 1. **Se crea un arreglo** con los valores actuales de  `jugador2`  y  `jugador1`. 
+&nbsp; 1. **Se crea un array** con los valores actuales de  `jugador2`  y  `jugador1`. 
 &nbsp; 2. Luego, la desestructuración **asigna el primer valor** (**anteriormente el de  `jugador2`**) a  **`jugador1`**  y el segundo valor (anteriormente el de  `jugador1`) a  `jugador2`, logrando así el intercambio.
 
 **NOTA**: Nos evita tener la tediosa tarea de uno, por uno, cambiar de cada uno de los jugadores `jugadorx.nombre`
@@ -730,8 +730,9 @@ console.log(jugador2); // Output: X
 
 Una de los procesos más comunes que te encuentras cuando estás implementando, por ejemplo procesos de tipo "***quicksort***" u "ordenamiento rápido" (*algoritmo de ordenación que funciona bajo el principio de "divide y vencerás"*) u otros algoritmos más avanzados, es **la capacidad de intercambiar los valores de las variables.** **Sin la deconstruccion de variables**, sería este procedimiento se convertiría en todo **un reto**! En las v**ersiones modernas de JavaScript** podemos hacer esto de manera **más eficiente en una sola línea de código.**
 
-<br>
+Una de las aplicaciones típicas de utilizar  
 
+<br>
 
 
 ### DECONSTRUCCIÓN DE ARRAYS:
@@ -1012,11 +1013,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODk0MzAxLC0xNjEzNzY5MDM1LDEyMz
-IxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2
-NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0Ny
-wtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywzOTE5
-OTAzMTUsMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMjU5NTczMT
-IwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2MzI0MDgzLDE4NTA5
-MTQxNzNdfQ==
+eyJoaXN0b3J5IjpbLTc4NDYwMjA0MCwtMTYxMzc2OTAzNSwxMj
+MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
+NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
+csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
+OTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3Mz
+EyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUw
+OTE0MTczXX0=
 -->
