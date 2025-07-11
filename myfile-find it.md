@@ -960,7 +960,7 @@ Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas
 Otra situación que puede pasar, es que **añadamos un string** a algo en este array que contiene números, y luego **otra parte del programa considera que solo había números enteros** (porque en principio era así), y ejecuta un proceso sobre esa estructura:  **nos daría error**.
 
 **UNA BUENA PRÁCTICA**  
-Llo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
+Lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
 De esta forma **evitamos crear los menos efectos secundarios posibles**
 
 Debido a que el método push(), como ya hemos dicho, cambia la variable original, si hacemos la siguiente asignación con la intención de realizar una copiaa, seguiríamos con problema:
@@ -1279,7 +1279,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzcyMjA5MzEsMTcwMDk3NzUzMCwtOT
+eyJoaXN0b3J5IjpbLTIxMTIyNzI1ODcsMTcwMDk3NzUzMCwtOT
 A1NzkyNTEwLC0zOTcxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYx
 OSwyMDE4NzI0NTcxLC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LD
 E3MzIwNzQ2MDIsODU2NTUxMjY3LC02Nzg5ODQyNTMsMjAxNDg2
