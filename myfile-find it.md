@@ -860,7 +860,7 @@ console.log(edad);   // Output: 45
 
 ###  APLICACIONES
 Aplicaciones que nos encontramos a diario en la que utilizamos la deconstrucción de arrays y objetos en JavaScript es al conectarse con una API. 
-Esta devuelve típicamente estructuras tipo array y objetos. Una vez hemos identificado el nombre del objeto u array a deconstruir, nos facilita enormemente la extracción de datos específicos de estructuras complejas y su asignación a variables individuales, simplificando el manejo de la información recibida de la API.
+Esta devuelve típicamente estructuras tipo array y objetos. Una vez hemos identificado el nombre del objeto u array a deconstruir, nos facilita enormemente la extracción de estos datos específicos de estructuras complejas, así como su asignación a variables individuales, que de otro modo sería tan tedioso trabajar con los tipos de datos que una API devuelve.
 
 # 5 ¿Qué hace el operador de extensión en JS?
 
@@ -1017,11 +1017,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0OTQwNDU3OSwtMTYxMzc2OTAzNSwxMj
-MyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5
-NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3ND
-csLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkx
-OTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3Mz
-EyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUw
-OTE0MTczXX0=
+eyJoaXN0b3J5IjpbNDEyNzU2NTkwLC0xNjEzNzY5MDM1LDEyMz
+IxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUyMDk2
+NSwtMTUyMzQzNzcyNSwtMTU3ODA3NTc0MSwtMTYzMDcyMjc0Ny
+wtMjQ5MjY5MjIxLC03NDg4NDgwNzcsMTU1MTEwNzMwNywzOTE5
+OTAzMTUsMTMwOTcwNTI0NSwtMTMyMjYyNDkzMSwtMjU5NTczMT
+IwLDY1MDYxMjgyLDExMjQ3Mjg1NzksNjU2MzI0MDgzLDE4NTA5
+MTQxNzNdfQ==
 -->
