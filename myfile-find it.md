@@ -1159,8 +1159,8 @@ Esta **estructura** la podemos asociar con lo que en Javascript corresponde a un
 -  **Enumerará atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
 
 #### Imaginemos la clase `Usuario`:
-- Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa revisará su clase `Usuario`  y verá el plano, verá esa estructura. Es importante ver cómo debería comportarse ese `Usuario` y para luego pasar al siguiente paso. 
-- **La instanciación**.  Es un término complejo. Significa que tomamos ese plano y creamos con él un objeto real.
+- Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa **REVISAR LA CLASE DE `Usuario`**  y verá el plano, **verá esa estructura**. Es lo mismo que decir que es importante ver **cómo debería comportarse ese usuario** y para luego pasar al siguiente paso. 
+- **LA INSTAN**.  Es un término complejo. Significa que tomamos ese plano y creamos con él un objeto real.
 
 En nuestro ejemplo:
 - tenemos una clase `Usuario` 
@@ -1346,11 +1346,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODkyMTU2NjAsLTU3NTU5MjkwNCwtOD
-A2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3
-OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LD
-c3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDky
-NDc4MywtMTkyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2Ny
-wtNjc4OTg0MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3
-MzIxNTI5XX0=
+eyJoaXN0b3J5IjpbMTIzNzQyNzA5NiwtNTc1NTkyOTA0LC04MD
+Y0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5
+NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2MjYsNz
+cwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNjA0OTI0
+NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUxMjY3LC
+02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0NDcz
+MjE1MjldfQ==
 -->
