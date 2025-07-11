@@ -972,6 +972,8 @@ Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SIN
 
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
+El método  `slice()`  en JavaScript se utiliza para extraer cuando se llama sin argumentos, crea una **copia superficial (shallow copy) del array original.** Esto significa que se crea un nuevo array con los mismos elementos que el original, **pero se trata de un objeto diferente**.
+
 ```JavaScript
 const numbers = [1,2,3,4];
 const updatedNumbers = numbers;
@@ -1199,11 +1201,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDI2MjY4MSwxNjIxNTA3MDgwLDE0ND
-czMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1
-MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNT
-U0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0x
-MzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NT
-Y1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcs
-MTA1MTc2MjUxNF19
+eyJoaXN0b3J5IjpbMzAzMDE5MDQsMTYyMTUwNzA4MCwxNDQ3Mz
+IxNTI5LC0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAy
+MDcsLTkxMTk2NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NC
+wyMjYwMTg1MSwtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMz
+ODcwMzE1NSwtMTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNzU2NT
+kwLC0xNjEzNzY5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3LDEw
+NTE3NjI1MTRdfQ==
 -->
