@@ -967,7 +967,9 @@ updatedNumbers.push(5);
 console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
 console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
-Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **modificando también esta variable fuente.**
+Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SINO **UNA REFERENCIA**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **modificando también esta variable fuente.** Tenemos dos soluciones a esto:
+
+### Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
 HAY DOS FORMAS DE CREAR UNA NUEVA VARIABLE CON LOS DATOS DE AMBAS SIN MODIFICAR LA VARIABLE EXISTENTE:
 
@@ -1169,7 +1171,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Njk4MTE4MCwxNDQ3MzIxNTI5LC0xNz
+eyJoaXN0b3J5IjpbLTc4NDg4ODYxMSwxNDQ3MzIxNTI5LC0xNz
 IxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2
 NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MS
 wtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwt
