@@ -931,9 +931,9 @@ let newNumbers = [8,9];
 numbers.push(...newNumbers);
 console.log(numbers); //imprime [ 1, 2, 3, 4, 5, 8, 9 ]
 ```
-Recordemos que el método``` push()``` cambia la variable original.
+Recordemos que **el método``` push()``` cambia la variable original.**
 
-b) **Si no pusiéramos la extensión ...** entonces lo añadiría como un  elemento, un array (anidado):
+b) **Si no pusiéramos la extensión ...** entonces lo añadiría como **un único** elemento, un **array (anidado**):
 
 ```JavaScript
 let numbers = [1,2,3,4];
@@ -944,9 +944,9 @@ console.log(numbers); //imprime [ 1, 2, 3, 4, [ 8, 9 ] ]
 ```
 
 
-Si no añadiéramos los puntos  … , el push() de JS interpretaría que tenemos que añadir un array [8,9], precisamente por cómo JS interpreta los arrays:  un conjunto de “cualquier tipo de datos”.  La solución, pues es utilizar el operador de propagación.
+precisamente por cómo JavaScript interpreta los arrays:  **un conjunto de “cualquier tipo de datos”.**  La solución, pues es utilizar el operador de extensión.
 
-Como vemos, ha modificado la variable **numbers**.
+
 
 ## 2. COPIAR ARRAYS
 
@@ -1162,11 +1162,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDk1ODY0LC0yMDU0ODUwMjA3LC05MT
-E5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4
-NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNT
-UsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYx
-Mzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNT
-E0LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEs
-LTE2MzA3MjI3NDddfQ==
+eyJoaXN0b3J5IjpbMTYzODEyNDMzMywtMjA1NDg1MDIwNywtOT
+ExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNTU0LDIyNjAx
+ODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4NzAzMT
+U1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAsLTE2
+MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcsMTA1MTc2Mj
+UxNCwtNDU4NTIwOTY1LC0xNTIzNDM3NzI1LC0xNTc4MDc1NzQx
+LC0xNjMwNzIyNzQ3XX0=
 -->
