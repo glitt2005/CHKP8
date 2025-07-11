@@ -1192,6 +1192,7 @@ Entonces, recapitulando, lo que hará el programa será:
  -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto. (lo haremos con la palabra clave `new`** ).
 
 
+<img src="claseConstructor.png" Alt="clase e instancia">
 
 
 
@@ -1352,11 +1353,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtOD
-A2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3
-OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LD
-c3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDky
-NDc4MywtMTkyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2Ny
-wtNjc4OTg0MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3
-MzIxNTI5XX0=
+eyJoaXN0b3J5IjpbLTIxMzYzMzg3NjAsLTEzMzIzODI0MDQsLT
+U3NTU5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1
+MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMC
+wtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcy
+NDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2ODU0OCwxNzMyMDc0Nj
+AyLDg1NjU1MTI2NywtNjc4OTg0MjUzLDIwMTQ4NjM3ODcsMTYy
+MTUwNzA4MF19
 -->
