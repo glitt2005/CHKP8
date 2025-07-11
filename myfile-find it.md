@@ -1158,8 +1158,7 @@ Una clase es simplemente una lista de definiciones que indican exactamente cómo
 #### Imaginemos la clase `Usuario`:
 - Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa revisará su clase `Usuario`  y verá el plano, verá esa estructura. Es importante ver cómo debería comportarse ese `Usuario` y para luego pasar al siguiente paso. 
 - **La instanciación**.  Es un término complejo. Significa que tomamos ese plano y creamos con él un objeto real.
-
-En nuestro ejemplo de usuario, tenemos una clase Usuario con un nombre de usuario y algunas funciones, como indicar qué queremos que haga el usuario después de iniciar sesión, como qué página queremos ver y qué tipo de atributos queremos que estén disponibles para el usuario, como obtener su apellido o algo similar, que su aplicación necesita. Lo que hará el programa es examinar el plano y luego crear e instanciar un objeto con él, el cual será el objeto con el que trabajarán. Si Bob y Sally acceden al sitio, Bob inicia sesión y el sistema examina el plano del usuario, examina la clase y crea una instancia del objeto de usuario Bob. Deja de ser un plano. Ahora es algo que el sistema puede usar.
+- En nuestro ejemplo del **usuario**, tenemos una clase `Usuario` con un **nombre** de usuario y algunas **funciones**, como indicar qué queremos que haga el usuario después de iniciar sesión, como qué página queremos ver y qué tipo de atributos queremos que estén disponibles para el usuario, como obtener su apellido o algo similar, que su aplicación necesita. Lo que hará el programa es examinar el plano y luego crear e instanciar un objeto con él, el cual será el objeto con el que trabajarán. Si Bob y Sally acceden al sitio, Bob inicia sesión y el sistema examina el plano del usuario, examina la clase y crea una instancia del objeto de usuario Bob. Deja de ser un plano. Ahora es algo que el sistema puede usar.
 En esta sección, abordaremos dos temas: clases e instanciación, ya que son dos de los aspectos más importantes que debes comprender. También abordaremos otros temas, como la comprensión de los métodos estáticos y de instancia, y cómo usar herramientas como "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra.
 Este patrón se observará con frecuencia al usar herramientas como React, View y Angular. Y entonces quiero que puedas ver lo que realmente está sucediendo porque si simplemente tomaste un tutorial de React y viste todas estas diferentes palabras clave como clase e implementos y uso y si ves estas cosas y en realidad no conoces los fundamentos que están sucediendo en el JavaScript puro, podrías pensar que son específicos de ese marco o puede que no entiendas exactamente lo que está sucediendo detrás de escena y eso es lo que quiero hacer es que puedas entender que esto es solo Javascript puro y estamos aprovechando la programación orientada a objetos para construir nuestros propios sistemas.For years older versions of JavaScript did not have the Object Oriented Programming components of classes and instantiation and that was fine for a period of time. But more modern versions of JavaScript have implemented classes.
 
@@ -1337,7 +1336,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzY3NzA0MSwtODA2NDY1MjgwLDEyOD
+eyJoaXN0b3J5IjpbLTU4MjQzMjMyMiwtODA2NDY1MjgwLDEyOD
 I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
 MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
 QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
