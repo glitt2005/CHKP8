@@ -1198,7 +1198,7 @@ Entonces, recapitulando, lo que hará el programa será:
 -	Para que tenga acceso a éste, creamos la asignación mediante **la palabra clave `this`**.
 -	Al hacer el paso anterior de `this.name` **estamos añadiendo el atributo** `name` a `this.name`.
 -	Los colores aquí muestran perfectamente que son cosas diferentes:
-	-	 los dos <font color = blue> `name` **en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  <font color = maroon>  `name` **en color rojo**</font> en  this.name referencia a una instancia de Instructor, precisamente la instancia que hemos creado en la función jon.  En esta instancia en específico, le decimos que almacene cualquier name (this.name = name) que sea pasado como parámetro con este objeto.
+	-	 los dos <font color = blue> `name` **en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  ** <font color = darkred>  `name` en color rojo</font>** en  this.name referencia a una instancia de Instructor, precisamente la instancia que hemos creado en la función jon.  En esta instancia en específico, le decimos que almacene cualquier name (this.name = name) que sea pasado como parámetro con este objeto.
 
 -	Cuando quiera que el constructor tome un objeto como argumento, entonces al instanciar también tenemos que poner un objeto como argumento!!
 
@@ -1361,11 +1361,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjI5MDk4NiwtMTMzMjM4MjQwNCwtNT
-c1NTkyOTA0LC04MDY0NjUyODAsMTI4MjgwNzY3MywxNjczMjUx
-MjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC
-0zOTcxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0
-NTcxLC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MD
-IsODU2NTUxMjY3LC02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNjIx
-NTA3MDgwXX0=
+eyJoaXN0b3J5IjpbNDc4MjI3ODgzLC0xMzMyMzgyNDA0LC01Nz
+U1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEy
+MzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1MTAsLT
+M5NzE1NDYyNiw3NzA2ODMxNjEsMTE0MDk4NjE5LDIwMTg3MjQ1
+NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMTczMjA3NDYwMi
+w4NTY1NTEyNjcsLTY3ODk4NDI1MywyMDE0ODYzNzg3LDE2MjE1
+MDcwODBdfQ==
 -->
