@@ -1194,7 +1194,7 @@ Entonces, recapitulando, lo que hará el programa será:
 #### EJEMPLO CLASE E INSTANCIA:
 <img src="claseConstructor.png" Alt="clase e instancia">
 
--	El `constructor ({ name }), aquí name es lo que se pasará cuando creemos un nuevo Instructor (new Instructor). Y queremos hacer algo con este name. Y la forma de que podemos hacer es añadirlo y que sea parte de la clase cuando se cree uno nuevo. Y la forma de que esto funciones es crear “this” así:
+-	El `constructor ({ name })'`, aquí  `name` es lo que se pasará cuando creemos un nuevo Instructor: **`new Instructor`**). Y queremos hacer algo con este name. Y la forma de que podemos hacer es añadirlo y que sea parte de la clase cuando se cree uno nuevo. Y la forma de que esto funciones es crear “this” así:
 
 -	this.name = name; aquí estamos añadiendo el atributo name a this.name
 Los colores aquí muestran perfectamente que son cosas diferentes: los dos “name” en color azul hacen referencia al mismo elemento dentro del objecto, pero el siguiente name en color rojo en  this.name referencia a una instancia de Instructor, precisamente la instancia que hemos creado en la función jon.  En esta instancia en específico, le decimos que almacene cualquier name (this.name = name) que sea pasado como parámetro con este objeto.
@@ -1360,7 +1360,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNzE0Mjc3LC0xMzMyMzgyNDA0LC01Nz
+eyJoaXN0b3J5IjpbNTUwNDI5ODQ4LC0xMzMyMzgyNDA0LC01Nz
 U1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEy
 MzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1MTAsLT
 M5NzE1NDYyNiw3NzA2ODMxNjEsMTE0MDk4NjE5LDIwMTg3MjQ1
