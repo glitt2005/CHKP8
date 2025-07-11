@@ -698,7 +698,7 @@ font-weight: normal;
 -  **evita** la necesidad de **acceder repetidamente** a los elementos de la estructura original.
 
 
--   **Código más limpio y legible:** Evita la necesidad de **acceder a las propiedades del objeto usando la notación de punto** (`jugador.nombre`).
+-   **Código más limpio y legible:** Evita la necesidad de **acceder a las propiedades del objeto usando la notación de punto** (`variable.atributo`).
 -   **Extracción selectiva:** Permite extraer **solo las propiedades necesarias**, ignorando las demás.
 -   **Asignación múltiple:** Se pueden asignar **múltiples variables en una sola línea**.
 <br>
@@ -721,6 +721,7 @@ console.log(jugador2); // Output: X
 
 &nbsp; 1. **Se crea un arreglo** con los valores actuales de  `jugador2`  y  `jugador1`. 
 &nbsp; 2. Luego, la desestructuración **asigna el primer valor** (**anteriormente el de  `jugador2`**) a  **`jugador1`**  y el segundo valor (anteriormente el de  `jugador1`) a  `jugador2`, logrando así el intercambio.
+
 <br>
 
 
@@ -1001,11 +1002,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDc0ODI4MSwxMjMyMTcxMDExLDMyMz
-g1MzUwNywxMDUxNzYyNTE0LC00NTg1MjA5NjUsLTE1MjM0Mzc3
-MjUsLTE1NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OTIyMS
-wtNzQ4ODQ4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LDEzMDk3
-MDUyNDUsLTEzMjI2MjQ5MzEsLTI1OTU3MzEyMCw2NTA2MTI4Mi
-wxMTI0NzI4NTc5LDY1NjMyNDA4MywxODUwOTE0MTczLC01MjAy
-NjI4NzhdfQ==
+eyJoaXN0b3J5IjpbLTE4OTAyODQxOTAsMTIzMjE3MTAxMSwzMj
+M4NTM1MDcsMTA1MTc2MjUxNCwtNDU4NTIwOTY1LC0xNTIzNDM3
+NzI1LC0xNTc4MDc1NzQxLC0xNjMwNzIyNzQ3LC0yNDkyNjkyMj
+EsLTc0ODg0ODA3NywxNTUxMTA3MzA3LDM5MTk5MDMxNSwxMzA5
+NzA1MjQ1LC0xMzIyNjI0OTMxLC0yNTk1NzMxMjAsNjUwNjEyOD
+IsMTEyNDcyODU3OSw2NTYzMjQwODMsMTg1MDkxNDE3MywtNTIw
+MjYyODc4XX0=
 -->
