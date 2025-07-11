@@ -972,7 +972,15 @@ Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SIN
 
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
+```JavaScript
+const numbers = [1,2,3,4];
+const updatedNumbers = numbers;
 
+updatedNumbers.push(5);
+
+console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
+console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
+```
 
 
 ### b) Forma moderna: operador de extensión
@@ -1191,11 +1199,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC0xNz
-IxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2
-NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MS
-wtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwt
-MTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNz
-Y5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQs
-LTQ1ODUyMDk2NV19
+eyJoaXN0b3J5IjpbLTYzNDI2MjY4MSwxNjIxNTA3MDgwLDE0ND
+czMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1
+MDIwNywtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNT
+U0LDIyNjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0x
+MzM4NzAzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NT
+Y1OTAsLTE2MTM3NjkwMzUsMTIzMjE3MTAxMSwzMjM4NTM1MDcs
+MTA1MTc2MjUxNF19
 -->
