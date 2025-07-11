@@ -1033,7 +1033,7 @@ Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el o
 - se utiliza para encontrar **el valor más grande de una lista de números**
 - **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
 
-#### EJEMPLO 1:
+#### EJEMPLO 1 - cómo funcióna `Math.max`:
 
 ```Javascript
 console.log(Math.max (1,5,1,10,2,3));  // devuelve 10 
@@ -1042,20 +1042,19 @@ Aquí estamos pasando una lista, como si fueran 6 argumentos.
 </p>
 <br>
 
-#### EJEMPLO 2:
+#### EJEMPLO 2 - pasando argumento como función:
 
 
-Sin embargo si lo **pasamos en el argumento de una función**, ya la cosa es didferente:
 ```Javascript
 const numbers = [1,5,1,10,2,3];
 console.log(Math.max (numbers));  // NaN
 ```
 
-En este caso, interpreta que sólo estamos pasando **1 argumento**, cuyo tipo de dato es **un array, no un número**. Por esto el output de **NaN.**
+Aquí la cosa es difereEn este caso, interpreta que sólo estamos pasando **1 argumento**, cuyo tipo de dato es **un array, no un número**. Por esto el output de **NaN.**
 
 Para arreglar esto, solo tenemos que añadir la **sintaxis (es decir, los tres puntos …) del operador de propagación** y así poder implementar la **deconstrucción del array**:
 
-
+#### EJEMPLO 2:
 
 Y lo convierte en un conjunto de argumentos de función, que en este caso son **números.**
 
@@ -1231,11 +1230,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzExMDc3MSw4NTY1NTEyNjcsLTY3OD
-k4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUy
-OSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC
-05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2
-MDE4NTEsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MD
-MxNTUsLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwt
-MTYxMzc2OTAzNV19
+eyJoaXN0b3J5IjpbLTE2NDk3MDE1OTYsODU2NTUxMjY3LC02Nz
+g5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0NDczMjE1
+MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1NDg1MDIwNy
+wtOTExOTY0NjU5LC0xNjM0MjAxMDM3LC0xMTc1MDQzNTU0LDIy
+NjAxODUxLC0yMDcxNTU3NzI1LC0xMDU1NzkyNzQ5LC0xMzM4Nz
+AzMTU1LC0xMzQyNjU1MzcxLDgyODU4NTE2OSw0MTI3NTY1OTAs
+LTE2MTM3NjkwMzVdfQ==
 -->
