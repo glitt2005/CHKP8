@@ -1190,9 +1190,9 @@ Entonces, recapitulando, lo que hará el programa será:
  - Éste, pues,  **define el método que se ejecuta al crear una nueva instancia de la clase**. 
  -  Ejecuta todos los procesos que queramos cada vez que **creemos un nuevo objeto. (lo haremos con la palabra clave `new`** ).
 
+- Una clase en sí **no ejecuta nada** (son como hemos dicho un conjunto de reglas y pautas para la ejecución)
+- Un instancia es la que **ejecuta** los procesos.
 
-
-Si imaginamos la clase como la estructura para una casa, cuando construyes una casa, quieres ciertas cosas dentro de ella, como poner los cimientos o montar la estructura, esto es lo que hace el **constructor**: realizar las tareas básicas, **la base** para cada vez que **instanciemos una clase nueva**. La clase en sí no ejecuta nada: son un conjunto de reglas y pautas para crear objetos; para ejecutar tenemos las **instancias.**
 
 
  "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra. Implemento y uso.
@@ -1352,11 +1352,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMzc4NjYzNywtNTc1NTkyOTA0LC04MD
-Y0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5
-NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2MjYsNz
-cwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNjA0OTI0
-NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUxMjY3LC
-02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLDE0NDcz
-MjE1MjldfQ==
+eyJoaXN0b3J5IjpbLTEwMDk5ODYxNTIsLTU3NTU5MjkwNCwtOD
+A2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3
+OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LD
+c3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDky
+NDc4MywtMTkyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2Ny
+wtNjc4OTg0MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3
+MzIxNTI5XX0=
 -->
