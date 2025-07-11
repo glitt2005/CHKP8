@@ -1155,7 +1155,8 @@ Esta **estructura** la podemos asociar con lo que en Javascript corresponde a un
 
 Una clase es simplemente una lista de definiciones que indican exactamente cómo debería comportarse. **Enumerará atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
 
-Imaginemos la clase Usuario. Cada vez que un nuevo usuario accede al sitio y se registra, el programa revisará su clase Usuario y verá el plano. Es importante ver cómo debería comportarse ese usuario y luego pasaremos al siguiente paso. Este es un término que he visto que confunde mucho a los estudiantes: "instanciación". Es un término complejo. Significa que tomamos ese plano y creamos con él un objeto real.
+Imaginemos la clase `Usuario`. 
+Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa revisará su clase `Usuario`  y verá el plano, verá esa estructura. Es importante ver cómo debería comportarse ese `Usuario` y para luego pasaros al siguiente paso. Este es un término que he visto que confunde mucho a los estudiantes: "instanciación". Es un término complejo. Significa que tomamos ese plano y creamos con él un objeto real.
 
 En nuestro ejemplo de usuario, tenemos una clase Usuario con un nombre de usuario y algunas funciones, como indicar qué queremos que haga el usuario después de iniciar sesión, como qué página queremos ver y qué tipo de atributos queremos que estén disponibles para el usuario, como obtener su apellido o algo similar, que su aplicación necesita. Lo que hará el programa es examinar el plano y luego crear e instanciar un objeto con él, el cual será el objeto con el que trabajarán. Si Bob y Sally acceden al sitio, Bob inicia sesión y el sistema examina el plano del usuario, examina la clase y crea una instancia del objeto de usuario Bob. Deja de ser un plano. Ahora es algo que el sistema puede usar.
 En esta sección, abordaremos dos temas: clases e instanciación, ya que son dos de los aspectos más importantes que debes comprender. También abordaremos otros temas, como la comprensión de los métodos estáticos y de instancia, y cómo usar herramientas como "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra.
@@ -1335,7 +1336,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjUxNjEyMywtODA2NDY1MjgwLDEyOD
+eyJoaXN0b3J5IjpbLTY5ODk2MTczOCwtODA2NDY1MjgwLDEyOD
 I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
 MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
 QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
