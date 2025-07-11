@@ -974,8 +974,10 @@ Vemos que **cambia las dos variables.**  Aquí NO SE ESTÁ PASANDO UNA COPIA SIN
 HAY DOS FORMAS DE CREAR UNA NUEVA VARIABLE CON LOS DATOS DE AMBAS SIN MODIFICAR LA VARIABLE EXISTENTE:
 
 
-### b) Forma moderna: oper la variable original
-<![if !supportLists]>B) <![endif]>FORMA MÁS MODERNA: con el operador de extensión y la variable original entre corchetes **[…****numbers****];**
+### b) Forma moderna: operador de extensión
+
+
+Mediante la sintaxis **[…vumbers];** 
 
 Vemos los dos tipos de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método slice() ha estado siempre **muy extendido**. Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de propagación**.  Ambos funcionan de igual manera, pero quizá la tendencia es a usar más el último. No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
@@ -1171,11 +1173,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MDA4MTQzOSwxNDQ3MzIxNTI5LC0xNz
-IxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2
-NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MS
-wtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwt
-MTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNz
-Y5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQs
-LTQ1ODUyMDk2NV19
+eyJoaXN0b3J5IjpbODE1NDczMjksMTQ0NzMyMTUyOSwtMTcyMT
+MzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5NjQ2
+NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NTEsLT
+IwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUsLTEz
+NDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMzc2OT
+AzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0LC00
+NTg1MjA5NjVdfQ==
 -->
