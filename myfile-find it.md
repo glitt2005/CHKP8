@@ -813,6 +813,11 @@ console.log(posicion); // Imprime: Delantero
 console.log(dorsal);   // Imprime: 10
 ```
 OJO!
+
+
+**Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
+
+funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** De normal, esto:
 
 funcionaría, pero NO EN DECONSTRUCCIÓN.  Para que se mapeen deben tener el mismo nombre (**name**  y **email**) porque va a chequear si encuentra arriba esos argumentos como clave del objeto de alguna función que se está pasando. (inside of the object that’s being passed in).
@@ -1031,11 +1036,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMz
-c2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0
-LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLTE1NzgwNzU3NDEsLT
-E2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4ODQ4MDc3LDE1NTEx
-MDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyNDUsLTEzMjI2MjQ5Mz
-EsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMTI0NzI4NTc5LDY1NjMy
-NDA4M119
+eyJoaXN0b3J5IjpbLTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMj
+c1NjU5MCwtMTYxMzc2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUw
+NywxMDUxNzYyNTE0LC00NTg1MjA5NjUsLTE1MjM0Mzc3MjUsLT
+E1NzgwNzU3NDEsLTE2MzA3MjI3NDcsLTI0OTI2OTIyMSwtNzQ4
+ODQ4MDc3LDE1NTExMDczMDcsMzkxOTkwMzE1LDEzMDk3MDUyND
+UsLTEzMjI2MjQ5MzEsLTI1OTU3MzEyMCw2NTA2MTI4MiwxMTI0
+NzI4NTc5XX0=
 -->
