@@ -982,12 +982,12 @@ Mediante la sintaxis **[…variableOriginal];**
 
 ```JavaScript
 const numbers = [1,2,3,4];
-const updatedNumbers = numbers;
+const updatedNumbers = [...numbers];
 
 updatedNumbers.push(5);
 
-console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
-console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
+console.log(numbers);  //imprime [ 1, 2, 3, 4 ]
+console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 ```
 
 
@@ -1187,11 +1187,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDg0MTQ5NywxNDQ3MzIxNTI5LC0xNz
-IxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkxMTk2
-NDY1OSwtMTYzNDIwMTAzNywtMTE3NTA0MzU1NCwyMjYwMTg1MS
-wtMjA3MTU1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwt
-MTM0MjY1NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNz
-Y5MDM1LDEyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQs
-LTQ1ODUyMDk2NV19
+eyJoaXN0b3J5IjpbLTEwNTc4MzQ0NTIsMTQ0NzMyMTUyOSwtMT
+cyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC05MTE5
+NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2MDE4NT
+EsLTIwNzE1NTc3MjUsLTEwNTU3OTI3NDksLTEzMzg3MDMxNTUs
+LTEzNDI2NTUzNzEsODI4NTg1MTY5LDQxMjc1NjU5MCwtMTYxMz
+c2OTAzNSwxMjMyMTcxMDExLDMyMzg1MzUwNywxMDUxNzYyNTE0
+LC00NTg1MjA5NjVdfQ==
 -->
