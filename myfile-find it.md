@@ -1027,9 +1027,9 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 
 **NOTA**: el tipo de copia que se crea en estos casos es una **copia superficial**, en comparación con una **copia profunda**:
 
-- **una copia superficial (shallow copy)** crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
+- una **copia superficial** (*shallow copy*) crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
 
-- **Una copia profunda (deep copy),** por otro lado, crea un nuevo objeto y **copia recursivamente todos los elementos, es decir, incluyendo los objetos y arrays anidados**, para que no compartan referencias con el objeto original.
+- una **copia profunda** (*deep copy*), por otro lado, crea un nuevo objeto y **copia recursivamente todos los elementos, es decir, incluyendo los objetos y arrays anidados**, para que no compartan referencias con el objeto original.
 
 
 ## 4.  PASAR ARGUMENTOS A FUNCIONES 
@@ -1278,11 +1278,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MD
-A5Nzc1MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2
-MSwxMTQwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMT
-kyNDg2ODU0OCwxNzMyMDc0NjAyLDg1NjU1MTI2NywtNjc4OTg0
-MjUzLDIwMTQ4NjM3ODcsMTYyMTUwNzA4MCwxNDQ3MzIxNTI5LC
-0xNzIxMzM0MzE4LDE2MzgxMjQzMzMsLTIwNTQ4NTAyMDcsLTkx
-MTk2NDY1OV19
+eyJoaXN0b3J5IjpbLTI4MTk5NTkwNCwxNjczMjUxMjM2LDE0OT
+c3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2
+MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNj
+A0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUx
+MjY3LC02Nzg5ODQyNTMsMjAxNDg2Mzc4NywxNjIxNTA3MDgwLD
+E0NDczMjE1MjksLTE3MjEzMzQzMTgsMTYzODEyNDMzMywtMjA1
+NDg1MDIwN119
 -->
