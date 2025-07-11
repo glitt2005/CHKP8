@@ -1034,9 +1034,11 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 
 ## 4.  PASAR ARGUMENTOS A FUNCIONES 
 
-Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos **el método`max()`**, este método: 
+Esto es algo **muy común**. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos **el método`max()`**, este método: 
 - se utiliza para encontrar **el valor más grande de una lista de números**
 - **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
+
+<br>
 
 #### EJEMPLO 1 - cómo funcióna `Math.max`:
 
@@ -1059,6 +1061,9 @@ Aquí la cosa es diferente: en este caso, interpreta que sólo estamos pasando *
 
 Para arreglar esto, solo tenemos que añadir la **sintaxis (es decir, los tres puntos …) del operador de propagación** y así poder implementar la **deconstrucción del array**:
 
+<br>
+
+
 #### EJEMPLO 3 - operador de extensión
 
 ```Javascript
@@ -1069,6 +1074,7 @@ console.log(Math.max (...numbers));  // 10
 Finalmente conseguimos hacerlo:  lo convierte en un conjunto de argumentos de función, que en este caso son **números.**
 
 Este proceso **es muy típico en las plataformas modernas de JavaScript.**
+<br>
 
 
 ##  5. COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
@@ -1278,7 +1284,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MDU2OTkyMCwxNjczMjUxMjM2LDE0OT
+eyJoaXN0b3J5IjpbLTUyMDQ0Njc2MiwxNjczMjUxMjM2LDE0OT
 c3NTc5NzQsMTcwMDk3NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2
 MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNj
 A0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIwNzQ2MDIsODU2NTUx
