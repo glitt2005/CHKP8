@@ -1032,15 +1032,18 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el ú
 Esto es algo muy común. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos **el método`max()`**, este método: 
 - se utiliza para encontrar **el valor más grande de una lista de números**
 - **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
-- ejemplo: 
+
+#### EJEMPLO 1:
 
 ```Javascript
 console.log(Math.max (1,5,1,10,2,3));  // devuelve 10 
 ``` 
+Aquí estamos pasando una lista, como si fueran 6 argumentos.
 </p>
-
-
 <br>
+
+#### EJEMPLO 2:
+
 
 Sin embargo si lo **pasamos en el argumento de una función**, ya la cosa es didferente:
 ```Javascript
@@ -1048,10 +1051,7 @@ const numbers = [1,5,1,10,2,3];
 console.log(Math.max (numbers));  // NaN
 ```
 
-
-
-
-En el caso b) interpreta que solo estamos pasando 1 argumento, cuyo tipo de dato es un array, no un número. Por esto el output de NaN.
+En este caso, interpreta que sólo estamos pasando 1 argumento, cuyo tipo de dato es un array, no un número. Por esto el output de NaN.
 
 Para arreglar esto, solo tenemos que añadir la sintaxis (es decir, los tres puntos **…**) del **operador de propagación** y así poder implementar la **deconstrucción del array**.
 
@@ -1229,7 +1229,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTgwMDg3Nyw4NTY1NTEyNjcsLTY3OD
+eyJoaXN0b3J5IjpbLTQzOTgzNzg4NSw4NTY1NTEyNjcsLTY3OD
 k4NDI1MywyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUy
 OSwtMTcyMTMzNDMxOCwxNjM4MTI0MzMzLC0yMDU0ODUwMjA3LC
 05MTE5NjQ2NTksLTE2MzQyMDEwMzcsLTExNzUwNDM1NTQsMjI2
