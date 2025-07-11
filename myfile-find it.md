@@ -1174,7 +1174,7 @@ Lo que hará el programa:
 3.  Luego puedo **hacer otro objeto** con otro nombre y **basarlo en la misma plantilla** o estructura. Serían dos objetos distintos que tienen una misma estructura.
 
 
-
+1
 
  "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra. Implemento y uso.
  
@@ -1333,11 +1333,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk4MTExMDYsLTgwNjQ2NTI4MCwxMj
-gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
-NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMT
-E0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4
-Njg1NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1My
-wyMDE0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcy
-MTMzNDMxOF19
+eyJoaXN0b3J5IjpbMjQwODUzMTksLTgwNjQ2NTI4MCwxMjgyOD
+A3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMw
+LC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMTE0MD
+k4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1
+NDgsMTczMjA3NDYwMiw4NTY1NTEyNjcsLTY3ODk4NDI1MywyMD
+E0ODYzNzg3LDE2MjE1MDcwODAsMTQ0NzMyMTUyOSwtMTcyMTMz
+NDMxOF19
 -->
