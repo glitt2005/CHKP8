@@ -865,8 +865,10 @@ La **sintaxis** muy parecida a cómo utilizamos los argumentos por defecto en lo
 
 La desestructuración permite establecer valores por defecto para las variables, **en el eventual caso de que la propiedad o elemento del array  no exista.**
 
+#### EJEMPLOS:
 
-a) TIENE EN CUENTA EL VALOR QUE PASAMOS AL IN
+
+a) EL VALOR QUE PASAMOS AL DECONSTRUIR
 ```JavaScript
 const usuario = { nombre: 'Sammy' };
 const { nombre, edad = 45 } = usuario;
@@ -874,7 +876,7 @@ const { nombre, edad = 45 } = usuario;
 console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 45
 ```
-b)
+b) NO TIENE EN CUENTA EL VALOR QUE PASAMOS AL DECONSTRUIR:
 
 ```JavaScript
 const usuario = { nombre: 'Sammy', edad: 10};
@@ -1057,7 +1059,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMTU2OTQ3OSwyMjYwMTg1MSwtMjA3MT
+eyJoaXN0b3J5IjpbLTcxMjc3NzcyNSwyMjYwMTg1MSwtMjA3MT
 U1NzcyNSwtMTA1NTc5Mjc0OSwtMTMzODcwMzE1NSwtMTM0MjY1
 NTM3MSw4Mjg1ODUxNjksNDEyNzU2NTkwLC0xNjEzNzY5MDM1LD
 EyMzIxNzEwMTEsMzIzODUzNTA3LDEwNTE3NjI1MTQsLTQ1ODUy
