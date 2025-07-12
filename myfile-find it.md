@@ -1314,7 +1314,7 @@ console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 20
 -   La clase  `Coche`  tiene un constructor que toma tres parámetros:  `marca`,  `modelo`  y  `año`.
 -   Cuando se crea la instancia  `miCoche`, se pasan los valores  `'Toyota'`,  `'Corolla'`  y  `2020`  al constructor.
 -   El constructor asigna estos valores a las propiedades del objeto, usando  `this.marca`,  `this.modelo`  y  `this.año`.
-- Ignora la propiedad año que el constructor contiene por defecto. Ésta `"año": 2019` solo hubiera si al pasar los parámentros en la instancia, solo hubiera puesto "Toyota", "Corolla" sin incluir el año.
+- Ignora la propiedad año que el constructor contiene por defecto. Ésta `"año": 2019` solo hubiera salido si al pasar los parámentros en la instancia no hubiera puesto el valor para `"año", es decir: `const miCoche = new Coche('Toyota', 'Corolla', 2020);`
 ## 2. MÉTODOS ESTÁTICOS
 
 
@@ -1469,11 +1469,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjkxMjk0Niw0MDE0NDAzNjksMjAzOD
-I5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEs
-LTEzOTMxMDcxNzgsMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OT
-MxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3
-LDEzOTE2MDQ1NDMsMTU4NjQyNzE4MywtMTY3OTQ2NTU2OCwxMT
-U5NjYzNTg2LC0yMTMzOTc4MjY0LDEzMzMxNDI3MDIsLTEzNzU0
-NjMyNzldfQ==
+eyJoaXN0b3J5IjpbLTEyNTI4ODg2MjMsNDAxNDQwMzY5LDIwMz
+gyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0NzM2Mzcx
+LC0xMzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0MSwtOD
+kzMTYwNzAwLC04OTYzMDczNzEsMTE2NTkzMDMsLTg2NjM2NTU3
+NywxMzkxNjA0NTQzLDE1ODY0MjcxODMsLTE2Nzk0NjU1NjgsMT
+E1OTY2MzU4NiwtMjEzMzk3ODI2NCwxMzMzMTQyNzAyLC0xMzc1
+NDYzMjc5XX0=
 -->
