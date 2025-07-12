@@ -1317,8 +1317,25 @@ console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 20
 - **Ignora** la propiedad año que el constructor contiene **por defecto**. Ésta, `'año': 2019` , solo hubiera salido si al pasar los parámentros en la instancia **no hubiera incluido el valor para `'año'`**, es decir que con:
 	 `const miCoche = new Coche('Toyota', 'Corolla');`
 		**imprimiría**    `//Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 2019 }`
+		<br>
+		
 ## 3. MÉTODOS ESTÁTICOS
 
+En JavaScript, los métodos estáticos son aquellos que pertenecen a la clase en sí misma, no a instancias individuales de la clase. Esto significa que se pueden invocar directamente desde la clase, sin necesidad de crear un objeto de esa clase. 
+¿Cómo se definen?
+Se utilizan con la palabra clave static antes de la definición del método en una clase: 
+JavaScript
+
+class MiClase {
+  static miMetodoEstatico() {
+    console.log("Este es un método estático.");
+  }
+}
+¿Cuándo utilizarlos?
+Los métodos estáticos son útiles cuando:
+No necesitan acceder a propiedades de instancia: Si un método no necesita acceder a datos específicos de un objeto, es más eficiente declararlo como estático. 
+Son funciones de utilidad: Se pueden usar para crear funciones auxiliares o de propósito general que no están ligadas a un objeto en particular, como métodos para manipular arrays o realizar cálculos matemáticos. 
+Son funciones de fábrica: Pueden usarse para crear instancias de la clase de forma personalizada. 
 
 # 7. ¿Qué es una promesa en JS?
 
@@ -1471,11 +1488,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNjk5NzYsNDAxNDQwMzY5LDIwMzgyOT
-E3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0NzM2MzcxLC0x
-MzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0MSwtODkzMT
-YwNzAwLC04OTYzMDczNzEsMTE2NTkzMDMsLTg2NjM2NTU3Nywx
-MzkxNjA0NTQzLDE1ODY0MjcxODMsLTE2Nzk0NjU1NjgsMTE1OT
-Y2MzU4NiwtMjEzMzk3ODI2NCwxMzMzMTQyNzAyLC0xMzc1NDYz
-Mjc5XX0=
+eyJoaXN0b3J5IjpbNTExMTc0OTM2LDQwMTQ0MDM2OSwyMDM4Mj
+kxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1NjkxLDUzNDczNjM3MSwt
+MTM5MzEwNzE3OCwxODI1NzMzNzczLC0yODczOTA0NDEsLTg5Mz
+E2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAzLC04NjYzNjU1Nzcs
+MTM5MTYwNDU0MywxNTg2NDI3MTgzLC0xNjc5NDY1NTY4LDExNT
+k2NjM1ODYsLTIxMzM5NzgyNjQsMTMzMzE0MjcwMiwtMTM3NTQ2
+MzI3OV19
 -->
