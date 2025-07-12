@@ -1367,7 +1367,7 @@ miClase.miMetodoEstatico();
 -  Se acceden a ellos **a través del nombre de la clase** (aquí `Producto`).
 <br>
 
-#### EJEMPLO 2:   Cliente entra y dice hola,  
+#### EJEMPLO 2:   Cliente entra y dice "Hola",  se despide y dice "Adiós"
 ```JavaScript
 class Cliente {
   static despedirse() {
@@ -1549,11 +1549,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTE1ODExODEsMTc1NTQyMjY0OCwyMT
-Q2ODY2NzQ2LC04ODAyMDIzMzcsNTExMTc0OTM2LDQwMTQ0MDM2
-OSwyMDM4MjkxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1NjkxLDUzND
-czNjM3MSwtMTM5MzEwNzE3OCwxODI1NzMzNzczLC0yODczOTA0
-NDEsLTg5MzE2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAzLC04Nj
-YzNjU1NzcsMTM5MTYwNDU0MywxNTg2NDI3MTgzLC0xNjc5NDY1
-NTY4XX0=
+eyJoaXN0b3J5IjpbMjExMzI0ODI0MywxNzU1NDIyNjQ4LDIxND
+Y4NjY3NDYsLTg4MDIwMjMzNyw1MTExNzQ5MzYsNDAxNDQwMzY5
+LDIwMzgyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0Nz
+M2MzcxLC0xMzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0
+MSwtODkzMTYwNzAwLC04OTYzMDczNzEsMTE2NTkzMDMsLTg2Nj
+M2NTU3NywxMzkxNjA0NTQzLDE1ODY0MjcxODMsLTE2Nzk0NjU1
+NjhdfQ==
 -->
