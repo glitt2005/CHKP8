@@ -1136,7 +1136,7 @@ Es una de las formas más comunes de hacer la deconstrucción de objetos utiliza
 -----
 
 # 6 ¿Qué es la programación orientada a objetos?
-
+## 1. INTRODUCCIÓN
 
 - **Durante años**, las versiones antiguas de **JavaScript no incluían** los componentes de programación orientada a objetos, como **clases e instanciación**, lo cual estuvo bien durante un tiempo. 
 - Sin embargo, las versiones más modernas de JavaScript sí han implementado **clases**.
@@ -1264,7 +1264,7 @@ En este ejemplo:
 -   Cuando se crea la **instancia**  `miCoche`, se pasan los **valores**  `'Toyota'`,  `'Corolla'`  y  `2020`  **al constructor**.
 -   El **constructor asigna estos valores a las propiedades del objeto**, usando  `this.marca`,  `this.modelo`  y  `this.año`.
 
- 
+ ## 2. MÉTODOS DE INSTANCIA
 
 
 
@@ -1420,11 +1420,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyNTYwNjUwLDE2NjI5NjcyNzAsNzM4MT
-IwMDkyLDEyMzQ5NTAxNSwtNDM2MDU1NzA1LC05ODUzODM5MDUs
-Mzg1NjgwNTQ2LDY1NzcwNDEwNSwtMjA2OTg2NDU1NCwtNTA2MD
-k3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0x
-MzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyOD
-A3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMw
-XX0=
+eyJoaXN0b3J5IjpbMjA4NDY5MjYxMiwxNjYyOTY3MjcwLDczOD
+EyMDA5MiwxMjM0OTUwMTUsLTQzNjA1NTcwNSwtOTg1MzgzOTA1
+LDM4NTY4MDU0Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLTUwNj
+A5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwt
+MTMzMjM4MjQwNCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMTI4Mj
+gwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUz
+MF19
 -->
