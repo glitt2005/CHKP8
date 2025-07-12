@@ -1281,6 +1281,7 @@ En este ejemplo:
 - Con **la misma sintaxis que las funciones, pero sin la palabra clave** **_function_**  para métodos públicos. 
 - Los métodos pueden **acceder a las propiedades de la instancia** actual utilizando **`this`**.
 
+ ### 2. EJEMPLO 1
 
 <img src="metodoInstancia.png" width="65%" Alt="método de instancia">
 >
@@ -1293,7 +1294,20 @@ En este ejemplo:
 
 **OJO!!** No debemos olvidar que PRIMERO debemos INSTANCIAR LA CLASE para convertir la variable a OBJETO. **Nunca podríamos llamar al método de la instancia sin instanciar la clase primero**. De hecho, nos daría **error**.
 
+ ### 2. EJEMPLO 2
 
+```Javascript
+class Coche {
+    constructor(marca, modelo, año) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.año = año;
+    }
+}
+
+const miCoche = new Coche('Toyota', 'Corolla', 2020);
+console.log(miCoche);
+```
 
 ## 2. MÉTODOS ESTÁTICOS
 
@@ -1449,11 +1463,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjUzNTg1OCwxMzQyMTExMzg5LC0xOD
-QzMDg0NDY4LC05ODUzMjAyMTQsLTE4MDkwMzMxNTgsMTg0NTA2
-MjkzOSwyMDg0NjkyNjEyLDE2NjI5NjcyNzAsNzM4MTIwMDkyLD
-EyMzQ5NTAxNSwtNDM2MDU1NzA1LC05ODUzODM5MDUsMzg1Njgw
-NTQ2LDY1NzcwNDEwNSwtMjA2OTg2NDU1NCwtNTA2MDk3MzExLD
-g5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0xMzMyMzgy
-NDA0XX0=
+eyJoaXN0b3J5IjpbNzAwOTgyNjMzLC01MjY1MzU4NTgsMTM0Mj
+ExMTM4OSwtMTg0MzA4NDQ2OCwtOTg1MzIwMjE0LC0xODA5MDMz
+MTU4LDE4NDUwNjI5MzksMjA4NDY5MjYxMiwxNjYyOTY3MjcwLD
+czODEyMDA5MiwxMjM0OTUwMTUsLTQzNjA1NTcwNSwtOTg1Mzgz
+OTA1LDM4NTY4MDU0Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLT
+UwNjA5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1
+MV19
 -->
