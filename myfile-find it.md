@@ -1196,7 +1196,12 @@ Entonces, recapitulando, lo que hará el programa será:
 
 **Durante muchos años** JavasScript **no tenía** técnicas de OOP ( object-oriented programming ) o de **programación orientada a objetos**.  Había que crear procedimientos alternativos para conseguir lo que se necesitaba, y una de ellas era la utilización **funciones a modo de clases.** 
 
-- Si recordamos en nuestros casos de **deconstrucción** anteriormente explicados, pasaremos un nombre, o sea, `name`, **como objeto**.  
+#### SINTAXIS BÁSICA
+
+
+
+
+- Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  
 - Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
 - No siempre están en todas las clases, pero generalmente sí, porque necesitaremos realizar procesos
 	- **como fijar valores** 
@@ -1395,11 +1400,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTY5MTcxNywtMjA2OTg2NDU1NCwtNT
-A2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUx
-LC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMj
-gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
-NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMT
-E0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4
-Njg1NDhdfQ==
+eyJoaXN0b3J5IjpbLTcwNjIzMjQ5LC0yMDY5ODY0NTU0LC01MD
+YwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEs
+LTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyOD
+I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
+MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
+QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
+ODU0OF19
 -->
