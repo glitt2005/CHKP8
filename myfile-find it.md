@@ -1220,6 +1220,7 @@ Entonces, recapitulando, lo que hará el programa será:
 #### EJEMPLO CLASE E INSTANCIA:
 <img src="claseConstructor.png" Alt="clase e instancia">
 
+-	Al crear uns **instancia** nos dirige 
 -	El `constructor ({ name })'`, aquí  `name` es lo que se pasará cuando creemos un nuevo Instructor: **`new Instructor`**). Y queremos hacer algo con este name. 
 -	Para que tenga acceso a éste, creamos la asignación mediante **la palabra clave `this`**.
 -	Al hacer el paso anterior de `this.name` **estamos añadiendo el atributo** `name` a `this.name`.
@@ -1406,11 +1407,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk4Mzk5MjYsNzM4MTIwMDkyLDEyMz
-Q5NTAxNSwtNDM2MDU1NzA1LC05ODUzODM5MDUsMzg1NjgwNTQ2
-LDY1NzcwNDEwNSwtMjA2OTg2NDU1NCwtNTA2MDk3MzExLDg5NT
-A1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0xMzMyMzgyNDA0
-LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2Nz
-MyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1
-MTBdfQ==
+eyJoaXN0b3J5IjpbMjkzNjcyMzcsNzM4MTIwMDkyLDEyMzQ5NT
+AxNSwtNDM2MDU1NzA1LC05ODUzODM5MDUsMzg1NjgwNTQ2LDY1
+NzcwNDEwNSwtMjA2OTg2NDU1NCwtNTA2MDk3MzExLDg5NTA1Nz
+k0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0xMzMyMzgyNDA0LC01
+NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2NzMyNT
+EyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1MTBd
+fQ==
 -->
