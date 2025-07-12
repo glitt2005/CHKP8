@@ -1407,8 +1407,15 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 	- de propósito general que no están ligadas a un objeto en particular, por ejemplo:
 		- como métodos para manipular arrays
 		-  realizar cálculos matemáticos. 
-Son funciones de fábrica: Pueden usarse para crear instancias de la clase de forma personalizada. 
+-  Funciones de fábrica:  Cuando un método estático se utiliza para crear objetos, se convierte en una función fábrica. Esto es útil cuando se necesita crear instancias de una clase con cierta lógica de inicialización o configuración específica, y se prefiere evitar el uso de  `new`  **por simplicidad o por otras razones de diseño**. Es decir, pueden usarse para crear instancias de la clase de forma personalizada. 
 
+    
+    Son funciones que se utilizan para crear objetos. En JavaScript, una función fábrica es cualquier función que devuelve un objeto nuevo cada vez que se llama. No requieren el uso de  `new`, lo que permite crear objetos de manera más flexible.
+    
+-   **Métodos Estáticos como Funciones Fábrica:**
+    
+    
+    
 # 7. ¿Qué es una promesa en JS?
 
 # 8. ¿Qué hacen async y await por nosotros?
@@ -1560,11 +1567,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjkxOTA3NywxNzU1NDIyNjQ4LDIxND
-Y4NjY3NDYsLTg4MDIwMjMzNyw1MTExNzQ5MzYsNDAxNDQwMzY5
-LDIwMzgyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0Nz
-M2MzcxLC0xMzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0
-MSwtODkzMTYwNzAwLC04OTYzMDczNzEsMTE2NTkzMDMsLTg2Nj
-M2NTU3NywxMzkxNjA0NTQzLDE1ODY0MjcxODMsLTE2Nzk0NjU1
-NjhdfQ==
+eyJoaXN0b3J5IjpbMTQ0MzU1NzIxMCwxMTAyOTE5MDc3LDE3NT
+U0MjI2NDgsMjE0Njg2Njc0NiwtODgwMjAyMzM3LDUxMTE3NDkz
+Niw0MDE0NDAzNjksMjAzODI5MTc3OSwxNTI2NTAyNzU1LDE4OT
+k0NTY5MSw1MzQ3MzYzNzEsLTEzOTMxMDcxNzgsMTgyNTczMzc3
+MywtMjg3MzkwNDQxLC04OTMxNjA3MDAsLTg5NjMwNzM3MSwxMT
+Y1OTMwMywtODY2MzY1NTc3LDEzOTE2MDQ1NDMsMTU4NjQyNzE4
+M119
 -->
