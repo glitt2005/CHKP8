@@ -1159,7 +1159,6 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 </div>
 
 
- 
 - cuantas plantas tiene
 - tabiques, para cada dormitorio
 - ubicaciones de puertas
@@ -1284,7 +1283,7 @@ En este ejemplo:
 - Con **la misma sintaxis que las funciones, pero sin la palabra clave** **_function_**  para métodos públicos. 
 - Los métodos pueden **acceder a las propiedades de la instancia** actual utilizando **`this`**.
 
- ### 2. EJEMPLO 1
+ ### EJEMPLO 1 - Métodos de Instancia
 
 <img src="metodoInstancia.png" width="65%" Alt="método de instancia">
 >
@@ -1297,7 +1296,7 @@ En este ejemplo:
 
 **OJO!!** No debemos olvidar que PRIMERO debemos INSTANCIAR LA CLASE para convertir la variable a OBJETO. **Nunca podríamos llamar al método de la instancia sin instanciar la clase primero**. De hecho, nos daría **error**.
 
- ### 2. EJEMPLO 2
+ ### EJEMPLO 2 - Métodos de Instancia
 
 ```Javascript
 class Coche {
@@ -1466,11 +1465,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAxNDQwMzY5LDIwMzgyOTE3NzksMTUyNj
-UwMjc1NSwxODk5NDU2OTEsNTM0NzM2MzcxLC0xMzkzMTA3MTc4
-LDE4MjU3MzM3NzMsLTI4NzM5MDQ0MSwtODkzMTYwNzAwLC04OT
-YzMDczNzEsMTE2NTkzMDMsLTg2NjM2NTU3NywxMzkxNjA0NTQz
-LDE1ODY0MjcxODMsLTE2Nzk0NjU1NjgsMTE1OTY2MzU4NiwtMj
-EzMzk3ODI2NCwxMzMzMTQyNzAyLC0xMzc1NDYzMjc5LDY4ODY4
-OTk0MV19
+eyJoaXN0b3J5IjpbLTIxNzk1NDQ4OSw0MDE0NDAzNjksMjAzOD
+I5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEs
+LTEzOTMxMDcxNzgsMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OT
+MxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3
+LDEzOTE2MDQ1NDMsMTU4NjQyNzE4MywtMTY3OTQ2NTU2OCwxMT
+U5NjYzNTg2LC0yMTMzOTc4MjY0LDEzMzMxNDI3MDIsLTEzNzU0
+NjMyNzldfQ==
 -->
