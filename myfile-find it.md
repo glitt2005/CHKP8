@@ -861,6 +861,9 @@ Muchas veces **no conocemos los valores que obtendremos, sea como resultado de u
 
 Por ello, necesitaremos poner unos **valores por defecto** para esos objetos.
 
+#### SINTAXIS:
+
+#### EJEMPLO:  Imprimimos los días de la semana
 La **sintaxis** muy parecida a cómo utilizamos los argumentos por defecto en los tipos de valores de variable normales **cuando simplemente pasas un único elemento como argumento**. Pero ahora debemos integrar eso en un objeto.
 
 La desestructuración permite establecer valores por defecto para las variables, **en el eventual caso de que la propiedad o elemento del array  no exista.**
@@ -1491,7 +1494,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTgzNTI3NTgsNTExMTc0OTM2LDQwMT
+eyJoaXN0b3J5IjpbLTE2MTEwMTgxMzUsNTExMTc0OTM2LDQwMT
 Q0MDM2OSwyMDM4MjkxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1Njkx
 LDUzNDczNjM3MSwtMTM5MzEwNzE3OCwxODI1NzMzNzczLC0yOD
 czOTA0NDEsLTg5MzE2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAz
