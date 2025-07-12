@@ -1321,8 +1321,11 @@ console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 20
 		
 ## 3. MÉTODOS ESTÁTICOS
 
-En JavaScript, los métodos estáticos son aquellos que pertenecen a la clase en sí misma, no a instancias individuales de la clase. Esto significa que se pueden invocar directamente desde la clase, sin necesidad de crear un objeto de esa clase. 
-¿Cómo se definen?
+- En JavaScript, los métodos estáticos son aquellos que pertenecen **a la clase en sí misma, no a instancias individuales de la clase.** 
+- Esto significa que **se pueden invocar directamente desde la clase,** **sin** necesidad de **crear un objeto** de esa clase. 
+
+
+SINTAXIS
 Se utilizan con la palabra clave static antes de la definición del método en una clase: 
 JavaScript
 
@@ -1488,11 +1491,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTExMTc0OTM2LDQwMTQ0MDM2OSwyMDM4Mj
-kxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1NjkxLDUzNDczNjM3MSwt
-MTM5MzEwNzE3OCwxODI1NzMzNzczLC0yODczOTA0NDEsLTg5Mz
-E2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAzLC04NjYzNjU1Nzcs
-MTM5MTYwNDU0MywxNTg2NDI3MTgzLC0xNjc5NDY1NTY4LDExNT
-k2NjM1ODYsLTIxMzM5NzgyNjQsMTMzMzE0MjcwMiwtMTM3NTQ2
-MzI3OV19
+eyJoaXN0b3J5IjpbLTEyMTgzNTI3NTgsNTExMTc0OTM2LDQwMT
+Q0MDM2OSwyMDM4MjkxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1Njkx
+LDUzNDczNjM3MSwtMTM5MzEwNzE3OCwxODI1NzMzNzczLC0yOD
+czOTA0NDEsLTg5MzE2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAz
+LC04NjYzNjU1NzcsMTM5MTYwNDU0MywxNTg2NDI3MTgzLC0xNj
+c5NDY1NTY4LDExNTk2NjM1ODYsLTIxMzM5NzgyNjQsMTMzMzE0
+MjcwMl19
 -->
