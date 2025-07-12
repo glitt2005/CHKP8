@@ -1223,7 +1223,7 @@ Entonces, recapitulando, lo que hará el programa será:
 -	El crear uns **instancia** nos dirige automáticamente **al `constructor`.**
 -	En **`constructor ({ name })`**, aquí   **`name`**  mapeará a lo que se pasará cuando creemos un nuevo Instructor: **`new Instructor`**). Y queremos hacer algo con este **`name`**. 
 -	**Para poder acceder a** **`name`**, creamos la asignación mediante **la palabra clave `this`**.
--	Accediendo a **`name`** mediante **`this.name`** estamos añadiendo el atributo `name` a `this.name`.
+-	Accediendo a **`name`** mediante **`this.name` estamos añadiendo el atributo `name`** a **`this.name`**.
 -	Los colores aquí muestran perfectamente que son cosas diferentes:
 	-	 los dos <font color = blue> **`name` en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  **<font color = darkred>  `name` en color rojo**</font> en `this.name` hace referencia **a una instancia de la clase `Instructor`,** precisamente la instancia que hemos creado en la función `jon`.  En esta instancia en específico, le decimos que **almacene cualquier `name`** (`this.name = name`) **que sea pasado como parámetro con este objeto.**
 
@@ -1407,11 +1407,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTAxMjg3Miw3MzgxMjAwOTIsMTIzND
-k1MDE1LC00MzYwNTU3MDUsLTk4NTM4MzkwNSwzODU2ODA1NDYs
-NjU3NzA0MTA1LC0yMDY5ODY0NTU0LC01MDYwOTczMTEsODk1MD
-U3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEsLTEzMzIzODI0MDQs
-LTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3Mz
-I1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUx
-MF19
+eyJoaXN0b3J5IjpbLTEzMjE4MzgyODAsNzM4MTIwMDkyLDEyMz
+Q5NTAxNSwtNDM2MDU1NzA1LC05ODUzODM5MDUsMzg1NjgwNTQ2
+LDY1NzcwNDEwNSwtMjA2OTg2NDU1NCwtNTA2MDk3MzExLDg5NT
+A1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0xMzMyMzgyNDA0
+LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2Nz
+MyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1
+MTBdfQ==
 -->
