@@ -1244,7 +1244,7 @@ console.log(jon);
 
  Y precisamente por ello, podemos acceder al atributo **`name`**  mediante la nomenclatura con punto o **dot notation** de los objetos:
 
-<img src="instancia.png" "wid Alt="instancia muestra atributo">
+<img src="instancia.png" width="65%" Alt="instancia muestra atributo">
 
 #### OTRO EJEMPLO:
 
@@ -1282,7 +1282,7 @@ En este ejemplo:
 - Los métodos pueden **acceder a las propiedades de la instancia** actual utilizando **`this`**.
 
 
-<img src="metodoInstancia.png" Alt="método de instancia">
+<img src="metodoInstancia.png" width="65%" Alt="método de instancia">
 
 ## 2. MÉTODOS ESTÁTICOS
 
@@ -1438,7 +1438,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQzODc1MjIsLTk4NTMyMDIxNCwtMT
+eyJoaXN0b3J5IjpbLTE4NDMwODQ0NjgsLTk4NTMyMDIxNCwtMT
 gwOTAzMzE1OCwxODQ1MDYyOTM5LDIwODQ2OTI2MTIsMTY2Mjk2
 NzI3MCw3MzgxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLT
 k4NTM4MzkwNSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5ODY0
