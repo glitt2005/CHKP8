@@ -1409,10 +1409,11 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 		-  realizar cálculos matemáticos. 
 		
 -  **Funciones de fábrica**:  
-	- cuando un **método estático** se utiliza **para crear objetos**, se convierte en una **función fábrica**
 	- una función fábrica es cualquier función que **devuelve un objeto nuevo cada vez que se llama**. 
+	-  cuando un **método estático** se utiliza **para crear objetos**, se convierte en una **función fábrica**
+	
 	- **No requieren el uso de  `new`,** lo que permite **crear objetos de manera más flexible**.
-	- . Esto es útil **cuando** se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica, y se prefiere evitar el uso de  `new`  por simplicidad o por otras razones de diseño**. Es decir, pueden usarse para crear instancias de la clase de forma personalizada. 
+	-  Esto es útil **cuando** se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica, y se prefiere evitar el uso de  `new`  por simplicidad o por otras razones de diseño**. Es decir, pueden usarse para crear instancias de la clase de forma personalizada. 
 
     
   
@@ -1572,7 +1573,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ0OTM3NTMsLTE5NDYxNTIwNzgsMT
+eyJoaXN0b3J5IjpbLTEyMzM3MDk2NjMsLTE5NDYxNTIwNzgsMT
 EwMjkxOTA3NywxNzU1NDIyNjQ4LDIxNDY4NjY3NDYsLTg4MDIw
 MjMzNyw1MTExNzQ5MzYsNDAxNDQwMzY5LDIwMzgyOTE3NzksMT
 UyNjUwMjc1NSwxODk5NDU2OTEsNTM0NzM2MzcxLC0xMzkzMTA3
