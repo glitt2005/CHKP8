@@ -1208,10 +1208,12 @@ Entonces, recapitulando, lo que hará el programa será:
 
 <img src="constructorSintaxis.png" Alt="sintaxis constructor">
 
+#### Algunos conceptos clave sobre el 
+
 
 - Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
 - No siempre están en todas las clases, pero muy habitualmente sí
-- Tareas: fijar valores, 
+- Tareas: fijar valores, llamar a otras funciones, etc.
 - **El constructor define el método que se ejecuta al crear una nueva instancia de la clase**. 
  - Una **clase** en sí **no ejecuta nada** (son como hemos dicho un conjunto de reglas y pautas para la ejecución)
  -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto. (lo haremos con la palabra clave `new`** ).
@@ -1420,11 +1422,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMzYxNzAyMCwyMDg0NjkyNjEyLDE2Nj
-I5NjcyNzAsNzM4MTIwMDkyLDEyMzQ5NTAxNSwtNDM2MDU1NzA1
-LC05ODUzODM5MDUsMzg1NjgwNTQ2LDY1NzcwNDEwNSwtMjA2OT
-g2NDU1NCwtNTA2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcs
-Nzk3ODYyNTUxLC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNj
-Q2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3
-NF19
+eyJoaXN0b3J5IjpbLTE1NzkzOTIxMjcsMjA4NDY5MjYxMiwxNj
+YyOTY3MjcwLDczODEyMDA5MiwxMjM0OTUwMTUsLTQzNjA1NTcw
+NSwtOTg1MzgzOTA1LDM4NTY4MDU0Niw2NTc3MDQxMDUsLTIwNj
+k4NjQ1NTQsLTUwNjA5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3
+LDc5Nzg2MjU1MSwtMTMzMjM4MjQwNCwtNTc1NTkyOTA0LC04MD
+Y0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5
+NzRdfQ==
 -->
