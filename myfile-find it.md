@@ -1196,10 +1196,10 @@ Entonces, recapitulando, lo que hará el programa será:
 
 **Durante muchos años** JavasScript **no tenía** técnicas de OOP ( object-oriented programming ) o de **programación orientada a objetos**.  Había que crear procedimientos alternativos para conseguir lo que se necesitaba, y una de ellas era la utilización **funciones a modo de clases.** 
 
-Un constructor  es una función especial  (**palabra clave reservada para las clases**) se utiliza para:
-- crear e inicializar objetos.
-- se encarga de definir las propiedades iniciales de un objeto al momento de su creación.
-- Se invoca con la palabra clave  **`new`**  y
+**Un constructor**  es una función especial  (**palabra clave reservada para las clases**) que:
+- se utiliza para **crear e inicializar objetos**.
+- se encarga de **definir las propiedades iniciales de un objeto** al momento de su creación.
+- **Se invoca con** la palabra clave  **`new`**. 
 
 #### SINTAXIS BÁSICA DEL CONTRUCTOR
 
@@ -1405,11 +1405,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzYxMTMzMjMsLTIwNjk4NjQ1NTQsLT
-UwNjA5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1
-MSwtMTMzMjM4MjQwNCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMT
-I4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3
-NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2MjYsNzcwNjgzMTYxLD
-ExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNjA0OTI0NzgzLC0xOTI0
-ODY4NTQ4XX0=
+eyJoaXN0b3J5IjpbLTUxMzQ3MjI5MywtMjA2OTg2NDU1NCwtNT
+A2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUx
+LC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMj
+gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
+NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMT
+E0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4
+Njg1NDhdfQ==
 -->
