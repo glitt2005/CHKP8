@@ -1204,7 +1204,8 @@ Entonces, recapitulando, lo que hará el programa será:
 #### SINTAXIS BÁSICA DEL CONTRUCTOR
 
 
-<img src="planoCasa.png" Alt="plano de una Casa">
+<img src="constructorSintaxis.png" Alt="sintaxis constructor">
+
 ```Javascript
 class MiClase {
     constructor(parametro1, parametro2) {
@@ -1420,7 +1421,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzY5MDg1MiwzODU2ODA1NDYsNjU3Nz
+eyJoaXN0b3J5IjpbLTk4NTM4MzkwNSwzODU2ODA1NDYsNjU3Nz
 A0MTA1LC0yMDY5ODY0NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0
 LDE0NDI5MzMxNyw3OTc4NjI1NTEsLTEzMzIzODI0MDQsLTU3NT
 U5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIz
