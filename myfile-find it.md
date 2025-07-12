@@ -1330,7 +1330,7 @@ console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 20
 
 #### SINTAXIS
 ```JavaScript
-for (inicialización; condición; actualización) { // código a ejecutar }
+static nombreDelMétodo() { ... }
 ```
 #### EJEMPLO:  Imprimimos los días de la semanaSe utilizan con la palabra clave static antes de la definición del método en una clase: 
 JavaScript
@@ -1497,11 +1497,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc3NjU5MDAsNTExMTc0OTM2LDQwMT
-Q0MDM2OSwyMDM4MjkxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1Njkx
-LDUzNDczNjM3MSwtMTM5MzEwNzE3OCwxODI1NzMzNzczLC0yOD
-czOTA0NDEsLTg5MzE2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAz
-LC04NjYzNjU1NzcsMTM5MTYwNDU0MywxNTg2NDI3MTgzLC0xNj
-c5NDY1NTY4LDExNTk2NjM1ODYsLTIxMzM5NzgyNjQsMTMzMzE0
-MjcwMl19
+eyJoaXN0b3J5IjpbLTg4MDIwMjMzNyw1MTExNzQ5MzYsNDAxND
+QwMzY5LDIwMzgyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEs
+NTM0NzM2MzcxLC0xMzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4Nz
+M5MDQ0MSwtODkzMTYwNzAwLC04OTYzMDczNzEsMTE2NTkzMDMs
+LTg2NjM2NTU3NywxMzkxNjA0NTQzLDE1ODY0MjcxODMsLTE2Nz
+k0NjU1NjgsMTE1OTY2MzU4NiwtMjEzMzk3ODI2NCwxMzMzMTQy
+NzAyXX0=
 -->
