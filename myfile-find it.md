@@ -1309,11 +1309,12 @@ class Coche {
 }
 
 const miCoche = new Coche('Toyota', 'Corolla', 2020);
-console.log(miCoche);
+console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 2020 }
 ```
 -   La clase  `Coche`  tiene un constructor que toma tres parámetros:  `marca`,  `modelo`  y  `año`.
 -   Cuando se crea la instancia  `miCoche`, se pasan los valores  `'Toyota'`,  `'Corolla'`  y  `2020`  al constructor.
 -   El constructor asigna estos valores a las propiedades del objeto, usando  `this.marca`,  `this.modelo`  y  `this.año`.
+- Ignora la propiedad año que el constructor contiene por defecto. Ésta solo saldría si al pasar los parámentros en la instancia, solo h
 ## 2. MÉTODOS ESTÁTICOS
 
 
@@ -1468,7 +1469,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTQzMTY5Miw0MDE0NDAzNjksMjAzOD
+eyJoaXN0b3J5IjpbLTE1NTAyNzI3Nyw0MDE0NDAzNjksMjAzOD
 I5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEs
 LTEzOTMxMDcxNzgsMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OT
 MxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3
