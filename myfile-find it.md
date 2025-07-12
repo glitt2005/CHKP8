@@ -1244,7 +1244,7 @@ console.log(jon);
 
  Y precisamente por ello, podemos acceder al atributo **`name`**  mediante la nomenclatura con punto o **dot notation** de los objetos:
 
-<img src="instancia.png" Alt="instancia muestra atributo">
+<img src="instancia.png" "wid Alt="instancia muestra atributo">
 
 #### OTRO EJEMPLO:
 
@@ -1438,11 +1438,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTMyMDIxNCwtMTgwOTAzMzE1OCwxOD
-Q1MDYyOTM5LDIwODQ2OTI2MTIsMTY2Mjk2NzI3MCw3MzgxMjAw
-OTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLTk4NTM4MzkwNSwzOD
-U2ODA1NDYsNjU3NzA0MTA1LC0yMDY5ODY0NTU0LC01MDYwOTcz
-MTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEsLTEzMz
-IzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2
-NzNdfQ==
+eyJoaXN0b3J5IjpbLTE0MDQzODc1MjIsLTk4NTMyMDIxNCwtMT
+gwOTAzMzE1OCwxODQ1MDYyOTM5LDIwODQ2OTI2MTIsMTY2Mjk2
+NzI3MCw3MzgxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLT
+k4NTM4MzkwNSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5ODY0
+NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OT
+c4NjI1NTEsLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1
+MjgwXX0=
 -->
