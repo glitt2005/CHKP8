@@ -1142,7 +1142,7 @@ Es una de las formas más comunes de hacer la deconstrucción de objetos utiliza
 - Sin embargo, las versiones más modernas de JavaScript sí han implementado **clases**.
 - En **programación orientada a objetos (POO) en JavaScript,**  se organiza el código alrededor de **objetos**, los cuales son **instancias de clases**.
 
-OBJETOS:  contienen
+**OBJETOS**:  contienen:
 	- datos (**propiedades**)
 	- funciones (**métodos**) que operan sobre estos datos
 
@@ -1179,16 +1179,16 @@ Esta **estructura** la podemos asociar con lo que en Javascript corresponde a un
 
 En nuestro ejemplo:
 - tenemos una **clase `Usuario`** 
-- con un **nombre** de usuario (datos)
+- con un **nombre** de usuario 
 - y algunas **funciones**, 
 	- indicar **qué queremos que haga** el usuario después de iniciar sesión, 
 	-  **qué página** queremos ver 
-	- **qué tipo de atributos** queremos que estén disponibles para el usuario, **como obtener su apellido o algo similar**, que su aplicación necesita. 
+	- **qué tipo de atributos** queremos que estén disponibles para el usuario, **como obtener su apellido o algo similar**, que su aplicación necesita. (**datos**)
 
 
 Entonces, recapitulando, lo que hará el programa será:
 1.  **examinar** el plano 
-2.  **crear e instanciar un objeto con él**, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse **en algo terminado**, en ese objeto real.  **Hemos creado un "ejemplar" de algo, basado en la estructura anterior**. 
+2.  **crear e instanciar un objeto con él**, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse **en algo terminado**, en ese **objeto real**.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior. 
 3.  Luego puedo **hacer otro objeto** con otro nombre y **basarlo en la misma plantilla** o estructura. Serían dos objetos distintos que tienen una misma estructura.
 
 
@@ -1395,11 +1395,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDU2MDc4MDYsLTIwNjk4NjQ1NTQsLT
-UwNjA5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1
-MSwtMTMzMjM4MjQwNCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMT
-I4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3
-NzUzMCwtOTA1NzkyNTEwLC0zOTcxNTQ2MjYsNzcwNjgzMTYxLD
-ExNDA5ODYxOSwyMDE4NzI0NTcxLC0xNjA0OTI0NzgzLC0xOTI0
-ODY4NTQ4XX0=
+eyJoaXN0b3J5IjpbMTcwNjI1OTcwNiwtMjA2OTg2NDU1NCwtNT
+A2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUx
+LC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMj
+gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
+NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMT
+E0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4
+Njg1NDhdfQ==
 -->
