@@ -1170,10 +1170,11 @@ Esta **estructura** la podemos asociar con lo que en Javascript corresponde a un
 **UNA CLASE:**
 
 - **Una clase** es simplemente una lista de definiciones que indican exactamente cómo debería comportarse.
--  **Una clase numerará atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
+-  **Una clase-** numerará **atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
 
-#### Imaginemos la clase `Usuario`:
-- Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa **REVISAR LA CLASE DE `Usuario`**  y verá el plano, **verá esa estructura**. Es lo mismo que decir que es importante ver **cómo debería comportarse ese usuario** y para luego pasar al siguiente paso. 
+
+#### EJEMPLO: Imaginemos la clase `Usuario`:
+- Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa ** revisará la clase `Usuario`**  y Vel plano, **verá esa estructura**. Es lo mismo que decir que es importante ver **cómo debería comportarse ese usuario** y para luego pasar al siguiente paso. 
 - **LA INSTANCIACIÓN**.  Es un término complejo. Significa que tomamos ese plano y **creamos con él un objeto real**.
 
 En nuestro ejemplo:
@@ -1394,7 +1395,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTU5OTA2NSwtMjA2OTg2NDU1NCwtNT
+eyJoaXN0b3J5IjpbLTE2NTU5NDU2MiwtMjA2OTg2NDU1NCwtNT
 A2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUx
 LC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMj
 gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
