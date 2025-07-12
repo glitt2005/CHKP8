@@ -1155,7 +1155,7 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 <br>
 <div class="contenedor-imagenes">
-  <img src="planoCasa.png" width="50%" Alt="plano de una Casa" class="imagen-izquierda" style="margin-bottom: 20px;>
+  <img src="planoCasa.png" width="50%" Alt="plano de una Casa" class="imagen-izquierda" style="margin-bottom: -20px;>
   <img src="casaEstruct.png" width="25%" Alt="estructura de una Casa" class="imagen-derecha" style="margin-top: -60px;">
 </div>
 
@@ -1465,11 +1465,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzE0MjcwMiwtMTM3NTQ2MzI3OSw2OD
-g2ODk5NDEsMTgyMDMwODYzNywtMTk2OTM1NjIyNSwxNTQxNjY3
-MDIsNDI2NDQxMzAyLDcwMDk4MjYzMywtNTI2NTM1ODU4LDEzND
-IxMTEzODksLTE4NDMwODQ0NjgsLTk4NTMyMDIxNCwtMTgwOTAz
-MzE1OCwxODQ1MDYyOTM5LDIwODQ2OTI2MTIsMTY2Mjk2NzI3MC
-w3MzgxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLTk4NTM4
-MzkwNV19
+eyJoaXN0b3J5IjpbMzMxNjg5NjQzLDEzMzMxNDI3MDIsLTEzNz
+U0NjMyNzksNjg4Njg5OTQxLDE4MjAzMDg2MzcsLTE5NjkzNTYy
+MjUsMTU0MTY2NzAyLDQyNjQ0MTMwMiw3MDA5ODI2MzMsLTUyNj
+UzNTg1OCwxMzQyMTExMzg5LC0xODQzMDg0NDY4LC05ODUzMjAy
+MTQsLTE4MDkwMzMxNTgsMTg0NTA2MjkzOSwyMDg0NjkyNjEyLD
+E2NjI5NjcyNzAsNzM4MTIwMDkyLDEyMzQ5NTAxNSwtNDM2MDU1
+NzA1XX0=
 -->
