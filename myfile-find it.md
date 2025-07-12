@@ -863,12 +863,12 @@ Por ello, necesitaremos poner unos **valores por defecto** para esos objetos.
 
 #### SINTAXIS:
 
-#### EJEMPLO:  Imprimimos los días de la semana
+#####  EJEMPLO:  Imprimimos los días de la semana
 La **sintaxis** muy parecida a cómo utilizamos los argumentos por defecto en los tipos de valores de variable normales **cuando simplemente pasas un único elemento como argumento**. Pero ahora debemos integrar eso en un objeto.
 
 La desestructuración permite establecer valores por defecto para las variables, **en el eventual caso de que la propiedad o elemento del array  no exista.**
 
-#### EJEMPLOS:
+##### EJEMPLOS:
 
 
 a) EL VALOR QUE PASAMOS AL DECONSTRUIR **ES UTILIZADO**
@@ -1328,8 +1328,11 @@ console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 20
 - Esto significa que **se pueden invocar directamente desde la clase,** **sin** necesidad de **crear un objeto** de esa clase. 
 
 
-SINTAXIS
-Se utilizan con la palabra clave static antes de la definición del método en una clase: 
+#### SINTAXIS
+```JavaScript
+for (inicialización; condición; actualización) { // código a ejecutar }
+```
+#### EJEMPLO:  Imprimimos los días de la semanaSe utilizan con la palabra clave static antes de la definición del método en una clase: 
 JavaScript
 
 class MiClase {
@@ -1494,7 +1497,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTEwMTgxMzUsNTExMTc0OTM2LDQwMT
+eyJoaXN0b3J5IjpbLTIwNjc3NjU5MDAsNTExMTc0OTM2LDQwMT
 Q0MDM2OSwyMDM4MjkxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1Njkx
 LDUzNDczNjM3MSwtMTM5MzEwNzE3OCwxODI1NzMzNzczLC0yOD
 czOTA0NDEsLTg5MzE2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAz
