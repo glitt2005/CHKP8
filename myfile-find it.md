@@ -1151,6 +1151,12 @@ JavaScript, aunque basado en **prototipos**, permite un estilo de programación 
 
 
 Comencemos con **una analogía**. Crear un **plano de una casa**:
+
+
+<br>
+
+<img src="planoCasa.png" Alt="plano de una Casa">
+
 - si tiene más de una planta
 - los techos
 - tabiques para cada dormitorio
@@ -1388,11 +1394,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjk4NjQ1NTQsLTUwNjA5NzMxMSw4OT
-UwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwtMTMzMjM4MjQw
-NCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMTI4MjgwNzY3MywxNj
-czMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUzMCwtOTA1Nzky
-NTEwLC0zOTcxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMD
-E4NzI0NTcxLC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIw
-NzQ2MDJdfQ==
+eyJoaXN0b3J5IjpbLTQ3ODIxNzk0NCwtMjA2OTg2NDU1NCwtNT
+A2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUx
+LC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMj
+gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
+NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMT
+E0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4
+Njg1NDhdfQ==
 -->
