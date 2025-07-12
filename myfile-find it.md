@@ -1270,7 +1270,8 @@ En este ejemplo:
  ## 2. MÉTODOS DE INSTANCIA
 
 
-Durante muchos años en JS se ha venido creando funciones tradicionales en vez de los métodos de instancia, que son métodos que operan sobre un objeto específico llamado **“instancia” de una clase**). Sin embargo, lo más común en los últimos años es el poder **acceder y modificar los atributos de la instancia en la que se están invocando**, así como poder **llamar a otros métodos dentro de la instancia**.
+- Durante muchos años en JS se ha venido creando **funciones tradicionales en vez de los métodos de instancia**, que son métodos que operan de forma específica sobre la **“instancia” de una clase**. 
+- Sin embargo, lo más común en los últimos años es el poder **acceder y modificar los atributos de la instancia en la que se están invocando**, así como poder **llamar a otros métodos dentro de la instancia**.
 
 Los métodos dentro de una clase son funciones que están asociadas a esa clase y se utilizan para **definir el comportamiento** de los objetos creados a partir de ella. Se **definen dentro del cuerpo de la clase,** utilizando **la misma sintaxis que las funciones, pero sin la palabra clave** **_function_**  para métodos públicos. Los métodos pueden **acceder a las propiedades de la instancia** actual utilizando **this**.
 
@@ -1429,11 +1430,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTA2MjkzOSwyMDg0NjkyNjEyLDE2Nj
-I5NjcyNzAsNzM4MTIwMDkyLDEyMzQ5NTAxNSwtNDM2MDU1NzA1
-LC05ODUzODM5MDUsMzg1NjgwNTQ2LDY1NzcwNDEwNSwtMjA2OT
-g2NDU1NCwtNTA2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcs
-Nzk3ODYyNTUxLC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNj
-Q2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3
-NF19
+eyJoaXN0b3J5IjpbMTk3Mzc1NDEyOSwxODQ1MDYyOTM5LDIwOD
+Q2OTI2MTIsMTY2Mjk2NzI3MCw3MzgxMjAwOTIsMTIzNDk1MDE1
+LC00MzYwNTU3MDUsLTk4NTM4MzkwNSwzODU2ODA1NDYsNjU3Nz
+A0MTA1LC0yMDY5ODY0NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0
+LDE0NDI5MzMxNyw3OTc4NjI1NTEsLTEzMzIzODI0MDQsLTU3NT
+U5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIz
+Nl19
 -->
