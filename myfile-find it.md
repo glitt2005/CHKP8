@@ -1415,7 +1415,7 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
     
   
     
--   **Métodos Estáticos como Funciones Fábrica:**
+
     
     
     
@@ -1570,11 +1570,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDYxNTIwNzgsMTEwMjkxOTA3NywxNz
-U1NDIyNjQ4LDIxNDY4NjY3NDYsLTg4MDIwMjMzNyw1MTExNzQ5
-MzYsNDAxNDQwMzY5LDIwMzgyOTE3NzksMTUyNjUwMjc1NSwxOD
-k5NDU2OTEsNTM0NzM2MzcxLC0xMzkzMTA3MTc4LDE4MjU3MzM3
-NzMsLTI4NzM5MDQ0MSwtODkzMTYwNzAwLC04OTYzMDczNzEsMT
-E2NTkzMDMsLTg2NjM2NTU3NywxMzkxNjA0NTQzLDE1ODY0Mjcx
-ODNdfQ==
+eyJoaXN0b3J5IjpbLTQ4NDYzMTA2NSwtMTk0NjE1MjA3OCwxMT
+AyOTE5MDc3LDE3NTU0MjI2NDgsMjE0Njg2Njc0NiwtODgwMjAy
+MzM3LDUxMTE3NDkzNiw0MDE0NDAzNjksMjAzODI5MTc3OSwxNT
+I2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEsLTEzOTMxMDcx
+NzgsMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OTMxNjA3MDAsLT
+g5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3LDEzOTE2MDQ1
+NDNdfQ==
 -->
