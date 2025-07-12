@@ -1352,7 +1352,9 @@ JavaScript
     }
 
     const productoPredeterminado = Producto.crearProductoPredeterminado();
-    console.log(productoPredeterminado); // Salida: Producto { nombre: 'Producto Genérico', precio: 0 }
+    console.log(productoPredeterminado); 
+    
+    // Devuelve: Producto { nombre: 'Producto Genérico', precio: 0 }
 ```
 ¿Cuándo utilizarlos?
 Los métodos estáticos son útiles cuando:
@@ -1511,7 +1513,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDcxNzM0MCwtODgwMjAyMzM3LDUxMT
+eyJoaXN0b3J5IjpbMjE0Njg2Njc0NiwtODgwMjAyMzM3LDUxMT
 E3NDkzNiw0MDE0NDAzNjksMjAzODI5MTc3OSwxNTI2NTAyNzU1
 LDE4OTk0NTY5MSw1MzQ3MzYzNzEsLTEzOTMxMDcxNzgsMTgyNT
 czMzc3MywtMjg3MzkwNDQxLC04OTMxNjA3MDAsLTg5NjMwNzM3
