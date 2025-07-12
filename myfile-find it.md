@@ -1142,16 +1142,15 @@ Es una de las formas más comunes de hacer la deconstrucción de objetos utiliza
 - Sin embargo, las versiones más modernas de JavaScript sí han implementado **clases**.
 - En **programación orientada a objetos (POO) en JavaScript,**  se organiza el código alrededor de **objetos**, los cuales son **instancias de clases**.
 
-OBJETOS
-	- datos
--  	Estos objetos contienen
--  d	atos (propiedades)
--  funciones (métodos) que operan sobre esos datos. 
-
-JavaScript, aunque basado en prototipos, permite un estilo de programación orientado a objetos mediante el uso de clases (introducidas en ES6) y objetos
+OBJETOS:  contienen
+	- datos (**propiedades**)
+	- funciones (**métodos**) que operan sobre estos datos
 
 
-Comencemos con una analogía. Crear un plano de una casa:
+JavaScript, aunque basado en **prototipos**, permite un estilo de programación orientado a objetos mediante el uso de **clases** (introducidas en ES6) y **objetos**
+
+
+Comencemos con **una analogía**. Crear un **plano de una casa**:
 - si tiene más de una planta
 - los techos
 - tabiques para cada dormitorio
@@ -1389,11 +1388,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODE2MDE3MSwtNTA2MDk3MzExLDg5NT
-A1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0xMzMyMzgyNDA0
-LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2Nz
-MyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1
-MTAsLTM5NzE1NDYyNiw3NzA2ODMxNjEsMTE0MDk4NjE5LDIwMT
-g3MjQ1NzEsLTE2MDQ5MjQ3ODMsLTE5MjQ4Njg1NDgsMTczMjA3
-NDYwMl19
+eyJoaXN0b3J5IjpbLTIwNjk4NjQ1NTQsLTUwNjA5NzMxMSw4OT
+UwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwtMTMzMjM4MjQw
+NCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMTI4MjgwNzY3MywxNj
+czMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUzMCwtOTA1Nzky
+NTEwLC0zOTcxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYxOSwyMD
+E4NzI0NTcxLC0xNjA0OTI0NzgzLC0xOTI0ODY4NTQ4LDE3MzIw
+NzQ2MDJdfQ==
 -->
