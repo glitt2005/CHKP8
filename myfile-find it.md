@@ -1287,7 +1287,7 @@ En este ejemplo:
 
 - En el **`console.log`** del método de la instancia **`renderDetails()`**  necesitamos poner el **`this`** en **`this.name`**  para poder acceder al valor de **`name`** del argumento.
 - Cuando instanciamos y pasamos los valores entre llaves `new Instructor({name: "Jon Snow"}`; nos dirige **al contructor.**
-- En la **instancia de método`renderDetails()`** no tenemos acceso a ello, sólo lo tiene el constructor, así que la única manera de acceder es añadir la palabra clave **this** a los atributos creado **dentro de los constructores**.
+- En la **instancia de método`renderDetails()` no tenemos acceso este argumento**: sólo lo tiene el constructor, así que la única manera de acceder es añadir la palabra clave **`this`**  a los atributos creado dentro de los constructores.
 
 **const jon = new Instructor**  **(**el parámetro aquí se asocia a **this**.parámetro)
 
@@ -1445,11 +1445,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODYyNDc3MzQsMTM0MjExMTM4OSwtMT
-g0MzA4NDQ2OCwtOTg1MzIwMjE0LC0xODA5MDMzMTU4LDE4NDUw
-NjI5MzksMjA4NDY5MjYxMiwxNjYyOTY3MjcwLDczODEyMDA5Mi
-wxMjM0OTUwMTUsLTQzNjA1NTcwNSwtOTg1MzgzOTA1LDM4NTY4
-MDU0Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLTUwNjA5NzMxMS
-w4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwtMTMzMjM4
-MjQwNF19
+eyJoaXN0b3J5IjpbMjAzNjQ0NDIwOCwxMzQyMTExMzg5LC0xOD
+QzMDg0NDY4LC05ODUzMjAyMTQsLTE4MDkwMzMxNTgsMTg0NTA2
+MjkzOSwyMDg0NjkyNjEyLDE2NjI5NjcyNzAsNzM4MTIwMDkyLD
+EyMzQ5NTAxNSwtNDM2MDU1NzA1LC05ODUzODM5MDUsMzg1Njgw
+NTQ2LDY1NzcwNDEwNSwtMjA2OTg2NDU1NCwtNTA2MDk3MzExLD
+g5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0xMzMyMzgy
+NDA0XX0=
 -->
