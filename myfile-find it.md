@@ -1159,7 +1159,7 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 </div>
  
 
-</div>
+
 
 <br>
 <div class="contenedor-imagenes">
@@ -1476,7 +1476,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODcwNjE2MywtMjg3MzkwNDQxLC04OT
+eyJoaXN0b3J5IjpbMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OT
 MxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3
 LDEzOTE2MDQ1NDMsMTU4NjQyNzE4MywtMTY3OTQ2NTU2OCwxMT
 U5NjYzNTg2LC0yMTMzOTc4MjY0LDEzMzMxNDI3MDIsLTEzNzU0
