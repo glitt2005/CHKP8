@@ -1301,7 +1301,7 @@ En este ejemplo:
 
 ```Javascript
 class Coche {
-    constructor(marca, modelo, año) {
+    constructor(marca, modelo, año = 2019) {
         this.marca = marca;
         this.modelo = modelo;
         this.año = año;
@@ -1468,7 +1468,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDY0NTAzNyw0MDE0NDAzNjksMjAzOD
+eyJoaXN0b3J5IjpbLTU5OTQzMTY5Miw0MDE0NDAzNjksMjAzOD
 I5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEs
 LTEzOTMxMDcxNzgsMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OT
 MxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3
