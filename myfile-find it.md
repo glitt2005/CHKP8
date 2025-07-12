@@ -1155,9 +1155,12 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 <br>
 <div class="contenedor-imagenes">
-  <img src="planoCasa.png" width="50%" Alt="plano de una Casa" class="imagen-izquierda" style="margin-top: 100px;">
+  <img src="planoCasa.png" width="50%" Alt="plano de una Casa" class="imagen-izquierda" style="margin-top: 120px;">
   <img src="casaEstruct.png" width="25%" Alt="estructura de una Casa" class="imagen-derecha">
 </div>
+
+
+
 
 - cuantas plantas tiene
 - tabiques, para cada dormitorio
@@ -1465,11 +1468,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTYwNDU0MywxNTg2NDI3MTgzLC0xNj
-c5NDY1NTY4LDExNTk2NjM1ODYsLTIxMzM5NzgyNjQsMTMzMzE0
-MjcwMiwtMTM3NTQ2MzI3OSw2ODg2ODk5NDEsMTgyMDMwODYzNy
-wtMTk2OTM1NjIyNSwxNTQxNjY3MDIsNDI2NDQxMzAyLDcwMDk4
-MjYzMywtNTI2NTM1ODU4LDEzNDIxMTEzODksLTE4NDMwODQ0Nj
-gsLTk4NTMyMDIxNCwtMTgwOTAzMzE1OCwxODQ1MDYyOTM5LDIw
-ODQ2OTI2MTJdfQ==
+eyJoaXN0b3J5IjpbLTg2NjM2NTU3NywxMzkxNjA0NTQzLDE1OD
+Y0MjcxODMsLTE2Nzk0NjU1NjgsMTE1OTY2MzU4NiwtMjEzMzk3
+ODI2NCwxMzMzMTQyNzAyLC0xMzc1NDYzMjc5LDY4ODY4OTk0MS
+wxODIwMzA4NjM3LC0xOTY5MzU2MjI1LDE1NDE2NjcwMiw0MjY0
+NDEzMDIsNzAwOTgyNjMzLC01MjY1MzU4NTgsMTM0MjExMTM4OS
+wtMTg0MzA4NDQ2OCwtOTg1MzIwMjE0LC0xODA5MDMzMTU4LDE4
+NDUwNjI5MzldfQ==
 -->
