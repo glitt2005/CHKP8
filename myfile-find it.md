@@ -1240,7 +1240,7 @@ console.log(jon);
 // imprime: Object { name: "Jon Snow"}
 ```
 
- Y precisamente por ello, podemos acceder al atributo `name`mediante la nomenclatura con punto o **dot notario** de los objetos:
+ Y precisamente por ello, podemos acceder al atributo **`name`**  mediante la nomenclatura con punto o **dot notation** de los objetos:
 
 <img src="instancia.png" Alt="instancia muestra atributo">
 
@@ -1407,7 +1407,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODIxNDQzMzksMTY2Mjk2NzI3MCw3Mz
+eyJoaXN0b3J5IjpbLTE1NTk0NTI1NjksMTY2Mjk2NzI3MCw3Mz
 gxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLTk4NTM4Mzkw
 NSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5ODY0NTU0LC01MD
 YwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEs
