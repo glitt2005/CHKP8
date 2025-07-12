@@ -1157,10 +1157,10 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 <img src="planoCasa.png" Alt="plano de una Casa">
 
-- si tiene más de una planta
-- los techos
-- tabiques para cada dormitorio
+- cuantas plantas tiene
+- tabiques, para cada dormitorio
 - ubicaciones de puertas
+- ubicación de las ventanas
 - donde van los enchufes de luz...
 
 Nos hacemos una idea.  **Esto NO es una casa**. Es la **estructura**.
@@ -1170,7 +1170,7 @@ Esta **estructura** la podemos asociar con lo que en Javascript corresponde a un
 **UNA CLASE:**
 
 - **Una clase** es simplemente una lista de definiciones que indican exactamente cómo debería comportarse.
--  **Enumerará atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
+-  **Una clase numerará atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
 
 #### Imaginemos la clase `Usuario`:
 - Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa **REVISAR LA CLASE DE `Usuario`**  y verá el plano, **verá esa estructura**. Es lo mismo que decir que es importante ver **cómo debería comportarse ese usuario** y para luego pasar al siguiente paso. 
@@ -1394,7 +1394,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODIxNzk0NCwtMjA2OTg2NDU1NCwtNT
+eyJoaXN0b3J5IjpbMTQ5MTU5OTA2NSwtMjA2OTg2NDU1NCwtNT
 A2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUx
 LC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMj
 gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
