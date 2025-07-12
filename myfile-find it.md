@@ -1283,11 +1283,11 @@ En este ejemplo:
 
 
 <img src="metodoInstancia.png" width="65%" Alt="método de instancia">
-<![endif]-->
 
-- En el **`console.log`** del método de la instancia **renderDetails()**  necesitamos poner el **this** en **this.name**  para poder acceder al valor de **name** del argumento.
 
-Recordemos que cuando instanciamos una nueva versión, **un nuevo objeto de la clase** **Instructor** y **pasamos los valores entre llaves** (ya que los argumentos del constructor son un objeto), nos redirige arriba, al **constructor**.
+- En el **`console.log`** del método de la instancia **`renderDetails()`**  necesitamos poner el **`this`** en **`this.name`**  para poder acceder al valor de **`name`** del argumento.
+
+- Recordemos que cuando instanciamos una nueva versión, **un nuevo objeto de la clase** **Instructor** y **pasamos los valores entre llaves** (ya que los argumentos del constructor son un objeto), nos redirige arriba, al **constructor**.
 
 En la instancia de método **renderDetails()** no tenemos acceso a ello, sólo lo tiene el constructor, así que la única manera de acceder es añadir la palabra clave **this** a los atributos creado **dentro de los constructores**.
 
@@ -1447,11 +1447,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjU0OTU5MjQsMTM0MjExMTM4OSwtMT
-g0MzA4NDQ2OCwtOTg1MzIwMjE0LC0xODA5MDMzMTU4LDE4NDUw
-NjI5MzksMjA4NDY5MjYxMiwxNjYyOTY3MjcwLDczODEyMDA5Mi
-wxMjM0OTUwMTUsLTQzNjA1NTcwNSwtOTg1MzgzOTA1LDM4NTY4
-MDU0Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLTUwNjA5NzMxMS
-w4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwtMTMzMjM4
-MjQwNF19
+eyJoaXN0b3J5IjpbNjY4MTM5MTQsMTM0MjExMTM4OSwtMTg0Mz
+A4NDQ2OCwtOTg1MzIwMjE0LC0xODA5MDMzMTU4LDE4NDUwNjI5
+MzksMjA4NDY5MjYxMiwxNjYyOTY3MjcwLDczODEyMDA5MiwxMj
+M0OTUwMTUsLTQzNjA1NTcwNSwtOTg1MzgzOTA1LDM4NTY4MDU0
+Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLTUwNjA5NzMxMSw4OT
+UwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwtMTMzMjM4MjQw
+NF19
 -->
