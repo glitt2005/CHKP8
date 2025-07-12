@@ -1270,10 +1270,15 @@ En este ejemplo:
  ## 2. MÉTODOS DE INSTANCIA
 
 
-- Durante muchos años en JS se ha venido creando **funciones tradicionales en vez de los métodos de instancia**, que son métodos que operan de forma específica sobre la **“instancia” de una clase**. 
-- Sin embargo, lo más común en los últimos años es el poder **acceder y modificar los atributos de la instancia en la que se están invocando**, así como poder **llamar a otros métodos dentro de la instancia**.
+- Durante mucho tiempo en JS se ha venido creando **funciones tradicionales en vez de los métodos de instancia**, que son métodos que operan de forma específica sobre la **“instancia” de una clase**. 
+- Sin embargo, lo más común en los últimos años es :
+	-  poder **acceder y modificar los atributos de la instancia en la que se están invocando**, 
+	-  poder **llamar a otros métodos dentro de la instancia**.
 
-Los métodos dentro de una clase son funciones que están asociadas a esa clase y se utilizan para **definir el comportamiento** de los objetos creados a partir de ella. Se **definen dentro del cuerpo de la clase,** utilizando **la misma sintaxis que las funciones, pero sin la palabra clave** **_function_**  para métodos públicos. Los métodos pueden **acceder a las propiedades de la instancia** actual utilizando **this**.
+**Los métodos dentro de una clase** son funciones que están **asociadas a esa clase** y se utilizan para **definir el comportamiento** de los objetos creados a partir de ella. 
+- Se **definen dentro del cuerpo de la clase,** 
+- Con **la misma sintaxis que las funciones, pero sin la palabra clave** **_function_**  para métodos públicos. 
+- Los métodos pueden **acceder a las propiedades de la instancia** actual utilizando **this**.
 
 
 ## 2. MÉTODOS ESTÁTICOS
@@ -1430,11 +1435,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Mzc1NDEyOSwxODQ1MDYyOTM5LDIwOD
-Q2OTI2MTIsMTY2Mjk2NzI3MCw3MzgxMjAwOTIsMTIzNDk1MDE1
-LC00MzYwNTU3MDUsLTk4NTM4MzkwNSwzODU2ODA1NDYsNjU3Nz
-A0MTA1LC0yMDY5ODY0NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0
-LDE0NDI5MzMxNyw3OTc4NjI1NTEsLTEzMzIzODI0MDQsLTU3NT
-U5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIz
-Nl19
+eyJoaXN0b3J5IjpbLTIwNzg1ODY3MDgsMTg0NTA2MjkzOSwyMD
+g0NjkyNjEyLDE2NjI5NjcyNzAsNzM4MTIwMDkyLDEyMzQ5NTAx
+NSwtNDM2MDU1NzA1LC05ODUzODM5MDUsMzg1NjgwNTQ2LDY1Nz
+cwNDEwNSwtMjA2OTg2NDU1NCwtNTA2MDk3MzExLDg5NTA1Nzk0
+NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0xMzMyMzgyNDA0LC01Nz
+U1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEy
+MzZdfQ==
 -->
