@@ -1212,6 +1212,11 @@ class MiClase {
     }
 }
 ```
+-   `constructor()`  es el método especial de la clase.
+-   `parametro1`,  `parametro2`  son parámetros que puedes pasar al constructor cuando se crea la instancia.
+-   `this.propiedad1`  y  `this.propiedad2`  asignan valores a las propiedades del objeto.
+
+
 
 
 - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  
@@ -1413,11 +1418,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3NzA0MTA1LC0yMDY5ODY0NTU0LC01MD
-YwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEs
-LTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyOD
-I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
-MzAsLTkwNTc5MjUxMCwtMzk3MTU0NjI2LDc3MDY4MzE2MSwxMT
-QwOTg2MTksMjAxODcyNDU3MSwtMTYwNDkyNDc4MywtMTkyNDg2
-ODU0OF19
+eyJoaXN0b3J5IjpbMzg1NjgwNTQ2LDY1NzcwNDEwNSwtMjA2OT
+g2NDU1NCwtNTA2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcs
+Nzk3ODYyNTUxLC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNj
+Q2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3
+NCwxNzAwOTc3NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYyNiw3Nz
+A2ODMxNjEsMTE0MDk4NjE5LDIwMTg3MjQ1NzEsLTE2MDQ5MjQ3
+ODNdfQ==
 -->
