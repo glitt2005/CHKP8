@@ -1336,6 +1336,7 @@ class MiClase {
   }
 }
 ```
+**Acceso al método estático**:  miClase.miM
 
 
 
@@ -1520,7 +1521,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzAyMzk5NywyMTQ2ODY2NzQ2LC04OD
+eyJoaXN0b3J5IjpbMTc3NDIwOTY5NSwyMTQ2ODY2NzQ2LC04OD
 AyMDIzMzcsNTExMTc0OTM2LDQwMTQ0MDM2OSwyMDM4MjkxNzc5
 LDE1MjY1MDI3NTUsMTg5OTQ1NjkxLDUzNDczNjM3MSwtMTM5Mz
 EwNzE3OCwxODI1NzMzNzczLC0yODczOTA0NDEsLTg5MzE2MDcw
