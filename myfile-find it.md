@@ -1343,7 +1343,7 @@ miClase.miMetodoEstatico();
 
 <br>
 
-#### EJEMPLO:   Creamos un producto genérico para una empresa
+#### EJEMPLO 1:   Creamos un producto genérico para una empresa
 
 
 ```JavaScript
@@ -1365,6 +1365,31 @@ miClase.miMetodoEstatico();
 ```
 - Como vemos, ha podido acceder tanto al `nombre` como al `precio`, ya que los métodos estáticos **pueden acceder y manipular propiedades estáticas de la clase.**
 -  Se acceden a ellos **a través del nombre de la clase** (aquí `Producto`).
+<br>
+
+#### EJEMPLO 2:   Cliente entra y dice hola,  
+```JavaScript
+class Cliente {
+  static despedirse() {
+    return "Adiós";
+  }
+
+  entrar() {
+    return "Hola";
+  }
+}
+
+console.log(Cliente.despedirse());      // Método estático (no requiere instancia): 'Adiós'
+// Cliente.entrar();                     // Uncaught TypeError: Cliente.entrar is not a function
+
+const cliente1 = new Cliente();// Creamos una instancia
+
+// cliente1.despedirse();          // Uncaught TypeError: cliente1.despedirse is not a function
+console.log(cliente1.entrar());              // Método no estático (requiere instancia): 'Hola'
+```
+#### EJEMPLO 1:   Creamos un producto genérico para una empresa
+
+
 
 ç
 ¿Cuándo utilizarlos?
@@ -1524,11 +1549,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTQyMjY0OCwyMTQ2ODY2NzQ2LC04OD
-AyMDIzMzcsNTExMTc0OTM2LDQwMTQ0MDM2OSwyMDM4MjkxNzc5
-LDE1MjY1MDI3NTUsMTg5OTQ1NjkxLDUzNDczNjM3MSwtMTM5Mz
-EwNzE3OCwxODI1NzMzNzczLC0yODczOTA0NDEsLTg5MzE2MDcw
-MCwtODk2MzA3MzcxLDExNjU5MzAzLC04NjYzNjU1NzcsMTM5MT
-YwNDU0MywxNTg2NDI3MTgzLC0xNjc5NDY1NTY4LDExNTk2NjM1
-ODZdfQ==
+eyJoaXN0b3J5IjpbLTE3MTE1ODExODEsMTc1NTQyMjY0OCwyMT
+Q2ODY2NzQ2LC04ODAyMDIzMzcsNTExMTc0OTM2LDQwMTQ0MDM2
+OSwyMDM4MjkxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1NjkxLDUzND
+czNjM3MSwtMTM5MzEwNzE3OCwxODI1NzMzNzczLC0yODczOTA0
+NDEsLTg5MzE2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAzLC04Nj
+YzNjU1NzcsMTM5MTYwNDU0MywxNTg2NDI3MTgzLC0xNjc5NDY1
+NTY4XX0=
 -->
