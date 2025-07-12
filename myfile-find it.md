@@ -1160,7 +1160,7 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 
 
-<div align="center"><img src="logo.gif"></div>
+<div align="left"><img src="planoCasa.png" width="50%" Alt="plano de una Casa"></div>
 
  
 - cuantas plantas tiene
@@ -1469,7 +1469,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUxNDY4MjkxLC0xMzkzMTA3MTc4LDE4Mj
+eyJoaXN0b3J5IjpbNTM0NzM2MzcxLC0xMzkzMTA3MTc4LDE4Mj
 U3MzM3NzMsLTI4NzM5MDQ0MSwtODkzMTYwNzAwLC04OTYzMDcz
 NzEsMTE2NTkzMDMsLTg2NjM2NTU3NywxMzkxNjA0NTQzLDE1OD
 Y0MjcxODMsLTE2Nzk0NjU1NjgsMTE1OTY2MzU4NiwtMjEzMzk3
