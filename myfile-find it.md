@@ -1220,7 +1220,7 @@ Entonces, recapitulando, lo que hará el programa será:
  - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  
 <br>
 #### EJEMPLO DE CLASE E INSTANCIA:
-<img src="claseConstructor.png" Alt="clase e instancia">
+<img src="claseConstructor.png" width="65%" Alt="clase e instancia">
 
 -	El hecho de crear una **instancia** nos dirige automáticamente **al `constructor`.**
 -	En **`constructor ({ name })`**, aquí   **`name`**  mapeará a lo que se pasará cuando creemos un nuevo Instructor: **`new Instructor`**). Y queremos hacer algo con este **`name`**.  
@@ -1438,11 +1438,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDMwODQ0NjgsLTk4NTMyMDIxNCwtMT
-gwOTAzMzE1OCwxODQ1MDYyOTM5LDIwODQ2OTI2MTIsMTY2Mjk2
-NzI3MCw3MzgxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLT
-k4NTM4MzkwNSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5ODY0
-NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OT
-c4NjI1NTEsLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1
-MjgwXX0=
+eyJoaXN0b3J5IjpbMTM0MjExMTM4OSwtMTg0MzA4NDQ2OCwtOT
+g1MzIwMjE0LC0xODA5MDMzMTU4LDE4NDUwNjI5MzksMjA4NDY5
+MjYxMiwxNjYyOTY3MjcwLDczODEyMDA5MiwxMjM0OTUwMTUsLT
+QzNjA1NTcwNSwtOTg1MzgzOTA1LDM4NTY4MDU0Niw2NTc3MDQx
+MDUsLTIwNjk4NjQ1NTQsLTUwNjA5NzMxMSw4OTUwNTc5NDQsMT
+Q0MjkzMzE3LDc5Nzg2MjU1MSwtMTMzMjM4MjQwNCwtNTc1NTky
+OTA0XX0=
 -->
