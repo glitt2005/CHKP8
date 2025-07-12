@@ -1330,16 +1330,30 @@ console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 20
 
 #### SINTAXIS
 ```JavaScript
-static nombreDelMétodo() { ... }
-```
-#### EJEMPLO:  Imprimimos los días de la semanaSe utilizan con la palabra clave static antes de la definición del método en una clase: 
-JavaScript
-
 class MiClase {
   static miMetodoEstatico() {
     console.log("Este es un método estático.");
   }
 }
+```
+#### EJEMPLO:  Imprimimos los días de la semanaSe utilizan con la palabra clave static antes de la definición del método en una clase: 
+JavaScript
+
+```JavaScript
+    class Producto {
+      constructor(nombre, precio) {
+        this.nombre = nombre;
+        this.precio = precio;
+      }
+
+      static crearProductoPredeterminado() {
+        return new Producto("Producto Genérico", 0);
+      }
+    }
+
+    const productoPredeterminado = Producto.crearProductoPredeterminado();
+    console.log(productoPredeterminado); // Salida: Producto { nombre: 'Producto Genérico', precio: 0 }
+```
 ¿Cuándo utilizarlos?
 Los métodos estáticos son útiles cuando:
 No necesitan acceder a propiedades de instancia: Si un método no necesita acceder a datos específicos de un objeto, es más eficiente declararlo como estático. 
@@ -1497,11 +1511,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDIwMjMzNyw1MTExNzQ5MzYsNDAxND
-QwMzY5LDIwMzgyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEs
-NTM0NzM2MzcxLC0xMzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4Nz
-M5MDQ0MSwtODkzMTYwNzAwLC04OTYzMDczNzEsMTE2NTkzMDMs
-LTg2NjM2NTU3NywxMzkxNjA0NTQzLDE1ODY0MjcxODMsLTE2Nz
-k0NjU1NjgsMTE1OTY2MzU4NiwtMjEzMzk3ODI2NCwxMzMzMTQy
-NzAyXX0=
+eyJoaXN0b3J5IjpbLTYzNDcxNzM0MCwtODgwMjAyMzM3LDUxMT
+E3NDkzNiw0MDE0NDAzNjksMjAzODI5MTc3OSwxNTI2NTAyNzU1
+LDE4OTk0NTY5MSw1MzQ3MzYzNzEsLTEzOTMxMDcxNzgsMTgyNT
+czMzc3MywtMjg3MzkwNDQxLC04OTMxNjA3MDAsLTg5NjMwNzM3
+MSwxMTY1OTMwMywtODY2MzY1NTc3LDEzOTE2MDQ1NDMsMTU4Nj
+QyNzE4MywtMTY3OTQ2NTU2OCwxMTU5NjYzNTg2LC0yMTMzOTc4
+MjY0XX0=
 -->
