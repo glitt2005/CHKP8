@@ -1405,8 +1405,8 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 - Son funciones de utilidad:
 	-  para crear **funciones auxiliares** 
 	- de propósito general que **no están ligadas a un objeto en particular**, por ejemplo:
-		- como métodos para manipular arrays
-		-  realizar cálculos matemáticos. 
+		- como métodos para **manipular arrays**
+		-  realizar **cálculos matemáticos**. 
 		
 -  **Funciones de fábrica**:  
 	- una función fábrica es cualquier función que **devuelve un objeto nuevo cada vez que se llama**. 
@@ -1573,11 +1573,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTYzNTkzOSwtMTk0NjE1MjA3OCwxMT
-AyOTE5MDc3LDE3NTU0MjI2NDgsMjE0Njg2Njc0NiwtODgwMjAy
-MzM3LDUxMTE3NDkzNiw0MDE0NDAzNjksMjAzODI5MTc3OSwxNT
-I2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEsLTEzOTMxMDcx
-NzgsMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OTMxNjA3MDAsLT
-g5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3LDEzOTE2MDQ1
-NDNdfQ==
+eyJoaXN0b3J5IjpbMjI5NTQyMTEsLTE5NDYxNTIwNzgsMTEwMj
+kxOTA3NywxNzU1NDIyNjQ4LDIxNDY4NjY3NDYsLTg4MDIwMjMz
+Nyw1MTExNzQ5MzYsNDAxNDQwMzY5LDIwMzgyOTE3NzksMTUyNj
+UwMjc1NSwxODk5NDU2OTEsNTM0NzM2MzcxLC0xMzkzMTA3MTc4
+LDE4MjU3MzM3NzMsLTI4NzM5MDQ0MSwtODkzMTYwNzAwLC04OT
+YzMDczNzEsMTE2NTkzMDMsLTg2NjM2NTU3NywxMzkxNjA0NTQz
+XX0=
 -->
