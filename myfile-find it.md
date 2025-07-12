@@ -1194,7 +1194,7 @@ Entonces, recapitulando, lo que hará el programa será:
 
 ### CLASES:  término "CONSTRUCTOR"
 
-**Durante muchos años** JavasScript **no tenía** técnicas de OOP ( object-oriented programming ) o de **programación orientada a objetos**.  Había que crear procedimientos alternativos para conseguir lo que se necesitaba, y una de ellas era la utilización **funciones a modo de clases.** Esto durante largo tiempo hasta que éstas últimas han sido finalmente incorporadas.
+**Durante muchos años** JavasScript **no tenía** técnicas de OOP ( object-oriented programming ) o de **programación orientada a objetos**.  Había que crear procedimientos alternativos para conseguir lo que se necesitaba, y una de ellas era la utilización **funciones a modo de clases.** 
 
 - Si recordamos en nuestros casos de **deconstrucción** anteriormente explicados, pasaremos un nombre, o sea, `name`, **como objeto**.  
 - Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
@@ -1395,7 +1395,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTM4MjU1NCwtMjA2OTg2NDU1NCwtNT
+eyJoaXN0b3J5IjpbMTA4NTY5MTcxNywtMjA2OTg2NDU1NCwtNT
 A2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUx
 LC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMj
 gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
