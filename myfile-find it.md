@@ -1210,8 +1210,8 @@ Entonces, recapitulando, lo que hará el programa será:
 
 
 - Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
-- No siempre están en todas las clases, pero generalmente sí, porque necesitaremos realizar procesos
-	- **como fijar valores** 
+- No siempre están en todas las clases, pero muy habitualmente sí, porque necesitaremos realizar **procesos**
+		- **como fijar valores** 
 	-  **llamar a otras funciones** dentro de él, etc,
  que es lo que el **constructor** hace.  
  -**El constructor**, pues,  **define el método que se ejecuta al crear una nueva instancia de la clase**. 
@@ -1422,11 +1422,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNzQwODE5LDIwODQ2OTI2MTIsMTY2Mj
-k2NzI3MCw3MzgxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUs
-LTk4NTM4MzkwNSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5OD
-Y0NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3
-OTc4NjI1NTEsLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2ND
-Y1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0
-XX0=
+eyJoaXN0b3J5IjpbMTgzMDQ1MDYxMiwyMDg0NjkyNjEyLDE2Nj
+I5NjcyNzAsNzM4MTIwMDkyLDEyMzQ5NTAxNSwtNDM2MDU1NzA1
+LC05ODUzODM5MDUsMzg1NjgwNTQ2LDY1NzcwNDEwNSwtMjA2OT
+g2NDU1NCwtNTA2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcs
+Nzk3ODYyNTUxLC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNj
+Q2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3
+NF19
 -->
