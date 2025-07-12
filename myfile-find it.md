@@ -1156,8 +1156,8 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 <br>
 
 <img src="planoCasa.png" width="50%" Alt="plano de una Casa">
-- cuántas plantas
- - cuantas plantas tiene
+
+- cuantas plantas tiene
 - tabiques, para cada dormitorio
 - ubicaciones de puertas
 - ubicación de las ventanas
@@ -1170,7 +1170,7 @@ Esta **estructura** la podemos asociar con lo que en Javascript corresponde a un
 **UNA CLASE:**
 
 - **Una clase** es simplemente una lista de definiciones que indican exactamente cómo debería comportarse.
--  **Una clase-** numerará **atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
+-  **Una clase** numerará **atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
 
 
 #### EJEMPLO: Imaginemos la clase `Usuario`:
@@ -1406,11 +1406,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4MTIwMDkyLDEyMzQ5NTAxNSwtNDM2MD
-U1NzA1LC05ODUzODM5MDUsMzg1NjgwNTQ2LDY1NzcwNDEwNSwt
-MjA2OTg2NDU1NCwtNTA2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOT
-MzMTcsNzk3ODYyNTUxLC0xMzMyMzgyNDA0LC01NzU1OTI5MDQs
-LTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nz
-c1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1MTAsLTM5NzE1NDYy
-Nl19
+eyJoaXN0b3J5IjpbLTIwMzk4Mzk5MjYsNzM4MTIwMDkyLDEyMz
+Q5NTAxNSwtNDM2MDU1NzA1LC05ODUzODM5MDUsMzg1NjgwNTQ2
+LDY1NzcwNDEwNSwtMjA2OTg2NDU1NCwtNTA2MDk3MzExLDg5NT
+A1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0xMzMyMzgyNDA0
+LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2Nz
+MyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1
+MTBdfQ==
 -->
