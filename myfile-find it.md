@@ -1317,7 +1317,7 @@ console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 20
 - **Ignora** la propiedad año que el constructor contiene **por defecto**. Ésta, `'año': 2019` , solo hubiera salido si al pasar los parámentros en la instancia **no hubiera incluido el valor para `'año'`**, es decir que con:
 	 `const miCoche = new Coche('Toyota', 'Corolla');`
 		**imprimiría**    `//Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 2019 }`
-## 2. MÉTODOS ESTÁTICOS
+## 3. MÉTODOS ESTÁTICOS
 
 
 # 7. ¿Qué es una promesa en JS?
@@ -1471,11 +1471,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNzUyNTg0Nyw0MDE0NDAzNjksMjAzOD
-I5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEs
-LTEzOTMxMDcxNzgsMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OT
-MxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3
-LDEzOTE2MDQ1NDMsMTU4NjQyNzE4MywtMTY3OTQ2NTU2OCwxMT
-U5NjYzNTg2LC0yMTMzOTc4MjY0LDEzMzMxNDI3MDIsLTEzNzU0
-NjMyNzldfQ==
+eyJoaXN0b3J5IjpbNjcwNjk5NzYsNDAxNDQwMzY5LDIwMzgyOT
+E3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0NzM2MzcxLC0x
+MzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0MSwtODkzMT
+YwNzAwLC04OTYzMDczNzEsMTE2NTkzMDMsLTg2NjM2NTU3Nywx
+MzkxNjA0NTQzLDE1ODY0MjcxODMsLTE2Nzk0NjU1NjgsMTE1OT
+Y2MzU4NiwtMjEzMzk3ODI2NCwxMzMzMTQyNzAyLC0xMzc1NDYz
+Mjc5XX0=
 -->
