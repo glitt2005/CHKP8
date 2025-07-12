@@ -1246,7 +1246,19 @@ console.log(jon);
 
 #### OTRO EJEMPLO:
 
+```Javascript
+class Coche {
+    constructor(marca, modelo, año) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.año = año;
+    }
+}
 
+const miCoche = new Coche('Toyota', 'Corolla', 2020);
+console.log(miCoche);
+```
+```
  
 
 
@@ -1403,7 +1415,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTc1MTQ0OCwxNjYyOTY3MjcwLDczOD
+eyJoaXN0b3J5IjpbLTQyNTM0NzUyOCwxNjYyOTY3MjcwLDczOD
 EyMDA5MiwxMjM0OTUwMTUsLTQzNjA1NTcwNSwtOTg1MzgzOTA1
 LDM4NTY4MDU0Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLTUwNj
 A5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwt
