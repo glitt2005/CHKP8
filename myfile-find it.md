@@ -1198,8 +1198,10 @@ Entonces, recapitulando, lo que hará el programa será:
 
 **Un constructor**  es una función especial  (**palabra clave reservada para las clases**) que:
 - se utiliza para **crear e inicializar objetos**.
-- se encarga de **definir las propiedades iniciales de un objeto** al momento de su creación.
-- **Se invoca con** la palabra clave  **`new`**. 
+- se encarga de **definir las propiedades iniciales de un objeto** al momento de su creación.  Estas propiedades:
+	-  Son variables que se definen dentro de la función constructora para almacenar datos sobre el objeto.
+	- Se acceden y modifican utilizando la palabra clave  `this`  seguida del nombre de la propiedad.
+- **Un constructor se invoca con** la palabra clave  **`new`**. 
 
 #### SINTAXIS BÁSICA DEL CONTRUCTOR
 
@@ -1420,11 +1422,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NDY5MjYxMiwxNjYyOTY3MjcwLDczOD
-EyMDA5MiwxMjM0OTUwMTUsLTQzNjA1NTcwNSwtOTg1MzgzOTA1
-LDM4NTY4MDU0Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLTUwNj
-A5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwt
-MTMzMjM4MjQwNCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMTI4Mj
-gwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUz
-MF19
+eyJoaXN0b3J5IjpbLTgyNTI5ODI5OSwyMDg0NjkyNjEyLDE2Nj
+I5NjcyNzAsNzM4MTIwMDkyLDEyMzQ5NTAxNSwtNDM2MDU1NzA1
+LC05ODUzODM5MDUsMzg1NjgwNTQ2LDY1NzcwNDEwNSwtMjA2OT
+g2NDU1NCwtNTA2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcs
+Nzk3ODYyNTUxLC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNj
+Q2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3
+NF19
 -->
