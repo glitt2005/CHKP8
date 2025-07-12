@@ -1393,11 +1393,15 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 (3) Creamos la instancia
 (4) El método `despedirse()` es **estático**, la forma de acceder a él es a través de la **clase**, **no de una instancia**.
 (5) El método `entrar()` no es estático, ya hemos **creado la instancia y esta vez no nos da error**.
-#### EJEMPLO 1:   Creamos un producto genérico para una empresa
+
+<br>
 
 
 
-ç
+
+#### CUÁNDO UTILIZAR LOS
+
+
 ¿Cuándo utilizarlos?
 Los métodos estáticos son útiles cuando:
 No necesitan acceder a propiedades de instancia: Si un método no necesita acceder a datos específicos de un objeto, es más eficiente declararlo como estático. 
@@ -1555,11 +1559,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTMxNjYyNywxNzU1NDIyNjQ4LDIxND
-Y4NjY3NDYsLTg4MDIwMjMzNyw1MTExNzQ5MzYsNDAxNDQwMzY5
-LDIwMzgyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0Nz
-M2MzcxLC0xMzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0
-MSwtODkzMTYwNzAwLC04OTYzMDczNzEsMTE2NTkzMDMsLTg2Nj
-M2NTU3NywxMzkxNjA0NTQzLDE1ODY0MjcxODMsLTE2Nzk0NjU1
-NjhdfQ==
+eyJoaXN0b3J5IjpbLTIwMjU2NTUwNzEsMTc1NTQyMjY0OCwyMT
+Q2ODY2NzQ2LC04ODAyMDIzMzcsNTExMTc0OTM2LDQwMTQ0MDM2
+OSwyMDM4MjkxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1NjkxLDUzND
+czNjM3MSwtMTM5MzEwNzE3OCwxODI1NzMzNzczLC0yODczOTA0
+NDEsLTg5MzE2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAzLC04Nj
+YzNjU1NzcsMTM5MTYwNDU0MywxNTg2NDI3MTgzLC0xNjc5NDY1
+NTY4XX0=
 -->
