@@ -1140,7 +1140,15 @@ Es una de las formas más comunes de hacer la deconstrucción de objetos utiliza
 
 - Durante años, las versiones antiguas de JavaScript no incluían los componentes de programación orientada a objetos, como **clases e instanciación**, lo cual estuvo bien durante un tiempo. 
 - Sin embargo, las versiones más modernas de JavaScript sí han implementado **clases**.
-- En **programación orientada a objetos (POO) en JavaScript,**  se organiza el código alrededor de **objetos**, los cuales son **instancias de clases**. Estos objetos contienen datos (propiedades) y funciones (métodos) que operan sobre esos datos. JavaScript, aunque basado en prototipos, permite un estilo de programación orientado a objetos mediante el uso de clases (introducidas en ES6) y objetos
+- En **programación orientada a objetos (POO) en JavaScript,**  se organiza el código alrededor de **objetos**, los cuales son **instancias de clases**.
+
+OBJETOS
+	- datos
+-  	Estos objetos contienen
+-  d	atos (propiedades)
+-  funciones (métodos) que operan sobre esos datos. 
+
+JavaScript, aunque basado en prototipos, permite un estilo de programación orientado a objetos mediante el uso de clases (introducidas en ES6) y objetos
 
 
 Comencemos con una analogía. Crear un plano de una casa:
@@ -1381,7 +1389,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NTM2MDEyNSwtNTA2MDk3MzExLDg5NT
+eyJoaXN0b3J5IjpbLTQ0ODE2MDE3MSwtNTA2MDk3MzExLDg5NT
 A1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0xMzMyMzgyNDA0
 LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyODA3NjczLDE2Nz
 MyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMwLC05MDU3OTI1
