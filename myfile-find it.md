@@ -1155,7 +1155,8 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 <br>
 <div class="contenedor-imagenes">
-
+  display: flex;
+  justify-content: space-between;
   <img src="planoCasa.png" width="50%" Alt="plano de una Casa" class="imagen-izquierda" style="margin-top: 120px;">
   <img src="casaEstruct.png" width="25%" Alt="estructura de una Casa" class="imagen-derecha" style="margin-top: -20px;">
 </div>
@@ -1469,7 +1470,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDc4MzkxNSwxMTY1OTMwMywtODY2Mz
+eyJoaXN0b3J5IjpbLTg5NjMwNzM3MSwxMTY1OTMwMywtODY2Mz
 Y1NTc3LDEzOTE2MDQ1NDMsMTU4NjQyNzE4MywtMTY3OTQ2NTU2
 OCwxMTU5NjYzNTg2LC0yMTMzOTc4MjY0LDEzMzMxNDI3MDIsLT
 EzNzU0NjMyNzksNjg4Njg5OTQxLDE4MjAzMDg2MzcsLTE5Njkz
