@@ -1198,9 +1198,9 @@ Entonces, recapitulando, lo que hará el programa será:
 
 **Un constructor**  es una función especial  (**palabra clave reservada para las clases**) que:
 - se utiliza para **crear e inicializar objetos**.
-- se encarga de **definir las propiedades iniciales de un objeto** al momento de su creación.  Estas propiedades:
-	-  Son variables que se definen dentro de la función constructora para almacenar datos sobre el objeto.
-	- Se acceden y modifican utilizando la palabra clave  `this`  seguida del nombre de la propiedad.
+- se encarga de **definir las propiedades iniciales de un objeto** al momento de su creación.  Estas **propiedades**:
+	-  Son **variables** que se definen dentro de la función constructora **para almacenar datos sobre el objeto**.
+	- Se **acceden y modifican utilizando la palabra clave  `this`  seguida del nombre de la propiedad.**
 - **Un constructor se invoca con** la palabra clave  **`new`**. 
 
 #### SINTAXIS BÁSICA DEL CONTRUCTOR
@@ -1209,7 +1209,6 @@ Entonces, recapitulando, lo que hará el programa será:
 <img src="constructorSintaxis.png" Alt="sintaxis constructor">
 
 
-- Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  
 - Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
 - No siempre están en todas las clases, pero generalmente sí, porque necesitaremos realizar procesos
 	- **como fijar valores** 
@@ -1218,6 +1217,7 @@ Entonces, recapitulando, lo que hará el programa será:
  -**El constructor**, pues,  **define el método que se ejecuta al crear una nueva instancia de la clase**. 
  - Una **clase** en sí **no ejecuta nada** (son como hemos dicho un conjunto de reglas y pautas para la ejecución)
  -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto. (lo haremos con la palabra clave `new`** ).
+ - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  .
 <br>
 #### EJEMPLO CLASE E INSTANCIA:
 <img src="claseConstructor.png" Alt="clase e instancia">
@@ -1422,11 +1422,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTI5ODI5OSwyMDg0NjkyNjEyLDE2Nj
-I5NjcyNzAsNzM4MTIwMDkyLDEyMzQ5NTAxNSwtNDM2MDU1NzA1
-LC05ODUzODM5MDUsMzg1NjgwNTQ2LDY1NzcwNDEwNSwtMjA2OT
-g2NDU1NCwtNTA2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcs
-Nzk3ODYyNTUxLC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNj
-Q2NTI4MCwxMjgyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3
-NF19
+eyJoaXN0b3J5IjpbNDQyNzQwODE5LDIwODQ2OTI2MTIsMTY2Mj
+k2NzI3MCw3MzgxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUs
+LTk4NTM4MzkwNSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5OD
+Y0NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3
+OTc4NjI1NTEsLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2ND
+Y1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0
+XX0=
 -->
