@@ -1409,8 +1409,10 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 		-  realizar cálculos matemáticos. 
 		
 -  **Funciones de fábrica**:  
-	- una función fábrica es cualquier función que devuelve un objeto nuevo cada vez que se llama. **No requieren el uso de  `new`, lo que permite crear objetos de manera más flexible**.
-	- cuando un **método estático** se utiliza **para crear objetos**, se convierte en una **función fábrica**. Esto es útil **cuando** se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica, y se prefiere evitar el uso de  `new`  por simplicidad o por otras razones de diseño**. Es decir, pueden usarse para crear instancias de la clase de forma personalizada. 
+	- cuando un **método estático** se utiliza **para crear objetos**, se convierte en una **función fábrica**
+	- una función fábrica es cualquier función que **devuelve un objeto nuevo cada vez que se llama**. 
+	- **No requieren el uso de  `new`,** lo que permite **crear objetos de manera más flexible**.
+	- . Esto es útil **cuando** se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica, y se prefiere evitar el uso de  `new`  por simplicidad o por otras razones de diseño**. Es decir, pueden usarse para crear instancias de la clase de forma personalizada. 
 
     
   
@@ -1570,11 +1572,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDYzMTA2NSwtMTk0NjE1MjA3OCwxMT
-AyOTE5MDc3LDE3NTU0MjI2NDgsMjE0Njg2Njc0NiwtODgwMjAy
-MzM3LDUxMTE3NDkzNiw0MDE0NDAzNjksMjAzODI5MTc3OSwxNT
-I2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEsLTEzOTMxMDcx
-NzgsMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OTMxNjA3MDAsLT
-g5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3LDEzOTE2MDQ1
-NDNdfQ==
+eyJoaXN0b3J5IjpbLTEyODQ0OTM3NTMsLTE5NDYxNTIwNzgsMT
+EwMjkxOTA3NywxNzU1NDIyNjQ4LDIxNDY4NjY3NDYsLTg4MDIw
+MjMzNyw1MTExNzQ5MzYsNDAxNDQwMzY5LDIwMzgyOTE3NzksMT
+UyNjUwMjc1NSwxODk5NDU2OTEsNTM0NzM2MzcxLC0xMzkzMTA3
+MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0MSwtODkzMTYwNzAwLC
+04OTYzMDczNzEsMTE2NTkzMDMsLTg2NjM2NTU3NywxMzkxNjA0
+NTQzXX0=
 -->
