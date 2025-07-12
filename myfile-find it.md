@@ -1244,16 +1244,12 @@ console.log(jon);
 
 <img src="instancia.png" Alt="instancia muestra atributo">
 
+#### OTRO EJEMPLO:
 
 
-
-
-
-
- "implements" y "using", que son dos palabras clave clave que nos permiten aplicar la funcionalidad de una clase a la nuestra. Implemento y uso.
  
 
- Esto se utiliza mucho en React, View y Angular. 
+
 
 
 # 7. ¿Qué es una promesa en JS?
@@ -1407,11 +1403,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk0NTI1NjksMTY2Mjk2NzI3MCw3Mz
-gxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLTk4NTM4Mzkw
-NSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5ODY0NTU0LC01MD
-YwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEs
-LTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyOD
-I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
-MzBdfQ==
+eyJoaXN0b3J5IjpbMTA2NTc1MTQ0OCwxNjYyOTY3MjcwLDczOD
+EyMDA5MiwxMjM0OTUwMTUsLTQzNjA1NTcwNSwtOTg1MzgzOTA1
+LDM4NTY4MDU0Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLTUwNj
+A5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwt
+MTMzMjM4MjQwNCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMTI4Mj
+gwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUz
+MF19
 -->
