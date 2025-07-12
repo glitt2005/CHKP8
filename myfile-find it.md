@@ -1225,7 +1225,7 @@ Entonces, recapitulando, lo que hará el programa será:
 -	Lo añadimos a la clase para que forme parte de ella, y la forma de que esto funcione es a través de la palabra clave `this`. 
 -	Accediendo a **`name`** mediante **`this.name` estamos añadiendo el atributo `name`** a **`this.name`**.
 -	Los colores aquí muestran perfectamente que son cosas diferentes:
-	-	 los dos <font color = blue> **`name` en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  **<font color = darkred>  `name` en color rojo**</font> en `this.name` hace referencia **a una instancia de la clase `Instructor`,** precisamente la instancia que hemos creado en la función `jon`.  En esta instancia en específico, le decimos que **almacene cualquier `name`** (`this.name = name`) **que sea pasado como parámetro con este objeto.**
+	-	 los dos <font color = blue> **`name` en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  **<font color = darkred>  `name` en color rojo**</font> en `this.name` hace referencia **a una instancia de la clase `Instructor`,** precisamente la instancia que hemos creado asignándola a la variable `jon`.  En esta instancia en específico, le decimos que **almacene cualquier `name`** (`this.name = name`) **que sea pasado como parámetro con este objeto.**
 
 
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
@@ -1407,11 +1407,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2Mjk2NzI3MCw3MzgxMjAwOTIsMTIzND
-k1MDE1LC00MzYwNTU3MDUsLTk4NTM4MzkwNSwzODU2ODA1NDYs
-NjU3NzA0MTA1LC0yMDY5ODY0NTU0LC01MDYwOTczMTEsODk1MD
-U3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEsLTEzMzIzODI0MDQs
-LTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3Mz
-I1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUx
-MF19
+eyJoaXN0b3J5IjpbLTEwODIxNDQzMzksMTY2Mjk2NzI3MCw3Mz
+gxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLTk4NTM4Mzkw
+NSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5ODY0NTU0LC01MD
+YwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEs
+LTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyOD
+I4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1
+MzBdfQ==
 -->
