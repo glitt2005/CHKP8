@@ -1389,10 +1389,10 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 ```
 
 (1) Como vemos, el método estático  `despedirse()` se ejecuta sin problemas accediendo a él con el nombre de la clase delante.
-(2) El método `entrar() `no es estático - Necesita un instancia para acceder a él. Nos da error.
+(2) El método `entrar()` no es estático - Necesita un instancia para acceder a él. Nos da error.
 (3) Creamos la instancia
-(4) El método despedirse() es estático, la forma de acceder a él es a través de la clase, no de una instancia.
-(5) 
+(4) El método `despedirse()` es estático, la forma de acceder a él es a través de la **clase**, **no de una instancia**.
+(5) El método `entrar()` no es estático, ya hemos **creado la instancia y esta vez no nos da error**.
 #### EJEMPLO 1:   Creamos un producto genérico para una empresa
 
 
@@ -1555,7 +1555,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MDg5OTQ1NiwxNzU1NDIyNjQ4LDIxND
+eyJoaXN0b3J5IjpbMTg4MDQwNjI5MSwxNzU1NDIyNjQ4LDIxND
 Y4NjY3NDYsLTg4MDIwMjMzNyw1MTExNzQ5MzYsNDAxNDQwMzY5
 LDIwMzgyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0Nz
 M2MzcxLC0xMzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0
