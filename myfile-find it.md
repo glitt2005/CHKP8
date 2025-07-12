@@ -1151,14 +1151,12 @@ JavaScript, aunque basado en **prototipos**, permite un estilo de programación 
 
 
 Comencemos con **una analogía**. Crear un **plano de una casa**:
-<div class="contenedor flex-container">
-<div class="contenedor-imagenes">
-  <img src="planoCasa.png" width="50%" Alt="plano de una Casa" class="imagen-izquierda" style="margin-top: 120px;">
-  <img src="casaEstruct.png" width="25%" Alt="estructura de una Casa" class="imagen-derecha" style="margin-top: -20px;">
-  </div>
+
+
+<div style="display: flex; justify-content: space-between;">  
+<img src="planoCasa.png" width="50%" Alt="plano de una Casa" style="float: left;">  
+ <img src="casaEstruct.png" width="25%" Alt="estructura de una Casa" style="float: right;">  
 </div>
-
-
  
 
 </div>
@@ -1478,7 +1476,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDA4MDA0OCwtMjg3MzkwNDQxLC04OT
+eyJoaXN0b3J5IjpbLTYyODcwNjE2MywtMjg3MzkwNDQxLC04OT
 MxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3
 LDEzOTE2MDQ1NDMsMTU4NjQyNzE4MywtMTY3OTQ2NTU2OCwxMT
 U5NjYzNTg2LC0yMTMzOTc4MjY0LDEzMzMxNDI3MDIsLTEzNzU0
