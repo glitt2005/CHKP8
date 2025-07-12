@@ -1206,21 +1206,6 @@ Entonces, recapitulando, lo que hará el programa será:
 
 <img src="constructorSintaxis.png" Alt="sintaxis constructor">
 
-```Javascript
-class MiClase {
-    constructor(parametro1, parametro2) {
-        // inicialización de propiedades del objeto
-        this.propiedad1 = parametro1;
-        this.propiedad2 = parametro2;
-    }
-}
-```
--   `constructor()`  es el método especial de la clase.
--   `parametro1`,  `parametro2`  son parámetros que puedes pasar al constructor cuando se crea la instancia.
--   `this.propiedad1`  y  `this.propiedad2`  asignan valores a las propiedades del objeto.
-
-
-
 
 - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  
 - Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
@@ -1421,11 +1406,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NTM4MzkwNSwzODU2ODA1NDYsNjU3Nz
-A0MTA1LC0yMDY5ODY0NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0
-LDE0NDI5MzMxNyw3OTc4NjI1NTEsLTEzMzIzODI0MDQsLTU3NT
-U5MjkwNCwtODA2NDY1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIz
-NiwxNDk3NzU3OTc0LDE3MDA5Nzc1MzAsLTkwNTc5MjUxMCwtMz
-k3MTU0NjI2LDc3MDY4MzE2MSwxMTQwOTg2MTksMjAxODcyNDU3
-MV19
+eyJoaXN0b3J5IjpbLTM3NjY4Mjg5MiwtOTg1MzgzOTA1LDM4NT
+Y4MDU0Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLTUwNjA5NzMx
+MSw4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwtMTMzMj
+M4MjQwNCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMTI4MjgwNzY3
+MywxNjczMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUzMCwtOT
+A1NzkyNTEwLC0zOTcxNTQ2MjYsNzcwNjgzMTYxLDExNDA5ODYx
+OV19
 -->
