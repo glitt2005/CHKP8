@@ -1222,9 +1222,9 @@ Entonces, recapitulando, lo que hará el programa será:
 #### EJEMPLO DE CLASE E INSTANCIA:
 <img src="claseConstructor.png" Alt="clase e instancia">
 
--	El crear uns **instancia** nos dirige automáticamente **al `constructor`.**
+-	El hecho de crear una **instancia** nos dirige automáticamente **al `constructor`.**
 -	En **`constructor ({ name })`**, aquí   **`name`**  mapeará a lo que se pasará cuando creemos un nuevo Instructor: **`new Instructor`**). Y queremos hacer algo con este **`name`**.  
--	Lo añadimos a la clase para que forme parte de ella, y la forma de que esto funcione es a través de la palabra clave `this`. 
+-	Lo añadimos a la clase para que forme parte de ella, y la forma de que esto funcione es a través de la palabra clave **`this`**. 
 -	Accediendo a **`name`** mediante **`this.name` estamos añadiendo el atributo `name`** a **`this.name`**.
 -	Los colores aquí muestran perfectamente que son cosas diferentes:
 	-	 los dos <font color = blue> **`name` en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  **<font color = darkred>  `name` en color rojo**</font> en `this.name` hace referencia **a una instancia de la clase `Instructor`,** precisamente la instancia que hemos creado asignándola a la variable `jon`.  En esta instancia en específico, le decimos que **almacene cualquier `name`** (`this.name = name`) **que sea pasado como parámetro con este objeto.**
@@ -1266,9 +1266,11 @@ En este ejemplo:
 -   Cuando se crea la **instancia**  `miCoche`, se pasan los **valores**  `'Toyota'`,  `'Corolla'`  y  `2020`  **al constructor**.
 -   El **constructor asigna estos valores a las propiedades del objeto**, usando  `this.marca`,  `this.modelo`  y  `this.año`.
 
+
  ## 2. MÉTODOS DE INSTANCIA
 
 
+## 2. MÉTODOS ESTÁTICOS
 
 
 # 7. ¿Qué es una promesa en JS?
@@ -1422,11 +1424,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2NjcwOTcxLDIwODQ2OTI2MTIsMTY2Mj
-k2NzI3MCw3MzgxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUs
-LTk4NTM4MzkwNSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5OD
-Y0NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3
-OTc4NjI1NTEsLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2ND
-Y1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0
-XX0=
+eyJoaXN0b3J5IjpbLTE0NTcyODYyNjksMjA4NDY5MjYxMiwxNj
+YyOTY3MjcwLDczODEyMDA5MiwxMjM0OTUwMTUsLTQzNjA1NTcw
+NSwtOTg1MzgzOTA1LDM4NTY4MDU0Niw2NTc3MDQxMDUsLTIwNj
+k4NjQ1NTQsLTUwNjA5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3
+LDc5Nzg2MjU1MSwtMTMzMjM4MjQwNCwtNTc1NTkyOTA0LC04MD
+Y0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5
+NzRdfQ==
 -->
