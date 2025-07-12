@@ -1208,7 +1208,7 @@ Entonces, recapitulando, lo que hará el programa será:
 
 <img src="constructorSintaxis.png" Alt="sintaxis constructor">
 
-#### Algunos conceptos clave sobre el 
+#### ALGUNOS CONCEPTOS CLAVE DEL CONSTRUCTOR
 
 
 - Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
@@ -1216,10 +1216,10 @@ Entonces, recapitulando, lo que hará el programa será:
 - Tareas: fijar valores, llamar a otras funciones, etc.
 - **El constructor define el método que se ejecuta al crear una nueva instancia de la clase**. 
  - Una **clase** en sí **no ejecuta nada** (son como hemos dicho un conjunto de reglas y pautas para la ejecución)
- -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto. (lo haremos con la palabra clave `new`** ).
- - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  .
+ -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto** (lo haremos con la palabra clave **`new`** ).
+ - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  
 <br>
-#### EJEMPLO CLASE E INSTANCIA:
+#### EJEMPLO DE CLASE E INSTANCIA:
 <img src="claseConstructor.png" Alt="clase e instancia">
 
 -	El crear uns **instancia** nos dirige automáticamente **al `constructor`.**
@@ -1422,11 +1422,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzkzOTIxMjcsMjA4NDY5MjYxMiwxNj
-YyOTY3MjcwLDczODEyMDA5MiwxMjM0OTUwMTUsLTQzNjA1NTcw
-NSwtOTg1MzgzOTA1LDM4NTY4MDU0Niw2NTc3MDQxMDUsLTIwNj
-k4NjQ1NTQsLTUwNjA5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3
-LDc5Nzg2MjU1MSwtMTMzMjM4MjQwNCwtNTc1NTkyOTA0LC04MD
-Y0NjUyODAsMTI4MjgwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5
-NzRdfQ==
+eyJoaXN0b3J5IjpbOTU2NjcwOTcxLDIwODQ2OTI2MTIsMTY2Mj
+k2NzI3MCw3MzgxMjAwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUs
+LTk4NTM4MzkwNSwzODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5OD
+Y0NTU0LC01MDYwOTczMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3
+OTc4NjI1NTEsLTEzMzIzODI0MDQsLTU3NTU5MjkwNCwtODA2ND
+Y1MjgwLDEyODI4MDc2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0
+XX0=
 -->
