@@ -1295,6 +1295,7 @@ En este ejemplo:
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 **OJO!!** No debemos olvidar que PRIMERO debemos INSTANCIAR LA CLASE para convertir la variable a OBJETO. **Nunca podríamos llamar al método de la instancia sin instanciar la clase primero**. De hecho, nos daría **error**.
+<br>
 
  ### EJEMPLO 2 - Métodos de Instancia
 
@@ -1310,7 +1311,9 @@ class Coche {
 const miCoche = new Coche('Toyota', 'Corolla', 2020);
 console.log(miCoche);
 ```
-
+-   La clase  `Coche`  tiene un constructor que toma tres parámetros:  `marca`,  `modelo`  y  `año`.
+-   Cuando se crea la instancia  `miCoche`, se pasan los valores  `'Toyota'`,  `'Corolla'`  y  `2020`  al constructor.
+-   El constructor asigna estos valores a las propiedades del objeto, usando  `this.marca`,  `this.modelo`  y  `this.año`.
 ## 2. MÉTODOS ESTÁTICOS
 
 
@@ -1465,7 +1468,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzk1NDQ4OSw0MDE0NDAzNjksMjAzOD
+eyJoaXN0b3J5IjpbMTA0NDY0NTAzNyw0MDE0NDAzNjksMjAzOD
 I5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEs
 LTEzOTMxMDcxNzgsMTgyNTczMzc3MywtMjg3MzkwNDQxLC04OT
 MxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMwMywtODY2MzY1NTc3
