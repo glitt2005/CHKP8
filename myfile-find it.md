@@ -1258,7 +1258,12 @@ class Coche {
 const miCoche = new Coche('Toyota', 'Corolla', 2020);
 console.log(miCoche);
 ```
-```
+En este ejemplo:
+
+-   La **clase**  `Coche`  tiene un **constructor** que toma **tres parámetros**:  `marca`,  `modelo`  y  `año`.
+-   Cuando se crea la **instancia**  `miCoche`, se pasan los **valores**  `'Toyota'`,  `'Corolla'`  y  `2020`  al constructor.
+-   El constructor asigna estos valores a las propiedades del objeto, usando  `this.marca`,  `this.modelo`  y  `this.año`.
+
  
 
 
@@ -1415,11 +1420,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTM0NzUyOCwxNjYyOTY3MjcwLDczOD
-EyMDA5MiwxMjM0OTUwMTUsLTQzNjA1NTcwNSwtOTg1MzgzOTA1
-LDM4NTY4MDU0Niw2NTc3MDQxMDUsLTIwNjk4NjQ1NTQsLTUwNj
-A5NzMxMSw4OTUwNTc5NDQsMTQ0MjkzMzE3LDc5Nzg2MjU1MSwt
-MTMzMjM4MjQwNCwtNTc1NTkyOTA0LC04MDY0NjUyODAsMTI4Mj
-gwNzY3MywxNjczMjUxMjM2LDE0OTc3NTc5NzQsMTcwMDk3NzUz
-MF19
+eyJoaXN0b3J5IjpbMTIzODcwMTgsMTY2Mjk2NzI3MCw3MzgxMj
+AwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLTk4NTM4MzkwNSwz
+ODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5ODY0NTU0LC01MDYwOT
+czMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEsLTEz
+MzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyODI4MD
+c2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1MzBd
+fQ==
 -->
