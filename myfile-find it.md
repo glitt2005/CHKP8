@@ -1174,8 +1174,8 @@ Esta **estructura** la podemos asociar con lo que en Javascript corresponde a un
 
 
 #### EJEMPLO: Imaginemos la clase `Usuario`:
-- Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa **revisará la clase `Usuario` y verá esa esa estructura**. Es lo mismo que decir que "es importante ver **cómo debería comportarse ese usuario**", para p para luego pasar al siguiente paso. 
-- **LA INSTANCIACIÓN**.  Es un término complejo. Significa que tomamos ese plano y **creamos con él un objeto real**.
+- CLASE: Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa **revisará la clase `Usuario` y verá esa esa estructura**. Es lo mismo que decir que "es importante ver **cómo debería comportarse ese usuario**", para pasar luego al siguiente paso. 
+- INSTANCIACIÓN: Es un término complejo. Significa que tomamos ese plano y **creamos con él un objeto real**.
 
 En nuestro ejemplo:
 - tenemos una clase `Usuario` 
@@ -1395,7 +1395,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTU2NTAzNywtMjA2OTg2NDU1NCwtNT
+eyJoaXN0b3J5IjpbLTUzNDA4NTkwMiwtMjA2OTg2NDU1NCwtNT
 A2MDk3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUx
 LC0xMzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMj
 gyODA3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3
