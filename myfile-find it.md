@@ -1382,15 +1382,17 @@ class Cliente {
 console.log(Cliente.despedirse());    // (1)Método estático (no requiere instancia): 'Adiós'
 Cliente.entrar();                  // (2) Uncaught TypeError: Cliente.entrar is not a function
 
-const cliente1 = new Cliente();   // Creamos una instancia
+const cliente1 = new Cliente();   // (3) Creamos una instancia
 
-cliente1.despedirse();          // Uncaught TypeError: cliente1.despedirse is not a function
+cliente1.despedirse();          //(3 Uncaught TypeError: cliente1.despedirse is not a function
 console.log(cliente1.entrar());              // Método no estático (requiere instancia): 'Hola'
 ```
 
 (1) Como vemos, el método estático despedirse() se ejecuta sin problemas accediendo a él con el nombre de la clase delante.
 (2) El método entrar() no es estático - Necesita un instancia para acceder a él. Nos da error.
-(3)
+(3) Creamos la instancia
+(4) El método despedirse() es estático, la forma de acceder a él es a través de la clase, no de una instancia.
+(5) 
 #### EJEMPLO 1:   Creamos un producto genérico para una empresa
 
 
@@ -1553,7 +1555,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2ODUwMTgxLDE3NTU0MjI2NDgsMjE0Nj
+eyJoaXN0b3J5IjpbNjE4NTgxOTk2LDE3NTU0MjI2NDgsMjE0Nj
 g2Njc0NiwtODgwMjAyMzM3LDUxMTE3NDkzNiw0MDE0NDAzNjks
 MjAzODI5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3Mz
 YzNzEsLTEzOTMxMDcxNzgsMTgyNTczMzc3MywtMjg3MzkwNDQx
