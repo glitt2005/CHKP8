@@ -1356,6 +1356,7 @@ JavaScript
     
     // Devuelve: Producto { nombre: 'Producto Genérico', precio: 0 }
 ```
+Como vemos, ha podido acceder tanto al 
 ¿Cuándo utilizarlos?
 Los métodos estáticos son útiles cuando:
 No necesitan acceder a propiedades de instancia: Si un método no necesita acceder a datos específicos de un objeto, es más eficiente declararlo como estático. 
@@ -1513,11 +1514,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0Njg2Njc0NiwtODgwMjAyMzM3LDUxMT
-E3NDkzNiw0MDE0NDAzNjksMjAzODI5MTc3OSwxNTI2NTAyNzU1
-LDE4OTk0NTY5MSw1MzQ3MzYzNzEsLTEzOTMxMDcxNzgsMTgyNT
-czMzc3MywtMjg3MzkwNDQxLC04OTMxNjA3MDAsLTg5NjMwNzM3
-MSwxMTY1OTMwMywtODY2MzY1NTc3LDEzOTE2MDQ1NDMsMTU4Nj
-QyNzE4MywtMTY3OTQ2NTU2OCwxMTU5NjYzNTg2LC0yMTMzOTc4
-MjY0XX0=
+eyJoaXN0b3J5IjpbMTc1MDk2NzcyNiwyMTQ2ODY2NzQ2LC04OD
+AyMDIzMzcsNTExMTc0OTM2LDQwMTQ0MDM2OSwyMDM4MjkxNzc5
+LDE1MjY1MDI3NTUsMTg5OTQ1NjkxLDUzNDczNjM3MSwtMTM5Mz
+EwNzE3OCwxODI1NzMzNzczLC0yODczOTA0NDEsLTg5MzE2MDcw
+MCwtODk2MzA3MzcxLDExNjU5MzAzLC04NjYzNjU1NzcsMTM5MT
+YwNDU0MywxNTg2NDI3MTgzLC0xNjc5NDY1NTY4LDExNTk2NjM1
+ODZdfQ==
 -->
