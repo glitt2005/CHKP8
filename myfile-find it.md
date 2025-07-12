@@ -1261,8 +1261,8 @@ console.log(miCoche);
 En este ejemplo:
 
 -   La **clase**  `Coche`  tiene un **constructor** que toma **tres parámetros**:  `marca`,  `modelo`  y  `año`.
--   Cuando se crea la **instancia**  `miCoche`, se pasan los **valores**  `'Toyota'`,  `'Corolla'`  y  `2020`  al constructor.
--   El constructor asigna estos valores a las propiedades del objeto, usando  `this.marca`,  `this.modelo`  y  `this.año`.
+-   Cuando se crea la **instancia**  `miCoche`, se pasan los **valores**  `'Toyota'`,  `'Corolla'`  y  `2020`  **al constructor**.
+-   El **constructor asigna estos valores a las propiedades del objeto**, usando  `this.marca`,  `this.modelo`  y  `this.año`.
 
  
 
@@ -1420,11 +1420,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODcwMTgsMTY2Mjk2NzI3MCw3MzgxMj
-AwOTIsMTIzNDk1MDE1LC00MzYwNTU3MDUsLTk4NTM4MzkwNSwz
-ODU2ODA1NDYsNjU3NzA0MTA1LC0yMDY5ODY0NTU0LC01MDYwOT
-czMTEsODk1MDU3OTQ0LDE0NDI5MzMxNyw3OTc4NjI1NTEsLTEz
-MzIzODI0MDQsLTU3NTU5MjkwNCwtODA2NDY1MjgwLDEyODI4MD
-c2NzMsMTY3MzI1MTIzNiwxNDk3NzU3OTc0LDE3MDA5Nzc1MzBd
-fQ==
+eyJoaXN0b3J5IjpbODEyNTYwNjUwLDE2NjI5NjcyNzAsNzM4MT
+IwMDkyLDEyMzQ5NTAxNSwtNDM2MDU1NzA1LC05ODUzODM5MDUs
+Mzg1NjgwNTQ2LDY1NzcwNDEwNSwtMjA2OTg2NDU1NCwtNTA2MD
+k3MzExLDg5NTA1Nzk0NCwxNDQyOTMzMTcsNzk3ODYyNTUxLC0x
+MzMyMzgyNDA0LC01NzU1OTI5MDQsLTgwNjQ2NTI4MCwxMjgyOD
+A3NjczLDE2NzMyNTEyMzYsMTQ5Nzc1Nzk3NCwxNzAwOTc3NTMw
+XX0=
 -->
