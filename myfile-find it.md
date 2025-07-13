@@ -1511,12 +1511,16 @@ Explicación:
     -   Esta función se usa para indicar que la operación asíncrona ha terminado **con éxito.**
     -   `valor`  **es el resultado de la operación, que se pasará al siguiente bloque  `then()`**  en la cadena de promesas.
     -   Si  `valor`  es otra promesa, se "aplanará" (pondrá en una sola capa todas las promesas anidadas) y su resultado se usará como el resultado de esta promesa.
+    -
+	    - **`then()`:**  se usa para **encadenar funciones a una promesa, permitiendo manejar el resultado exitoso** de una operación asíncrona. Cuando la promesa se resuelve, la función  `then()`  se ejecuta con el valor de la promesa, y si devuelve otra promesa, el encadenamiento continúa con esa nueva promesa.
     
 -   **`reject(error)`:**
     
     -   Esta función se usa para indicar que la operación asíncrona **ha fallado.**
     -   **`error`**  es una **descripción del error**, que puede ser cualquier tipo de valor, aunque **se recomienda usar un objeto  `Error`  para facilitar la depuración**,  [según Stack Overflow en español](https://es.stackoverflow.com/questions/64265/qu%C3%A9-es-una-promesa-en-javascript).
     -   El error se pasará al bloque  `catch()`  o al siguiente  `then()`  con un segundo argumento (el manejador de rechazo) en la cadena de promesas.
+
+-   **`then()`:**  se usa para encadenar funciones a una promesa, permitiendo manejar el resultado exitoso de una operación asíncrona. Cuando la promesa se resuelve, la función  `then()`  se ejecuta con el valor de la promesa, y si devuelve otra promesa, el encadenamiento continúa con esa nueva promesa.
 
 
 ### Proceso básico promesa
@@ -1761,11 +1765,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMz
-g1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1
-Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xND
-k3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0
-MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC
-0xNjg0MTU5OTIsNDA3OTQ4NzgyLDIwODUyODczMDEsLTkxNzYx
-ODAxN119
+eyJoaXN0b3J5IjpbLTE4NjgxMzYzMjUsOTU3NzQ3NDI2LC0xND
+cyMzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4
+MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNz
+A5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcx
+ODAsLTE0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkwLC
+0xNDc3Mzk1MTg0LC0xNjg0MTU5OTIsNDA3OTQ4NzgyLDIwODUy
+ODczMDFdfQ==
 -->
