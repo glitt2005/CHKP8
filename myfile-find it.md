@@ -1427,8 +1427,12 @@ Cuando estemos creando una aplicación y nos preguntemos si usar un método est�
 </div>
 
 Hay una línea muy fina entre:
-- qué debería ir dentro de la clase
-- qué debería ser potencialmente un módulo o método auxiliar.
+
+<div align="center">
+<img src="disyuntiva.png"  width = "40%" alt="pregunta método estático">
+</div>
+
+
 
 
 
@@ -1600,11 +1604,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3OD
-AxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5
-NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLD
-QwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMw
-MzAzNDQsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MCwxODEyNzIwOT
-E1LDE4MDY4OTc1ODMsMTc1MTg2NzQ0NSwtNzI5NTk4ODAzLC0x
-NjA2MDg0NTk3XX0=
+eyJoaXN0b3J5IjpbNzQyNjI3NjYsLTcwOTE4NzY3OSwtMTQ5Nz
+M4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5
+LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMT
+Y4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgw
+MTcsLTE2NzMwMzAzNDQsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MC
+wxODEyNzIwOTE1LDE4MDY4OTc1ODMsMTc1MTg2NzQ0NSwtNzI5
+NTk4ODAzXX0=
 -->
