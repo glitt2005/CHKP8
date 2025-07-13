@@ -1570,7 +1570,10 @@ sleepyGreeting
 ### Llamada a la función: métodos <big>`then()` </big>y  <big>`catch()` :
 
 1. `data` es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
-Significa que cuando llamamos a la función (sleepyGreeting()) y obtengamos la respuesta -y podemos traducir directamente del inglés-  entonces () haz todo lo que ponga dentro del bloque después de then(). Es decir, acceder a data. 	En nuestro caso sería nuestro string “Hello……”. En otros casos correspondería a las peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.
+Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la respuesta:
+	"entonces, haz esto, esto y esto"  (lo que ponga despues del `then()` 
+	
+	En nuestro caso sería nuestro string <**“Hello……”.** En otros casos correspondería a las peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.
 
 
 <![endif]-->
@@ -1758,11 +1761,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxODEzMTU2LDUzNDM1NzEwNywxMzcyNT
-AwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2
-LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NT
-AyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3
-NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOT
-MxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1
-OTkyXX0=
+eyJoaXN0b3J5IjpbMTE3MDA4ODAzNyw1MzQzNTcxMDcsMTM3Mj
+UwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4
+NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNj
+UwMjQxMywxMDQxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1
+NzUsNzgwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMT
+kzMTgyOTU1LC05Mjk4ODE4OTAsLTE0NzczOTUxODQsLTE2ODQx
+NTk5Ml19
 -->
