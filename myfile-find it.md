@@ -661,8 +661,6 @@ En JavaScript, **deconstrucción** (o *destructuring*) y **desestructuración** 
 
 <table>
 <caption>¿QUÉ HACEMOS AL <strong>DECONSTRUIR?</strong></caption>
-    <thead>
-    </thead>
     <tbody>
         <tr>
             <td rowspan=3 align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extraer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
@@ -1591,11 +1589,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzE5MjA3MTAsLTc5NzAxMjkzMCwxNT
-M4ODk0MzkwLDE2ODE1NTU1MDMsMTUxOTM4NTcyLC0xMTIzODI1
-ODIsLTI4MzQ2Njg3MSw4MTE2NDc5NDYsLTEyOTMwODk3MTYsMT
-Y5MjQ0MDc0OSwtMTIwNjg3MTY5NCwzNjcwNDc1MTIsMTUyNDEw
-MDEyMSwxMjEyMTE3NjQ2LC0xMTA0NTI4MTc5LDcxODA1NjAwMC
-w2NzY3MzI0MjgsLTgyNjI0OTUwLC03ODk5ODA5MjUsMTU2ODIz
-MTkxOF19
+eyJoaXN0b3J5IjpbMjMxNDk3OTA1LC03OTcwMTI5MzAsMTUzOD
+g5NDM5MCwxNjgxNTU1NTAzLDE1MTkzODU3MiwtMTEyMzgyNTgy
+LC0yODM0NjY4NzEsODExNjQ3OTQ2LC0xMjkzMDg5NzE2LDE2OT
+I0NDA3NDksLTEyMDY4NzE2OTQsMzY3MDQ3NTEyLDE1MjQxMDAx
+MjEsMTIxMjExNzY0NiwtMTEwNDUyODE3OSw3MTgwNTYwMDAsNj
+c2NzMyNDI4LC04MjYyNDk1MCwtNzg5OTgwOTI1LDE1NjgyMzE5
+MThdfQ==
 -->
