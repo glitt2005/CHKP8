@@ -1412,8 +1412,7 @@ El método estático es útil cuando se necesita crear instancias de una clase c
 		- como métodos para **manipular arrays**
 		-  realizar **cálculos matemáticos**. 
 		
--  **Funciones de fábrica**:  
-	- una función fábrica es cualquier función que **devuelve un objeto nuevo cada vez que se llama**. 
+-  **Funciones de fábrica**.-   función que **devuelve un objeto** nuevo cada vez que se llama:
 	-  cuando un **método estático** se utiliza para ello,  **para crear objetos**, y se convierte en una **función fábrica**
 	
 	- **No requieren el uso de  `new`,** lo que permite **crear objetos de manera más flexible**.
@@ -1578,11 +1577,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMjA0MzU2OSwtMTg1MjY5OTA3NiwyMj
-k1NDIxMSwtMTk0NjE1MjA3OCwxMTAyOTE5MDc3LDE3NTU0MjI2
-NDgsMjE0Njg2Njc0NiwtODgwMjAyMzM3LDUxMTE3NDkzNiw0MD
-E0NDAzNjksMjAzODI5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5
-MSw1MzQ3MzYzNzEsLTEzOTMxMDcxNzgsMTgyNTczMzc3MywtMj
-g3MzkwNDQxLC04OTMxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMw
-M119
+eyJoaXN0b3J5IjpbLTE3Mzk5Mjg1MDIsLTE4NTI2OTkwNzYsMj
+I5NTQyMTEsLTE5NDYxNTIwNzgsMTEwMjkxOTA3NywxNzU1NDIy
+NjQ4LDIxNDY4NjY3NDYsLTg4MDIwMjMzNyw1MTExNzQ5MzYsND
+AxNDQwMzY5LDIwMzgyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2
+OTEsNTM0NzM2MzcxLC0xMzkzMTA3MTc4LDE4MjU3MzM3NzMsLT
+I4NzM5MDQ0MSwtODkzMTYwNzAwLC04OTYzMDczNzEsMTE2NTkz
+MDNdfQ==
 -->
