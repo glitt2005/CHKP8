@@ -1553,17 +1553,12 @@ sleepyGreeting
 3.	**Promise()**, toma **como argumento una función**. Como primer argumento (aquí no ponemos los opcionales) toma **una función**, por ello se llama  **callback**. 
 
 4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
-5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**.  Generalmente, **cuando trabajas con promesas**, una de las regla es que tu expectativa es que aquello que quieres obtener, **no lo obtengas de forma inmediata**. **Puede tardar bien milisegundos o unos segundos.** Esta función toma dos argumentos:  <br>
+5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**.  Generalmente, **cuando trabajas con promesas**, una de las regla es que tu expectativa es que aquello que quieres obtener, **no lo obtengas de forma inmediata**. **Puede tardar bien milisegundos o unos segundos.**    Este temporizador nos permite manipularlo e incluso **imitar lo que obtendríamos si llamamos a una API** o algo parecido.   Esta función toma dos argumentos:  <br>
 			-	*una función* a ejecutar  **`resolve(valor)`** y **`reject(mensaje)`**
 			-	*retraso*: **el tiempo de espera en milisegundos** (2 Segundos en este caso)
-				
+			
 
-
-
-Y colocando así nuestro método setTimeout() pausamos la ejecución del programa durante un período de tiempo. Este temporizador nos permite manipularlo e incluso imitar lo que obtendríamos si llamamos a una API o algo parecido. 
-
-
-7.	Finalmente, llamamos a la función.
+6.	Finalmente, llamamos a la función.
 
 A)	SINTAXIS:
 i.	En varias líneas, por convención común
@@ -1755,11 +1750,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2MDI3MTY1LDEzNzI1MDA1NjMsOTU3Nz
-Q3NDI2LC0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3
-NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MT
-E1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQx
-Nyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOT
-I5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0MTU5OTIsNDA3OTQ4
-NzgyXX0=
+eyJoaXN0b3J5IjpbLTEwODY0MzE5MjgsMTM3MjUwMDU2Myw5NT
+c3NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5
+Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMD
+QxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5
+NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC
+05Mjk4ODE4OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5
+NDg3ODJdfQ==
 -->
