@@ -1475,8 +1475,8 @@ Una **promesa** o bien:
 - no funciona y por lo tanto devuelve algún tipo de **error**. 
 
 
-Forma de codificación de las Promesas:
-En general, con las funciones, clases, etc no dedicamos mucho tiempo pensando en las eventualidades negativas de que ocurriera errores
+### Proceso de codificación de las promesas
+-En general, con las funciones, clases, etc no dedicamos mucho tiempo pensando en las eventualidades negativas de que ocurriera errores
 Sin embargo una Promise te obliga a crear un sistema entero dividido prácticamente 50/50 :
 -	50% del tiempo lo dedicamos a codificar sobre situaciones en las que el proceso se resuelve con éxito
 -	y el otro 50% lo pasamos creando los tipos de proceso que ocurrirán si se produce un error.
@@ -1711,7 +1711,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzOTkwNDAyLC0xODcwMzkzNzQsMTU1OD
+eyJoaXN0b3J5IjpbNTE3MjU0ODE2LC0xODcwMzkzNzQsMTU1OD
 IxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMs
 LTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NT
 Q3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5
