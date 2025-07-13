@@ -1429,7 +1429,7 @@ Cuando estemos creando una aplicación y nos preguntemos si usar un método est�
 <img src="pregunta.png"  width = "40%" alt="pregunta método estático">
 
 
-<div align="center">![whatever](image-url.jpg)</div>
+<div align="center">![whatever]("pregunta.png")</div>
 
 
 
@@ -1600,11 +1600,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTAyMTQxNywzNjcwNDc1MTIsMTUyND
-EwMDEyMSwxMjEyMTE3NjQ2LC0xMTA0NTI4MTc5LDcxODA1NjAw
-MCw2NzY3MzI0MjgsLTgyNjI0OTUwLC03ODk5ODA5MjUsMTU2OD
-IzMTkxOCwtNjI1MDU0OTkwLDEyODc5NzAwMzMsMTcxNDM0NTY5
-OSwtMTczOTkyODUwMiwtMTg1MjY5OTA3NiwyMjk1NDIxMSwtMT
-k0NjE1MjA3OCwxMTAyOTE5MDc3LDE3NTU0MjI2NDgsMjE0Njg2
-Njc0Nl19
+eyJoaXN0b3J5IjpbLTEyMDY4NzE2OTQsMzY3MDQ3NTEyLDE1Mj
+QxMDAxMjEsMTIxMjExNzY0NiwtMTEwNDUyODE3OSw3MTgwNTYw
+MDAsNjc2NzMyNDI4LC04MjYyNDk1MCwtNzg5OTgwOTI1LDE1Nj
+gyMzE5MTgsLTYyNTA1NDk5MCwxMjg3OTcwMDMzLDE3MTQzNDU2
+OTksLTE3Mzk5Mjg1MDIsLTE4NTI2OTkwNzYsMjI5NTQyMTEsLT
+E5NDYxNTIwNzgsMTEwMjkxOTA3NywxNzU1NDIyNjQ4LDIxNDY4
+NjY3NDZdfQ==
 -->
