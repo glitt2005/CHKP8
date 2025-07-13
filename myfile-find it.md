@@ -1436,12 +1436,12 @@ Ya que hay una línea muy fina entre:
 </div>
 <br>
 
-En la programación orientada a objetos,  existe el llamado algo llamado:
+En la **programación orientada a objetos**,  existe el llamado algo llamado:
 <div align="center">
 <img src="PRU.png"  width = "40%" alt="principioresp.única">
 </div>
 
-El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **cada clase**  (función, etc.) debería **tener sólo una tarea o responsabilidad** claramente definida, y **no intentar abarcar múltiples tareas** no relacionadas.
+El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **cada clase**  (función, etc.) debería **tener solo una tarea o responsabilidad** claramente definida, y **no intentar abarcar múltiples tareas** no relacionadas.
 
 
 
@@ -1613,11 +1613,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODMwMjk1NCwtMTg0MzEzNjg1Nyw5MD
-Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
-NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
-E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
-MTU5OTIsNDA3OTQ4NzgyLDIwODUyODczMDEsLTkxNzYxODAxNy
-wtMTY3MzAzMDM0NCwtNDI1Njg3Njg2LC0xODA2MjQ2MDgwLDE4
-MTI3MjA5MTVdfQ==
+eyJoaXN0b3J5IjpbMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NT
+AyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3
+NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOT
+MxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1
+OTkyLDQwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLT
+E2NzMwMzAzNDQsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MCwxODEy
+NzIwOTE1XX0=
 -->
