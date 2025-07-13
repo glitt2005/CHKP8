@@ -1627,14 +1627,18 @@ fetch('<Tu URL>', {})
 fetch('examples/example.json')
   .then(response  =>  {
     if  (!response.ok)  {
-    throw  Error(response.statusText);
+	    throw  Error(response.statusText);
     }
     // Lee la respuesta como JSON
     return response.json();
    })
    .then(responseAsJson  =>  {
      // Haz lo que quieras con la respuesta JSONificada
-       console.log(responseAsJson);  })  .catch(error  =>  {  console.log('Looks like there was a problem: \n', error);  });
+       console.log(responseAsJson);
+   })
+   .catch(error  =>  {
+      console.log('Looks like there was a problem: \n', error);
+   });
 ```
     
 
@@ -1843,7 +1847,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjUwNjk4NTgsMTg5ODA0OTYzMiwtOT
+eyJoaXN0b3J5IjpbLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOT
 E3MDY4NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEz
 NDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC
 0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4
