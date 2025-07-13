@@ -1403,7 +1403,7 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 
 - No necesitan acceder a propiedades de instancia: Si un método no necesita acceder a datos específicos de un objeto, es más eficiente declararlo como estático. 
 - Son funciones de utilidad:
-	-  para crear **funciones auxiliares** 
+	-  para crear **funciones auxiliares** (***helper modules***). Los métodos "helper" o auxiliares son funciones diseñadas para realizar tareas **específicas y reutilizables, simplificando el código y mejorando la legibilidad**. Estos métodos a menudo se encapsulan en un módulo o clase para su fácil acceso y mantenimiento.
 	- de propósito general que **no están ligadas a un objeto en particular**, por ejemplo:
 		- como métodos para **manipular arrays**
 		-  realizar **cálculos matemáticos**. 
@@ -1574,11 +1574,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI2OTkwNzYsMjI5NTQyMTEsLTE5ND
-YxNTIwNzgsMTEwMjkxOTA3NywxNzU1NDIyNjQ4LDIxNDY4NjY3
-NDYsLTg4MDIwMjMzNyw1MTExNzQ5MzYsNDAxNDQwMzY5LDIwMz
-gyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0NzM2Mzcx
-LC0xMzkzMTA3MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0MSwtOD
-kzMTYwNzAwLC04OTYzMDczNzEsMTE2NTkzMDMsLTg2NjM2NTU3
-N119
+eyJoaXN0b3J5IjpbOTcyNDM2OTYzLC0xODUyNjk5MDc2LDIyOT
+U0MjExLC0xOTQ2MTUyMDc4LDExMDI5MTkwNzcsMTc1NTQyMjY0
+OCwyMTQ2ODY2NzQ2LC04ODAyMDIzMzcsNTExMTc0OTM2LDQwMT
+Q0MDM2OSwyMDM4MjkxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1Njkx
+LDUzNDczNjM3MSwtMTM5MzEwNzE3OCwxODI1NzMzNzczLC0yOD
+czOTA0NDEsLTg5MzE2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAz
+XX0=
 -->
