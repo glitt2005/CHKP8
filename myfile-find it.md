@@ -1230,6 +1230,7 @@ Entonces, recapitulando, lo que hará el programa será:
 #### EJEMPLO DE CLASE E INSTANCIA:
 <div align="center">
 <img src="claseConstructor.png" width="65%" Alt="clase e instancia">
+<div>
 
 -	El hecho de crear una **instancia** nos dirige automáticamente **al `constructor`.**
 -	En **`constructor ({ name })`**, aquí   **`name`**  mapeará a lo que se pasará cuando creemos un nuevo Instructor: **`new Instructor`**). Y queremos hacer algo con este **`name`**.  
@@ -1252,9 +1253,9 @@ console.log(jon);
 ```
 
  Y precisamente por ello, podemos acceder al atributo **`name`**  mediante la nomenclatura con punto o **dot notation** de los objetos:
-
+<div align="center">
 <img src="instancia.png" width="65%" Alt="instancia muestra atributo">
-
+</div>
 #### OTRO EJEMPLO:
 
 ```Javascript
@@ -1291,9 +1292,9 @@ En este ejemplo:
 - Los métodos pueden **acceder a las propiedades de la instancia** actual utilizando **`this`**.
 
  ### EJEMPLO 1 - Métodos de Instancia
-
+<div align="center">
 <img src="metodoInstancia.png" width="65%" Alt="método de instancia">
->
+</div>
 
 - En el **`console.log`** del método de la instancia **`renderDetails()`**  necesitamos poner el **`this`** en **`this.name`**  para poder acceder al valor de **`name`** del argumento.
 - Cuando instanciamos y pasamos los valores entre llaves `new Instructor({name: "Jon Snow"}`; nos dirige **al contructor.**
@@ -1602,7 +1603,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE2ODIwOTMsMTY5MjQ0MDc0OSwtMT
+eyJoaXN0b3J5IjpbLTEyOTMwODk3MTYsMTY5MjQ0MDc0OSwtMT
 IwNjg3MTY5NCwzNjcwNDc1MTIsMTUyNDEwMDEyMSwxMjEyMTE3
 NjQ2LC0xMTA0NTI4MTc5LDcxODA1NjAwMCw2NzY3MzI0MjgsLT
 gyNjI0OTUwLC03ODk5ODA5MjUsMTU2ODIzMTkxOCwtNjI1MDU0
