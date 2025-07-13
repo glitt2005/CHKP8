@@ -1632,8 +1632,9 @@ fetch('https://jsonplaceholder.typicode.com/posts')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
-```js
-2. Esquema para trabajar con los datos **json** ya recibidos.
+
+
+2. Otro esquema para trabajar con los datos **json**.
 ```js
 fetch('https://rickandmortyapi.com/api/character')
   .then(response => response.json())
@@ -1855,7 +1856,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzA3OTUxMTcsLTEyODA1NTIxMjIsNz
+eyJoaXN0b3J5IjpbLTIwNjAzNzYxMDIsLTEyODA1NTIxMjIsNz
 E3MjI3NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2
 ODUwNywtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyND
 UzLDUzNDM1NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3
