@@ -1620,7 +1620,37 @@ El método  `.catch()`  se puede omitir en Fetch API. Se usa solo cuando Fetch n
 ## Como agrupar promesas
 
 
+En JavaScript, para agrupar y gestionar múltiples promesas, se utiliza el método  `Promise.all()`. Este método toma un array de promesas como argumento y devuelve una nueva promesa que se resuelve cuando todas las promesas del array original se han resuelto, o se rechaza tan pronto como una de las promesas en el array es rechazada.
 
+Ejemplo:
+
+JavaScript
+
+```js
+const promesa1 = new Promise((resolve) => setTimeout(() => resolve(1), 100));const promesa2 = new Promise((resolve) => setTimeout(() => resolve(2), 200));const promesa3 = new Promise((resolve) => setTimeout(() => resolve(3), 300));Promise.all([promesa1, promesa2, promesa3])  .then((resultados) => {    console.log(resultados); // [1, 2, 3]  })  .catch((error) => {    console.error(error);  });
+```
+
+En este ejemplo,  `Promise.all()`  espera a que las tres promesas se resuelvan. Una vez que todas se resuelven, el método  `then()`  se ejecuta, pasando un array con los resultados de cada promesa en el mismo orden en que fueron pasadas a  `Promise.all()`. Si alguna de las promesas se rechazara, el  `catch()`  se ejecutaría, mostrando el error.
+
+`Promise.allSettled()`:
+
+Existe otro método útil para trabajar con promesas agrupadas, llamado  `Promise.allSettled()`. Este método se comporta de manera similar a  `Promise.all()`, pero a diferencia de este, no se detiene ante el primer rechazo. En cambio, espera a que todas las promesas del array se resuelvan o rechacen, devolviendo un array de objetos que indican el estado de cada promesa (resuelta o rechazada) y su valor o razón de rechazo.
+
+Ejemplo:
+
+JavaScript
+
+```js
+const promesa1 = new Promise((resolve) => setTimeout(() => resolve(1), 100));const promesa2 = new Promise((_, reject) => setTimeout(() => reject(new Error('Error')), 200));const promesa3 = new Promise((resolve) => setTimeout(() => resolve(3), 300));Promise.allSettled([promesa1, promesa2, promesa3])  .then((resultados) => {    console.log(resultados);    /*
+    [
+      { status: 'fulfilled', value: 1 },
+      { status: 'rejected', reason: Error: Error },
+      { status: 'fulfilled', value: 3 }
+    ]
+    */  });
+```
+
+En este ejemplo,  `Promise.allSettled()`  devuelve un array con los resultados de cada promesa, incluso aunque una de ellas se haya rechazado. Esto permite gestionar de forma más flexible los casos en los que algunas promesas pueden fallar sin detener el proceso completo.
 
 
 
@@ -1792,7 +1822,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTAzODM0MiwtMTEwNTI1OTExOSwtMT
+eyJoaXN0b3J5IjpbLTc4MDUzMjcwNywtMTEwNTI1OTExOSwtMT
 IzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0
 MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LD
 E1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1
