@@ -1624,21 +1624,16 @@ fetch('<Tu URL>', {})
 
 - Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato
 ```js
-fetch('examples/example.json')
-  .then(response  =>  {
-    if  (!response.ok)  {
-	    throw  Error(response.statusText);
-    }
-    // Lee la respuesta como JSON
-    return response.json();
-   })
-   .then(responseAsJson  =>  {
-     // Haz lo que quieras con la respuesta JSONificada
-       console.log(responseAsJson);
-   })
-   .catch(error  =>  {
-      console.log('Looks like there was a problem: \n', error);
-   });
+fetch('https://rickandmortyapi.com/api/character')
+  .then(response => response.json())
+  .then(data => {
+    // Aquí puedes trabajar con los datos JSON recibidos
+    console.log(data);
+  })
+  .catch(error => {
+    // Manejar errores en la solicitud
+    console.error('Error:', error);
+  });
 ```
     
 
@@ -1847,11 +1842,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOT
-E3MDY4NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEz
-NDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC
-0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4
-MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1My
-wtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1
-NDcxODBdfQ==
+eyJoaXN0b3J5IjpbNzE3MjI3NDc1LC0xNzAwODQyNDIyLDE4OT
+gwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC0xMTA1MjU5
+MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNywxMzcyNTAwNTYzLD
+k1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2LC0xODcw
+MzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLD
+EwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAx
+Mzk0MTddfQ==
 -->
