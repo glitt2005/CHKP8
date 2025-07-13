@@ -1620,16 +1620,13 @@ fetch('<Tu URL>', {})
 ```
 
 
-- El método  **`.catch()`  se puede omitir en Fetch API**.  Se usa solo cuando Fetch no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
+- El método  **`.catch()`  se puede omitir en Fetch API**.  **Se usa solo** cuando Fetch no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
+
+- Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato
 
 
     
--   **Manejar respuestas del servidor:**
-    
-    
--   **Trabajar con diferentes formatos de datos:**
-    
-    Se pueden utilizar métodos como  `.json()`,  `.text()`, etc., para extraer los datos de la respuesta en diferentes formato
+
 ## Como agrupar promesas
 
 
@@ -1835,7 +1832,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTY3ODYxOCwtOTE3MDY4NTA3LC03OD
+eyJoaXN0b3J5IjpbMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC03OD
 A1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3
 MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC
 0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEz
