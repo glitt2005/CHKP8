@@ -1502,11 +1502,11 @@ Explicación:
     
     -   Esta función se usa para indicar que la operación asíncrona ha terminado **con éxito.**
     -   `valor`  **es el resultado de la operación, que se pasará al siguiente bloque  `then()`**  en la cadena de promesas.
-    -   Si  `valor`  es otra promesa, se "aplanará" y su resultado se usará como el resultado de esta promesa,  [según MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve).
+    -   Si  `valor`  es otra promesa, se "aplanará" (pondrá en una sola capa todas las promesas anidadas) y su resultado se usará como el resultado de esta promesa.
     
 -   **`reject(error)`:**
     
-    -   Esta función se usa para indicar que la operación asíncrona ha fallado.
+    -   Esta función se usa para indicar que la operación asíncrona **ha fallado.**
     -   `error`  es una descripción del error, que puede ser cualquier tipo de valor, aunque se recomienda usar un objeto  `Error`  para facilitar la depuración,  [según Stack Overflow en español](https://es.stackoverflow.com/questions/64265/qu%C3%A9-es-una-promesa-en-javascript).
     -   El error se pasará al bloque  `catch()`  o al siguiente  `then()`  con un segundo argumento (el manejador de rechazo) en la cadena de promesas.
 
@@ -1744,11 +1744,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDE3ODA5MywtMjM4NTY3MTg2LC0xOD
-cwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEz
-LDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3OD
-AxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5
-NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLD
-QwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMw
-MzAzNDRdfQ==
+eyJoaXN0b3J5IjpbMjM2OTc2MjAyLC0yMzg1NjcxODYsLTE4Nz
+AzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMs
+MTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MD
+EzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLTE5MzE4Mjk1
+NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0MTU5OTIsND
+A3OTQ4NzgyLDIwODUyODczMDEsLTkxNzYxODAxNywtMTY3MzAz
+MDM0NF19
 -->
