@@ -1416,7 +1416,13 @@ El método estático es útil cuando se necesita crear instancias de una clase c
 	-  cuando un **método estático** se utiliza para ello,  **para crear objetos**, y se convierte en una **función fábrica**
 	
 	- **no requieren el uso de  `new`,** lo que permite **crear objetos de manera más flexible**.
+
 	
+
+
+<img src="iconoPrecauc.png" Alt="icono de cuidado">
+
+Cuando estemos creando una aplicación y nos
 
 
     
@@ -1577,11 +1583,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDM0NTY5OSwtMTczOTkyODUwMiwtMT
-g1MjY5OTA3NiwyMjk1NDIxMSwtMTk0NjE1MjA3OCwxMTAyOTE5
-MDc3LDE3NTU0MjI2NDgsMjE0Njg2Njc0NiwtODgwMjAyMzM3LD
-UxMTE3NDkzNiw0MDE0NDAzNjksMjAzODI5MTc3OSwxNTI2NTAy
-NzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEsLTEzOTMxMDcxNzgsMT
-gyNTczMzc3MywtMjg3MzkwNDQxLC04OTMxNjA3MDAsLTg5NjMw
-NzM3MV19
+eyJoaXN0b3J5IjpbMjIwNzAwNzM3LDE3MTQzNDU2OTksLTE3Mz
+k5Mjg1MDIsLTE4NTI2OTkwNzYsMjI5NTQyMTEsLTE5NDYxNTIw
+NzgsMTEwMjkxOTA3NywxNzU1NDIyNjQ4LDIxNDY4NjY3NDYsLT
+g4MDIwMjMzNyw1MTExNzQ5MzYsNDAxNDQwMzY5LDIwMzgyOTE3
+NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0NzM2MzcxLC0xMz
+kzMTA3MTc4LDE4MjU3MzM3NzMsLTI4NzM5MDQ0MSwtODkzMTYw
+NzAwXX0=
 -->
