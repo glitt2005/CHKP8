@@ -1595,21 +1595,12 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
 
 La función  `fetch()`  se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona, **como datos JSON, archivos, imágenes, etc.** Es una forma moderna y flexible de **realizar peticiones HTTP y** obtener respuestas **del servidor** con una sintaxis limpia y fácil de usar.
 
+ **`fetch()`  devuelve una promesa** que se resuelve con un objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta.
 
-        `fetch()`  devuelve una promesa que se resuelve con un objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta.
--   **Obtener recursos de forma asíncrona:**
+### SINTAXIS:
 
-    
-    Las solicitudes se realizan sin bloquear la ejecución del código, lo que permite que la página web siga respondiendo mientras se espera la respuesta del servidor.
-    
--   **Manejar respuestas del servidor:**
-    
-    
--   **Trabajar con diferentes formatos de datos:**
-    
-    Se pueden utilizar métodos como  `.json()`,  `.text()`, etc., para extraer los datos de la respuesta en diferentes formato
-cepta dos parámetros:
-1.  La URL a la que enviar la petición (este es un parámetro obligatorio).
+Acepta **dos parámetros:**
+1.  **La URL a la que enviar la petición** (este es un parámetro obligatorio).
 2.  Las opciones a configurar en la petición. Puede configurar el método de solicitud aquí (este es un parámetro opcional).
 
 Debajo del capó, la función  `fetch()`  devuelve una Promesa, por lo que necesitas agregar los métodos  `.then()`  y  `.catch()`.
@@ -1631,6 +1622,15 @@ Respuesta de una solicitud Fetch con los métodos then() y catch()
 Dentro de los métodos  `.then()`  y  `.catch()`, pasas una función de callback de llamada para ejecutarla cuando se llaman los métodos respectivos.
 
 El método  `.catch()`  se puede omitir en Fetch API. Se usa solo cuando Fetch no puede realizar una solicitud a la API, como por ejemplo si no hay conexión de red o no se encuentra la URL.
+
+
+    
+-   **Manejar respuestas del servidor:**
+    
+    
+-   **Trabajar con diferentes formatos de datos:**
+    
+    Se pueden utilizar métodos como  `.json()`,  `.text()`, etc., para extraer los datos de la respuesta en diferentes formato
 ## Como agrupar promesas
 
 
@@ -1836,11 +1836,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4MzE0MjA0LC03ODA1MzI3MDcsLTExMD
-UyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1
-NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLT
-E4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0
-MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LD
-c4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLTE5MzE4
-Mjk1NV19
+eyJoaXN0b3J5IjpbLTkxNzA2ODUwNywtNzgwNTMyNzA3LC0xMT
+A1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNywxMzcyNTAw
+NTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2LC
+0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NTAy
+NDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NS
+w3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOTMx
+ODI5NTVdfQ==
 -->
