@@ -1524,7 +1524,7 @@ Explicación:
 
 <br>
 
-### Secuencia del proceso de creación de una promesa
+### Secuencia del proceso de creación de una promesa con un ejemplo:
 
 
 ```JavaScript
@@ -1552,7 +1552,7 @@ sleepyGreeting
 
 3.	**Promise()**, toma **como argumento una función**
 
-4.	**Esta función** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, convención común mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
+4.	**Esta función** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
 
 5.	Creamos las funciones de  `resolve(valor)` y `reject(mensaje)`, y le ponemos a cada una de ellas un temporizador, para ello las envolvemos por separado con el método setTimeout() .   
 
@@ -1758,7 +1758,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjY0NDAxOCw5NTc3NDc0MjYsLTE0Nz
+eyJoaXN0b3J5IjpbLTU4NTM1NzU0Nyw5NTc3NDc0MjYsLTE0Nz
 IzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgy
 LC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MD
 kxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0NzE4
