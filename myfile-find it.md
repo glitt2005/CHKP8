@@ -1642,8 +1642,7 @@ fetch('https://rickandmortyapi.com/api/posts')
       data.posts.forEach((item) => {
          console.log(item.title);
       });
-    console.log(data);
-  })
+    })
   .catch(error => {
     // Manejar errores en la solicitud
     console.error('Error:', error);
@@ -1888,7 +1887,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzYwMDM1MSwxMDg4NDg3NzcwLC0xMj
+eyJoaXN0b3J5IjpbLTgzMzc0NjA0MCwxMDg4NDg3NzcwLC0xMj
 gwNTUyMTIyLDcxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5
 NjMyLC05MTcwNjg1MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOS
 wtMTIzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3
