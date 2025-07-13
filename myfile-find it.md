@@ -1494,17 +1494,17 @@ const promesa = new Promise((resolve, reject) => {
 
 Explicación:
 
--   `new Promise((resolve, reject) => { ... })`:
+-   **`new Promise((resolve, reject) => { ... })`:**
     
-    Crea una **nueva instancia de promesa**. El constructor toma una función con dos parámetros:  `resolve`  y  `reject`.
+    Crea una **nueva instancia de promesa**. El constructor `new`toma una función con dos parámetros:  `resolve`  y  `reject`.
     
--   `resolve(valor)`:
+-   **`resolve(valor)`:**
     
     -   Esta función se usa para indicar que la operación asíncrona ha terminado con éxito.
     -   `valor`  es el resultado de la operación, que se pasará al siguiente bloque  `then()`  en la cadena de promesas.
     -   Si  `valor`  es otra promesa, se "aplanará" y su resultado se usará como el resultado de esta promesa,  [según MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve).
     
--   `reject(error)`:
+-   **`reject(error)`:**
     
     -   Esta función se usa para indicar que la operación asíncrona ha fallado.
     -   `error`  es una descripción del error, que puede ser cualquier tipo de valor, aunque se recomienda usar un objeto  `Error`  para facilitar la depuración,  [según Stack Overflow en español](https://es.stackoverflow.com/questions/64265/qu%C3%A9-es-una-promesa-en-javascript).
@@ -1744,7 +1744,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQ1ODQzMDUsLTIzODU2NzE4NiwtMT
+eyJoaXN0b3J5IjpbLTExNzk1OTI5MTUsLTIzODU2NzE4NiwtMT
 g3MDM5Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQx
 MywxMDQxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNz
 gwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgy
