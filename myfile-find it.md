@@ -1634,7 +1634,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 ```
 
 
-2. Otro esquema para trabajar con los datos **json**. 
+2. Otro esquema para trabajar con los datos **json** y con bucle `forEach()`
 ```js
 fetch('https://rickandmortyapi.com/api/character')
   .then(response => response.json())
@@ -1648,7 +1648,25 @@ fetch('https://rickandmortyapi.com/api/character')
   });
 ```
 
+```js
+console.log('Starting fetch call');
+const postsPromise = fetch('https://api.dailysmarty.com/posts')
 
+console.log('After fetch call');
+console.log(postsPromise);
+
+postsPromise
+   .then(data => data.json());     
+   .then(data => {
+      data.posts.forEach((item) => {
+         console.log(item.title);
+      });
+    })
+    .catch((err) => {
+        console.log(err);
+    });
+
+```
 
 
 ## Como agrupar promesas
@@ -1856,11 +1874,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEwODI0NTMsLTEyODA1NTIxMjIsNz
-E3MjI3NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2
-ODUwNywtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyND
-UzLDUzNDM1NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3
-MjM5MzkxMCwtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxOD
-IsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcw
-OTE4NzY3OV19
+eyJoaXN0b3J5IjpbMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MT
+cyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4
+NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NT
+MsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcy
+MzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4Mi
+wtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5
+MTg3Njc5XX0=
 -->
