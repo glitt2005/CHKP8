@@ -1422,7 +1422,7 @@ El método estático es útil cuando :
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 
-Ojo! Cuando estemos creando una aplicación y nos preguntemos si usar un método estático, primero deberíamos preguntarnos en profundidad:
+Ojo! Cuando estemos creando una aplicación y estemos pensand en utilizar un método estáti si vamos a usar un método estático, primero deberíamos preguntarnos en profundidad:
 
 <div align="center">
 <img src="pregunta.png"  width = "40%" alt="pregunta método estático">
@@ -1613,11 +1613,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3OTgxMDI3LC0xODQzMTM2ODU3LDkwNj
-UwMjQxMywxMDQxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1
-NzUsNzgwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMT
-kzMTgyOTU1LC05Mjk4ODE4OTAsLTE0NzczOTUxODQsLTE2ODQx
-NTk5Miw0MDc5NDg3ODIsMjA4NTI4NzMwMSwtOTE3NjE4MDE3LC
-0xNjczMDMwMzQ0LC00MjU2ODc2ODYsLTE4MDYyNDYwODAsMTgx
-MjcyMDkxNV19
+eyJoaXN0b3J5IjpbMTA4NzIxMzkyNiwtMTg0MzEzNjg1Nyw5MD
+Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
+NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
+E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
+MTU5OTIsNDA3OTQ4NzgyLDIwODUyODczMDEsLTkxNzYxODAxNy
+wtMTY3MzAzMDM0NCwtNDI1Njg3Njg2LC0xODA2MjQ2MDgwLDE4
+MTI3MjA5MTVdfQ==
 -->
