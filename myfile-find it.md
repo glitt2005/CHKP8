@@ -1553,22 +1553,14 @@ sleepyGreeting
 3.	**Promise()**, toma **como argumento una función**. Como primer argumento (aquí no ponemos los opcionales) toma **una función**, por ello se llama  **callback**. 
 
 4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
-5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**. Esta función toma dos argumentos:
+5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**.  Generalmente, **cuando trabajas con promesas**, una de las regla es que tu expectativa es que aquello que quieres obtener, **no lo obtengas de forma inmediata**. **Puede tardar bien milisegundos o unos segundos.** Esta función toma dos argumentos:  
+	
 			-	una función a ejecutar  `resolve(valor)`   y  `reject(mensaje)`
 			-	retraso: el tiempo de espera en milisegundos (2 Segundos en este caso)
 				
 
-	
-
-	
 
 
-
-a.	
-b.	El segundo argumento corresponde al “delay” o  tiempo de retraso.
-
-
-Generalmente, cuando creas una Promise,  o trabajas con promises, una de las reglas es que tu expectativa es que aquello que quieres obtener, no lo obtengas de forma inmediata. Puede tardar bien milisegundos o unos segundos.
 Y colocando así nuestro método setTimeout() pausamos la ejecución del programa durante un período de tiempo. Este temporizador nos permite manipularlo e incluso imitar lo que obtendríamos si llamamos a una API o algo parecido. 
 
 
@@ -1764,7 +1756,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0OTc5NzIyNiwxMzcyNTAwNTYzLDk1Nz
+eyJoaXN0b3J5IjpbMTM2NDY3NzQwNSwxMzcyNTAwNTYzLDk1Nz
 c0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2LC0xODcwMzkz
 NzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwND
 ExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0
