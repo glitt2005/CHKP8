@@ -1638,7 +1638,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 ```js
 fetch('https://rickandmortyapi.com/api/posts')
   .then(data => data.json())
-  .then(data => {                             //trabajando con los datos json recibidos
+  .then(data => {           //trabajando ya con datos json (solo queremos el dato 'title'
       data.posts.forEach((item) => {
          console.log(item.title);
       });
@@ -1864,11 +1864,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjI1NDQzMSwxMDg4NDg3NzcwLC0xMj
-gwNTUyMTIyLDcxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5
-NjMyLC05MTcwNjg1MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOS
-wtMTIzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3
-NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mz
-c0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQx
-MTU1NDUzXX0=
+eyJoaXN0b3J5IjpbLTEyOTczNjI2MzQsMTA4ODQ4Nzc3MCwtMT
+I4MDU1MjEyMiw3MTcyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0
+OTYzMiwtOTE3MDY4NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMT
+ksLTEyMzEzNDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3
+NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOT
+M3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0
+MTE1NTQ1M119
 -->
