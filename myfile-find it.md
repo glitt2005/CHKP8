@@ -1399,9 +1399,11 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 #### CUÁNDO UTILIZAR LOS MÉTODOS ESTÁTICOS
 
 
-El método estático es útil cuando se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica**, y **se prefiere evitar el uso de  `new`**  por simplicidad o por otras razones de diseño. Es decir, pueden usarse **para crear instancias de la clase de forma personalizada**.  Más específicamente:
+El método estático es útil cuando :
+- se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica** 
+- **se prefiere evitar el uso de  `new`**  por simplicidad o por otras razones de diseño. Es decir, pueden usarse **para crear instancias de la clase de forma personalizada**.  
 
-- **Cuando no necesitemos acceder a propiedades de instancia**: Tiene que ver más **con la estructura** y menos con la instancia. Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo como estático. 
+- **cuando no necesitemos acceder a propiedades de instancia**: Tiene que ver más **con la estructura** y menos con la instancia. Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo como estático. 
 - Cuando necesitemos **funciones de utilidad:**
 	-  a) **funciones auxiliares** (***helper modules***). Los métodos "helper" o auxiliares son funciones diseñadas para realizar tareas **específicas y reutilizables, simplificando el código y mejorando la legibilidad**. Estos métodos a menudo se encapsulan en un módulo o clase para **su fácil acceso y mantenimiento**.
 	
@@ -1611,11 +1613,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwND
-ExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0
-MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLT
-kyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0
-ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzND
-QsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MCwxODEyNzIwOTE1LDE4
-MDY4OTc1ODNdfQ==
+eyJoaXN0b3J5IjpbMTUzMjg0MTIwNiwtMTg0MzEzNjg1Nyw5MD
+Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
+NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
+E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
+MTU5OTIsNDA3OTQ4NzgyLDIwODUyODczMDEsLTkxNzYxODAxNy
+wtMTY3MzAzMDM0NCwtNDI1Njg3Njg2LC0xODA2MjQ2MDgwLDE4
+MTI3MjA5MTVdfQ==
 -->
