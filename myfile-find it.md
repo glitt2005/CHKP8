@@ -1593,7 +1593,30 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
 
 ## Método <big>`fetch()`</big>
 
+La función  `fetch()`  acepta dos parámetros:
 
+1.  La URL a la que enviar la petición (este es un parámetro obligatorio).
+2.  Las opciones a configurar en la petición. Puede configurar el método de solicitud aquí (este es un parámetro opcional).
+
+Debajo del capó, la función  `fetch()`  devuelve una Promesa, por lo que necesitas agregar los métodos  `.then()`  y  `.catch()`.
+
+Cuando la petición devuelve una respuesta, se llamará al método  `then()`. Si la solicitud devuelve un error, se ejecutará el método  `catch()`:
+
+```js
+fetch('<Tu URL>', {})
+  .then(respuesta => {
+    // Manejamos la respuesta de la petición aqui
+  })
+  .catch(error => {
+    // Si hay un error en la petición, lo manejamos aqui 
+  })
+```
+
+Respuesta de una solicitud Fetch con los métodos then() y catch()
+
+Dentro de los métodos  `.then()`  y  `.catch()`, pasas una función de callback de llamada para ejecutarla cuando se llaman los métodos respectivos.
+
+El método  `.catch()`  se puede omitir en Fetch API. Se usa solo cuando Fetch no puede realizar una solicitud a la API, como por ejemplo si no hay conexión de red o no se encuentra la URL.
 ## Como agrupar promesas
 
 
@@ -1769,11 +1792,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNT
-M0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkz
-OTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMT
-g0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3
-Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLT
-E0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3
-Mzk1MTg0XX0=
+eyJoaXN0b3J5IjpbLTE4MTAzODM0MiwtMTEwNTI1OTExOSwtMT
+IzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0
+MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LD
+E1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1
+NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LD
+k5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4
+ODE4OTBdfQ==
 -->
