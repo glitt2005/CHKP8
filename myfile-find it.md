@@ -1150,7 +1150,7 @@ JavaScript, aunque basado en **prototipos**, permite un estilo de programación 
 Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 
-<div style="display: flex; justify-content: space-between;">  
+<div style="display: flex; justify-content: space-between; text-align= center;">  
 <img src="planoCasa.png" width="40%" Alt="plano de una Casa" style="float: left;">  
  <img src="casaEstruct.png" width="25%" Alt="estructura de una Casa" style="float: right;">  
 </div>
@@ -1594,11 +1594,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTY4NzY4NiwtMTgwNjI0NjA4MCwxOD
-EyNzIwOTE1LDE4MDY4OTc1ODMsMTc1MTg2NzQ0NSwtNzI5NTk4
-ODAzLC0xNjA2MDg0NTk3LDc5Mzk4ODkzMSwtNDA0MzczMjY1LC
-0yODA5ODAwNjksLTk5MDAxMzI4NSwtNzk3MDEyOTMwLDE1Mzg4
-OTQzOTAsMTY4MTU1NTUwMywxNTE5Mzg1NzIsLTExMjM4MjU4Mi
-wtMjgzNDY2ODcxLDgxMTY0Nzk0NiwtMTI5MzA4OTcxNiwxNjky
-NDQwNzQ5XX0=
+eyJoaXN0b3J5IjpbLTE2NzMwMzAzNDQsLTQyNTY4NzY4NiwtMT
+gwNjI0NjA4MCwxODEyNzIwOTE1LDE4MDY4OTc1ODMsMTc1MTg2
+NzQ0NSwtNzI5NTk4ODAzLC0xNjA2MDg0NTk3LDc5Mzk4ODkzMS
+wtNDA0MzczMjY1LC0yODA5ODAwNjksLTk5MDAxMzI4NSwtNzk3
+MDEyOTMwLDE1Mzg4OTQzOTAsMTY4MTU1NTUwMywxNTE5Mzg1Nz
+IsLTExMjM4MjU4MiwtMjgzNDY2ODcxLDgxMTY0Nzk0NiwtMTI5
+MzA4OTcxNl19
 -->
