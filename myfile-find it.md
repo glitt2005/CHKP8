@@ -440,8 +440,10 @@ EN RESUMEN:
 
 # 3 ¿Qué es una función de flecha?
 
-
+<div align="center">
 <img src="funcionFlecha0.png" width="50%">
+</div>
+
 <br>
 
 Una **función flecha** (o ***arrow function***) es una  forma concisa de definir funciones anónimas, introducida en ES6 (EcmaScript **2015**). 
@@ -536,17 +538,17 @@ console.log('dos parámetros, función FLECHA EN UNA SOLA LÍNEA ' + hello9('mil
 <br>
 
 i.a ) **Expresión de Función Anónima**
-
+<div align="center">
 <img src="expresionDeFuncion.png" width="50%" Alt="expresionDefuncion">
-
+</div>
 
 <br>
 <br>
 
 i.b ) **Expresión de Función Nombrada**
-
+<div align="center">
 <img src="funcionDeclaradanombrada.png" width="50%" Alt="función declarada nombrada">
-
+</div>
 
 
 (El nombre  `decirHola`  es útil para identificar la función en los errores, pero no se usa para llamar a la función.)
@@ -559,9 +561,9 @@ i.b ) **Expresión de Función Nombrada**
 
 ii ) **Declaración de función tradicional o regular**
 
-
+<div align="center">
 <img src="funcionDeclarada.png" width="50%" Alt="funcion declarada anónima">
-
+</div>
 <br>
 <br>
 <br>
@@ -570,8 +572,9 @@ ii ) **Declaración de función tradicional o regular**
 
 iii ) **Función flecha**:
 
-
+<div align="center">
 <img src="funcionFlecha1.png" width="50%" Alt="funcionFlecha1">
+</
 <br>
 <br>
 
@@ -1598,11 +1601,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjQ0MDc0OSwtMTIwNjg3MTY5NCwzNj
-cwNDc1MTIsMTUyNDEwMDEyMSwxMjEyMTE3NjQ2LC0xMTA0NTI4
-MTc5LDcxODA1NjAwMCw2NzY3MzI0MjgsLTgyNjI0OTUwLC03OD
-k5ODA5MjUsMTU2ODIzMTkxOCwtNjI1MDU0OTkwLDEyODc5NzAw
-MzMsMTcxNDM0NTY5OSwtMTczOTkyODUwMiwtMTg1MjY5OTA3Ni
-wyMjk1NDIxMSwtMTk0NjE1MjA3OCwxMTAyOTE5MDc3LDE3NTU0
-MjI2NDhdfQ==
+eyJoaXN0b3J5IjpbNTU2NDQ0NTYsMTY5MjQ0MDc0OSwtMTIwNj
+g3MTY5NCwzNjcwNDc1MTIsMTUyNDEwMDEyMSwxMjEyMTE3NjQ2
+LC0xMTA0NTI4MTc5LDcxODA1NjAwMCw2NzY3MzI0MjgsLTgyNj
+I0OTUwLC03ODk5ODA5MjUsMTU2ODIzMTkxOCwtNjI1MDU0OTkw
+LDEyODc5NzAwMzMsMTcxNDM0NTY5OSwtMTczOTkyODUwMiwtMT
+g1MjY5OTA3NiwyMjk1NDIxMSwtMTk0NjE1MjA3OCwxMTAyOTE5
+MDc3XX0=
 -->
