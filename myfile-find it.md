@@ -1460,9 +1460,10 @@ o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**.
 
 - Una **Promise** hace realmente una tarea que **no queremos que ocurra en tiempo real**; podemos desarrollar cualquier funcionalidad nueva en la que sea conveniente **que no se procese inmediatamente**, como una consulta a una base de datos o API externa.
 
-Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de forma asíncrona.** Esto significa que puedes hacer tareas como ésta de llamar servicios externos y usar APIs, y poder tomar y en realidad, elegir,  qué elementos de tu página o en tu aplicación se cargarán directamente, y cuáles pueden tardar más tiempo.
-Efectivamente, algo muy a favor de Javascript es que trabaja directamente con la experiencia del usuario. No sería deseable que el usuario se quede esperando durante un tiempo hasta que finalmente los datos se carguen.
-La naturaleza de JavaScript es la comunicación con servicios externos, como bases de datos, APIs backend* ( las *APIs backend se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend ) o cualquier otro servicio fuera de la aplicación, como las diferentes plataformas de JS como React, Angular y Vue; JavaScript recibe los datos como resultado de esta comunicación con dichos servicios externos.
+Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de forma asíncrona.** Esto significa que puedes hacer tareas como ésta de llamar servicios externos y usar APIs, y poder tomar y en realidad, **elegir  qué elementos** de tu página o en tu aplicación **se cargarán directamente, y cuáles pueden tardar más tiempo**.
+
+- Efectivamente, algo muy a favor de Javascript es que trabaja directamente con la experiencia del usuario. No sería deseable que el usuario se quede esperando durante un tiempo hasta que finalmente los datos se carguen.
+- **La naturaleza de JavaScript es la comunicación con servicios externos**, como bases de datos, APIs backend* ( las *APIs backend se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend ) o cualquier otro servicio fuera de la aplicación, como las diferentes plataformas de JavaScript como React, Angular y Vue; JavaScript recibe los datos como resultado de esta comunicación con dichos servicios externos.
 La utilización de heramientas como Promises son el pilar central del poder confiar en que el proceso se desarrollará tan fluidamente como sea posible.
 Convención común de los argumentos de la función Promise son “resolve” y “reject”. Antes era “success” y “failure”, pero ahora lo más extendido son los primeros.
 Una Promise o bien funciona y resuelve ese código, o no hace y por lo tanto devuelve algún tipo de error. Es decir nos devuelve:
@@ -1704,7 +1705,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDMzNjIxOCwtMTg3MDM5Mzc0LDE1NT
+eyJoaXN0b3J5IjpbMTIyNDAxODYzNiwtMTg3MDM5Mzc0LDE1NT
 gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
 LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
 U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
