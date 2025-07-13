@@ -539,7 +539,7 @@ console.log('dos parámetros, función FLECHA EN UNA SOLA LÍNEA ' + hello9('mil
 
 i.a ) **Expresión de Función Anónima**
 <div align="center">
-<img src="expresionDeFuncion.png" width="60%" Alt="expresionDefuncion">
+<img src="expresionDeFuncion.png" width="55%" Alt="expresionDefuncion">
 </div>
 
 <br>
@@ -1594,11 +1594,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDYwODQ1OTcsNzkzOTg4OTMxLC00MD
-QzNzMyNjUsLTI4MDk4MDA2OSwtOTkwMDEzMjg1LC03OTcwMTI5
-MzAsMTUzODg5NDM5MCwxNjgxNTU1NTAzLDE1MTkzODU3MiwtMT
-EyMzgyNTgyLC0yODM0NjY4NzEsODExNjQ3OTQ2LC0xMjkzMDg5
-NzE2LDE2OTI0NDA3NDksLTEyMDY4NzE2OTQsMzY3MDQ3NTEyLD
-E1MjQxMDAxMjEsMTIxMjExNzY0NiwtMTEwNDUyODE3OSw3MTgw
-NTYwMDBdfQ==
+eyJoaXN0b3J5IjpbLTU1NjI4NTg1MSwtMTYwNjA4NDU5Nyw3OT
+M5ODg5MzEsLTQwNDM3MzI2NSwtMjgwOTgwMDY5LC05OTAwMTMy
+ODUsLTc5NzAxMjkzMCwxNTM4ODk0MzkwLDE2ODE1NTU1MDMsMT
+UxOTM4NTcyLC0xMTIzODI1ODIsLTI4MzQ2Njg3MSw4MTE2NDc5
+NDYsLTEyOTMwODk3MTYsMTY5MjQ0MDc0OSwtMTIwNjg3MTY5NC
+wzNjcwNDc1MTIsMTUyNDEwMDEyMSwxMjEyMTE3NjQ2LC0xMTA0
+NTI4MTc5XX0=
 -->
