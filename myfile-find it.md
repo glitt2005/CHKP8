@@ -1593,10 +1593,7 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
 
 ## Método <big>`fetch()`</big> para  solicitudes de red 
 
-La función  `fetch()`  se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona. Acepta dos parámetros:
-
-
-El método  `fetch()`  en JavaScript  se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona, como datos JSON, archivos, imágenes, etc. Es una forma moderna y flexible de realizar peticiones HTTP y obtener respuestas del servidor, similar a las peticiones AJAX pero con una sintaxis más limpia y fácil de usar.
+La función  `fetch()`  se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona, **como datos JSON, archivos, imágenes, etc.** Es una forma moderna y flexible de **realizar peticiones HTTP y** obtener respuestas **del servidor** con una sintaxis limpia y fácil de usar.
 
 En resumen,  `fetch()`  sirve para:
 
@@ -1615,7 +1612,7 @@ En resumen,  `fetch()`  sirve para:
 -   **Trabajar con diferentes formatos de datos:**
     
     Se pueden utilizar métodos como  `.json()`,  `.text()`, etc., para extraer los datos de la respuesta en diferentes formato
-
+cepta dos parámetros:
 1.  La URL a la que enviar la petición (este es un parámetro obligatorio).
 2.  Las opciones a configurar en la petición. Puede configurar el método de solicitud aquí (este es un parámetro opcional).
 
@@ -1843,7 +1840,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzA1MzE0LC03ODA1MzI3MDcsLTExMD
+eyJoaXN0b3J5IjpbMTg2NzczOTEzLC03ODA1MzI3MDcsLTExMD
 UyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1
 NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLT
 E4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0
