@@ -1591,9 +1591,30 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
     
 
 
-## Método <big>`fetch()`</big>
+## Método <big>`fetch()`</big> para  solicitudes de red 
 
-La función  `fetch()`  acepta dos parámetros:
+La función  `fetch()`  se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona. Acepta dos parámetros:
+
+
+El método  `fetch()`  en JavaScript  se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona, como datos JSON, archivos, imágenes, etc. Es una forma moderna y flexible de realizar peticiones HTTP y obtener respuestas del servidor, similar a las peticiones AJAX pero con una sintaxis más limpia y fácil de usar.
+
+En resumen,  `fetch()`  sirve para:
+
+-   **Realizar solicitudes HTTP:**
+    
+    Permite enviar solicitudes a servidores web para obtener o enviar datos.
+    
+-   **Obtener recursos de forma asíncrona:**
+    
+    Las solicitudes se realizan sin bloquear la ejecución del código, lo que permite que la página web siga respondiendo mientras se espera la respuesta del servidor.
+    
+-   **Manejar respuestas del servidor:**
+    
+    `fetch()`  devuelve una promesa que se resuelve con un objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta.
+    
+-   **Trabajar con diferentes formatos de datos:**
+    
+    Se pueden utilizar métodos como  `.json()`,  `.text()`, etc., para extraer los datos de la respuesta en diferentes formato
 
 1.  La URL a la que enviar la petición (este es un parámetro obligatorio).
 2.  Las opciones a configurar en la petición. Puede configurar el método de solicitud aquí (este es un parámetro opcional).
@@ -1822,11 +1843,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDUzMjcwNywtMTEwNTI1OTExOSwtMT
-IzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0
-MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LD
-E1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1
-NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LD
-k5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4
-ODE4OTBdfQ==
+eyJoaXN0b3J5IjpbMTExNzA1MzE0LC03ODA1MzI3MDcsLTExMD
+UyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1
+NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLT
+E4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0
+MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LD
+c4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLTE5MzE4
+Mjk1NV19
 -->
