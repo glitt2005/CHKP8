@@ -665,10 +665,10 @@ En JavaScript, **deconstrucción** (o *destructuring*) y **desestructuración** 
     </thead>
     <tbody>
         <tr>
-            <td rowspan=3 align="center">Extraer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td rowspan=3 align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extraer&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
             <td rowspan=2 align="center"><h4>valores de arrays</h4></td>
          </tr>      
-               <td rowspan=3 align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;para asignarlos a variables</td>   
+               <td rowspan=3 align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;para asignarlos a variables&nbsp;&nbsp;</td>   
           <tr>
             <td align="center"><h4>propiedades de objetos</h4></td>
         </tr>
@@ -1591,11 +1591,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzAxMjkzMCwxNTM4ODk0MzkwLDE2OD
-E1NTU1MDMsMTUxOTM4NTcyLC0xMTIzODI1ODIsLTI4MzQ2Njg3
-MSw4MTE2NDc5NDYsLTEyOTMwODk3MTYsMTY5MjQ0MDc0OSwtMT
-IwNjg3MTY5NCwzNjcwNDc1MTIsMTUyNDEwMDEyMSwxMjEyMTE3
-NjQ2LC0xMTA0NTI4MTc5LDcxODA1NjAwMCw2NzY3MzI0MjgsLT
-gyNjI0OTUwLC03ODk5ODA5MjUsMTU2ODIzMTkxOCwtNjI1MDU0
-OTkwXX0=
+eyJoaXN0b3J5IjpbLTExNzE5MjA3MTAsLTc5NzAxMjkzMCwxNT
+M4ODk0MzkwLDE2ODE1NTU1MDMsMTUxOTM4NTcyLC0xMTIzODI1
+ODIsLTI4MzQ2Njg3MSw4MTE2NDc5NDYsLTEyOTMwODk3MTYsMT
+Y5MjQ0MDc0OSwtMTIwNjg3MTY5NCwzNjcwNDc1MTIsMTUyNDEw
+MDEyMSwxMjEyMTE3NjQ2LC0xMTA0NTI4MTc5LDcxODA1NjAwMC
+w2NzY3MzI0MjgsLTgyNjI0OTUwLC03ODk5ODA5MjUsMTU2ODIz
+MTkxOF19
 -->
