@@ -1625,12 +1625,14 @@ fetch('<Tu URL>', {})
 - Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato.
 
 ####    EJEMPLOS
-1. Conviertiendo datos a **json** y listando todos l.
-```javascript
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => console.log(json))
+1. Conviertiendo datos a **json** y listando todos los recursos.
+
+```js
+fetch('https://jsonplaceholder.typicode.com/posts')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
 ```
+```js
 2. Esquema para trabajar con los datos **json** ya recibidos.
 ```js
 fetch('https://rickandmortyapi.com/api/character')
@@ -1645,13 +1647,7 @@ fetch('https://rickandmortyapi.com/api/character')
   });
 ```
 listando todos los recursos
-```javascript
-```js
-fetch('https://jsonplaceholder.typicode.com/posts')
-  .then((response) => response.json())
-  .then((json) => console.log(json));
-```
- ``` 
+
 
 
 ## Como agrupar promesas
@@ -1859,11 +1855,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg1OTk1OTMyLC0xMjgwNTUyMTIyLDcxNz
-IyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcwNjg1
-MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1My
-w1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIz
-OTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC
-0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MDkx
-ODc2NzldfQ==
+eyJoaXN0b3J5IjpbLTE0MzA3OTUxMTcsLTEyODA1NTIxMjIsNz
+E3MjI3NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2
+ODUwNywtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyND
+UzLDUzNDM1NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3
+MjM5MzkxMCwtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxOD
+IsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcw
+OTE4NzY3OV19
 -->
