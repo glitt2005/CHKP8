@@ -1595,19 +1595,15 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
 
 La función  `fetch()`  se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona, **como datos JSON, archivos, imágenes, etc.** Es una forma moderna y flexible de **realizar peticiones HTTP y** obtener respuestas **del servidor** con una sintaxis limpia y fácil de usar.
 
-En resumen,  `fetch()`  sirve para:
 
--   **Realizar solicitudes HTTP:**
-    
-    Permite enviar solicitudes a servidores web para obtener o enviar datos.
-    
+        `fetch()`  devuelve una promesa que se resuelve con un objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta.
 -   **Obtener recursos de forma asíncrona:**
+
     
     Las solicitudes se realizan sin bloquear la ejecución del código, lo que permite que la página web siga respondiendo mientras se espera la respuesta del servidor.
     
 -   **Manejar respuestas del servidor:**
     
-    `fetch()`  devuelve una promesa que se resuelve con un objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta.
     
 -   **Trabajar con diferentes formatos de datos:**
     
@@ -1840,7 +1836,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzczOTEzLC03ODA1MzI3MDcsLTExMD
+eyJoaXN0b3J5IjpbOTg4MzE0MjA0LC03ODA1MzI3MDcsLTExMD
 UyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1
 NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLT
 E4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0
