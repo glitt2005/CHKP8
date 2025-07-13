@@ -1426,7 +1426,7 @@ El método estático es útil cuando se necesita crear instancias de una clase c
 Cuando estemos creando una aplicación y nos preguntemos si usar un método estático, primero deberíamos preguntarnos en profundidad:
 
 
-<img src="pregunta.png" style="display: block; margin: 0 auto; text-align: center;" alt="regunta método estático">
+<img src="pregunta.png" style="display: block; margin: 0 auto; text-align: center; width = 50%" alt="regunta método estático">
 
 
 
@@ -1596,11 +1596,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE4MDU2MDAwLDY3NjczMjQyOCwtODI2Mj
-Q5NTAsLTc4OTk4MDkyNSwxNTY4MjMxOTE4LC02MjUwNTQ5OTAs
-MTI4Nzk3MDAzMywxNzE0MzQ1Njk5LC0xNzM5OTI4NTAyLC0xOD
-UyNjk5MDc2LDIyOTU0MjExLC0xOTQ2MTUyMDc4LDExMDI5MTkw
-NzcsMTc1NTQyMjY0OCwyMTQ2ODY2NzQ2LC04ODAyMDIzMzcsNT
-ExMTc0OTM2LDQwMTQ0MDM2OSwyMDM4MjkxNzc5LDE1MjY1MDI3
-NTVdfQ==
+eyJoaXN0b3J5IjpbLTExMDQ1MjgxNzksNzE4MDU2MDAwLDY3Nj
+czMjQyOCwtODI2MjQ5NTAsLTc4OTk4MDkyNSwxNTY4MjMxOTE4
+LC02MjUwNTQ5OTAsMTI4Nzk3MDAzMywxNzE0MzQ1Njk5LC0xNz
+M5OTI4NTAyLC0xODUyNjk5MDc2LDIyOTU0MjExLC0xOTQ2MTUy
+MDc4LDExMDI5MTkwNzcsMTc1NTQyMjY0OCwyMTQ2ODY2NzQ2LC
+04ODAyMDIzMzcsNTExMTc0OTM2LDQwMTQ0MDM2OSwyMDM4Mjkx
+Nzc5XX0=
 -->
