@@ -1519,7 +1519,7 @@ Explicación:
     -   Esta función se usa para indicar que la operación asíncrona **ha fallado.**
     -   **`error`**  es una **descripción del error**, que puede ser cualquier tipo de valor, aunque **se recomienda usar un objeto  `Error`  para facilitar la depuración**,  [según Stack Overflow en español](https://es.stackoverflow.com/questions/64265/qu%C3%A9-es-una-promesa-en-javascript).
     -   El error se pasará al bloque  `catch()`  o al siguiente  `then()`  con un segundo argumento (el manejador de rechazo) en la cadena de promesas.
-	    - El método  **`catch()`** se usa para **manejar errores o casos de rechazo en una promesa**. Se ejecuta cuando la promesa asociada es rechazada, permitiendo ejecutar código específico para manejar el error, como mostrar un mensaje o realizar alguna acción correctiva.
+	    - El método  **`catch()`** se usa para **manejar errores o casos de rechazo en una promesa**. Se ejecuta cuando la promesa asociada es rechazada, permitiendo ejecutar código específico para **manejar el error**, **como mostrar un mensaje o realizar alguna acción correctiva.**
 
 
 ### Proceso básico promesa
@@ -1764,11 +1764,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTQzNzIxOCw5NTc3NDc0MjYsLTE0Nz
-IzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgy
-LC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MD
-kxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0NzE4
-MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4OTAsLT
-E0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMjA4NTI4
-NzMwMV19
+eyJoaXN0b3J5IjpbMTEyNDk1MjAyLDk1Nzc0NzQyNiwtMTQ3Mj
+M5MzkxMCwtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIs
+LTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOT
+E4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgw
+LC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMT
+Q3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3
+MzAxXX0=
 -->
