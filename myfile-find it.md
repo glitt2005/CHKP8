@@ -1631,7 +1631,7 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
       .then(response => response.json())
       .then(json => console.log(json))
 ```
-2. Esquema para trabajar con los datos **json** ya converti
+2. Esquema para trabajar con los datos **json** ya recibidos.
 ```js
 fetch('https://rickandmortyapi.com/api/character')
   .then(response => response.json())
@@ -1852,11 +1852,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTE1MTg2Miw3MTcyMjc0NzUsLTE3MD
-A4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC03ODA1MzI3
-MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MTA3LD
-EzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1
-NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Ny
-w5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3
-Mzg2NTc1XX0=
+eyJoaXN0b3J5IjpbLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNz
+AwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMy
+NzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNy
+wxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4
+NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NT
+csOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5
+NzM4NjU3NV19
 -->
