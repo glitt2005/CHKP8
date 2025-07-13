@@ -1638,7 +1638,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 ```js
 fetch('https://rickandmortyapi.com/api/posts')
   .then(data => data.json())
-  .then(data => {                  //trabajando con los datos json recibidos
+  .then(data => {                             //trabajando con los datos json recibidos
       data.posts.forEach((item) => {
          console.log(item.title);
       });
@@ -1655,31 +1655,8 @@ fetch('https://rickandmortyapi.com/api/posts')
     })
 ```
 
-```js
-console.log('Starting fetch call');
-const postsPromise = fetch('https://api.dailysmarty.com/posts')
-
-console.log('After fetch call');
-console.log(postsPromise);
-
-postsPromise
-   .then(data => data.json());     
-   .then(data => {
-      data.posts.forEach((item) => {
-         console.log(item.title);
-      });
-    })
-    .catch((err) => {
-        console.log(err);
-    });
-.then(data => {
-      data.posts.forEach((item) => {
-         console.log(item.title);
-      });
-    })
 
 
-```
 
 
 ## Como agrupar promesas
@@ -1887,7 +1864,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMzc0NjA0MCwxMDg4NDg3NzcwLC0xMj
+eyJoaXN0b3J5IjpbMTQ1NjI1NDQzMSwxMDg4NDg3NzcwLC0xMj
 gwNTUyMTIyLDcxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5
 NjMyLC05MTcwNjg1MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOS
 wtMTIzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3
