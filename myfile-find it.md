@@ -1553,10 +1553,9 @@ sleepyGreeting
 3.	**Promise()**, toma **como argumento una función**. Como primer argumento (aquí no ponemos los opcionales) toma **una función**, por ello se llama  **callback**. 
 
 4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
-5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**.  Generalmente, **cuando trabajas con promesas**, una de las regla es que tu expectativa es que aquello que quieres obtener, **no lo obtengas de forma inmediata**. **Puede tardar bien milisegundos o unos segundos.** Esta función toma dos argumentos:  
-	
-			-	una función a ejecutar  `resolve(valor)`   y  `reject(mensaje)`
-			-	retraso: el tiempo de espera en milisegundos (2 Segundos en este caso)
+5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**.  Generalmente, **cuando trabajas con promesas**, una de las regla es que tu expectativa es que aquello que quieres obtener, **no lo obtengas de forma inmediata**. **Puede tardar bien milisegundos o unos segundos.** Esta función toma dos argumentos:  <br>
+			-	*una función* a ejecutar  **`resolve(valor)`** y **`reject(mensaje)`**
+			-	*retraso*: **el tiempo de espera en milisegundos** (2 Segundos en este caso)
 				
 
 
@@ -1756,11 +1755,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDY3NzQwNSwxMzcyNTAwNTYzLDk1Nz
-c0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2LC0xODcwMzkz
-NzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwND
-ExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0
-MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLT
-kyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0
-ODc4Ml19
+eyJoaXN0b3J5IjpbNzM2MDI3MTY1LDEzNzI1MDA1NjMsOTU3Nz
+Q3NDI2LC0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3
+NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MT
+E1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQx
+Nyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOT
+I5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0MTU5OTIsNDA3OTQ4
+NzgyXX0=
 -->
