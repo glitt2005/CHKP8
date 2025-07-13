@@ -1587,7 +1587,7 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
 	    Esta es una **función flecha** (arrow function) que actúa como el **manejador de errores.**
     
     -   **`err`:** Es el parámetro de la función, que **representa el objeto de error** que se ha producido. Este objeto contiene **información sobre el error, como su tipo y mensaje**.
-    -   `**{ console.error(err);` `}`:** Dentro de la función,  **`console.error(err)`**  se utiliza para registrar el error en la consola del navegador o del entorno donde se ejecuta el código. Esto ayuda a los desarrolladores a identificar y depurar problemas.
+    -   **`{ console.error(err); }`:**  Dentro de la función,  **`console.error(err)`**  se utiliza para **registrar el error en la consola del navegador** o del entorno donde se ejecuta el código. Esto ayuda a los desarrolladores a **identificar y depurar problemas.**
     
 
 
@@ -1768,11 +1768,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNjg2MTU3LDUzNDM1NzEwNywxMzcyNT
-AwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2
-LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NT
-AyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3
-NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOT
-MxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1
-OTkyXX0=
+eyJoaXN0b3J5IjpbLTEyMzEzNDI0NTMsNTM0MzU3MTA3LDEzNz
+I1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1Njcx
+ODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MD
+Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
+NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
+E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
+MTU5OTJdfQ==
 -->
