@@ -1636,8 +1636,8 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 
 2. Otro esquema para trabajar con los datos **json** y con bucle `forEach()`
 ```js
-fetch('https://rickandmortyapi.com/api/character')
-  .then(response => response.json())
+fetch('https://rickandmortyapi.com/api/posts')
+  .then(data => data.json())
   .then(data => {
     // Aquí puedes trabajar con los datos JSON recibidos
     console.log(data);
@@ -1646,6 +1646,12 @@ fetch('https://rickandmortyapi.com/api/character')
     // Manejar errores en la solicitud
     console.error('Error:', error);
   });
+
+.then(data => {
+      data.posts.forEach((item) => {
+         console.log(item.title);
+      });
+    })
 ```
 
 ```js
@@ -1665,6 +1671,12 @@ postsPromise
     .catch((err) => {
         console.log(err);
     });
+.then(data => {
+      data.posts.forEach((item) => {
+         console.log(item.title);
+      });
+    })
+
 
 ```
 
@@ -1874,11 +1886,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MT
-cyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4
-NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NT
-MsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcy
-MzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4Mi
-wtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5
-MTg3Njc5XX0=
+eyJoaXN0b3J5IjpbLTIwODcyNjU2NiwxMDg4NDg3NzcwLC0xMj
+gwNTUyMTIyLDcxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5
+NjMyLC05MTcwNjg1MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOS
+wtMTIzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3
+NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mz
+c0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQx
+MTU1NDUzXX0=
 -->
