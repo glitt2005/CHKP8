@@ -1439,9 +1439,9 @@ En la programación orientada a objetos,  existe el llamado algo llamado:
 <img src="PRU.png"  width = "40%" alt="principioresp.única">
 </div>
 
-El Principio de Responsabilidad Única (PRU) en JavaScript  significa que cada clase  (función, etc.) debería tener solo una tarea o responsabilidad no intentar abarcar múltiples tareas no relacionadas.
+El Principio de Responsabilidad Única (PRU) en JavaScript  significa que cada clase  (función, etc.) debería **tener solo una tarea o responsabilidad** claramente definida, y **no intentar abarcar múltiples tareas** no relacionadas.
 
-En otras palabras, una clase o función debe tener una única responsabilidad dentro del sistema, y esa responsabilidad debe estar claramente definida.
+
 
 
 
@@ -1611,11 +1611,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzI5NTMwNTAsMTA0MTE1NTQ1MywtNz
-A5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcx
-ODAsLTE0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkwLC
-0xNDc3Mzk1MTg0LC0xNjg0MTU5OTIsNDA3OTQ4NzgyLDIwODUy
-ODczMDEsLTkxNzYxODAxNywtMTY3MzAzMDM0NCwtNDI1Njg3Nj
-g2LC0xODA2MjQ2MDgwLDE4MTI3MjA5MTUsMTgwNjg5NzU4Mywx
-NzUxODY3NDQ1XX0=
+eyJoaXN0b3J5IjpbOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOT
+E4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgw
+LC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMT
+Q3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3
+MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4NzY4Ni
+wtMTgwNjI0NjA4MCwxODEyNzIwOTE1LDE4MDY4OTc1ODMsMTc1
+MTg2NzQ0NV19
 -->
