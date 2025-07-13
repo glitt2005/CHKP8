@@ -1576,7 +1576,7 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
 	En nuestro caso sería nuestro string <font color=green>**“Hello……”.**</font>. En otros ejemplos, correspondería a las **peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.**
 	<br>
 
-2.  **`catch(err => { console.error(err); })`**  es un método que se utiliza para manejar errores asíncronos, específicamente en el contexto de promesas. Analicemos cada parte:
+2.  **`catch(err => { console.error(err); })`**  es un método que se utiliza para manejar errores asíncronos, específicamente en el contexto de promesas.   En otras palabras, es una forma de **asegurar que si una operación asíncrona falla, el error se capture y se muestre en la consola**, permitiendo a los desarrolladores responder adecuadamente. Analicemos cada parte:
 		
 	-   **`.catch()`:**
     
@@ -1587,10 +1587,10 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
 	    Esta es una función flecha (arrow function) que actúa como el manejador de errores.
     
     -   **`err`:** Es el parámetro de la función, que representa el objeto de error que se ha producido. Este objeto contiene información sobre el error, como su tipo y mensaje.
-    -   `{ console.error(err);` `}`: Dentro de la función,  `console.error(err)`  se utiliza para registrar el error en la consola del navegador o del entorno donde se ejecuta el código. Esto ayuda a los desarrolladores a identificar y depurar problemas.
+    -   `**{ console.error(err);` `}`:** Dentro de la función,  **`console.error(err)`**  se utiliza para registrar el error en la consola del navegador o del entorno donde se ejecuta el código. Esto ayuda a los desarrolladores a identificar y depurar problemas.
     
 
-En resumen,  `catch(err => { console.error(err); })`  es una forma de asegurar que si una operación asíncrona falla, el error se capture y se muestre en la consola, permitiendo a los desarrolladores responder adecuadamente.
+
 
 
 
@@ -1768,11 +1768,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjc3ODc5MTEsNTM0MzU3MTA3LDEzNz
-I1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1Njcx
-ODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MD
-Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
-NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
-E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
-MTU5OTJdfQ==
+eyJoaXN0b3J5IjpbLTE0NTU2MjkzMSw1MzQzNTcxMDcsMTM3Mj
+UwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4
+NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNj
+UwMjQxMywxMDQxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1
+NzUsNzgwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMT
+kzMTgyOTU1LC05Mjk4ODE4OTAsLTE0NzczOTUxODQsLTE2ODQx
+NTk5Ml19
 -->
