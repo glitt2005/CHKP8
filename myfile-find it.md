@@ -815,7 +815,7 @@ console.log(dorsal);   // Imprime: 10
 **Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** 
 En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último ejemplo, para que  `nombre`, `posición`y `dorsal`    se mapeen a los atributos de la variable `jugador` **las claves que pasamos, deben  tener exactamente el mismo nombre que las claves de la variable** a la que mapean . 
 
-.
+
 <br>
 <br>
 
@@ -1149,7 +1149,7 @@ JavaScript, aunque basado en **prototipos**, permite un estilo de programación 
 
 Comencemos con **una analogía**. Crear un **plano de una casa**:
 
-
+<div align="center">
 <div style="display: flex; justify-content: space-between>  
 <img src="planoCasa.png" width="40%" Alt="plano de una Casa" style="float: left;">  
  <img src="casaEstruct.png" width="25%" Alt="estructura de una Casa" style="float: right;">  
@@ -1594,11 +1594,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMTQxMzQ5LC0xNjA2MDg0NTk3LDc5Mz
-k4ODkzMSwtNDA0MzczMjY1LC0yODA5ODAwNjksLTk5MDAxMzI4
-NSwtNzk3MDEyOTMwLDE1Mzg4OTQzOTAsMTY4MTU1NTUwMywxNT
-E5Mzg1NzIsLTExMjM4MjU4MiwtMjgzNDY2ODcxLDgxMTY0Nzk0
-NiwtMTI5MzA4OTcxNiwxNjkyNDQwNzQ5LC0xMjA2ODcxNjk0LD
-M2NzA0NzUxMiwxNTI0MTAwMTIxLDEyMTIxMTc2NDYsLTExMDQ1
-MjgxNzldfQ==
+eyJoaXN0b3J5IjpbLTEyMzY4MzQ4OTksLTE2MDYwODQ1OTcsNz
+kzOTg4OTMxLC00MDQzNzMyNjUsLTI4MDk4MDA2OSwtOTkwMDEz
+Mjg1LC03OTcwMTI5MzAsMTUzODg5NDM5MCwxNjgxNTU1NTAzLD
+E1MTkzODU3MiwtMTEyMzgyNTgyLC0yODM0NjY4NzEsODExNjQ3
+OTQ2LC0xMjkzMDg5NzE2LDE2OTI0NDA3NDksLTEyMDY4NzE2OT
+QsMzY3MDQ3NTEyLDE1MjQxMDAxMjEsMTIxMjExNzY0NiwtMTEw
+NDUyODE3OV19
 -->
