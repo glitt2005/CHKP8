@@ -1622,7 +1622,15 @@ fetch('<Tu URL>', {})
 
 - El método  **`.catch()`  se puede omitir en Fetch API**.  **Se usa solo** cuando Fetch no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
 
-- Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato
+- Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato.
+
+####    EJEMPLOS
+1. Imprimiendo los datos **json** después 
+```javascript
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+      .then(response => response.json())
+      .then(json => console.log(json))
+```
 ```js
 fetch('https://rickandmortyapi.com/api/character')
   .then(response => response.json())
@@ -1636,11 +1644,7 @@ fetch('https://rickandmortyapi.com/api/character')
   });
 ```
     
-```javascript
-fetch('https://jsonplaceholder.typicode.com/todos/1')
-      .then(response => response.json())
-      .then(json => console.log(json))
-```
+
 
 ## Como agrupar promesas
 
@@ -1847,7 +1851,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzMxODAxOCw3MTcyMjc0NzUsLTE3MD
+eyJoaXN0b3J5IjpbMTUxMjEyMzQzOSw3MTcyMjc0NzUsLTE3MD
 A4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC03ODA1MzI3
 MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MTA3LD
 EzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1
