@@ -1558,10 +1558,12 @@ sleepyGreeting
 			-	*retraso*: **el tiempo de espera en milisegundos** (2 Segundos en este caso)
 			
 
-6.	Finalmente, llamamos a la función.
+6.	Finalmente, **llamamos a la función.**
 
-A)	SINTAXIS:
-i.	En varias líneas, por convención común
+<br>
+
+CONVENCIÓN COMÚN EN SINTAXIS: 
+i.	En varias líneas, 
 ii.	Indentación antes de poner los métodos then()y catch()
 
 
@@ -1750,7 +1752,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODY0MzE5MjgsMTM3MjUwMDU2Myw5NT
+eyJoaXN0b3J5IjpbLTE3NDgzNTYxMTgsMTM3MjUwMDU2Myw5NT
 c3NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5
 Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMD
 QxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5
