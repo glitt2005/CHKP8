@@ -1565,8 +1565,9 @@ sleepyGreeting
 	 - [x] **Varias líneas**
 
 	 - [x] **Indentación** antes de poner los métodos **`then()` y `catch()`**     
+<br>
 
-### Métodos <big>then() </big>y catch():
+### Métodos <big>`then()` </big>y  <big>`catch()` :
 
 	 . then((data) => { console.log(data) }); 
 data es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
@@ -1751,11 +1752,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MzkxMzk3OSw1MzQzNTcxMDcsMTM3Mj
-UwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4
-NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNj
-UwMjQxMywxMDQxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1
-NzUsNzgwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMT
-kzMTgyOTU1LC05Mjk4ODE4OTAsLTE0NzczOTUxODQsLTE2ODQx
-NTk5Ml19
+eyJoaXN0b3J5IjpbLTEyNzc2Nzk1ODksNTM0MzU3MTA3LDEzNz
+I1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1Njcx
+ODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MD
+Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
+NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
+E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
+MTU5OTJdfQ==
 -->
