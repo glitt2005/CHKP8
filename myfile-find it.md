@@ -1423,7 +1423,6 @@ El método estático es útil cuando se necesita crear instancias de una clase c
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 
-
 Cuando estemos creando una aplicación y nos preguntemos si usar un método estático, primero deberíamos preguntarnos en profundidad:
 
 
@@ -1433,9 +1432,13 @@ Cuando estemos creando una aplicación y nos preguntemos si usar un método est�
 
 
 
-Cu:
-- 
-- 
+
+
+
+
+
+
+
 
 
     
@@ -1596,7 +1599,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzYwMTM2OSwtNzg5OTgwOTI1LDE1Nj
+eyJoaXN0b3J5IjpbMjA2NjA0NjExMywtNzg5OTgwOTI1LDE1Nj
 gyMzE5MTgsLTYyNTA1NDk5MCwxMjg3OTcwMDMzLDE3MTQzNDU2
 OTksLTE3Mzk5Mjg1MDIsLTE4NTI2OTkwNzYsMjI5NTQyMTEsLT
 E5NDYxNTIwNzgsMTEwMjkxOTA3NywxNzU1NDIyNjQ4LDIxNDY4
