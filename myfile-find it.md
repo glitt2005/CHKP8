@@ -1550,19 +1550,17 @@ sleepyGreeting
 
 2.	**Asignamos a la variable** la creación de una **nueva promesa** new Promise().
 
-3.	**Promise()**, toma **como argumento una función**
+3.	**Promise()**, toma **como argumento una función**. Como primer rimer) argumento toma una función, por ello se llama  **callback**,   (en nuestro caso será una función flecha), que corresponderá a nuestros resolve() y reject(),.
 
 4.	**Esta función** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
 5.	 Creamos dos métodos de `setTimeout()`,  con el fin de poner temporizadores a cada uno de los métodos:
-	 - `resolve(valor)` 
+	 - `resolve(valor)` Su (primer) argumento toma una función, por ello se llama  **callback**,   (en nuestro caso será una función flecha), que corresponderá a nuestros resolve() y reject(),.
 	 - `reject(mensaje)`
 	
 
-8.		Creamos las funciones de  `resolve(valor)` y `reject(mensaje)`, y le ponemos a cada una de ellas un temporizador, para ello las envolvemos por separado con el método setTimeout() .   
 
-6.
 
-a.	El primer argumento toma una  función, por ello se llama  callback,   (en nuestro caso será una función flecha), que corresponderá a nuestros resolve() y reject(),.
+a.	
 b.	El segundo argumento corresponde al “delay” o  tiempo de retraso.
 
 
@@ -1762,7 +1760,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NzExOTI0OCw5NTc3NDc0MjYsLTE0Nz
+eyJoaXN0b3J5IjpbMTQ4MTAyOTU4Miw5NTc3NDc0MjYsLTE0Nz
 IzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgy
 LC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MD
 kxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0NzE4
