@@ -1638,8 +1638,10 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 ```js
 fetch('https://rickandmortyapi.com/api/posts')
   .then(data => data.json())
-  .then(data => {
-    // Aquí puedes trabajar con los datos JSON recibidos
+  .then(data => {                  //trabajando con los datos json recibidos
+      data.posts.forEach((item) => {
+         console.log(item.title);
+      });
     console.log(data);
   })
   .catch(error => {
@@ -1886,7 +1888,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcyNjU2NiwxMDg4NDg3NzcwLC0xMj
+eyJoaXN0b3J5IjpbMTQ1MzYwMDM1MSwxMDg4NDg3NzcwLC0xMj
 gwNTUyMTIyLDcxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5
 NjMyLC05MTcwNjg1MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOS
 wtMTIzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3
