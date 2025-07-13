@@ -1492,7 +1492,23 @@ const promesa = new Promise((resolve, reject) => {
 });
 ```
 
+Explicación:
 
+-   `new Promise((resolve, reject) => { ... })`:
+    
+    Crea una **nueva instancia de promesa**. El constructor toma una función con dos parámetros:  `resolve`  y  `reject`.
+    
+-   `resolve(valor)`:
+    
+    -   Esta función se usa para indicar que la operación asíncrona ha terminado con éxito.
+    -   `valor`  es el resultado de la operación, que se pasará al siguiente bloque  `then()`  en la cadena de promesas.
+    -   Si  `valor`  es otra promesa, se "aplanará" y su resultado se usará como el resultado de esta promesa,  [según MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve).
+    
+-   `reject(error)`:
+    
+    -   Esta función se usa para indicar que la operación asíncrona ha fallado.
+    -   `error`  es una descripción del error, que puede ser cualquier tipo de valor, aunque se recomienda usar un objeto  `Error`  para facilitar la depuración,  [según Stack Overflow en español](https://es.stackoverflow.com/questions/64265/qu%C3%A9-es-una-promesa-en-javascript).
+    -   El error se pasará al bloque  `catch()`  o al siguiente  `then()`  con un segundo argumento (el manejador de rechazo) en la cadena de promesas.
 
 ### Secuencia del proceso de creación de una promesa
 
@@ -1728,11 +1744,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MDIyNjgzMSwtMjM4NTY3MTg2LC0xOD
-cwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEz
-LDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3OD
-AxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5
-NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLD
-QwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMw
-MzAzNDRdfQ==
+eyJoaXN0b3J5IjpbLTE0NDQ1ODQzMDUsLTIzODU2NzE4NiwtMT
+g3MDM5Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQx
+MywxMDQxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNz
+gwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgy
+OTU1LC05Mjk4ODE4OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Mi
+w0MDc5NDg3ODIsMjA4NTI4NzMwMSwtOTE3NjE4MDE3LC0xNjcz
+MDMwMzQ0XX0=
 -->
