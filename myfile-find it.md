@@ -1429,10 +1429,13 @@ Cuando estemos creando una aplicación y nos preguntemos si usar un método est�
 Hay una línea muy fina entre:
 
 <div align="center">
-<img src="disyuntiva.png"  width = "40%" alt="pregunta método estático">
+<img src="disyuntiva.png"  width = "40%" alt="disyuntiva">
 </div>
 
-
+En Javascript existe el llamado:
+<div align="center">
+<img src="PRU.png"  width = "40%" alt="principioresp.única">
+</div>
 
 
 
@@ -1604,11 +1607,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNjI3NjYsLTcwOTE4NzY3OSwtMTQ5Nz
-M4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5
-LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMT
-Y4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgw
-MTcsLTE2NzMwMzAzNDQsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MC
-wxODEyNzIwOTE1LDE4MDY4OTc1ODMsMTc1MTg2NzQ0NSwtNzI5
-NTk4ODAzXX0=
+eyJoaXN0b3J5IjpbMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xND
+k3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0
+MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC
+0xNjg0MTU5OTIsNDA3OTQ4NzgyLDIwODUyODczMDEsLTkxNzYx
+ODAxNywtMTY3MzAzMDM0NCwtNDI1Njg3Njg2LC0xODA2MjQ2MD
+gwLDE4MTI3MjA5MTUsMTgwNjg5NzU4MywxNzUxODY3NDQ1LC03
+Mjk1OTg4MDNdfQ==
 -->
