@@ -1567,7 +1567,7 @@ sleepyGreeting
 	 - [x] **Indentación** antes de poner los métodos **`then()` y `catch()`**     
 <br>
 
-### Métodos <big>`then()` </big>y  <big>`catch()` :
+### Llamada a la función: métodos <big>`then()` </big>y  <big>`catch()` :
 
 	 . then((data) => { console.log(data) }); 
 data es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
@@ -1752,7 +1752,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzc2Nzk1ODksNTM0MzU3MTA3LDEzNz
+eyJoaXN0b3J5IjpbLTExNTA1NjA3NDksNTM0MzU3MTA3LDEzNz
 I1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1Njcx
 ODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MD
 Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
