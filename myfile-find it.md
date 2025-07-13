@@ -1591,9 +1591,10 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
     
 
 
-## Método fetch().
+## Método <big>`fetch()`</big>
 
 
+## Como agrupar promesas
 
 
 
@@ -1768,11 +1769,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjU0NjQzNiwtMTIzMTM0MjQ1Myw1Mz
-QzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5
-MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xOD
-QzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MDkxODc2
-NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0NzE4MCwtMT
-QzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4OTAsLTE0Nzcz
-OTUxODRdfQ==
+eyJoaXN0b3J5IjpbLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNT
+M0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkz
+OTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMT
+g0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3
+Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLT
+E0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3
+Mzk1MTg0XX0=
 -->
