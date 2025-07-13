@@ -1476,12 +1476,13 @@ Una **promesa** o bien:
 
 
 ### Proceso de codificación de las promesas
--En general, con las funciones, clases, etc no dedicamos mucho tiempo pensando en las eventualidades negativas de que ocurriera errores
-Sin embargo una Promise te obliga a crear un sistema entero dividido prácticamente 50/50 :
--	50% del tiempo lo dedicamos a codificar sobre situaciones en las que el proceso se resuelve con éxito
--	y el otro 50% lo pasamos creando los tipos de proceso que ocurrirán si se produce un error.
+- En general, con las **funciones, clases**, etc **no dedicamos** mucho **tiempo** pensando en las **eventualidades** negativas de que ocurriera **errores**
+- Sin embargo una **promesae** te obliga a crear un sistema entero dividido prácticamente **50/50** :
+	-	**50%** del tiempo lo dedicamos a codificar sobre situaciones en las que el proceso **se resuelve con éxito**
+	-	y el otro **50%** lo pasamos creando los tipos de proceso que ocurrirán **si se produce un error.**
 
 SECUENCIA DE LO QUEL PROCESO DE CREACIÓN DE UNA PROMISE:
+
 let sleepyGreeting = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve('Hello....')                // ponemos ….porque es “sleepy” 
@@ -1711,11 +1712,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3MjU0ODE2LC0xODcwMzkzNzQsMTU1OD
-IxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMs
-LTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NT
-Q3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5
-MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMD
-g1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4
-NzY4Nl19
+eyJoaXN0b3J5IjpbLTExNTY3MjYxNjQsLTE4NzAzOTM3NCwxNT
+U4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1
+MywtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OT
+Y1NDcxODAsLTE0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOTI5ODgx
+ODkwLC0xNDc3Mzk1MTg0LC0xNjg0MTU5OTIsNDA3OTQ4NzgyLD
+IwODUyODczMDEsLTkxNzYxODAxNywtMTY3MzAzMDM0NCwtNDI1
+Njg3Njg2XX0=
 -->
