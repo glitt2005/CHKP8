@@ -1206,7 +1206,7 @@ Entonces, recapitulando, lo que hará el programa será:
 
 <div align="center">
 <img src="constructorSintaxis.png" Alt="sintaxis constructor">
-<div>
+</div>
 
 #### ALGUNOS CONCEPTOS CLAVE DEL CONSTRUCTOR
 
@@ -1595,7 +1595,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2ODkxMTk1LC0xNDM5MzY0NDM5LC0xOT
+eyJoaXN0b3J5IjpbOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOT
 MxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1
 OTkyLDQwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLT
 E2NzMwMzAzNDQsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MCwxODEy
