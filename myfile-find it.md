@@ -1428,6 +1428,9 @@ Cuando estemos creando una aplicación y nos preguntemos si usar un método est�
 
 
 
+Existe una línea muy fina entre:
+- qué debería iro estemos creando una aplicación y nos preguntemos si usar un método estático, primero deberíamos preguntarnos en profundidad
+
 
 
 
@@ -1598,11 +1601,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyMjQxMTIzLDc4MDEzOTQxNyw5OTY1ND
-cxODAsLTE0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkw
-LC0xNDc3Mzk1MTg0LC0xNjg0MTU5OTIsNDA3OTQ4NzgyLDIwOD
-UyODczMDEsLTkxNzYxODAxNywtMTY3MzAzMDM0NCwtNDI1Njg3
-Njg2LC0xODA2MjQ2MDgwLDE4MTI3MjA5MTUsMTgwNjg5NzU4My
-wxNzUxODY3NDQ1LC03Mjk1OTg4MDMsLTE2MDYwODQ1OTcsNzkz
-OTg4OTMxXX0=
+eyJoaXN0b3J5IjpbLTg3MDE5NjQ4OCw3ODAxMzk0MTcsOTk2NT
+Q3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5
+MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMD
+g1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4
+NzY4NiwtMTgwNjI0NjA4MCwxODEyNzIwOTE1LDE4MDY4OTc1OD
+MsMTc1MTg2NzQ0NSwtNzI5NTk4ODAzLC0xNjA2MDg0NTk3LDc5
+Mzk4ODkzMV19
 -->
