@@ -1510,6 +1510,15 @@ Explicación:
     -   **`error`**  es una **descripción del error**, que puede ser cualquier tipo de valor, aunque **se recomienda usar un objeto  `Error`  para facilitar la depuración**,  [según Stack Overflow en español](https://es.stackoverflow.com/questions/64265/qu%C3%A9-es-una-promesa-en-javascript).
     -   El error se pasará al bloque  `catch()`  o al siguiente  `then()`  con un segundo argumento (el manejador de rechazo) en la cadena de promesas.
 
+
+### Proceso básico promesa
+
+<div align="center">
+<img src="basicoPromesa.png"  width = "60%" alt="proceso básico promesa">
+</div>
+<br>
+
+
 ### Secuencia del proceso de creación de una promesa
 
 
@@ -1744,11 +1753,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMT
-g3MDM5Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQx
-MywxMDQxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNz
-gwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgy
-OTU1LC05Mjk4ODE4OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Mi
-w0MDc5NDg3ODIsMjA4NTI4NzMwMSwtOTE3NjE4MDE3LC0xNjcz
-MDMwMzQ0XX0=
+eyJoaXN0b3J5IjpbMTQ4MTE1ODA2NiwtMTQ3MjM5MzkxMCwtMj
+M4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4
+NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMT
+Q5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0
+NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NC
+wtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2
+MTgwMTddfQ==
 -->
