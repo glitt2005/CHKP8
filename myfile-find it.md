@@ -1426,7 +1426,7 @@ Cuando estemos creando una aplicación y nos preguntemos si usar un método est�
 <img src="pregunta.png"  width = "40%" alt="pregunta método estático">
 </div>
 
-Existe una línea muy fina entre:
+Hay una línea muy fina entre:
 - qué debería ir dentro de la clase
 - qué debería ser potencialmente un módulo o método auxiliar.
 
@@ -1600,11 +1600,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
-U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
-OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMj
-A4NTI4NzMwMSwtOTE3NjE4MDE3LC0xNjczMDMwMzQ0LC00MjU2
-ODc2ODYsLTE4MDYyNDYwODAsMTgxMjcyMDkxNSwxODA2ODk3NT
-gzLDE3NTE4Njc0NDUsLTcyOTU5ODgwMywtMTYwNjA4NDU5Nyw3
-OTM5ODg5MzFdfQ==
+eyJoaXN0b3J5IjpbLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3OD
+AxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5
+NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLD
+QwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMw
+MzAzNDQsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MCwxODEyNzIwOT
+E1LDE4MDY4OTc1ODMsMTc1MTg2NzQ0NSwtNzI5NTk4ODAzLC0x
+NjA2MDg0NTk3XX0=
 -->
