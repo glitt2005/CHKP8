@@ -1434,12 +1434,14 @@ Hay una línea muy fina entre:
 </div>
 <br>
 
-En Javascript existe el llamado:
+En la programación orientada a objetos,  existe el llamado algo llamado:
 <div align="center">
 <img src="PRU.png"  width = "40%" alt="principioresp.única">
 </div>
 
+El Principio de Responsabilidad Única (PRU) en JavaScript  establece que cada clase o función debe tener una única razón para cambiar. Esto significa que un módulo (clase, función, etc.) debe enfocarse en realizar una única tarea o responsabilidad y no intentar abarcar múltiples tareas no relacionadas.
 
+En otras palabras, una clase o función debe tener una única responsabilidad dentro del sistema, y esa responsabilidad debe estar claramente definida.
 
 
 
@@ -1609,7 +1611,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMTU3MTE3LDEwNDExNTU0NTMsLTcwOT
+eyJoaXN0b3J5IjpbNjY4OTM0NTg4LDEwNDExNTU0NTMsLTcwOT
 E4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgw
 LC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMT
 Q3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3
