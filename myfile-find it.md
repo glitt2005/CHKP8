@@ -1425,12 +1425,14 @@ Cuando estemos creando una aplicación y nos preguntemos si usar un método est�
 <div align="center">
 <img src="pregunta.png"  width = "40%" alt="pregunta método estático">
 </div>
+<br>
 
 Hay una línea muy fina entre:
 
 <div align="center">
 <img src="disyuntiva.png"  width = "40%" alt="disyuntiva">
 </div>
+<br>
 
 En Javascript existe el llamado:
 <div align="center">
@@ -1607,11 +1609,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xND
-k3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0
-MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC
-0xNjg0MTU5OTIsNDA3OTQ4NzgyLDIwODUyODczMDEsLTkxNzYx
-ODAxNywtMTY3MzAzMDM0NCwtNDI1Njg3Njg2LC0xODA2MjQ2MD
-gwLDE4MTI3MjA5MTUsMTgwNjg5NzU4MywxNzUxODY3NDQ1LC03
-Mjk1OTg4MDNdfQ==
+eyJoaXN0b3J5IjpbNDQwMTU3MTE3LDEwNDExNTU0NTMsLTcwOT
+E4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgw
+LC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMT
+Q3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3
+MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4NzY4Ni
+wtMTgwNjI0NjA4MCwxODEyNzIwOTE1LDE4MDY4OTc1ODMsMTc1
+MTg2NzQ0NV19
 -->
