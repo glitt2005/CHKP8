@@ -1554,7 +1554,9 @@ sleepyGreeting
 
 4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
 5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**. Esta función toma dos argumentos:
-6.	- una función a ejecutar, y un "delay" a cada uno de los métodos que contiene:
+		-	una función a ejecutar
+	
+- una función a ejecutar, y un "delay" a cada uno de los métodos que contiene:
 	 - `resolve(valor)` 
 	 - `reject(mensaje)`
 	
@@ -1761,7 +1763,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTYzOTg1MzIsMTM3MjUwMDU2Myw5NT
+eyJoaXN0b3J5IjpbLTE5NDg3ODQxNzksMTM3MjUwMDU2Myw5NT
 c3NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5
 Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMD
 QxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5
