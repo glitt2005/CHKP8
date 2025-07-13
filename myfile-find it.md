@@ -1605,7 +1605,7 @@ Cuando la petición devuelve **una respuesta** (muy frecuentemente por CONVENCI�
 	1.  **La URL a la que enviar la petición** (este es un parámetro obligatorio).
 	2.  **Las opciones a configurar en la petición.** Aquí se puede configurar el método de solicitud aquí (este es un **parámetro opcional**).
 
--  **Devuelve una promesa** que resuelve al **objeto `Response`** (respuesta), que representa la respuesta a la solicitud realizada. Y **dado que devuelve Promesa**, necesitaremos agregar los métodos  **`then()`**  y  **`catch()`.**
+-  **Devuelve una promesa** que resuelve al **objeto `Response`** (respuesta), que representa la respuesta a la solicitud realizada. Y **dado que devuelve Promesa**, necesitaremos agregar los métodos  **`then()`**  y  **`catch()`,** tal y como acabamos de ver en el punto anterior.
 
 
 
@@ -1620,9 +1620,7 @@ fetch('<Tu URL>', {})
 ```
 
 
-Dentro de los métodos  `.then()`  y  `.catch()`, pasas una función de callback de llamada para ejecutarla cuando se llaman los métodos respectivos.
-
-El método  `.catch()`  se puede omitir en Fetch API. Se usa solo cuando Fetch no puede realizar una solicitud a la API, como por ejemplo si no hay conexión de red o no se encuentra la URL.
+- El método  **`.catch()`  se puede omitir en Fetch API**.  Se usa solo cuando Fetch no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
 
 
     
@@ -1837,11 +1835,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTQ3MDk3LC05MTcwNjg1MDcsLTc4MD
-UzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1Myw1MzQzNTcx
-MDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MTAsLT
-IzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xODQzMTM2
-ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MDkxODc2NzksLT
-E0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2
-NDQzOV19
+eyJoaXN0b3J5IjpbMTA4OTY3ODYxOCwtOTE3MDY4NTA3LC03OD
+A1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3
+MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC
+0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEz
+Njg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC
+0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0Mzkz
+NjQ0MzldfQ==
 -->
