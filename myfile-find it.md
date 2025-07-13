@@ -1414,7 +1414,7 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 	
 	- **No requieren el uso de  `new`,** lo que permite **crear objetos de manera más flexible**.
 	
-	-  El método estático es útil **cuando** se necesita crear *instancias de una clase con cierta lógica de inicialización o configuración específica, y se prefiere evitar el uso de  `new`  por simplicidad o por otras razones de diseño**. Es decir, pueden usarse para crear instancias de la clase de **forma personalizada**. 
+	-  El método estático es útil cuando se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica**, y **se prefiere evitar el uso de  `new`**  por simplicidad o por otras razones de diseño. Es decir, pueden usarse **para crear instancias de la clase de forma personalizada**. 
 
     
   
@@ -1574,7 +1574,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM1ODk2MTgsMjI5NTQyMTEsLTE5ND
+eyJoaXN0b3J5IjpbLTE4NTI2OTkwNzYsMjI5NTQyMTEsLTE5ND
 YxNTIwNzgsMTEwMjkxOTA3NywxNzU1NDIyNjQ4LDIxNDY4NjY3
 NDYsLTg4MDIwMjMzNyw1MTExNzQ5MzYsNDAxNDQwMzY5LDIwMz
 gyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2OTEsNTM0NzM2Mzcx
