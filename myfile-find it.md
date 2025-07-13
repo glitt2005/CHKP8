@@ -1623,8 +1623,10 @@ fetch('<Tu URL>', {})
 - El método  **`.catch()`  se puede omitir en Fetch API**.  **Se usa solo** cuando Fetch no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
 
 - Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato
-
-
+```js
+fetch('examples/example.json')
+  .then(response  =>  {  if  (!response.ok)  {  throw  Error(response.statusText);  }  // Lee la respuesta como JSON  return response.json();  })  .then(responseAsJson  =>  {  // Haz lo que quieras con la respuesta JSONificada  console.log(responseAsJson);  })  .catch(error  =>  {  console.log('Looks like there was a problem: \n', error);  });
+```
     
 
 ## Como agrupar promesas
@@ -1832,11 +1834,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC03OD
-A1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3
-MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC
-0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEz
-Njg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC
-0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0Mzkz
-NjQ0MzldfQ==
+eyJoaXN0b3J5IjpbMjAwNzgyNjQxMCwxODk4MDQ5NjMyLC05MT
+cwNjg1MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0
+MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLT
+E0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgy
+MTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC
+03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0
+NzE4MF19
 -->
