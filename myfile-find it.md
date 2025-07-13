@@ -1426,10 +1426,9 @@ Cuando estemos creando una aplicación y nos preguntemos si usar un método est�
 <img src="pregunta.png"  width = "40%" alt="pregunta método estático">
 </div>
 
-
-
 Existe una línea muy fina entre:
-- qué debería iro estemos creando una aplicación y nos preguntemos si usar un método estático, primero deberíamos preguntarnos en profundidad
+- qué debería ir dentro de la clase
+- qué debería ser potencialmente un módulo o método auxiliar.
 
 
 
@@ -1601,11 +1600,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDE5NjQ4OCw3ODAxMzk0MTcsOTk2NT
-Q3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5
-MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMD
-g1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4
-NzY4NiwtMTgwNjI0NjA4MCwxODEyNzIwOTE1LDE4MDY4OTc1OD
-MsMTc1MTg2NzQ0NSwtNzI5NTk4ODAzLC0xNjA2MDg0NTk3LDc5
-Mzk4ODkzMV19
+eyJoaXN0b3J5IjpbLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
+U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
+OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMj
+A4NTI4NzMwMSwtOTE3NjE4MDE3LC0xNjczMDMwMzQ0LC00MjU2
+ODc2ODYsLTE4MDYyNDYwODAsMTgxMjcyMDkxNSwxODA2ODk3NT
+gzLDE3NTE4Njc0NDUsLTcyOTU5ODgwMywtMTYwNjA4NDU5Nyw3
+OTM5ODg5MzFdfQ==
 -->
