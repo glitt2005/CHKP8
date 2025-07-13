@@ -1492,6 +1492,14 @@ const promesa = new Promise((resolve, reject) => {
 });
 ```
 
+
+### Proceso básico promesa
+
+<div align="center">
+<img src="basicoPromesa.png"  width = "60%" alt="proceso básico promesa">
+</div>
+<br>
+
 Explicación:
 
 -   **`new Promise((resolve, reject) => { ... })`:**
@@ -1753,11 +1761,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTE1ODA2NiwtMTQ3MjM5MzkxMCwtMj
-M4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4
-NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMT
-Q5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0
-NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NC
-wtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2
-MTgwMTddfQ==
+eyJoaXN0b3J5IjpbOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMz
+g1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1
+Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xND
+k3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0
+MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC
+0xNjg0MTU5OTIsNDA3OTQ4NzgyLDIwODUyODczMDEsLTkxNzYx
+ODAxN119
 -->
