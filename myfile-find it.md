@@ -1471,10 +1471,10 @@ CONVENCIÓN COMÚN:
 Los argumentos de la función `Promise()` son `resolve` y `reject`.  Antes era `success` y  `failure`, pero ahora lo más extendido son los primeros.
 
 Una **promesa** o bien:
-- funciona y **resuelve** ese código, o 
+- funciona y **resuelve** ese código. Por ejemplo, algún tipo de respuesta con éxito -si nos comunicamos con una API, nos devolverá los datos de esa API y podremos manejarlos; o
 - no funciona y por lo tanto devuelve algún tipo de **error**. 
--	algún tipo de respuesta con éxito -si nos comunicamos con una API, nos devolverá los datos de esa API y podremos manejarlos;
--	algún tipo de error.
+
+
 Forma de codificación de las Promesas:
 En general, con las funciones, clases, etc no dedicamos mucho tiempo pensando en las eventualidades negativas de que ocurriera errores
 Sin embargo una Promise te obliga a crear un sistema entero dividido prácticamente 50/50 :
@@ -1711,11 +1711,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NzIzMDUzMiwtMTg3MDM5Mzc0LDE1NT
-gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
-LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
-U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
-OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMj
-A4NTI4NzMwMSwtOTE3NjE4MDE3LC0xNjczMDMwMzQ0LC00MjU2
-ODc2ODZdfQ==
+eyJoaXN0b3J5IjpbMzkzOTkwNDAyLC0xODcwMzkzNzQsMTU1OD
+IxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMs
+LTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NT
+Q3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5
+MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMD
+g1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4
+NzY4Nl19
 -->
