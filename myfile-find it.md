@@ -1422,17 +1422,17 @@ El método estático es útil cuando :
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 
-Ojo! Cuando estemos creando una aplicación y estemos pensand en utilizar un método estáti si vamos a usar un método estático, primero deberíamos preguntarnos en profundidad:
+Ojo! Cuando estemos creando una aplicación y estemos pensand en utilizar un método estático, primero deberíamos preguntarnos en profundidad:
 
 <div align="center">
 <img src="pregunta.png"  width = "40%" alt="pregunta método estático">
 </div>
 <br>
 
-Hay una línea muy fina entre:
+Ya que hay una línea muy fina entre:
 
 <div align="center">
-<img src="disyuntiva.png"  width = "40%" alt="disyuntiva">
+<img src="disyuntiva.png"  width = "60%" alt="disyuntiva">
 </div>
 <br>
 
@@ -1613,7 +1613,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzIxMzkyNiwtMTg0MzEzNjg1Nyw5MD
+eyJoaXN0b3J5IjpbMTgxMDQ4NTg2MiwtMTg0MzEzNjg1Nyw5MD
 Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
 NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
 E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
