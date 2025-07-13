@@ -1385,10 +1385,10 @@ cliente1.despedirse();              // (4) Uncaught TypeError: cliente1.despedir
 console.log(cliente1.entrar());     // (5) Método no estático (requiere instancia): 'Hola'
 ```
 
-(1) Como vemos, el método **estático**  `despedirse()` se ejecuta sin problemas accediendo a él con el **nombre de la clase** delante.
-(2) El método `entrar()` no es estático - **Necesita un instancia** para acceder a él. Nos da error.
-(3) Creamos la instancia
-(4) El método `despedirse()` es **estático**, la forma de acceder a él es a través de la **clase**, **no de una instancia**.
+(1) Como vemos, el método **estático**  `despedirse()` se ejecuta sin problemas accediendo a él con el **nombre de la clase** delante.<br>
+(2) El método `entrar()` no es estático - **Necesita un instancia** para acceder a él. Nos da error.<br>
+(3) Creamos la instancia.<br>
+(4) El método `despedirse()` es **estático**, la forma de acceder a él es a través de la **clase**, **no de una instancia**.<br>
 (5) El método `entrar()` no es estático, ya hemos **creado la instancia y esta vez no nos da error**.
 
 <br>
@@ -1611,11 +1611,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOT
-E4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgw
-LC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMT
-Q3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3
-MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4NzY4Ni
-wtMTgwNjI0NjA4MCwxODEyNzIwOTE1LDE4MDY4OTc1ODMsMTc1
-MTg2NzQ0NV19
+eyJoaXN0b3J5IjpbLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwND
+ExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0
+MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLT
+kyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0
+ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzND
+QsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MCwxODEyNzIwOTE1LDE4
+MDY4OTc1ODNdfQ==
 -->
