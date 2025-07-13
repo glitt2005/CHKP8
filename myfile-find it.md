@@ -1455,10 +1455,10 @@ Para entender el concepto de **Promesa** o **Promise** en líneas generales, una
 Por ejemplo me conecto a una **API de *Twitter***, para poder obtener todas las **publicaciones**. Así que llamo a una **URL (un endpoint**) y las recibo.
 -	¿qué pasaría en mi aplicación **si Twitter se cae**? Si un usuario va a la página, pero solo podría ver algo que es parte de la memoria intermedia (bufer) como unos puntos suspensivas "………………… " o algo así:   Sería **una experiencia no agradable para cualquier usuario**.
 
-Lo que una **Ppomesa** nos permite es llamar a ***Twitter***, mostrar nuestra página, 
+Lo que una **promesa** nos permite es llamar a ***Twitter***, mostrar nuestra página, 
 o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**.
 
-- Una **Promise** hace realmente una tarea que **no queremos que ocurra en tiempo real**; podemos desarrollar cualquier funcionalidad nueva en la que sea conveniente **que no se procese inmediatamente**, como una consulta a una base de datos o API externa.
+- Una **promesa** hace realmente una tarea que **no queremos que ocurra en tiempo real**; podemos desarrollar cualquier funcionalidad nueva en la que sea conveniente **que no se procese inmediatamente**, como una consulta a una base de datos o API externa.
 
 Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de forma asíncrona.** Esto significa que puedes hacer tareas como ésta de llamar servicios externos y usar APIs, y poder tomar y en realidad, **elegir  qué elementos** de tu página o en tu aplicación **se cargarán directamente, y cuáles pueden tardar más tiempo**.
 
@@ -1705,7 +1705,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk1Mjc0MCwtMTg3MDM5Mzc0LDE1NT
+eyJoaXN0b3J5IjpbMTEyNzYxODg1MCwtMTg3MDM5Mzc0LDE1NT
 gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
 LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
 U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
