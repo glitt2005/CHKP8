@@ -1450,6 +1450,98 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
     
 # 7. ¿Qué es una promesa en JS?
 
+Para entender el concepto de **Promisa**o " en líneas generales, una de las formas más comunes de trabajar con Promises es cuando te comunicas con APIs.  Por ejemplo con una API de Twitter, y quiero recibir todas las publicaciones. Así que llamo a una URL (un endpoint) y recibiré estas comunicaciones de vuelta.
+-	¿qué pasaría en mi aplicación si Twitter se cae? Si un usuario va a la página, pero solo podría ver algo que es parte de la memoria intermedia (bufer) como …………………..   Pues sería una experiencia no agradable para cualquier usuario.
+-	Lo que Promise nos permite es llamar a Twitter, mostrar nuestra página, 
+o	y cuando las publicaciones finalmente lleguen de la API, que las muestre.
+Promise hace realmente una tarea que no queremos que ocurra en tiempo real; podemos desarrollar cualquier funcionalidad nueva en la que sea conveniente que no se procese inmediatamente, como una consulta a una base de datos o API externa.
+Y esto es algo que tiene muy positivo JavaScript: su capacidad para trabajar de forma asíncrona. Esto significa que puedes hacer tareas como ésta de llamar servicios externos y usar APIs, y poder tomar y en realidad, elegir,  qué elementos de tu página o en tu aplicación se cargarán directamente, y cuáles pueden tardar más tiempo.
+Efectivamente, algo muy a favor de Javascript es que trabaja directamente con la experiencia del usuario. No sería deseable que el usuario se quede esperando durante un tiempo hasta que finalmente los datos se carguen.
+La naturaleza de JavaScript es la comunicación con servicios externos, como bases de datos, APIs backend* ( las *APIs backend se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend ) o cualquier otro servicio fuera de la aplicación, como las diferentes plataformas de JS como React, Angular y Vue; JavaScript recibe los datos como resultado de esta comunicación con dichos servicios externos.
+La utilización de heramientas como Promises son el pilar central del poder confiar en que el proceso se desarrollará tan fluidamente como sea posible.
+Convención común de los argumentos de la función Promise son “resolve” y “reject”. Antes era “success” y “failure”, pero ahora lo más extendido son los primeros.
+Una Promise o bien funciona y resuelve ese código, o no hace y por lo tanto devuelve algún tipo de error. Es decir nos devuelve:
+-	algún tipo de respuesta con éxito -si nos comunicamos con una API, nos devolverá los datos de esa API y podremos manejarlos;
+-	algún tipo de error.
+Forma de codificación de las Promesas:
+En general, con las funciones, clases, etc no dedicamos mucho tiempo pensando en las eventualidades negativas de que ocurriera errores
+Sin embargo una Promise te obliga a crear un sistema entero dividido prácticamente 50/50 :
+-	50% del tiempo lo dedicamos a codificar sobre situaciones en las que el proceso se resuelve con éxito
+-	y el otro 50% lo pasamos creando los tipos de proceso que ocurrirán si se produce un error.
+
+SECUENCIA DE LO QUEL PROCESO DE CREACIÓN DE UNA PROMISE:
+let sleepyGreeting = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve('Hello....')                // ponemos ….porque es “sleepy” 
+  }, 2000);			     // 2 seg (2000milseg). Después de ese tiempo retorna el Hello.
+
+  setTimeout(() => {
+    reject(Error('Too sleepy...'))   //Error()con mayúscula, ya que es un módulo de JS
+  }, 2000);
+});
+
+sleepyGreeting
+  .then(data => {
+    console.log(data);
+  })
+  .catch(err => {
+    console.error(err);
+  });
+1.	Crear una variable que llamamos sleepyGreeting,
+
+2.	Asignamos a la variable la creación de una nueva promise new Promise().
+
+3.	Promise(), toma como argumento una función
+
+4.	Esta función (que en este caso sera función flecha) tiene dos argumentos: resolve y reject, convención común especialmente para utilizar los métodos correspondientes de resolve() y reject()
+
+5.	Creamos las funciones de  resolve(valor) y reject(mensaje), y le ponemos a cada una de ellas un temporizador, para ello las envolvemos por separado con el método setTimeout() .   
+
+6.	Añadimos dos argumentos al método setTimeout():
+
+a.	El primer argumento toma una  función, por ello se llama  callback,   (en nuestro caso será una función flecha), que corresponderá a nuestros resolve() y reject(),.
+b.	El segundo argumento corresponde al “delay” o  tiempo de retraso.
+
+
+Generalmente, cuando creas una Promise,  o trabajas con promises, una de las reglas es que tu expectativa es que aquello que quieres obtener, no lo obtengas de forma inmediata. Puede tardar bien milisegundos o unos segundos.
+Y colocando así nuestro método setTimeout() pausamos la ejecución del programa durante un período de tiempo. Este temporizador nos permite manipularlo e incluso imitar lo que obtendríamos si llamamos a una API o algo parecido. 
+
+
+7.	Finalmente, llamamos a la función.
+
+A)	SINTAXIS:
+i.	En varias líneas, por convención común
+ii.	Indentación antes de poner los métodos then()y catch()
+
+
+B)	MÉTODOS:
+
+	 . then((data) => { console.log(data) }); 
+data es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
+Significa que cuando llamamos a la función (sleepyGreeting()) y obtengamos la respuesta -y podemos traducir directamente del inglés-  entonces () haz todo lo que ponga dentro del bloque después de then(). Es decir, acceder a data. 	En nuestro caso sería nuestro string “Hello……”. En otros casos correspondería a las peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.
+
+
+	.catch((err) => { console.error(err) }); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1607,11 +1699,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0Mz
-EzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5
-LC0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0Mz
-kzNjQ0MzksLTE5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1
-MTg0LC0xNjg0MTU5OTIsNDA3OTQ4NzgyLDIwODUyODczMDEsLT
-kxNzYxODAxNywtMTY3MzAzMDM0NCwtNDI1Njg3Njg2LC0xODA2
-MjQ2MDgwXX0=
+eyJoaXN0b3J5IjpbODc5NzI1OTQwLC0xODcwMzkzNzQsMTU1OD
+IxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMs
+LTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NT
+Q3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5
+MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMD
+g1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4
+NzY4Nl19
 -->
