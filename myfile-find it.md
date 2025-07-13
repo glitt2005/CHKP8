@@ -1468,8 +1468,11 @@ Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de 
 - La utilización de heramientas como las **promesas** son el pilar central de podamos confiar en que el proceso se desarrollará tan fluidamente como sea posible.
 
 CONVENCIÓN COMÚN:	
-Los argumentos de la función `Promise()` son `resolve` y `reject”. Antes era “success” y “failure”, pero ahora lo más extendido son los primeros.
-Una Promise o bien funciona y resuelve ese código, o no hace y por lo tanto devuelve algún tipo de error. Es decir nos devuelve:
+Los argumentos de la función `Promise()` son `resolve` y `reject`.  Antes era `success` y  `failure`, pero ahora lo más extendido son los primeros.
+
+Una **promesa** o bien:
+- funciona y **resuelve** ese código, o 
+- no funciona y por lo tanto devuelve algún tipo de **error**. 
 -	algún tipo de respuesta con éxito -si nos comunicamos con una API, nos devolverá los datos de esa API y podremos manejarlos;
 -	algún tipo de error.
 Forma de codificación de las Promesas:
@@ -1708,7 +1711,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjI4Nzg0OCwtMTg3MDM5Mzc0LDE1NT
+eyJoaXN0b3J5IjpbMTg2NzIzMDUzMiwtMTg3MDM5Mzc0LDE1NT
 gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
 LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
 U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
