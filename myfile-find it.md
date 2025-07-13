@@ -1644,7 +1644,12 @@ fetch('https://rickandmortyapi.com/api/character')
     console.error('Error:', error);
   });
 ```
-    
+```javascript
+fetch('https://jsonplaceholder.typicode.com/users/1')  
+.then(response => response.json())  
+.then(data => console.log(data))  
+.catch(error => console.error('Error:', error));
+ ``` 
 
 
 ## Como agrupar promesas
@@ -1852,11 +1857,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNz
-AwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMy
-NzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNy
-wxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4
-NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NT
-csOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5
-NzM4NjU3NV19
+eyJoaXN0b3J5IjpbMTYwOTE2OTQ3MCwtMTI4MDU1MjEyMiw3MT
+cyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4
+NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NT
+MsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcy
+MzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4Mi
+wtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5
+MTg3Njc5XX0=
 -->
