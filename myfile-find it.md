@@ -1404,7 +1404,7 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 
 El método estático es útil cuando se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica**, y **se prefiere evitar el uso de  `new`**  por simplicidad o por otras razones de diseño. Es decir, pueden usarse **para crear instancias de la clase de forma personalizada**.  Más específicamente:
 
-- **Cuando no necesitemos acceder a propiedades de instancia**: Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo como estático. 
+- **Cuando no necesitemos acceder a propiedades de instancia**: Tiene que ver más **con la estructura** y menos con la instancia. Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo como estático. 
 - Cuando necesitemos **funciones de utilidad:**
 	-  a) **funciones auxiliares** (***helper modules***). Los métodos "helper" o auxiliares son funciones diseñadas para realizar tareas **específicas y reutilizables, simplificando el código y mejorando la legibilidad**. Estos métodos a menudo se encapsulan en un módulo o clase para **su fácil acceso y mantenimiento**.
 	
@@ -1577,11 +1577,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjkyMDc0LC0xNzM5OTI4NTAyLC0xOD
-UyNjk5MDc2LDIyOTU0MjExLC0xOTQ2MTUyMDc4LDExMDI5MTkw
-NzcsMTc1NTQyMjY0OCwyMTQ2ODY2NzQ2LC04ODAyMDIzMzcsNT
-ExMTc0OTM2LDQwMTQ0MDM2OSwyMDM4MjkxNzc5LDE1MjY1MDI3
-NTUsMTg5OTQ1NjkxLDUzNDczNjM3MSwtMTM5MzEwNzE3OCwxOD
-I1NzMzNzczLC0yODczOTA0NDEsLTg5MzE2MDcwMCwtODk2MzA3
-MzcxXX0=
+eyJoaXN0b3J5IjpbMTcxNDM0NTY5OSwtMTczOTkyODUwMiwtMT
+g1MjY5OTA3NiwyMjk1NDIxMSwtMTk0NjE1MjA3OCwxMTAyOTE5
+MDc3LDE3NTU0MjI2NDgsMjE0Njg2Njc0NiwtODgwMjAyMzM3LD
+UxMTE3NDkzNiw0MDE0NDAzNjksMjAzODI5MTc3OSwxNTI2NTAy
+NzU1LDE4OTk0NTY5MSw1MzQ3MzYzNzEsLTEzOTMxMDcxNzgsMT
+gyNTczMzc3MywtMjg3MzkwNDQxLC04OTMxNjA3MDAsLTg5NjMw
+NzM3MV19
 -->
