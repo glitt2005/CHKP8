@@ -1450,7 +1450,9 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
     
 # 7. ¿Qué es una promesa en JS?
 
-Para entender el concepto de **Promisa**o " en líneas generales, una de las formas más comunes de trabajar con Promises es cuando te comunicas con APIs.  Por ejemplo con una API de Twitter, y quiero recibir todas las publicaciones. Así que llamo a una URL (un endpoint) y recibiré estas comunicaciones de vuelta.
+Para entender el concepto de **Promisa** o **Promise** en líneas generales, una de las formas más comunes de trabajar con **Promises** es cuando te comunicas con **APIs**.  
+
+Por ejemplo me conecto a una **API de Twitter**, para poder recibir todas las **publicaciones**. Así que llamo a una **URL (un endpoint**) y recibiré estas comunicaciones de vuelta.
 -	¿qué pasaría en mi aplicación si Twitter se cae? Si un usuario va a la página, pero solo podría ver algo que es parte de la memoria intermedia (bufer) como …………………..   Pues sería una experiencia no agradable para cualquier usuario.
 -	Lo que Promise nos permite es llamar a Twitter, mostrar nuestra página, 
 o	y cuando las publicaciones finalmente lleguen de la API, que las muestre.
@@ -1699,11 +1701,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5NzI1OTQwLC0xODcwMzkzNzQsMTU1OD
-IxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMs
-LTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NT
-Q3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5
-MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMD
-g1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4
-NzY4Nl19
+eyJoaXN0b3J5IjpbLTM0OTI1NzI4OSwtMTg3MDM5Mzc0LDE1NT
+gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
+LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
+U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
+OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMj
+A4NTI4NzMwMSwtOTE3NjE4MDE3LC0xNjczMDMwMzQ0LC00MjU2
+ODc2ODZdfQ==
 -->
