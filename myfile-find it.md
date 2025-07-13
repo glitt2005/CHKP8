@@ -1553,7 +1553,8 @@ sleepyGreeting
 3.	**Promise()**, toma **como argumento una función**. Como primer argumento (aquí no ponemos los opcionales) toma **una función**, por ello se llama  **callback**. 
 
 4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
-5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores** a cada uno de los métodos que contiene:
+5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**. Esta función toma dos argumentos:
+6.	- una función a ejecutar, y un "delay" a cada uno de los métodos que contiene:
 	 - `resolve(valor)` 
 	 - `reject(mensaje)`
 	
@@ -1760,11 +1761,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0Nz
-IzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgy
-LC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MD
-kxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0NzE4
-MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4OTAsLT
-E0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMjA4NTI4
-NzMwMV19
+eyJoaXN0b3J5IjpbLTEzNTYzOTg1MzIsMTM3MjUwMDU2Myw5NT
+c3NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5
+Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMD
+QxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5
+NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC
+05Mjk4ODE4OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5
+NDg3ODJdfQ==
 -->
