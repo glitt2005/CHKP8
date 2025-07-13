@@ -1605,7 +1605,7 @@ Cuando la petición devuelve **una respuesta** (muy frecuentemente por CONVENCI�
 	1.  **La URL a la que enviar la petición** (este es un parámetro obligatorio).
 	2.  **Las opciones a configurar en la petición.** Aquí se puede configurar el método de solicitud aquí (este es un **parámetro opcional**).
 
--  **Devuelve una promesa** que resuelve al **objeto `Response`** (respuesta), que representa la respuesta a la solicitud realizada.
+-  **Devuelve una promesa** que resuelve al **objeto `Response`** (respuesta), que representa la respuesta a la solicitud realizada. Y dado que devuelve
 Debajo del capó, la función  `fetch()`  devuelve una Promesa, por lo que se necesita agregar los métodos  **`then()`**  y  **`catch()`.**
 
 
@@ -1620,7 +1620,6 @@ fetch('<Tu URL>', {})
   })
 ```
 
-Respuesta de una solicitud Fetch con los métodos then() y catch()
 
 Dentro de los métodos  `.then()`  y  `.catch()`, pasas una función de callback de llamada para ejecutarla cuando se llaman los métodos respectivos.
 
@@ -1839,7 +1838,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDc5NzIxNjgsLTkxNzA2ODUwNywtNz
+eyJoaXN0b3J5IjpbLTIwNjY2MjQ5ODEsLTkxNzA2ODUwNywtNz
 gwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1
 NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMC
 wtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMx
