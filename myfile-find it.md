@@ -1482,8 +1482,10 @@ Una **promesa** o bien:
 	-	y el otro **50%** lo pasamos creando los tipos de proceso que ocurrirán **si se produce un error.**
 
 <br>
-### Secuencu
-SECUENCIA DE LO QUEL PROCESO DE CREACIÓN DE UNA PROMISE:
+
+### Secuencia del proceso de creación de una promesa
+
+
 ```JavaScript
 let sleepyGreeting = new Promise((resolve, reject) => {
   setTimeout(() => {
@@ -1503,11 +1505,11 @@ sleepyGreeting
     console.error(err);
   });
   ```
-1.	Crear una variable que llamamos sleepyGreeting,
+1.	Crearmos una **variable** que llamamos sleepyGreeting,
 
-2.	Asignamos a la variable la creación de una nueva promise new Promise().
+2.	**Asignamos a la variable** la creación de una **nueva promesa** new Promise().
 
-3.	Promise(), toma como argumento una función
+3.	**Promise()**, toma **como argumento una función**
 
 4.	Esta función (que en este caso sera función flecha) tiene dos argumentos: resolve y reject, convención común especialmente para utilizar los métodos correspondientes de resolve() y reject()
 
@@ -1715,7 +1717,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDM3NDA2NSwtMTg3MDM5Mzc0LDE1NT
+eyJoaXN0b3J5IjpbMTYxMjQxMDgxNywtMTg3MDM5Mzc0LDE1NT
 gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
 LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
 U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
