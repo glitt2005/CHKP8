@@ -1625,7 +1625,9 @@ fetch('<Tu URL>', {})
 - Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato
 ```js
 fetch('examples/example.json')
-  .then(response  =>  {  if  (!response.ok)  {  throw  Error(response.statusText);  }  // Lee la respuesta como JSON  return response.json();  })  .then(responseAsJson  =>  {  // Haz lo que quieras con la respuesta JSONificada  console.log(responseAsJson);  })  .catch(error  =>  {  console.log('Looks like there was a problem: \n', error);  });
+  .then(response  =>  {  if  (!response.ok)  {
+    throw  Error(response.statusText);
+    }  // Lee la respuesta como JSON  return response.json();  })  .then(responseAsJson  =>  {  // Haz lo que quieras con la respuesta JSONificada  console.log(responseAsJson);  })  .catch(error  =>  {  console.log('Looks like there was a problem: \n', error);  });
 ```
     
 
@@ -1834,11 +1836,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzgyNjQxMCwxODk4MDQ5NjMyLC05MT
-cwNjg1MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0
-MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLT
-E0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgy
-MTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC
-03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0
-NzE4MF19
+eyJoaXN0b3J5IjpbLTE3NjcyMTYzNzAsMTg5ODA0OTYzMiwtOT
+E3MDY4NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEz
+NDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC
+0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4
+MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1My
+wtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1
+NDcxODBdfQ==
 -->
