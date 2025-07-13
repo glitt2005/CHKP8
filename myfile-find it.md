@@ -1603,7 +1603,7 @@ Acepta **dos parámetros:**
 1.  **La URL a la que enviar la petición** (este es un parámetro obligatorio).
 2.  Las opciones a configurar en la petición. Puede configurar el método de solicitud aquí (este es un parámetro opcional).
 
--  **Devuelve una promesa** que resuelve al objeto `Response`, que representa la respuesta a ua respuesta a la solicitud realizada.
+-  **Devuelve una promesa** que resuelve al objeto `Response`, que representa la respuesta a la solicitud realizada.
 Debajo del capó, la función  `fetch()`  devuelve una Promesa, por lo que necesitas agregar los métodos  `.then()`  y  `.catch()`.
 
 Cuando la petición devuelve una respuesta, se llamará al método  `then()`. Si la solicitud devuelve un error, se ejecutará el método  `catch()`:
@@ -1837,7 +1837,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTA3NDAwNSwtOTE3MDY4NTA3LC03OD
+eyJoaXN0b3J5IjpbMTcxNzE0MjA2NiwtOTE3MDY4NTA3LC03OD
 A1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3
 MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC
 0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEz
