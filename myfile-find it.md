@@ -1562,9 +1562,9 @@ sleepyGreeting
 
 
 
-	 - [ ] **Varias líneas**
+	 - [x] **Varias líneas**
 
-	 - [ ] **Indentación** antes de poner los métodos **`then()` y `catch()`**     
+	 - [x] **Indentación** antes de poner los métodos **`then()` y `catch()`**     
 
 B)	MÉTODOS:
 
@@ -1751,11 +1751,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3Nz
-Q3NDI2LC0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3
-NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MT
-E1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQx
-Nyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOT
-I5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0MTU5OTIsNDA3OTQ4
-NzgyXX0=
+eyJoaXN0b3J5IjpbLTE1NjU3NDMzMjUsNTM0MzU3MTA3LDEzNz
+I1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1Njcx
+ODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MD
+Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
+NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
+E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
+MTU5OTJdfQ==
 -->
