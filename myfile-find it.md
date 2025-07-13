@@ -1558,14 +1558,13 @@ sleepyGreeting
 			-	*retraso*: **el tiempo de espera en milisegundos** (2 Segundos en este caso)
 			
 
- - [ ] List item
-
 6.	Finalmente, **llamamos a la función.** Por CONVENCIÓN COMÚN, utilizamos la sintaxis de:
 
- - [ ] 
 
- - [ ] i.	En varias líneas,  	ii.	Indentación antes de poner los métodos
-              then()y catch()
+
+ - [ ] **Varias líneas**
+
+ - [ ] Indentación antes de poner los métodos `then()` y `catch()`     
 
 B)	MÉTODOS:
 
@@ -1752,7 +1751,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc4ODkxMDcsMTM3MjUwMDU2Myw5NT
+eyJoaXN0b3J5IjpbLTExMDQ3MTYxMjUsMTM3MjUwMDU2Myw5NT
 c3NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5
 Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMD
 QxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5
