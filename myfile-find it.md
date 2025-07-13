@@ -1431,6 +1431,8 @@ Cuando estemos creando una aplicación y nos preguntemos si usar un método est�
 
 
 
+    <img src="URL_de_la_imagen" style="display: block; margin: 0 auto; text-align: center;" alt="Texto alternativo">
+
 
 
 
@@ -1599,11 +1601,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjI0OTUwLC03ODk5ODA5MjUsMTU2OD
-IzMTkxOCwtNjI1MDU0OTkwLDEyODc5NzAwMzMsMTcxNDM0NTY5
-OSwtMTczOTkyODUwMiwtMTg1MjY5OTA3NiwyMjk1NDIxMSwtMT
-k0NjE1MjA3OCwxMTAyOTE5MDc3LDE3NTU0MjI2NDgsMjE0Njg2
-Njc0NiwtODgwMjAyMzM3LDUxMTE3NDkzNiw0MDE0NDAzNjksMj
-AzODI5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5MSw1MzQ3MzYz
-NzFdfQ==
+eyJoaXN0b3J5IjpbNzc5NDA3MjcxLC04MjYyNDk1MCwtNzg5OT
+gwOTI1LDE1NjgyMzE5MTgsLTYyNTA1NDk5MCwxMjg3OTcwMDMz
+LDE3MTQzNDU2OTksLTE3Mzk5Mjg1MDIsLTE4NTI2OTkwNzYsMj
+I5NTQyMTEsLTE5NDYxNTIwNzgsMTEwMjkxOTA3NywxNzU1NDIy
+NjQ4LDIxNDY4NjY3NDYsLTg4MDIwMjMzNyw1MTExNzQ5MzYsND
+AxNDQwMzY5LDIwMzgyOTE3NzksMTUyNjUwMjc1NSwxODk5NDU2
+OTFdfQ==
 -->
