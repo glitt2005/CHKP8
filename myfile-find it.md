@@ -1511,7 +1511,7 @@ sleepyGreeting
 
 3.	**Promise()**, toma **como argumento una función**
 
-4.	Esta función (que en este caso sera función flecha) tiene dos argumentos: resolve y reject, convención común especialmente para utilizar los métodos correspondientes de resolve() y reject()
+4.	**Esta función** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, convención común mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
 
 5.	Creamos las funciones de  resolve(valor) y reject(mensaje), y le ponemos a cada una de ellas un temporizador, para ello las envolvemos por separado con el método setTimeout() .   
 
@@ -1717,7 +1717,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjQxMDgxNywtMTg3MDM5Mzc0LDE1NT
+eyJoaXN0b3J5IjpbMTAzNjMxNzg0NiwtMTg3MDM5Mzc0LDE1NT
 gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
 LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
 U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
