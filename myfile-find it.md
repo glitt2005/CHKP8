@@ -1464,9 +1464,11 @@ Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de 
 
 - Efectivamente, algo muy a favor de **Javascript** es que **trabaja directamente con la experiencia del usuario**. No sería deseable que el usuario se quede esperando durante un tiempo hasta que finalmente los datos se carguen.
 
-- **La naturaleza de JavaScript es la comunicación con servicios externos**, como bases de datos, **APIs backend** ( l*as ***APIs backend*** se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend* ) o cualquier otro servicio fuera de la aplicación, como las diferentes plataformas de JavaScript como ***React, Angular y Vue***; JavaScript recibe los datos como resultado de esta comunicación con dichos servicios externos.
-- La utilización de heramientas como las **promesas**Promises son el pilar central del poder confiar en que el proceso se desarrollará tan fluidamente como sea posible.
-Convención común de los argumentos de la función Promise son “resolve” y “reject”. Antes era “success” y “failure”, pero ahora lo más extendido son los primeros.
+- **La naturaleza de JavaScript es la comunicación con servicios externos**, como bases de datos, **APIs backend** ( l*as ***APIs backend*** se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend* ) o cualquier otro servicio fuera de la aplicación, como las diferentes plataformas de JavaScript como ***React, Angular y Vue***; JavaScript **recibe los datos como resultado de esta comunicación con dichos servicios externos.**
+- La utilización de heramientas como las **promesas** son el pilar central de podamos confiar en que el proceso se desarrollará tan fluidamente como sea posible.
+
+CONVENCIÓN COMÚN:	
+Los argumentos de la función `Promise()` son `resolve` y `reject”. Antes era “success” y “failure”, pero ahora lo más extendido son los primeros.
 Una Promise o bien funciona y resuelve ese código, o no hace y por lo tanto devuelve algún tipo de error. Es decir nos devuelve:
 -	algún tipo de respuesta con éxito -si nos comunicamos con una API, nos devolverá los datos de esa API y podremos manejarlos;
 -	algún tipo de error.
@@ -1706,11 +1708,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY2NjU1MDM0LC0xODcwMzkzNzQsMTU1OD
-IxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMs
-LTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NT
-Q3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5
-MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMD
-g1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMwMzAzNDQsLTQyNTY4
-NzY4Nl19
+eyJoaXN0b3J5IjpbMTE3NjI4Nzg0OCwtMTg3MDM5Mzc0LDE1NT
+gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
+LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
+U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
+OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMj
+A4NTI4NzMwMSwtOTE3NjE4MDE3LC0xNjczMDMwMzQ0LC00MjU2
+ODc2ODZdfQ==
 -->
