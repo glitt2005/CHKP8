@@ -1222,7 +1222,7 @@ Entonces, recapitulando, lo que hará el programa será:
 #### EJEMPLO DE CLASE E INSTANCIA:
 <div align="center">
 <img src="claseConstructor.png" width="65%" Alt="clase e instancia">
-<div>
+</div>
 
 -	El hecho de crear una **instancia** nos dirige automáticamente **al `constructor`.**
 -	En **`constructor ({ name })`**, aquí   **`name`**  mapeará a lo que se pasará cuando creemos un nuevo Instructor: **`new Instructor`**). Y queremos hacer algo con este **`name`**.  
@@ -1595,11 +1595,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOT
-MxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1
-OTkyLDQwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLT
-E2NzMwMzAzNDQsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MCwxODEy
-NzIwOTE1LDE4MDY4OTc1ODMsMTc1MTg2NzQ0NSwtNzI5NTk4OD
-AzLC0xNjA2MDg0NTk3LDc5Mzk4ODkzMSwtNDA0MzczMjY1LC0y
-ODA5ODAwNjldfQ==
+eyJoaXN0b3J5IjpbNzgwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOT
+M2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4OTAsLTE0NzczOTUx
+ODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMjA4NTI4NzMwMSwtOT
+E3NjE4MDE3LC0xNjczMDMwMzQ0LC00MjU2ODc2ODYsLTE4MDYy
+NDYwODAsMTgxMjcyMDkxNSwxODA2ODk3NTgzLDE3NTE4Njc0ND
+UsLTcyOTU5ODgwMywtMTYwNjA4NDU5Nyw3OTM5ODg5MzEsLTQw
+NDM3MzI2NV19
 -->
