@@ -1481,8 +1481,10 @@ Una **promesa** o bien:
 	-	**50%** del tiempo lo dedicamos a codificar sobre situaciones en las que el proceso **se resuelve con éxito**
 	-	y el otro **50%** lo pasamos creando los tipos de proceso que ocurrirán **si se produce un error.**
 
+<br>
+### Secuencu
 SECUENCIA DE LO QUEL PROCESO DE CREACIÓN DE UNA PROMISE:
-
+```JavaScript
 let sleepyGreeting = new Promise((resolve, reject) => {
   setTimeout(() => {
     resolve('Hello....')                // ponemos ….porque es “sleepy” 
@@ -1500,6 +1502,7 @@ sleepyGreeting
   .catch(err => {
     console.error(err);
   });
+  ```
 1.	Crear una variable que llamamos sleepyGreeting,
 
 2.	Asignamos a la variable la creación de una nueva promise new Promise().
@@ -1712,11 +1715,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY3MjYxNjQsLTE4NzAzOTM3NCwxNT
-U4MjE4MiwtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1
-MywtNzA5MTg3Njc5LC0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OT
-Y1NDcxODAsLTE0MzkzNjQ0MzksLTE5MzE4Mjk1NSwtOTI5ODgx
-ODkwLC0xNDc3Mzk1MTg0LC0xNjg0MTU5OTIsNDA3OTQ4NzgyLD
-IwODUyODczMDEsLTkxNzYxODAxNywtMTY3MzAzMDM0NCwtNDI1
-Njg3Njg2XX0=
+eyJoaXN0b3J5IjpbMTA0NDM3NDA2NSwtMTg3MDM5Mzc0LDE1NT
+gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
+LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
+U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
+OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMj
+A4NTI4NzMwMSwtOTE3NjE4MDE3LC0xNjczMDMwMzQ0LC00MjU2
+ODc2ODZdfQ==
 -->
