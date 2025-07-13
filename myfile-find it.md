@@ -1571,11 +1571,25 @@ sleepyGreeting
 
 1. `data` es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
 Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la respuesta:
-	"entonces, haz esto, esto y esto"  (lo que ponga despues del `then()` 
-	
-	En nuestro caso sería nuestro string <font color=green>**“Hello……”.**</font>. En otros ejemplos, correspondería a las **peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.**
+	**"entonces, haz esto, esto y esto"  (lo que ponga despues del `then()`** 
+		
+		En nuestro caso sería nuestro string <font color=green>**“Hello……”.**</font>. En otros ejemplos, correspondería a las **peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.**
 
-2. .catch((err) => { console.error(err) }); 
+2.  **`catch(err => { console.error(err); })`**  es un método que se utiliza para manejar errores asíncronos, específicamente en el contexto de promesas. Analicemos cada parte:
+
+-   `.catch()`:
+    
+    Este es el método que se usa para capturar errores. Se aplica a una promesa y se ejecuta cuando la promesa es rechazada (reject), es decir, cuando ocurre un error durante la operación asíncrona.
+    
+-   `err => { ... }`:
+    
+    Esta es una función flecha (arrow function) que actúa como el manejador de errores.
+    
+    -   `err`: Es el parámetro de la función, que representa el objeto de error que se ha producido. Este objeto contiene información sobre el error, como su tipo y mensaje.
+    -   `{ console.error(err);` `}`: Dentro de la función,  `console.error(err)`  se utiliza para registrar el error en la consola del navegador o del entorno donde se ejecuta el código. Esto ayuda a los desarrolladores a identificar y depurar problemas.
+    
+
+En resumen,  `catch(err => { console.error(err); })`  es una forma de asegurar que si una operación asíncrona falla, el error se capture y se muestre en la consola, permitiendo a los desarrolladores responder adecuadamente.
 
 
 
@@ -1753,11 +1767,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU2NTYwMjU4LDUzNDM1NzEwNywxMzcyNT
-AwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2
-LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NT
-AyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3
-NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOT
-MxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1
-OTkyXX0=
+eyJoaXN0b3J5IjpbMTYzOTExNTc0Myw1MzQzNTcxMDcsMTM3Mj
+UwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4
+NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNj
+UwMjQxMywxMDQxMTU1NDUzLC03MDkxODc2NzksLTE0OTczODY1
+NzUsNzgwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2NDQzOSwtMT
+kzMTgyOTU1LC05Mjk4ODE4OTAsLTE0NzczOTUxODQsLTE2ODQx
+NTk5Ml19
 -->
