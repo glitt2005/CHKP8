@@ -1597,7 +1597,7 @@ La función  `fetch()`  se utiliza para realizar solicitudes de red y obtener re
 
  **`fetch()`  devuelve una promesa** que se resuelve con un objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta.  Debido a que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**  
 
-Cuando la petición devuelve **una respuesta** (muy frecuentemente por CONVENCIÓN COMÚN se utiliza las palabra `response` o `data`, se llamará al método  `then()`. Si la solicitud devuelve un error, se ejecutará el método  `catch()`:
+Cuando la petición devuelve **una respuesta** (muy frecuentemente por CONVENCIÓN COMÚN se utiliza las palabras `response` o `data`, se llamará al método  **`then()`.** **Si la solicitud devuelve un error, se ejecutará el método  `catch()`:**
 
 ### SINTAXIS:
 
@@ -1839,11 +1839,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTMwNDUyNywtOTE3MDY4NTA3LC03OD
-A1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3
-MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC
-0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEz
-Njg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC
-0xNDk3Mzg2NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0Mzkz
-NjQ0MzldfQ==
+eyJoaXN0b3J5IjpbLTExNzQ0NDM2MzQsLTkxNzA2ODUwNywtNz
+gwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1
+NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMC
+wtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMx
+MzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OS
+wtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5
+MzY0NDM5XX0=
 -->
