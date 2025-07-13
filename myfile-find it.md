@@ -574,7 +574,7 @@ iii ) **Función flecha**:
 
 <div align="center">
 <img src="funcionFlecha1.png" width="50%" Alt="funcionFlecha1">
-</
+</div>
 <br>
 <br>
 
@@ -1159,7 +1159,7 @@ JavaScript, aunque basado en **prototipos**, permite un estilo de programación 
 Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 
-<div style="display: flex; justify-content: space-between;">  
+<div style="display: flex; justify-content: space-between; align= center">  
 <img src="planoCasa.png" width="40%" Alt="plano de una Casa" style="float: left;">  
  <img src="casaEstruct.png" width="25%" Alt="estructura de una Casa" style="float: right;">  
 </div>
@@ -1213,9 +1213,9 @@ Entonces, recapitulando, lo que hará el programa será:
 
 #### SINTAXIS BÁSICA DEL CONTRUCTOR
 
-
+<div align="center">
 <img src="constructorSintaxis.png" Alt="sintaxis constructor">
-
+<div>
 #### ALGUNOS CONCEPTOS CLAVE DEL CONSTRUCTOR
 
 
@@ -1228,6 +1228,7 @@ Entonces, recapitulando, lo que hará el programa será:
  - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  
 <br>
 #### EJEMPLO DE CLASE E INSTANCIA:
+<div align="center">
 <img src="claseConstructor.png" width="65%" Alt="clase e instancia">
 
 -	El hecho de crear una **instancia** nos dirige automáticamente **al `constructor`.**
@@ -1601,11 +1602,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU2NDQ0NTYsMTY5MjQ0MDc0OSwtMTIwNj
-g3MTY5NCwzNjcwNDc1MTIsMTUyNDEwMDEyMSwxMjEyMTE3NjQ2
-LC0xMTA0NTI4MTc5LDcxODA1NjAwMCw2NzY3MzI0MjgsLTgyNj
-I0OTUwLC03ODk5ODA5MjUsMTU2ODIzMTkxOCwtNjI1MDU0OTkw
-LDEyODc5NzAwMzMsMTcxNDM0NTY5OSwtMTczOTkyODUwMiwtMT
-g1MjY5OTA3NiwyMjk1NDIxMSwtMTk0NjE1MjA3OCwxMTAyOTE5
-MDc3XX0=
+eyJoaXN0b3J5IjpbLTEyMDE2ODIwOTMsMTY5MjQ0MDc0OSwtMT
+IwNjg3MTY5NCwzNjcwNDc1MTIsMTUyNDEwMDEyMSwxMjEyMTE3
+NjQ2LC0xMTA0NTI4MTc5LDcxODA1NjAwMCw2NzY3MzI0MjgsLT
+gyNjI0OTUwLC03ODk5ODA5MjUsMTU2ODIzMTkxOCwtNjI1MDU0
+OTkwLDEyODc5NzAwMzMsMTcxNDM0NTY5OSwtMTczOTkyODUwMi
+wtMTg1MjY5OTA3NiwyMjk1NDIxMSwtMTk0NjE1MjA3OCwxMTAy
+OTE5MDc3XX0=
 -->
