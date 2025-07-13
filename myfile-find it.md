@@ -1404,9 +1404,9 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 
 El método estático es útil cuando se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica**, y **se prefiere evitar el uso de  `new`**  por simplicidad o por otras razones de diseño. Es decir, pueden usarse **para crear instancias de la clase de forma personalizada**.  Más específicamente:
 
-- **No necesitan acceder a propiedades de instancia**: Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo como estático. 
-- Son **funciones de utilidad:**
-	-  a) **funciones auxiliares** (***helper modules***). Los métodos "helper" o auxiliares son funciones diseñadas para realizar tareas **específicas y reutilizables, simplificando el código y mejorando la legibilidad**. Estos métodos a menudo se encapsulan en un módulo o clase para su fácil acceso y mantenimiento.
+- **Cuando no necesitemos acceder a propiedades de instancia**: Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo como estático. 
+- Cuando necesitemos **funciones de utilidad:**
+	-  a) **funciones auxiliares** (***helper modules***). Los métodos "helper" o auxiliares son funciones diseñadas para realizar tareas **específicas y reutilizables, simplificando el código y mejorando la legibilidad**. Estos métodos a menudo se encapsulan en un módulo o clase para **su fácil acceso y mantenimiento**.
 	
 	- b) propósito general que **no están ligadas a un objeto en particular**, por ejemplo:
 		- como métodos para **manipular arrays**
@@ -1578,11 +1578,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDczNzI1LC0xODUyNjk5MDc2LDIyOT
-U0MjExLC0xOTQ2MTUyMDc4LDExMDI5MTkwNzcsMTc1NTQyMjY0
-OCwyMTQ2ODY2NzQ2LC04ODAyMDIzMzcsNTExMTc0OTM2LDQwMT
-Q0MDM2OSwyMDM4MjkxNzc5LDE1MjY1MDI3NTUsMTg5OTQ1Njkx
-LDUzNDczNjM3MSwtMTM5MzEwNzE3OCwxODI1NzMzNzczLC0yOD
-czOTA0NDEsLTg5MzE2MDcwMCwtODk2MzA3MzcxLDExNjU5MzAz
-XX0=
+eyJoaXN0b3J5IjpbLTUyMjA0MzU2OSwtMTg1MjY5OTA3NiwyMj
+k1NDIxMSwtMTk0NjE1MjA3OCwxMTAyOTE5MDc3LDE3NTU0MjI2
+NDgsMjE0Njg2Njc0NiwtODgwMjAyMzM3LDUxMTE3NDkzNiw0MD
+E0NDAzNjksMjAzODI5MTc3OSwxNTI2NTAyNzU1LDE4OTk0NTY5
+MSw1MzQ3MzYzNzEsLTEzOTMxMDcxNzgsMTgyNTczMzc3MywtMj
+g3MzkwNDQxLC04OTMxNjA3MDAsLTg5NjMwNzM3MSwxMTY1OTMw
+M119
 -->
