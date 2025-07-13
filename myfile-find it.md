@@ -1481,7 +1481,18 @@ Una **promesa** o bien:
 	-	**50%** del tiempo lo dedicamos a codificar sobre situaciones en las que el proceso **se resuelve con éxito**
 	-	y el otro **50%** lo pasamos creando los tipos de proceso que ocurrirán **si se produce un error.**
 
-<br>
+<br>### 
+
+### SINTAXIS básica de una promesa.
+```JavaScript
+const promesa = new Promise((resolve, reject) => {  
+// Aquí se realiza la operación asíncrona :
+// Si la operación es exitosa, se llama a resolve(valor) 
+// Si ocurre un error, se llama a reject(error)  
+});
+```
+
+
 
 ### Secuencia del proceso de creación de una promesa
 
@@ -1717,11 +1728,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NT
-gyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUz
-LC03MDkxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5Nj
-U0NzE4MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4
-OTAsLTE0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMj
-A4NTI4NzMwMSwtOTE3NjE4MDE3LC0xNjczMDMwMzQ0LC00MjU2
-ODc2ODZdfQ==
+eyJoaXN0b3J5IjpbLTU5MDIyNjgzMSwtMjM4NTY3MTg2LC0xOD
+cwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NTAyNDEz
+LDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3NSw3OD
+AxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOTMxODI5
+NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1OTkyLD
+QwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMTcsLTE2NzMw
+MzAzNDRdfQ==
 -->
