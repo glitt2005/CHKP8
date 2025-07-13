@@ -1403,8 +1403,8 @@ El método estático es útil cuando :
 - se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica** 
 - **se prefiere evitar el uso de  `new`**  por simplicidad o por otras razones de diseño. Es decir, pueden usarse **para crear instancias de la clase de forma personalizada**.  
 
-- **cuando no necesitemos acceder a propiedades de instancia**: Tiene que ver más **con la estructura** y menos con la instancia. Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo como estático. 
-- Cuando necesitemos **funciones de utilidad:**
+- **cuando no necesitemos acceder a propiedades de instancia**: tiene que ver más **con la estructura** y menos con la instancia. Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo como estático. 
+- cuando necesitemos **funciones de utilidad:**
 	-  a) **funciones auxiliares** (***helper modules***). Los métodos "helper" o auxiliares son funciones diseñadas para realizar tareas **específicas y reutilizables, simplificando el código y mejorando la legibilidad**. Estos métodos a menudo se encapsulan en un módulo o clase para **su fácil acceso y mantenimiento**.
 	
 	- b) propósito general que **no están ligadas a un objeto en particular**, por ejemplo:
@@ -1613,11 +1613,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjg0MTIwNiwtMTg0MzEzNjg1Nyw5MD
-Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
-NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
-E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
-MTU5OTIsNDA3OTQ4NzgyLDIwODUyODczMDEsLTkxNzYxODAxNy
-wtMTY3MzAzMDM0NCwtNDI1Njg3Njg2LC0xODA2MjQ2MDgwLDE4
-MTI3MjA5MTVdfQ==
+eyJoaXN0b3J5IjpbLTE1Mjk2NTYwMTAsLTE4NDMxMzY4NTcsOT
+A2NTAyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4
+NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC
+0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4
+NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3MzAxLC05MTc2MTgwMT
+csLTE2NzMwMzAzNDQsLTQyNTY4NzY4NiwtMTgwNjI0NjA4MCwx
+ODEyNzIwOTE1XX0=
 -->
