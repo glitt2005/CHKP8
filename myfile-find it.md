@@ -1569,9 +1569,15 @@ sleepyGreeting
 
 ### Llamada a la función: métodos <big>`then()` </big>y  <big>`catch()` :
 
-	 . then((data) => { console.log(data) }); 
-data es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
+1. `data` es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
 Significa que cuando llamamos a la función (sleepyGreeting()) y obtengamos la respuesta -y podemos traducir directamente del inglés-  entonces () haz todo lo que ponga dentro del bloque después de then(). Es decir, acceder a data. 	En nuestro caso sería nuestro string “Hello……”. En otros casos correspondería a las peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.
+
+
+<![endif]-->
+
+**data** es **convención común** para referirse a **los datos recibidos**; para el almacenamiento de los datos.
+
+Significa que cuando llamamos a la función (**sleepyGreeting()**) y obtengamos la respuesta -y podemos traducir directamente del inglés- **entonces ()**  haz todo lo que ponga dentro del bloque después de **then()**. Es decir, acceder a **data.** En nuestro caso sería nuestro string **“Hello……”.**  En otros casos correspondería a las **peticiones de publicación JSON, o tweets**, o lo que quiera que haga cuando estemos llamando.
 
 
 	.catch((err) => { console.error(err) }); 
@@ -1752,11 +1758,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTA1NjA3NDksNTM0MzU3MTA3LDEzNz
-I1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1Njcx
-ODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0MzEzNjg1Nyw5MD
-Y1MDI0MTMsMTA0MTE1NTQ1MywtNzA5MTg3Njc5LC0xNDk3Mzg2
-NTc1LDc4MDEzOTQxNyw5OTY1NDcxODAsLTE0MzkzNjQ0MzksLT
-E5MzE4Mjk1NSwtOTI5ODgxODkwLC0xNDc3Mzk1MTg0LC0xNjg0
-MTU5OTJdfQ==
+eyJoaXN0b3J5IjpbNjkxODEzMTU2LDUzNDM1NzEwNywxMzcyNT
+AwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2
+LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2NT
+AyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OSwtMTQ5NzM4NjU3
+NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5MzY0NDM5LC0xOT
+MxODI5NTUsLTkyOTg4MTg5MCwtMTQ3NzM5NTE4NCwtMTY4NDE1
+OTkyXX0=
 -->
