@@ -1634,7 +1634,7 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 ```
 
 
-2. Otro esquema para trabajar con los datos **json**.
+2. Otro esquema para trabajar con los datos **json**. 
 ```js
 fetch('https://rickandmortyapi.com/api/character')
   .then(response => response.json())
@@ -1647,7 +1647,7 @@ fetch('https://rickandmortyapi.com/api/character')
     console.error('Error:', error);
   });
 ```
-listando todos los recursos
+
 
 
 
@@ -1856,7 +1856,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAzNzYxMDIsLTEyODA1NTIxMjIsNz
+eyJoaXN0b3J5IjpbLTEwODEwODI0NTMsLTEyODA1NTIxMjIsNz
 E3MjI3NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2
 ODUwNywtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyND
 UzLDUzNDM1NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3
