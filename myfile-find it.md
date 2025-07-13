@@ -547,7 +547,7 @@ i.a ) **Expresión de Función Anónima**
 
 i.b ) **Expresión de Función Nombrada**
 <div align="center">
-<img src="funcionDeclaradanombrada.png" width="50%" Alt="función declarada nombrada">
+<img src="funcionDeclaradanombrada.png" width="60%" Alt="función declarada nombrada">
 </div>
 
 
@@ -1603,11 +1603,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzQ2Njg3MSw4MTE2NDc5NDYsLTEyOT
-MwODk3MTYsMTY5MjQ0MDc0OSwtMTIwNjg3MTY5NCwzNjcwNDc1
-MTIsMTUyNDEwMDEyMSwxMjEyMTE3NjQ2LC0xMTA0NTI4MTc5LD
-cxODA1NjAwMCw2NzY3MzI0MjgsLTgyNjI0OTUwLC03ODk5ODA5
-MjUsMTU2ODIzMTkxOCwtNjI1MDU0OTkwLDEyODc5NzAwMzMsMT
-cxNDM0NTY5OSwtMTczOTkyODUwMiwtMTg1MjY5OTA3NiwyMjk1
-NDIxMV19
+eyJoaXN0b3J5IjpbLTExMjM4MjU4MiwtMjgzNDY2ODcxLDgxMT
+Y0Nzk0NiwtMTI5MzA4OTcxNiwxNjkyNDQwNzQ5LC0xMjA2ODcx
+Njk0LDM2NzA0NzUxMiwxNTI0MTAwMTIxLDEyMTIxMTc2NDYsLT
+ExMDQ1MjgxNzksNzE4MDU2MDAwLDY3NjczMjQyOCwtODI2MjQ5
+NTAsLTc4OTk4MDkyNSwxNTY4MjMxOTE4LC02MjUwNTQ5OTAsMT
+I4Nzk3MDAzMywxNzE0MzQ1Njk5LC0xNzM5OTI4NTAyLC0xODUy
+Njk5MDc2XX0=
 -->
