@@ -1550,11 +1550,11 @@ sleepyGreeting
 
 2.	**Asignamos a la variable** la creación de una **nueva promesa** new Promise().
 
-3.	**Promise()**, toma **como argumento una función**. Como primer argumento (aquí no ponemos los opcionales) toma **una función**, por ello se llama  **callback**.
+3.	**Promise()**, toma **como argumento una función**. Como primer argumento (aquí no ponemos los opcionales) toma **una función**, por ello se llama  **callback**. 
 
 4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
-5.	 Creamos dos métodos de `setTimeout()`,  con el fin de poner temporizadores a cada uno de los métodos:
-	 - `resolve(valor)` Su (primer) argumento toma una función, por ello se llama  **callback**,   (en nuestro caso será una función flecha), que corresponderá a nuestros resolve() y reject(),.
+5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores** a cada uno de los métodos que contiene:
+	 - `resolve(valor)` 
 	 - `reject(mensaje)`
 	
 
@@ -1760,11 +1760,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5MDg0MTI5LDk1Nzc0NzQyNiwtMTQ3Mj
-M5MzkxMCwtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIs
-LTE4NDMxMzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOT
-E4NzY3OSwtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgw
-LC0xNDM5MzY0NDM5LC0xOTMxODI5NTUsLTkyOTg4MTg5MCwtMT
-Q3NzM5NTE4NCwtMTY4NDE1OTkyLDQwNzk0ODc4MiwyMDg1Mjg3
-MzAxXX0=
+eyJoaXN0b3J5IjpbMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0Nz
+IzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgy
+LC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MD
+kxODc2NzksLTE0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0NzE4
+MCwtMTQzOTM2NDQzOSwtMTkzMTgyOTU1LC05Mjk4ODE4OTAsLT
+E0NzczOTUxODQsLTE2ODQxNTk5Miw0MDc5NDg3ODIsMjA4NTI4
+NzMwMV19
 -->
