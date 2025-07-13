@@ -1625,7 +1625,7 @@ fetch('<Tu URL>', {})
 - Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato.
 
 ####    EJEMPLOS
-1. Conviertiendo datos a **json** e imprimiéndolos.
+1. Conviertiendo datos a **json** y listando todos l.
 ```javascript
 fetch('https://jsonplaceholder.typicode.com/todos/1')
       .then(response => response.json())
@@ -1644,11 +1644,13 @@ fetch('https://rickandmortyapi.com/api/character')
     console.error('Error:', error);
   });
 ```
+listando todos los recursos
 ```javascript
-fetch('https://jsonplaceholder.typicode.com/users/1')  
-.then(response => response.json())  
-.then(data => console.log(data))  
-.catch(error => console.error('Error:', error));
+```js
+fetch('https://jsonplaceholder.typicode.com/posts')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
  ``` 
 
 
@@ -1857,11 +1859,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTE2OTQ3MCwtMTI4MDU1MjEyMiw3MT
-cyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4
-NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NT
-MsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcy
-MzkzOTEwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4Mi
-wtMTg0MzEzNjg1Nyw5MDY1MDI0MTMsMTA0MTE1NTQ1MywtNzA5
-MTg3Njc5XX0=
+eyJoaXN0b3J5IjpbOTg1OTk1OTMyLC0xMjgwNTUyMTIyLDcxNz
+IyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcwNjg1
+MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1My
+w1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIz
+OTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC
+0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MDkx
+ODc2NzldfQ==
 -->
