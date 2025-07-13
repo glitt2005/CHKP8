@@ -1605,14 +1605,14 @@ Cuando la petición devuelve **una respuesta** (muy frecuentemente por CONVENCI�
 	1.  **La URL a la que enviar la petición** (este es un parámetro obligatorio).
 	2.  **Las opciones a configurar en la petición.** Aquí se puede configurar el método de solicitud aquí (este es un **parámetro opcional**).
 
--  **Devuelve una promesa** que resuelve al **objeto `Response`**, que representa la respuesta a la solicitud realizada.
-Debajo del capó, la función  `fetch()`  devuelve una Promesa, por lo que necesitas agregar los métodos  **`then()`**  y  **`catch()`.**
+-  **Devuelve una promesa** que resuelve al **objeto `Response`** (respuesta), que representa la respuesta a la solicitud realizada.
+Debajo del capó, la función  `fetch()`  devuelve una Promesa, por lo que se necesita agregar los métodos  **`then()`**  y  **`catch()`.**
 
-Cuando la petición devuelve una respuesta, se llamará al método  `then()`. Si la solicitud devuelve un error, se ejecutará el método  `catch()`:
+
 
 ```js
 fetch('<Tu URL>', {})
-  .then(respuesta => {
+  .then(response => {
     // Manejamos la respuesta de la petición aqui
   })
   .catch(error => {
@@ -1839,11 +1839,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDIwNTMzLC05MTcwNjg1MDcsLTc4MD
-UzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1Myw1MzQzNTcx
-MDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MTAsLT
-IzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xODQzMTM2
-ODU3LDkwNjUwMjQxMywxMDQxMTU1NDUzLC03MDkxODc2NzksLT
-E0OTczODY1NzUsNzgwMTM5NDE3LDk5NjU0NzE4MCwtMTQzOTM2
-NDQzOV19
+eyJoaXN0b3J5IjpbLTIxMDc5NzIxNjgsLTkxNzA2ODUwNywtNz
+gwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1
+NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMC
+wtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMx
+MzY4NTcsOTA2NTAyNDEzLDEwNDExNTU0NTMsLTcwOTE4NzY3OS
+wtMTQ5NzM4NjU3NSw3ODAxMzk0MTcsOTk2NTQ3MTgwLC0xNDM5
+MzY0NDM5XX0=
 -->
