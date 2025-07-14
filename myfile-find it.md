@@ -1786,8 +1786,10 @@ Promise.allSettled(iterable)
 
 
 - Esta es una alternativa para trabajar con promesas agrupadas.
+
 - Se comporta de manera similar a  `Promise.all()`, pero a diferencia de este, **no se detiene ante el primer rechazo**. 
-- En vez de ello, espera a que todas las promesas del array se resuelvan o rechacen, **devolviendo un array de objetos que indican el estado de cada promesa (resuelta o rechazada)** y su valor o razón de rechazo.
+
+- En vez de ello, **espera a**  que **todas** las promesas del array se resuelvan o rechacen, **devolviendo un array de objetos que indican el estado de cada promesa (resuelta o rechazada)** y su valor o razón de rechazo.
 
 #### EJEMPLO:
 
@@ -1983,11 +1985,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTY5Mjc2MDgsLTc1MTI3NDIxMiwxNz
-ExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIy
-NzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MT
-U0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3
-OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOT
-YzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2
-NzUyXX0=
+eyJoaXN0b3J5IjpbLTE1MDQyNjE3MCwtNzUxMjc0MjEyLDE3MT
+EyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3
+NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
+Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
+ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1NCw5Nj
+M3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3
+NTJdfQ==
 -->
