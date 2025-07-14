@@ -2059,20 +2059,7 @@ There are two types of synchronization and they can complement each other:
 <font color ="blue">some <strong>*blue*</strong> text</font>.
 
 
-```JavaScript
-var  usuario  = {
-email: 'prueba@gmail.com',
-nombre: 'David Casas'
-}
 
-function  saludo(){
-console.log("Hola, ".concat(usuario.nombre));
-}
-
-saludo(); // devuelve: "Hola, David Casas"
-
-```
-const numbers = [1, 2, 3, 4, 5];numbers.forEach(function(number, index, array) {  console.log(`Elemento: ${number}, Índice: ${index}, Array: ${array}`);});
 
 
 
@@ -2182,11 +2169,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NDM2MTg3OSwtNTUxNTczMTkyLC0zMj
-I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
-OTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyND
-UwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEz
-MDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLT
-E0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMx
-NzZdfQ==
+eyJoaXN0b3J5IjpbLTIwMzUxNzU5NjcsLTU1MTU3MzE5MiwtMz
+IyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAw
+Mzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMj
+Q1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUx
+MzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC
+0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkz
+MTc2XX0=
 -->
