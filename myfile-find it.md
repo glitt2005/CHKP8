@@ -1491,6 +1491,7 @@ const promesa = new Promise((resolve, reject) => {
 // Si ocurre un error, se llama a reject(error)  
 });
 ```
+BUENA PRÁCTICA:
 
 
 ### Proceso básico promesa
@@ -1858,11 +1859,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNDIzNjc1MiwxMDg4NDg3NzcwLC0xMj
-gwNTUyMTIyLDcxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5
-NjMyLC05MTcwNjg1MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOS
-wtMTIzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3
-NDc0MjYsLTE0NzIzOTM5MTAsLTIzODU2NzE4NiwtMTg3MDM5Mz
-c0LDE1NTgyMTgyLC0xODQzMTM2ODU3LDkwNjUwMjQxMywxMDQx
-MTU1NDUzXX0=
+eyJoaXN0b3J5IjpbLTQ4MDI3ODI2OCwxMjA0MjM2NzUyLDEwOD
+g0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQy
+NDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC
+0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNywxMzcy
+NTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MT
+g2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2
+NTAyNDEzXX0=
 -->
