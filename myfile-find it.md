@@ -1704,7 +1704,15 @@ En este caso no ha dado error, por eso no ha tenido que ejecutar el `catch()`, p
 Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL o  **endpoint API** y no es seguro, hay mucha probabilidad de que estés trayendo diversos **elementos a tu propia aplicación que no son seguros**. Por ello, **JavaScript lo bloqueará** y nos imprimera este **error**  al ejecutar la función `catch()` .
 
 
+<br>
 
+
+
+<div align="center">
+<img src="error.png" width = "60%" alt="error, catch()">
+</div>
+
+<br
 
 
 
@@ -1916,11 +1924,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNjgxODAxMyw1NTkzMDE5ODQsMTExND
-g5MzE3Niw3MjUwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4
-MywtNDIyOTI1NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNT
-IzMDkzNiwtMTA1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2
-MSwxMTIzNTExMzk1LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3MCwtMT
-I4MDU1MjEyMiw3MTcyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0
-OTYzMl19
+eyJoaXN0b3J5IjpbODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0OD
+kzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4Njgz
+LC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01Mj
+MwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYx
+LDExMjM1MTEzOTUsMTIwNDIzNjc1MiwxMDg4NDg3NzcwLC0xMj
+gwNTUyMTIyLDcxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5
+NjMyXX0=
 -->
