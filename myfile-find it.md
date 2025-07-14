@@ -2035,7 +2035,8 @@ loginActivities();
 
 
 
-Simplemente hemos declarado una lista de cuándo queremos que cada uno de estos procesos ocurran y el orden en el que queremos que ocurran.
+- Simplemente hemos declarado una lista de **cuándo queremos que cada uno de estos procesos ocurran y el orden** en el que queremos que ocurran.
+
 En otros lenguajes esto ya se hacía por defecto, pero con JS y su naturaleza síncrona, el orden en el que funcionan son llamada y devolución, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función async y await.
 
 Esto ultimo  devuelve 'Updating last login...');
@@ -2189,7 +2190,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzkwNzk4NywtMzIyNzgwMDg5LC0xNz
+eyJoaXN0b3J5IjpbLTU1MTU3MzE5MiwtMzIyNzgwMDg5LC0xNz
 kyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nzk2NzQ2
 NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0LDU0OD
 gzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAyLC03NTEyNzQy
