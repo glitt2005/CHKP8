@@ -1895,9 +1895,9 @@ Esto imprime:
 
 En este punto, **se desarrolló la faceta asíncrona de JavaScript**: entraron a formar parte progresivamente:
 
- - [ ] las funciones **callback** 
- - [ ]  las **promesas** 
- - [ ]  y finalmente, las funciones **`async` y `await`:**
+ - [x] las funciones **callback** 
+ - [x]  las **promesas** 
+ - [x]  y finalmente, las funciones **`async` y `await`:**
 
 <br>
 
@@ -2161,7 +2161,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjIzMzAzOCw1NDg4MzAxNTYsLTc3NT
+eyJoaXN0b3J5IjpbLTI3Mzk2ODM0Niw1NDg4MzAxNTYsLTc3NT
 IyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIw
 NTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3NCw1NT
 kzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNTQ2MTYz
