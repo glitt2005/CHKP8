@@ -1959,6 +1959,12 @@ Todo ello gracias a que las **promesas**  constituyen operaciones asíncronas qu
 No ponemos ejemplos porque queda explicado en un punto anterior.
 <br>
 
+<div align="center">
+<img src="diagramaPromesa.png" width = "60%" alt="diagrama Promesa">
+</div>
+
+<br>
+
 ### 	3. Funciones <big>`async`</big> y <big>`await`</big>
 
 3.	LA SINTAXIS DE async/await  
@@ -2163,11 +2169,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxND
-IxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYs
-LTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MT
-EyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3
-NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
-Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
-ODAyXX0=
+eyJoaXN0b3J5IjpbLTExMDA3Nzk5MzksMTM5NDEwMDM5NiwxNz
+c5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEz
+NCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNz
+UxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjEx
+NDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3Mj
+UwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1
+NzY3XX0=
 -->
