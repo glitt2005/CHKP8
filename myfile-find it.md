@@ -1722,7 +1722,10 @@ Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL 
 ## Como agrupar promesas
 
 
-En JavaScript, cuando tenemos promesas 	que son muy parecidas, las podemos agrupar y gestionar para tratarlas igual a través del método   `Promise.all()`.   Se utiliza mucho en páginas web y aplicaciones de móvil.
+En JavaScript, cuando tenemos promesas 	que son muy parecidas, las podemos agrupar y gestionar para tratarlas igual a través de dos método   `Promise.all()`, y  `Promise.allSettled()`  Se utilizan mucho en páginas web y aplicaciones de móvil.
+
+
+1. 
 
 ### SINTAXIS:
 
@@ -1955,7 +1958,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Mjk3MTI5NywxNzExMjkyMDU1LDE2Mz
+eyJoaXN0b3J5IjpbLTc5Mzc0NDM2MSwxNzExMjkyMDU1LDE2Mz
 UxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0
 LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
 I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
