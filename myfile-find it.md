@@ -1596,7 +1596,10 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
 
 ## Método <big>`fetch()`</big> para  solicitudes de red 
 
-La función  `fetch()`  se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona, **como datos JSON, archivos, imágenes, etc.** Es una forma moderna y flexible de **realizar peticiones HTTP y** obtener respuestas **del servidor** con una sintaxis limpia y fácil de usar.
+El método  `fetch()`  :
+- comienza el proceso de **capturar un recurso de un servidor**. 
+- se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona, **como datos JSON, archivos, imágenes, etc.** 
+- es una forma moderna y flexible de **realizar peticiones HTTP y** obtener respuestas **del servidor** con una sintaxis limpia y fácil de usar.
 
  **`fetch()`  devuelve una promesa** que se resuelve con un objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta.  Debido a que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**  
 
@@ -1861,11 +1864,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwOD
-g0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQy
-NDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC
-0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNywxMzcy
-NTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MT
-g2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4NDMxMzY4NTcsOTA2
-NTAyNDEzXX0=
+eyJoaXN0b3J5IjpbLTU0NjMwMDM2OSwxMTIzNTExMzk1LDEyMD
+QyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0
+NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC
+03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0
+MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOT
+EwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0
+MzEzNjg1N119
 -->
