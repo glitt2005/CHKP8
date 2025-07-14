@@ -1881,6 +1881,7 @@ En este punto **se desarrolló la faceta asíncrona de JavaScript**: entraron a 
 - las **promesas** 
 - y finalmente, las funciones **`async` y `await`:**
 
+<br>
 
 ### 	1. Funciones CALLBACK
 
@@ -1908,6 +1909,11 @@ En este código asíncrono, donde cada operación depende del resultado de la an
 Es lo que llegó a llamarse “callback hell”:  Múltiples funciones callback se anidan unas dentro de otras, creando un código complejo, difícil de leer (y mantener), con problemas para discernir el flujo de trabajo: era muy difícil discernir que debía ocurrir en cada momento. 
 ¿cómo solucionó esto JavaScript?  Con las Promises
 
+
+<br>
+
+### 	. Promesas
+
 2.	PROMISES  
 Las Promises o promesas resolvieron algunos asuntos como:
 -	La dificultad para manejar errores
@@ -1930,6 +1936,10 @@ promesa
   .catch((error) => {
     console.log(error);
   });                                   // imprime:  "Promesa resuelta"
+  
+<br>
+
+### 	3. Funciones <big>async>/big> y CALLBACK
 
 3.	LA SINTAXIS DE async/await  
 A partir de septiembre de 2017 (especificación ECMAScript2017), se incorporaron a JavaScript lasas palabras clave de async/await que constituyen la forma más sencilla y moderna de manejar código asincrónico. 
@@ -2133,11 +2143,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODcyMTAxNDUsLTIwMTUxNTEzMDIsLT
-c1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYx
-MTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNz
-I1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjky
-NTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLT
-EwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUx
-MTM5NV19
+eyJoaXN0b3J5IjpbMTkzNjE3MTY4NSwtMjAxNTE1MTMwMiwtNz
+UxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjEx
+NDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3Mj
+UwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1
+NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMT
+A1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTEx
+Mzk1XX0=
 -->
