@@ -1762,7 +1762,9 @@ Promise.all([promesa1, promesa2, promesa3])
 ```
 
 - En este ejemplo,  `Promise.all()`  espera a que **las tres** promesas **se resuelvan**. 
+
 - Una vez que todas se resuelven, el método  **`then()`  se ejecuta**, **pasando un array con los resultados de cada promesa** en el mismo orden en que fueron pasadas a  `Promise.all()`. 
+
 - **Si alguna** de las promesas **se rechazara, el  `catch()`  se ejecutaría,** mostrando el error.
 
 <br>
@@ -1777,9 +1779,15 @@ Promise.all([promesa1, promesa2, promesa3])
   ```js
 Promise.allSettled(iterable)
   ```  
+  
+<br>
+
+#### PROCESO:
 
 
-Existe otro método útil para trabajar con promesas agrupadas, llamado  `Promise.allSettled()`. Este método se comporta de manera similar a  `Promise.all()`, pero a diferencia de este, **no se detiene ante el primer rechazo**. En vez de ello, espera a que todas las promesas del array se resuelvan o rechacen, **devolviendo un array de objetos que indican el estado de cada promesa (resuelta o rechazada)** y su valor o razón de rechazo.
+- Esta es una alternativa para trabajar con promesas agrupadas.
+- Se comporta de manera similar a  `Promise.all()`, pero a diferencia de este, **no se detiene ante el primer rechazo**. 
+- En vez de ello, espera a que todas las promesas del array se resuelvan o rechacen, **devolviendo un array de objetos que indican el estado de cada promesa (resuelta o rechazada)** y su valor o razón de rechazo.
 
 #### EJEMPLO:
 
@@ -1975,11 +1983,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NjExOTUxNCwtNzUxMjc0MjEyLDE3MT
-EyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3
-NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
-Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
-ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1NCw5Nj
-M3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3
-NTJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTY5Mjc2MDgsLTc1MTI3NDIxMiwxNz
+ExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIy
+NzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MT
+U0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3
+OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOT
+YzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2
+NzUyXX0=
 -->
