@@ -1699,7 +1699,9 @@ postsPromise_2
 <br>
 <br>
 
-En este caso no ha dado error, por eso no ha tenido que ejecutar el `catch()`, pero hay muchas veces que puede hacerlo. Por ejemplo, muy típico es no tener en cuenta la "s" final de la url "h
+En este caso no ha dado error, por eso no ha tenido que ejecutar el `catch()`, pero hay muchas veces que puede hacerlo. Por ejemplo, muy típico es no tener en cuenta la "s" final de la url `https:  //.......` ; o bien una API desde una aplicación que esté utilizando un sistema completamente seguro.
+
+
 
 
 
@@ -1912,7 +1914,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MzM4MTI1NCwxMTE0ODkzMTc2LDcyNT
+eyJoaXN0b3J5IjpbMTM0Nzk4NzE5MCwxMTE0ODkzMTc2LDcyNT
 AwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3
 NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMD
 U0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEz
