@@ -1843,6 +1843,150 @@ Promise.allSettled([promesa1, promesa2, promesa3])
 
 
 
+Una de las mayores **ventajas** de trabajar en JavaScript cuando comparamos con versiones anteriores son los procesos `async` y await. 
+
+Veamos la historia de estos procesos para entender mejor lo que hacen.
+
+Javascript es un programa sincrónico y monohilo por naturaleza. Esto significa que las tareas se procesan en el orden en el que fueron escritas.
+
+Si una función tomaba demasiado tiempo en completarse, bloqueaba la ejecución de otras funciones hasta que esta función no se hubiera terminado.
+Este comportamiento, en un entorno como un navegador o un servidor con Node.js no es idea, ya que puede generar tiempos de espera largos, e interfaces de usuario bloqueados.
+0.	EVENT LOOP
+Para resolver este comportamiento sincrónico, JavaScript utilizaba las tareas asincrónicas o “temporizadores”, a traves del método setTimeout(), que se ejecuta en segundo plano y no afecta a la resolución de las demás tareas.
+
+Ejemplo: una solicitud de red – TAREA LENTA, NECESITA 2 SEGUNDOS:
+console.log("Primero");
+
+setTimeout(() => {
+  console.log("Segundo");  // Se ejecutará después de 2 segundos
+}, 2000);
+
+console.log("Tercero");
+
+
+Esto imprime:
+// Primero
+// Segundo
+// Tercero (imprimiría esto después de los 2 segundos que tarda la tarea
+//           en ejecutarse)
+
+El setTimeout() ha hecho que esta tarea asincrónica no bloque el resto de tareas, que se han ejecutado antes sin problema.
+En este punto se desarrollo la faceta asíncrona de JavaScript: entraron a formar parte progresivamente los callback, las promesas y las async/await:
+
+1.	CALLBACKS  -  y su gran handicap: el llamado “callback hell” o infierno de callbacks.
+Las funciones callback son funciones que se pasan como argumento de otras funciones para que sean ejecutadas en algún momento dentro de la ejecución de la función principal.
+Constituyeron la primera forma de manejar asincronismo en Javascript.
+function tareaAsincrona(callback) {
+  setTimeout(() => {
+    console.log("Tarea Asincrónica Completa");
+    callback();
+  }, 2000);
+}
+
+tareaAsincrona(() => {
+  console.log("Callback ejecutado");
+
+Imprime, al mismo tiempo los dos console.log:
+//"Tarea Asincrónica Completa"
+//"Callback ejecutado"
+Con este “Event Loop” no se bloqueaba el flujo principal. Así que era un paso en la dirección correcta.
+Pero, en los (muchos) programas complejos que se daban, había problemas de legibilidad, ya que se daban muchos anidamientos:
+ 
+Y así, una enorme cantidad de anidamientos …
+En este código asíncrono, donde cada operación depende del resultado de la anterior, generaba una estructura en forma de pirámide. Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, hasta que no hubieras realizado las tareas que están por encima de ella. Tenías que codificar cada posible proceso que piensas que pudiera ocurrir para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. Tenías que tener muy claro la secuencia específica, y codificar eso.
+Es lo que llegó a llamarse “callback hell”:  Múltiples funciones callback se anidan unas dentro de otras, creando un código complejo, difícil de leer (y mantener), con problemas para discernir el flujo de trabajo: era muy difícil discernir que debía ocurrir en cada momento. 
+¿cómo solucionó esto JavaScript?  Con las Promises
+
+2.	PROMISES  
+Las Promises o promesas resolvieron algunos asuntos como:
+-	La dificultad para manejar errores
+-	El lío del código anidado
+
+Y ello porque las Promises  constituyen operaciones asíncronas que podían manejar
+-	Proceso de tareas con éxito -a través de la método.then()
+-	Manejo de errores a través del método catch()
+EJEMPLO:
+const promesa = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Promesa resuelta");
+  }, 2000);
+});
+
+promesa
+  .then((resultado) => {
+    console.log(resultado);
+  })
+  .catch((error) => {
+    console.log(error);
+  });                                   // imprime:  "Promesa resuelta"
+
+3.	LA SINTAXIS DE async/await  
+A partir de septiembre de 2017 (especificación ECMAScript2017), se incorporaron a JavaScript lasas palabras clave de async/await que constituyen la forma más sencilla y moderna de manejar código asincrónico. 
+-	async convierte una función normal en una asíncrona  y devuelve una Promise
+-	await se usa dentro de las funciones async para pausar una ejecución hasta que la Promise se resuelve
+SINTAXIS BÁSICA:
+async function miFuncion() {
+  let resultado = await promesa;
+  // Aquí continúa la ejecución después de que promesa se haya resuelto
+  return resultado;
+}
+Proporcionan:
+-	Mayor legibilidad: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
+-	Manejo de errores de forma similar a como se haría con código síncrono
+-	Sintaxis más limpia: elimina la necesidad de anidar then() y catch() al trabajar con promesas haciendo código más limpio y conciseo.
+EJEMPLO:
+(no ponemos rejects para mostrar más claramente el propósito de la explicación de async/await)
+const login = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('User logged in...');
+    }, 2000);
+  });
+}
+
+const updateAccount = () => {
+  return new Promise ((resolve, reject) => {
+    setTimeout(() => {
+      resolve('Updating last login...');
+    }, 2000);
+  });
+}
+
+async function loginActivities() {
+  const returnedLogin = await login ();
+  console.log(returnedLogin);
+
+  const returnedUpdateAccount = await updateAccount();
+  console.log(returnedUpdateAccount);
+}
+
+loginActivities();
+
+
+
+
+
+
+
+Simplemente hemos declarado una lista de cuándo queremos que cada uno de estos procesos ocurran y el orden en el que queremos que ocurran.
+En otros lenguajes esto ya se hacía por defecto, pero con JS y su naturaleza síncrona, el orden en el que funcionan son llamada y devolución, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función async y await.
+
+Esto ultimo  devuelve 'Updating last login...');
+
+HA CONSEGUIDO:
+
+
+-	Mayor legibilidad: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
+
+-	Manejo de errores de forma similar a como se haría con código síncrono
+
+-	Sintaxis más limpia: elimina la necesidad de anidar then() y catch() al trabajar con promesas haciendo código más limpio y conciseo.
+QUE SE TRADUCE EN:
+
+-	Mayor capacidad de respuesta: el usuario sigue funcionando sin interrupciones mientras las demás operaciones de más larga duración terminan de completarse.
+
+-	Optimización del rendimiento: evita que el programa se bloquee esperando resultados, lo que a su vez mejora la experiencia de usuario
+
 
 •	Es relativamente nuevo; **el 
 TEXTO EN CONSOLA
@@ -1978,11 +2122,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE0Mzg0MTgsLTIwMTUxNTEzMDIsLT
-c1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYx
-MTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNz
-I1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjky
-NTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLT
-EwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUx
-MTM5NV19
+eyJoaXN0b3J5IjpbLTY2MTI1MjQ1LC0yMDE1MTUxMzAyLC03NT
+EyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0
+NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNT
+AwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3
+NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMD
+U0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEz
+OTVdfQ==
 -->
