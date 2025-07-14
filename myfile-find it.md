@@ -1656,8 +1656,9 @@ Y esta impresión será algo similar a esto:
 
 
 <div align="center">
-<img src="json.png"  width = "80%" alt="datos json">
+<img src="json.png"  alt="datos json">
 </div>
+
 <br>
 
 
@@ -1692,6 +1693,7 @@ postsPromise_2
 <div align="center">
 <img src="titles.png"  width = "80%" alt="datos json">
 </div>
+
 <br>
 
 
@@ -1905,11 +1907,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc0NzM2MzEwLC01MjMwOTM2LC0xMDU0ND
-UwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEzOTUs
-MTIwNDIzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLDcxNz
-IyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcwNjg1
-MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1My
-w1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIz
-OTM5MTBdfQ==
+eyJoaXN0b3J5IjpbLTc0MDEzMzM4LDM3NDczNjMxMCwtNTIzMD
+kzNiwtMTA1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwx
+MTIzNTExMzk1LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MD
+U1MjEyMiw3MTcyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYz
+MiwtOTE3MDY4NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLT
+EyMzEzNDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3
+NDI2XX0=
 -->
