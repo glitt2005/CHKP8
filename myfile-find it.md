@@ -1850,11 +1850,15 @@ HISTORIA DE LOS PROCESOS `async` y `await`.
 Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto significa que las tareas se procesan en el **orden** en el que fueron escritas.
 
 - Si una función tomaba **demasiado tiempo** en completarse, **bloqueaba la ejecución de otras funciones** hasta que esta función no se hubiera terminado.
-- Este comportamiento, en un entorno como un **navegador o un servidor con Node.js** no es buena idea, ya que puede generar tiempos de espera largos, e interfaces de usuario bloqueados.
+- Este comportamiento, en un entorno como un **navegador o un servidor con Node.js** no es buena idea, ya que
+	- puede generar tiempos de espera largos
+	- e interfaces de usuario bloqueados.
+
 0.	EVENT LOOP
-Para resolver este comportamiento sincrónico, JavaScript utilizaba las tareas asincrónicas o “temporizadores”, a traves del método setTimeout(), que se ejecuta en segundo plano y no afecta a la resolución de las demás tareas.
+**Para resolver** este comportamiento sincrónico, JavaScript utilizaba las **tareas asincrónicas o “temporizadores”**, a traves del método `setTimeout()`, que se ejecuta **en segundo plano y no afecta a la resolución de las demás tareas**.
 
 Ejemplo: una solicitud de red – TAREA LENTA, NECESITA 2 SEGUNDOS:
+```js
 console.log("Primero");
 
 setTimeout(() => {
@@ -2122,11 +2126,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4MzY1NDA4LC0yMDE1MTUxMzAyLC03NT
-EyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0
-NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNT
-AwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3
-NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMD
-U0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEz
-OTVdfQ==
+eyJoaXN0b3J5IjpbLTY1NTk1MzgwOSwtMjAxNTE1MTMwMiwtNz
+UxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjEx
+NDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3Mj
+UwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1
+NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMT
+A1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTEx
+Mzk1XX0=
 -->
