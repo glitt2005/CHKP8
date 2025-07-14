@@ -1501,7 +1501,7 @@ Una buena práctica es añadir la palabra **Promise** **al nombre de la variable
 kkk
 
 <div align="center">
-<img src="pregunta.png"  width = "40%" alt="pregunta método estático">
+<img src="basicoPromesa.png"  width = "40%" alt="pregunta método estático">
 </div>
 <br>
 
@@ -1921,11 +1921,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMj
-A4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5
-NTQsOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMj
-A0MjM2NzUyLDEwODg0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3
-NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNy
-wtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUz
-NDM1NzEwN119
+eyJoaXN0b3J5IjpbMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtND
+IyOTI1NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkz
+NiwtMTA1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMT
+IzNTExMzk1LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1
+MjEyMiw3MTcyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMi
+wtOTE3MDY4NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEy
+MzEzNDI0NTNdfQ==
 -->
