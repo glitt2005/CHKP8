@@ -1854,7 +1854,7 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 	- puede generar tiempos de espera largos
 	- e interfaces de usuario bloqueados.
 
-### 	1. EVENT LOOP
+### 	0. EVENT LOOP
 **Para resolver** este comportamiento sincrónico, JavaScript utilizaba las **tareas asincrónicas o “temporizadores”**, a través del método `setTimeout()`, que se ejecuta **en segundo plano y no afecta a la resolución de las demás tareas**.
 
 #### EJEMPLO: una solicitud de red – TAREA LENTA, necesita 2 segundos:
@@ -1877,9 +1877,12 @@ Esto imprime:
 - El `setTimeout()` ha hecho que esta tarea asincrónica **no bloquee el resto de tareas**, que se han ejecutado antes sin problema.
 
 En este punto **se desarrolló la faceta asíncrona de JavaScript**: entraron a formar parte progresivamente:
-- los callback 
-- las promesas 
-- y finalmente, las funciones `async` y `await`:
+- las funciones **callback** 
+- las **promesas** 
+- y finalmente, las funciones **`async` y `await`:**
+
+
+### 	1. Funciones CALLBACK
 
 1.	CALLBACKS  -  y su gran handicap: el llamado “callback hell” o infierno de callbacks.
 Las funciones callback son funciones que se pasan como argumento de otras funciones para que sean ejecutadas en algún momento dentro de la ejecución de la función principal.
@@ -2130,11 +2133,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTkxNjk5MSwtMjAxNTE1MTMwMiwtNz
-UxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjEx
-NDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3Mj
-UwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1
-NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMT
-A1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTEx
-Mzk1XX0=
+eyJoaXN0b3J5IjpbLTIwODcyMTAxNDUsLTIwMTUxNTEzMDIsLT
+c1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYx
+MTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNz
+I1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjky
+NTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLT
+EwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUx
+MTM5NV19
 -->
