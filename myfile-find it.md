@@ -1871,7 +1871,7 @@ console.log("Tercero");
 Esto imprime:
 // Primero
 // Segundo
-// Tercero (imprimiría esto después de los 2 segundos que tarda la tarea segunda tarea
+// Tercero (imprimiría esto después de los 2 segundos que tarda la tarea segunda 
 //           en ejecutarse)
 ```
 El `setTimeout()` ha hecho que esta tarea asincrónica **no bloquee el resto de tareas**, que se han ejecutado antes sin problema.
@@ -2126,11 +2126,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODIyMDU5ODAsLTIwMTUxNTEzMDIsLT
-c1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYx
-MTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNz
-I1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjky
-NTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLT
-EwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUx
-MTM5NV19
+eyJoaXN0b3J5IjpbMTU0ODc5MzQ5OSwtMjAxNTE1MTMwMiwtNz
+UxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjEx
+NDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3Mj
+UwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1
+NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMT
+A1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTEx
+Mzk1XX0=
 -->
