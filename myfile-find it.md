@@ -1766,7 +1766,15 @@ Ejemplo:
 JavaScript
 
 ```js
-const promesa1 = new Promise((resolve) => setTimeout(() => resolve(1), 100));const promesa2 = new Promise((_, reject) => setTimeout(() => reject(new Error('Error')), 200));const promesa3 = new Promise((resolve) => setTimeout(() => resolve(3), 300));Promise.allSettled([promesa1, promesa2, promesa3])  .then((resultados) => {    console.log(resultados);    /*
+const promesa1 = new Promise((resolve) => setTimeout(() => resolve(1), 100));
+const promesa2 = new Promise((_, reject) => setTimeout(() => reject(new Error('Error')), 200));
+const promesa3 = new Promise((resolve) => setTimeout(() => resolve(3), 300));
+
+
+Promise.allSettled([promesa1, promesa2, promesa3])
+  .then((resultados) => {
+      console.log(resultados);
+    /*
     [
       { status: 'fulfilled', value: 1 },
       { status: 'rejected', reason: Error: Error },
@@ -1947,11 +1955,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xND
-A2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2
-LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00Mj
-I5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2
-LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMj
-M1MTEzOTUsMTIwNDIzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUy
-MTIyXX0=
+eyJoaXN0b3J5IjpbLTE4OTAyMzMxMDEsMTcxMTI5MjA1NSwxNj
+M1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4
+NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNj
+QyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2
+MzEwLC01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMD
+g0MTc1MTYxLDExMjM1MTEzOTUsMTIwNDIzNjc1MiwxMDg4NDg3
+NzcwXX0=
 -->
