@@ -2024,16 +2024,16 @@ async function loginActivities() {
   console.log(returnedUpdateAccount);
 }
 
-loginActivities();
+loginActivities();  // retorna 'Updating last login...'
 ```
 
 - Simplemente hemos declarado una lista de **cuándo queremos que cada uno de estos procesos ocurran y el orden** en el que queremos que ocurran.
 
 **En otros lenguajes esto ya se hacía por defecto**, pero con JavaScript y su naturaleza síncrona, el orden en el que funcionan son llamada y devolución, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo.  Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función async y await.
 
-Esto ultimo  devuelve 'Updating last login...');
+<br>
 
-SE HA CONSEGUIDO:
+**<big>Se ha conseguido:**</big>
 
 -	**Mayor capacidad de respuesta: el usuario sigue funcionando sin interrupciones** mientras las demás operaciones de más larga duración terminan de completarse.
 
@@ -2174,11 +2174,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjE3NDQ1MDUsLTU1MTU3MzE5MiwtMz
-IyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAw
-Mzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMj
-Q1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUx
-MzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC
-0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkz
-MTc2XX0=
+eyJoaXN0b3J5IjpbMTM4MTY5Mzc1MCwtNTUxNTczMTkyLC0zMj
+I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
+OTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyND
+UwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEz
+MDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLT
+E0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMx
+NzZdfQ==
 -->
