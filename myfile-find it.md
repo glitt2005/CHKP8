@@ -1697,6 +1697,9 @@ postsPromise_2
 </div>
 
 <br>
+<br>
+
+En este caso no ha dado error, por eso no ha tenido que ejecutar el `catch()`, pero hay muchas veces que puede hacerlo. Por ejemplo, muy típico es no tener en cuenta la "s" final de la url "h
 
 
 
@@ -1909,11 +1912,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
-Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
-ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1NCw5Nj
-M3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3
-NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0NzUsLT
-E3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC03ODA1
-MzI3MDddfQ==
+eyJoaXN0b3J5IjpbMTg1MzM4MTI1NCwxMTE0ODkzMTc2LDcyNT
+AwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3
+NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMD
+U0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEz
+OTUsMTIwNDIzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLD
+cxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcw
+Njg1MDddfQ==
 -->
