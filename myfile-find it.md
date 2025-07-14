@@ -1620,11 +1620,6 @@ CONVENCIÓN COMÚN:
 	-  `response` 
 	-  `data`
 	
-
-
-
-
-
 ```js
 fetch('<Tu URL>', {})
   .then(response => {
@@ -1634,7 +1629,6 @@ fetch('<Tu URL>', {})
     // Si hay un error en la petición, lo manejamos aqui 
   })
 ```
-
 
 - 	Si la solicitud devuelve un error, se ejecutará **el método  `catch()`**:  éste  se puede omitir en Fetch API.  
 **Se usa solo** cuando `fetch()` no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
@@ -1656,6 +1650,7 @@ postsPromise
   .then(data => console.log(data));   // este "data" ya está convertido a json
 ```
 Y esta impresión será algo similar a esto:
+<br>
 
 
 <div align="center">
@@ -1663,6 +1658,8 @@ Y esta impresión será algo similar a esto:
 </div>
 
 <br>
+<br>
+
 
 
 
@@ -1691,10 +1688,12 @@ postsPromise_2
 (1*) Iteramos sobre el objeto que nos interesa, que es  `posts`, con el bucle `forEach()` (que está tomando como argumento una función flecha).
 
 (2*)  En esa iteración solo nos interesa uno de las claves: `title`, así que extraerá todos valores para cada una de estas claves `title`repetidas. Se visualizaría algo así:
+<br>
+
 
 
 <div align="center">
-<img src="titles.png" alt="datos json">
+<img src="titles.png" alt="tit">
 </div>
 
 <br>
@@ -1910,7 +1909,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MDY2OTU0LDE3MTU0NjE2MzEsLTE2ND
+eyJoaXN0b3J5IjpbODM0MDI4NTQwLDE3MTU0NjE2MzEsLTE2ND
 I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
 MTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwOD
 QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
