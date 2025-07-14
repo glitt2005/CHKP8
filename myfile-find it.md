@@ -1662,7 +1662,7 @@ Y esta impresión será algo similar a esto:
 
 
 
-No se visualiza bien, pero como son datos **JSON**, y vemos un objeto, un **array** llamado   ** `posts` ** conteniendo muchas 
+No se visualiza bien, pero como son datos **JSON**, y vemos un objeto, un **array** llamado   ** `posts` ** conteniendo muchos datos, lógicamente en forma de pares  clave:valor. Vemos muchas claves repetidas como: `title`, `content`, `created_at, 
 
 Si nos fijamos bien, en esta figura vemos que nos ha salido un arra
 
@@ -1898,7 +1898,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTg1MjM5MywtNTIzMDkzNiwtMTA1ND
+eyJoaXN0b3J5IjpbLTkyMDIyODU3OCwtNTIzMDkzNiwtMTA1ND
 Q1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1
 LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MT
 cyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4
