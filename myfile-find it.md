@@ -1617,7 +1617,7 @@ CONVENCIÓN COMÚN:
 	-  `response` 
 	-  `data`
 	
-	- Y cuando  se llamará al método  **`then()`.** **Si la solicitud devuelve un error, se ejecutará el método  `catch()`:**
+
 
 
 
@@ -1633,7 +1633,7 @@ fetch('<Tu URL>', {})
 ```
 
 
-- El método  **`.catch()`  se puede omitir en Fetch API**.  **Se usa solo** cuando Fetch no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
+- 	Si la solicitud devuelve un error, se ejecutará **el método  `catch()`**:  éste  se puede omitir en Fetch API**.  **Se usa solo** cuando Fetch no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
 
 - Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato.
 
@@ -1871,11 +1871,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0ODE5OTA5LDExMjM1MTEzOTUsMTIwND
-IzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLDcxNzIyNzQ3
-NSwtMTcwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcwNjg1MDcsLT
-c4MDUzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1Myw1MzQz
-NTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MT
-AsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xODQz
-MTM2ODU3XX0=
+eyJoaXN0b3J5IjpbLTEyOTY2NzE1NTQsMTEyMzUxMTM5NSwxMj
+A0MjM2NzUyLDEwODg0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3
+NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNy
+wtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUz
+NDM1NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5Mz
+kxMCwtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4
+NDMxMzY4NTddfQ==
 -->
