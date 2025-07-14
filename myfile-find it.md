@@ -1915,7 +1915,7 @@ function tareaAsincrona(callback) {
 
 tareaAsincrona(() => {
   console.log("Callback ejecutado");
-});
+})
 //Imprime:
 //"Tarea Asincrónica Completa"
 //"Callback ejecutado"
@@ -1930,7 +1930,11 @@ Y así, una enorme cantidad de anidamientos …
 En este código asíncrono, donde cada operación depende del resultado de la anterior, generaba una estructura en forma de pirámide. Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, hasta que no hubieras realizado las tareas que están por encima de ella. Tenías que codificar cada posible proceso que piensas que pudiera ocurrir para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. Tenías que tener muy claro la secuencia específica, y codificar eso.
 Es lo que llegó a llamarse “callback hell”:  Múltiples funciones callback se anidan unas dentro de otras, creando un código complejo, difícil de leer (y mantener), con problemas para discernir el flujo de trabajo: era muy difícil discernir que debía ocurrir en cada momento. 
 ¿cómo solucionó esto JavaScript?  Con las Promises
+Desventajas de los callbacks:
 
+-   **Callback hell (infierno de callbacks):** Cuando se anidan muchos callbacks, el código puede volverse difícil de leer y mantener.
+-   **Dificultad para depurar:** En situaciones complejas, puede ser complicado rastrear el flujo de ejecución cuando se utilizan muchos callbacks.
+-   **Pérdida de contexto:** El contexto  `this`  dentro de un callback puede no ser el esperado.
 
 <br>
 
@@ -2165,11 +2169,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODAwMzQ2MiwyNDUwNTMxMzQsNTQ4OD
-MwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIx
-MiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MD
-kzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5
-LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMj
-A4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5
-NTRdfQ==
+eyJoaXN0b3J5IjpbNjAwNzQ3NTE2LDE1MDgwMDM0NjIsMjQ1MD
+UzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAy
+LC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xND
+A2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2
+LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00Mj
+I5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2
+XX0=
 -->
