@@ -1901,10 +1901,10 @@ En este punto, **se desarrolló la faceta asíncrona de JavaScript**: entraron a
 
 <br>
 
-### 	1. Funciones *callback*
+### 	1. Funciones *callback* y el llamado "*callback hell*"
 
-1.	CALLBACKS  -  y su gran handicap: el llamado “callback hell” o infierno de callbacks.
-Las funciones callback son funciones que se pasan como argumento de otras funciones para que sean ejecutadas en algún momento dentro de la ejecución de la función principal.
+- Las funciones callback **son funciones que se pasan como argumento de otras funciones** para que sean ejecutadas en algún momento dentro de la ejecución de la función principal.
+- 
 Constituyeron la primera forma de manejar asincronismo en Javascript.
 function tareaAsincrona(callback) {
   setTimeout(() => {
@@ -1915,7 +1915,7 @@ function tareaAsincrona(callback) {
 
 tareaAsincrona(() => {
   console.log("Callback ejecutado");
-
+LLBACKS  -  y su gran handicap: el llamado “callback hell” o infierno de callbacks.
 Imprime, al mismo tiempo los dos console.log:
 //"Tarea Asincrónica Completa"
 //"Callback ejecutado"
@@ -2161,7 +2161,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzE4MzE3MTYsNTQ4ODMwMTU2LC03Nz
+eyJoaXN0b3J5IjpbLTEyODQ5MDQxODEsNTQ4ODMwMTU2LC03Nz
 UyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjky
 MDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNT
 U5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2
