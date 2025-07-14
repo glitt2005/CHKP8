@@ -1948,13 +1948,13 @@ Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, no 
 ### 	2. Promesas
 
 
-Las promesas resolvieron algunos asuntos como:
--	La dificultad para manejar errores
--	El lío del código anidado
+Las promesas **resolvieron** algunos asuntos como:
+-	La dificultad para **manejar errores**
+-	**El lío del código anidado**
 
-Y ello porque las Promises  constituyen operaciones asíncronas que podían manejar
--	Proceso de tareas con éxito -a través de la método.then()
--	Manejo de errores a través del método catch()
+Todo ello gracias a que las **promesas**  constituyen operaciones asíncronas que podían manejar:
+-	Proceso de **tareas con éxito** -a través de la método.then()
+-	**Manejo de errores** a través del método catch()
 EJEMPLO:
 const promesa = new Promise((resolve, reject) => {
   setTimeout(() => {
@@ -2176,11 +2176,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MTE1OTg5OCwxNzc5Njc0NjQyLDkxND
-IxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYs
-LTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MT
-EyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3
-NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
-Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
-ODAyXX0=
+eyJoaXN0b3J5IjpbLTEzOTM3OTkzNjMsMTc3OTY3NDY0Miw5MT
+QyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2
+LC03NzUyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNz
+ExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIy
+NzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MT
+U0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3
+OTgwMl19
 -->
