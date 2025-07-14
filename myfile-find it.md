@@ -1670,9 +1670,9 @@ const postsPromise_2 = fetch('https://rickandmortyapi.com/api/posts')
 
 postsPromise_2
   .then(data => data.json())
-  .then(data => {             //trabajando ya con datos json (solo queremos el dato 'title')       //posts es simplemente el objeto imprimido que estamos buscando
-      data.posts.forEach((item) => {
-         console.log(item.title);
+  .then(data => {             
+      data.posts.forEach((item) => {    //(1*)
+         console.log(item.title);       //(2*)
       });
   })
   .catch(error => {
@@ -1681,6 +1681,7 @@ postsPromise_2
   });
 ```
 
+(1*)  
 
 
 
@@ -1892,11 +1893,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDcwMjg3MjQsLTEwNTQ0NTA5NTQsOT
-YzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2
-NzUyLDEwODg0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC
-0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgw
-NTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1Nz
-EwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwt
-MjM4NTY3MTg2XX0=
+eyJoaXN0b3J5IjpbLTU4NDI3Njg0MiwtMTA1NDQ1MDk1NCw5Nj
+M3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3
+NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0NzUsLT
+E3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC03ODA1
+MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MT
+A3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0y
+Mzg1NjcxODZdfQ==
 -->
