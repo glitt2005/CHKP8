@@ -1929,11 +1929,11 @@ console.log("La ejecución continúa..."); //  Este mensaje se imprime ANTES de 
 ```
 <br>
 
-- En este código asíncrono, donde cada operación **depende del resultado de la anterior, generaba una estructura en forma de pirámide**. 
-Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, hasta que no hubieras realizado las tareas que están por encima de ella. Tenías que codificar cada posible proceso que piensas que pudiera ocurrir para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. Tenías que tener muy claro la secuencia específica, y codificar eso.
+- En este código asíncrono, donde cada operación **depende del resultado de la anterior, generaba una estructura en forma de pirámide**. Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, **hasta que no hubieras realizado las tareas que están por encima de ella.** 
+- Tenías que **codificar cada posible proceso que piensas que pudiera ocurrir** para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. **Debías tener muy claro la secuencia específica, y codificar eso**.
 
 
-Es lo que llegó a llamarse “callback hell”:  Múltiples funciones callback se anidan unas dentro de otras, creando un código complejo, difícil de leer (y mantener), con problemas para discernir el flujo de trabajo: era muy difícil discernir que debía ocurrir en cada momento. 
+Es lo que llegó a llamarse “callback hell”:  : era muy difícil discernir que debía ocurrir en cada momento. 
 ¿cómo solucionó esto JavaScript?  Con las Promises
 Desventajas de los callbacks:
 
@@ -2174,11 +2174,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDc1NDEwMTAsMTc3OTY3NDY0Miw5MT
-QyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2
-LC03NzUyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNz
-ExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIy
-NzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MT
-U0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3
-OTgwMl19
+eyJoaXN0b3J5IjpbMzA5Mzk4NjgwLDE3Nzk2NzQ2NDIsOTE0Mj
+ExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1Niwt
+Nzc1MjI0MTMxLC0yMDE1MTUxMzAyLC03NTEyNzQyMTIsMTcxMT
+I5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0
+LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1ND
+YxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4
+MDJdfQ==
 -->
