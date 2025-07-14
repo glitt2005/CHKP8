@@ -1639,7 +1639,7 @@ fetch('<Tu URL>', {})
 - Se pueden utilizar métodos como **`json()`,  `text()`,** etc., para extraer los datos de **la respuesta en diferentes formato**.
 
 ####    EJEMPLOS
-1. Conviertiendo datos a **json** y listando todos los recursos.
+1. Conviertiendo datos a **json** y listando todos los recursos de estos datos json.
 
 ```js
 fetch('https://jsonplaceholder.typicode.com/posts')
@@ -1872,11 +1872,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMj
-A0MjM2NzUyLDEwODg0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3
-NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNy
-wtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUz
-NDM1NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5Mz
-kxMCwtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1ODIxODIsLTE4
-NDMxMzY4NTddfQ==
+eyJoaXN0b3J5IjpbOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMz
+UxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3NzAsLTEyODA1NTIx
+MjIsNzE3MjI3NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLT
+kxNzA2ODUwNywtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMx
+MzQyNDUzLDUzNDM1NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNi
+wtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1
+ODIxODJdfQ==
 -->
