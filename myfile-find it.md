@@ -2033,19 +2033,11 @@ loginActivities();
 
 Esto ultimo  devuelve 'Updating last login...');
 
-HA CONSEGUIDO:
+SE HA CONSEGUIDO:
 
+-	**Mayor capacidad de respuesta: el usuario sigue funcionando sin interrupciones** mientras las demás operaciones de más larga duración terminan de completarse.
 
--	Mayor legibilidad: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
-
--	Manejo de errores de forma similar a como se haría con código síncrono
-
--	Sintaxis más limpia: elimina la necesidad de anidar then() y catch() al trabajar con promesas haciendo código más limpio y conciseo.
-QUE SE TRADUCE EN:
-
--	Mayor capacidad de respuesta: el usuario sigue funcionando sin interrupciones mientras las demás operaciones de más larga duración terminan de completarse.
-
--	Optimización del rendimiento: evita que el programa se bloquee esperando resultados, lo que a su vez mejora la experiencia de usuario
+-	**Optimización del rendimiento: evita que el programa se bloquee esperando resultados**, lo que a su vez mejora la experiencia de usuario
 
 
 •	Es relativamente nuevo; **el 
@@ -2182,11 +2174,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjkwMTY0MiwtNTUxNTczMTkyLC0zMj
-I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
-OTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyND
-UwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEz
-MDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLT
-E0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMx
-NzZdfQ==
+eyJoaXN0b3J5IjpbLTEwMjE3NDQ1MDUsLTU1MTU3MzE5MiwtMz
+IyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAw
+Mzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMj
+Q1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUx
+MzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC
+0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkz
+MTc2XX0=
 -->
