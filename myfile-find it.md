@@ -1956,13 +1956,14 @@ Todo ello gracias a que las **promesas**  constituyen operaciones asíncronas qu
 -	Proceso de **tareas con éxito** -a través de la método.then()
 -	**Manejo de errores** a través del método catch()
 
-No ponemos ejemplos porque queda explicado en un punto anterior.
 <br>
 
 <div align="center">
 <img src="diagramaPromesa.png" alt="diagrama Promesa">
 </div>
 
+<br>
+No ponemos ejemplos porque queda explicado en un punto anterior.
 <br>
 
 ### 	3. Funciones <big>`async`</big> y <big>`await`</big>
@@ -2181,11 +2182,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOT
-QxMDAzOTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2
-MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMT
-UxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUx
-MDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMT
-Q4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2
-ODNdfQ==
+eyJoaXN0b3J5IjpbLTk1MjIwMzE2OSwtMTc5MjE4NzgxLC04ND
+c2OTAyMTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkx
+MywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NT
+IyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIw
+NTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3NCw1NT
+kzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNTQ2MTYz
+MV19
 -->
