@@ -1598,10 +1598,9 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
 
 El método  `fetch()`  :
 - comienza el proceso de **capturar un recurso de un servidor**. 
-- se utiliza para realizar solicitudes de red y obtener recursos de forma asíncrona, **como datos JSON, archivos, imágenes, etc.** 
-- es una forma moderna y flexible de **realizar peticiones HTTP y** obtener respuestas **del servidor** con una sintaxis limpia y fácil de usar.
-
- **`fetch()`  devuelve una promesa** que se resuelve con un objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta.  Debido a que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**  
+- se utiliza para realizar solicitudes de red y obtener recursos de forma **asíncrona**, **como datos JSON, archivos, imágenes, etc.** 
+- esta forma moderna y flexible de **realizar peticiones HTTP y** obtener respuestas del servidor tiene una **sintaxis limpia y fácil de usar.**
+-  **`fetch()`  devuelve una promesa** que se resuelve con un objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta.  Debido a que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**  
 
 Cuando la petición devuelve **una respuesta** (muy frecuentemente por CONVENCIÓN COMÚN se utiliza las palabras `response` o `data`, se llamará al método  **`then()`.** **Si la solicitud devuelve un error, se ejecutará el método  `catch()`:**
 
@@ -1864,11 +1863,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjMwMDM2OSwxMTIzNTExMzk1LDEyMD
-QyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0
-NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC
-03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0
-MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOT
-EwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0
-MzEzNjg1N119
+eyJoaXN0b3J5IjpbOTEwNTY1MTA0LDExMjM1MTEzOTUsMTIwND
+IzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLDcxNzIyNzQ3
+NSwtMTcwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcwNjg1MDcsLT
+c4MDUzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1Myw1MzQz
+NTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MT
+AsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xODQz
+MTM2ODU3XX0=
 -->
