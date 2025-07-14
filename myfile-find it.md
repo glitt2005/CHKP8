@@ -1960,7 +1960,7 @@ No ponemos ejemplos porque queda explicado en un punto anterior.
 <br>
 
 <div align="center">
-<img src="diagramaPromesa.png" width = "60%" alt="diagrama Promesa">
+<img src="diagramaPromesa.png" alt="diagrama Promesa">
 </div>
 
 <br>
@@ -2181,11 +2181,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nz
-k2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0
-LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAyLC03NT
-EyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0
-NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNT
-AwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3
-NjddfQ==
+eyJoaXN0b3J5IjpbLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOT
+QxMDAzOTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2
+MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMT
+UxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUx
+MDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMT
+Q4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2
+ODNdfQ==
 -->
