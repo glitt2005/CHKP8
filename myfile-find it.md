@@ -1897,7 +1897,7 @@ En este punto, **se desarrolló la faceta asíncrona de JavaScript**: entraron a
 
  - [x] las funciones **callback** 
  - [x]  las **promesas** 
- - [x]  y finalmente, las funciones **`async` y `await`:**
+ - [x]  y finalmente, las funciones <big>**`async`**</big> y  <big> **`await`**</big>
 
 <br>
 
@@ -2161,11 +2161,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3Mzk2ODM0Niw1NDg4MzAxNTYsLTc3NT
-IyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIw
-NTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3NCw1NT
-kzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNTQ2MTYz
-MSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5ODAyLD
-M3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1NCw5NjM3ODQz
-N119
+eyJoaXN0b3J5IjpbLTIxMzE4MzE3MTYsNTQ4ODMwMTU2LC03Nz
+UyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjky
+MDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNT
+U5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2
+MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMi
+wzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0
+MzddfQ==
 -->
