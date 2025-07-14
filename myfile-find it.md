@@ -1873,6 +1873,7 @@ Un **event loop** o bucle de eventos es un  mecanismo que **permite la ejecució
 
 
 
+
 #### EJEMPLO: una solicitud de red – TAREA LENTA, necesita 2 segundos:
 ```js
 console.log("Primero");
@@ -1893,7 +1894,7 @@ Esto imprime:
 - El `setTimeout()` ha hecho que esta tarea asincrónica **no bloquee el resto de tareas**, que se han ejecutado antes sin problema.
 <br>
 
-En este punto, **se desarrolló la faceta asíncrona de JavaScript**: entraron a formar parte progresivamente:
+Este tipo de proceso o **Event Loop**, pues era un paso en la dirección correcta. En este punto, **se desarrolló la faceta asíncrona de JavaScript**: entraron a formar parte progresivamente:
 
  - [x] las funciones **callback** 
  - [x]  las **promesas** 
@@ -2177,11 +2178,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTM0ODMwMiw5MTQyMTE5MTMsMTUwOD
-AwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEs
-LTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2Mz
-UxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0
-LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
-I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTEzMjA5NDAyMjYsOTE0MjExOTEzLDE1MD
+gwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMx
+LC0yMDE1MTUxMzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNj
+M1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4
+NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNj
+QyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2
+MzEwXX0=
 -->
