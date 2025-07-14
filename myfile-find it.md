@@ -1498,6 +1498,15 @@ Una buena práctica es añadir la palabra **Promise** **al nombre de la variable
 
 ### Proceso básico promesa
 
+
+
+
+<div align="center">
+<img src="basicoPromesa.png"  width = "40%" alt="pregunta método estático">
+</div>
+<br>
+
+
 <div align="center">
 <img src="basicoPromesa.png"  width = "60%" alt="proceso básico promesa">
 </div>
@@ -1907,11 +1916,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01Mj
-MwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYx
-LDExMjM1MTEzOTUsMTIwNDIzNjc1MiwxMDg4NDg3NzcwLC0xMj
-gwNTUyMTIyLDcxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5
-NjMyLC05MTcwNjg1MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOS
-wtMTIzMTM0MjQ1Myw1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3
-NDc0MjZdfQ==
+eyJoaXN0b3J5IjpbLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNz
+Q3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0Mzcs
+LTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwOD
+g0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQy
+NDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC
+0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNywxMzcy
+NTAwNTYzXX0=
 -->
