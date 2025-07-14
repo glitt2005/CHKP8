@@ -1633,9 +1633,10 @@ fetch('<Tu URL>', {})
 ```
 
 
-- 	Si la solicitud devuelve un error, se ejecutará **el método  `catch()`**:  éste  se puede omitir en Fetch API**.  **Se usa solo** cuando Fetch no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
+- 	Si la solicitud devuelve un error, se ejecutará **el método  `catch()`**:  éste  se puede omitir en Fetch API.  
+**Se usa solo** cuando `fetch()` no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
 
-- Se pueden utilizar métodos como  `**.json()`,  `.text()`,** etc., para extraer los datos de la respuesta en diferentes formato.
+- Se pueden utilizar métodos como **`json()`,  `text()`,** etc., para extraer los datos de **la respuesta en diferentes formato**.
 
 ####    EJEMPLOS
 1. Conviertiendo datos a **json** y listando todos los recursos.
@@ -1871,7 +1872,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTY2NzE1NTQsMTEyMzUxMTM5NSwxMj
+eyJoaXN0b3J5IjpbLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMj
 A0MjM2NzUyLDEwODg0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3
 NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNy
 wtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUz
