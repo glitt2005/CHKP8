@@ -1699,9 +1699,9 @@ postsPromise_2
 <br>
 <br>
 
-En este caso no ha dado error, por eso no ha tenido que ejecutar el `catch()`, pero hay muchas veces que puede hacerlo. Por ejemplo, muy típico es no tener en cuenta la "s" final de la url `https:  //.......` ; o bien una API con *https* o http que esté utilizando un sistema completamente seguro.
+En este caso no ha dado error, por eso no ha tenido que ejecutar el `catch()`, pero hay muchas veces que puede hacerlo. Por ejemplo, muy típico es no tener en cuenta la "s" final de la url `https:  //.......` ; o bien una API con *https* o *http* que esté utilizando un **sistema completamente seguro**.
 
- Si intentas capturar (utilizar el `fetch()` , este tipo de URL o  **endpoint API** y no es seguro, hay mucha probabilidad de que estés trayendo diversos **elementos a tu propia aplicación que no son seguros**. Por ello, **JavaScript lo bloqueará**. Sale este **error**  que devuelve nuestro bloque **catch().**
+Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL o  **endpoint API** y no es seguro, hay mucha probabilidad de que estés trayendo diversos **elementos a tu propia aplicación que no son seguros**. Por ello, **JavaScript lo bloqueará**. Sale este **error**  que devuelve nuestro bloque **catch().**
 
 
 
@@ -1914,11 +1914,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwMTQ1NTA2LDU1OTMwMTk4NCwxMTE0OD
-kzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4Njgz
-LC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01Mj
-MwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYx
-LDExMjM1MTEzOTUsMTIwNDIzNjc1MiwxMDg4NDg3NzcwLC0xMj
-gwNTUyMTIyLDcxNzIyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5
-NjMyXX0=
+eyJoaXN0b3J5IjpbLTE0OTg0NTU4NDMsNTU5MzAxOTg0LDExMT
+Q4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2
+ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYzMTAsLT
+UyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwODQxNzUx
+NjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3NzAsLT
+EyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQyNDIyLDE4OTgw
+NDk2MzJdfQ==
 -->
