@@ -1981,6 +1981,18 @@ Proporcionan:
 -	Mayor legibilidad: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
 -	Manejo de errores de forma similar a como se haría con código síncrono
 -	Sintaxis más limpia: elimina la necesidad de anidar then() y catch() al trabajar con promesas haciendo código más limpio y conciseo.
+
+
+
+
+
+<br>
+
+<div align="center">
+<img src="asyncAwait.png" width = "60%" alt="diagrama async-await">
+</div>
+
+<br>
 EJEMPLO:
 (no ponemos rejects para mostrar más claramente el propósito de la explicación de async/await)
 const login = () => {
@@ -2169,11 +2181,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA3Nzk5MzksMTM5NDEwMDM5NiwxNz
-c5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEz
-NCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNz
-UxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjEx
-NDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3Mj
-UwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1
-NzY3XX0=
+eyJoaXN0b3J5IjpbLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nz
+k2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0
+LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAyLC03NT
+EyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0
+NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNT
+AwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3
+NjddfQ==
 -->
