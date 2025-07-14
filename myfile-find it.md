@@ -1863,7 +1863,7 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 
 
 <div align="center">
-<img src="even.png" width = "60%" alt="error, catch()">
+<img src="eventLoop.png" width = "60%" alt="error, catch()">
 </div>
 
 <br>
@@ -2159,11 +2159,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDg3MjA5OCwtNzc1MjI0MTMxLC0yMD
-E1MTUxMzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1
-MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMT
-E0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4
-NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC
-01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1
-MTYxXX0=
+eyJoaXN0b3J5IjpbNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMT
+UxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUx
+MDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMT
+Q4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2
+ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYzMTAsLT
+UyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwODQxNzUx
+NjFdfQ==
 -->
