@@ -1483,7 +1483,7 @@ Una **promesa** o bien:
 
 <br>### 
 
-### SINTAXIS básica de una promesa.
+####  SINTAXIS básica de una promesa.
 ```JavaScript
 const promesa = new Promise((resolve, reject) => {  
 // Aquí se realiza la operación asíncrona :
@@ -1491,7 +1491,7 @@ const promesa = new Promise((resolve, reject) => {
 // Si ocurre un error, se llama a reject(error)  
 });
 ```
-BUENA PRÁCTICA:
+#### BUENA PRÁCTICA:
 
 Una buena práctica es añadir la palabra **Promise** **al nombre de la variable**, para identificar el propósito en futuros accesos al programa. Al ser así de **descriptivo**, facilitará cualquier interpretación y/o modificación del mismo: por ejemplos **`postsPromise = fetch( "https:// aaa.bbbbbbb.com/posts")`**  si tratamos de obtener las publicaciones o "***posts***" de una página web (p.ej. *Twitter*).
 
@@ -1605,7 +1605,7 @@ El método  `fetch()`  :
 - esta forma moderna y flexible de **realizar peticiones HTTP y** obtener respuestas del servidor tiene una **sintaxis limpia y fácil de usar.**
 
 
-### SINTAXIS:
+#### SINTAXIS:
 
 - Acepta **dos parámetros:**
 	1.  **La URL a la que enviar la petición** (este es un parámetro obligatorio).
@@ -1614,7 +1614,7 @@ El método  `fetch()`  :
 -  **`fetch()`  devuelve una promesa** que se resuelve al objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta. Es decir, representa la respuesta a la solicitud realizada.  Y dado que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**
 <br>
 
-CONVENCIÓN COMÚN:  
+#### CONVENCIÓN COMÚN:  
 
 * La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:
 	-  `response` 
@@ -1719,7 +1719,7 @@ Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL 
 
 
 
-## Como agrupar promesas
+## Agrupar  promesas
 
 
 En JavaScript, cuando tenemos promesas 	que son muy parecidas, las podemos agrupar y gestionar para tratarlas igual a través de dos método   `Promise.all()`, y  `Promise.allSettled()`  Se utilizan mucho en páginas web y aplicaciones de móvil.
@@ -1976,11 +1976,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2Mz
-UxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0
-LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
-I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
-MTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwOD
-QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTk1NzA3MDM5NCwtNzUxMjc0MjEyLDE3MT
+EyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3
+NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
+Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
+ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1NCw5Nj
+M3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3
+NTJdfQ==
 -->
