@@ -1724,13 +1724,13 @@ Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL 
 
 En JavaScript, cuando tenemos promesas 	que son muy parecidas, las podemos agrupar y gestionar para tratarlas igual.
 
-Se emplea el método  `Promise.all()`
+SINTA
+Se emplea el método  `Promise.all()`.  Se utiliza  mucho en páginas web y aplicaciones de móvil.
 
 Es un método que toma como input un iterable de promesas que toma  and devuelve una sola promesa. Esta promesa se cumple cuando se cumplen todas las promesas de ese input (incluso cuando se pasa un iterable vacío).
-Se rechazará  si se rechaza cuando cualquiera de las promesas del iterable de entrada, con la razón de este primer rechazo.
+Se rechazará  si se rechaza cuando cualquiera de las promesas del iterable de entrada, con devolviendo la razón de este primer rechazo.
 
 
-- este método toma un array de promesas como argumento y devuelve una nueva promesa que se resuelve cuando todas las promesas del array original se han resuelto, o se rechaza tan pronto como una de las promesas en el array es rechazada.
 
 Ejemplo:
 
@@ -1932,11 +1932,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDc2MDE2MSwtMTQwNjExNDQyLDgwOT
-MyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzks
-MTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMD
-g4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1
-NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMD
-QyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0
-NzVdfQ==
+eyJoaXN0b3J5IjpbNzYyMDkxMTQzLC0xNDA2MTE0NDIsODA5Mz
+IyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwx
+NzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3NjcsLTIwOD
+g1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMDU0NDUwOTU0
+LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEzOTUsMTIwND
+IzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLDcxNzIyNzQ3
+NV19
 -->
