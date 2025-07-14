@@ -1843,14 +1843,14 @@ Promise.allSettled([promesa1, promesa2, promesa3])
 
 
 
-Una de las mayores **ventajas** de trabajar en JavaScript cuando comparamos con versiones anteriores son los procesos `async` y await. 
+Una de las mayores **ventajas** de trabajar en JavaScript cuando comparamos con versiones anteriores son los procesos `async` y `await`. 
 
-Veamos la historia de estos procesos para entender mejor lo que hacen.
+HISTORIA DE LOS PROCESOS `async` y `await`.
 
-Javascript es un programa sincrónico y monohilo por naturaleza. Esto significa que las tareas se procesan en el orden en el que fueron escritas.
+Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto significa que las tareas se procesan en el **orden** en el que fueron escritas.
 
-Si una función tomaba demasiado tiempo en completarse, bloqueaba la ejecución de otras funciones hasta que esta función no se hubiera terminado.
-Este comportamiento, en un entorno como un navegador o un servidor con Node.js no es idea, ya que puede generar tiempos de espera largos, e interfaces de usuario bloqueados.
+- Si una función tomaba **demasiado tiempo** en completarse, **bloqueaba la ejecución de otras funciones** hasta que esta función no se hubiera terminado.
+- Este comportamiento, en un entorno como un **navegador o un servidor con Node.js** no es buena idea, ya que puede generar tiempos de espera largos, e interfaces de usuario bloqueados.
 0.	EVENT LOOP
 Para resolver este comportamiento sincrónico, JavaScript utilizaba las tareas asincrónicas o “temporizadores”, a traves del método setTimeout(), que se ejecuta en segundo plano y no afecta a la resolución de las demás tareas.
 
@@ -2122,7 +2122,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTI1MjQ1LC0yMDE1MTUxMzAyLC03NT
+eyJoaXN0b3J5IjpbMjU4MzY1NDA4LC0yMDE1MTUxMzAyLC03NT
 EyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0
 NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNT
 AwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3
