@@ -1731,7 +1731,7 @@ Promise.all(iterable);
   ```  
 
 Es un método que toma como input un iterable de promesas que toma  and devuelve una sola promesa. Esta promesa se cumple cuando se cumplen todas las promesas de ese input (incluso cuando se pasa un iterable vacío).
-Se rechazará  si se rechaza cuando cualquiera de las promesas del iterable de entrada, con devolviendo la razón de este primer rechazo.
+Se rechazará  en el momento en el que se rechace cualquiera de las promesas del iterable de entrada,  devolviendo la razón de este primer rechazo.
 
 
 
@@ -1740,7 +1740,15 @@ Ejemplo:
 JavaScript
 
 ```js
-const promesa1 = new Promise((resolve) => setTimeout(() => resolve(1), 100));const promesa2 = new Promise((resolve) => setTimeout(() => resolve(2), 200));const promesa3 = new Promise((resolve) => setTimeout(() => resolve(3), 300));Promise.all([promesa1, promesa2, promesa3])  .then((resultados) => {    console.log(resultados); // [1, 2, 3]  })  .catch((error) => {    console.error(error);  });
+const promesa1 = new Promise((resolve) => setTimeout(() => resolve(1), 100));
+const promesa2 = new Promise((resolve) => setTimeout(() => resolve(2), 200));
+const promesa3 = new Promise((resolve) => setTimeout(() => resolve(3), 300));
+
+Promise.all([promesa1, promesa2, promesa3])  
+	.then((resultados) => { 
+		console.log(resultados); // [1, 2, 3]  })  
+	.catch((error) => {
+	    console.error(error);  });
 ```
 
 En este ejemplo,  `Promise.all()`  espera a que las tres promesas se resuelvan. Una vez que todas se resuelven, el método  `then()`  se ejecuta, pasando un array con los resultados de cada promesa en el mismo orden en que fueron pasadas a  `Promise.all()`. Si alguna de las promesas se rechazara, el  `catch()`  se ejecutaría, mostrando el error.
@@ -1935,11 +1943,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjM2NjE0NTcsLTE0MDYxMTQ0Miw4MD
-kzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5
-LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMj
-A4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5
-NTQsOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMj
-A0MjM2NzUyLDEwODg0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3
-NDc1XX0=
+eyJoaXN0b3J5IjpbMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOT
+MyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzks
+MTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMD
+g4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1
+NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMD
+QyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0
+NzVdfQ==
 -->
