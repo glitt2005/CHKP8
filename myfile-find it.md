@@ -1883,7 +1883,7 @@ En este punto **se desarrolló la faceta asíncrona de JavaScript**: entraron a 
 
 <br>
 
-### 	1. Funciones CALLBACK
+### 	1. Funciones *callback*
 
 1.	CALLBACKS  -  y su gran handicap: el llamado “callback hell” o infierno de callbacks.
 Las funciones callback son funciones que se pasan como argumento de otras funciones para que sean ejecutadas en algún momento dentro de la ejecución de la función principal.
@@ -1912,7 +1912,7 @@ Es lo que llegó a llamarse “callback hell”:  Múltiples funciones callback 
 
 <br>
 
-### 	. Promesas
+### 	2. Promesas
 
 2.	PROMISES  
 Las Promises o promesas resolvieron algunos asuntos como:
@@ -1939,7 +1939,7 @@ promesa
   
 <br>
 
-### 	3. Funciones <big>async>/big> y CALLBACK
+### 	3. Funciones <big>`async`</big> y <big>`await`</big>
 
 3.	LA SINTAXIS DE async/await  
 A partir de septiembre de 2017 (especificación ECMAScript2017), se incorporaron a JavaScript lasas palabras clave de async/await que constituyen la forma más sencilla y moderna de manejar código asincrónico. 
@@ -2143,7 +2143,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNjE3MTY4NSwtMjAxNTE1MTMwMiwtNz
+eyJoaXN0b3J5IjpbLTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNz
 UxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjEx
 NDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3Mj
 UwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1
