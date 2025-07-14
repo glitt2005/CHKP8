@@ -1682,9 +1682,9 @@ postsPromise_2
 ```
 
 (1*)  
-- `posts` es simplemente el objeto que nos ha salido en los datos de respuesta convertidos a json, y es justo **la clave** que buscamos, la ya dentro de estos "posts" o publicaciones tenemos otros datos anidados, como el título.
+(1*)  `posts` es simplemente el objeto que nos ha salido en los datos de respuesta convertidos a json, y es justo **la clave** que buscamos, la ya dentro de estos "posts" o publicaciones tenemos otros datos anidados, como el título.
 
-- Con el bucle `forEach()` (que está tomando como argumento una función flecha)
+(2*)  Con el bucle `forEach()` (que está tomando como argumento una función flecha), toma el **array** `posts` e itera sobre él, y recorre todos los pares clave:
 
 
 
@@ -1895,11 +1895,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNTY2MTQ2LC0xMDU0NDUwOTU0LDk2Mz
-c4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEzOTUsMTIwNDIzNjc1
-MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLDcxNzIyNzQ3NSwtMT
-cwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcwNjg1MDcsLTc4MDUz
-MjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1Myw1MzQzNTcxMD
-csMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MTAsLTIz
-ODU2NzE4Nl19
+eyJoaXN0b3J5IjpbMTg5OTc3MTM5MSwtMTA1NDQ1MDk1NCw5Nj
+M3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3
+NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0NzUsLT
+E3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC03ODA1
+MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MT
+A3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0y
+Mzg1NjcxODZdfQ==
 -->
