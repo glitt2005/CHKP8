@@ -1681,9 +1681,9 @@ postsPromise_2
   });
 ```
 
-(1*)  `posts` es simplemente el objeto que nos ha salido en los datos de respuesta convertidos a json, y es justo la clave que buscamos, la ya dentro de estos "posts" o publicaciones tenemos otros datos anidados, como el título.
+(1*)  `posts` es simplemente el objeto que nos ha salido en los datos de respuesta convertidos a json, y es justo **la clave** que buscamos, la ya dentro de estos "posts" o publicaciones tenemos otros datos anidados, como el título.
 
-
+Con la función fecha que toma como argumento el bucle `forEach()`, lo que hará es 
 
 
 
@@ -1894,7 +1894,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTgxNzA3MjksLTEwNTQ0NTA5NTQsOT
+eyJoaXN0b3J5IjpbLTIwNDAzMzcyNTYsLTEwNTQ0NTA5NTQsOT
 YzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2
 NzUyLDEwODg0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC
 0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgw
