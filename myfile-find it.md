@@ -1727,14 +1727,14 @@ En JavaScript, cuando tenemos **promesas** 	que son muy **parecidas**, las podem
 
 ### 1.  El método <big>`Promise.all()`</big>
 
-#### SINTAXIS:
+#### SINTAXIS
 
   ```js
 Promise.all(iterable)
   ```  
 <br>
 
-#### PROCESO:
+#### PROCESO
 
 - Es un método que toma como **entrada un iterable de promesas** que toma  y **devuelve una sola promesa**. 
 - Esta promesa se cumple **cuando se cumplen todas las promesas** de esa entrada (incluso cuando se pase un iterable vacío).
@@ -1743,7 +1743,7 @@ Promise.all(iterable)
 
 <br>
 
-#### EJEMPLO:
+#### EJEMPLO
 
 
 
@@ -1774,7 +1774,7 @@ Promise.all([promesa1, promesa2, promesa3])
 
 
 
-#### SINTAXIS:
+#### SINTAXIS
 
   ```js
 Promise.allSettled(iterable)
@@ -1782,7 +1782,7 @@ Promise.allSettled(iterable)
   
 <br>
 
-#### PROCESO:
+#### PROCESO
 
 
 - Esta es una alternativa para trabajar con promesas agrupadas.
@@ -1791,7 +1791,7 @@ Promise.allSettled(iterable)
 
 - En vez de ello, **espera a**  que **todas** las promesas del array se resuelvan o rechacen, **devolviendo un array de objetos que indican el estado de cada promesa (resuelta o rechazada)** y su valor o razón de rechazo.
 <br>
-#### EJEMPLO:
+#### EJEMPLO
 
 
 
@@ -1987,7 +1987,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM4NDI4OTIsLTc1MTI3NDIxMiwxNz
+eyJoaXN0b3J5IjpbLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNz
 ExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIy
 NzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MT
 U0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3
