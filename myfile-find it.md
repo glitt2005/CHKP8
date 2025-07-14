@@ -1638,6 +1638,9 @@ fetch('<Tu URL>', {})
 
 - Se pueden utilizar métodos como **`json()`,  `text()`,** etc., para extraer los datos de **la respuesta en diferentes formato**.
 
+
+
+
 ####    EJEMPLOS
 1. Conviertiendo datos a **json** y listando todos los recursos de estos datos json.
 
@@ -1646,6 +1649,13 @@ fetch('https://jsonplaceholder.typicode.com/posts')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
+Los datos json tendrían un aspecto similar a esto:
+
+
+<div align="center">
+<img src="json.png"  width = "80%" alt="datos json">
+</div>
+<br>
 
 
 2. Otro esquema para trabajar con los datos **json** y con bucle `forEach()`
@@ -1872,11 +1882,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMz
-UxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3NzAsLTEyODA1NTIx
-MjIsNzE3MjI3NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLT
-kxNzA2ODUwNywtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMx
-MzQyNDUzLDUzNDM1NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNi
-wtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2LC0xODcwMzkzNzQsMTU1
-ODIxODJdfQ==
+eyJoaXN0b3J5IjpbLTEwNDQ1MTU3NzYsOTYzNzg0MzcsLTEwOD
+QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
+NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQyNDIyLD
+E4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC0xMTA1
+MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNywxMzcyNTAwNT
+YzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2LC0x
+ODcwMzkzNzRdfQ==
 -->
