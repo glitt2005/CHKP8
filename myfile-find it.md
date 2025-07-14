@@ -1856,7 +1856,7 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 
 ### 	0. EVENT LOOP
 **Para resolver** este comportamiento sincrónico, JavaScript utilizaba las **tareas asincrónicas o “temporizadores”**, a través del método `setTimeout()`, que se ejecuta **en segundo plano y no afecta a la resolución de las demás tareas**.
-un event loop (bucle de eventos) es un  mecanismo que permite la ejecución asíncrona de tareas manteniendo la capacidad de respuesta del programa. Opera constantemente, monitoreando la cola de tareas y la pila de llamadas para determinar cuándo y cómo ejecutar el código pendiente.
+
 
 <br>
 
@@ -1868,7 +1868,7 @@ un event loop (bucle de eventos) es un  mecanismo que permite la ejecución así
 
 <br>
 
-
+Un **event loop** o bucle de eventos es un  mecanismo que **permite la ejecución asíncrona de tareas** manteniendo la capacidad de respuesta del programa. Opera constantemente, monitoreando la cola de tareas y la pila de llamadas para **determinar cuándo y cómo ejecutar el código pendiente**.
 
 
 
@@ -1891,8 +1891,9 @@ Esto imprime:
 //           esta tarea en ejecutarse)
 ```
 - El `setTimeout()` ha hecho que esta tarea asincrónica **no bloquee el resto de tareas**, que se han ejecutado antes sin problema.
+<br>
 
-En este punto **se desarrolló la faceta asíncrona de JavaScript**: entraron a formar parte progresivamente:
+En este punto, **se desarrolló la faceta asíncrona de JavaScript**: entraron a formar parte progresivamente:
 - las funciones **callback** 
 - las **promesas** 
 - y finalmente, las funciones **`async` y `await`:**
@@ -2159,11 +2160,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5OTI5Mzg0LDU0ODgzMDE1NiwtNzc1Mj
-I0MTMxLC0yMDE1MTUxMzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1
-NSwxNjM1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OT
-MwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMx
-LC0xNjQyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMz
-c0NzM2MzEwLC01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3
-XX0=
+eyJoaXN0b3J5IjpbLTE5NTcwODA4NjQsNTQ4ODMwMTU2LC03Nz
+UyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjky
+MDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNT
+U5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2
+MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMi
+wzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0
+MzddfQ==
 -->
