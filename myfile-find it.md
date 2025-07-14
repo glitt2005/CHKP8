@@ -1735,9 +1735,9 @@ Se rechazará  en el momento en el que se rechace cualquiera de las promesas del
 
 
 
-Ejemplo:
+### EJEMPLO:
 
-JavaScript
+
 
 ```js
 const promesa1 = new Promise((resolve) => setTimeout(() => resolve(1), 100));
@@ -1751,7 +1751,9 @@ Promise.all([promesa1, promesa2, promesa3])
 	    console.error(error);  });
 ```
 
-En este ejemplo,  `Promise.all()`  espera a que las tres promesas se resuelvan. Una vez que todas se resuelven, el método  `then()`  se ejecuta, pasando un array con los resultados de cada promesa en el mismo orden en que fueron pasadas a  `Promise.all()`. Si alguna de las promesas se rechazara, el  `catch()`  se ejecutaría, mostrando el error.
+- En este ejemplo,  `Promise.all()`  espera a que las tres promesas se resuelvan. 
+- Una vez que todas se resuelven, el método  `then()`  se ejecuta, pasando un array con los resultados de cada promesa en el mismo orden en que fueron pasadas a  `Promise.all()`. 
+- Si alguna de las promesas se rechazara, el  `catch()`  se ejecutaría, mostrando el error.
 
 `Promise.allSettled()`:
 
@@ -1943,11 +1945,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOT
-MyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzks
-MTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMD
-g4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1
-NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMD
-QyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0
-NzVdfQ==
+eyJoaXN0b3J5IjpbLTExMDM4NDAyMTMsMTYzNTE0NTEwMiwtMT
+QwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3
+Niw3MjUwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtND
+IyOTI1NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkz
+NiwtMTA1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMT
+IzNTExMzk1LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1
+MjEyMl19
 -->
