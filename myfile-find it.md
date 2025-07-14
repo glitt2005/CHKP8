@@ -1850,15 +1850,6 @@ TEXTO EN CONSOLA
 <font face="Consolas">Este texto está en Consolas.</font>
 
 
-IMAGEN
-
-![enter image description here](screenBG.jpg)
-
-<img alt="prueba" src="screenBG.jpg"/>
-
-
-
-
 
 There are two types of synchronization and they can complement each other: 
 <font color ="blue">some <strong>*blue*</strong> text</font>.
@@ -1987,11 +1978,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNz
-ExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIy
-NzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MT
-U0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3
-OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOT
-YzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2
-NzUyXX0=
+eyJoaXN0b3J5IjpbLTE0NjE0Mzg0MTgsLTIwMTUxNTEzMDIsLT
+c1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYx
+MTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNz
+I1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjky
+NTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLT
+EwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUx
+MTM5NV19
 -->
