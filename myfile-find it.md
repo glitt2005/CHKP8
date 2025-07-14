@@ -2030,14 +2030,9 @@ async function loginActivities() {
 loginActivities();
 ```
 
-
-
-
-
-
 - Simplemente hemos declarado una lista de **cuándo queremos que cada uno de estos procesos ocurran y el orden** en el que queremos que ocurran.
 
-En otros lenguajes esto ya se hacía por defecto, pero con JS y su naturaleza síncrona, el orden en el que funcionan son llamada y devolución, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función async y await.
+**En otros lenguajes esto ya se hacía por defecto**, pero con JavaScript y su naturaleza síncrona, el orden en el que funcionan son llamada y devolución, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo.  Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función async y await.
 
 Esto ultimo  devuelve 'Updating last login...');
 
@@ -2190,11 +2185,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTU3MzE5MiwtMzIyNzgwMDg5LC0xNz
-kyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nzk2NzQ2
-NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0LDU0OD
-gzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAyLC03NTEyNzQy
-MTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0NDIsOD
-A5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3
-OV19
+eyJoaXN0b3J5IjpbOTEyNzI4NjkyLC01NTE1NzMxOTIsLTMyMj
+c4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5
+NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NT
+A1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMw
+MiwtNzUxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMT
+QwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3
+Nl19
 -->
