@@ -1730,7 +1730,7 @@ En JavaScript, cuando tenemos **promesas** 	que son muy **parecidas**, las podem
 #### SINTAXIS:
 
   ```js
-Promise.all(iterable);
+Promise.all(iterable)
   ```  
 <br>
 
@@ -1775,11 +1775,9 @@ Promise.all([promesa1, promesa2, promesa3])
 #### SINTAXIS:
 
   ```js
-Promise.all(iterable);
+Promise.allSettled(iterable)
   ```  
 
-
-`Promise.allSettled()`
 
 Existe otro método útil para trabajar con promesas agrupadas, llamado  `Promise.allSettled()`. Este método se comporta de manera similar a  `Promise.all()`, pero a diferencia de este, **no se detiene ante el primer rechazo**. En vez de ello, espera a que todas las promesas del array se resuelvan o rechacen, **devolviendo un array de objetos que indican el estado de cada promesa (resuelta o rechazada)** y su valor o razón de rechazo.
 
@@ -1977,7 +1975,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzY1OTE4OSwtNzUxMjc0MjEyLDE3MT
+eyJoaXN0b3J5IjpbMTM2NjExOTUxNCwtNzUxMjc0MjEyLDE3MT
 EyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3
 NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
 Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
