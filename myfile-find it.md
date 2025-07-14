@@ -1746,13 +1746,15 @@ const promesa3 = new Promise((resolve) => setTimeout(() => resolve(3), 300));
 
 Promise.all([promesa1, promesa2, promesa3])  
 	.then((resultados) => { 
-		console.log(resultados); // [1, 2, 3]  })  
+		console.log(resultados); // [1, 2, 3]
+	})  
 	.catch((error) => {
-	    console.error(error);  });
+	    console.error(error);
+	});
 ```
 
-- En este ejemplo,  `Promise.all()`  espera a que las tres promesas se resuelvan. 
-- Una vez que todas se resuelven, el método  `then()`  se ejecuta, pasando un array con los resultados de cada promesa en el mismo orden en que fueron pasadas a  `Promise.all()`. 
+- En este ejemplo,  `Promise.all()`  espera a que **las tres** promesas **se resuelvan**. 
+- Una vez que todas se resuelven, el método  **`then()`  se ejecuta**, **pasando un array con los resultados de cada promesa** en el mismo orden en que fueron pasadas a  `Promise.all()`. 
 - Si alguna de las promesas se rechazara, el  `catch()`  se ejecutaría, mostrando el error.
 
 `Promise.allSettled()`:
@@ -1945,7 +1947,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM4NDAyMTMsMTYzNTE0NTEwMiwtMT
+eyJoaXN0b3J5IjpbLTEzOTMyOTMzNTMsMTYzNTE0NTEwMiwtMT
 QwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3
 Niw3MjUwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtND
 IyOTI1NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkz
