@@ -1674,16 +1674,17 @@ postsPromise_2
       data.posts.forEach((item) => {    //(1*)
          console.log(item.title);       //(2*)
       });
-  })
+   })
   .catch(error => {
     // Manejar errores en la solicitud
     console.error('Error:', error);
-  });
+   });
 ```
 
-(1*)  `posts` es simplemente el objeto que nos ha salido en los datos de respuesta convertidos a json, y es justo **la clave** que buscamos, la ya dentro de estos "posts" o publicaciones tenemos otros datos anidados, como el título.
+(1*)  
+- `posts` es simplemente el objeto que nos ha salido en los datos de respuesta convertidos a json, y es justo **la clave** que buscamos, la ya dentro de estos "posts" o publicaciones tenemos otros datos anidados, como el título.
 
-Con la función fecha que toma como argumento el bucle `forEach()`, lo que hará es 
+- Con el bucle `forEach()` (que está tomando como argumento una función flecha)
 
 
 
@@ -1894,11 +1895,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAzMzcyNTYsLTEwNTQ0NTA5NTQsOT
-YzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2
-NzUyLDEwODg0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC
-0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgw
-NTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1Nz
-EwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwt
-MjM4NTY3MTg2XX0=
+eyJoaXN0b3J5IjpbNTczNTY2MTQ2LC0xMDU0NDUwOTU0LDk2Mz
+c4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEzOTUsMTIwNDIzNjc1
+MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLDcxNzIyNzQ3NSwtMT
+cwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcwNjg1MDcsLTc4MDUz
+MjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1Myw1MzQzNTcxMD
+csMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MTAsLTIz
+ODU2NzE4Nl19
 -->
