@@ -1933,9 +1933,9 @@ console.log("La ejecución continúa..."); //  Este mensaje se imprime ANTES de 
 - Tenías que **codificar cada posible proceso que piensas que pudiera ocurrir** para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. **Debías tener muy claro la secuencia específica, y codificar eso**.
 
 
-Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, por sus grandes hándicaps: 
+Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, no hizo sino añadir más hándicaps a las callback: 
 
--   **Callback hell (infierno de callbacks):** Cuando se anidan muchos callbacks, el código puede volverse difícil de leer y mantener.
+-   **Callback hell (infierno de callbacks):** Los numerosos anidamientos de ***callbacks*** hicieron que el código pudiera volverse difícil de leer y mantener.
 -   **Dificultad para depurar:** En situaciones complejas, puede ser complicado rastrear el flujo de ejecución, era todo un reto el discernir qué debía ocurrir en cada momento, cuando se utilizan muchos callbacks.
 -   **Pérdida de contexto:** El contexto  `this`  dentro de un callback puede no ser el esperado.
 
@@ -2174,11 +2174,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTAzNjU1NjcsMTc3OTY3NDY0Miw5MT
-QyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2
-LC03NzUyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNz
-ExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIy
-NzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MT
-U0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3
-OTgwMl19
+eyJoaXN0b3J5IjpbMTk4NTk4Njk5OSwxNzc5Njc0NjQyLDkxND
+IxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYs
+LTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MT
+EyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3
+NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
+Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
+ODAyXX0=
 -->
