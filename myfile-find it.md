@@ -1732,11 +1732,16 @@ En JavaScript, cuando tenemos **promesas** 	que son muy **parecidas**, las podem
   ```js
 Promise.all(iterable);
   ```  
+<br>
 
-Es un método que toma como input un iterable de promesas que toma  and devuelve una sola promesa. Esta promesa se cumple cuando se cumplen todas las promesas de ese input (incluso cuando se pasa un iterable vacío).
-Se rechazará  en el momento en el que se rechace cualquiera de las promesas del iterable de entrada,  devolviendo la razón de este primer rechazo.
+#### PROCESO:
+
+- Es un método que toma como **entrada un iterable de promesas** que toma  y **devuelve una sola promesa**. 
+- Esta promesa se cumple **cuando se cumplen todas las promesas** de esa entrada (incluso cuando se pase un iterable vacío).
+- Se rechazará  en el momento en el que se rechace cualquiera de las promesas del iterable de entrada,  devolviendo la razón de este primer rechazo.
 
 
+<br>
 
 #### EJEMPLO:
 
@@ -1976,11 +1981,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzIxODM1LC03NTEyNzQyMTIsMTcxMT
-I5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0
-LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1ND
-YxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4
-MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mz
-c4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEzOTUsMTIwNDIzNjc1
-Ml19
+eyJoaXN0b3J5IjpbLTIxMzUzMDEwOTcsLTc1MTI3NDIxMiwxNz
+ExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIy
+NzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MT
+U0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3
+OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOT
+YzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2
+NzUyXX0=
 -->
