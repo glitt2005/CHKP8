@@ -1727,7 +1727,7 @@ En JavaScript, cuando tenemos promesas 	que son muy parecidas, las podemos agrup
 ### SINTAXIS:
 
   ```js
-Promise.all(iterable)
+Promise.all(iterable);
   ```  
 
 Es un método que toma como input un iterable de promesas que toma  and devuelve una sola promesa. Esta promesa se cumple cuando se cumplen todas las promesas de ese input (incluso cuando se pasa un iterable vacío).
@@ -1935,7 +1935,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDg4NzY2MCwtMTQwNjExNDQyLDgwOT
+eyJoaXN0b3J5IjpbLTYwMzk3ODI0MSwtMTQwNjExNDQyLDgwOT
 MyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzks
 MTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMD
 g4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1
