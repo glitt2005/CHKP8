@@ -1738,7 +1738,7 @@ Promise.all(iterable);
 
 - Es un método que toma como **entrada un iterable de promesas** que toma  y **devuelve una sola promesa**. 
 - Esta promesa se cumple **cuando se cumplen todas las promesas** de esa entrada (incluso cuando se pase un iterable vacío).
-- Se rechazará  en el momento en el que se rechace cualquiera de las promesas del iterable de entrada,  devolviendo la razón de este primer rechazo.
+- Se **rechazará  en el momento en el que se rechace cualquiera de las promesas** del iterable de entrada,  **devolviendo** la razón de este **primer rechazo**.
 
 
 <br>
@@ -1765,14 +1765,10 @@ Promise.all([promesa1, promesa2, promesa3])
 - Una vez que todas se resuelven, el método  **`then()`  se ejecuta**, **pasando un array con los resultados de cada promesa** en el mismo orden en que fueron pasadas a  `Promise.all()`. 
 - **Si alguna** de las promesas **se rechazara, el  `catch()`  se ejecutaría,** mostrando el error.
 
-
 <br>
 
 
-
-
-
-### .  El método <big>`Promise.allSettled()`</big>
+### 2.   El método <big>`Promise.allSettled()`</big>
 
 
 
@@ -1981,11 +1977,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3NTI3MjQxLC03NTEyNzQyMTIsMTcxMT
-I5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0
-LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1ND
-YxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4
-MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mz
-c4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEzOTUsMTIwNDIzNjc1
-Ml19
+eyJoaXN0b3J5IjpbLTgwMzY1OTE4OSwtNzUxMjc0MjEyLDE3MT
+EyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3
+NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
+Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
+ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1NCw5Nj
+M3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3
+NTJdfQ==
 -->
