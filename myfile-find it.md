@@ -1905,25 +1905,13 @@ En este punto, **se desarrolló la faceta asíncrona de JavaScript**: entraron a
 
 - Las funciones callback **son funciones que se pasan como argumento de otras funciones** para que sean ejecutadas en algún momento dentro de la ejecución de la función principal.
 - Constituyeron **la primera forma de manejar asincronismo** en Javascript.
-```js
-function tareaAsincrona(callback) {
-  setTimeout(() => {
-    console.log("Tarea Asincrónica Completa");
-    callback();
-  }, 2000);
-}
+<br>
 
-tareaAsincrona(() => {
-  console.log("Callback ejecutado");
-})
-//Imprime:
-//"Tarea Asincrónica Completa"
-//"Callback ejecutado"
-  ```
 
+
+#### EJEMPLO de función *callback*:
 ```js
- 
-function tareaAsincrona(callback) {
+ function tareaAsincrona(callback) {
   // Simula una tarea que tarda un tiempo en completarse
   setTimeout(function() {
     const resultado = "La tarea asíncrona ha finalizado";
@@ -1936,7 +1924,7 @@ function miCallback(resultado) {
 }
 
 tareaAsincrona(miCallback); // Llama a la función tareaAsincrona, pasando miCallback como callback
-console.log("La ejecución continúa..."); //  Este mensaje se imprime antes de que se ejecute el callback
+console.log("La ejecución continúa..."); //  Este mensaje se imprime ANTES de que se ejecute el callback
 ```
 
 
@@ -2189,11 +2177,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MD
-UzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAy
-LC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xND
-A2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2
-LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00Mj
-I5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2
-XX0=
+eyJoaXN0b3J5IjpbMTEyOTM0ODMwMiw5MTQyMTE5MTMsMTUwOD
+AwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEs
+LTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2Mz
+UxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0
+LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
+I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
+MTBdfQ==
 -->
