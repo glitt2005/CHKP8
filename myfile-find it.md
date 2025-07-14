@@ -1983,9 +1983,9 @@ async function miFuncion() {
 }
 ```
 Proporcionan:
--	Mayor legibilidad: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
--	Manejo de errores de forma similar a como se haría con código síncrono
--	Sintaxis más limpia: elimina la necesidad de anidar then() y catch() al trabajar con promesas haciendo código más limpio y conciseo.
+-	**Mayor legibilidad**: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
+-	**Manejo de errores** de forma similar a como se haría con código **síncrono**
+-	**Sintaxis más limpia**: elimina la necesidad de anidar then() y catch() al trabajar con promesas haciendo código más limpio y conciseo.
 
 
 
@@ -2186,7 +2186,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzEwNzI1NywtMTc5MjE4NzgxLC04ND
+eyJoaXN0b3J5IjpbLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04ND
 c2OTAyMTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkx
 MywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NT
 IyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIw
