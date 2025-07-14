@@ -2029,6 +2029,22 @@ loginActivities();  // retorna 'Updating last login...'
 
 - Simplemente hemos declarado una lista de **cuándo queremos que cada uno de estos procesos ocurran y el orden** en el que queremos que ocurran.
 
+
+
+**1**. En el primer `await`, al anteponer esta palabra clave justo ahí,  se **suspenderá la ejecución de** async hasta que la función de login()  , es decir, la **Promise no termine** su ejecución.  Después, ejecutará async, es decir harán cun console.log de la variable returnedLogin. En un mundo real devolvería las licencias del usuario, su nombre y ese tipo de cosas en lugar de un string.
+
+**2.** Como vemos, JS nos permite tener una funcion async con **multiples sentencias** `await`. Cada aw`await`ait  pausa la ejecución de la función asíncrona hasta que la promesa a la que se aplica se resuelva o se rechace, devolviendo el valor de la promesa resulta. **No hay límite en la cantidad de sentencias** await  que puedan usar dentro de una funció async.
+
+**3.** Aquí, al poner los dos await  en este ORDEN, estamos **estableciendo la secuencia que necesitamos** que ocurra. No tendría sentido que updateAccount() occurriera antes que login(), porque necesitamos los datos del login()  para poder actualizar la cuenta, que es lo que hace updateAccount().De hecho nos daría error. async/await nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.**
+
+
+
+
+
+
+
+
+
 **En otros lenguajes esto ya se hacía por defecto**, pero con JavaScript y su naturaleza síncrona, el orden en el que funcionan son llamada y devolución, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo.  Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función async y await.
 
 <br>
@@ -2169,11 +2185,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUxNzU5NjcsLTU1MTU3MzE5MiwtMz
-IyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAw
-Mzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMj
-Q1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUx
-MzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC
-0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkz
-MTc2XX0=
+eyJoaXN0b3J5IjpbNzM5MTI5ODEwLC01NTE1NzMxOTIsLTMyMj
+c4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5
+NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NT
+A1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMw
+MiwtNzUxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMT
+QwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3
+Nl19
 -->
