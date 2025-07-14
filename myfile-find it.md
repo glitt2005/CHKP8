@@ -1856,7 +1856,7 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 
 ### 	0. EVENT LOOP
 **Para resolver** este comportamiento sincrónico, JavaScript utilizaba las **tareas asincrónicas o “temporizadores”**, a través del método `setTimeout()`, que se ejecuta **en segundo plano y no afecta a la resolución de las demás tareas**.
-
+un event loop (bucle de eventos) es un  mecanismo que permite la ejecución asíncrona de tareas manteniendo la capacidad de respuesta del programa. Opera constantemente, monitoreando la cola de tareas y la pila de llamadas para determinar cuándo y cómo ejecutar el código pendiente.
 
 <br>
 
@@ -2159,11 +2159,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4ODE0NzY1Nyw1NDg4MzAxNTYsLTc3NT
-IyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIw
-NTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3NCw1NT
-kzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNTQ2MTYz
-MSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5ODAyLD
-M3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1NCw5NjM3ODQz
-N119
+eyJoaXN0b3J5IjpbNzg5OTI5Mzg0LDU0ODgzMDE1NiwtNzc1Mj
+I0MTMxLC0yMDE1MTUxMzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1
+NSwxNjM1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OT
+MwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMx
+LC0xNjQyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMz
+c0NzM2MzEwLC01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3
+XX0=
 -->
