@@ -1933,12 +1933,12 @@ console.log("La ejecución continúa..."); //  Este mensaje se imprime ANTES de 
 - Tenías que **codificar cada posible proceso que piensas que pudiera ocurrir** para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. **Debías tener muy claro la secuencia específica, y codificar eso**.
 
 
-Es lo que llegó a llamarse “callback hell”:  : era muy difícil discernir que debía ocurrir en cada momento. 
+Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks”:  : era muy difícil discernir que debía ocurrir en cada momento. 
 ¿cómo solucionó esto JavaScript?  Con las Promises
 Desventajas de los callbacks:
 
 -   **Callback hell (infierno de callbacks):** Cuando se anidan muchos callbacks, el código puede volverse difícil de leer y mantener.
--   **Dificultad para depurar:** En situaciones complejas, puede ser complicado rastrear el flujo de ejecución cuando se utilizan muchos callbacks.
+-   **Dificultad para depurar:** En situaciones complejas, puede ser complicado rastrear el flujo de ejecución, era todo un reto el discernir qué debía ocurrir en cada momento, cuando se utilizan muchos callbacks.
 -   **Pérdida de contexto:** El contexto  `this`  dentro de un callback puede no ser el esperado.
 
 <br>
@@ -2174,7 +2174,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA5Mzk4NjgwLDE3Nzk2NzQ2NDIsOTE0Mj
+eyJoaXN0b3J5IjpbNjMzNjY4NjcxLDE3Nzk2NzQ2NDIsOTE0Mj
 ExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1Niwt
 Nzc1MjI0MTMxLC0yMDE1MTUxMzAyLC03NTEyNzQyMTIsMTcxMT
 I5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0
