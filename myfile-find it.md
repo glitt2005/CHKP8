@@ -1973,14 +1973,15 @@ A partir de **septiembre de 2017** (especificación ECMAScript2017), se incorpor
 
 - `async` convierte una función normal en una asíncrona y devuelve una Promise.
 - `await` se usa dentro de las funciones `async` para **pausar una ejecución hasta que la Promise se resuelve**
-
+<br>
 #### SINTAXIS BÁSICA:
-js``` 
+```js
 async function miFuncion() {
   let resultado = await promesa;
   // Aquí continúa la ejecución después de que promesa se haya resuelto
   return resultado;
 }
+```
 Proporcionan:
 -	Mayor legibilidad: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
 -	Manejo de errores de forma similar a como se haría con código síncrono
@@ -2185,7 +2186,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTQ2MzQ4OSwtMTc5MjE4NzgxLC04ND
+eyJoaXN0b3J5IjpbLTE3NzEwNzI1NywtMTc5MjE4NzgxLC04ND
 c2OTAyMTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkx
 MywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NT
 IyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIw
