@@ -1755,7 +1755,7 @@ Promise.all([promesa1, promesa2, promesa3])
 
 - En este ejemplo,  `Promise.all()`  espera a que **las tres** promesas **se resuelvan**. 
 - Una vez que todas se resuelven, el método  **`then()`  se ejecuta**, **pasando un array con los resultados de cada promesa** en el mismo orden en que fueron pasadas a  `Promise.all()`. 
-- Si alguna de las promesas se rechazara, el  `catch()`  se ejecutaría, mostrando el error.
+- **Si alguna** de las promesas **se rechazara, el  `catch()`  se ejecutaría,** mostrando el error.
 
 `Promise.allSettled()`:
 
@@ -1947,11 +1947,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTMyOTMzNTMsMTYzNTE0NTEwMiwtMT
-QwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3
-Niw3MjUwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtND
-IyOTI1NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkz
-NiwtMTA1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMT
-IzNTExMzk1LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1
-MjEyMl19
+eyJoaXN0b3J5IjpbMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xND
+A2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2
+LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00Mj
+I5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2
+LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMj
+M1MTEzOTUsMTIwNDIzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUy
+MTIyXX0=
 -->
