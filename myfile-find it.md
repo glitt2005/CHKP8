@@ -1935,18 +1935,20 @@ console.log("La ejecución continúa..."); //  Este mensaje se imprime ANTES de 
 
 Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, no hizo sino añadir más hándicaps a las callback: 
 
--   **Callback hell (infierno de callbacks):** Los numerosos anidamientos de ***callbacks*** hicieron que el código pudiera volverse difícil de leer y mantener.
--   **Dificultad para depurar:** En situaciones complejas, puede ser complicado rastrear el flujo de ejecución, era todo un reto el discernir qué debía ocurrir en cada momento, cuando se utilizan muchos callbacks.
+-   **Callback hell (infierno de callbacks):** Los numerosos anidamientos de ***callbacks*** hicieron que el código pudiera volverse **difícil de leer y mantener**.
+-   **Dificultad para depurar:** En situaciones complejas, **puede ser complicado rastrear el flujo de ejecución**, era todo un reto el discernir qué debía ocurrir en cada momento, cuando se utilizan muchos callbacks.
 -   **Pérdida de contexto:** El contexto  `this`  dentro de un callback puede no ser el esperado.
 
 <br>
-ocurrir en cada momento. 
-¿cómo solucionó esto JavaScript?  Con las Promises
-Desventajas de los callbacks:
+ 
+¿Y cómo solucionó esto JavaScript?  Con las **promises** o **promesas**.
+
+<br>
+
 ### 	2. Promesas
 
-2.	PROMISES  
-Las Promises o promesas resolvieron algunos asuntos como:
+
+Las promesas resolvieron algunos asuntos como:
 -	La dificultad para manejar errores
 -	El lío del código anidado
 
@@ -2174,7 +2176,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTk4Njk5OSwxNzc5Njc0NjQyLDkxND
+eyJoaXN0b3J5IjpbLTc5MTE1OTg5OCwxNzc5Njc0NjQyLDkxND
 IxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYs
 LTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MT
 EyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3
