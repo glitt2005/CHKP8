@@ -1613,8 +1613,11 @@ El método  `fetch()`  :
 
 CONVENCIÓN COMÚN:  
 
-La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:
--  `response`  `data`, se llamará al método  **`then()`.** **Si la solicitud devuelve un error, se ejecutará el método  `catch()`:**
+* La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:
+	-  `response` 
+	-  `data`
+	
+	- Y cuando  se llamará al método  **`then()`.** **Si la solicitud devuelve un error, se ejecutará el método  `catch()`:**
 
 
 
@@ -1868,11 +1871,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTY0NDY3MiwxMTIzNTExMzk1LDEyMD
-QyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0
-NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC
-03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0
-MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOT
-EwLC0yMzg1NjcxODYsLTE4NzAzOTM3NCwxNTU4MjE4MiwtMTg0
-MzEzNjg1N119
+eyJoaXN0b3J5IjpbMzQ0ODE5OTA5LDExMjM1MTEzOTUsMTIwND
+IzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLDcxNzIyNzQ3
+NSwtMTcwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcwNjg1MDcsLT
+c4MDUzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1Myw1MzQz
+NTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIzOTM5MT
+AsLTIzODU2NzE4NiwtMTg3MDM5Mzc0LDE1NTgyMTgyLC0xODQz
+MTM2ODU3XX0=
 -->
