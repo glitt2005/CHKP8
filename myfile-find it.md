@@ -1920,7 +1920,27 @@ tareaAsincrona(() => {
 //"Tarea Asincrónica Completa"
 //"Callback ejecutado"
   ```
- gran handicap: 
+
+```js
+ 
+function tareaAsincrona(callback) {
+  // Simula una tarea que tarda un tiempo en completarse
+  setTimeout(function() {
+    const resultado = "La tarea asíncrona ha finalizado";
+    callback(resultado); // Llama a la función callback con el resultado
+  }, 2000); // Espera 2 segundos
+}
+
+function miCallback(resultado) {
+  console.log(resultado); // Imprime el resultado de la tarea asíncrona
+}
+
+tareaAsincrona(miCallback); // Llama a la función tareaAsincrona, pasando miCallback como callback
+console.log("La ejecución continúa..."); //  Este mensaje se imprime antes de que se ejecute el callback
+```
+
+
+gran handicap: 
 Imprime, al mismo tiempo los dos console.log:
 
 Con este “Event Loop” no se bloqueaba el flujo principal. Así que era un paso en la dirección correcta.
@@ -2169,7 +2189,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwNzQ3NTE2LDE1MDgwMDM0NjIsMjQ1MD
+eyJoaXN0b3J5IjpbOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MD
 UzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAy
 LC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xND
 A2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2
