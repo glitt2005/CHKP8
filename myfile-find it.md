@@ -1927,16 +1927,8 @@ function miCallback(resultado) {
 tareaAsincrona(miCallback); // Llama a la función tareaAsincrona, pasando miCallback como callback
 console.log("La ejecución continúa..."); //  Este mensaje se imprime ANTES de que se ejecute el callback
 ```
-
-
-gran handicap: 
-Imprime, al mismo tiempo los dos console.log:
-
-Con este “Event Loop” no se bloqueaba el flujo principal. Así que era un paso en la dirección correcta.
-Pero, en los (muchos) programas complejos que se daban, había problemas de legibilidad, ya que se daban muchos anidamientos:
- 
-Y así, una enorme cantidad de anidamientos …
-En este código asíncrono, donde cada operación depende del resultado de la anterior, generaba una estructura en forma de pirámide. Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, hasta que no hubieras realizado las tareas que están por encima de ella. Tenías que codificar cada posible proceso que piensas que pudiera ocurrir para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. Tenías que tener muy claro la secuencia específica, y codificar eso.
+<br>
+- En este código asíncrono, donde cada operación depende del resultado de la anterior, generaba una estructura en forma de pirámide. Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, hasta que no hubieras realizado las tareas que están por encima de ella. Tenías que codificar cada posible proceso que piensas que pudiera ocurrir para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. Tenías que tener muy claro la secuencia específica, y codificar eso.
 Es lo que llegó a llamarse “callback hell”:  Múltiples funciones callback se anidan unas dentro de otras, creando un código complejo, difícil de leer (y mantener), con problemas para discernir el flujo de trabajo: era muy difícil discernir que debía ocurrir en cada momento. 
 ¿cómo solucionó esto JavaScript?  Con las Promises
 Desventajas de los callbacks:
@@ -2178,11 +2170,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA5NDAyMjYsOTE0MjExOTEzLDE1MD
-gwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMx
-LC0yMDE1MTUxMzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNj
-M1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4
-NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNj
-QyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2
-MzEwXX0=
+eyJoaXN0b3J5IjpbMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwOD
+AwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEs
+LTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2Mz
+UxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0
+LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
+I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
+MTBdfQ==
 -->
