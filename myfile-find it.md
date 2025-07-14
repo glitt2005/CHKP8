@@ -1870,9 +1870,9 @@ console.log("Tercero");
 
 Esto imprime:
 // Primero
-// Segundo
-// Tercero (imprimiría esto después de los 2 segundos que tarda la tarea segunda 
-//           en ejecutarse)
+// Tercero
+// Segundo (imprimiría esto después de los 2 segundos que tarda  
+//           esta tarea en ejecutarse)
 ```
 El `setTimeout()` ha hecho que esta tarea asincrónica **no bloquee el resto de tareas**, que se han ejecutado antes sin problema.
 En este punto se desarrollo la faceta asíncrona de JavaScript: entraron a formar parte progresivamente los callback, las promesas y las async/await:
@@ -2126,11 +2126,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODc5MzQ5OSwtMjAxNTE1MTMwMiwtNz
-UxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjEx
-NDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3Mj
-UwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1
-NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMT
-A1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTEx
-Mzk1XX0=
+eyJoaXN0b3J5IjpbODk0NDg4Mzk4LC0yMDE1MTUxMzAyLC03NT
+EyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0
+NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNT
+AwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3
+NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMD
+U0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEz
+OTVdfQ==
 -->
