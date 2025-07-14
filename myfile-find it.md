@@ -2033,9 +2033,9 @@ loginActivities();  // retorna 'Updating last login...'
 
 **1**. En el primer `await`, al anteponer esta palabra clave justo ahí,  se **suspenderá la ejecución de** `async` hasta que la función de `login()`  , es decir, la **Promise no termine** su ejecución.  Después, ejecutará `async`, es decir harán cun console.log de la variable `returnedLogin`. En un mundo real devolvería las licencias del usuario, su nombre y ese tipo de cosas en lugar de un string.
 
-**2.** Como vemos, JS nos permite tener una funcion `async` con **multiples sentencias** `await`. Cada `await`  pausa la ejecución de la función asíncrona hasta que la promesa a la que se aplica se resuelva o se rechace, devolviendo el valor de la promesa resulta. **No hay límite en la cantidad de sentencias** `await`  que puedan usar dentro de una funció async.
+**2.** Como vemos, JS nos permite tener una funcion `async` con **multiples sentencias** `await`. Cada `await`  pausa la ejecución de la función asíncrona hasta que la promesa a la que se aplica se resuelva o se rechace, devolviendo el valor de la promesa resulta. **No hay límite en la cantidad de sentencias** `await`  que puedan usar dentro de una funcióN `async`.
 
-**3.** Aquí, al poner los dos `await`  en este ORDEN, estamos **estableciendo la secuencia que necesitamos** que ocurra. No tendría sentido que updateAccount() occurriera antes que login(), porque necesitamos los datos del login()  para poder actualizar la cuenta, que es lo que hace updateAccount().De hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.**
+**3.** Aquí, al poner los dos `await`  en este ORDEN, estamos **estableciendo la secuencia que necesitamos** que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace `updateAccount()`.De hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.**
 
 
 
@@ -2185,11 +2185,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQyNTg2NjAsLTU1MTU3MzE5MiwtMz
-IyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAw
-Mzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMj
-Q1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUx
-MzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC
-0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkz
-MTc2XX0=
+eyJoaXN0b3J5IjpbOTQ5NzA2MzIsLTU1MTU3MzE5MiwtMzIyNz
+gwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2
+LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MD
+UzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAy
+LC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xND
+A2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2
+XX0=
 -->
