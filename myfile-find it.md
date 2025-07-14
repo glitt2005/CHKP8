@@ -1693,7 +1693,7 @@ postsPromise_2
 
 
 <div align="center">
-<img src="titles.png" alt="tit">
+<img src="titles.png" width = "55%" alt="títulos de los posts">
 </div>
 
 <br>
@@ -1909,7 +1909,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM0MDI4NTQwLDE3MTU0NjE2MzEsLTE2ND
+eyJoaXN0b3J5IjpbNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
 I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
 MTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwOD
 QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
