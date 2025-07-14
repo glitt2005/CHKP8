@@ -1726,7 +1726,8 @@ En JavaScript, cuando tenemos promesas 	que son muy parecidas, las podemos agrup
 
 Se emplea el método  `Promise.all()`
 
-Es un método que toma como input un iterable de promesas que toma  and devuelve una sola promesa. Esta promesa se cumple cuando todas las promesas de ese input (incluso cuando se pasa un iterable vacío)
+Es un método que toma como input un iterable de promesas que toma  and devuelve una sola promesa. Esta promesa se cumple cuando se cumplen todas las promesas de ese input (incluso cuando se pasa un iterable vacío).
+Devolverá rechazo cuando si se rechaza cuando cualquiera de las promesas del iterable de entrada.
 
 
 This returned promise fulfills when all of the input's promises fulfill (including when an empty iterable is passed), with an array of the fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason.
@@ -1933,11 +1934,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4Nzc5NjQ4MiwtMTQwNjExNDQyLDgwOT
-MyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzks
-MTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMD
-g4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1
-NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMD
-QyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0
-NzVdfQ==
+eyJoaXN0b3J5IjpbMjM3NjE2OTkwLC0xNDA2MTE0NDIsODA5Mz
+IyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwx
+NzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3NjcsLTIwOD
+g1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMDU0NDUwOTU0
+LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEzOTUsMTIwND
+IzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLDcxNzIyNzQ3
+NV19
 -->
