@@ -2028,6 +2028,7 @@ loginActivities();  // retorna 'Updating last login...'
 ```
 
 - Simplemente hemos declarado una lista de **cuándo queremos que cada uno de estos procesos ocurran y el orden** en el que queremos que ocurran.
+<br>
 
 
 
@@ -2185,11 +2186,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NzA2MzIsLTU1MTU3MzE5MiwtMzIyNz
-gwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2
-LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MD
-UzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAy
-LC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xND
-A2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2
-XX0=
+eyJoaXN0b3J5IjpbNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMj
+c4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5
+NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NT
+A1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMw
+MiwtNzUxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMT
+QwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3
+Nl19
 -->
