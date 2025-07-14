@@ -1693,7 +1693,7 @@ postsPromise_2
 
 
 <div align="center">
-<img src="titles.png" width = "55%" alt="títulos de los posts">
+<img src="titles.png" width = "45%" alt="títulos de los posts">
 </div>
 
 <br>
@@ -1909,11 +1909,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
-I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
-MTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwOD
-QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
-NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQyNDIyLD
-E4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC0xMTA1
-MjU5MTE5XX0=
+eyJoaXN0b3J5IjpbMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNT
+Q2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMDg4NTc5
+ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1NCw5Nj
+M3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3
+NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0NzUsLT
+E3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC03ODA1
+MzI3MDddfQ==
 -->
