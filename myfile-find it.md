@@ -1857,13 +1857,13 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 ### 	1. EVENT LOOP
 **Para resolver** este comportamiento sincrónico, JavaScript utilizaba las **tareas asincrónicas o “temporizadores”**, a través del método `setTimeout()`, que se ejecuta **en segundo plano y no afecta a la resolución de las demás tareas**.
 
-#### EJEMPLO: una solicitud de red – TAREA LENTA, nec 2 SEGUNDOS:
+#### EJEMPLO: una solicitud de red – TAREA LENTA, necesita 2 segundos:
 ```js
 console.log("Primero");
 
 setTimeout(() => {
-  console.log("Segundo");  // Se ejecutará después de 2 segundos
-}, 2000);
+  console.log("Segundo");  
+}, 2000);				// Se ejecutará después de 2 segundos
 
 console.log("Tercero");
 
@@ -1871,10 +1871,10 @@ console.log("Tercero");
 Esto imprime:
 // Primero
 // Segundo
-// Tercero (imprimiría esto después de los 2 segundos que tarda la tarea
+// Tercero (imprimiría esto después de los 2 segundos que tarda la tarea segunda tarea
 //           en ejecutarse)
 ```
-El setTimeout() ha hecho que esta tarea asincrónica no bloque el resto de tareas, que se han ejecutado antes sin problema.
+El `setTimeout()` ha hecho que esta tarea asincrónica **no bloquee el resto de tareas**, que se han ejecutado antes sin problema.
 En este punto se desarrollo la faceta asíncrona de JavaScript: entraron a formar parte progresivamente los callback, las promesas y las async/await:
 
 1.	CALLBACKS  -  y su gran handicap: el llamado “callback hell” o infierno de callbacks.
@@ -2126,11 +2126,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODYyMTA5LC0yMDE1MTUxMzAyLC03NT
-EyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0
-NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNT
-AwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4NjgzLC00MjI5MjU3
-NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC01MjMwOTM2LC0xMD
-U0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEz
-OTVdfQ==
+eyJoaXN0b3J5IjpbLTE5ODIyMDU5ODAsLTIwMTUxNTEzMDIsLT
+c1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYx
+MTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNz
+I1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjky
+NTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLT
+EwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUx
+MTM5NV19
 -->
