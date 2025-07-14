@@ -1857,6 +1857,22 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 ### 	0. EVENT LOOP
 **Para resolver** este comportamiento sincrónico, JavaScript utilizaba las **tareas asincrónicas o “temporizadores”**, a través del método `setTimeout()`, que se ejecuta **en segundo plano y no afecta a la resolución de las demás tareas**.
 
+
+<br>
+
+
+
+<div align="center">
+<img src="even.png" width = "60%" alt="error, catch()">
+</div>
+
+<br>
+
+
+
+
+
+
 #### EJEMPLO: una solicitud de red – TAREA LENTA, necesita 2 segundos:
 ```js
 console.log("Primero");
@@ -2143,11 +2159,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNz
-UxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjEx
-NDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3Mj
-UwMDgyNzksMTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1
-NzY3LC0yMDg4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMT
-A1NDQ1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTEx
-Mzk1XX0=
+eyJoaXN0b3J5IjpbLTg4MDg3MjA5OCwtNzc1MjI0MTMxLC0yMD
+E1MTUxMzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1
+MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwxMT
+E0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNjQyNTM4
+NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEwLC
+01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1
+MTYxXX0=
 -->
