@@ -1686,7 +1686,9 @@ postsPromise_2
   
 (1*) Iteramos sobre el objeto que nos interesa, que es  `posts`, con el bucle `forEach()` (que está tomando como argumento una función flecha).
 
-(2*)  En esa iteración solo nos interesa uno de las claves: `title`, así que extraerá todts` e itera sobre él, y recorre todos los pares clave:valor, para imprimir una de ellas: `title`, que es justo lo que queríamos.
+(2*)  En esa iteración solo nos interesa uno de las claves: `title`, así que extraerá todos valores para cada una de estas claves `title`repetidas. Se visualizaría algo así:
+
+
 
 
 
@@ -1897,7 +1899,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2ODQ3MzQyNiwtNTIzMDkzNiwtMTA1ND
+eyJoaXN0b3J5IjpbMjA3MTExNTgwMywtNTIzMDkzNiwtMTA1ND
 Q1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1
 LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MT
 cyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4
