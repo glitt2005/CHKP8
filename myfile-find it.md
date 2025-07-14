@@ -1493,7 +1493,7 @@ const promesa = new Promise((resolve, reject) => {
 ```
 BUENA PRÁCTICA:
 
-Una buena práctica es añadir la palabra **Promise** **al nombre de la variable**, para identificar el propósito en futuros accesos al programa. Al ser así de **descriptivo**, facilitará cualquier interpretación y/o modificación del mismo: por ejemplos 'postPromise = fetch( "https:// aaa.bbbbbbb.com
+Una buena práctica es añadir la palabra **Promise** **al nombre de la variable**, para identificar el propósito en futuros accesos al programa. Al ser así de **descriptivo**, facilitará cualquier interpretación y/o modificación del mismo: por ejemplos **`postsPromise = fetch( "https:// aaa.bbbbbbb.com/posts")`**  si tratamos de obtener las publicaciones o "***posts***" de una página web (p.ej. *Twitter*).
 
 
 ### Proceso básico promesa
@@ -1861,7 +1861,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDU2MzM5OCwxMjA0MjM2NzUyLDEwOD
+eyJoaXN0b3J5IjpbMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwOD
 g0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQy
 NDIyLDE4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC
 0xMTA1MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNywxMzcy
