@@ -1724,7 +1724,8 @@ Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL 
 
 En JavaScript, cuando tenemos promesas 	que son muy parecidas, las podemos agrupar y gestionar para tratarlas igual.
 
-Se emplea el método  `Promise.all()`. 
+Se emplea el método  `Promise.all()`
+method takes an iterable of promises as input and returns a single [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). This returned promise fulfills when all of the input's promises fulfill (including when an empty iterable is passed), with an array of the fulfillment values. It rejects when any of the input's promises rejects, with this first rejection reason.
 
 - este método toma un array de promesas como argumento y devuelve una nueva promesa que se resuelve cuando todas las promesas del array original se han resuelto, o se rechaza tan pronto como una de las promesas en el array es rechazada.
 
@@ -1928,7 +1929,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTU2OTE1NywtMTQwNjExNDQyLDgwOT
+eyJoaXN0b3J5IjpbMjAyMDY3Mjg2MSwtMTQwNjExNDQyLDgwOT
 MyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzks
 MTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMD
 g4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1
