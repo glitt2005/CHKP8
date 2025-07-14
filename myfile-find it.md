@@ -1928,7 +1928,11 @@ tareaAsincrona(miCallback); // Llama a la función tareaAsincrona, pasando miCal
 console.log("La ejecución continúa..."); //  Este mensaje se imprime ANTES de que se ejecute el callback
 ```
 <br>
-- En este código asíncrono, donde cada operación depende del resultado de la anterior, generaba una estructura en forma de pirámide. Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, hasta que no hubieras realizado las tareas que están por encima de ella. Tenías que codificar cada posible proceso que piensas que pudiera ocurrir para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. Tenías que tener muy claro la secuencia específica, y codificar eso.
+
+- En este código asíncrono, donde cada operación **depende del resultado de la anterior, generaba una estructura en forma de pirámide**. 
+Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, hasta que no hubieras realizado las tareas que están por encima de ella. Tenías que codificar cada posible proceso que piensas que pudiera ocurrir para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. Tenías que tener muy claro la secuencia específica, y codificar eso.
+
+
 Es lo que llegó a llamarse “callback hell”:  Múltiples funciones callback se anidan unas dentro de otras, creando un código complejo, difícil de leer (y mantener), con problemas para discernir el flujo de trabajo: era muy difícil discernir que debía ocurrir en cada momento. 
 ¿cómo solucionó esto JavaScript?  Con las Promises
 Desventajas de los callbacks:
@@ -2170,11 +2174,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwOD
-AwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEs
-LTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2Mz
-UxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0
-LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
-I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
-MTBdfQ==
+eyJoaXN0b3J5IjpbLTIwMDc1NDEwMTAsMTc3OTY3NDY0Miw5MT
+QyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2
+LC03NzUyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNz
+ExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIy
+NzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MT
+U0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3
+OTgwMl19
 -->
