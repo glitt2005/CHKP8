@@ -1915,6 +1915,7 @@ function tareaAsincrona(callback) {
 
 tareaAsincrona(() => {
   console.log("Callback ejecutado");
+}
 //Imprime:
 //"Tarea Asincrónica Completa"
 //"Callback ejecutado"
@@ -2164,11 +2165,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjQxMzMyNywyNDUwNTMxMzQsNTQ4OD
-MwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIx
-MiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MD
-kzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5
-LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMj
-A4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5
-NTRdfQ==
+eyJoaXN0b3J5IjpbOTY4ODYyNTIwLDI0NTA1MzEzNCw1NDg4Mz
+AxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEy
+LDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOT
+MyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzks
+MTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMD
+g4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1
+NF19
 -->
