@@ -1722,7 +1722,11 @@ Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL 
 ## Como agrupar promesas
 
 
-En JavaScript, para agrupar y gestionar múltiples promesas, se utiliza el método  `Promise.all()`. Este método toma un array de promesas como argumento y devuelve una nueva promesa que se resuelve cuando todas las promesas del array original se han resuelto, o se rechaza tan pronto como una de las promesas en el array es rechazada.
+En JavaScript, cuando tenemos promesas 	que son muy parecidas, las podemos agrupar y gestionar para tratarlas igual.
+
+Se emplea el método  `Promise.all()`. 
+
+- este método toma un array de promesas como argumento y devuelve una nueva promesa que se resuelve cuando todas las promesas del array original se han resuelto, o se rechaza tan pronto como una de las promesas en el array es rechazada.
 
 Ejemplo:
 
@@ -1924,7 +1928,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg2NTkwMiwtMTQwNjExNDQyLDgwOT
+eyJoaXN0b3J5IjpbLTYwNTU2OTE1NywtMTQwNjExNDQyLDgwOT
 MyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzks
 MTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMD
 g4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1
