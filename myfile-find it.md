@@ -1648,8 +1648,8 @@ fetch('<Tu URL>', {})
 const postsPromise = fetch('https://jsonplaceholder.typicode.com/posts')
 
 postsPromise
-  .then((response) => response.json())
-  .then((json) => console.log(json));
+  .then(data => data.json())     
+  .then(data => console.log(data));   // este "data" ya está convertido a json
 ```
 Los datos json tendrían un aspecto similar a esto:
 
@@ -1890,11 +1890,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwOD
-QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
-NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQyNDIyLD
-E4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC0xMTA1
-MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNywxMzcyNTAwNT
-YzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2LC0x
-ODcwMzkzNzRdfQ==
+eyJoaXN0b3J5IjpbMTgyNjgzMDMwOCwtMTA1NDQ1MDk1NCw5Nj
+M3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3
+NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0NzUsLT
+E3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4NTA3LC03ODA1
+MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MT
+A3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0y
+Mzg1NjcxODZdfQ==
 -->
