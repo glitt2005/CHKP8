@@ -1662,9 +1662,9 @@ Y esta impresión será algo similar a esto:
 
 
 
-No se visualiza bien, pero como son datos **JSON**, podemos acceder a nuestro **posts**  **y extraer lo que nos interesa para poder incluirlo en nuestra aplicación.**  
+No se visualiza bien, pero como son datos **JSON**, y vemos un objeto, un **array** llamado   ** `posts` ** conteniendo muchas 
 
-Si nos fijamos bien, estos 
+Si nos fijamos bien, en esta figura vemos que nos ha salido un arra
 
 2. Otro ejemplo, trabajando con los datos **json** y con bucle `forEach()`
 ```js
@@ -1898,11 +1898,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY5NTk3MDEsLTUyMzA5MzYsLTEwNT
-Q0NTA5NTQsOTYzNzg0MzcsLTEwODQxNzUxNjEsMTEyMzUxMTM5
-NSwxMjA0MjM2NzUyLDEwODg0ODc3NzAsLTEyODA1NTIxMjIsNz
-E3MjI3NDc1LC0xNzAwODQyNDIyLDE4OTgwNDk2MzIsLTkxNzA2
-ODUwNywtNzgwNTMyNzA3LC0xMTA1MjU5MTE5LC0xMjMxMzQyND
-UzLDUzNDM1NzEwNywxMzcyNTAwNTYzLDk1Nzc0NzQyNiwtMTQ3
-MjM5MzkxMF19
+eyJoaXN0b3J5IjpbLTI2OTg1MjM5MywtNTIzMDkzNiwtMTA1ND
+Q1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1
+LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MT
+cyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4
+NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NT
+MsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcy
+MzkzOTEwXX0=
 -->
