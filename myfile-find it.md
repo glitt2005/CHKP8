@@ -1689,6 +1689,12 @@ postsPromise_2
 (2*)  En esa iteración solo nos interesa uno de las claves: `title`, así que extraerá todos valores para cada una de estas claves `title`repetidas. Se visualizaría algo así:
 
 
+<div align="center">
+<img src="titles.png"  width = "80%" alt="datos json">
+</div>
+<br>
+
+
 
 
 
@@ -1899,11 +1905,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTExNTgwMywtNTIzMDkzNiwtMTA1ND
-Q1MDk1NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1
-LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MT
-cyMjc0NzUsLTE3MDA4NDI0MjIsMTg5ODA0OTYzMiwtOTE3MDY4
-NTA3LC03ODA1MzI3MDcsLTExMDUyNTkxMTksLTEyMzEzNDI0NT
-MsNTM0MzU3MTA3LDEzNzI1MDA1NjMsOTU3NzQ3NDI2LC0xNDcy
-MzkzOTEwXX0=
+eyJoaXN0b3J5IjpbMzc0NzM2MzEwLC01MjMwOTM2LC0xMDU0ND
+UwOTU0LDk2Mzc4NDM3LC0xMDg0MTc1MTYxLDExMjM1MTEzOTUs
+MTIwNDIzNjc1MiwxMDg4NDg3NzcwLC0xMjgwNTUyMTIyLDcxNz
+IyNzQ3NSwtMTcwMDg0MjQyMiwxODk4MDQ5NjMyLC05MTcwNjg1
+MDcsLTc4MDUzMjcwNywtMTEwNTI1OTExOSwtMTIzMTM0MjQ1My
+w1MzQzNTcxMDcsMTM3MjUwMDU2Myw5NTc3NDc0MjYsLTE0NzIz
+OTM5MTBdfQ==
 -->
