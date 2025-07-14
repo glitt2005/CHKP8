@@ -1709,10 +1709,10 @@ Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL 
 
 
 <div align="center">
-<img src="error.png"  alt="error, catch()">
+<img src="error.png" width = "60%" alt="error, catch()">
 </div>
 
-<br
+<br>
 
 
 
@@ -1924,11 +1924,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5Mz
-AxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEs
-LTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNz
-Q3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0Mzcs
-LTEwODQxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwOD
-g0ODc3NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQy
-NDIyXX0=
+eyJoaXN0b3J5IjpbLTE2MTg2NTkwMiwtMTQwNjExNDQyLDgwOT
+MyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzks
+MTcxNTQ2MTYzMSwtMTY0MjUzODY4MywtNDIyOTI1NzY3LC0yMD
+g4NTc5ODAyLDM3NDczNjMxMCwtNTIzMDkzNiwtMTA1NDQ1MDk1
+NCw5NjM3ODQzNywtMTA4NDE3NTE2MSwxMTIzNTExMzk1LDEyMD
+QyMzY3NTIsMTA4ODQ4Nzc3MCwtMTI4MDU1MjEyMiw3MTcyMjc0
+NzVdfQ==
 -->
