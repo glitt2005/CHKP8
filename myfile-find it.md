@@ -1645,6 +1645,7 @@ fetch('<Tu URL>', {})
 1. Conviertiendo datos a **json** y listando todos los recursos de estos datos json.
 
 ```js
+
 fetch('https://jsonplaceholder.typicode.com/posts')
   .then((response) => response.json())
   .then((json) => console.log(json));
@@ -1657,6 +1658,9 @@ Los datos json tendrían un aspecto similar a esto:
 </div>
 <br>
 
+
+
+No se visualiza bien, pero como son datos **JSON**, podemos acceder a nuestro **posts**  **y extraer lo que nos interesa para poder incluirlo en nuestra aplicación.**
 
 2. Otro esquema para trabajar con los datos **json** y con bucle `forEach()`
 ```js
@@ -1882,11 +1886,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQ1MTU3NzYsOTYzNzg0MzcsLTEwOD
-QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
-NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQyNDIyLD
-E4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC0xMTA1
-MjU5MTE5LC0xMjMxMzQyNDUzLDUzNDM1NzEwNywxMzcyNTAwNT
-YzLDk1Nzc0NzQyNiwtMTQ3MjM5MzkxMCwtMjM4NTY3MTg2LC0x
-ODcwMzkzNzRdfQ==
+eyJoaXN0b3J5IjpbMTkzODYzNTU0NCw5NjM3ODQzNywtMTA4ND
+E3NTE2MSwxMTIzNTExMzk1LDEyMDQyMzY3NTIsMTA4ODQ4Nzc3
+MCwtMTI4MDU1MjEyMiw3MTcyMjc0NzUsLTE3MDA4NDI0MjIsMT
+g5ODA0OTYzMiwtOTE3MDY4NTA3LC03ODA1MzI3MDcsLTExMDUy
+NTkxMTksLTEyMzEzNDI0NTMsNTM0MzU3MTA3LDEzNzI1MDA1Nj
+MsOTU3NzQ3NDI2LC0xNDcyMzkzOTEwLC0yMzg1NjcxODYsLTE4
+NzAzOTM3NF19
 -->
