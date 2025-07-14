@@ -1915,11 +1915,13 @@ function tareaAsincrona(callback) {
 
 tareaAsincrona(() => {
   console.log("Callback ejecutado");
-  ```
-LLBACKS  -  y su gran handicap: el llamado “callback hell” o infierno de callbacks.
-Imprime, al mismo tiempo los dos console.log:
+//Imprime:
 //"Tarea Asincrónica Completa"
 //"Callback ejecutado"
+  ```
+ gran handicap: 
+Imprime, al mismo tiempo los dos console.log:
+
 Con este “Event Loop” no se bloqueaba el flujo principal. Así que era un paso en la dirección correcta.
 Pero, en los (muchos) programas complejos que se daban, había problemas de legibilidad, ya que se daban muchos anidamientos:
  
@@ -2162,11 +2164,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1MDUzMTM0LDU0ODgzMDE1NiwtNzc1Mj
-I0MTMxLC0yMDE1MTUxMzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1
-NSwxNjM1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OT
-MwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMx
-LC0xNjQyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMz
-c0NzM2MzEwLC01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3
-XX0=
+eyJoaXN0b3J5IjpbMTYyMjQxMzMyNywyNDUwNTMxMzQsNTQ4OD
+MwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIx
+MiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0Miw4MD
+kzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMxNzYsNzI1MDA4Mjc5
+LDE3MTU0NjE2MzEsLTE2NDI1Mzg2ODMsLTQyMjkyNTc2NywtMj
+A4ODU3OTgwMiwzNzQ3MzYzMTAsLTUyMzA5MzYsLTEwNTQ0NTA5
+NTRdfQ==
 -->
