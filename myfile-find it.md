@@ -2040,8 +2040,16 @@ loginActivities();  // retorna 'Updating last login...'
 -	**Optimización del rendimiento: evita que el programa se bloquee esperando resultados**, lo que a su vez mejora la experiencia de usuario
 
 
-•	Es relativamente nuevo; **el 
-TEXTO EN CONSOLA
+
+
+
+
+
+
+
+
+
+HASTA AQUÍ
 
 <font face="Consolas">Este texto está en Consolas.</font>
 
@@ -2174,7 +2182,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MTY5Mzc1MCwtNTUxNTczMTkyLC0zMj
+eyJoaXN0b3J5IjpbMTk5NDM2MTg3OSwtNTUxNTczMTkyLC0zMj
 I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
 OTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyND
 UwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEz
