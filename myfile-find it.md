@@ -1646,6 +1646,7 @@ fetch('<Tu URL>', {})
 
 ```js
 const postsPromise = fetch('https://jsonplaceholder.typicode.com/posts')
+
 postsPromise
   .then((response) => response.json())
   .then((json) => console.log(json));
@@ -1665,8 +1666,9 @@ No se visualiza bien, pero como son datos **JSON**, podemos acceder a nuestro **
 2. Otro esquema para trabajar con los datos **json** y con bucle `forEach()`
 ```js
 
+const postsPromise_2 = fetch('https://rickandmortyapi.com/api/posts')
 
-fetch('https://rickandmortyapi.com/api/posts')
+postsPromise_2
   .then(data => data.json())
   .then(data => {             //trabajando ya con datos json (solo queremos el dato 'title')
       data.posts.forEach((item) => {
@@ -1888,7 +1890,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODMyMTIwMDIsOTYzNzg0MzcsLTEwOD
+eyJoaXN0b3J5IjpbLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwOD
 QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
 NzAsLTEyODA1NTIxMjIsNzE3MjI3NDc1LC0xNzAwODQyNDIyLD
 E4OTgwNDk2MzIsLTkxNzA2ODUwNywtNzgwNTMyNzA3LC0xMTA1
