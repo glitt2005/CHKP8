@@ -1985,10 +1985,7 @@ async function miFuncion() {
 Proporcionan:
 -	**Mayor legibilidad**: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
 -	**Manejo de errores** de forma similar a como se haría con código **síncrono**
--	**Sintaxis más limpia**: elimina la necesidad de anidar then() y catch() al trabajar con promesas haciendo código más limpio y conciseo.
-
-
-
+-	**Sintaxis más limpia**: elimina la necesidad de anidar `then()` y `catch()` al trabajar con promesas haciendo código más limpio y conciseo.
 
 
 <br>
@@ -2185,11 +2182,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNzI4NjkyLC01NTE1NzMxOTIsLTMyMj
-c4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5
-NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NT
-A1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMw
-MiwtNzUxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMT
-QwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3
-Nl19
+eyJoaXN0b3J5IjpbMTMzNjkwMTY0MiwtNTUxNTczMTkyLC0zMj
+I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
+OTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyND
+UwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEz
+MDIsLTc1MTI3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLT
+E0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0LDExMTQ4OTMx
+NzZdfQ==
 -->
