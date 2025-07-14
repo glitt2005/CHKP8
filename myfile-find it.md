@@ -1725,7 +1725,7 @@ Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL 
 En JavaScript, cuando tenemos promesas 	que son muy parecidas, las podemos agrupar y gestionar para tratarlas igual a través de dos método   `Promise.all()`, y  `Promise.allSettled()`  Se utilizan mucho en páginas web y aplicaciones de móvil.
 
 
-1. 
+### 1.  El método <big>`Promise.all`</big>
 
 ### SINTAXIS:
 
@@ -1958,11 +1958,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Mzc0NDM2MSwxNzExMjkyMDU1LDE2Mz
-UxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0
-LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
-I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
-MTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwOD
-QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
-NzBdfQ==
+eyJoaXN0b3J5IjpbODUwMTQwMDgsMTcxMTI5MjA1NSwxNjM1MT
+Q1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4NCwx
+MTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNjQyNT
+M4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2MzEw
+LC01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMDg0MT
+c1MTYxLDExMjM1MTEzOTUsMTIwNDIzNjc1MiwxMDg4NDg3Nzcw
+XX0=
 -->
