@@ -1759,11 +1759,11 @@ Promise.all([promesa1, promesa2, promesa3])
 
 `Promise.allSettled()`:
 
-Existe otro método útil para trabajar con promesas agrupadas, llamado  `Promise.allSettled()`. Este método se comporta de manera similar a  `Promise.all()`, pero a diferencia de este, no se detiene ante el primer rechazo. En cambio, espera a que todas las promesas del array se resuelvan o rechacen, devolviendo un array de objetos que indican el estado de cada promesa (resuelta o rechazada) y su valor o razón de rechazo.
+Existe otro método útil para trabajar con promesas agrupadas, llamado  `Promise.allSettled()`. Este método se comporta de manera similar a  `Promise.all()`, pero a diferencia de este, **no se detiene ante el primer rechazo**. En vez de ello, espera a que todas las promesas del array se resuelvan o rechacen, **devolviendo un array de objetos que indican el estado de cada promesa (resuelta o rechazada)** y su valor o razón de rechazo.
 
 Ejemplo:
 
-JavaScript
+
 
 ```js
 const promesa1 = new Promise((resolve) => setTimeout(() => resolve(1), 100));
@@ -1955,11 +1955,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTAyMzMxMDEsMTcxMTI5MjA1NSwxNj
-M1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4
-NCwxMTE0ODkzMTc2LDcyNTAwODI3OSwxNzE1NDYxNjMxLC0xNj
-QyNTM4NjgzLC00MjI5MjU3NjcsLTIwODg1Nzk4MDIsMzc0NzM2
-MzEwLC01MjMwOTM2LC0xMDU0NDUwOTU0LDk2Mzc4NDM3LC0xMD
-g0MTc1MTYxLDExMjM1MTEzOTUsMTIwNDIzNjc1MiwxMDg4NDg3
-NzcwXX0=
+eyJoaXN0b3J5IjpbLTQ5Mjk3MTI5NywxNzExMjkyMDU1LDE2Mz
+UxNDUxMDIsLTE0MDYxMTQ0Miw4MDkzMjIyNzQsNTU5MzAxOTg0
+LDExMTQ4OTMxNzYsNzI1MDA4Mjc5LDE3MTU0NjE2MzEsLTE2ND
+I1Mzg2ODMsLTQyMjkyNTc2NywtMjA4ODU3OTgwMiwzNzQ3MzYz
+MTAsLTUyMzA5MzYsLTEwNTQ0NTA5NTQsOTYzNzg0MzcsLTEwOD
+QxNzUxNjEsMTEyMzUxMTM5NSwxMjA0MjM2NzUyLDEwODg0ODc3
+NzBdfQ==
 -->
