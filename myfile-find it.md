@@ -1998,8 +1998,11 @@ Proporcionan:
 </div>
 
 <br>
-EJEMPLO:
-(no ponemos rejects para mostrar más claramente el propósito de la explicación de async/await)
+
+#### EJEMPLO:
+
+(Evitamos incluir los `reject`  para mostrar más claramente el propósito de la explicación de `async`/`await`)
+```js
 const login = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
@@ -2025,7 +2028,7 @@ async function loginActivities() {
 }
 
 loginActivities();
-
+```
 
 
 
@@ -2186,11 +2189,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04ND
-c2OTAyMTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkx
-MywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NT
-IyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIw
-NTUsMTYzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3NCw1NT
-kzMDE5ODQsMTExNDg5MzE3Niw3MjUwMDgyNzksMTcxNTQ2MTYz
-MV19
+eyJoaXN0b3J5IjpbMTYyNzkwNzk4NywtMzIyNzgwMDg5LC0xNz
+kyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nzk2NzQ2
+NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0LDU0OD
+gzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAyLC03NTEyNzQy
+MTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0NDIsOD
+A5MzIyMjc0LDU1OTMwMTk4NCwxMTE0ODkzMTc2LDcyNTAwODI3
+OV19
 -->
