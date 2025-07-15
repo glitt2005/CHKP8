@@ -2244,7 +2244,7 @@ En el caso (frecuente)  de que falle una API, es muy importante poder configurar
 Esto puede ser simplemente que **al conectarse un usuario a una aplicación** (que haga el "login") **le avisemos de que hay un problema.**
 Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentran dentro de la página de su perfil: si hay algún problema con Instagram o alguna **demora con sus APIs**, estaría bien poner en algún lado del programa algo para que diga "**error al contactar a Instagram**", o "**por favor, inténtelode nuevo en otro momento**" algo similar. 
 
-Ya hemos utilizado la función then() con catch(), pero si trabajamos con múltiples promises, combinándolos con await implementaremos una forma diferente de manejar los errores.
+
 Hay principalmente dos formas de hacerlo:
 
 
@@ -2292,11 +2292,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3MDg0MSwtMTg4OTI1OTM5NCw2ODkxMD
-Q3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2Njcs
-LTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0ND
-k5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1Mywx
-NDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyND
-k2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTcz
-MV19
+eyJoaXN0b3J5IjpbMTA5NzI3NTk1NSwtMTg4OTI1OTM5NCw2OD
+kxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2
+NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMz
+g0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1
+MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00OD
+gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
+NTczMV19
 -->
