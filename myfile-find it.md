@@ -260,7 +260,7 @@ do {
     console.log(diasDeLaSemana[diaSemana]); diaSemana++;
 } while (diaSemana < diasDeLaSemana.length)
 ```
-Como vemos, el bucle <big>`do - while`</big>  tiene una sintaxis similar al bucle <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> , pero casi al revés, ya que seguiría el concepto de "**haz esto mientras se cumple esta condición**", y precisamente esta condición se pone a lo último, o sea, que **la controla al final.**
+Como vemos, el bucle `do - while`  tiene una sintaxis similar al bucle `while`  , pero casi al revés, ya que seguiría el concepto de "**haz esto mientras se cumple esta condición**", y precisamente esta condición se pone a lo último, o sea, que **la controla al final.**
 
 
 
@@ -2356,11 +2356,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
-kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
-MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
-Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
-MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNz
-I2MjU2OSw0NTQ2MTkyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4
-XX0=
+eyJoaXN0b3J5IjpbLTQwMzQxNTMwNCwtODY1MjEwNjk1LDE2OD
+E5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgw
+OTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNT
+A1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQw
+NjEzLDM4NzE0MzQxOCwtMTUyMzc5ODE5NSwyOTY3NTc3MCw3OT
+gxNDQyOTgsOTM3MjYyNTY5LDQ1NDYxOTIxMSwtMTg4OTI1OTM5
+NF19
 -->
