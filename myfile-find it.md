@@ -99,7 +99,7 @@ for (diaSemana in diasDeLaSemana) {
 
 Como vemos la sintaxis es más sencilla y corta que la anterior.
 
-### b) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 5>for - in</font></font> </font> &ensp;  en objetos:
+### b) Bucle <big>`for - in`</big>   en objetos:
 Esto muy común cuando llamamos a una API, es decir, salimos a otro servidor(por wjemtplo Twitter) y extraemos tweets. Éstos son con frecuencia enviados en formato objeto, es decir con una estructura de pares clave:valor.
 Si queremos mostrar esos datos en una página, la forma de hacerlo es iterando sobre esos datos, ese objeto.  Y una de las formas más comunes de hacerlo es mediante este bucle  <font color ="green">**for - in**</font>.
 
@@ -134,11 +134,11 @@ NOTAS:
 
 
 
-## 3) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>forEach()</font>:
+## 3) Bucle <big>`forEach()`</big> 
 
 
 
-El método <font color ="green">**forEach()**</font>    es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
+El método <big>`forEach()`</big>     es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
 
 #### SINTAXIS
 
@@ -184,7 +184,7 @@ diasDeLaSemana.forEach(function(diaSemana){
 
 
 
-## 4) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>  while</font>:
+## 4) Bucle <big>`while`</big> :
 
  
 
@@ -199,7 +199,7 @@ while (condition) {
 ```
 Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bucle será ejecutado.
 
-NECESITAMOS
+NECESITAMOS:
 - una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
 - para evitar **UN BUCLE INFINITO**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Añadimos este elemento nualmente dentro del código a ejecutar, dentro de las llaves{}.
 
@@ -225,7 +225,7 @@ while (diaSemana < diasDeLaSemana.length) {
 ```
 
 
-## 5) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>  do - while</font>:
+## 5) Bucle <big>`do - while`</big> :
 
  
 #### SINTAXIS
@@ -2356,11 +2356,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzM0Mzc1MzQsMTY4MTk3MzkzOCwtMT
-M5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMz
-OTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMj
-A0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQz
-NDE4LC0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5Mz
-cyNjI1NjksNDU0NjE5MjExLC0xODg5MjU5Mzk0LDY4OTEwNDc5
-OF19
+eyJoaXN0b3J5IjpbMTU2MjYxNDA4OSwxNjgxOTczOTM4LC0xMz
+kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
+MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
+Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
+MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNz
+I2MjU2OSw0NTQ2MTkyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4
+XX0=
 -->
