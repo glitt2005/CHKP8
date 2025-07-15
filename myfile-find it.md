@@ -2118,7 +2118,7 @@ loginActivities(login(), updateAccount());
 - El total que se tardará son **4 segundos** (no 6 como en el ejemplo anterior sin los cierres).  Después de esos 4 segundos, **las dos funciones imprimirían a la vez.**
 - Los **nombres de los argumentos no tienen por qué ser los de las funciones**, pero lo hacemos porque son más descriptivos así.
 
-b)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque es necesario que los nombres de los **argumentos** sean iguales a los de las variables,  **hemos cambiado sus nombres:** 
+a)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque es necesario que los nombres de los **argumentos** sean iguales a los de las variables,  **hemos cambiado sus nombres:** 
 
 <br>
 
@@ -2136,7 +2136,7 @@ b)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porq
 <br>
 <br>
 
-c)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunque no tenga sentido práctico, pero para mostrar cómo funcionaría) :
+b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunque no tenga sentido práctico, pero para mostrar cómo funcionaría) :
 
 
 
@@ -2157,35 +2157,8 @@ c)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 
 HASTA AQUÍ
-<br>
-<br>
-<br>
-<br>
-<font face="Consolas">Este texto está en Consolas.</font>
 
 
-
-There are two types of synchronization and they can complement each other: 
-<font color ="blue">some <strong>*blue*</strong> text</font>.
-
-
-
-
-
-
-`<span style="color: blue;">Este texto será azul</span>` o `<span style="color: #0000FF;">Este texto será azul (código hexadecimal)</span>`.
-
-## Open a file
-
-You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
-
-## Save a file
-
-
-<font color ="red" >texto resaltado</font>
-can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
-
-## Synchronize a file
 
 
 
@@ -2200,17 +2173,7 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 |Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
 
-## KaTeX
 
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
 
 ## UML diagrams
@@ -2239,11 +2202,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzIzMTgwNSw0NjIzMzY2NywtMTQzMj
-cxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzODQ0OTkwMiw4
-MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUzLDE0MDc3Nj
-kzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0NSwt
-MTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLDkxNz
-E1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAwODld
-fQ==
+eyJoaXN0b3J5IjpbLTIwMDE4ODA4MDMsNDYyMzM2NjcsLTE0Mz
+I3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIs
+ODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3Nz
+Y5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUs
+LTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MT
+cxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5
+XX0=
 -->
