@@ -2106,12 +2106,36 @@ async function loginActivities(login, updateAccount) {
 
 loginActivities(login(), updateAccount());
 ```
+
+
+
+'''
+const updateAccount = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve('Updating last login...');
+    }, 2000);
+  });
+}
+
+async function loginActivities(login, updateAccount) {
+  const returnedLogin = await login;
+  console.log(returnedLogin);
+
+  const returnedUpdateAccount = await updateAccount;
+  console.log(returnedUpdateAccount);
+}
+
+loginActivities(login(), updateAccount());
+```
 <br>
 Aquí, los :
 
 - El total que se tardará son 4 segundos.  Después de 4 segundos, las dos funciones imprimirían a la vez.
 - Los nombres de los argumentos no tienen por qué ser los de las funciones, pero lo hacemos porque son más descriptivos así.
-Para mostrár que esto es así
+Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vamos a poner nombres diferentes a los argumentos y a los nombres de las variables de await, para que veamos cómo se mapean:
+
+
 
 
 
@@ -2241,11 +2265,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTk0OTkyMiwtNDE0NTgyNjUzLDE0MD
-c3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0
-NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLD
-kxNzE1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAw
-ODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAzOTYsMT
-c3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMx
-MzRdfQ==
+eyJoaXN0b3J5IjpbODg2NTk1Njc1LC00MTQ1ODI2NTMsMTQwNz
+c2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1
+LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3MzEsOT
+E3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMjc4MDA4
+OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5NiwxNz
+c5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEz
+NF19
 -->
