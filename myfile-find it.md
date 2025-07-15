@@ -2012,7 +2012,7 @@ const updateAccount = () => {
   return new Promise ((resolve, reject) => {
     setTimeout(() => {
       resolve('Updating last login...');
-    }, 3000);
+    }, 2000);
   });
 }
 
@@ -2038,7 +2038,7 @@ loginActivities();  // retorna 'Updating last login...'
 
 **3.** Aquí, al poner los dos `await`  ***en este orden***, estamos **estableciendo la secuencia** que necesitamos que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace la función `updateAccount()`: de hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.** 
 
-**4.** Por tanto, el **tiempo total de esta ejecucion** de la función asíncrona `loginActivities()` será la suma de las dos promesas, o sea, **5 segundos.**
+**4.** Por tanto, el **tiempo total de esta ejecucion** de la función asíncrona `loginActivities()` será la suma de las dos promesas, o sea, **4 segundos.**
 
 
 <br>
@@ -2107,7 +2107,7 @@ async function loginActivities(login, updateAccount) {
 loginActivities(login(), updateAccount());
 ```
 <br>
-Éste es el ejemplo anterior, pero modificando la función asíncrona.  Aquí:
+A:
 
 - El total que se tardará son 4 segundos.  
 
@@ -2239,11 +2239,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMD
-U1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgx
-NjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NT
-U2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3
-ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nzk2NzQ2NDIsOT
-E0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1
-Nl19
+eyJoaXN0b3J5IjpbNDQyMzk2OTIwLC00MTQ1ODI2NTMsMTQwNz
+c2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1
+LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3MzEsOT
+E3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMjc4MDA4
+OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5NiwxNz
+c5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEz
+NF19
 -->
