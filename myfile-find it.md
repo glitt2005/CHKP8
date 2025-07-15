@@ -2062,19 +2062,17 @@ y no en secuencia?<h3>
 Los cierres o closures en Javascript son funciones que tienen **acceso a variables de su ámbito léxico** (el ámbito donde fueron declaradas) **incluso después de que la función externa haya terminado de ejecutarse.** `Async/await`  no altera la funcionalidad de los cierres, pero puede afectar **la forma en que se accede a ellos en código asíncrono**.
 
 
-#### EJEMPLO:
-
-(Evitamos incluir los `reject`  para mostrar más claramente el propósito de la explicación de `async`/`await`)
-
-cons
-. 
-
-
-
-Los cierres en JS con una herramienta poderosa que combinada con las funciónes asíncronas permite mantener el estado y acceder a variables externas en operaciones asíncronas, mejorando:
+#### Ventajas:
 -	Legibilidad
 -	Gestión del Código
-Dicho de una forma sencilla:  es simplemente una función que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones 
+
+ Explicado de una forma sencilla, el cierre es una función que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones 
+
+*Los cierres en JS con una herramienta poderosa que combinada con las funciónes asíncronas permite mantener el estad
+o y acceder a variables externas en operaciones asíncronas-----*
+
+
+
 ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
 -	Se refiere a la capacidad de una función para recordar y utilizar la información de ejecuciones previas. Esto implica que la función puede acceder a variables que no estén declaradas dentro de su ámbito local, sino que están disponibles de alguna manera fuera de ella, o que han sido modificadas en ejecuciones anteriores.
 
@@ -2213,7 +2211,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0ODk4MTk5MiwxNzYxMTkzMjQ2LC00OD
+eyJoaXN0b3J5IjpbMTAyNTc0OTUwMywxNzYxMTkzMjQ2LC00OD
 gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
 NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMz
 IyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAw
