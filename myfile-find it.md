@@ -2107,7 +2107,9 @@ async function loginActivities(login, updateAccount) {
 loginActivities(login(), updateAccount());
 ```
 <br>
-Éste es el ejemplo anterior, pero modificando las 
+Éste es el ejemplo anterior, pero modificando la función asíncrona.  Aquí:
+
+- El total que se tardará son 4 segundos.  
 
 
 
@@ -2237,11 +2239,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MT
-E5MzI0NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYy
-OTMwLC04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NT
-E1NzMxOTIsLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAy
-MTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNT
-A4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEz
-MV19
+eyJoaXN0b3J5IjpbLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMD
+U1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgx
+NjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NT
+U2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3
+ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nzk2NzQ2NDIsOT
+E0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1
+Nl19
 -->
