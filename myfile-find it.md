@@ -77,7 +77,7 @@ for (variable in objecto)
 **CONVENCIÓN SINTÁCTICA**:  Para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular.  Aquí pondremos un nombre de array algo más largo (`diasDeLaSemana` ) para que se vea rápidamente la diferencia entre los dos.
 
 
-### a) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 5>for - in</font></font> </font> &ensp;  en arrays:
+### a) Bucle <big>`for - in`</big>  en arrays:
 #### EJEMPLO:  Imprimimos los días de la semana**
 
 
@@ -2356,11 +2356,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4OD
-Q4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5
-LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMT
-g4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNTIzNzk4
-MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1NjksNDU0Nj
-E5MjExLC0xODg5MjU5Mzk0LDY4OTEwNDc5OCwtMTgwNjUwMjM3
-MV19
+eyJoaXN0b3J5IjpbLTE3NzM0Mzc1MzQsMTY4MTk3MzkzOCwtMT
+M5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMz
+OTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMj
+A0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQz
+NDE4LC0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5Mz
+cyNjI1NjksNDU0NjE5MjExLC0xODg5MjU5Mzk0LDY4OTEwNDc5
+OF19
 -->
