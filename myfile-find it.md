@@ -2299,6 +2299,9 @@ queryApis();
 -  Y  también retornaria TypeError: Failed to fetch.  Pero da ninguna información respecto **a qué Promesa ha fallado exactamente** . Aquí obviamente lo sabríamos por descarate, pero si tuvieramos muchas promesas, no sabríamos cuál falla.
 
 #### EJEMPLO  B   -   ENVOLVIENDO PROMESAS con los bloques <big>`try()`</big> - <big>`catch()` : 
+- Ademas de los bloquestg try catch individuales, añadiremos la descripción precisamente para proporcionar información para la identificación del fallo. 
+- 
+
 
 ```js
 async function queryApis() {
@@ -2368,11 +2371,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0NjE5MjExLC0xODg5MjU5Mzk0LDY4OT
-EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
-NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzOD
-Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
-LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
-I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
-NzMxXX0=
+eyJoaXN0b3J5IjpbOTYyNjE1NDE0LDQ1NDYxOTIxMSwtMTg4OT
+I1OTM5NCw2ODkxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4
+MDMsNDYyMzM2NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMz
+E4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYs
+LTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMT
+kzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5
+MzBdfQ==
 -->
