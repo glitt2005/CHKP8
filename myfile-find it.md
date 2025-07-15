@@ -2059,7 +2059,7 @@ y no en secuencia?<h3>
 <br>
 <br>
 
-### 3.1  Uso de  "cierres o "closures" con async y await
+### 3.1  Uso de  "cierres o "closures" con <big>`async`</big> y <big>`await`</big>
 
 Los cierres o closures en Javascript son una herramienta poderosa que, combinada con las funciones asíncronas, permite mantener el estado y acceder a variables externas en operaciones asíncronas.
 
@@ -2158,7 +2158,7 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 <br>
 
-### 3.2  Async y await en comunicaciones API.
+### 3.2  <big>`async`</big> y <big>`await`</big> en comunicaciones API.
 
  - [x] Capturaremos 2 URLs (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el bloque  `try`…`catch` 
@@ -2253,11 +2253,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzU1MjQyMjYsLTE4MDY1MDIzNzEsLT
-IwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTExNCwtNzYwNzMw
-MTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMj
-kxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4
-NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLT
-E4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mzg5
-ODBdfQ==
+eyJoaXN0b3J5IjpbNjg5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMD
+AxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzExMTQsLTc2MDczMDE4
+LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MT
+IxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcs
+MTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xOD
+kwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgw
+XX0=
 -->
