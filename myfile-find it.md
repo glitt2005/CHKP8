@@ -2036,8 +2036,7 @@ loginActivities();  // retorna 'Updating last login...'
 
 **2.** Como vemos, JavaScript nos permite tener una funcion `async` con **multiples sentencias** `await`. Cada `await`  pausa la ejecución de la función asíncrona hasta que la promesa a la que se aplica se resuelva o se rechace, devolviendo el valor de la promesa resulta. **No hay límite en la cantidad de sentencias** `await`  que puedan usar dentro de una funcióN `async`.
 
-**3.** Aquí, al poner los dos `await`  ***en este orden***, estamos **estableciendo la secuencia** que necesitamos que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace `updateAccount()`.De hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.**
-
+**3.** Aquí, al poner los dos `await`  ***en este orden***, estamos **estableciendo la secuencia** que necesitamos que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace la función `updateAccount()`: de hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.**
 
 
 
@@ -2186,11 +2185,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjA5ODM5MSw3NTU2Mzg5ODAsLTU1MT
-U3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIx
-OSwxMzk0MTAwMzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MD
-gwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMx
-LC0yMDE1MTUxMzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNj
-M1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4
-NF19
+eyJoaXN0b3J5IjpbLTE4ODY5MjczMDQsNzU1NjM4OTgwLC01NT
+E1NzMxOTIsLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAy
+MTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNT
+A4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEz
+MSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIwNTUsMT
+YzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5
+ODRdfQ==
 -->
