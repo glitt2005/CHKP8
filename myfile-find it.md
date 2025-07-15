@@ -2126,10 +2126,10 @@ Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vam
 <br>
 
 
-- El total sigue siendo segundos.  
--  Dado que hemos pues que la segunda función es la Después de 4 segundos, las dos funciones imprimirían a la vez.
-- Los nombres de los argumentos no tienen por qué ser los de las funciones, pero lo hacemos porque son más descriptivos así.
-Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vamos a poner nombres diferentes a los argumentos y a los nombres de las variables de await, para que veamos cómo se mapean:
+-  Imprimiría **exactamente igual que el ejemplo anterior**.  Solo se han cambiado nombres.
+
+
+
 <br>
 
 
@@ -2262,7 +2262,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTMwNzA2NSwzMzIzMTg2MDAsMTAzOD
+eyJoaXN0b3J5IjpbLTE0NzI4MzA0NSwzMzIzMTg2MDAsMTAzOD
 Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
 LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
 I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
