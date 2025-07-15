@@ -2126,7 +2126,8 @@ async function loginActivities(r, s) {
 loginActivities(login(), updateAccount());
 ```
 
-- El total sigue siendo segundos.  Solamente que Después de 4 segundos, las dos funciones imprimirían a la vez.
+- El total sigue siendo segundos.  
+-  Dado que hemos pues que la segunda función es la Después de 4 segundos, las dos funciones imprimirían a la vez.
 - Los nombres de los argumentos no tienen por qué ser los de las funciones, pero lo hacemos porque son más descriptivos así.
 Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vamos a poner nombres diferentes a los argumentos y a los nombres de las variables de await, para que veamos cómo se mapean:
 <br>
@@ -2261,7 +2262,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk2OTI1NjIsLTQxNDU4MjY1MywxND
+eyJoaXN0b3J5IjpbLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxND
 A3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2
 NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMS
 w5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgw
