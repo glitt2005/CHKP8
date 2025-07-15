@@ -2053,7 +2053,7 @@ loginActivities();  // retorna 'Updating last login...'
 Pero.... ¿Y si **no** queremos que los procesos se ejecuten **en secuencia**, sino que queremos que todas las funciones se ejecuten a la vez?
 
 
-<img src="interrogacion.png" align="left" width="100">  <big>¿Y si **no** queremos que los procesos se ejecuten **en secuencia**, sino que queremos que todas las funciones se ejecuten a la vez?</big>
+<img src="interrogacion.png" align="left" width="100">  <big>¿Y si queremos que l**os todos los procesos se ejecuten  se ejecuten a la vez** y no en secuencia?</big>
 
 
 
@@ -2180,7 +2180,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTU2Nzg5MiwtMTg1MjAwODE2MywtMT
+eyJoaXN0b3J5IjpbMTYwOTYyNTIwMywtMTg1MjAwODE2MywtMT
 g5MDM2MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NTYzODk4
 MCwtNTUxNTczMTkyLC0zMjI3ODAwODksLTE3OTIxODc4MSwtOD
 Q3NjkwMjE5LDEzOTQxMDAzOTYsMTc3OTY3NDY0Miw5MTQyMTE5
