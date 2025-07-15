@@ -2200,11 +2200,13 @@ queryApis();
 
 
 ```
-1.-  El orden de los dos `await` está determinado por el orden de nuestro código.  
+1.-  El orden de los dos `await` está determinado **por el orden de nuestro código**.  
 Deberíamos recibir los datos de <font color= "green">*jasonplaceholder*</font> y LUEGO (**y solo luego, por eso el  `await`**) **sale y contacta con la otra promesa** de <font color= "green">*fakestoreapi*</font>  y devuelve los datos de ésta última.
 
 2.-  Lo bueno de esto es que **da igual cuántas veces ejecutemos esto**.  Incluso aunque la API de <font color= "green">*jasonplaceholder*</font>  funcione muy despacio (durante unos minutos por ejemplo) y la de  <font color= "green">*fakestoreapi*</font>  va muy rápido, **siempre nos va a devolver los datos en el mismo orden que lo hemos escrito** o codificado, ya que  lo hemos envuelto todo en este proceso `async` y luego aplicamos `await` a cada una de las promesas.
+
 3.- Esto lo convierte **en algo muy potente**, cuando trabajamos con datos **y no sabemos cuándo vamos a recibir los datos de la API,** o de una conexión de base de datos. 
+
 Imaginemos una situación en la que todo este proceso gire en torno a que la primera promesa:  por ejemplo si estamos autenticando con  <font color= "green">*fakestoreapi*</font>  y estamos enviando nuestras credenciales a  <font color= "green">*fakestoreapi*</font>  y resulta que cada una de las otras llamadas de API requiere esas credenciales. 
 En esta situación es absolutamente necesario este tipo de proceso, ya que no podríamos hacer las siguientes llamadas de API si la primera no ha podido ejecutarse, y esto es parte de la razón por la que utilizando esas herramientas de async-await se han convertido tan famosas en la comunidad de JavaScript, ya que gracias a ellas, tenemos el control de esto. 
 
@@ -2257,11 +2259,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjk0NjkxOTIsNjg5MTA0Nzk4LC0xOD
-A2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzEx
-MTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMz
-Y5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMy
-MCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xOD
-UyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3
-MDddfQ==
+eyJoaXN0b3J5IjpbNjM3Mjc1MDI4LDY4OTEwNDc5OCwtMTgwNj
+UwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2NywtMTQzMjcxMTE0
+LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OT
+cwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUzLDE0MDc3NjkzMjAs
+MzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1Mj
+AwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3
+XX0=
 -->
