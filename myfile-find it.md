@@ -2340,7 +2340,9 @@ queryApis();
 <br>
 <img src="interrogacion.png" align="left" width="90">  
 
-##### CUÁNDO DEBEMOS ENVOLVER LAS PROMESAS CON BLOQUES try() - catch() DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE try() - catch()?
+#### CUÁNDO DEBEMOS ENVOLVER LAS PROMESAS CON BLOQUES try() - catch() DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE try() - catch()?
+
+<br>
 - Retornaría **los datos del primer bloque de  `try`**
 -  Y  también retornaria TypeError: Failed to fetch.  Pero da ninguna información respecto **a qué Promesa ha fallado exactamente** . Aquí obviamente lo sabríamos por descarate, pero si tuvieramos muchas promesas, no sabríamos cuál falla.
 <br>
@@ -2368,11 +2370,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
-Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
-MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNz
-I2MjU2OSw0NTQ2MTkyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4
-LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xND
-MyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAy
-XX0=
+eyJoaXN0b3J5IjpbNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MD
+U5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2
+MTMsMzg3MTQzNDE4LC0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5OD
+E0NDI5OCw5MzcyNjI1NjksNDU0NjE5MjExLC0xODg5MjU5Mzk0
+LDY4OTEwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0Nj
+IzMzY2NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDBd
+fQ==
 -->
