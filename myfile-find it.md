@@ -2061,16 +2061,14 @@ y no en secuencia?<h3>
 
 Los cierres o closures en Javascript son funciones que tienen **acceso a variables de su ámbito léxico** (el ámbito donde fueron declaradas) **incluso después de que la función externa haya terminado de ejecutarse.** `Async/await`  no altera la funcionalidad de los cierres, pero puede afectar **la forma en que se accede a ellos en código asíncrono**.
 
-
-#### Ventajas:
+##### VENTAJAS:
 -	Legibilidad
 -	Gestión del Código
 
- Explicado de una forma sencilla, el cierre es una función que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones.
 
-*Un cierre se produce cuando una función "recuerda" su ámbito léxico, es decir, las variables que estaban disponibles en el momento de su creación, incluso si esa función se ejecuta fuera de ese ámbito. En otras palabras, una función interna puede acceder a variables de su función contenedora (externa) incluso después de que la función externa haya terminado de ejecutarse.-*
+*Un cierre se produce cuando una función "recuerda" su ámbito léxico, es decir, las variables que estaban disponibles en el momento de su creación, incluso si esa función se ejecuta fuera de ese ámbito. En otras palabras, **una función interna** puede **acceder a variables de su función contenedora (externa)** incluso después de que la función externa haya terminado de ejecutarse.*
 
-
+Explicado de una forma sencilla, el cierre es una función que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones.
 
 ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
 
@@ -2209,11 +2207,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk0NTIxNDcsMzIwNTU1NDg3LDE3Nj
-ExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2
-MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NTYzODk4MCwtNT
-UxNTczMTkyLC0zMjI3ODAwODksLTE3OTIxODc4MSwtODQ3Njkw
-MjE5LDEzOTQxMDAzOTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMT
-UwODAwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQx
-MzFdfQ==
+eyJoaXN0b3J5IjpbMTgwNDkyMjE5MywzMjA1NTU0ODcsMTc2MT
+E5MzI0NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYy
+OTMwLC04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NT
+E1NzMxOTIsLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAy
+MTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNT
+A4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEz
+MV19
 -->
