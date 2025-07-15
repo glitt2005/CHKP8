@@ -2162,6 +2162,7 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
  - [x] Capturaremos 2 URLs (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el bloque  `try`…`catch` 
+ - [x] Veremos cómo usar las funciones `then()`con `catch()`, pero trabajando con múltiples promesas. Combinándolos con `awaitp  implementaremos una forma diferente de manejar los errores.
   
 
  `try`…`catch`
@@ -2197,6 +2198,9 @@ FUNCIONA así:
 3.  Si se produce un error, la ejecución de  `try`  se detiene y el control fluye al comienzo de  `catch (err)`. La variable  `err`  (podemos usar cualquier nombre para ella) contendrá un **objeto de error con detalles sobre lo que sucedió.**
 
 <br>
+
+
+
 
 Vamos a ver todo esto con el EJEMPLO A:
 
@@ -2292,7 +2296,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzI3NTk1NSwtMTg4OTI1OTM5NCw2OD
+eyJoaXN0b3J5IjpbMTE2Njg0NzYzMiwtMTg4OTI1OTM5NCw2OD
 kxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2
 NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMz
 g0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1
