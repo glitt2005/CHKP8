@@ -2156,6 +2156,12 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 
 
+
+### 3.2  Async y await en comunicaciones api.
+
+
+
+Los
 HASTA AQUÍ
 
 
@@ -2202,11 +2208,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDE4ODA4MDMsNDYyMzM2NjcsLTE0Mz
-I3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIs
-ODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3Nz
-Y5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUs
-LTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MT
-cxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5
-XX0=
+eyJoaXN0b3J5IjpbLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsND
+YyMzM2NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAw
+LDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxND
+U4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2
+LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLT
+gyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5
+Ml19
 -->
