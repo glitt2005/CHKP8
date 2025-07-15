@@ -2342,44 +2342,25 @@ queryApis();
 
 ### CUÁNDO DEBEMOS ENVOLVER LAS PROMESAS CON BLOQUES try() - catch() DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE try() - catch()?
 
-<br>
-- Para diferenciar cuándo envolver todas las promesas en un solo  ` `try` - `catch`  o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que
+
+
+- Para diferenciar cuándo envolver todas las promesas en un solo  `try` - `catch`  o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que
 
 -	Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
 	-	Por ejemplo s**i las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>  ). Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
 
 -	Pero en este tipo de situación del ejemplo mencionado **donde estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que **quisiéramos contactar con la que no falla de todas formas,** y entonces necesitaríamos envolverlas con el bloque **`try`- `catch` de forma individual.**
 
-<br>
-
-
-
-
-<br>
-<img src="interrogacion.png" align="left" width="90"> <h3>  ¿CUÁNDO DEBEMOS ENVOLVERLAS PROMESAS CON BLOQUES  try() - catch() DE FORMA INDIVIDUAL
- Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE  try() - catch()<h3>
-
-
-DDDD
-<br>
-<br>
-
-Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`**, o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que :
-
--	Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
-	-	Por ejemplo s**i las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>  ). Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
-
--	Pero en este tipo de situación del ejemplo mencionado **donde estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que **quisiéramos contactar con la que no falla de todas formas,** y entonces necesitaríamos envolverlas con el bloque **`try`- `catch` de forma individual.**
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU2NzU5NTQsMTk2MjA3ODA5MSwxND
-A2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYw
-MCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMz
-g3MTQzNDE4LC0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5
-OCw5MzcyNjI1NjksNDU0NjE5MjExLC0xODg5MjU5Mzk0LDY4OT
-EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
-N119
+eyJoaXN0b3J5IjpbMTI2OTc1OTY2NywxOTYyMDc4MDkxLDE0MD
+Y2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAw
+LC0yMDQ2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzOD
+cxNDM0MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4
+LDkzNzI2MjU2OSw0NTQ2MTkyMTEsLTE4ODkyNTkzOTQsNjg5MT
+A0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3
+XX0=
 -->
