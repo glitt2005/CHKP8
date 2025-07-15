@@ -2215,9 +2215,9 @@ Esto es parte de la razón por la que utilizando esas herramientas de **`async`-
 Si ejecuto esto unas cuantas veces seguidas, siempre, **siempre vamos a obtener primero nuestros datos de <font color= "green">*jasonplaceholder*</font>**  Y  en segundo lugar los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dado. 
 
 
-#### 3.2   Los bloques <big>`try()`</big> y <big>`cath`</big> en comunicaciones API.
-Los
-HASTA AQUÍ
+#### 3.2   Los bloques <big>`try()`</big> y <big>`catch()`</big> en comunicaciones API.
+
+En el ejemplo anterior 
 
 
 
@@ -2263,11 +2263,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjE4NDUwOTEsNjg5MTA0Nzk4LC0xOD
-A2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzEx
-MTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMz
-Y5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMy
-MCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xOD
-UyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3
-MDddfQ==
+eyJoaXN0b3J5IjpbMTQzODgwOTQ1Niw2ODkxMDQ3OTgsLTE4MD
+Y1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTEx
+NCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNj
+k3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIw
+LDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NT
+IwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcw
+N119
 -->
