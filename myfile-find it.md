@@ -2041,8 +2041,6 @@ loginActivities();  // retorna 'Updating last login...'
 **4.** Por tanto, el **tiempo total de esta ejecucion** de la función asíncrona `loginActivities()` será la suma de las dos promesas, o sea, **5 segundos.**
 
 
-**En otros lenguajes esto ya se hacía por defecto**, pero con JavaScript , el orden en el que funcionan son **llamada y devolución**, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo.  Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función `async` y `await`.
-
 <br>
 
 **<big>Se ha conseguido:**</big>
@@ -2052,8 +2050,7 @@ loginActivities();  // retorna 'Updating last login...'
 -	**Optimización del rendimiento: evita que el programa se bloquee esperando resultados**, lo que a su vez mejora la experiencia de usuario
 
 
-
-Pero  ¿Qué pasa si **no** queremos que los procesos se ejecuten **en secuencia**, sino que queremos que TODAS LAS FUNCIONES AWAIT SE EJECUTEN A LA VEZ?
+Pero.... ¿Y si **no** queremos que los procesos se ejecuten **en secuencia**, sino que queremos que todas las funciones se ejecuten a la vez?
 
 
 
@@ -2183,11 +2180,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNjg2NDIyLC04Mjc2NzU3MzEsOTE3MT
-U3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMjc4MDA4OSwt
-MTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5NiwxNzc5Nj
-c0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1
-NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMj
-c0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQy
-XX0=
+eyJoaXN0b3J5IjpbLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MT
+cxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5
+LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nz
+k2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUzMTM0
+LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUxMzAyLC03NT
+EyNzQyMTIsMTcxMTI5MjA1NSwxNjM1MTQ1MTAyLC0xNDA2MTE0
+NDJdfQ==
 -->
