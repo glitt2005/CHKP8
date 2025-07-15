@@ -2116,7 +2116,7 @@ loginActivities(login(), updateAccount());
 - El total que se tardará son **4 segundos** (no 6 como en el ejemplo anterior sin los cierres).  Después de esos 4 segundos, **las dos funciones imprimirían a la vez.**
 - Los **nombres de los argumentos no tienen por qué ser los de las funciones**, pero lo hacemos porque son más descriptivos así.
 
-Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque uno de los requisitos es que tengas nombres iguales, en el ejemplo siguiente, hemos cambiado algunos nombres: 
+Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque es necesario que los nombres de los argumentos sean iguales a los de las variables,  hemos cambiado sus nombres: 
 
 <br>
 
@@ -2265,7 +2265,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcyODQ5MzY3LDMzMjMxODYwMCwxMDM4ND
+eyJoaXN0b3J5IjpbLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4ND
 Q5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMs
 MTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4Mj
 Q5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3
