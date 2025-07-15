@@ -2037,7 +2037,8 @@ loginActivities();  // retorna 'Updating last login...'
 **2.** Como vemos, JavaScript nos permite tener una funcion `async` con **multiples sentencias** `await`. Cada `await`  pausa la ejecución de la función asíncrona hasta que la promesa a la que se aplica se resuelva o se rechace, devolviendo el valor de la promesa resulta. **No hay límite en la cantidad de sentencias** `await`  que puedan usar dentro de una funcióN `async`.
 
 **3.** Aquí, al poner los dos `await`  ***en este orden***, estamos **estableciendo la secuencia** que necesitamos que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace la función `updateAccount()`: de hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.** 
-**4.** Por tanto, el tiempo total de esta ejecuci
+
+**4.** Por tanto, el **tiempo total de esta ejecucion** de la función asíncrona `loginActivities()` será de 5 segundos.
 
 
 **En otros lenguajes esto ya se hacía por defecto**, pero con JavaScript , el orden en el que funcionan son **llamada y devolución**, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo.  Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función `async` y `await`.
@@ -2182,11 +2183,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzEwNTkxMCwtODI3Njc1NzMxLDkxNz
-E1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAwODks
-LTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAzOTYsMTc3OT
-Y3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMxMzQs
-NTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MT
-I3NDIxMiwxNzExMjkyMDU1LDE2MzUxNDUxMDIsLTE0MDYxMTQ0
-Ml19
+eyJoaXN0b3J5IjpbMjY1ODgwNTA5LC04Mjc2NzU3MzEsOTE3MT
+U3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMjc4MDA4OSwt
+MTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5NiwxNzc5Nj
+c0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1
+NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMj
+c0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMTQwNjExNDQy
+XX0=
 -->
