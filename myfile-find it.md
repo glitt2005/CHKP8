@@ -2078,7 +2078,7 @@ VENTAJAS:
 -	Legibilidad
 -	Gestión del Código
 
-
+#### EJEMPLO:
 ```js
 const login = () => {
   return new Promise((resolve, reject) => {
@@ -2106,7 +2106,8 @@ async function loginActivities(login, updateAccount) {
 
 loginActivities(login(), updateAccount());
 ```
-
+<br>
+Éste es el ejemplo anterior, pero modificando las 
 
 
 
@@ -2236,11 +2237,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0OTMxMTExLDMyMDU1NTQ4NywxNzYxMT
-kzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5
-MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MT
-U3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIx
-OSwxMzk0MTAwMzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MD
-gwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMx
-XX0=
+eyJoaXN0b3J5IjpbMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MT
+E5MzI0NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYy
+OTMwLC04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NT
+E1NzMxOTIsLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAy
+MTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNT
+A4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEz
+MV19
 -->
