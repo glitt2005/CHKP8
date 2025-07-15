@@ -260,7 +260,7 @@ do {
     console.log(diasDeLaSemana[diaSemana]); diaSemana++;
 } while (diaSemana < diasDeLaSemana.length)
 ```
-Como vemos, bucle <font color ="green"><font size = 5><font face="Conolas">**do - while**</font></font>  </font>  tiene una sintaxis similar al bucle <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> , pero casi al revés, ya que seguiría el concepto de "**haz esto mientras se cumple esta condición**", y precisamente esta condición se pone a lo último, o sea, que **la controla al final.**
+Como vemos, el bucle <big>`do - while`</big>  tiene una sintaxis similar al bucle <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> , pero casi al revés, ya que seguiría el concepto de "**haz esto mientras se cumple esta condición**", y precisamente esta condición se pone a lo último, o sea, que **la controla al final.**
 
 
 
@@ -2356,7 +2356,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MjYxNDA4OSwxNjgxOTczOTM4LC0xMz
+eyJoaXN0b3J5IjpbLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
 kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
 MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
 Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
