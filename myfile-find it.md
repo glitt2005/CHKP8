@@ -2111,26 +2111,25 @@ loginActivities(login(), updateAccount());
 - El total que se tardará son **4 segundos** (no 6 como en el ejemplo anterior sin los cierres).  Después de esos 4 segundos, **las dos funciones imprimirían a la vez.**
 - Los nombres de los argumentos no tienen por qué ser los de las funciones, pero lo hacemos porque son más descriptivos así.
 
-Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vamos a poner nombres diferentes a los argumentos y a los nombres de las variables de await, para que veamos cómo se mapean  (también cambiaremos el orden de aparición de las promesas, para en:
+Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vamos a poner nombres diferentes a los argumentos y a los nombres de las variables de await, para que veamos cómo se mapean  (también cambiaremos el orden de aparición de las promesas, para entender mejor su secuencia y tiempos):
 
-// b) modificación de argumentos para explicar cómo se mapean los conceptos. Aunque no tenga sentido, vamos a hacer que salga primero la función de actualización `updateAccount()` 
+// b) modificación de argumentos para explicar cómo se mapean los conceptos. 
 
-
-
-
+<br>
 
 
-```js
-async function loginActivities(r, s) {
-  const nombre_1 = await s;
-  console.log(nombre_1);
 
-  const nombre_2 = await r;
-  console.log(nombre_2);
-}
+<div align="center">
+<img src="cierres.png" width = "50%" alt="cierres async - await">
+</div>
 
-loginActivities(login(), updateAccount());
-```
+<br>
+
+
+
+
+
+
 
 - El total sigue siendo segundos.  
 -  Dado que hemos pues que la segunda función es la Después de 4 segundos, las dos funciones imprimirían a la vez.
@@ -2268,11 +2267,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM2NDgwMzI1LC0xMTI5MTIxOTI2LC00MT
-Q1ODI2NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0
-NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC
-04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMx
-OTIsLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMT
-M5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAz
-NDYyXX0=
+eyJoaXN0b3J5IjpbODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxND
+U4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2
+LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLT
+gyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5
+MiwtMzIyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMz
+k0MTAwMzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0
+NjJdfQ==
 -->
