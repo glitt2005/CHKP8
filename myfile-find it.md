@@ -2069,7 +2069,7 @@ Los cierres o closures en Javascript son funciones que tienen **acceso a variabl
  Explicado de una forma sencilla, el cierre es una función que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones 
 
 *Los cierres en JS con una herramienta poderosa que combinada con las funciónes asíncronas permite mantener el estad
-o y acceder a variables externas en operaciones asíncronas-----*
+o y acceder a variables externas en operaciones asíncronas---*
 
 
 
@@ -2211,11 +2211,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTc0OTUwMywxNzYxMTkzMjQ2LC00OD
-gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
-NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMz
-IyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAw
-Mzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMj
-Q1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUx
-MzAyXX0=
+eyJoaXN0b3J5IjpbMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
+I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
+NzMxLDkxNzE1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMj
+I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
+OTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyND
+UwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEz
+MDJdfQ==
 -->
