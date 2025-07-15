@@ -2240,7 +2240,13 @@ Si ejecuto esto unas cuantas veces seguidas, siempre, **siempre vamos a obtener 
 
 Como ya hemos mencionado, sSi en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, el bloque de `catch()`lo ignoraria.
 
-En el caso
+En el caso (frecuente)  de que falle una API, es muy importante poder configurar un proceso para que suceda exactamente lo que queremos. 
+Esto puede ser simplemente que **al conectarse un usuario a una aplicación** (que haga el "(login()) les avisemos de que hay un problema.
+Por ej. queremos generar las fotos de Instagram de alguien dentro de la página de su perfil: si hay algún problema con Instagram o alguna demora con sus API, estaría bien poner en algún lado del programa algo para que diga “error al contactar a Instagram, y que lo intente de nuevo en otro momento”. 
+
+Ya hemos utilizado la función then() con catch(), pero si trabajamos con múltiples promises, combinándolos con await implementaremos una forma diferente de manejar los errores.
+Hay principalmente dos formas de hacerlo:
+
 
 
 
@@ -2286,7 +2292,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTAzMTAzMzMsLTE4ODkyNTkzOTQsNj
+eyJoaXN0b3J5IjpbLTIwNjY3NjQ3MDksLTE4ODkyNTkzOTQsNj
 g5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMz
 NjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMD
 M4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2
