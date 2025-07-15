@@ -2203,8 +2203,11 @@ queryApis();
 1.-  El orden de los dos `await` está determinado por el orden de nuestro código.  
 Deberíamos recibir los datos de <font color= "green">*jasonplaceholder*</font> y LUEGO (**y solo luego, por eso el  `await`**) **sale y contacta con la otra promesa** de <font color= "green">*fakestoreapi*</font>  y devuelve los datos de ésta última.
 
-2.-  Lo bueno de esto es que **da igual cuántas veces ejecutemos esto**.  Incluso aunque la API de <font color= "green">*jasonplaceholder*</font>  funcione muy despacio (durante unos minutos por ejemplo) y la de  <font color= "green">*fakestoreapi*</font>  va muy rápido, **siempre nos va a devolver los datos en el mismo orden que lo hemos escrito** o codificado, ya que  lo hemos envuelto todo en este proceso async y luego aplicamos await a cada una de las promesas.
-Esto lo convierte en algo muy potente, cuando trabajamos con datos y no sabemos cuándo vamos a recibir los datos de la API, o de una conexión de base de datos. Imaginemos una situación en la que todo este proceso gire en torno a que la primera promesa:  por ejemplo si estamos autenticando con  <font color= "green">*fakestoreapi*</font>  y estamos enviando nuestras credenciales a  <font color= "green">*fakestoreapi*</font>  y resulta que cada una de las otras llamadas de API requiere esas credenciales. En esta situación es absolutamente necesario este tipo de proceso, ya que no podríamos hacer las siguientes llamadas de API si la primera no ha podido ejecutarse, y esto es parte de la razón por la que utilizando esas herramientas de async-await se han convertido tan famosas en la comunidad de JavaScript, ya que gracias a ellas, tenemos el control de esto. Si ejecuto esto unas cuantas veces seguidas, siempre, siempre vamos a obtener primero nuestros datos de <font color= "green">*jasonplaceholder*</font>  Y LUEGO (en segundo lugar) los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dato. 
+2.-  Lo bueno de esto es que **da igual cuántas veces ejecutemos esto**.  Incluso aunque la API de <font color= "green">*jasonplaceholder*</font>  funcione muy despacio (durante unos minutos por ejemplo) y la de  <font color= "green">*fakestoreapi*</font>  va muy rápido, **siempre nos va a devolver los datos en el mismo orden que lo hemos escrito** o codificado, ya que  lo hemos envuelto todo en este proceso `async` y luego aplicamos `await` a cada una de las promesas.
+3.- Esto lo convierte **en algo muy potente**, cuando trabajamos con datos **y no sabemos cuándo vamos a recibir los datos de la API,** o de una conexión de base de datos. 
+Imaginemos una situación en la que todo este proceso gire en torno a que la primera promesa:  por ejemplo si estamos autenticando con  <font color= "green">*fakestoreapi*</font>  y estamos enviando nuestras credenciales a  <font color= "green">*fakestoreapi*</font>  y resulta que cada una de las otras llamadas de API requiere esas credenciales. 
+En esta situación es absolutamente necesario este tipo de proceso, ya que no podríamos hacer las siguientes llamadas de API si la primera no ha podido ejecutarse, y esto es parte de la razón por la que utilizando esas herramientas de async-await se han convertido tan famosas en la comunidad de JavaScript, ya que gracias a ellas, tenemos el control de esto. 
+Si ejecuto esto unas cuantas veces seguidas, siempre, siempre vamos a obtener primero nuestros datos de <font color= "green">*jasonplaceholder*</font>  Y LUEGO (en segundo lugar) los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dato. 
 
 Los
 HASTA AQUÍ
@@ -2253,7 +2256,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NTQ2NTY4Myw2ODkxMDQ3OTgsLTE4MD
+eyJoaXN0b3J5IjpbMTAyNjk2MTQ4MSw2ODkxMDQ3OTgsLTE4MD
 Y1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTEx
 NCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNj
 k3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIw
