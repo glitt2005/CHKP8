@@ -2113,12 +2113,12 @@ loginActivities(login(), updateAccount());
 
 // b) modificación de argumentos para explicar cómo se mapean los conceptos
 
-async function loginActivities(login, updateAccount) {
-  const returnedLogin = await login;
-  console.log(returnedLogin);
+async function loginActivities(r, s) {
+  const nombre1 = await s;
+  console.log(nombre1);
 
-  const returnedUpdateAccount = await updateAccount;
-  console.log(returnedUpdateAccount);
+  const nombre2 = await r;
+  console.log(nombre2);
 }
 
 loginActivities(login(), updateAccount());
@@ -2260,11 +2260,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzNDIyMCwtNDE0NTgyNjUzLDE0MDc3Nj
-kzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0NSwt
-MTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLDkxNz
-E1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAwODks
-LTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAzOTYsMTc3OT
-Y3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMxMzRd
-fQ==
+eyJoaXN0b3J5IjpbLTY0MDQ3ODgyLC00MTQ1ODI2NTMsMTQwNz
+c2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1
+LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3MzEsOT
+E3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMjc4MDA4
+OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5NiwxNz
+c5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEz
+NF19
 -->
