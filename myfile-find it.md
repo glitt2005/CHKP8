@@ -2069,15 +2069,13 @@ Explicado de una forma sencilla, el cierre es una función **que puede ser anida
 
 ##### ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
 
--	En cierres o clausuras,  “mantener el estado” significa que una función puede acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma). Estas variables “existen” en la memoria incluso después de que la función que las creó ha terminado de ejecutarse, y pueden ser accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.
+-	En cierres o clausuras,  “mantener el estado” significa que una función puede **acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma).** Estas variables **“existen” en la memoria** incluso **después** de que la función que las creó **ha terminado de ejecutarse**, y pueden ser **accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.**
 
 VENTAJAS:
 -	Legibilidad
 -	Gestión del Código
 
 
-EN DEFINITIVA LOS CIERRES O CLAUSURAS  (CLOSURES):
-•	Son funciones que tienen acceso a variables de su ámbito léxico (el ámbito donde fueron declaradas), incluso después de que la función asíncrona externa ya haya devuelto una promesa o se ha completado la ejecución asíncrona.
 •	Son importantes en JavaScript porque permiten que las funciones anidadas accedan al estado de la función que la contienen y manipulen datos de diferentes ámbitos, lo cual es útil para mantener el estado y la lógica de las funciones asíncronas.
 •	En el contexto de async/await, los cierres pueden ser utilizados para mantener el estado de las variables dentro de las funciones asíncronas, permitiendo que las funciones await accedan a ellas. 
 
@@ -2209,11 +2207,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ4NDEwMzAsMzIwNTU1NDg3LDE3Nj
-ExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2
-MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NTYzODk4MCwtNT
-UxNTczMTkyLC0zMjI3ODAwODksLTE3OTIxODc4MSwtODQ3Njkw
-MjE5LDEzOTQxMDAzOTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMT
-UwODAwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQx
-MzFdfQ==
+eyJoaXN0b3J5IjpbNDM4NTg1NjU0LDMyMDU1NTQ4NywxNzYxMT
+kzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5
+MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MT
+U3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIx
+OSwxMzk0MTAwMzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MD
+gwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMx
+XX0=
 -->
