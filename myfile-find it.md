@@ -2338,7 +2338,7 @@ queryApis();
 
 
 <br>
-<img src="interrogacion.png" align="left" width="90"> <h3>  ¿CUÁNDO DEBEMOS ENVOLVER  LAS PROMESAS CON BLOQUES TRY CATCH DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE TRY CATCH?<h3>
+<img src="interrogacion.png" align="left" width="90"> <h3>  ¿CUÁNDO DEBEMOS ENVOLVER  LAS PROMESAS CON BLOQUES  <big>`try()`</big> - <big>`catch()` DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE  <big>`try()`</big> - <big>`catch()`?<h3>
 
 Para diferenciar cuándo envolver todas las promesas en un solo try-catch, o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que :
 -	Necesitemos que se detenga el proceso entero al incurrir en algún error, y que no siga ejecutando las demás funciones. Por ejemplo si las promesas están conectadas, como sería el caso de una autentificación para la segunda promesa (aquí github o fakestoreapi). Sería una situación donde no querríamos envolverlas individualmente, ya que no debería iniciarse ningún otro proceso sin tener credenciales de usuario.
@@ -2388,11 +2388,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4MTQ0Mjk4LDkzNzI2MjU2OSw0NTQ2MT
-kyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4LC0xODA2NTAyMzcx
-LC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzExMTQsLTc2MD
-czMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMzY5NzA3LC0x
-MTI5MTIxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMyMCwzMjA1NT
-U0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYz
-XX0=
+eyJoaXN0b3J5IjpbMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNzI2Mj
+U2OSw0NTQ2MTkyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4LC0x
+ODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNz
+ExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgz
+MzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OT
+MyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1XX0=
+
 -->
