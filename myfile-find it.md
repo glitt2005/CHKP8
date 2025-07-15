@@ -2253,7 +2253,7 @@ Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentr
 
 Imaginemos que hay un error, y no hemos puesto letra s en el primer la primera promesa, la de <font color= "green">*jasonplaceholder*</font> , 
 
-#### EJEMPLO A  con "http" - falta la "s": 
+#### EJEMPLO A  con "http" - falta la "s" en la URL de la : 
 
 ```js
 async function queryApis() {
@@ -2269,11 +2269,10 @@ async function queryApis() {
   } catch(err) {
   }
 }
-queryApis();   
-
+queryApis();   //typeError: Failed to fetch
 
 ```
-
+- En este caso se paraImaginemos que hay un error, y no hemos puesto letra s en el primer la primera promesa, la de <font color= "green">*jasonplaceholder*</font> , 
 
 
 
@@ -2318,7 +2317,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyMzgxNjE5LC0xODg5MjU5Mzk0LDY4OT
+eyJoaXN0b3J5IjpbMTczMTE5MTU0LC0xODg5MjU5Mzk0LDY4OT
 EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
 NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzOD
 Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
