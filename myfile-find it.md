@@ -2168,6 +2168,18 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 	 -  se utiliza para  _**capturar excepciones**_  que pueden ocurrir durante la ejecución de código en  JavaScript.
 	 - nos permite  **gestionar errores que ocurren durante la ejecución**, sin interrumpir el flujo general del programa  _(gestionándolo de forma controlada)_.
 
+<br>
+
+
+
+<div align="center">
+<img src="tryCatch.png" width = "70%" alt="cierres async - await">
+</div>
+
+<br>
+
+
+
 La sintaxis básica de  `try...catch`  es la siguiente:
 
 ```js
@@ -2263,7 +2275,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzE2NTQzMiw2ODkxMDQ3OTgsLTE4MD
+eyJoaXN0b3J5IjpbLTg3NDI3NTQzNiw2ODkxMDQ3OTgsLTE4MD
 Y1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTEx
 NCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNj
 k3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIw
