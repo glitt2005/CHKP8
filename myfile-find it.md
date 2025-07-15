@@ -2350,51 +2350,12 @@ Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`
 
 <br>
 
-## SmartyPants
-
-SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
-
-|                |ASCII                          |HTML                         |
-|----------------|-------------------------------|-----------------------------|
-|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
-|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
-|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
-
-
-
-
-
-## UML diagrams
-
-You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
-
-```mermaid
-sequenceDiagram
-Alice ->> Bob: Hello Bob, how are you?
-Bob-->>John: How about you John?
-Bob--x Alice: I am good thanks!
-Bob-x John: I am good thanks!
-Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
-
-Bob-->Alice: Checking with John...
-Alice->John: Yes... John, how are you?
-```
-
-And this will produce a flow chart:
-
-```mermaid
-graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
-C --> D
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1Njk1NzA5LDI5Njc1NzcwLDc5ODE0ND
-I5OCw5MzcyNjI1NjksNDU0NjE5MjExLC0xODg5MjU5Mzk0LDY4
-OTEwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMz
-Y2NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAz
-ODQ0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNj
-UzLDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDZdfQ==
+eyJoaXN0b3J5IjpbLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MT
+Q0Mjk4LDkzNzI2MjU2OSw0NTQ2MTkyMTEsLTE4ODkyNTkzOTQs
+Njg5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2Mj
+MzNjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwx
+MDM4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1OD
+I2NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0Nl19
 
 -->
