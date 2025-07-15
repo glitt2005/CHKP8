@@ -2253,7 +2253,7 @@ Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentr
 
 Imaginemos que hay un error, y no hemos puesto letra s en el primer la primera promesa, la de <font color= "green">*jasonplaceholder*</font> , 
 
-#### EJEMPLO A  con "http" - falta la "s" en la URL de la primera promesa: 
+#### EJEMPLO  A   -   falta la letra "s" en el "https" de la PRIMERA promesa: 
 
 ```js
 async function queryApis() {
@@ -2274,9 +2274,25 @@ queryApis();   //typeError: Failed to fetch
 ```
 - En este caso se detiene el proceso entero.  No ha podido terminar el primero y se para todo aquí.
 <br>
+#### EJEMPLO  A   -   falta la letra "s" en el "https" de la SEGUNDA promesa: 
 
+```js
+async function queryApis() {
+  try {
+    const postsPromise = fetch('http://jsonplaceholder.typicode.com/todos/1') ;
+    const posts = await postsPromise.then(res => res.json());
+    console.log(posts);
 
+    const reposPromise = fetch(' https://fakestoreapi.com/products/1');
+    const r repos epos = await reposPromise.then(res => res.json());
+    console.log(repos);
 
+  } catch(err) {
+  }
+}
+queryApis();   //typeError: Failed to fetch
+
+```
 
 
 
@@ -2320,7 +2336,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMjcyNDE5NCwtMTg4OTI1OTM5NCw2OD
+eyJoaXN0b3J5IjpbLTI4NDUyNjQ1NCwtMTg4OTI1OTM5NCw2OD
 kxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2
 NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMz
 g0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1
