@@ -2184,19 +2184,28 @@ try {
 
 ```js
 async function queryApis() {
-  const postsPromise = fetch('https://jsonplaceholder.typicode.com/todos/1');
-  const posts = await postsPromise.then(res => res.json());
-  console.log(posts);
+  try {
+    const postsPromise = fetch('https://jsonplaceholder.typicode.com/todos/1') ;
+    const posts = await postsPromise.then(res => res.json());
+    console.log(posts);
 
-  const reposPromise =fetch(' https://fakestoreapi.com/products/1');
-  const repos = await reposPromise.then(res => res.json());
-  console.log(repos);
+    const reposPromise = fetch(' https://fakestoreapi.com/products/1');
+    const r repos epos = await reposPromise.then(res => res.json());
+    console.log(repos);
+
+  } catch(err) {
+  }
 }
-queryApis();
+queryApis();   
+
 
 ```
-1. El orden de los dos await está determinado por el orden de nuestro código.
+1. El orden de los dos `await` está determinado por el orden de nuestro código.
 2. 2. 
+Deberíamos recibir los datos de jasonplaceholder y LUEGO (y solo luego, por eso el await) sale y contacta con la ora promise fakestoreapi.com y devuelve los datos de ésta última.
+Lo importante (and cool) de esto es que da igual cuántas veces ejecutemos esto.  Incluso si la API de jasonplaceholder funciona muy despacio durante unos minutos y la de fakestoreapi va muy rápido, siempre nos va a devolver los datos EN EL MISMO ORDEN QUE HEMOS PUESTO, porque lo hemos envuelto todo en este proceso async y luego aplicamos await a cada una de las promesas.
+Esto lo convierte en algo muy potente, cuando trabajamos con datos y no sabemos cuándo vamos a recibir los datos de la API, o de una conexión de base de datos. Imaginemos una situación en la que todo este proceso gire en torno a que la primera promesa:  por ejemplo si estamos autenticando con fakestoreapi y estamos enviando nuestras credenciales a fakestoreapi y resulta que cada una de las otras llamadas de API requiere esas credenciales. En esta situación es absolutamente necesario este tipo de proceso, ya que no podríamos hacer las siguientes llamadas de API si la primera no ha podido ejecutarse, y esto es parte de la razón por la que utilizando esas herramientas de async-await se han convertido tan famosas en la comunidad de JavaScript, ya que gracias a ellas, tenemos el control de esto. Si ejecuto esto unas cuantas veces seguidas, siempre, siempre vamos a obtener primero nuestros datos de jasonplaceholder Y LUEGO (en segundo lugar) los de fakestoreapi, que es lo que podemos necesitar en un momento dato. 
+
 Los
 HASTA AQUÍ
 
@@ -2244,7 +2253,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM1MTY2MzUsLTE4MDY1MDIzNzEsLT
+eyJoaXN0b3J5IjpbLTEwNzU1MjQyMjYsLTE4MDY1MDIzNzEsLT
 IwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTExNCwtNzYwNzMw
 MTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMj
 kxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4
