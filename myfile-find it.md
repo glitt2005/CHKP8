@@ -2339,23 +2339,24 @@ queryApis();
 
 <br>
 <img src="interrogacion.png" align="left" width="90"> <h3>  ¿CUÁNDO DEBEMOS ENVOLVER  LAS PROMESAS CON BLOQUES  try() - catch() DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE  try() - catch()?<h3>
+<br>
 
-<p>Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`**, o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que :
+Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`**, o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que :
 
 -	Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
 	-	Por ejemplo s**i las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>  ). Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
 
 -	Pero en este tipo de situación del ejemplo mencionado **donde estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que **quisiéramos contactar con la que no falla de todas formas,** y entonces necesitaríamos envolverlas con el bloque **`try`- `catch` de forma individual.**
-</p>
 
-<br>
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3MTQzNDE4LC0xNTIzNzk4MTk1LDI5Nj
-c1NzcwLDc5ODE0NDI5OCw5MzcyNjI1NjksNDU0NjE5MjExLC0x
-ODg5MjU5Mzk0LDY4OTEwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMT
-g4MDgwMyw0NjIzMzY2NywtMTQzMjcxMTE0LC03NjA3MzAxOCwz
-MzIzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OTcwNywtMTEyOTEyMT
-kyNiwtNDE0NTgyNjUzLDE0MDc3NjkzMjAsMzIwNTU1NDg3XX0=
+eyJoaXN0b3J5IjpbLTQwNzE0MDYxMywzODcxNDM0MTgsLTE1Mj
+M3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNzI2MjU2OSw0
+NTQ2MTkyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4LC0xODA2NT
+AyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzExMTQs
+LTc2MDczMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMzY5Nz
+A3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMyMF19
 
 -->
