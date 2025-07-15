@@ -2116,7 +2116,7 @@ loginActivities(login(), updateAccount());
 - El total que se tardará son **4 segundos** (no 6 como en el ejemplo anterior sin los cierres).  Después de esos 4 segundos, **las dos funciones imprimirían a la vez.**
 - Los **nombres de los argumentos no tienen por qué ser los de las funciones**, pero lo hacemos porque son más descriptivos así.
 
-Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque es necesario que los nombres de los argumentos sean iguales a los de las variables,  hemos cambiado sus nombres: 
+b)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque es necesario que los nombres de los **argumentos** sean iguales a los de las variables,  **hemos cambiado sus nombres:** 
 
 <br>
 
@@ -2132,14 +2132,16 @@ Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque e
 -  Imprimiría **exactamente igual que el ejemplo anterior**.  Solo se han cambiado nombres.
 
 <br>
+<br>
 
+c)  Aquí cambiamos, además, **el orden de las dos funciones asíncroinas*es de los **argumentos** sean iguales a los de las variables,  **hemos cambiado sus nombres:**
 
 <br>
 
 
 
 <div align="center">
-<img src="cierres.png" width = "70%" alt="cierres async - await">
+<img src="cierres2.png" width = "70%" alt="cierres async - await">
 </div>
 
 <br>
@@ -2271,7 +2273,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NzQ3MTYyMSwtNzYwNzMwMTgsMzMyMz
+eyJoaXN0b3J5IjpbLTgwMTQ1MDA4OCwtNzYwNzMwMTgsMzMyMz
 E4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYs
 LTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMT
 kzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5
