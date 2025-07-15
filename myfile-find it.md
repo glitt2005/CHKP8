@@ -2253,7 +2253,7 @@ Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentr
 
 Imaginemos que hay un error, y no hemos puesto letra s en el primer la primera promesa, la de <font color= "green">*jasonplaceholder*</font> , 
 
-#### EJEMPLO A  con "http" - falta la "s" en la URL de la : 
+#### EJEMPLO A  con "http" - falta la "s" en la URL de la primera promesa: 
 
 ```js
 async function queryApis() {
@@ -2272,7 +2272,10 @@ async function queryApis() {
 queryApis();   //typeError: Failed to fetch
 
 ```
-- En este caso se paraImaginemos que hay un error, y no hemos puesto letra s en el primer la primera promesa, la de <font color= "green">*jasonplaceholder*</font> , 
+- En este caso se detiene el proceso entero.  No ha podido terminar el primero y se para todo aquí.
+<br>
+
+
 
 
 
@@ -2317,11 +2320,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTE5MTU0LC0xODg5MjU5Mzk0LDY4OT
-EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
-NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzOD
-Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
-LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
-I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
-NzMxXX0=
+eyJoaXN0b3J5IjpbMTMyMjcyNDE5NCwtMTg4OTI1OTM5NCw2OD
+kxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2
+NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMz
+g0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1
+MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00OD
+gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
+NTczMV19
 -->
