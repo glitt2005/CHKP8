@@ -2162,7 +2162,20 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
  - Capturaremos 2 URLs (endpoints APIs) utilizando el async y await.
  - Utilizaremos try-catch()
+ 
+El bloque  try…catch  se utiliza para  _**capturar excepciones**_  que pueden ocurrir durante la ejecución de código en  JavaScript.
 
+Nos permite  **gestionar errores que ocurren durante la ejecución**, sin interrumpir el flujo general del programa  _(gestionándolo de forma controlada)_.
+
+La sintaxis básica de  `try...catch`  es la siguiente:
+
+```
+try {
+    // Código que puede generar un error
+} catch (error) {
+    // Código que se ejecuta si ocurre un error
+} 
+```
 
 
    Co
@@ -2231,11 +2244,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyOTg2MDM3OSwtMTgwNjUwMjM3MSwtMj
-AwMTg4MDgwMyw0NjIzMzY2NywtMTQzMjcxMTE0LC03NjA3MzAx
-OCwzMzIzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OTcwNywtMTEyOT
-EyMTkyNiwtNDE0NTgyNjUzLDE0MDc3NjkzMjAsMzIwNTU1NDg3
-LDE3NjExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1MjAwODE2MywtMT
-g5MDM2MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NTYzODk4
-MF19
+eyJoaXN0b3J5IjpbNzI5NjMzNjA0LC0xODA2NTAyMzcxLC0yMD
+AxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzExMTQsLTc2MDczMDE4
+LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MT
+IxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcs
+MTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xOD
+kwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgw
+XX0=
 -->
