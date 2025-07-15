@@ -2338,7 +2338,9 @@ queryApis();
 
 
 <br>
-<img src="interrogacion.png" align="left" width="90">   <bold>¿CUÁNDO DEBEMOS ENVOLVER  LAS PROMESAS CON BLOQUES  try() - catch() DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE  try() - catch()?</bold>
+<img src="interrogacion.png" align="left" width="90">  
+
+##### CUÁNDO DEBEMOS ENVOLVER LAS PROMESAS CON BLOQUES try() - catch() DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE try() - catch()?
 
 <br>
 
@@ -2365,11 +2367,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMT
-g4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNTIzNzk4
-MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1NjksNDU0Nj
-E5MjExLC0xODg5MjU5Mzk0LDY4OTEwNDc5OCwtMTgwNjUwMjM3
-MSwtMjAwMTg4MDgwMyw0NjIzMzY2NywtMTQzMjcxMTE0LC03Nj
-A3MzAxOCwzMzIzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OTcwN119
-
+eyJoaXN0b3J5IjpbLTM1Njk5MzA2NSwxMDUwNTkxNjAwLC0yMD
+Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
+MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNz
+I2MjU2OSw0NTQ2MTkyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4
+LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xND
+MyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAy
+XX0=
 -->
