@@ -2051,8 +2051,8 @@ loginActivities();  // retorna 'Updating last login...'
 
 
 <br>
-<img src="interrogacion.png" align="left" width="90">  <big>¿Y si queremos que **los todos los procesos se ejecuten a la vez** 
-y no en secuencia?</big>
+<img src="interrogacion.png" align="left" width="90"> <font size  ¿Y si queremos que **los todos los procesos se ejecuten a la vez** 
+y no en secuencia?
 
 
 
@@ -2060,7 +2060,10 @@ y no en secuencia?</big>
 
 
 HASTA AQUÍ
-
+<br>
+<br>
+<br>
+<br>
 <font face="Consolas">Este texto está en Consolas.</font>
 
 
@@ -2179,11 +2182,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODI0OTY0NSwtMTg1MjAwODE2MywtMT
-g5MDM2MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NTYzODk4
-MCwtNTUxNTczMTkyLC0zMjI3ODAwODksLTE3OTIxODc4MSwtOD
-Q3NjkwMjE5LDEzOTQxMDAzOTYsMTc3OTY3NDY0Miw5MTQyMTE5
-MTMsMTUwODAwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03Nz
-UyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3NDIxMiwxNzExMjky
-MDU1XX0=
+eyJoaXN0b3J5IjpbLTE3NjQ0MTAxMTAsLTQ4ODI0OTY0NSwtMT
+g1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLDkxNzE1
+NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAwODksLT
+E3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAzOTYsMTc3OTY3
+NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMxMzQsNT
+Q4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEzMDIsLTc1MTI3
+NDIxMl19
 -->
