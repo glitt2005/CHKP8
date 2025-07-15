@@ -2156,10 +2156,25 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 
 
+<br>
 
 ### 3.2  Async y await en comunicaciones API.
 
+Vamos a 
 
+```js
+async function queryApis() {
+  const postsPromise = fetch('https://jsonplaceholder.typicode.com/todos/1');
+  const posts = await postsPromise.then(res => res.json());
+  console.log(posts);
+
+  const reposPromise =fetch(' https://fakestoreapi.com/products/1');
+  const repos = await reposPromise.then(res => res.json());
+  console.log(repos);
+}
+queryApis();
+
+```
 
 Los
 HASTA AQUÍ
@@ -2208,11 +2223,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzNTc0MjA1LC0xODA2NTAyMzcxLC0yMD
-AxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzExMTQsLTc2MDczMDE4
-LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MT
-IxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcs
-MTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xOD
-kwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgw
-XX0=
+eyJoaXN0b3J5IjpbLTQ5NDgxODk3MSwtMTgwNjUwMjM3MSwtMj
+AwMTg4MDgwMyw0NjIzMzY2NywtMTQzMjcxMTE0LC03NjA3MzAx
+OCwzMzIzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OTcwNywtMTEyOT
+EyMTkyNiwtNDE0NTgyNjUzLDE0MDc3NjkzMjAsMzIwNTU1NDg3
+LDE3NjExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1MjAwODE2MywtMT
+g5MDM2MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NTYzODk4
+MF19
 -->
