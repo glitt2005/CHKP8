@@ -2178,8 +2178,9 @@ try {
 } 
 ```
 
+<br>
 
-#### EJEMPLO: 2
+#### EJEMPLO: 
 
 ```js
 async function queryApis() {
@@ -2243,7 +2244,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc1OTEyNzksLTE4MDY1MDIzNzEsLT
+eyJoaXN0b3J5IjpbLTE1NTM1MTY2MzUsLTE4MDY1MDIzNzEsLT
 IwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTExNCwtNzYwNzMw
 MTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMj
 kxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4
