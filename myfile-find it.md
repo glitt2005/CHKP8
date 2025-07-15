@@ -2059,7 +2059,7 @@ y no en secuencia?<h3>
 
 ### 3.1  Uso de  "cierres o "closures" con async y await
 
-Los cierres o closures en Javascript son funciones que tienen **acceso a variables de su ámbito léxico** (el ámbito donde fueron declaradas) **incluso después de que la función externa haya terminado de ejecutarse.** `Async/await`  no altera la funcionalidad de los cierres, pero puede afectar **la forma en que se accede a ellos en código asíncrono**.
+Los cierres o closures en Javascript son una herramienta pfunciones que tienen **acceso a variables de su ámbito léxico** (el ámbito donde fueron declaradas) **incluso después de que la función externa haya terminado de ejecutarse.** `Async/await`  no altera la funcionalidad de los cierres, pero puede afectar **la forma en que se accede a ellos en código asíncrono**.
 
 VENTAJAS:
 -	Legibilidad
@@ -2068,11 +2068,11 @@ VENTAJAS:
 
 *Un cierre se produce cuando una función "recuerda" su ámbito léxico, es decir, las variables que estaban disponibles en el momento de su creación, incluso si esa función se ejecuta fuera de ese ámbito. En otras palabras, **una función interna** puede **acceder a variables de su función contenedora (externa)** incluso después de que la función externa haya terminado de ejecutarse.*[Accede aquí para explicación más amplia](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
 
-Explicado de una forma sencilla, el cierre es una función que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones.
+Explicado de una forma sencilla, el cierre es una función **que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones**.
 
-¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
+##### ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
 
--	En cierres o clausuras, de nuevo, “mantener el estado” significa que una función puede acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma). Estas variables “existen” en la memoria incluso después de que la función que las creó ha terminado de ejecutarse, y pueden ser accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.
+-	En cierres o clausuras,  “mantener el estado” significa que una función puede acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma). Estas variables “existen” en la memoria incluso después de que la función que las creó ha terminado de ejecutarse, y pueden ser accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.
 
 EN DEFINITIVA LOS CIERRES O CLAUSURAS  (CLOSURES):
 •	Son funciones que tienen acceso a variables de su ámbito léxico (el ámbito donde fueron declaradas), incluso después de que la función asíncrona externa ya haya devuelto una promesa o se ha completado la ejecución asíncrona.
@@ -2207,11 +2207,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODAzMTUzOSwzMjA1NTU0ODcsMTc2MT
-E5MzI0NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYy
-OTMwLC04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NT
-E1NzMxOTIsLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAy
-MTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNT
-A4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEz
-MV19
+eyJoaXN0b3J5IjpbMjkyODg2MTk4LDMyMDU1NTQ4NywxNzYxMT
+kzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5
+MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MT
+U3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIx
+OSwxMzk0MTAwMzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MD
+gwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMx
+XX0=
 -->
