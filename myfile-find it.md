@@ -2111,9 +2111,15 @@ loginActivities(login(), updateAccount());
 - El total que se tardará son **4 segundos** (no 6 como en el ejemplo anterior sin los cierres).  Después de esos 4 segundos, **las dos funciones imprimirían a la vez.**
 - Los nombres de los argumentos no tienen por qué ser los de las funciones, pero lo hacemos porque son más descriptivos así.
 
-Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vamos a poner nombres diferentes a los argumentos y a los nombres de las variables de await, para que veamos cómo se mapean:
+Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vamos a poner nombres diferentes a los argumentos y a los nombres de las variables de await, para que veamos cómo se mapean  (también cambiaremos el orden de aparición de las promesas, para en:
 
-// b) modificación de argumentos para explicar cómo se mapean los conceptos
+// b) modificación de argumentos para explicar cómo se mapean los conceptos. Aunque no tenga sentido, vamos a hacer que salga primero la función de actualización `updateAccount()` 
+
+
+
+
+
+
 ```js
 async function loginActivities(r, s) {
   const nombre_1 = await s;
@@ -2262,11 +2268,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxND
-A3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2
-NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMS
-w5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgw
-MDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LD
-E3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUz
-MTM0XX0=
+eyJoaXN0b3J5IjpbMjM2NDgwMzI1LC0xMTI5MTIxOTI2LC00MT
+Q1ODI2NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0
+NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC
+04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMx
+OTIsLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMT
+M5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAz
+NDYyXX0=
 -->
