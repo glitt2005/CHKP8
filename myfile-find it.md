@@ -2038,7 +2038,7 @@ loginActivities();  // retorna 'Updating last login...'
 
 **3.** Aquí, al poner los dos `await`  ***en este orden***, estamos **estableciendo la secuencia** que necesitamos que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace la función `updateAccount()`: de hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.** 
 
-**4.** Por tanto, el **tiempo total de esta ejecucion** de la función asíncrona `loginActivities()` será de 5 segundos.
+**4.** Por tanto, el **tiempo total de esta ejecucion** de la función asíncrona `loginActivities()` será la suma de las dos promesas, o sea, **5 segundos.**
 
 
 **En otros lenguajes esto ya se hacía por defecto**, pero con JavaScript , el orden en el que funcionan son **llamada y devolución**, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo.  Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función `async` y `await`.
@@ -2183,7 +2183,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY1ODgwNTA5LC04Mjc2NzU3MzEsOTE3MT
+eyJoaXN0b3J5IjpbNDgwNjg2NDIyLC04Mjc2NzU3MzEsOTE3MT
 U3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMjc4MDA4OSwt
 MTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5NiwxNzc5Nj
 c0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1
