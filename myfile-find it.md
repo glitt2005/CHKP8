@@ -2164,13 +2164,13 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
  - [x] Utilizaremos el bloque  `try`…`catch` 
   
 
- try-catch()
-	 -   se utiliza para  _**capturar excepciones**_  que pueden ocurrir durante la ejecución de código en  JavaScript.
-	 - Nos permite  **gestionar errores que ocurren durante la ejecución**, sin interrumpir el flujo general del programa  _(gestionándolo de forma controlada)_.
+ `try`…`catch`
+	 -  se utiliza para  _**capturar excepciones**_  que pueden ocurrir durante la ejecución de código en  JavaScript.
+	 - nos permite  **gestionar errores que ocurren durante la ejecución**, sin interrumpir el flujo general del programa  _(gestionándolo de forma controlada)_.
 
 La sintaxis básica de  `try...catch`  es la siguiente:
 
-```
+```js
 try {
     // Código que puede generar un error
 } catch (error) {
@@ -2179,9 +2179,7 @@ try {
 ```
 
 
-   Co
-
-mo
+#### EJEMPLO: 2
 
 ```js
 async function queryApis() {
@@ -2245,7 +2243,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzkxMDA1MzYsLTE4MDY1MDIzNzEsLT
+eyJoaXN0b3J5IjpbLTE5NDc1OTEyNzksLTE4MDY1MDIzNzEsLT
 IwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTExNCwtNzYwNzMw
 MTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMj
 kxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4
