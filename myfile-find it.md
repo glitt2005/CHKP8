@@ -2238,7 +2238,9 @@ Si ejecuto esto unas cuantas veces seguidas, siempre, **siempre vamos a obtener 
 
 #### 3.2   Los bloques <big>`try()`</big> y <big>`catch()`</big> en comunicaciones API.
 
-CoSi en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, pero no el 'catch()', ya que 
+Como ya hemos mencionado, sSi en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, el bloque de `catch()`lo ignoraria.
+
+En el caso
 
 
 
@@ -2284,7 +2286,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDM5MDAxODksLTE4ODkyNTkzOTQsNj
+eyJoaXN0b3J5IjpbLTE1MTAzMTAzMzMsLTE4ODkyNTkzOTQsNj
 g5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMz
 NjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMD
 M4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2
