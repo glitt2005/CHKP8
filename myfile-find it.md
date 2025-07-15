@@ -2126,11 +2126,6 @@ Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vam
 <br>
 
 
-
-
-
-
-
 - El total sigue siendo segundos.  
 -  Dado que hemos pues que la segunda función es la Después de 4 segundos, las dos funciones imprimirían a la vez.
 - Los nombres de los argumentos no tienen por qué ser los de las funciones, pero lo hacemos porque son más descriptivos así.
@@ -2267,11 +2262,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODQ0OTkwMiw4MzM2OTcwNywtMTEyOT
-EyMTkyNiwtNDE0NTgyNjUzLDE0MDc3NjkzMjAsMzIwNTU1NDg3
-LDE3NjExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1MjAwODE2MywtMT
-g5MDM2MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NTYzODk4
-MCwtNTUxNTczMTkyLC0zMjI3ODAwODksLTE3OTIxODc4MSwtOD
-Q3NjkwMjE5LDEzOTQxMDAzOTYsMTc3OTY3NDY0Miw5MTQyMTE5
-MTNdfQ==
+eyJoaXN0b3J5IjpbMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNj
+k3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIw
+LDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NT
+IwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcw
+Nyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5LC0xNz
+kyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nzk2NzQ2
+NDJdfQ==
 -->
