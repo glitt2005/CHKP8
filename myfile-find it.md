@@ -2242,7 +2242,9 @@ Si ejecuto esto unas cuantas veces seguidas, siempre, **siempre vamos a obtener 
 
 #### 3.2   Los bloques <big>`try()`</big> y <big>`catch()`</big> en comunicaciones API.
 
-Como ya hemos mencionado, sSi en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, el bloque de `catch()`lo ignoraria.
+Como ya hemos mencionado, Si en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, el bloque de `catch()`lo ignoraria.
+
+
 
 En el caso (frecuente)  de que falle una API, es muy importante poder configurar un proceso para que suceda exactamente lo que queremos. 
 Esto puede ser simplemente que **al conectarse un usuario a una aplicación** (que haga el "login") **le avisemos de que hay un problema.**
@@ -2296,11 +2298,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUwNDg0NzAsLTE4ODkyNTkzOTQsNj
-g5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMz
-NjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMD
-M4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2
-NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtND
-g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
-NzU3MzFdfQ==
+eyJoaXN0b3J5IjpbNjc1NjQzNTMxLC0xODg5MjU5Mzk0LDY4OT
+EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
+NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzOD
+Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
+LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
+I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
+NzMxXX0=
 -->
