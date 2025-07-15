@@ -2341,7 +2341,8 @@ queryApis();
 <img src="interrogacion.png" align="left" width="90">  
 
 ##### CUÁNDO DEBEMOS ENVOLVER LAS PROMESAS CON BLOQUES try() - catch() DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE try() - catch()?
-
+- Retornaría **los datos del primer bloque de  `try`**
+-  Y  también retornaria TypeError: Failed to fetch.  Pero da ninguna información respecto **a qué Promesa ha fallado exactamente** . Aquí obviamente lo sabríamos por descarate, pero si tuvieramos muchas promesas, no sabríamos cuál falla.
 <br>
 
 
@@ -2367,7 +2368,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Njk5MzA2NSwxMDUwNTkxNjAwLC0yMD
+eyJoaXN0b3J5IjpbMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
 Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
 MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNz
 I2MjU2OSw0NTQ2MTkyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4
