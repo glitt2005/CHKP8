@@ -2300,7 +2300,7 @@ queryApis();
 
 #### EJEMPLO  B   -   ENVOLVIENDO PROMESAS con los bloques <big>`try()`</big> - <big>`catch()` : 
 - Ademas de los bloquestg try catch individuales, añadiremos la descripción precisamente para proporcionar información para la identificación del fallo. 
-- Quitamos la s del https de LA PRIMERA PROMESA:
+- Quitamos la letra  "**s**" del ***https*** de LA **PRIMERA** PROMESA:
 
 
 ```js
@@ -2371,7 +2371,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTA4NzMzOTIsNDU0NjE5MjExLC0xOD
+eyJoaXN0b3J5IjpbLTIwNjI4NDY5ODAsNDU0NjE5MjExLC0xOD
 g5MjU5Mzk0LDY4OTEwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4
 MDgwMyw0NjIzMzY2NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMz
 IzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTky
