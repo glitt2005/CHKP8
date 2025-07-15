@@ -2173,7 +2173,7 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 
 <div align="center">
-<img src="tryCatch.png" width = "70%" alt="cierres async - await">
+<img src="tryCatch.png" width = "40%" alt="bloque try-catch">
 </div>
 
 <br>
@@ -2275,11 +2275,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDI3NTQzNiw2ODkxMDQ3OTgsLTE4MD
-Y1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTEx
-NCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNj
-k3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIw
-LDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NT
-IwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcw
-N119
+eyJoaXN0b3J5IjpbLTE4ODkyNTkzOTQsNjg5MTA0Nzk4LC0xOD
+A2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzEx
+MTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMz
+Y5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMy
+MCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xOD
+UyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3
+MDddfQ==
 -->
