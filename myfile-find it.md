@@ -2158,7 +2158,7 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 <br>
 
-### 3.2  <big>`async`</big> y <big>`await`</big> en comunicaciones API.
+### 3.2  <big>`async`</big> - <big>`await`</big> en comunicaciones API.
 
  - [x] Capturaremos 2 URLs (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el bloque  `try`…`catch` 
@@ -2298,7 +2298,7 @@ queryApis();
 - Retornaría **los datos del primer bloque de  `try`**
 -  Y  también retornaria TypeError: Failed to fetch.  Pero da ninguna información respecto **a qué Promesa ha fallado exactamente** . Aquí obviamente lo sabríamos por descarate, pero si tuvieramos muchas promesas, no sabríamos cuál falla.
 
-#### EJEMPLO  B   -   ENVOLVIENDO PROMESAS con los bloques mesa: 
+#### EJEMPLO  B   -   ENVOLVIENDO PROMESAS con los bloques <big>`try()`</big> - <big>`catch()` : 
 
 
 ## SmartyPants
@@ -2341,11 +2341,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTk1MDc3NDEsLTE4ODkyNTkzOTQsNj
-g5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMz
-NjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMD
-M4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2
-NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtND
-g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
-NzU3MzFdfQ==
+eyJoaXN0b3J5IjpbLTk2NDU4MzIwOSwtMTg4OTI1OTM5NCw2OD
+kxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2
+NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMz
+g0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1
+MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00OD
+gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
+NTczMV19
 -->
