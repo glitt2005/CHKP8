@@ -2242,7 +2242,7 @@ Como ya hemos mencionado, sSi en el ejemplo anterior funcionara todo perfectamen
 
 En el caso (frecuente)  de que falle una API, es muy importante poder configurar un proceso para que suceda exactamente lo que queremos. 
 Esto puede ser simplemente que **al conectarse un usuario a una aplicación** (que haga el "login") **le avisemos de que hay un problema.**
-Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentran dentro de la página de su perfil: **si hay algún problema con Instagram o alguna demora con sus AP**I, estaría bien poner en algún lado del programa algo para que diga "**error al contactar a Instagram**", o "**por favor, inténtelode nuevo en otro momento**" algo similar. 
+Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentran dentro de la página de su perfil: si hay algún problema con Instagram o alguna **demora con sus APIs**, estaría bien poner en algún lado del programa algo para que diga "**error al contactar a Instagram**", o "**por favor, inténtelode nuevo en otro momento**" algo similar. 
 
 Ya hemos utilizado la función then() con catch(), pero si trabajamos con múltiples promises, combinándolos con await implementaremos una forma diferente de manejar los errores.
 Hay principalmente dos formas de hacerlo:
@@ -2292,11 +2292,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwMzMzMTAyLC0xODg5MjU5Mzk0LDY4OT
-EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
-NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzOD
-Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
-LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
-I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
-NzMxXX0=
+eyJoaXN0b3J5IjpbMjQ3MDg0MSwtMTg4OTI1OTM5NCw2ODkxMD
+Q3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2Njcs
+LTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0ND
+k5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1Mywx
+NDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyND
+k2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTcz
+MV19
 -->
