@@ -2331,6 +2331,14 @@ queryApis();
 // 'There was an error with the jsonplaceholder API'
 
 ```
+
+- Obtendríamos los datos de la segunda promesa, Y obtendríamos información sobre la razón de nuestro error de la segunda Promesa
+
+
+
+
+
+
 ## SmartyPants
 
 SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
@@ -2371,7 +2379,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDYxMDA3MCw0NTQ2MTkyMTEsLTE4OD
+eyJoaXN0b3J5IjpbMTE3NzQwNTQ0Myw0NTQ2MTkyMTEsLTE4OD
 kyNTkzOTQsNjg5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgw
 ODAzLDQ2MjMzNjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMj
 MxODYwMCwxMDM4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2
