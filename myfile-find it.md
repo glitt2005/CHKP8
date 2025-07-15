@@ -2105,6 +2105,11 @@ async function loginActivities(login, updateAccount) {
 }
 
 loginActivities(login(), updateAccount());
+
+// imprime (a la vez) :
+//		User logged in...
+//		Updating last login...
+ 
 ```
 
 
@@ -2262,11 +2267,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI4MzA0NSwzMzIzMTg2MDAsMTAzOD
-Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
-LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
-I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
-NzMxLDkxNzE1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMj
-I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
-OTZdfQ==
+eyJoaXN0b3J5IjpbNDQyNTA2MjAzLDMzMjMxODYwMCwxMDM4ND
+Q5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMs
+MTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4Mj
+Q5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3
+MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMj
+c4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5
+Nl19
 -->
