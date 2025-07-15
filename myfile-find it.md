@@ -2251,8 +2251,28 @@ Esto puede ser simplemente que **al conectarse un usuario a una aplicación** (q
 Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentran dentro de la página de su perfil: si hay algún problema con Instagram o alguna **demora con sus APIs**, estaría bien poner en algún lado del programa algo para que diga "**error al contactar a Instagram**", o "**por favor, inténtelode nuevo en otro momento**" algo similar. 
 
 
-Imaginemos que hay un error, y no hemos puesto letra s en el primer la primera promesa, la de <font color= "green">*jasonplaceholder*</font> 
+Imaginemos que hay un error, y no hemos puesto letra s en el primer la primera promesa, la de <font color= "green">*jasonplaceholder*</font> , 
 
+#### EJEMPLO A  con "http" - falta la "s": 
+
+```js
+async function queryApis() {
+  try {
+    const postsPromise = fetch('http://jsonplaceholder.typicode.com/todos/1') ;
+    const posts = await postsPromise.then(res => res.json());
+    console.log(posts);
+
+    const reposPromise = fetch(' https://fakestoreapi.com/products/1');
+    const r repos epos = await reposPromise.then(res => res.json());
+    console.log(repos);
+
+  } catch(err) {
+  }
+}
+queryApis();   
+
+
+```
 
 
 
@@ -2298,11 +2318,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTU0ODkwNCwtMTg4OTI1OTM5NCw2OD
-kxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2
-NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMz
-g0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1
-MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00OD
-gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
-NTczMV19
+eyJoaXN0b3J5IjpbNzQyMzgxNjE5LC0xODg5MjU5Mzk0LDY4OT
+EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
+NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzOD
+Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
+LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
+I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
+NzMxXX0=
 -->
