@@ -2056,6 +2056,8 @@ y no en secuencia?<h3>
 
 
 
+<br>
+<br>
 
 ### 3.1  Uso de  "cierres o "closures" con async y await
 
@@ -2136,7 +2138,7 @@ b)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porq
 
 c)  Aquí cambiamos, además, **el orden de las dos funciones asíncronas** :
 
-<br>
+
 
 
 
@@ -2273,11 +2275,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMz
-E4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYs
-LTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMT
-kzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5
-MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MT
-U3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIx
-OV19
+eyJoaXN0b3J5IjpbMTE4NzU1ODQ0OCwtMTQzMjcxMTE0LC03Nj
+A3MzAxOCwzMzIzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OTcwNywt
+MTEyOTEyMTkyNiwtNDE0NTgyNjUzLDE0MDc3NjkzMjAsMzIwNT
+U1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1MjAwODE2
+MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NT
+YzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAwODksLTE3OTIxODc4
+MV19
 -->
