@@ -260,7 +260,7 @@ do {
     console.log(diasDeLaSemana[diaSemana]); diaSemana++;
 } while (diaSemana < diasDeLaSemana.length)
 ```
-Como vemos, el bucle `do - while`  tiene una sintaxis similar al bucle `while`  , pero casi al revés, ya que seguiría el concepto de "**haz esto mientras se cumple esta condición**", y precisamente esta condición se pone a lo último, o sea, que **la controla al final.**
+Como vemos, el bucle **`do - while`**  tiene una sintaxis similar al bucle **`while`**  , pero casi al revés, ya que seguiría el concepto de "**haz esto mientras se cumple esta condición**", y precisamente esta condición se pone a lo último, o sea, que **la controla al final.**
 
 
 
@@ -270,14 +270,14 @@ Como vemos, el bucle `do - while`  tiene una sintaxis similar al bucle `while`  
 - Permite definir l**a lógica del bucle antes de evaluar la condición**, lo que puede ser **más conveniente en ciertos escenarios**.
 
 	 **EJEMPLO DE APLICACIÓN**: 
-	 Típíco en **juegos**, cuando queremos que siempre haga el proceso al menos una vez. Por ej. un **jugador que juega y te aseguras de que lo haga al menos una vez,** y si sigue ganando, puede comprobarlo en esa condición `while` y puede seguir iterando.
+	 Típíco en **juegos**, cuando queremos que siempre haga el proceso al menos una vez. Por ej. un **jugador que juega y te aseguras de que lo haga al menos una vez,** y si sigue ganando, puede comprobarlo en esa condición **`while`** y puede seguir iterando.
 
 
 **LIMITACIONES**: 
  -	**Puede devolver  `undefined`**
- 	 Si ponemos que variable iteradora `diaSemana` es **10**, nos devolvería  **`undefined`**  ; sin embargo con el bucle  <font color ="green"><font size = 5><font face="Conolas">**while**</font></font>  </font> **no imprimiría nada**. El bucle  <font color ="green"><font size = 5><font face="Conolas">**do - while**</font></font>  </font>siempre **va a ejecutar el programa al menos UNA VEZ** (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos diaSemana = 10).
+ 	 Si ponemos que variable iteradora `diaSemana` es **10**, nos devolvería  **`undefined`**  ; sin embargo con el bucle  **`while`** **no imprimiría nada**. El bucle   **`do - while`**   siempre **va a ejecutar el programa al menos UNA VEZ** (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos diaSemana = 10).
  -	  **Riesgo de bucles infinitos:**     
-		 Si la condición del  **`while`  nunca se vuelve falsa, el bucle se ejecutará indefinidamente,** lo que puede causar problemas en la aplicación. Es crucial **asegurarse de que la condición eventualmente se evalúe como falsa** para evitar este problema.
+		 Si la condición del  **`while`**  nunca se vuelve falsa, el bucle se ejecutará indefinidamente,** lo que puede causar problemas en la aplicación. Es crucial **asegurarse de que la condición eventualmente se evalúe como falsa** para evitar este problema.
  -  **Menos común que otros bucles:**
         En comparación con los bucles  **`for`**  y  **`while`**, el  **`do...while`**  se usa **con menos frecuencia**, ya que a menudo se puede lograr la misma lógica con los otros tipos de bucles.
     
@@ -2356,7 +2356,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzQxNTMwNCwtODY1MjEwNjk1LDE2OD
+eyJoaXN0b3J5IjpbLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2OD
 E5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgw
 OTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNT
 A1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQw
