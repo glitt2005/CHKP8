@@ -2004,7 +2004,7 @@ const login = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve('User logged in...');
-    }, 2000);
+    }, 4000);
   });
 }
 
@@ -2038,7 +2038,7 @@ loginActivities();  // retorna 'Updating last login...'
 
 **3.** Aquí, al poner los dos `await`  ***en este orden***, estamos **estableciendo la secuencia** que necesitamos que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace la función `updateAccount()`: de hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.** 
 
-**4.** Por tanto, el **tiempo total de esta ejecucion** de la función asíncrona `loginActivities()` será la suma de las dos promesas, o sea, **4 segundos.**
+**4.** Por tanto, el **tiempo total de esta ejecucion** de la función asíncrona `loginActivities()` será la **suma** de las dos promesas, o sea, **6 segundos.**
 
 
 <br>
@@ -2108,16 +2108,12 @@ loginActivities(login(), updateAccount());
 ```
 
 
-
-```js
-Aquí, los :
-
-- Igual que en el ejemplo anterior, el total que se tardará son 4 segundos.  Después de 4 segundos, las dos funciones imprimirían a la vez.
+- El total que se tardará son 4 segundos.  Después de eseos 4 segundos, las dos funciones imprimirían a la vez.
 - Los nombres de los argumentos no tienen por qué ser los de las funciones, pero lo hacemos porque son más descriptivos así.
 Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vamos a poner nombres diferentes a los argumentos y a los nombres de las variables de await, para que veamos cómo se mapean:
 
 // b) modificación de argumentos para explicar cómo se mapean los conceptos
-
+```js
 async function loginActivities(r, s) {
   const nombre_1 = await s;
   console.log(nombre_1);
@@ -2264,11 +2260,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTEyNDI0MDIsLTQxNDU4MjY1MywxND
-A3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2
-NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMS
-w5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgw
-MDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LD
-E3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUz
-MTM0XX0=
+eyJoaXN0b3J5IjpbMTI3NTUyODQxNCwtNDE0NTgyNjUzLDE0MD
+c3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0
+NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLD
+kxNzE1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAw
+ODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAzOTYsMT
+c3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMx
+MzRdfQ==
 -->
