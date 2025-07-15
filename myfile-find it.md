@@ -2342,6 +2342,18 @@ queryApis();
 
 <br>
 
+
+
+
+<br>
+<img src="interrogacion.png" align="left" width="90"> <h3>  ¿CUÁNDO DEBEMOS ENVOLVER los todos los procesos se<br> ejecuten a la vez 
+y no en secuencia?<h3>
+
+
+
+<br>
+<br>
+
 Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`**, o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que :
 
 -	Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
@@ -2353,11 +2365,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtND
-A3MTQwNjEzLDM4NzE0MzQxOCwtMTUyMzc5ODE5NSwyOTY3NTc3
-MCw3OTgxNDQyOTgsOTM3MjYyNTY5LDQ1NDYxOTIxMSwtMTg4OT
-I1OTM5NCw2ODkxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4
-MDMsNDYyMzM2NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMz
-E4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjZd
-fQ==
+eyJoaXN0b3J5IjpbNTg5NjY1ODMyLC0yMDQ2NzI1NDgyLC0xOD
+g4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0MTgsLTE1MjM3OTgx
+OTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNzI2MjU2OSw0NTQ2MT
+kyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4LC0xODA2NTAyMzcx
+LC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzExMTQsLTc2MD
+czMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMzY5NzA3XX0=
+
 -->
