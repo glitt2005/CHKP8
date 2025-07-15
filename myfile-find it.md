@@ -2173,7 +2173,7 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 
 <div align="center">
-<img src="tryCatch.png" width = "40%" alt="bloque try-catch">
+<img src="tryCatch.png" width = "45%" alt="bloque try-catch">
 </div>
 
 <br>
@@ -2275,11 +2275,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODkyNTkzOTQsNjg5MTA0Nzk4LC0xOD
-A2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzEx
-MTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMz
-Y5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMy
-MCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xOD
-UyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3
-MDddfQ==
+eyJoaXN0b3J5IjpbLTE5NjAxMDMyMjksLTE4ODkyNTkzOTQsNj
+g5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMz
+NjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMD
+M4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2
+NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtND
+g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
+NzU3MzFdfQ==
 -->
