@@ -2346,11 +2346,11 @@ queryApis();
 
 
 <br>
-<img src="interrogacion.png" align="left" width="90"> <h3>  ¿CUÁNDO DEBEMOS ENVOLVER los todos los procesos se<br> ejecuten a la vez 
-y no en secuencia?<h3>
+<img src="interrogacion.png" align="left" width="90"> <h3>  ¿CUÁNDO DEBEMOS ENVOLVERLAS PROMESAS CON BLOQUES  try() - catch() DE FORMA INDIVIDUAL
+ Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE  try() - catch()<h3>
 
 
-
+DDDD
 <br>
 <br>
 
@@ -2365,11 +2365,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5NjY1ODMyLC0yMDQ2NzI1NDgyLC0xOD
-g4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0MTgsLTE1MjM3OTgx
-OTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNzI2MjU2OSw0NTQ2MT
-kyMTEsLTE4ODkyNTkzOTQsNjg5MTA0Nzk4LC0xODA2NTAyMzcx
-LC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzExMTQsLTc2MD
-czMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMzY5NzA3XX0=
+eyJoaXN0b3J5IjpbMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMT
+g4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNTIzNzk4
+MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1NjksNDU0Nj
+E5MjExLC0xODg5MjU5Mzk0LDY4OTEwNDc5OCwtMTgwNjUwMjM3
+MSwtMjAwMTg4MDgwMyw0NjIzMzY2NywtMTQzMjcxMTE0LC03Nj
+A3MzAxOCwzMzIzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OTcwN119
 
 -->
