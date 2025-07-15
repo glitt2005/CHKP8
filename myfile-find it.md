@@ -2134,7 +2134,7 @@ b)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porq
 <br>
 <br>
 
-c)  Aquí cambiamos, además, **el orden de las dos funciones asíncroinas*es de los **argumentos** sean iguales a los de las variables,  **hemos cambiado sus nombres:**
+c)  Aquí cambiamos, además, **el orden de las dos funciones asíncronas** :
 
 <br>
 
@@ -2273,7 +2273,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMTQ1MDA4OCwtNzYwNzMwMTgsMzMyMz
+eyJoaXN0b3J5IjpbLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMz
 E4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYs
 LTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMT
 kzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5
