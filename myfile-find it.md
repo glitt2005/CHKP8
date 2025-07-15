@@ -2160,7 +2160,11 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 ### 3.2  Async y await en comunicaciones API.
 
-Vamos a capturar 2 URLs (endpoints APIs) utilizando el async y await.  El orden de los dos await está determinado por 
+ - Capturaremos 2 URLs (endpoints APIs) utilizando el async y await.
+ - 
+   Co
+
+mo
 
 ```js
 async function queryApis() {
@@ -2175,7 +2179,8 @@ async function queryApis() {
 queryApis();
 
 ```
-
+1. El orden de los dos await está determinado por el orden de nuestro código.
+2. 2. 
 Los
 HASTA AQUÍ
 
@@ -2223,11 +2228,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MDgzMTc2LC0xODA2NTAyMzcxLC0yMD
-AxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzExMTQsLTc2MDczMDE4
-LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MT
-IxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcs
-MTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xOD
-kwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgw
-XX0=
+eyJoaXN0b3J5IjpbLTE1ODcyOTc5MDksLTE4MDY1MDIzNzEsLT
+IwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTExNCwtNzYwNzMw
+MTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMj
+kxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4
+NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLT
+E4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mzg5
+ODBdfQ==
 -->
