@@ -2198,7 +2198,8 @@ FUNCIONA así:
 
 <br>
 
-Vamos a ver todo esto con el EJEMPLO A ejemplo:
+Vamos a ver todo esto con el EJEMPLO A:
+
 #### EJEMPLO A: 
 
 ```js
@@ -2233,10 +2234,11 @@ Esto es parte de la razón por la que utilizando esas herramientas de **`async`-
 
 Si ejecuto esto unas cuantas veces seguidas, siempre, **siempre vamos a obtener primero nuestros datos de <font color= "green">*jasonplaceholder*</font>**  Y  en segundo lugar los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dado. 
 
+<br>
 
 #### 3.2   Los bloques <big>`try()`</big> y <big>`catch()`</big> en comunicaciones API.
 
-Si en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, pero no el 'catch()', ya que 
+CoSi en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, pero no el 'catch()', ya que 
 
 
 
@@ -2282,11 +2284,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNzE4MzA5MSwtMTg4OTI1OTM5NCw2OD
-kxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2
-NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMz
-g0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1
-MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00OD
-gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
-NTczMV19
+eyJoaXN0b3J5IjpbLTIxNDM5MDAxODksLTE4ODkyNTkzOTQsNj
+g5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMz
+NjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMD
+M4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2
+NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtND
+g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
+NzU3MzFdfQ==
 -->
