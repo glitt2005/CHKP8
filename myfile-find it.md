@@ -2120,7 +2120,7 @@ Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vam
 
 
 <div align="center">
-<img src="cierres.png" width = "80%" alt="cierres async - await">
+<img src="cierres.png" width = "70%" alt="cierres async - await">
 </div>
 
 <br>
@@ -2262,11 +2262,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNj
-k3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIw
-LDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NT
-IwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcw
-Nyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5LC0xNz
-kyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LDE3Nzk2NzQ2
-NDJdfQ==
+eyJoaXN0b3J5IjpbLTUwNTMwNzA2NSwzMzIzMTg2MDAsMTAzOD
+Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
+LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
+I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
+NzMxLDkxNzE1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMj
+I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
+OTZdfQ==
 -->
