@@ -2162,7 +2162,7 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
  - [x] Capturaremos 2 URLs (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el bloque  `try`…`catch` 
- - [x] Veremos cómo usar las funciones `then()`con `catch()`, pero trabajando con múltiples promesas. Combinándolos con `awaitp  implementaremos una forma diferente de manejar los errores.
+ - [x] Veremos cómo usar las funciones `then()`con `catch()`, pero trabajando con múltiples promesas. Combinándolos con `await` implementaremos una forma diferente de manejar los errores.
   
 
  `try`…`catch`
@@ -2249,7 +2249,7 @@ Esto puede ser simplemente que **al conectarse un usuario a una aplicación** (q
 Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentran dentro de la página de su perfil: si hay algún problema con Instagram o alguna **demora con sus APIs**, estaría bien poner en algún lado del programa algo para que diga "**error al contactar a Instagram**", o "**por favor, inténtelode nuevo en otro momento**" algo similar. 
 
 
-Hay principalmente dos formas de hacerlo:
+
 
 
 
@@ -2296,11 +2296,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2Njg0NzYzMiwtMTg4OTI1OTM5NCw2OD
-kxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2
-NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMz
-g0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1
-MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00OD
-gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
-NTczMV19
+eyJoaXN0b3J5IjpbLTEwMjUwNDg0NzAsLTE4ODkyNTkzOTQsNj
+g5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMz
+NjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMD
+M4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2
+NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtND
+g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
+NzU3MzFdfQ==
 -->
