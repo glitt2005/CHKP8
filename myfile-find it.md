@@ -2059,6 +2059,7 @@ y no en secuencia?<h3>
 
 ### 3.1  Uso de  "cierres o "closures" con async y await
 
+Los cierres o closures en Javascript son funciones que tienen acceso a variables de su ámbito léxico (el ámbito donde fueron declaradas) incluso después de que la función externa haya terminado de ejecutarse. `Async/await`  no altera la funcionalidad de los cierres, pero puede afectar la forma en que se accede a ellos en código asíncrono.
 HASTA AQUÍ
 <br>
 <br>
@@ -2182,11 +2183,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzI2NjU2OCwxNzYxMTkzMjQ2LC00OD
-gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
-NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMz
-IyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAw
-Mzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMj
-Q1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMxLC0yMDE1MTUx
-MzAyXX0=
+eyJoaXN0b3J5IjpbLTE0NjA5NjUwMTcsMTc2MTE5MzI0NiwtND
+g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
+NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLT
+MyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEw
+MDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLD
+I0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1
+MTMwMl19
 -->
