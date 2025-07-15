@@ -2217,7 +2217,7 @@ Si ejecuto esto unas cuantas veces seguidas, siempre, **siempre vamos a obtener 
 
 #### 3.2   Los bloques <big>`try()`</big> y <big>`catch()`</big> en comunicaciones API.
 
-En el ejemplo anterior 
+Si en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, pero no el catch(), ya que 
 
 
 
@@ -2263,7 +2263,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzODgwOTQ1Niw2ODkxMDQ3OTgsLTE4MD
+eyJoaXN0b3J5IjpbLTg5NzE2NTQzMiw2ODkxMDQ3OTgsLTE4MD
 Y1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTEx
 NCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNj
 k3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIw
