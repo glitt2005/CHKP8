@@ -2148,11 +2148,11 @@ c)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 <br>
 
--  El total de segundos*seguirían **exactamente igual que el ejemplo anterior: 4 segundos**.  
+-  El total de segundos seguirían siendo **exactamente igual que el ejemplo anterior: 4 segundos**.  
 -  Sin embargo:
-	- A los 2 segundos imprimiría la función `updateAccount()`
-	-  Transcurridos los siguientes 2 segundos, se imprimiría `login()` dos segundos.
-		El tiempo estaba corriendo también para esta funci Ese tiempo correría también para la función `login()`, que al tardar 4 segundos en total, pues solo le quedarían otros dos segundos más para ejecutarse.  Así, a lo
+	- A los **2 segundos** imprimiría la función **`updateAccount()`**
+	-  **Transcurridos los siguientes 2 segundos**, se imprimiría **`login()` .**
+		**El tiempo estaba corriendo** también para esta función `login()` más larga. 
 
 
 
@@ -2279,11 +2279,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzY2OTMxNTcsLTE0MzI3MTExNCwtNz
-YwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcs
-LTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMD
-U1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgx
-NjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NT
-U2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3
-ODFdfQ==
+eyJoaXN0b3J5IjpbNDYyMzM2NjcsLTE0MzI3MTExNCwtNzYwNz
+MwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTEx
+MjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NT
+Q4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMs
+LTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mz
+g5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3ODFd
+fQ==
 -->
