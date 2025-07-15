@@ -2066,15 +2066,13 @@ Los cierres o closures en Javascript son funciones que tienen **acceso a variabl
 -	Legibilidad
 -	Gestión del Código
 
- Explicado de una forma sencilla, el cierre es una función que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones 
+ Explicado de una forma sencilla, el cierre es una función que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones.
 
-*Los cierres en JS con una herramienta poderosa que combinada con las funciónes asíncronas permite mantener el estad
-o y acceder a variables externas en operaciones asíncronas---*
+*Un cierre se produce cuando una función "recuerda" su ámbito léxico, es decir, las variables que estaban disponibles en el momento de su creación, incluso si esa función se ejecuta fuera de ese ámbito. En otras palabras, una función interna puede acceder a variables de su función contenedora (externa) incluso después de que la función externa haya terminado de ejecutarse.-*
 
 
 
 ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
--	Se refiere a la capacidad de una función para recordar y utilizar la información de ejecuciones previas. Esto implica que la función puede acceder a variables que no estén declaradas dentro de su ámbito local, sino que están disponibles de alguna manera fuera de ella, o que han sido modificadas en ejecuciones anteriores.
 
 -	En cierres o clausuras, de nuevo, “mantener el estado” significa que una función puede acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma). Estas variables “existen” en la memoria incluso después de que la función que las creó ha terminado de ejecutarse, y pueden ser accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.
 
@@ -2211,11 +2209,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
-I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
-NzMxLDkxNzE1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMj
-I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
-OTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyND
-UwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEz
-MDJdfQ==
+eyJoaXN0b3J5IjpbLTEwMDk0NTIxNDcsMzIwNTU1NDg3LDE3Nj
+ExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2
+MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NTYzODk4MCwtNT
+UxNTczMTkyLC0zMjI3ODAwODksLTE3OTIxODc4MSwtODQ3Njkw
+MjE5LDEzOTQxMDAzOTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMT
+UwODAwMzQ2MiwyNDUwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQx
+MzFdfQ==
 -->
