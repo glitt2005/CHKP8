@@ -2057,7 +2057,7 @@ y no en secuencia?<h3>
 
 
 
-
+### 3.1  AsyCierres o "closures" 
 
 HASTA AQUÍ
 <br>
@@ -2182,7 +2182,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA0NjI1MDYsMTc2MTE5MzI0NiwtND
+eyJoaXN0b3J5IjpbLTE0MDQ1NTQ3NTAsMTc2MTE5MzI0NiwtND
 g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
 NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLT
 MyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEw
