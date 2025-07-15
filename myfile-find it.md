@@ -2207,7 +2207,8 @@ Deberíamos recibir los datos de <font color= "green">*jasonplaceholder*</font> 
 3.- Esto lo convierte **en algo muy potente**, cuando trabajamos con datos **y no sabemos cuándo vamos a recibir los datos de la API,** o de una conexión de base de datos. 
 Imaginemos una situación en la que todo este proceso gire en torno a que la primera promesa:  por ejemplo si estamos autenticando con  <font color= "green">*fakestoreapi*</font>  y estamos enviando nuestras credenciales a  <font color= "green">*fakestoreapi*</font>  y resulta que cada una de las otras llamadas de API requiere esas credenciales. 
 En esta situación es absolutamente necesario este tipo de proceso, ya que no podríamos hacer las siguientes llamadas de API si la primera no ha podido ejecutarse, y esto es parte de la razón por la que utilizando esas herramientas de async-await se han convertido tan famosas en la comunidad de JavaScript, ya que gracias a ellas, tenemos el control de esto. 
-Si ejecuto esto unas cuantas veces seguidas, siempre, siempre vamos a obtener primero nuestros datos de <font color= "green">*jasonplaceholder*</font>  Y LUEGO (en segundo lugar) los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dato. 
+
+Si ejecuto esto unas cuantas veces seguidas, siempre, siempre vamos a obtener primero nuestros datos de <font color= "green">*jasonplaceholder*</font>  Y  en segundo lugar los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dado. 
 
 Los
 HASTA AQUÍ
@@ -2256,11 +2257,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNjk2MTQ4MSw2ODkxMDQ3OTgsLTE4MD
-Y1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTEx
-NCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNj
-k3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIw
-LDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NT
-IwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcw
-N119
+eyJoaXN0b3J5IjpbLTE0Mjk0NjkxOTIsNjg5MTA0Nzk4LC0xOD
+A2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMzNjY3LC0xNDMyNzEx
+MTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4NDQ5OTAyLDgzMz
+Y5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMsMTQwNzc2OTMy
+MCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xOD
+UyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3
+MDddfQ==
 -->
