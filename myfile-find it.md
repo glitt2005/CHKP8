@@ -2032,9 +2032,9 @@ loginActivities();  // retorna 'Updating last login...'
 
 
 
-**1**. En el primer `await`, al anteponer esta palabra clave justo ahí,  se **suspenderá la ejecución de** `async` hasta que la función de `login()`  , es decir, la **Promise no termine** su ejecución.  Después, ejecutará `async`, es decir harán cun console.log de la variable `returnedLogin`. En un mundo real devolvería las licencias del usuario, su nombre y ese tipo de cosas en lugar de un string.
+**1**. En el primer `await`, al anteponer esta palabra clave justo ahí,  se **suspenderá la ejecución de** `async` hasta que la función de `login()`  , es decir, la **Promise no termine** su ejecución.  Después, ejecutará `async`, es decir harán  `console.log(returnedLogin)`. En un mundo real devolvería las **licencias del usuario, su nombre y ese tipo de cosas en lugar de un string**.
 
-**2.** Como vemos, JS nos permite tener una funcion `async` con **multiples sentencias** `await`. Cada `await`  pausa la ejecución de la función asíncrona hasta que la promesa a la que se aplica se resuelva o se rechace, devolviendo el valor de la promesa resulta. **No hay límite en la cantidad de sentencias** `await`  que puedan usar dentro de una funcióN `async`.
+**2.** Como vemos, JavaScript nos permite tener una funcion `async` con **multiples sentencias** `await`. Cada `await`  pausa la ejecución de la función asíncrona hasta que la promesa a la que se aplica se resuelva o se rechace, devolviendo el valor de la promesa resulta. **No hay límite en la cantidad de sentencias** `await`  que puedan usar dentro de una funcióN `async`.
 
 **3.** Aquí, al poner los dos `await`  en este ORDEN, estamos **estableciendo la secuencia que necesitamos** que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace `updateAccount()`.De hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.**
 
@@ -2186,11 +2186,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMj
-c4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5
-NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NT
-A1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMw
-MiwtNzUxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNTE0NTEwMiwtMT
-QwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5ODQsMTExNDg5MzE3
-Nl19
+eyJoaXN0b3J5IjpbMTkwMDIzODQ5Myw3NTU2Mzg5ODAsLTU1MT
+U3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIx
+OSwxMzk0MTAwMzk2LDE3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MD
+gwMDM0NjIsMjQ1MDUzMTM0LDU0ODgzMDE1NiwtNzc1MjI0MTMx
+LC0yMDE1MTUxMzAyLC03NTEyNzQyMTIsMTcxMTI5MjA1NSwxNj
+M1MTQ1MTAyLC0xNDA2MTE0NDIsODA5MzIyMjc0LDU1OTMwMTk4
+NF19
 -->
