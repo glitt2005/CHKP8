@@ -2039,7 +2039,7 @@ loginActivities();  // retorna 'Updating last login...'
 **3.** Aquí, al poner los dos `await`  ***en este orden***, estamos **estableciendo la secuencia** que necesitamos que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace la función `updateAccount()`: de hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.**
 
 
-**En otros lenguajes esto ya se hacía por defecto**, pero con JavaScript y su forma de ", el orden en el que funcionan son **llamada y devolución**, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo.  Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función async y await.
+**En otros lenguajes esto ya se hacía por defecto**, pero con JavaScript , el orden en el que funcionan son **llamada y devolución**, especialmente las funciones asíncronas que resuelven tareas que toman unos segundos o incluso más tiempo.  Este tipo de procesos en realidad se vuelven un poco enrevesados. Esa toda la razón por la que es necesario tener este tipo de función `async` y `await`.
 
 <br>
 
@@ -2179,11 +2179,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDcxNjgwODYsNzU1NjM4OTgwLC01NT
-E1NzMxOTIsLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAy
-MTksMTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNT
-A4MDAzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEz
-MSwtMjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIwNTUsMT
-YzNTE0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5
-ODRdfQ==
+eyJoaXN0b3J5IjpbOTE3MTU3MDcsNzU1NjM4OTgwLC01NTE1Nz
+MxOTIsLTMyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTks
+MTM5NDEwMDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MD
+AzNDYyLDI0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwt
+MjAxNTE1MTMwMiwtNzUxMjc0MjEyLDE3MTEyOTIwNTUsMTYzNT
+E0NTEwMiwtMTQwNjExNDQyLDgwOTMyMjI3NCw1NTkzMDE5ODRd
+fQ==
 -->
