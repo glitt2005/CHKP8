@@ -2290,7 +2290,9 @@ async function queryApis() {
   } catch(err) {
   }
 }
-queryApis();   //typeError: Failed to fetch
+queryApis();   
+// datos d
+// TypeError: Failed to fetch
 
 ```
 - **Retorna los datos del primero**
@@ -2337,11 +2339,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NzQ1MDIzNSwtMTg4OTI1OTM5NCw2OD
-kxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4MDMsNDYyMzM2
-NjcsLTE0MzI3MTExNCwtNzYwNzMwMTgsMzMyMzE4NjAwLDEwMz
-g0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYsLTQxNDU4MjY1
-MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00OD
-gyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3
-NTczMV19
+eyJoaXN0b3J5IjpbOTUwMjMxMjAwLC0xODg5MjU5Mzk0LDY4OT
+EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
+NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzOD
+Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
+LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
+I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
+NzMxXX0=
 -->
