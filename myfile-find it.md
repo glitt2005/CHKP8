@@ -2124,11 +2124,6 @@ async function loginActivities(r, s) {
 loginActivities(login(), updateAccount());
 ```
 <br>
-Aquí, los :
-
-- El total que se tardará son 4 segundos.  Después de 4 segundos, las dos funciones imprimirían a la vez.
-- Los nombres de los argumentos no tienen por qué ser los de las funciones, pero lo hacemos porque son más descriptivos así.
-Para mostrár que esto es así, y aunque no tenga ningún sentido práctico, vamos a poner nombres diferentes a los argumentos y a los nombres de las variables de await, para que veamos cómo se mapean:
 
 
 
@@ -2260,11 +2255,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjg4ODEzNTQsLTQxNDU4MjY1MywxND
-A3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2
-NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMS
-w5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgw
-MDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIxOSwxMzk0MTAwMzk2LD
-E3Nzk2NzQ2NDIsOTE0MjExOTEzLDE1MDgwMDM0NjIsMjQ1MDUz
-MTM0XX0=
+eyJoaXN0b3J5IjpbLTEwMzY4MTY5MywtNDE0NTgyNjUzLDE0MD
+c3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0
+NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLD
+kxNzE1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAw
+ODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAzOTYsMT
+c3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyNDUwNTMx
+MzRdfQ==
 -->
