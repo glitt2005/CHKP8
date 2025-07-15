@@ -2344,10 +2344,10 @@ queryApis();
 
 
 
-- Para diferenciar cuándo envolver todas las promesas en un solo  `try` - `catch`  o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que
+Para diferenciar cuándo envolver todas las promesas en un solo  `try` - `catch`  o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que
 
 -	Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
-	-	Por ejemplo s**i las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>  ). Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
+	-	Por ejemplo **si las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>  ). Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
 
 -	Pero en este tipo de situación del ejemplo mencionado **donde estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que **quisiéramos contactar con la que no falla de todas formas,** y entonces necesitaríamos envolverlas con el bloque **`try`- `catch` de forma individual.**
 
@@ -2356,7 +2356,7 @@ queryApis();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTc1OTY2NywxOTYyMDc4MDkxLDE0MD
+eyJoaXN0b3J5IjpbLTk1NDE4OTI3NCwxOTYyMDc4MDkxLDE0MD
 Y2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAw
 LC0yMDQ2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzOD
 cxNDM0MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4
