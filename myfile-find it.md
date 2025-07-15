@@ -2161,7 +2161,7 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 ### 3.2  <big>`async`</big> - <big>`await`</big> en comunicaciones API.
 
  - [x] Capturaremos 2 URLs (endpoints APIs) utilizando el async y await.
- - [x] Utilizaremos el bloque  `try`…`catch` 
+ - [x] Utilizaremos el bloque  `try` - `catch` 
  - [x] Veremos cómo usar las funciones `then()`con `catch()`, pero trabajando con múltiples promesas. Combinándolos con `await` implementaremos una forma diferente de manejar los errores.
   
 
@@ -2343,7 +2343,7 @@ queryApis();
 ### CUÁNDO DEBEMOS ENVOLVER LAS PROMESAS CON BLOQUES try() - catch() DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE try() - catch()?
 
 <br>
-- Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`**, o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que
+- Para diferenciar cuándo envolver todas las promesas en un solo  ` `try` - `catch`  o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que
 
 -	Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
 	-	Por ejemplo s**i las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>  ). Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
@@ -2375,11 +2375,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNj
-QzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4
-MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNT
-IzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1Njks
-NDU0NjE5MjExLC0xODg5MjU5Mzk0LDY4OTEwNDc5OCwtMTgwNj
-UwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2NywtMTQzMjcxMTE0
-XX0=
+eyJoaXN0b3J5IjpbLTE2NjU2NzU5NTQsMTk2MjA3ODA5MSwxND
+A2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYw
+MCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMz
+g3MTQzNDE4LC0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5
+OCw5MzcyNjI1NjksNDU0NjE5MjExLC0xODg5MjU5Mzk0LDY4OT
+EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
+N119
 -->
