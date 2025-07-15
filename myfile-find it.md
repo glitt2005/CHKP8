@@ -2343,8 +2343,13 @@ queryApis();
 ### CUÁNDO DEBEMOS ENVOLVER LAS PROMESAS CON BLOQUES try() - catch() DE FORMA INDIVIDUAL Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE try() - catch()?
 
 <br>
-- Retornaría **los datos del primer bloque de  `try`**
--  Y  también retornaria TypeError: Failed to fetch.  Pero da ninguna información respecto **a qué Promesa ha fallado exactamente** . Aquí obviamente lo sabríamos por descarate, pero si tuvieramos muchas promesas, no sabríamos cuál falla.
+- Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`**, o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que
+
+-	Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
+	-	Por ejemplo s**i las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>  ). Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
+
+-	Pero en este tipo de situación del ejemplo mencionado **donde estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que **quisiéramos contactar con la que no falla de todas formas,** y entonces necesitaríamos envolverlas con el bloque **`try`- `catch` de forma individual.**
+
 <br>
 
 
@@ -2370,11 +2375,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo **`try`- `catch`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjYzMzkwLDc2MjY0MzI3OSwxNzA4ND
-I1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIx
-MywtNDA3MTQwNjEzLDM4NzE0MzQxOCwtMTUyMzc5ODE5NSwyOT
-Y3NTc3MCw3OTgxNDQyOTgsOTM3MjYyNTY5LDQ1NDYxOTIxMSwt
-MTg4OTI1OTM5NCw2ODkxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMD
-E4ODA4MDMsNDYyMzM2NjcsLTE0MzI3MTExNCwtNzYwNzMwMThd
-fQ==
+eyJoaXN0b3J5IjpbMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNj
+QzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4
+MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNT
+IzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1Njks
+NDU0NjE5MjExLC0xODg5MjU5Mzk0LDY4OTEwNDc5OCwtMTgwNj
+UwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2NywtMTQzMjcxMTE0
+XX0=
 -->
