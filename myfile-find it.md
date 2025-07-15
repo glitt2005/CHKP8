@@ -2136,19 +2136,19 @@ b)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porq
 <br>
 <br>
 
-c)  Aquí cambiamos, además, **el orden de las dos funciones asíncronas** :
+c)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunque no tenga sentido práctico, pero para mostrar cómo funcionaría) :
 
 
 
 
 
 <div align="center">
-<img src="cierres2.png" width = "70%" alt="cierres async - await">
+<img src="cierres2.png" width = "73%" alt="cierres async - await">
 </div>
 
 <br>
 
-
+-  El total de segundos*seguirían **exactamente igual que el ejemplo anterior**.  Solo se han cambiado nombres.
 
 
 
@@ -2275,7 +2275,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzU1ODQ0OCwtMTQzMjcxMTE0LC03Nj
+eyJoaXN0b3J5IjpbMTM1NDU4NDUzNiwtMTQzMjcxMTE0LC03Nj
 A3MzAxOCwzMzIzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OTcwNywt
 MTEyOTEyMTkyNiwtNDE0NTgyNjUzLDE0MDc3NjkzMjAsMzIwNT
 U1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1MjAwODE2
