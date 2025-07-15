@@ -2110,8 +2110,8 @@ loginActivities(login(), updateAccount());
 Aquí, los :
 
 - El total que se tardará son 4 segundos.  Después de 4 segundos, las dos funciones imprimirían a la vez.
-
-Para que no nos confundan los argumentos con
+- Los nombres de los argumentos no tienen por qué ser los de las funciones, pero lo hacemos porque son más descriptivos así.
+Para mostrár que esto es así
 
 
 
@@ -2241,7 +2241,7 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDg4NDMyNCwtNDE0NTgyNjUzLDE0MD
+eyJoaXN0b3J5IjpbMTMxMTk0OTkyMiwtNDE0NTgyNjUzLDE0MD
 c3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0
 NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLD
 kxNzE1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAw
