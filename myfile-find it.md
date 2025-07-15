@@ -4,7 +4,7 @@
 Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de datos.
  
 
-## 1) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>for</font>:
+## 1) Bucle <big>`for`</big>:
 
 
 El bucle <font color ="green">**for**</font> es el más clásico, y constituye  **uno de los más antiguos y versátile**s en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
@@ -58,7 +58,7 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
 
 
 
-## 2) Bucle &ensp;<font color ="green"><font face="Consolas"><font size = 6>for - in</font>:
+## 2) Bucle <big>`for - in`</big>:
 
 El bucle <font color ="green">**for-in**</font> es más moderno que el anterior y tiene un lectura más sencilla y moderna para recorrer arrays. Generalmente se utiliza más que el bucle <font color ="green">**for**</font>
 
@@ -2356,11 +2356,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5Nj
-IwNzgwOTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4
-LDEwNTA1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtND
-A3MTQwNjEzLDM4NzE0MzQxOCwtMTUyMzc5ODE5NSwyOTY3NTc3
-MCw3OTgxNDQyOTgsOTM3MjYyNTY5LDQ1NDYxOTIxMSwtMTg4OT
-I1OTM5NCw2ODkxMDQ3OTgsLTE4MDY1MDIzNzEsLTIwMDE4ODA4
-MDNdfQ==
+eyJoaXN0b3J5IjpbMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4OD
+Q4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5
+LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMT
+g4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNTIzNzk4
+MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1NjksNDU0Nj
+E5MjExLC0xODg5MjU5Mzk0LDY4OTEwNDc5OCwtMTgwNjUwMjM3
+MV19
 -->
