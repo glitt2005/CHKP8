@@ -2131,12 +2131,18 @@ Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque e
 
 -  Imprimiría **exactamente igual que el ejemplo anterior**.  Solo se han cambiado nombres.
 
+<br>
 
 
 <br>
 
 
 
+<div align="center">
+<img src="cierres.png" width = "70%" alt="cierres async - await">
+</div>
+
+<br>
 
 
 
@@ -2265,11 +2271,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDczMDE4LDMzMjMxODYwMCwxMDM4ND
-Q5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2NTMs
-MTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtNDg4Mj
-Q5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3
-MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMj
-c4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5
-Nl19
+eyJoaXN0b3J5IjpbMTA2NzQ3MTYyMSwtNzYwNzMwMTgsMzMyMz
+E4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcsLTExMjkxMjE5MjYs
+LTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMDU1NTQ4NywxNzYxMT
+kzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgxNjMsLTE4OTAzNjI5
+MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NTU2Mzg5ODAsLTU1MT
+U3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3ODEsLTg0NzY5MDIx
+OV19
 -->
