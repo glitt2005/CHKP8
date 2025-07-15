@@ -2049,7 +2049,7 @@ loginActivities();  // retorna 'Updating last login...'
 
 -	**Optimización del rendimiento: evita que el programa se bloquee esperando resultados**, lo que a su vez mejora la experiencia de usuario
 
-
+Pero.....
 <br>
 <img src="interrogacion.png" align="left" width="90"> <h3>  ¿Y si queremos que los todos los procesos se<br> ejecuten a la vez 
 y no en secuencia?<h3>
@@ -2182,11 +2182,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTE5MzI0NiwtNDg4MjQ5NjQ1LC0xOD
-UyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2NzU3MzEsOTE3MTU3
-MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLTMyMjc4MDA4OSwtMT
-c5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEwMDM5NiwxNzc5Njc0
-NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLDI0NTA1MzEzNCw1ND
-g4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1MTMwMiwtNzUxMjc0
-MjEyXX0=
+eyJoaXN0b3J5IjpbLTEwNDA0NjI1MDYsMTc2MTE5MzI0NiwtND
+g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
+NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLT
+MyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEw
+MDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLD
+I0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1
+MTMwMl19
 -->
