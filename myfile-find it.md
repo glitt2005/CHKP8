@@ -2148,7 +2148,9 @@ c)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 
 <br>
 
--  El total de segundos*seguirían **exactamente igual que el ejemplo anterior**.  Solo se han cambiado nombres.
+-  El total de segundos*seguirían **exactamente igual que el ejemplo anterior: 4 segundos**.  
+-  Sin embargo, imprimiría
+	- A los 2 segundo 
 
 
 
@@ -2275,11 +2277,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NDU4NDUzNiwtMTQzMjcxMTE0LC03Nj
-A3MzAxOCwzMzIzMTg2MDAsMTAzODQ0OTkwMiw4MzM2OTcwNywt
-MTEyOTEyMTkyNiwtNDE0NTgyNjUzLDE0MDc3NjkzMjAsMzIwNT
-U1NDg3LDE3NjExOTMyNDYsLTQ4ODI0OTY0NSwtMTg1MjAwODE2
-MywtMTg5MDM2MjkzMCwtODI3Njc1NzMxLDkxNzE1NzA3LDc1NT
-YzODk4MCwtNTUxNTczMTkyLC0zMjI3ODAwODksLTE3OTIxODc4
-MV19
+eyJoaXN0b3J5IjpbLTE5MDMzMzY3MjQsLTE0MzI3MTExNCwtNz
+YwNzMwMTgsMzMyMzE4NjAwLDEwMzg0NDk5MDIsODMzNjk3MDcs
+LTExMjkxMjE5MjYsLTQxNDU4MjY1MywxNDA3NzY5MzIwLDMyMD
+U1NTQ4NywxNzYxMTkzMjQ2LC00ODgyNDk2NDUsLTE4NTIwMDgx
+NjMsLTE4OTAzNjI5MzAsLTgyNzY3NTczMSw5MTcxNTcwNyw3NT
+U2Mzg5ODAsLTU1MTU3MzE5MiwtMzIyNzgwMDg5LC0xNzkyMTg3
+ODFdfQ==
 -->
