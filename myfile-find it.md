@@ -2189,6 +2189,12 @@ try {
     // Código que se ejecuta si ocurre un error
 } 
 ```
+<br>
+
+FUNCION
+1.  Primero, se ejecuta el código en  `try {...}`.
+2.  Si no hubo errores, se ignora  `catch (err)`: la ejecución llega al final de  `try`  y continúa, omitiendo  `catch`.
+3.  Si se produce un error, la ejecución de  `try`  se detiene y el control fluye al comienzo de  `catch (err)`. La variable  `err`  (podemos usar cualquier nombre para ella) contendrá un objeto de error con detalles sobre lo que sucedió.
 
 <br>
 
@@ -2229,7 +2235,7 @@ Si ejecuto esto unas cuantas veces seguidas, siempre, **siempre vamos a obtener 
 
 #### 3.2   Los bloques <big>`try()`</big> y <big>`catch()`</big> en comunicaciones API.
 
-Si en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, pero no el catch(), ya que 
+Si en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, pero no el 'catch()', ya que 
 
 
 
@@ -2275,11 +2281,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjAxMDMyMjksLTE4ODkyNTkzOTQsNj
-g5MTA0Nzk4LC0xODA2NTAyMzcxLC0yMDAxODgwODAzLDQ2MjMz
-NjY3LC0xNDMyNzExMTQsLTc2MDczMDE4LDMzMjMxODYwMCwxMD
-M4NDQ5OTAyLDgzMzY5NzA3LC0xMTI5MTIxOTI2LC00MTQ1ODI2
-NTMsMTQwNzc2OTMyMCwzMjA1NTU0ODcsMTc2MTE5MzI0NiwtND
-g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
-NzU3MzFdfQ==
+eyJoaXN0b3J5IjpbLTI4NDk5MDYzLC0xODg5MjU5Mzk0LDY4OT
+EwNDc5OCwtMTgwNjUwMjM3MSwtMjAwMTg4MDgwMyw0NjIzMzY2
+NywtMTQzMjcxMTE0LC03NjA3MzAxOCwzMzIzMTg2MDAsMTAzOD
+Q0OTkwMiw4MzM2OTcwNywtMTEyOTEyMTkyNiwtNDE0NTgyNjUz
+LDE0MDc3NjkzMjAsMzIwNTU1NDg3LDE3NjExOTMyNDYsLTQ4OD
+I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
+NzMxXX0=
 -->
