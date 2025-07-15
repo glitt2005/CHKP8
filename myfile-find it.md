@@ -2059,7 +2059,27 @@ y no en secuencia?<h3>
 
 ### 3.1  Uso de  "cierres o "closures" con async y await
 
-Los cierres o closures en Javascript son funciones que tienen acceso a variables de su ámbito léxico (el ámbito donde fueron declaradas) incluso después de que la función externa haya terminado de ejecutarse. `Async/await`  no altera la funcionalidad de los cierres, pero puede afectar la forma en que se accede a ellos en código asíncrono.
+Los cierres o closures en Javascript son funciones que tienen **acceso a variables de su ámbito léxico** (el ámbito donde fueron declaradas) **incluso después de que la función externa haya terminado de ejecutarse.** `Async/await`  no altera la funcionalidad de los cierres, pero puede afectar **la forma en que se accede a ellos en código asíncrono**.
+
+Los cierres en JS con una herramienta poderosa que combinada con las funciónes asíncronas permite mantener el estado y acceder a variables externas en operaciones asíncronas, mejorando:
+-	Legibilidad
+-	Gestión del Código
+Dicho de una forma sencilla:  es simplemente una función que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones 
+¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
+-	Se refiere a la capacidad de una función para recordar y utilizar la información de ejecuciones previas. Esto implica que la función puede acceder a variables que no estén declaradas dentro de su ámbito local, sino que están disponibles de alguna manera fuera de ella, o que han sido modificadas en ejecuciones anteriores.
+
+-	En cierres o clausuras, de nuevo, “mantener el estado” significa que una función puede acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma). Estas variables “existen” en la memoria incluso después de que la función que las creó ha terminado de ejecutarse, y pueden ser accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.
+
+EN DEFINITIVA LOS CIERRES O CLAUSURAS  (CLOSURES):
+•	Son funciones que tienen acceso a variables de su ámbito léxico (el ámbito donde fueron declaradas), incluso después de que la función asíncrona externa ya haya devuelto una promesa o se ha completado la ejecución asíncrona.
+•	Son importantes en JavaScript porque permiten que las funciones anidadas accedan al estado de la función que la contienen y manipulen datos de diferentes ámbitos, lo cual es útil para mantener el estado y la lógica de las funciones asíncronas.
+•	En el contexto de async/await, los cierres pueden ser utilizados para mantener el estado de las variables dentro de las funciones asíncronas, permitiendo que las funciones await accedan a ellas. 
+
+
+
+
+
+
 HASTA AQUÍ
 <br>
 <br>
@@ -2183,11 +2203,11 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjA5NjUwMTcsMTc2MTE5MzI0NiwtND
-g4MjQ5NjQ1LC0xODUyMDA4MTYzLC0xODkwMzYyOTMwLC04Mjc2
-NzU3MzEsOTE3MTU3MDcsNzU1NjM4OTgwLC01NTE1NzMxOTIsLT
-MyMjc4MDA4OSwtMTc5MjE4NzgxLC04NDc2OTAyMTksMTM5NDEw
-MDM5NiwxNzc5Njc0NjQyLDkxNDIxMTkxMywxNTA4MDAzNDYyLD
-I0NTA1MzEzNCw1NDg4MzAxNTYsLTc3NTIyNDEzMSwtMjAxNTE1
-MTMwMl19
+eyJoaXN0b3J5IjpbNzk5MzMyMjYzLDE3NjExOTMyNDYsLTQ4OD
+I0OTY0NSwtMTg1MjAwODE2MywtMTg5MDM2MjkzMCwtODI3Njc1
+NzMxLDkxNzE1NzA3LDc1NTYzODk4MCwtNTUxNTczMTkyLC0zMj
+I3ODAwODksLTE3OTIxODc4MSwtODQ3NjkwMjE5LDEzOTQxMDAz
+OTYsMTc3OTY3NDY0Miw5MTQyMTE5MTMsMTUwODAwMzQ2MiwyND
+UwNTMxMzQsNTQ4ODMwMTU2LC03NzUyMjQxMzEsLTIwMTUxNTEz
+MDJdfQ==
 -->
