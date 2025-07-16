@@ -33,7 +33,7 @@ for (diaSemana = 0; diaSemana < diasDeLaSemana.length; diaSemana++) {
 NECESITAMOS:
 1.  una <font color ="green">**variable iteradora**</font>. Aquí es  `diaSemana` será utilizada a lo largo del bucle y recorrerá cada elemento del array  `diasDeLaSemana`. Pero ojo! esta **variable iteradora** no representa un valor, sino un **índice**!
 2.  declarar <font color ="green">**una condición**</font>, es decir lo que queremos que se cumpla en el bucle. El bucle se parará cuando está condición ya no se cumpla. En nuestro caso, la condición es que sea menor que menor que 7.
-	- **Ojo!** ponemos **`< 7` (o sea, hasta 6 inclusive**) en lugar de `<=7` porque recordemos que los **índices comienzan en 0** (no en 1). Por lo tanto siempre va a restar 1 del número total de los elementos del array. 
+	- **Ojo!** ponemos **`< 7` (o sea, hasta 6 inclusive**) en lugar de **`<=7`** porque recordemos que los **índices comienzan en 0** (no en 1). Por lo tanto siempre va a restar 1 del número total de los elementos del array. 
 	- Otra opción es poner un **-1 al final**, y funcionaría: **sería cuestión de gustos** en cuánto a qué te parece más fácil de leer.
 
 ```JavaScript
@@ -46,14 +46,14 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
  
 #### VENTAJAS
 
-•	**Control total sobre el índice**: Pueds acceder y manipular el índice en cada iteración.
-•	**Flexibilidad**: Permite saltar o repetir elementos modificando el índice según sea necesario.
-•	**Compatibilidad amplia**: Funciona en todas las versiones de JavaScript y es ideal para estructuras de datos complejas como matrices bidimensionales.
+•	**Control total sobre el índice**: Puedes **acceder y manipular el índice** en cada iteración.
+•	**Flexibilidad**: Permite **saltar o repetir elementos** modificando el índice según sea necesario.
+•	**Compatibilidad amplia**: Funciona en **todas las versiones de JavaScript** y es ideal para estructuras de datos complejas como matrices bidimensionales.
 
 
 #### LIMITACIONES
-•	**Propenso a errores**: Es fácil olvidar incrementar el índice o establecer incorrectamente las condiciones del bucle.
-•	**Código más verboso**: Requiere más líneas de código en comparación con otras 
+•	**Propenso a errores**: Es fácil **olvidar incrementar el índice** o establecer incorrectamente las condiciones del bucle.
+•	**Código más verboso**: Requiere **más líneas de código** en comparación con otras 
 
 
 
@@ -2356,7 +2356,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjAyMTIzNCwtOTU3MTUzNjc0LC04Nj
+eyJoaXN0b3J5IjpbMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04Nj
 UyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0
 ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MD
 g0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4
