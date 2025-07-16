@@ -208,6 +208,7 @@ NECESITAMOS:
 
 - para evitar **un bucle infinito**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Añadimos este elemento manualmente dentro del código a ejecutar, **dentro de las llaves{}.**
 
+ <br>
  
 #### EJEMPLO:  Imprimimos los días de la semana
 ```JavaScript
@@ -2361,7 +2362,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzUwODU2NCwxMTkyMjkwNjAzLC05NT
+eyJoaXN0b3J5IjpbLTI3NjQ4NjUyMiwxMTkyMjkwNjAzLC05NT
 cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
 ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
 I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
