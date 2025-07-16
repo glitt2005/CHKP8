@@ -263,7 +263,8 @@ var diasDeLaSemana = [
    
 let diaSemana = 0; 
 do {
-    console.log(diasDeLaSemana[diaSemana]); diaSemana++;
+    console.log(diasDeLaSemana[diaSemana]);
+     diaSemana++;
 } while (diaSemana < diasDeLaSemana.length)
 ```
 Como vemos, el bucle **`do - while`**  tiene una sintaxis similar al bucle **`while`**  , pero casi al revés, ya que seguiría el concepto de "**haz esto mientras se cumple esta condición**", y precisamente esta condición se pone a lo último, o sea, que **la controla al final.**
@@ -2362,7 +2363,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NjQ4NjUyMiwxMTkyMjkwNjAzLC05NT
+eyJoaXN0b3J5IjpbMTY0NjM5NzA0NCwxMTkyMjkwNjAzLC05NT
 cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
 ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
 I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
