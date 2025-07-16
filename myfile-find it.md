@@ -1,13 +1,13 @@
 
 # 1.  ¿Qué tipo de bucles hay en JS?
 
-Una de las formas más comunes de utilizar LOOPS en JS es en colecciones de datos.
+Una de las formas más comunes de utilizar bucles o **loops** en JS es en colecciones de datos. Examinamos los diferentes tipos de bucles.
  
 
 ## 1) Bucle <big>`for`</big>:
 
 
-El bucle <font color ="green">**for**</font> es el más clásico, y constituye  **uno de los más antiguos y versátile**s en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
+El bucle <font color ="green">**for**</font> es el más clásico, y constituye  **uno de los más antiguos y versátiles** en JavaScript. Es ideal cuando necesitas un control preciso **sobre el índice en cada iteración** o necesitas **manipular la secuencia** de iteración.
 
 #### SINTAXIS
 ```JavaScript
@@ -16,7 +16,7 @@ for (inicialización; condición; actualización) { // código a ejecutar }
 #### EJEMPLO:  Imprimimos los días de la semana
 
 ```JavaScript
-var diasDeLaSemana = [**strong text**
+var diasDeLaSemana = [
     "lunes",
     "martes",
     "miercoles",
@@ -2356,11 +2356,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2OD
-E5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgw
-OTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNT
-A1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQw
-NjEzLDM4NzE0MzQxOCwtMTUyMzc5ODE5NSwyOTY3NTc3MCw3OT
-gxNDQyOTgsOTM3MjYyNTY5LDQ1NDYxOTIxMSwtMTg4OTI1OTM5
-NF19
+eyJoaXN0b3J5IjpbMjEzMjAyMTIzNCwtOTU3MTUzNjc0LC04Nj
+UyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0
+ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MD
+g0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4
+MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNTIzNzk4MTk1LD
+I5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1NjksNDU0NjE5MjEx
+XX0=
 -->
