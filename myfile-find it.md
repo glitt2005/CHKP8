@@ -140,7 +140,7 @@ La propiedad color tiene el valor: Rojo
 
 
 
-El método <big>`forEach()`</big>     es un método específico para arrays que ejecuta una función proporcionada una vez por cada elemento del array.
+El método <big>`forEach()`</big>     es un **método específico para arrays** que ejecuta una función proporcionada una vez por cada elemento del array.
 
 #### SINTAXIS
 
@@ -149,8 +149,9 @@ array.forEach(function() {
     // código
 });
 ```
-
+<br>
 NECESITAMOS:
+
 -	**Elemento iterador**: nombre de la variable que representa cada elemento a iterar.
 -	**Colección**: sobre la que se van a iterrar los elementos
 -	**Instrucciones a ejecutar**.  La función dentro de una función se llama función callback. Técnicamente no es una función normal, ya que esto sucede automáticamente.
@@ -2358,7 +2359,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzUyNzIxLDExOTIyOTA2MDMsLTk1Nz
+eyJoaXN0b3J5IjpbLTUwNTY5MzY1LDExOTIyOTA2MDMsLTk1Nz
 E1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4
 NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2Mj
 Y0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0
