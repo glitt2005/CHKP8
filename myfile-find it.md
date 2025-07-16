@@ -60,7 +60,7 @@ for (diaSemana = 0; diaSemana <= (diasDeLaSemana.length -1); diaSemana++) {
 
 ## 2) Bucle <big>`for - in`</big>:
 
-El bucle <font color ="green">**for-in**</font> es más moderno que el anterior y tiene un lectura más sencilla y moderna para recorrer arrays. Generalmente se utiliza más que el bucle <font color ="green">**for**</font>
+El bucle <font color ="green">**for-in**</font> es más moderno que el anterior y tiene un **lectura más sencilla y moderna** para recorrer arrays. Generalmente se utiliza más que el bucle <font color ="green">**for**</font>.
 
 -	**Sin condiciones**
 -	**Sin incrementadores**
@@ -74,11 +74,11 @@ for (variable in objecto)
   declaración
 ```
 
-**CONVENCIÓN SINTÁCTICA**:  Para el nombre de la variable iteradora, usamos el nombre de la lista pero en singular.  Aquí pondremos un nombre de array algo más largo (`diasDeLaSemana` ) para que se vea rápidamente la diferencia entre los dos.
+**CONVENCIÓN SINTÁCTICA**:  Para el nombre de la **variable iteradora**, usamos el **nombre de la lista** pero **en singular.**  En el ejemplo siguiente, pondremos un nombre de array algo más largo (`diasDeLaSemana` ) para que se vea rápidamente la diferencia entre los dos.
 
 
 ### a) Bucle <big>`for - in`</big>  en arrays:
-#### EJEMPLO:  Imprimimos los días de la semana**
+#### EJEMPLO:  Imprimimos los días de la semana
 
 
 ```JavaScript
@@ -2356,11 +2356,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04Nj
-UyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0
-ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MD
-g0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4
-MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNTIzNzk4MTk1LD
-I5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1NjksNDU0NjE5MjEx
-XX0=
+eyJoaXN0b3J5IjpbMTgwMDEzMzYyMiwxMTkyMjkwNjAzLC05NT
+cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
+ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
+I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
+NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0MTgsLT
+E1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNzI2MjU2
+OV19
 -->
