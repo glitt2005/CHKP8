@@ -313,6 +313,7 @@ Como vemos, el bucle **`do - while`**  tiene una sintaxis similar al bucle **`wh
 	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, **hoy en día no tiene demasiado sentido utilizar** **`var`** en nuestro código.
 - Otra diferencia particular de **`var`** es que **tolera redeclaraciones**:
 
+####  EJEMPLO 1 : VAR TOLERA REDECLARACIONES:
  ```JavaScript
 var user =  "Pete";
 var user =  "John";
@@ -320,7 +321,7 @@ console.log(user); // John
  ```
 	
 
-EJEMPLO DEL ALCANDE DE **`var`**;
+#### EJEMPLO 2:  ALCANCE DE **`var`**;
 
 ```JavaScript
 var mensajeGlobal = "Hola, soy global!";
@@ -2369,11 +2370,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDY5NzkxNTQsMTE5MjI5MDYwMywtOT
-U3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2
-Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNz
-YyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0Njcy
-NTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC
-0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1
-NjldfQ==
+eyJoaXN0b3J5IjpbNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1Nz
+E1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4
+NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2Mj
+Y0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0
+ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLDM4NzE0MzQxOCwtMT
+UyMzc5ODE5NSwyOTY3NTc3MCw3OTgxNDQyOTgsOTM3MjYyNTY5
+XX0=
 -->
