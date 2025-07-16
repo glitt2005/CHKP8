@@ -311,7 +311,8 @@ Como vemos, el bucle **`do - while`**  tiene una sintaxis similar al bucle **`wh
 	- El poder averiguar **qué está pasando exactamente** en el programa para dar **error** y llevar muchísimo tiempo solventar este **problema de nombrado**.
 	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con **`var`**   esto es algo muy **difícil de hacer**.
 	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, **hoy en día no tiene demasiado sentido utilizar** **`var`** en nuestro código.
-- Otra diferencia particular de es que no tolera **redeclaraciones**:
+- Otra diferencia particular de **`var`** es que **tolera redeclaraciones**:
+
  ```JavaScript
 var user =  "Pete";
 var user =  "John";
@@ -2368,7 +2369,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA3MDg4OTgsMTE5MjI5MDYwMywtOT
+eyJoaXN0b3J5IjpbLTE3MDY5NzkxNTQsMTE5MjI5MDYwMywtOT
 U3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2
 Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNz
 YyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0Njcy
