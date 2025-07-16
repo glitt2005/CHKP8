@@ -309,11 +309,11 @@ Como vemos, el bucle **`do - while`**  tiene una sintaxis similar al bucle **`wh
 - Durante muchos años, en JavaScript **sólo existía** la  variable **`var`**.  
 - Cuando creamos un variable con **`var`**, estamos creando una **variable GLOBAL**, lo que significa que puede entrar en conflicto con otras variables, y hacer lo que se denomina como "**contaminar la variable global**". 
 	- Puede llevar mucho tiempo averiguar **qué está pasando exactamente** en el programa, y también el **solventar ese error de nombrado**.
-	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con **`var`**   esto es algo muy **difícil de hacer**.
+	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con **`var`**   esto es algo **muy difícil de hacer**.
 	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, **hoy en día no tiene demasiado sentido utilizar** **`var`** en nuestro código.
 - Otra diferencia particular de **`var`** es que **tolera redeclaraciones**:
 
-####  EJEMPLO 1 : VAR TOLERA REDECLARACIONES:
+####  EJEMPLO 1 :   **`var`** TOLERA REDECLARACIONES:
  ```JavaScript
 var user =  "Pete";
 var user =  "John";
@@ -321,7 +321,7 @@ console.log(user); // John
  ```
 	
 
-#### EJEMPLO 2:  ALCANCE DE **`var`**;
+#### EJEMPLO 2:    ALCANCE DE **`var`**;
 
 ```JavaScript
 var mensajeGlobal = "Hola, soy global!";
@@ -2370,11 +2370,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3Mjk4MTQxLDY1ODQzMzIzMywxMTkyMj
-kwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4
-LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MD
-Y2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAw
-LC0yMDQ2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzOD
-cxNDM0MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4
-XX0=
+eyJoaXN0b3J5IjpbLTE5ODI2Njk4NzMsNjU4NDMzMjMzLDExOT
+IyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5
+MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMT
+QwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2
+MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLD
+M4NzE0MzQxOCwtMTUyMzc5ODE5NSwyOTY3NTc3MCw3OTgxNDQy
+OThdfQ==
 -->
