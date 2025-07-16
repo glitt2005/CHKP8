@@ -130,7 +130,7 @@ La propiedad color tiene el valor: Rojo
 1. `propiedad`es el **elemento iterador**, que representa a la **clave** del par **clave:valor** de cada objeto.
 2. Precisamente como se trata de un objeto, **para extraer el `valor`de objeto** necesitaremos utilizar la sintaxis adecuada, que son los **corchetes [ ].**  
 
-**No funcionaría** si utilizáramos la ***dot notation*** o anotación con puntos para objetos (nos devolvería `underfined` ).  Ciertamente éste último sistema de **anotación por puntos** es considerado **una buena práctica**, **pero** en ciertos casos, como en éste, donde la misma **variable iteradora corresponde** también **a la clave** del par clave:valor del objeto, necesitamos ser **más específicos** y utilizar **la sintaxis de corchetes [ ].**
+**No funcionaría** si utilizáramos la ***dot notation*** o anotación con puntos para objetos (nos devolvería `underfined` ).  Ciertamente éste último sistema de **anotación por puntos** es considerado **una buena práctica**, **pero** en ciertos casos, como en éste, donde la misma **variable iteradora corresponde también a la clave** del par clave:valor **del objeto**, necesitamos ser **más específicos** y utilizar **la sintaxis de corchetes [ ].**
 
 
 
@@ -2358,11 +2358,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzc1MDQxNywxMTkyMjkwNjAzLC05NT
-cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
-ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
-I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
-NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0MTgsLT
-E1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNzI2MjU2
-OV19
+eyJoaXN0b3J5IjpbLTYxMzUyNzIxLDExOTIyOTA2MDMsLTk1Nz
+E1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4
+NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2Mj
+Y0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0
+ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLDM4NzE0MzQxOCwtMT
+UyMzc5ODE5NSwyOTY3NTc3MCw3OTgxNDQyOTgsOTM3MjYyNTY5
+XX0=
 -->
