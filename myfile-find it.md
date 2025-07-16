@@ -287,9 +287,9 @@ Como vemos, el bucle **`do - while`**  tiene una sintaxis similar al bucle **`wh
 
 **LIMITACIONES**: 
  -	**Puede devolver  `undefined`**
- 	 Si ponemos que variable iteradora `diaSemana` es **10**, nos devolvería  **`undefined`**  ; sin embargo con el bucle  **`while`** **no imprimiría nada**. El bucle   **`do - while`**   siempre **va a ejecutar el programa al menos UNA VEZ** (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos diaSemana = 10).
+ 	 Si ponemos que la variable iteradora `diaSemana` es **10**, nos devolvería  **`undefined`**  ; sin embargo con el bucle  **`while`** **no imprimiría nada**. El bucle   **`do - while`**   siempre **va a ejecutar el programa al menos UNA VEZ** (el otro no haría nada porque la condición está puesta al principio, y no se cumple si ponemos diaSemana = 10).
  -	  **Riesgo de bucles infinitos:**     
-		 Si la condición del  **`while`**  nunca se vuelve falsa, el bucle se ejecutará indefinidamente,** lo que puede causar problemas en la aplicación. Es crucial **asegurarse de que la condición eventualmente se evalúe como falsa** para evitar este problema.
+		 Si la condición del  `while`  nunca se vuelve **falsa**, **el bucle se ejecutará indefinidamente**, lo que puede causar problemas en la aplicación. Es crucial **asegurarse de que la condición eventualmente se evalúe como falsa** para evitar este problema.
  -  **Menos común que otros bucles:**
         En comparación con los bucles  **`for`**  y  **`while`**, el  **`do...while`**  se usa **con menos frecuencia**, ya que a menudo se puede lograr la misma lógica con los otros tipos de bucles.
     
@@ -2368,11 +2368,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTgwNDQ3NDIsMTE5MjI5MDYwMywtOT
-U3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2
-Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNz
-YyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0Njcy
-NTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC
-0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1
-NjldfQ==
+eyJoaXN0b3J5IjpbLTQ3Nzg3NjkzLDExOTIyOTA2MDMsLTk1Nz
+E1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4
+NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2Mj
+Y0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0
+ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLDM4NzE0MzQxOCwtMT
+UyMzc5ODE5NSwyOTY3NTc3MCw3OTgxNDQyOTgsOTM3MjYyNTY5
+XX0=
 -->
