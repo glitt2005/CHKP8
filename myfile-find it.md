@@ -308,7 +308,7 @@ Como vemos, el bucle **`do - while`**  tiene una sintaxis similar al bucle **`wh
 ## 1. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  var</font>
 - Durante muchos años, en JavaScript **sólo existía** la  variable **`var`**.  
 - Cuando creamos un variable con **`var`**, estamos creando una **variable GLOBAL**, lo que significa que puede entrar en conflicto con otras variables, y hacer lo que se denomina como "**contaminar la variable global**". 
-	- El poder averiguar **qué está pasando exactamente** en el programa, e y averiguar por qué está generando **error** y llevar muchísimo tiempo solventar este **problema de nombrado**.
+	- Puede llevar mucho tiempo averiguar **qué está pasando exactamente** en el programa, y el solventarel porqué de ese **error** y llevar muchísimo tiempo solventar este **problema de nombrado**.
 	- Por tanto, **necesitamos controlar dónde están nuestras variables declaradas** y dónde tenemos acceso a ellas, pero con **`var`**   esto es algo muy **difícil de hacer**.
 	- Aunque te lo puedes encontrar o pueden existir situaciones donde puede ser útil, **hoy en día no tiene demasiado sentido utilizar** **`var`** en nuestro código.
 - Otra diferencia particular de **`var`** es que **tolera redeclaraciones**:
@@ -2370,7 +2370,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Nzg5NDM0MCw2NTg0MzMyMzMsMTE5Mj
+eyJoaXN0b3J5IjpbMjE0NDEyNzMxNSw2NTg0MzMyMzMsMTE5Mj
 I5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3Mzkz
 OCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxND
 A2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYw
