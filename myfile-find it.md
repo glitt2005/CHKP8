@@ -206,7 +206,7 @@ Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bu
 NECESITAMOS:
 - **una variable iteradora**  y la declaramos **fuera del ámbito de bucle.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
 
-- para evitar **un bucle infinito**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Añadimos este elemento nualmente dentro del código a ejecutar, dentro de las llaves{}.
+- para evitar **un bucle infinito**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Añadimos este elemento manualmente dentro del código a ejecutar, **dentro de las llaves{}.**
 
  
 #### EJEMPLO:  Imprimimos los días de la semana
@@ -2361,11 +2361,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIyNzYzOTY4LDExOTIyOTA2MDMsLTk1Nz
-E1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4
-NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2Mj
-Y0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0
-ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLDM4NzE0MzQxOCwtMT
-UyMzc5ODE5NSwyOTY3NTc3MCw3OTgxNDQyOTgsOTM3MjYyNTY5
-XX0=
+eyJoaXN0b3J5IjpbLTc1MzUwODU2NCwxMTkyMjkwNjAzLC05NT
+cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
+ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
+I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
+NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0MTgsLT
+E1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNzI2MjU2
+OV19
 -->
