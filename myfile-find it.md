@@ -418,6 +418,9 @@ console.log(casa);
 ```
 
 ^(*1)^
+<br>
+
+<img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 **OJO!!**  Si estamos utilizando la plataforma web **CODEPEN**, **no nos va a mostrar el error**, por ello en este caso deberíamos utilizar otras opciones, **como la consola del navegador.**
 <br>
@@ -2375,11 +2378,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc4MDIxNjcsNjU4NDMzMjMzLDExOT
-IyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5
-MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMT
-QwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2
-MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLD
-M4NzE0MzQxOCwtMTUyMzc5ODE5NSwyOTY3NTc3MCw3OTgxNDQy
-OThdfQ==
+eyJoaXN0b3J5IjpbMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5Mj
+I5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3Mzkz
+OCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxND
+A2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYw
+MCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMz
+g3MTQzNDE4LC0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5
+OF19
 -->
