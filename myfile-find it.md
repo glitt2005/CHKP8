@@ -417,7 +417,7 @@ console.log(casa);
 //           "TypeError: Assignment to constant variable. 
 ```
 
-^(*1)^
+(*1)
 <br>
 
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
@@ -2378,11 +2378,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5Mj
-I5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3Mzkz
-OCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxND
-A2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYw
-MCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMz
-g3MTQzNDE4LC0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5
-OF19
+eyJoaXN0b3J5IjpbLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1OD
+QzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5
+NSwxNjgxOTczOTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOT
+YyMDc4MDkxLDE0MDY2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0
+OCwxMDUwNTkxNjAwLC0yMDQ2NzI1NDgyLC0xODg4OTgyMTMsLT
+QwNzE0MDYxMywzODcxNDM0MTgsLTE1MjM3OTgxOTUsMjk2NzU3
+NzBdfQ==
 -->
