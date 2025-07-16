@@ -180,10 +180,11 @@ diasDeLaSemana.forEach(function(diaSemana){
 •	**Sintaxis concisa:** Más fácil de leer y escribir, especialmente con funciones flecha.
 • **Evita errores de índice**: No necesitas preocuparte por manejar el índice manualmente.
 •	**Ideal para operaciones en cada elemento**: Perfecto para aplicar una operación a cada elemento.
+
 #### LIMITACIONES
 •	**No permite break o continue**: No puedes interrumpir o saltar iteraciones dentro del bucle.
 •	**Solo para arrays:** No funciona directamente con otros iterables como cadenas o conjuntos.
-•	**Asincronía limitada:** forEach no es ideal para manejar funciones asíncronas con async/await, ya que no esperará a que cada operación termine.
+•	**Asincronía limitada:** `forEach ()`no es ideal para manejar funciones asíncronas con `async` - `await`, ya que no esperará a que cada operación termine.
 
 
 
@@ -2359,11 +2360,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUzNDg4NDUsMTE5MjI5MDYwMywtOT
-U3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2
-Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNz
-YyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0Njcy
-NTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC
-0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1
-NjldfQ==
+eyJoaXN0b3J5IjpbOTQ3NjIzMDQsMTE5MjI5MDYwMywtOTU3MT
+UzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1
+Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNj
+QzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4
+MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNT
+IzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1Njld
+fQ==
 -->
