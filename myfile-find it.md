@@ -184,7 +184,7 @@ diasDeLaSemana.forEach(function(diaSemana){
 #### LIMITACIONES
 •	**No permite break o continue**: No puedes interrumpir o saltar iteraciones dentro del bucle.
 •	**Solo para arrays:** No funciona directamente con otros iterables como cadenas o conjuntos.
-•	**Asincronía limitada:** `forEach ()`no es ideal para manejar funciones asíncronas con `async` - `await`, ya que no esperará a que cada operación termine.
+•	**Asincronía limitada:** `forEach ()`**no es ideal para** manejar funciones asíncronas con **`async` - `await`,** ya que no esperará a que cada operación termine.
 
 
 
@@ -202,10 +202,11 @@ while (condition) {
 }
 ```
 Mientras la condición `condition` sea verdadera, el `código` del cuerpo del bucle será ejecutado.
-
+<br>
 NECESITAMOS:
-- una variable iteradora  y la declaramos **FUERA del ámbito de BUCLE.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
-- para evitar **UN BUCLE INFINITO**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Añadimos este elemento nualmente dentro del código a ejecutar, dentro de las llaves{}.
+- **una variable iteradora**  y la declaramos **fuera del ámbito de bucle.** Esto puede tener sus puntos negativos **en caso de que no quieras que se tenga acceso a esta variable exterior**  más tarde.
+
+- para evitar **un bucle infinito**, necesitamos **el incrementador** a fin de que haga cambiar el valor de la variable iterativa. Añadimos este elemento nualmente dentro del código a ejecutar, dentro de las llaves{}.
 
  
 #### EJEMPLO:  Imprimimos los días de la semana
@@ -2360,11 +2361,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3NjIzMDQsMTE5MjI5MDYwMywtOTU3MT
-UzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1
-Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNj
-QzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4
-MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNT
-IzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1Njld
-fQ==
+eyJoaXN0b3J5IjpbNTIyNzYzOTY4LDExOTIyOTA2MDMsLTk1Nz
+E1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4
+NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2Mj
+Y0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0
+ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLDM4NzE0MzQxOCwtMT
+UyMzc5ODE5NSwyOTY3NTc3MCw3OTgxNDQyOTgsOTM3MjYyNTY5
+XX0=
 -->
