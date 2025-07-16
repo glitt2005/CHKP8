@@ -100,8 +100,9 @@ for (diaSemana in diasDeLaSemana) {
 Como vemos la sintaxis es más sencilla y corta que la anterior.
 
 ### b) Bucle <big>`for - in`</big>   en objetos:
-Esto muy común cuando llamamos a una API, es decir, salimos a otro servidor(por wjemtplo Twitter) y extraemos tweets. Éstos son con frecuencia enviados en formato objeto, es decir con una estructura de pares clave:valor.
-Si queremos mostrar esos datos en una página, la forma de hacerlo es iterando sobre esos datos, ese objeto.  Y una de las formas más comunes de hacerlo es mediante este bucle  <font color ="green">**for - in**</font>.
+
+- Esto **muy común cuando llamamos a una API,** es decir, salimos a otro servidor (por ejemplo, ***Twitter***) y extraemos *tweets*. Éstos son **con frecuencia enviados en formato objeto**, es decir con una estructura de pares clave:valor.
+- **Si queremos mostrar esos datos en una página**, la forma de hacerlo es **iterando** sobre esos datos, ese objeto.  Y una de las formas más comunes de hacerlo es mediante este bucle  <font color ="green">**for - in**</font>.
 
 #### EJEMPLO:  Imprimimos características de un coche
 
@@ -2356,7 +2357,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDEzMzYyMiwxMTkyMjkwNjAzLC05NT
+eyJoaXN0b3J5IjpbLTQ0NDEwNzA4NCwxMTkyMjkwNjAzLC05NT
 cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
 ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
 I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
