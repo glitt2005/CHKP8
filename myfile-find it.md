@@ -355,6 +355,7 @@ console.log(dentroDeBloque);
 let user;
 let user;  // Identifier 'user' has already been declared
 ```
+<br>
 
  EJEMPLO DE **`let`** vs. **`var`**;
 
@@ -2371,11 +2372,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTQxOTI1LDY1ODQzMzIzMywxMTkyMj
-kwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4
-LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MD
-Y2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAw
-LC0yMDQ2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzOD
-cxNDM0MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4
-XX0=
+eyJoaXN0b3J5IjpbMTk2ODM3MTA0OSw2NTg0MzMyMzMsMTE5Mj
+I5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3Mzkz
+OCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxND
+A2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYw
+MCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMz
+g3MTQzNDE4LC0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5
+OF19
 -->
