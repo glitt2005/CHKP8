@@ -97,7 +97,7 @@ for (diaSemana in diasDeLaSemana) {
 }
 ```
 
-Como vemos la sintaxis es más sencilla y corta que la anterior.
+Como vemos la sintaxis es más **sencilla y corta** que la anterior.
 
 ### b) Bucle <big>`for - in`</big>   en objetos:
 
@@ -126,9 +126,10 @@ La propiedad año tiene el valor: 2013
 La propiedad color tiene el valor: Rojo
 */
 ```
-NOTAS:
-1. `propiedad`es el **elemento iterador**, que representa a la **clave** del par clave:valor de cada objeto.
-2. Precisamente como se trata de un objeto, para extraer el `valor`de objeto necesitaremos utilizar la sintaxis adecuada, que son los **corchetes [ ].**  
+**NOTAS:**
+1. `propiedad`es el **elemento iterador**, que representa a la **clave** del par **clave:valor** de cada objeto.
+2. Precisamente como se trata de un objeto, **para extraer el `valor`de objeto** necesitaremos utilizar la sintaxis adecuada, que son los **corchetes [ ].**  
+
 **No funcionaría** si utilizáramos la ***dot notation*** o anotación con puntos para objetos (nos devolvería **`underfined`**).  Ciertamente éste último sistema de notación es considerado **una buena práctica**, pero en ciertos casos, como en éste, donde la misma **variable iteradora corresponde** también **a la clave** del par clave:valor del objeto, necesitamos ser **más específicos** y utilizar **la sintaxis de corchetes [ ].**
 
 
@@ -2357,7 +2358,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDEwNzA4NCwxMTkyMjkwNjAzLC05NT
+eyJoaXN0b3J5IjpbLTU1MzY0MTY1OCwxMTkyMjkwNjAzLC05NT
 cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
 ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
 I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
