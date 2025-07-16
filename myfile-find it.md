@@ -345,11 +345,11 @@ console.log(dentroDeBloque);
 ## 2. Variable &ensp;<font color ="green"><font face="Consolas"><font size = 6>  let</font>
 
 - **`let`** vino hace unos años, y se convirtió en una **mejor** manera de definir variables, ya que **no contaminaba el espacio de nombramiento global**.
-- **`let`** permite reasignar el valor de la variable.
+- **`let`** permite **reasignar el valor** de la variable.
 - Como consecuencia,  era mucho más específico, estaba **más limitado**; si se creaba dentro de una función o se añadía a ella, **sólo estaría disponible en esa función:** no habría otros momentos en los que estuviera disponible. 
-- **`let`** limita el alcance de las variables al bloque donde se definen, evitando efectos secundarios no deseados en otros bloques de código.
-- **`let`** no permite redeclarar la misma variable en el mismo ámbito, lo que ayuda a evitar errores.
-- El alcance de bloque de  **`let`** hace que el código sea más fácil de entender y mantener.
+- **`let`** limita el **alcance** de las variables **al bloque donde se definen**, evitando efectos secundarios no deseados en otros bloques de código.
+- **`let`** **no permite redeclarar** la misma variable **en el mismo ámbito**, lo que ayuda a evitar errores.
+- El alcance de bloque de  **`let`** hace que el **código sea más fácil de entender y mantener.**
 - **No tolera redeclaraciones**:
 ```JavaScript
 let user;
@@ -2371,11 +2371,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzgxMDcyMjcsNjU4NDMzMjMzLDExOT
-IyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5
-MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMT
-QwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2
-MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLD
-M4NzE0MzQxOCwtMTUyMzc5ODE5NSwyOTY3NTc3MCw3OTgxNDQy
-OThdfQ==
+eyJoaXN0b3J5IjpbMTc5NTQxOTI1LDY1ODQzMzIzMywxMTkyMj
+kwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4
+LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MD
+Y2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAw
+LC0yMDQ2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzOD
+cxNDM0MTgsLTE1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4
+XX0=
 -->
