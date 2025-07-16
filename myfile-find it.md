@@ -267,18 +267,23 @@ do {
      diaSemana++;
 } while (diaSemana < diasDeLaSemana.length)
 ```
+<br>
+
 Como vemos, el bucle **`do - while`**  tiene una sintaxis similar al bucle **`while`**  , pero casi al revés, ya que seguiría el concepto de "**haz esto mientras se cumple esta condición**", y precisamente esta condición se pone a lo último, o sea, que **la controla al final.**
 
-
+<br>
 
 
 **VENTAJAS**: 
 - El hecho de que **garantice que al menos va a recorrer el bucle una vez, proporciona información**. 
 - Permite definir l**a lógica del bucle antes de evaluar la condición**, lo que puede ser **más conveniente en ciertos escenarios**.
+ <br>
 
-	 **EJEMPLO DE APLICACIÓN**: 
-	 Típíco en **juegos**, cuando queremos que siempre haga el proceso al menos una vez. Por ej. un **jugador que juega y te aseguras de que lo haga al menos una vez,** y si sigue ganando, puede comprobarlo en esa condición **`while`** y puede seguir iterando.
+**EJEMPLO DE APLICACIÓN**: 
 
+ Típíco en **juegos**, cuando queremos que siempre haga el proceso al menos una vez. Por ej. un **jugador que juega y te aseguras de que lo haga al menos una vez,** y si sigue ganando, puede comprobarlo en esa condición **`while`** y puede seguir iterando.
+
+<br>
 
 **LIMITACIONES**: 
  -	**Puede devolver  `undefined`**
@@ -2363,11 +2368,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NjM5NzA0NCwxMTkyMjkwNjAzLC05NT
-cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
-ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
-I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
-NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0MTgsLT
-E1MjM3OTgxOTUsMjk2NzU3NzAsNzk4MTQ0Mjk4LDkzNzI2MjU2
-OV19
+eyJoaXN0b3J5IjpbLTE0OTgwNDQ3NDIsMTE5MjI5MDYwMywtOT
+U3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2
+Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNz
+YyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0Njcy
+NTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC
+0xNTIzNzk4MTk1LDI5Njc1NzcwLDc5ODE0NDI5OCw5MzcyNjI1
+NjldfQ==
 -->
