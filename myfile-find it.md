@@ -1317,6 +1317,7 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 <div align="center">
 <img src="claseConstructor.png" width="85%" Alt="clase e instancia">
 </div>
+<br>
 
 -	El hecho de crear una **instancia** nos dirige automáticamente **al `constructor`.**
 -	En **`constructor ({ name })`**, aquí   **`name`**  mapeará a lo que se pase cuando creemos un nuevo Instructor: **`new Instructor`**). - A continuación queremos hacer algo con este **`name`**:
@@ -2600,7 +2601,7 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDE2NzI4Myw1MzgyNzU5NTYsLTIwNT
+eyJoaXN0b3J5IjpbLTI3MjI1NjcxMyw1MzgyNzU5NTYsLTIwNT
 k0MDcxMjgsLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4ODI3
 NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4MywtMj
 UyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0OTgsLTI1MjUy
