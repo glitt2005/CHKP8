@@ -973,6 +973,12 @@ let newNumbers = [8,9];
 numbers.push(...newNumbers);
 console.log(numbers); //imprime [ 1, 2, 3, 4, 5, 8, 9 ]
 ```
+<br>
+
+<img src="iconoPrecauc.png" Alt="icono de cuidado">
+
+
+OJO!!
 Recordemos que **el método``` push()``` cambia la variable original.**
 
 b) **Si no pusiéramos la extensión ...** entonces lo añadiría como **un único** elemento, un **array (anidado**):
@@ -2395,11 +2401,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNzU2OTg4MSwtMTkyNjE5Njk3NCw5MT
-A0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0
-OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOT
-IyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5
-MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMT
-QwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2
-MDBdfQ==
+eyJoaXN0b3J5IjpbLTIwMTY5MTMyMDksLTE5MjYxOTY5NzQsOT
+EwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQw
+NDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMT
+kyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTcz
+OTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLD
+E0MDY2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkx
+NjAwXX0=
 -->
