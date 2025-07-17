@@ -2174,11 +2174,11 @@ loginActivities();  // retorna 'Updating last login...'
 
 #### ¿Cómo funciona este proceso?
 
-**1**. En el primer `await`, al anteponer esta palabra clave justo ahí,  se **suspenderá la ejecución de** `async` hasta que la función de `login()`  , es decir, **esta promesa no termine** su ejecución.   Y solo después, ejecutará `async`, es decir harán  `console.log(returnedLogin)`. En un mundo real devolvería las **licencias del usuario, su nombre y ese tipo de cosas en lugar de un string**.
+**1**. En el primer `await`, al anteponer esta palabra clave justo ahí,  se **suspenderá la ejecución de** `async` hasta que la función de `login()`  , es decir, **esta promesa no termine** su ejecución.   Y solo después, ejecutará `async`, es decir ejecutará  `console.log(returnedLogin)`. En un mundo real devolvería las **licencias del usuario, su nombre y ese tipo de cosas en lugar de un string**.
 
-**2.** Como vemos, JavaScript **nos permite** tener una funcion **`async` con multiples sentencias `await`**.  Cada `await`  pausa la ejecución de la función asíncrona hasta que la promesa a la que se aplica se resuelva o se rechace, devolviendo el valor de la promesa resulta. **No hay límite en la cantidad de sentencias** `await`  que puedan usar dentro de una funcióN `async`.
+**2.** Como vemos, JavaScript **nos permite** tener una funcion **`async` con multiples sentencias `await`**.  Cada `await`  pausa la ejecución de la función asíncrona hasta que la promesa a la que se aplica **se resuelva o se rechace**, devolviendo el valor de la promesa resuelta. **No hay límite en la cantidad de sentencias** `await`  que puedan usar dentro de una función `async`.
 
-**3.** Aquí, al poner los dos `await`  ***en este orden***, estamos **estableciendo la secuencia** que necesitamos que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace la función `updateAccount()`: de hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.** 
+**3.** Al poner los dos `await`  ***en este orden***, estamos **estableciendo la secuencia** que necesitamos que ocurra. No tendría sentido que `updateAccount()` occurriera antes que `login()` porque necesitamos los datos del `login()` para poder actualizar la cuenta, que es lo que hace la función `updateAccount()`: de hecho nos daría error. `async`/`await`nos permite **encadenar multiples operaciones** asíncronas de forma secuencial. **Nosotros dictamos el orden.** 
 
 **4.** Por tanto, el **tiempo total de esta ejecucion** de la función asíncrona `loginActivities()` será la **suma** de las dos promesas, o sea, **6 segundos.**
 
@@ -2498,11 +2498,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTM4ODc3MSwyMDUyNTk2OTkzLC0yMD
-Q0NTczNjM2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYx
-OTM5NSwyNDU2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMT
-EwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5
-NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMz
-I5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0x
-MzAzMDc5Njg1XX0=
+eyJoaXN0b3J5IjpbOTM5MzAxNjAsMjA1MjU5Njk5MywtMjA0ND
+U3MzYzNiwtNTEyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkz
+OTUsMjQ1NjQxNTAsLTExMzYyMjY3LC04Njk2MDYzNjEsLTExMD
+A4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4
+MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNzEsMTE4MDM1MjMyOS
+wyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkwNzgwODAzMCwtMTMw
+MzA3OTY4NV19
 -->
