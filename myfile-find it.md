@@ -654,11 +654,11 @@ obj.obtenerValorFlecha(); // Salida: 10
 ## 3) EN RESUMEN
 
 #### 1. VENTAJAS DE LAS FUNCIONES FLECHA
-- **Contexto Léxico:** A diferencia de las funciones regulares, las funciones flecha **no tienen su propio enlace a  `this`.** En cambio,  `this`  dentro de una función flecha se refiere al contexto léxico, es decir, al **valor de  `this`  **en el ámbito donde la función flecha fue definida. Esto evita errores comunes** relacionados con el contexto de  `this`  al usar funciones de **callback** dentro de **métodos de objetos o en otros contextos donde  `this`  podría cambiar dinámicamente.**
+- **Contexto Léxico:** A diferencia de las funciones regulares, las funciones flecha **no tienen su propio enlace a  `this`.** En cambio,  `this`  dentro de una función flecha **se refiere al contexto léxico**, es decir, al valor de  `this`  **en el ámbito donde la función flecha fue definida. Esto evita errores comunes** relacionados con el contexto de  `this`  al usar funciones de ***callback*** dentro de **métodos de objetos o en otros contextos donde  `this`  podría cambiar dinámicamente.**
 
 
     
--   **Uso recomendado:** Son útiles cuando se quiere mantener el  `this`  del contexto envolvente, como en **callbacks** o **métodos de objetos** donde no se requiere que  **`this`  apunte al objeto que llama a la función.**
+-   **Uso recomendado:** Son útiles cuando se quiere mantener el  `this`  del contexto envolvente, como en ***callbacks*** o **métodos de objetos** donde **no** se requiere que  **`this`  apunte al objeto que llama a la función.**
 
 
     
@@ -2378,7 +2378,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ3NjgyNjc1LDMxODU2NDA0OCwtOTA0MT
+eyJoaXN0b3J5IjpbMTU4MDExOTIxLDMxODU2NDA0OCwtOTA0MT
 MyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOTIyOTA2MDMs
 LTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOT
 E5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkw
