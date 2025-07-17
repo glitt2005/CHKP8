@@ -1310,7 +1310,8 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
  -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto** (lo haremos con la palabra clave **`new`** ).
 .  
 <br>
-#### EJEMPLO DE CLASE E INSTANCIA:
+
+####  EJEMPLO DE CLASE E INSTANCIA:
 
  - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**
 <div align="center">
@@ -2599,7 +2600,7 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMjYwNTI0LC0yMDU5NDA3MTI4LC0zMz
+eyJoaXN0b3J5IjpbNTM4Mjc1OTU2LC0yMDU5NDA3MTI4LC0zMz
 Q5NDAxMjAsLTQ2NjYzNTU0MCwyMDMzODgyNzY3LDIwNjUxNTAx
 NDYsNDA3NjA4MjY2LC0yMDI1MzI4ODMsLTI1MjUyNjI3OSwtOT
 k1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYyNzksMzM3MzAz
