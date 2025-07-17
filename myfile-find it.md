@@ -2246,7 +2246,7 @@ Explicado de una forma sencilla, el cierre es una función **que puede ser anida
 -	Legibilidad
 -	Gestión del Código
 <br>
-#### EJEMPLO:
+#### EJEMPLO   `async`  -  `await` con cierres:
 ```js
 const login = () => {
   return new Promise((resolve, reject) => {
@@ -2280,9 +2280,8 @@ loginActivities(login(), updateAccount());
  
 ```
 
-
-- El total que se tardará son **4 segundos** (no 6 como en el ejemplo anterior sin los cierres).  Después de esos 4 segundos, **las dos funciones imprimirían a la vez.**
-- Los **nombres de los argumentos no tienen por qué ser los de las funciones**, pero lo hacemos porque son más descriptivos así.
+ 1. El total que se tardará son **4 segundos** (no 6 como en el ejemplo    anterior sin los cierres).  Después de esos 4 segundos, **las dos funciones imprimirían a la vez.**
+ 2.  Los **nombres de los argumentos no tienen por qué ser los de las funciones**, pero lo hacemos porque son más descriptivos así.
 
 a)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque es necesario que los nombres de los **argumentos** sean iguales a los de las variables,  **hemos cambiado sus nombres:** 
 
@@ -2522,7 +2521,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTAzNTUwNSwtMjA1NjMzNzQ3MSwtNT
+eyJoaXN0b3J5IjpbLTU5MzUxNTc3NiwtMjA1NjMzNzQ3MSwtNT
 A4MjU2NDAxLDEyOTgzMzU2MTMsLTE0NDc0NjQ3NDIsNzI3MTQx
 MTkwLDc4OTEwNDc1NiwxNzAwNDEwOTYwLDE4MzgyMjc4NTIsLT
 E4OTQzMzM5MDQsLTExMzgwMzkyNDQsLTY5NTI2NzA3LDIwNTI1
