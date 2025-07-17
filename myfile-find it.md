@@ -1026,7 +1026,12 @@ console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
 
 
-AQUÍ EL IC
+<br>
+<img src="interrogacion.png" align="left" width="90"> <h3>  ¿QUÉ ESTÁ PASANDO EXACTAMENTE<h3>
+
+
+
+<br>
 
 
 Vemos que **cambia las dos variables.**  Aquí **no está pasando una copia, sino una referencia**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **como consecuencia MODIFICANDO TAMBIÉN LA VARIABLE FUENTE.** Tenemos dos soluciones a esto:
@@ -2414,11 +2419,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzgwMjYwMDIsLTE5MjYxOTY5NzQsOT
-EwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQw
-NDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMT
-kyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTcz
-OTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLD
-E0MDY2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkx
-NjAwXX0=
+eyJoaXN0b3J5IjpbNzAwNjkxMTMsLTE5MjYxOTY5NzQsOTEwND
+ExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgs
+LTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMj
+kwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4
+LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MD
+Y2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAw
+XX0=
 -->
