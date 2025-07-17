@@ -656,13 +656,14 @@ obj.obtenerValorFlecha(); // Salida: 10
 #### 1. VENTAJAS DE LAS FUNCIONES FLECHA
 - **Contexto Léxico:** A diferencia de las funciones regulares, las funciones flecha **no tienen su propio enlace a  `this`.** En cambio,  `this`  dentro de una función flecha **se refiere al contexto léxico**, es decir, al valor de  `this`  **en el ámbito donde la función flecha fue definida. Esto evita errores comunes** relacionados con el contexto de  `this`  al usar funciones de ***callback*** dentro de **métodos de objetos o en otros contextos donde  `this`  podría cambiar dinámicamente.**
 
+-   **Mayor concisión:** Son ideales para funciones **cortas** y funciones que se pasan como **argumentos a otras funciones**.
 
     
 -   **Uso recomendado:** Son útiles cuando se quiere mantener el  `this`  del contexto envolvente, como en ***callbacks*** o **métodos de objetos** donde **no** se requiere que  **`this`  apunte al objeto que llama a la función.**
 
 
     
--   **Mayor concisión:** Son ideales para funciones **cortas** y funciones que se pasan como **argumentos a otras funciones**.
+
 
 <br>
     
@@ -674,6 +675,8 @@ obj.obtenerValorFlecha(); // Salida: 10
 - Su **`this`** se determina en el momento de la creación de la función, y se **hereda del contexto léxico circundante, en lugar de ser definido dinámicamente.**
 <br><br>
 
+
+#### 3. USO RECOMENDAADO
 ---
 
 
@@ -2378,11 +2381,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjAwMzc1OSwzMTg1NjQwNDgsLTkwND
-EzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAz
-LC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
-kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
-MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
-Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
-MThdfQ==
+eyJoaXN0b3J5IjpbLTExODcwNTYwMTcsMzE4NTY0MDQ4LC05MD
+QxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYw
+MywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMT
+M5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMz
+OTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMj
+A0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQz
+NDE4XX0=
 -->
