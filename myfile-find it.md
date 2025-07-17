@@ -760,13 +760,12 @@ Una de los procesos más comunes que te encuentras cuando estás implementando, 
 
 ### 2. DECONSTRUCCIÓN DE ARRAYS:
 
-La desestructuración de arrays o arreglos permite extraer elementos específicos de un array y asignarlos a variables, utilizando **la posición de los elementos dentro del array.**
+La desestructuración de arrays o arreglos permite extraer elementos específicos de un array, y asignarlos a variables, utilizando **la posición de los elementos dentro del array.**
 
 En el siguiente ejemplo, **las dos comas extras (,) sustituyen** cada una de ellas a un elemento del array **en ese orden**:
 <br>
 
 #### Arrays - EJEMPLO 1
-
 
 ```JavaScript
 const numeros = [1, 2, 3, 4, 5];// Desconstrucción de un array
@@ -780,7 +779,7 @@ console.log(quinto);  // Output: 5
 
 En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas, y poder hacer por ejemplo **comparaciones, reordenaciones, etc.** En lugar de acceder mediante índices, atributo por atributo, podemos acceder simultáneamente a todos estas propiedades o valores.
 
-Hubiera sido **mucho más largo y tedioso** el hacer algo como:
+El EJEMPLO  sido **mucho más largo y tedioso** el hacer algo como:
 
 ```JavaScript
 const numeros = [1, 2, 3, 4, 5];
@@ -2387,11 +2386,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTcyNzU1MywzMTg1NjQwNDgsLTkwND
-EzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAz
-LC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
-kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
-MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
-Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
-MThdfQ==
+eyJoaXN0b3J5IjpbNzI2MzQ5MDA0LDEwOTU3Mjc1NTMsMzE4NT
+Y0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMs
+MTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MT
+k3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5
+MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MD
+U5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2
+MTNdfQ==
 -->
