@@ -1085,8 +1085,9 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 <br>
 
 
+El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama **sin argumentos** toma todos los elementos del array, o sea, **crea una copia de todos los elementos del array original**. 
 
-- Se ven **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
+ Se ven **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
 -  Sin embargo, en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de extensión**.
 
 Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más la última forma más moderna.** No obstante es importante conocer los dos y tener ambas posibilidades.
@@ -2593,11 +2594,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDcwMTE0OTgsLTI1MjUyNjI3OSwzMz
-czMDMxNTcsODk2ODc2ODQ0LDU1Njg2NTkwNCwzMDc4MDc2Nzgs
-MTgwNjEwOTU2NCwxMTcyMzc0ODQ5LC0xNTQ2MDI3NDAwLC0yMD
-c0NjI3NjY3LDk0ODUzNTkyMiwtMTA0NTA3NzgwMCwtNTkzNTE1
-Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMzNTYxMy
-wtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LDE3MDA0
-MTA5NjBdfQ==
+eyJoaXN0b3J5IjpbLTk5NTI5MjMzNCwtMTUwNzAxMTQ5OCwtMj
+UyNTI2Mjc5LDMzNzMwMzE1Nyw4OTY4NzY4NDQsNTU2ODY1OTA0
+LDMwNzgwNzY3OCwxODA2MTA5NTY0LDExNzIzNzQ4NDksLTE1ND
+YwMjc0MDAsLTIwNzQ2Mjc2NjcsOTQ4NTM1OTIyLC0xMDQ1MDc3
+ODAwLC01OTM1MTU3NzYsLTIwNTYzMzc0NzEsLTUwODI1NjQwMS
+wxMjk4MzM1NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkx
+MDQ3NTZdfQ==
 -->
