@@ -1312,7 +1312,7 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 </div>
 
 -	El hecho de crear una **instancia** nos dirige automáticamente **al `constructor`.**
--	En **`constructor ({ name })`**, aquí   **`name`**  mapeará a lo que se pasará cuando creemos un nuevo Instructor: **`new Instructor`**). Y queremos hacer algo con este **`name`**.  
+-	En **`constructor ({ name })`**, aquí   **`name`**  mapeará a lo que se pase cuando creemos un nuevo Instructor: **`new Instructor`**). - A continuaciqueremos hacer algo con este **`name`**.  
 -	Lo añadimos a la clase para que forme parte de ella, y la forma de que esto funcione es a través de la palabra clave **`this`**. 
 -	Accediendo a **`name`** mediante **`this.name` estamos añadiendo el atributo `name`** a **`this.name`**.
 -	Los colores aquí muestran perfectamente que son cosas diferentes:
@@ -2443,11 +2443,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywtNz
-AyNDEzMjk4LC01ODg2MTg0ODEsLTIwNjQzMzU1OTcsLTE3NzMz
-ODc0NjgsLTIzODQzMjkzNiwtMTM4NTc4MzA1MiwtODY2MTE4Nz
-cwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC0xOTI2MTk2OTc0LDkx
-MDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMzE4NTY0MD
-Q4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5
-MjI5MDYwM119
+eyJoaXN0b3J5IjpbOTAzMjU0OTM3LC0xNDc4NTAxMDQwLDE4Mz
+kzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1
+NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3ODMwNT
+IsLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5NzEyNjU1NywtMTky
+NjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NT
+UzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4
+NDMzMjMzXX0=
 -->
