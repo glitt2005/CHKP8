@@ -1389,7 +1389,7 @@ En este ejemplo:
 - En el **`console.log`** del método de la instancia **`renderDetails()`**  necesitamos poner el **`this`** en **`this.name`**  para poder acceder al valor de **`name`** del argumento.
 - Cuando instanciamos y pasamos los valores entre llaves `new Instructor({name: "Jon Snow"}`; nos dirige **al contructor.**
 - En la **instancia de método`renderDetails()` no tenemos acceso este argumento**: sólo lo tiene **el constructor**, así que la única manera de acceder es añadir la palabra clave **`this`**  **a los atributos** creados **dentro de los constructores**.
-
+<br>
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 **OJO!!** No debemos olvidar que PRIMERO debemos INSTANCIAR LA CLASE para convertir la variable a OBJETO. **Nunca podríamos llamar al método de la instancia sin instanciar la clase primero**. De hecho, nos daría **error**.
@@ -1416,7 +1416,7 @@ console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 20
 	 `const miCoche = new Coche('Toyota', 'Corolla');`
 		**imprimiría**    `//Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 2019 }`
 		<br>
-		
+		<br>
 ## 3. MÉTODOS ESTÁTICOS
 
 - En JavaScript, los métodos estáticos son aquellos que pertenecen **a la clase en sí misma, no a instancias individuales de la clase.** 
@@ -2458,11 +2458,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1NjMwMjY3LDExMDMwMDcyNTIsLTE0Nz
-g1MDEwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0
-ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQzMjkzNi
-wtMTM4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3
-MTI2NTU3LC0xOTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1NjA5Nj
-I0LDEwOTU3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3
-MjMwOTgzOV19
+eyJoaXN0b3J5IjpbLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMT
+Q3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYx
+ODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOT
+M2LC0xMzg1NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2
+OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MD
+k2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwx
+MjcyMzA5ODM5XX0=
 -->
