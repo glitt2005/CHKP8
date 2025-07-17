@@ -2115,6 +2115,7 @@ A partir de **septiembre de 2017** (especificación ECMAScript2017), se incorpor
 - `async` :  convierte una función normal en una asíncrona y **devuelve una  promesa**.
 - `await` : se usa dentro de las funciones `async` para **pausar una ejecución hasta que la Promise se resuelve**.
 <br>
+
 #### SINTAXIS BÁSICA:
 ```js
 async function miFuncion() {
@@ -2123,6 +2124,7 @@ async function miFuncion() {
   return resultado;
 }
 ```
+
 Proporcionan:
 -	**Mayor legibilidad**: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
 -	**Manejo de errores** de forma similar a como se haría con código **síncrono**
@@ -2502,11 +2504,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwND
-Q1NzM2MzYsLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5
-Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtODY5NjA2MzYxLC0xMT
-AwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0
-ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMj
-ksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEz
-MDMwNzk2ODVdfQ==
+eyJoaXN0b3J5IjpbLTQzMDczODI1NSwtNjk1MjY3MDcsMjA1Mj
+U5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5MTE4LC01OTk4MjU3
+NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMzYyMjY3LC04Nj
+k2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMy
+MjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNz
+EsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkw
+NzgwODAzMF19
 -->
