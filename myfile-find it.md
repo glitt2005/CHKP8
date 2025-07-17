@@ -2281,7 +2281,7 @@ loginActivities(login(), updateAccount());
 ```
 
  1. El total que se tardará son **4 segundos** (no 6 como en el ejemplo    anterior sin los cierres).  Después de esos 4 segundos, **las dos funciones imprimirían a la vez.**
- 2.  Los **nombres de los argumentos no tienen por qué ser los de las funciones**, pero lo hacemos porque son más descriptivos así.
+ 2.  Los **nombres de los argumentos no tienen por qué ser los de las funciones**, pero lo hacemos porque son más descriptivos así.  MOSTREMOS ESTE PUNTO CON EL SIGUIENTE EJEM
 
 a)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque es necesario que los nombres de los **argumentos** sean iguales a los de las variables,  **hemos cambiado sus nombres:** 
 
@@ -2521,11 +2521,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzUxNTc3NiwtMjA1NjMzNzQ3MSwtNT
-A4MjU2NDAxLDEyOTgzMzU2MTMsLTE0NDc0NjQ3NDIsNzI3MTQx
-MTkwLDc4OTEwNDc1NiwxNzAwNDEwOTYwLDE4MzgyMjc4NTIsLT
-E4OTQzMzM5MDQsLTExMzgwMzkyNDQsLTY5NTI2NzA3LDIwNTI1
-OTY5OTMsLTIwNDQ1NzM2MzYsLTUxMjg1OTExOCwtNTk5ODI1Nz
-UyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtODY5
-NjA2MzYxXX0=
+eyJoaXN0b3J5IjpbMjA1NzU5Njk0NSwtNTkzNTE1Nzc2LC0yMD
+U2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMzNTYxMywtMTQ0NzQ2
+NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LDE3MDA0MTA5NjAsMT
+gzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEzODAzOTI0NCwtNjk1
+MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5MT
+E4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTEx
+MzYyMjY3XX0=
 -->
