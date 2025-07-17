@@ -2232,10 +2232,12 @@ Explicado de una forma sencilla, el cierre es una función **que puede ser anida
 
 ### 3.1  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
 
-En cierres o clausuras, “mantener el estado” significa que una función puede **acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma).** Estas variables **“existen” en la memoria** incluso **después** de que la función que las creó **ha terminado de ejecutarse**, y pueden ser **accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.**
- - Es decir, en el contexto de async/await, los cierres pueden ser utilizados para mantener el estado de las variables dentro de las funciones asíncronas, permitiendo que las funciones await accedan a ellas.
+- En cierres o clausuras, “mantener el estado” significa que una función puede **acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma).** 
+	- Estas variables **“existen” en la memoria** incluso **después** de que la función que las creó **ha terminado de ejecutarse**,
+	-  y pueden ser **accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.**
+ - Es decir, en el contexto de `async` - `await`, los cierres pueden ser utilizados para mantener el estado de las variables dentro de las funciones asíncronas, permitiendo que las funciones await accedan a ellas.
 
-- 
+
 
 
 VENTAJAS:
@@ -2518,11 +2520,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5MTA0NzU2LDE3MDA0MTA5NjAsMTgzOD
-IyNzg1MiwtMTg5NDMzMzkwNCwtMTEzODAzOTI0NCwtNjk1MjY3
-MDcsMjA1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5MTE4LC
-01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMzYy
-MjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0My
-wtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEy
-MDM0MzczNzFdfQ==
+eyJoaXN0b3J5IjpbNzI3MTQxMTkwLDc4OTEwNDc1NiwxNzAwND
+EwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTExMzgwMzky
+NDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2MzYsLT
+UxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0
+MTUwLC0xMTM2MjI2NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC
+04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIz
+Mjg5MDAwXX0=
 -->
