@@ -1079,12 +1079,12 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 
 <br>
 <img src="interrogacion.png" align="left" width="90"> <h3>  ¿Forma a) - tradicional<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o<br> Forma b) moderna?<h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o<br> Forma b) - moderna?<h3>
 <br>
 <br>
 <br>
 
-Se ven los dos tipos
+
 
 - Se ven  **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
 
@@ -2594,11 +2594,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjUyNjI3OSwzMzczMDMxNTcsODk2OD
-c2ODQ0LDU1Njg2NTkwNCwzMDc4MDc2NzgsMTgwNjEwOTU2NCwx
-MTcyMzc0ODQ5LC0xNTQ2MDI3NDAwLC0yMDc0NjI3NjY3LDk0OD
-UzNTkyMiwtMTA0NTA3NzgwMCwtNTkzNTE1Nzc2LC0yMDU2MzM3
-NDcxLC01MDgyNTY0MDEsMTI5ODMzNTYxMywtMTQ0NzQ2NDc0Mi
-w3MjcxNDExOTAsNzg5MTA0NzU2LDE3MDA0MTA5NjAsMTgzODIy
-Nzg1Ml19
+eyJoaXN0b3J5IjpbLTE1MTY4ODgwMjgsLTI1MjUyNjI3OSwzMz
+czMDMxNTcsODk2ODc2ODQ0LDU1Njg2NTkwNCwzMDc4MDc2Nzgs
+MTgwNjEwOTU2NCwxMTcyMzc0ODQ5LC0xNTQ2MDI3NDAwLC0yMD
+c0NjI3NjY3LDk0ODUzNTkyMiwtMTA0NTA3NzgwMCwtNTkzNTE1
+Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMzNTYxMy
+wtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LDE3MDA0
+MTA5NjBdfQ==
 -->
