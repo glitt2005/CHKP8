@@ -1994,7 +1994,7 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 
 
 <div align="center">
-<img src="eventLoop.png" width = "60%" alt="event Loop">
+<img src="eventLoop.png" width = "55%" alt="event Loop">
 </div>
 
 <br>
@@ -2074,12 +2074,13 @@ Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, lo 
 
 <br>
  <br>
-<img src="interrogacion.png" align="left" width="90">   ¿Y  CÓMO SOLUCIONÓ JAVASCRIPT ESTE GRAN PROBLEMA?
+<img src="interrogacion.png" align="left" width="90">   <h3>¿Y  CÓMO SOLUCIONÓ JAVASCRIPT ESTE GRAN PROBLEMA?</h3>
 
 
 
 <br>
- Precisamente con  las **promises** o **promesas** que acabamos de explicar en el capítulo anterior.
+
+Precisamente con las **promises** o **promesas** que acabamos de explicar en el capítulo anterior.
 
 <br>
 
@@ -2494,11 +2495,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTUyMjEzMSwtNTEyODU5MTE4LC01OT
-k4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMzYyMjY3
-LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMT
-I2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0
-MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5Mj
-EsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0x
-NDc4NTAxMDQwXX0=
+eyJoaXN0b3J5IjpbLTIwNDQ1NzM2MzYsLTUxMjg1OTExOCwtNT
+k5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2
+NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLT
+EyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAz
+NDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OT
+IxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1Miwt
+MTQ3ODUwMTA0MF19
 -->
