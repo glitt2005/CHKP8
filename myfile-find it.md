@@ -1753,9 +1753,9 @@ fetch('<Tu URL>', {})
 - Se pueden utilizar métodos como **`json()`,  `text()`,** etc., para extraer los datos de **la respuesta en diferentes formato**.
 
 
+<br>
 
-
-####    EJEMPLOS
+####    EJEMPLO 1 `fetch()` - Convirtiendo a datos JsonS
 
 1. Conviertiendo datos a **json** y listando todos los recursos de estos datos json.
 
@@ -2473,11 +2473,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI0NDkwNTIsLTExMzYyMjY3LC04Nj
-k2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMy
-MjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNz
-EsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkw
-NzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0xNDc4NT
-AxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgx
-LC0yMDY0MzM1NTk3XX0=
+eyJoaXN0b3J5IjpbLTk2MjE3NzQ0NSwtMTEzNjIyNjcsLTg2OT
+YwNjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIy
+MDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MS
+wxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3
+ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MD
+EwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEs
+LTIwNjQzMzU1OTddfQ==
 -->
