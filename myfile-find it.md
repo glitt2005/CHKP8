@@ -437,7 +437,10 @@ console.log(casa);  //devuelve:"Marbella"
 
 
 
-## <font color ="green"><font face="Consolas"><big>  Buenas Prácticas</font></big>
+<br>
+
+####  BUENAS PRÁCTICAS
+  
 -  **La variable `const` debería ser nuestra mejor opción por defecto**. 
 - Si es demasiado específica, usaríamos **`let`**. 
 - Sin embargo, es difícil que veamos **`var`** en las aplicaciones modernas. No es que no pueda **haber casos en los que necesitemos una variable global**, en los que sería la ocasión para utiliar **`var`**, pero de normal no va a ser así.
@@ -1001,8 +1004,10 @@ precisamente por cómo JavaScript interpreta los arrays:  **un conjunto de “cu
 - Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JavaScript, se sobreentiende que **no tienes que hacer cambios en una estructura de datos ya creada**: esto se trata en realidad de una CONVENCIÓN COMÚN. 
 -  Una variable declarada con **const** nos da precisamente esa seguridad, ya que nos daría error si más tarde en el programa intentamos cambiar la estructura de datos de esta variable.
 - Otra situación que puede pasar, es que **añadamos un string** a algo en este array que contiene números, y luego **otra parte del programa considera que solo había números enteros** (porque en principio era así), y ejecuta un proceso sobre esa estructura:  **nos daría error**.
+<br>
 
-**UNA BUENA PRÁCTICA**  
+####  BUENAS PRÁCTICAS
+  
 Lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
 De esta forma **evitamos crear los menos efectos secundarios posibles**
 
@@ -2402,11 +2407,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODUwMDUzMzEsLTE5MjYxOTY5NzQsOT
-EwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQw
-NDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMT
-kyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTcz
-OTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLD
-E0MDY2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkx
-NjAwXX0=
+eyJoaXN0b3J5IjpbODg2NzgwMTI3LC0xOTI2MTk2OTc0LDkxMD
+QxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMzE4NTY0MDQ4
+LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5Mj
+I5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3Mzkz
+OCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxND
+A2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYw
+MF19
 -->
