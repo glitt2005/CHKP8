@@ -662,7 +662,7 @@ obj.obtenerValorFlecha(); // Salida: 10
 
 
     
--   **Mayor concisión:** Son ideales para funciones **cortas** y funciones que se pasan como argumentos a otras funciones.
+-   **Mayor concisión:** Son ideales para funciones **cortas** y funciones que se pasan como **argumentos a otras funciones**.
 
 <br>
     
@@ -2378,11 +2378,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MDExOTIxLDMxODU2NDA0OCwtOTA0MT
-MyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOTIyOTA2MDMs
-LTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOT
-E5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkw
-LDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwND
-Y3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLDM4NzE0MzQx
-OF19
+eyJoaXN0b3J5IjpbLTgwNjAwMzc1OSwzMTg1NjQwNDgsLTkwND
+EzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAz
+LC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
+kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
+MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
+Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
+MThdfQ==
 -->
