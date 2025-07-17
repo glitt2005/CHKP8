@@ -2375,9 +2375,9 @@ FUNCIONA así:
 
 
 
-Vamos a ver todo esto con el EJEMPLO A:
 
-#### EJEMPLO A: 
+
+#### EJEMPLO A : todo funcionando bien 
 
 ```js
 async function queryApis() {
@@ -2397,6 +2397,7 @@ queryApis();
 
 
 ```
+<br>
 1.-  El orden de los dos `await` está determinado **por el orden de nuestro código**.  
 Deberíamos recibir los datos de <font color= "green">*jasonplaceholder*</font> y LUEGO (**y solo luego, por eso el  `await`**) **sale y contacta con la otra promesa** de <font color= "green">*fakestoreapi*</font>  y devuelve los datos de ésta última.
 
@@ -2529,7 +2530,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTAwMjk4MywtMTA0NTA3NzgwMCwtNT
+eyJoaXN0b3J5IjpbMjEwNzgzNjEwOCwtMTA0NTA3NzgwMCwtNT
 kzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMz
 NTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LD
 E3MDA0MTA5NjAsMTgzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEz
