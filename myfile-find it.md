@@ -1080,6 +1080,8 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 Vemos que **cambia las dos variables**.
 <br>
 <br>
+<br>
+<br>
 <img src="interrogacion.png" align="left" width="90">   <big><br>**¿FORMA TRADICIONAL O MODERNA?**</big>
 
 <br>
@@ -2605,11 +2607,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3NjA4MjY2LC0yMDI1MzI4ODMsLTI1Mj
-UyNjI3OSwtOTk1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYy
-NzksMzM3MzAzMTU3LDg5Njg3Njg0NCw1NTY4NjU5MDQsMzA3OD
-A3Njc4LDE4MDYxMDk1NjQsMTE3MjM3NDg0OSwtMTU0NjAyNzQw
-MCwtMjA3NDYyNzY2Nyw5NDg1MzU5MjIsLTEwNDUwNzc4MDAsLT
-U5MzUxNTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgz
-MzU2MTNdfQ==
+eyJoaXN0b3J5IjpbMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMj
+UzMjg4MywtMjUyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0
+OTgsLTI1MjUyNjI3OSwzMzczMDMxNTcsODk2ODc2ODQ0LDU1Nj
+g2NTkwNCwzMDc4MDc2NzgsMTgwNjEwOTU2NCwxMTcyMzc0ODQ5
+LC0xNTQ2MDI3NDAwLC0yMDc0NjI3NjY3LDk0ODUzNTkyMiwtMT
+A0NTA3NzgwMCwtNTkzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgy
+NTY0MDFdfQ==
 -->
