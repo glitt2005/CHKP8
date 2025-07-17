@@ -1038,7 +1038,7 @@ Vemos que **cambia las dos variables**.
 
 Lo que está ocurriendo es que aquí **no está pasando una copia, sino una referencia**. Y lo que esto significa es que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**,  y como consecuencia estás **modificando también la variable original.** 
 
-Tenemos dos soluciones a esto:
+Tenemos **dos soluciones** a esto:
 <br>
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
@@ -2423,7 +2423,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDQ0MzkwNSwtMTM4NTc4MzA1MiwtOD
+eyJoaXN0b3J5IjpbLTkwNTA2MTUwMywtMTM4NTc4MzA1MiwtOD
 Y2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC0xOTI2MTk2
 OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMz
 E4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMy
