@@ -2338,7 +2338,7 @@ Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado 
  - [x] Veremos cómo usar las funciones **`then()`con `catch()`**, pero trabajando con **múltiples promesas**. Combinándolos con `await` implementaremos una forma diferente de manejar los errores.
  <br>
  
-  ### 1. Explicando bloque ` try - catch`
+  ### 1)  Explicando bloque ` try - catch`
   
  `try`…`catch`
 	 -  se utiliza para  _**capturar excepciones**_  que pueden ocurrir durante la ejecución de código en  JavaScript.
@@ -2403,7 +2403,7 @@ queryApis();
 1.-  El orden de los dos `await` está determinado **por el orden de nuestro código**.  
 Deberíamos recibir los datos de <font color= "green">*jasonplaceholder*</font> y LUEGO (**y solo luego, por eso el  `await`**) **sale y contacta con la otra promesa** de <font color= "green">*fakestoreapi*</font>  y devuelve los datos de ésta última.
 
-2.-  Lo bueno de esto es que **da igual cuántas veces ejecutemos esto**.  Incluso aunque la API de <font color= "green">*jasonplaceholder*</font>  funcione muy despacio (durante unos minutos por ejemplo) y la de  <font color= "green">*fakestoreapi*</font>  va muy rápido, **siempre nos va a devolver los datos en el mismo orden que lo hemos escrito** o codificado, ya que  lo hemos envuelto todo en este proceso `async` y luego aplicamos `await` a cada una de las promesas.
+2.-  Lo bueno de esto es que **da igual cuántas veces ejecutemos esto**.  Incluso aunque la API de <font color= "green">*jasonplaceholder*</font>  funcione **muy despacio** (durante unos minutos por ejemplo) y la de  <font color= "green">*fakestoreapi*</font>  va **muy rápido**, **siempre nos va a devolver los datos en el mismo orden que lo hemos escrito** o codificado, ya que  lo hemos envuelto todo en este proceso `async` y luego aplicamos `await` a cada una de las promesas.
 
 3.- Esto lo convierte **en algo muy potente**, cuando trabajamos con datos **y no sabemos cuándo vamos a recibir los datos de la API,** o de una conexión de base de datos. 
 <br>
@@ -2412,7 +2412,7 @@ Deberíamos recibir los datos de <font color= "green">*jasonplaceholder*</font> 
 - Imaginemos una situación en la que **todo este proceso gire en torno a que la primera promesa**:  por ejemplo si estamos autenticando con  <font color= "green">*fakestoreapi*</font>  y estamos enviando nuestras credenciales a  <font color= "green">*fakestoreapi*</font>  y **resulta que cada una de las otras llamadas de API requiere esas credenciales**. 
 **En esta situación es absolutamente necesario este tipo de proceso**, ya que no  podríamos hacer las siguientes llamadas de API si la primera no ha podido ejecutarse,
 
-- Esto es parte de la razón por la que utilizando esas herramientas de **`async`-`await` se han convertido tan famosas en la comunidad de JavaScript**, ya que gracias a ellas, tenemos ** el control** de esto. 
+- Esto es parte de la razón por la que utilizando esas herramientas de **`async`-`await` se han convertido tan famosas en la comunidad de JavaScript**, ya que gracias a ellas, tenemos **el control** de esto. 
 
 <br>
 
@@ -2539,11 +2539,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1MzU2NDkyLC0xMDQ1MDc3ODAwLC01OT
-M1MTU3NzYsLTIwNTYzMzc0NzEsLTUwODI1NjQwMSwxMjk4MzM1
-NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMT
-cwMDQxMDk2MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4
-MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0NTczNj
-M2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwy
-NDU2NDE1MF19
+eyJoaXN0b3J5IjpbMTY1MjczNDgyNywtMTA0NTA3NzgwMCwtNT
+kzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMz
+NTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LD
+E3MDA0MTA5NjAsMTgzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEz
+ODAzOTI0NCwtNjk1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3Mz
+YzNiwtNTEyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUs
+MjQ1NjQxNTBdfQ==
 -->
