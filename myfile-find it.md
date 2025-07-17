@@ -2230,7 +2230,7 @@ Explicado de una forma sencilla, el cierre es una función **que puede ser anida
 <br>
 <br>
 
-
+### 
 
 - En cierres o clausuras, “mantener el estado” significa que una función puede **acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma).** 
 	- Estas variables **“existen” en la memoria** incluso **después** de que la función que las creó **ha terminado de ejecutarse**,
@@ -2520,11 +2520,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OT
-EwNDc1NiwxNzAwNDEwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMzM5
-MDQsLTExMzgwMzkyNDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMsLT
-IwNDQ1NzM2MzYsLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0
-NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtODY5NjA2MzYxLC
-0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2
-ODk0ODA1OV19
+eyJoaXN0b3J5IjpbMTI5ODMzNTYxMywtMTQ0NzQ2NDc0Miw3Mj
+cxNDExOTAsNzg5MTA0NzU2LDE3MDA0MTA5NjAsMTgzODIyNzg1
+MiwtMTg5NDMzMzkwNCwtMTEzODAzOTI0NCwtNjk1MjY3MDcsMj
+A1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5MTE4LC01OTk4
+MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMzYyMjY3LC
+04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2
+OTMyMjAyMV19
 -->
