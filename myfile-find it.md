@@ -779,7 +779,7 @@ console.log(quinto);  // Output: 5
 
 En esencia, la **desconstrucción** facilita la extracción de datos de estructuras complejas como **arreglos y objetos** y su asignación a variables separadas, y poder hacer por ejemplo **comparaciones, reordenaciones, etc.** En lugar de acceder mediante índices, atributo por atributo, podemos acceder simultáneamente a todos estas propiedades o valores.
 
-El EJEMPLO  sido **mucho más largo y tedioso** el hacer algo como:
+En el EJEMPLO 1,  habría resultado **mucho más largo y tedioso** el hacer algo como:
 
 ```JavaScript
 const numeros = [1, 2, 3, 4, 5];
@@ -794,7 +794,7 @@ const itemQuinto = numeros[4];
 console.log(itemQuinto);        // Output: 5
 
 ```
-más la demás codificación para utilizar esas variables, etc.
+... y luego, además, nos tocaría realizar la demás codificación para utilizar esas variables, etc.
 <br>
 
 
@@ -2386,11 +2386,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2MzQ5MDA0LDEwOTU3Mjc1NTMsMzE4NT
-Y0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMs
-MTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MT
-k3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5
-MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MD
-U5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2
-MTNdfQ==
+eyJoaXN0b3J5IjpbLTU2Njg3MDMzMSwxMDk1NzI3NTUzLDMxOD
+U2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMz
+LDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2OD
+E5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgw
+OTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNT
+A1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQw
+NjEzXX0=
 -->
