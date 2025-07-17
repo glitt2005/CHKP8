@@ -2575,7 +2575,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 	-	Por ejemplo **si las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>). 
 	
 	Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
-<br>
+
 2. Pero el tipo de situación de los ejemplos mencionados, donde **estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que, de todas formas,  **quisiéramos contactar con la que no falla**, y en este caso, **necesitaríamos envolverlas** con el bloque **`try`- `catch` de forma individual.**
 
 ------------------------
@@ -2627,11 +2627,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDM1MDAwNzksMzY1NTY1MzMsLTY5MT
-g2ODc3MCwtMTYzNzIwMzM3NCw1MjYzMzcyMzEsMTMzODQ3MDIw
-MSw2NzI3NDI1NywtOTMxMjI1NTIzLDE5MzEzODAwMDksLTE4OD
-g1MDg1MSw0NjQ2NzUwOTAsLTQwODg2MTcyNSwtNzM4MzgzNjYz
-LDIwNTgyNzE4ODMsMjEzNjM2MDQzMywxNjk0MDQyNTMyLDM0Mz
-E5NDQ1OSwxMTI5NTUzMjYxLDEyMDQ5MDgxMzMsMjMyNjY2MzI1
+eyJoaXN0b3J5IjpbMjYxNTk0OTQ3LC0yMDQzNTAwMDc5LDM2NT
+U2NTMzLC02OTE4Njg3NzAsLTE2MzcyMDMzNzQsNTI2MzM3MjMx
+LDEzMzg0NzAyMDEsNjcyNzQyNTcsLTkzMTIyNTUyMywxOTMxMz
+gwMDA5LC0xODg4NTA4NTEsNDY0Njc1MDkwLC00MDg4NjE3MjUs
+LTczODM4MzY2MywyMDU4MjcxODgzLDIxMzYzNjA0MzMsMTY5ND
+A0MjUzMiwzNDMxOTQ0NTksMTEyOTU1MzI2MSwxMjA0OTA4MTMz
 XX0=
 -->
