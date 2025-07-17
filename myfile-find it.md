@@ -1112,7 +1112,7 @@ Esto es algo **muy común**. Para explicarlo, tomaremos de la biblioteca, el obj
 
 <br>
 
-#### EJEMPLO 1 - cómo funcióna `Math.max`:
+#### EJEMPLO 1 - cómo funcióna `Math.max()`:
 
 ```Javascript
 console.log(Math.max (1,5,1,10,2,3));  // devuelve 10 
@@ -1131,7 +1131,7 @@ console.log(Math.max (numbers));  // NaN
 
 Aquí la cosa es diferente: en este caso, interpreta que sólo estamos pasando **1 argumento**, cuyo tipo de dato es **un array, no un número**. Por esto el output de **NaN.**
 
-Para arreglar esto, solo tenemos que añadir la **sintaxis (es decir, los tres puntos …) del operador de propagación** y así poder implementar la **deconstrucción del array**:
+Para arreglar esto, solo tenemos que añadir la **sintaxis de los tres puntos (…) del operador de extensión** y así poder implementar la **deconstrucción del array**:
 
 <br>
 
@@ -2431,11 +2431,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTM3MjAyMjIsLTU4ODYxODQ4MSwtMj
-A2NDMzNTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1
-NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NT
-csLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5
-NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5OD
-M5LDY1ODQzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2
-NTIxMDY5NV19
+eyJoaXN0b3J5IjpbLTUzNDI2Mzc2OSwtNTg4NjE4NDgxLC0yMD
+Y0MzM1NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3
+ODMwNTIsLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5NzEyNjU1Ny
+wtMTkyNjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYyNCwxMDk1
+NzI3NTUzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4Mz
+ksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtODY1
+MjEwNjk1XX0=
 -->
