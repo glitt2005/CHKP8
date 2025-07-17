@@ -1262,14 +1262,18 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 	-  **qué página** queremos ver 
 	- **qué tipo de atributos** queremos que estén disponibles para el usuario, **como obtener su apellido o algo similar**, que su aplicación necesita. (**datos**)
 
+<br>
 
 *El programa haría lo siguiente:*
 1.  **examinar** el plano, en este caso, la estructura
+
 2.  **crear e instanciar un objeto con ella**, que será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse **en algo terminado**, en ese **objeto real**.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior. 
-3.  Luego puedo **hacer otro objeto** con otro nombre y **basarlo en la misma plantilla** o estructura. Serían dos objetos distintos que tienen una misma estructura.
 
+4.  Luego puedo **hacer otro objeto** con otro nombre y **basarlo en la misma plantilla** o estructura. Serían dos objetos distintos que tienen una misma estructura.
 
-### CLASES:  término "CONSTRUCTOR"
+<br>
+
+### CONSTRUCTOR de una clase
 
 **Durante muchos años** JavasScript **no tenía** técnicas de OOP ( object-oriented programming ) o de **programación orientada a objetos**.  Había que crear procedimientos alternativos para conseguir lo que se necesitaba, y una de ellas era la utilización **funciones a modo de clases.** 
 
@@ -2434,11 +2438,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDQ0NzY5MCwxODM5MzczMDAzLC03MD
-I0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4
-NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3Nz
-AsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEw
-NDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwND
-gsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTky
-MjkwNjAzXX0=
+eyJoaXN0b3J5IjpbNDYzMzYzNTE5LDE4MzkzNzMwMDMsLTcwMj
+QxMzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1NTk3LC0xNzczMzg3
+NDY4LC0yMzg0MzI5MzYsLTEzODU3ODMwNTIsLTg2NjExODc3MC
+w0ODA0ODcyNTEsMTY5NzEyNjU1NywtMTkyNjE5Njk3NCw5MTA0
+MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0OC
+wtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOTIy
+OTA2MDNdfQ==
 -->
