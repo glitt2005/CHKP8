@@ -747,10 +747,10 @@ console.log(jugador2); // Output: X
 &nbsp; 1. **Se crea un array** con los valores actuales de  `jugador2`  y  `jugador1`. 
 &nbsp; 2. Luego, la desestructuración **asigna el primer valor** (**anteriormente el de  `jugador2`**) a  **`jugador1`**  y el segundo valor (anteriormente el de  `jugador1`) a  `jugador2`, logrando así el intercambio.
 
-#### VENTAJA: 
+#### VENTAJA 
 Nos **evita**  la tediosa tarea de cambiar,  **uno por uno**, el valor de cada uno de los jugadores `jugadorx.nombre`
 
-#### APLICACIÓN: 
+#### APLICACIÓN
 Una de los procesos más comunes que te encuentras cuando estás implementando, por ejemplo procesos de tipo "***quicksort***" u "ordenamiento rápido" (*algoritmo de ordenación que funciona bajo el principio de "divide y vencerás"*) u otros algoritmos más avanzados, es **la capacidad de intercambiar los valores de las variables.** **Sin la deconstruccion de variables**, sería este procedimiento se convertiría en todo **un reto**! En las v**ersiones modernas de JavaScript** podemos hacer esto de manera **más eficiente en una sola línea de código.**
 
 
@@ -2384,7 +2384,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzY4NzQ3OSwzMTg1NjQwNDgsLTkwND
+eyJoaXN0b3J5IjpbLTcxMjcxOTY3NSwzMTg1NjQwNDgsLTkwND
 EzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAz
 LC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
 kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
