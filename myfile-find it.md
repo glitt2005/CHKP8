@@ -2218,8 +2218,10 @@ Los **cierres** o clausuras ("closures") en Javascript son **una herramienta pod
 "*Un cierre se produce cuando una función "recuerda" su ámbito léxico, es decir, las variables que estaban disponibles en el momento de su creación, incluso si esa función se ejecuta fuera de ese ámbito. En otras palabras, **una función interna** puede **acceder a variables de su función contenedora (externa)** incluso después de que la función externa haya terminado de ejecutarse.* [Para ampliar esta información, haz click aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
 
 Explicado de una forma sencilla, el cierre es una función **que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones**.
+<br>
 
-##### ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
+
+
 <br>
 <img src="interrogacion.png" align="left" width="90"> <h3>  Y.....<br>
  ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
@@ -2520,11 +2522,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwODI1NjQwMSwxMjk4MzM1NjEzLC0xND
-Q3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMTcwMDQxMDk2
-MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4MDM5MjQ0LC
-02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0NTczNjM2LC01MTI4
-NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwyNDU2NDE1MC
-wtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEwMDgzODA2MCwtODgx
-ODI5NzQzXX0=
+eyJoaXN0b3J5IjpbLTIwNTYzMzc0NzEsLTUwODI1NjQwMSwxMj
+k4MzM1NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3
+NTYsMTcwMDQxMDk2MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC
+0xMTM4MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0
+NTczNjM2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOT
+M5NSwyNDU2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEw
+MDgzODA2MF19
 -->
