@@ -1694,7 +1694,7 @@ sleepyGreeting
 
 1. `data` es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
 Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la respuesta:
-	**"entonces, haz esto, esto y esto"  (lo que ponga despues del `then()`** .
+	**"entonces** (en inglés, "then"), haz esto, esto y esto"  (lo que ponga despues del `then()`** .
 	
 	En nuestro caso sería nuestro string <font color=green>**“Hello……”.**</font>. En otros ejemplos, correspondería a las **peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.**
 	<br>
@@ -2473,7 +2473,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk5NDIwMTcsLTExMzYyMjY3LC04Nj
+eyJoaXN0b3J5IjpbLTE4NTE5ODU2NTYsLTExMzYyMjY3LC04Nj
 k2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMy
 MjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNz
 EsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkw
