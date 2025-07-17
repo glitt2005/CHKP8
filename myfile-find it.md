@@ -1976,7 +1976,7 @@ Promise.allSettled([promesa1, promesa2, promesa3])
 
 Una de las mayores **ventajas** de trabajar en JavaScript cuando comparamos con versiones anteriores son los procesos `async` y `await`. 
 
-## HISTORIA DE LOS PROCESOS `async` y `await`.
+## HISTORIA DE LOS PROCESOS `async` - `await`.
 
 Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto significa que las tareas se procesan en el **orden** en el que fueron escritas.
 
@@ -2002,7 +2002,7 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 Un **event loop** o bucle de eventos es un  mecanismo que **permite la ejecución asíncrona de tareas** manteniendo la capacidad de respuesta del programa. Opera constantemente, monitoreando la cola de tareas y la pila de llamadas para **determinar cuándo y cómo ejecutar el código pendiente**.
 
 
-
+<br>
 
 
 #### EJEMPLO: una solicitud de red – TAREA LENTA, necesita 2 segundos:
@@ -2011,7 +2011,7 @@ console.log("Primero");
 
 setTimeout(() => {
   console.log("Segundo");  
-}, 2000);				// Se ejecutará después de 2 segundos
+}, 2000); // Se ejecutará después de 2 segundos
 
 console.log("Tercero");
 
@@ -2019,8 +2019,8 @@ console.log("Tercero");
 Esto imprime:
 // Primero
 // Tercero
-// Segundo (imprimiría esto después de los 2 segundos que tarda  
-//           esta tarea en ejecutarse)
+// Segundo (imprimiría esto después de los 2 segundos 
+//           que tarda esta tarea en ejecutarse)
 ```
 - El `setTimeout()` ha hecho que esta tarea asincrónica **no bloquee el resto de tareas**, que se han ejecutado antes sin problema.
 <br>
@@ -2487,11 +2487,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMz
-YyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0
-MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLT
-EyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1
-NzQ5MjEsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3Mj
-UyLC0xNDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwt
-NTg4NjE4NDgxXX0=
+eyJoaXN0b3J5IjpbLTkyMTg0OTYzNywtMTU2NDYxOTM5NSwyND
+U2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEwMDgzODA2
+MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMT
+cyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2
+OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Nj
+g1LDExMDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywt
+NzAyNDEzMjk4XX0=
 -->
