@@ -1173,14 +1173,14 @@ const {abridor,cerrador} = {
 console.log(abridor); // "Verlander"
 console.log(cerrador); // "Giles"
 ```
-
+<br>
 Para **los fijos**: ponemos **las claves** como parte del **nombre de la variable.**
 <br>
 <br>
 
 B) EXTRAYENDO LOS ELEMENTOS OPCIONALES O VARIABLES:
 
-Añadiremos un elemento más como parte del nombre de la variable (de tipo "objeto), haciendo uso del **operador de extensión** o *spread operator*:
+Añadiremos un elemento más como parte del nombre de la variable (de tipo "objeto"), haciendo uso del **operador de extensión** o *spread operator*:
 ```Javascript
 const {abridor,cerrador, ...relevos} = {
     abridor: 'Verlander',
@@ -1193,18 +1193,19 @@ console.log(abridor); // "Verlander"
 console.log(cerrador); // "Giles"
 console.log(relevos); // { relevo_1: 'Morton', relevo_2: 'Gregerson' }
 ```
+<br>
+
 **A traves de la sintaxis <big>`...elemento`**</big>,  haremos mapear este elemento **al resto de los elementos** que contiene la variable y nos **imprime un objeto con los pares la clave-valor del resto de los elementos**.
 
 Como hemos visto en el punto nº 4, ésta es la forma que trabaja **la deconstrucción**:  
 - si pasamos un valor tal como `abridor`, lo busca en la variable (que es un objeto) y encuentra la clave, la mapea e imprime su valor. 
 -  **Los tres puntos `...` crea un grupo abierto con un número de elementos indeterminado**, que mapeará al resto de elementos en cuanto creamos un variable para ello.
 
-Es una de las formas más comunes de hacer la deconstrucción de objetos utilizado por muchas plataformas como ***React*** cuando no sabemos cuántos argumentos habrá y necesitamos extraer todo lo que haya, con el fin de  **guardarlo en una variable que podemos utilizar más tarde**.
+Es una de las formas más comunes de hacer **la deconstrucción de objetos** utilizado por muchas plataformas como ***React*** cuando **no sabemos cuántos argumentos habrá** y necesitamos extraer todo lo que haya, con el fin de  **guardarlo en una variable que podemos utilizar más tarde**.
 
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
-
-**El operador de extensión ... debe colocarse al final de los demás elementos del objeto**.  Generaríamos un error si tratamos de hacer `const {abridor, ...relevos, cerrador}....`. Este error, diría algo así como `// SyntaxError: Rest element must be last element`.
+OJO!! **El operador de extensión ... debe colocarse al final de los demás elementos del objeto**.  Generaríamos un error si tratamos de hacer `const {abridor, ...relevos, cerrador}....`. Este error, diría algo así como `// SyntaxError: Rest element must be last element`.
 
 -----
 
@@ -2432,11 +2433,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTIyNzMzNDksLTU4ODYxODQ4MSwtMj
-A2NDMzNTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1
-NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NT
-csLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5
-NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5OD
-M5LDY1ODQzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2
-NTIxMDY5NV19
+eyJoaXN0b3J5IjpbLTU0NzAzMTEzLC01ODg2MTg0ODEsLTIwNj
+QzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQzMjkzNiwtMTM4NTc4
+MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC
+0xOTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3
+Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOS
+w2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUy
+MTA2OTVdfQ==
 -->
