@@ -1676,9 +1676,9 @@ sleepyGreeting
 3.	**Promise()**, toma **como argumento una función**. Como primer argumento (aquí no ponemos los opcionales) toma **una función**, por ello se llama  **callback**. 
 
 4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, que es particular de los métodos correspondientes de `resolve()` y `reject()`.
-5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**.  Generalmente, **cuando trabajas con promesas**, una de las regla es que tu expectativa es que aquello que quieres obtener, **no lo obtengas de forma inmediata**. **Puede tardar bien milisegundos o unos segundos.**    Este temporizador nos permite manipularlo e incluso **imitar lo que obtendríamos si llamamos a una API** o algo parecido.   Esta función toma dos argumentos:  <br>
-			-	*una función* a ejecutar  **`resolve(valor)`** y **`reject(mensaje)`**
-			-	*retraso*: **el tiempo de espera en milisegundos** (2 Segundos en este caso)
+5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**.  Generalmente, **cuando trabajas con promesas**,  tu expectativa es que aquello que quieres obtener, **no lo obtengas de forma inmediata**. **Puede tardar bien milisegundos o unos segundos.**    Este temporizador nos permite controlar esto, e incluso **imitar lo que obtendríamos si llamamos a una API** o algo parecido.   Esta función toma dos argumentos:  
+						-		*una función* a ejecutar  **`resolve(valor)`** y **`reject(mensaje)`**
+					-		*retraso*: **el tiempo de espera en milisegundos** (2 Segundos en este caso)
 			
 
 6.	Finalmente, **llamamos a la función.** Por CONVENCIÓN COMÚN, utilizamos la sintaxis de:
@@ -2473,7 +2473,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDYxODM5MTUsLTg2OTYwNjM2MSwtMT
+eyJoaXN0b3J5IjpbLTE2MzQwMDEzMzMsLTg2OTYwNjM2MSwtMT
 EwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5
 NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMz
 I5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0x
