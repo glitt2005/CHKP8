@@ -846,7 +846,7 @@ console.log(dorsal);   // Imprime: 10
 
 
 OJO!! Lo hemos mencionado, pero recalcamos que  **los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** 
-En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último ejemplo, para que  `nombre`, `posición`y `dorsal`    se mapeen a los atributos de la variable `jugador` **las claves que pasamos, deben  ser justo estos nombres para ambos** . 
+En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último ejemplo, para que las claves  `nombre`, `posición`y `dorsal` que pasamos    se mapeen a los atributos de la variable `jugador` **ambos deben de tener justo esos nombress** . 
 
 
 <br>
@@ -2389,7 +2389,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTk1MDI0OCwxMDk1NzI3NTUzLDMxOD
+eyJoaXN0b3J5IjpbLTI3NzA3NDY1NCwxMDk1NzI3NTUzLDMxOD
 U2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMz
 LDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2OD
 E5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgw
