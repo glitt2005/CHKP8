@@ -1542,7 +1542,7 @@ El método estático es útil cuando :
 </div>
 <br>
 
-<div style="text-align: center;">  Ya que hay una **línea muy fina** entre:  </div>
+<div align="center">  Ya que hay una **línea muy fina** entre:  </div>
 
 
 <div align="center">
@@ -2605,11 +2605,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTQ3MzAwMSw5Njc1NjY1LDgxNTgzND
-E3NywyMTM1OTI5Mzc5LDUzODI3NTk1NiwtMjA1OTQwNzEyOCwt
-MzM0OTQwMTIwLC00NjY2MzU1NDAsMjAzMzg4Mjc2NywyMDY1MT
-UwMTQ2LDQwNzYwODI2NiwtMjAyNTMyODgzLC0yNTI1MjYyNzks
-LTk5NTI5MjMzNCwtMTUwNzAxMTQ5OCwtMjUyNTI2Mjc5LDMzNz
-MwMzE1Nyw4OTY4NzY4NDQsNTU2ODY1OTA0LDMwNzgwNzY3OF19
+eyJoaXN0b3J5IjpbMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NT
+Y2NSw4MTU4MzQxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTYsLTIw
+NTk0MDcxMjgsLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4OD
+I3NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4Mywt
+MjUyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0OTgsLTI1Mj
+UyNjI3OSwzMzczMDMxNTcsODk2ODc2ODQ0LDU1Njg2NTkwNF19
 
 -->
