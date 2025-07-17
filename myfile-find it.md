@@ -1324,7 +1324,7 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 -	**Añadimos `name`  a la clase** para que forme parte de ella, y la forma de que esto funcione es a través de la palabra clave **`this`**. 
 -	Al acceder a **`name`** mediante **`this.name` estamos añadiendo el atributo `name`** a **`this.name`**.
 
--	Los colores aquí muestran perfectamente que son cosas diferentes:
+-	Los **colores** aquí muestran perfectamente que son cosas diferentes:
 	-	 los dos <font color = blue> **`name` en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  **<font color = darkred>  `name` en color rojo**</font> en `this.name` hace referencia **a una instancia de la clase `Instructor`,** precisamente la instancia que hemos creado asignándola a la variable `jon`.  
 	-	En esta instancia en específico, le decimos que **almacene cualquier `name`** (`this.name = name`) **que sea pasado como parámetro con este objeto.**
 
@@ -1333,6 +1333,7 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 
 **OJO!!** Cuando quiera que el **constructor** tome un **objeto** como argumento, entonces **al instanciar también tenemos que poner un objeto como argumento!!**
 <BR>
+<br>
 
 #### ACCEDIENDO A LA CLAVE DE LA INSTANCIA:
 
@@ -1402,6 +1403,8 @@ En este ejemplo:
 
 **OJO!!** No debemos olvidar que PRIMERO debemos INSTANCIAR LA CLASE para convertir la variable a OBJETO. **Nunca podríamos llamar al método de la instancia sin instanciar la clase primero**. De hecho, nos daría **error**.
 <br>
+<br>
+
 
  ### EJEMPLO 2 - Métodos de Instancia
 
@@ -2601,11 +2604,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MjI1NjcxMyw1MzgyNzU5NTYsLTIwNT
-k0MDcxMjgsLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4ODI3
-NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4MywtMj
-UyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0OTgsLTI1MjUy
-NjI3OSwzMzczMDMxNTcsODk2ODc2ODQ0LDU1Njg2NTkwNCwzMD
-c4MDc2NzgsMTgwNjEwOTU2NCwxMTcyMzc0ODQ5LC0xNTQ2MDI3
-NDAwXX0=
+eyJoaXN0b3J5IjpbLTIwOTIxMTc2MTUsNTM4Mjc1OTU2LC0yMD
+U5NDA3MTI4LC0zMzQ5NDAxMjAsLTQ2NjYzNTU0MCwyMDMzODgy
+NzY3LDIwNjUxNTAxNDYsNDA3NjA4MjY2LC0yMDI1MzI4ODMsLT
+I1MjUyNjI3OSwtOTk1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1
+MjYyNzksMzM3MzAzMTU3LDg5Njg3Njg0NCw1NTY4NjU5MDQsMz
+A3ODA3Njc4LDE4MDYxMDk1NjQsMTE3MjM3NDg0OSwtMTU0NjAy
+NzQwMF19
 -->
