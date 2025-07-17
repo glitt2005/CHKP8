@@ -1634,10 +1634,13 @@ const promesa = new Promise((resolve, reject) => {
     
     Crea una **nueva instancia de promesa**. El constructor `new`toma una función con dos parámetros:  `resolve`  y  `reject`.
     <br>
+    <br>
     
 #### BUENA PRÁCTICA
 
 Una buena práctica es añadir la palabra **"Promise"** **al nombre de la variable**, para identificar el propósito en futuros accesos al programa. Al ser así de **descriptivo**, facilitará cualquier interpretación y/o modificación del mismo: por ejemplo **`postsPromise = fetch("https:// aaa.bbbbbbb.com/posts")`**  si tratamos de obtener las publicaciones o "***posts***" de una página web (p.ej. *Twitter*).
+<br>
+<br>
 
 
 ### Proceso básico promesa
@@ -1646,7 +1649,7 @@ Una buena práctica es añadir la palabra **"Promise"** **al nombre de la variab
 </div>
 <br>
 
-EXPLICACIÓN:
+**EXPLICACIÓN:**
 
     
 -   **`resolve(valor)`:**
@@ -1763,7 +1766,7 @@ fetch('<Tu URL>', {})
 
 -  **`fetch()`  devuelve una promesa** que se resuelve al objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta. Es decir, representa la respuesta a la solicitud realizada.  Y dado que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**
 <br>
-- **CONVENCIÓN COMÚN:**    La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:
+- CONVENCIÓN COMÚN:    La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:
 	-  `response` 
 	-  `data`
 	
@@ -2615,11 +2618,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODM4MzY2MywyMDU4MjcxODgzLDIxMz
-YzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0NTksMTEyOTU1MzI2
-MSwxMjA0OTA4MTMzLDIzMjY2NjMyNSwxNzcxNDczMDAxLDk2Nz
-U2NjUsODE1ODM0MTc3LDIxMzU5MjkzNzksNTM4Mjc1OTU2LC0y
-MDU5NDA3MTI4LC0zMzQ5NDAxMjAsLTQ2NjYzNTU0MCwyMDMzOD
-gyNzY3LDIwNjUxNTAxNDYsNDA3NjA4MjY2LC0yMDI1MzI4ODNd
-fQ==
+eyJoaXN0b3J5IjpbLTE2NTg4NTU2NjcsLTczODM4MzY2MywyMD
+U4MjcxODgzLDIxMzYzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0
+NTksMTEyOTU1MzI2MSwxMjA0OTA4MTMzLDIzMjY2NjMyNSwxNz
+cxNDczMDAxLDk2NzU2NjUsODE1ODM0MTc3LDIxMzU5MjkzNzks
+NTM4Mjc1OTU2LC0yMDU5NDA3MTI4LC0zMzQ5NDAxMjAsLTQ2Nj
+YzNTU0MCwyMDMzODgyNzY3LDIwNjUxNTAxNDYsNDA3NjA4MjY2
+XX0=
 -->
