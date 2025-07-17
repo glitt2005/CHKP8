@@ -2047,7 +2047,11 @@ Este tipo de proceso o **Event Loop**, pues, suponía un paso en la dirección c
   // Simula una tarea que tarda un tiempo en completarse
   setTimeout(function() {
     const resultado = "La tarea asíncrona ha finalizado";
-    callback(resultado); // Llama a la función callback con el resultado
+    callback(resultado); // *
+
+## Llama a la función callback con el resultado
+
+*
   }, 2000); // Espera 2 segundos
 }
 
@@ -2487,7 +2491,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzczMDg3NCwtMTU2NDYxOTM5NSwyND
+eyJoaXN0b3J5IjpbMTEyOTMwOTYxMiwtMTU2NDYxOTM5NSwyND
 U2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEwMDgzODA2
 MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMT
 cyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2
