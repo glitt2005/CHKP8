@@ -751,7 +751,7 @@ console.log(jugador2); // Output: X
 Nos **evita**  la tediosa tarea de cambiar,  **uno por uno**, el valor de cada uno de los jugadores `jugadorx.nombre`
 
 #### APLICACIÓN
-Una de los procesos más comunes que te encuentras cuando estás implementando,  es **la capacidad de intercambiar los valores de las variables**. Esto es lo que se hace en  procesos de tipo "***quicksort***" u "ordenamiento rápido" (*algoritmo de ordenación que funciona bajo el principio de "divide y vencerás"*) u otros algoritmos más avanzados.** **Sin la deconstruccion de variables**, sería este procedimiento se convertiría en todo **un reto**! En las v**ersiones modernas de JavaScript** podemos hacer esto de manera **más eficiente en una sola línea de código.**
+Una de los procesos más comunes que te encuentras cuando estás implementando,  es **la capacidad de intercambiar los valores de las variables**. Esto es lo que se hace en  procesos de tipo "***quicksort***" u "ordenamiento rápido" (*algoritmo de ordenación que funciona bajo el principio de "divide y vencerás"*) u otros algoritmos más avanzados. **Sin la deconstruccion de variables**, sería este procedimiento se convertiría en todo **un reto**! En las v**ersiones modernas de JavaScript** podemos hacer esto de manera **más eficiente en una sola línea de código.**
 
 
 
@@ -2384,7 +2384,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MDcxODg3OSwzMTg1NjQwNDgsLTkwND
+eyJoaXN0b3J5IjpbMTgwNTMwNzM2MSwzMTg1NjQwNDgsLTkwND
 EzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAz
 LC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
 kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
