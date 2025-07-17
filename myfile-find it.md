@@ -1564,8 +1564,7 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 </div>
 <br>
 <br>
-<img src="decepción.png" align="right" width="90"> <h3>  ¿Y si queremos que los todos los procesos se<br> ejecuten a la vez 
-y no en secuencia?<h3>
+<img src="decepción.png" align="right" width="90">   qué pasaría en mi aplicación **si Twitter se cae**? Si un usuario va a la página, pero solo podría ver algo que es parte de la memoria intermedia (bufer) como unos puntos suspensivas "………………… " o algo así:   Sería **una experiencia no agradable para cualquier usuario**.
 
 Lo que una **promesa** nos permite es llamar a ***Twitter***, mostrar nuestra página, 
 o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**.
@@ -2468,7 +2467,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjgzMzQ5OCwxNzIzMjg5MDAwLC0xMj
+eyJoaXN0b3J5IjpbMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMj
 AzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0
 OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1Mi
 wtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4
