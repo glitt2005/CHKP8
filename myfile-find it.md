@@ -1755,7 +1755,7 @@ fetch('<Tu URL>', {})
 
 <br>
 
-####    EJEMPLO 1 `fetch()` - Convirtiendo a datos JsonS
+####    EJEMPLO 1 `fetch()` - Convirtiendo a datos *json*
 
 1. Conviertiendo datos a **json** y listando todos los recursos de estos datos json.
 
@@ -1781,7 +1781,10 @@ Y esta impresión será algo similar a esto:
 
 
 No se visualiza bien, pero como son datos **JSON**, y vemos un objeto, un **array** llamado   ** `posts` ** conteniendo muchos datos, lógicamente en forma de pares  clave:valor. Vemos muchas claves repetidas como: `title`, `content`, `created_at` , con sus respectivos valores.
+<br>
 
+  
+#### EJEMPLO 2 `fetch()` - Utilizando el bucle forEach()
 
 2. Trabajando con los datos **json** : con bucle `forEach()`
 ```js
@@ -2473,7 +2476,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MjE3NzQ0NSwtMTEzNjIyNjcsLTg2OT
+eyJoaXN0b3J5IjpbMTQzMjgxMTk0MiwtMTEzNjIyNjcsLTg2OT
 YwNjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIy
 MDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MS
 wxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3
