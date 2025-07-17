@@ -2220,7 +2220,13 @@ Los **cierres** o clausuras ("closures") en Javascript son **una herramienta pod
 Explicado de una forma sencilla, el cierre es una función **que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones**.
 
 ##### ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
+<br>
+<img src="interrogacion.png" align="left" width="90"> <h3>  Y.....<br>
+ ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?<h3>
 
+
+
+<br>
 -	En cierres o clausuras,  “mantener el estado” significa que una función puede **acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma).** Estas variables **“existen” en la memoria** incluso **después** de que la función que las creó **ha terminado de ejecutarse**, y pueden ser **accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.**
 
 - Es decir, en el contexto de async/await, los cierres pueden ser utilizados para mantener el estado de las variables dentro de las funciones asíncronas, permitiendo que las funciones await accedan a ellas. 
@@ -2506,11 +2512,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTQzMzM5MDQsLTExMzgwMzkyNDQsLT
-Y5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2MzYsLTUxMjg1
-OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC
-0xMTM2MjI2NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC04ODE4
-Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5MD
-AwLC0xMjAzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMywt
-NzE1NTc0OTIxXX0=
+eyJoaXN0b3J5IjpbMTgzODIyNzg1MiwtMTg5NDMzMzkwNCwtMT
+EzODAzOTI0NCwtNjk1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3
+MzYzNiwtNTEyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOT
+UsMjQ1NjQxNTAsLTExMzYyMjY3LC04Njk2MDYzNjEsLTExMDA4
+MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MD
+U5LDE3MjMyODkwMDAsLTEyMDM0MzczNzEsMTE4MDM1MjMyOSwy
+MDA3Njk0OTMzXX0=
 -->
