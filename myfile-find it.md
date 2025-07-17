@@ -1044,6 +1044,8 @@ Tenemos **dos soluciones** a esto:
 
 El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama **sin argumentos** toma todos los elementos del array, o sea, **crea una copia de todos los elementos del array original**. 
 
+#### EJEMPLO - `slice()`
+
 ```JavaScript
 const numbers = [1,2,3,4];
 const updatedNumbers = numbers;
@@ -2420,11 +2422,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODQzMjkzNiwtMTM4NTc4MzA1MiwtOD
-Y2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC0xOTI2MTk2
-OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMz
-E4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMy
-MzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMT
-Y4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3
-ODA5MV19
+eyJoaXN0b3J5IjpbLTE3NzMzODc0NjgsLTIzODQzMjkzNiwtMT
+M4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2
+NTU3LC0xOTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LD
+EwOTU3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMw
+OTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC
+04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4
+MTY0ODZdfQ==
 -->
