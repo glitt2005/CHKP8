@@ -1038,7 +1038,7 @@ Vemos que **cambia las dos variables**.
 
 
 Lo que está ocurriendo es que aquí **no está pasando una copia, sino una referencia**. Y lo que esto significa es que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**,  y como consecuencia estás **modificando también la variable original.** 
-
+<br>
 Tenemos **dos soluciones** a esto:
 <br>
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
@@ -1099,7 +1099,7 @@ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más la ú
 <br>
 
 
-**NOTA**:
+**NOTA**:<br>
 El tipo de copia que se crea en estos casos es una **copia superficial**, en comparación con una **copia profunda** :
 
 - una **copia superficial** (*shallow copy*) crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
@@ -2598,11 +2598,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMz
-M4ODI3NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4
-MywtMjUyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0OTgsLT
-I1MjUyNjI3OSwzMzczMDMxNTcsODk2ODc2ODQ0LDU1Njg2NTkw
-NCwzMDc4MDc2NzgsMTgwNjEwOTU2NCwxMTcyMzc0ODQ5LC0xNT
-Q2MDI3NDAwLC0yMDc0NjI3NjY3LDk0ODUzNTkyMiwtMTA0NTA3
-NzgwMF19
+eyJoaXN0b3J5IjpbLTIwNTk0MDcxMjgsLTMzNDk0MDEyMCwtND
+Y2NjM1NTQwLDIwMzM4ODI3NjcsMjA2NTE1MDE0Niw0MDc2MDgy
+NjYsLTIwMjUzMjg4MywtMjUyNTI2Mjc5LC05OTUyOTIzMzQsLT
+E1MDcwMTE0OTgsLTI1MjUyNjI3OSwzMzczMDMxNTcsODk2ODc2
+ODQ0LDU1Njg2NTkwNCwzMDc4MDc2NzgsMTgwNjEwOTU2NCwxMT
+cyMzc0ODQ5LC0xNTQ2MDI3NDAwLC0yMDc0NjI3NjY3LDk0ODUz
+NTkyMl19
 -->
