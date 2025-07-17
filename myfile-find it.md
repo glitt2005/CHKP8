@@ -1077,13 +1077,13 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 <br>
 
 <br>
-<img src="interrogacion.png" align="left" width="90"> <h3>  ¿Y si queremos que los todos los procesos se<br> ejecuten a la vez 
-y no en secuencia?<h3>
-
-
-
+<img src="interrogacion.png" align="left" width="90"> <h3>  ¿Forma a) - tradicional<br>
+o<br> forma b) moderna?<h3>
 <br>
 <br>
+<br>
+
+Se ven los dos tipos
 
 ###  ¿ Forma a)-tradicional  o  Forma b)-moderna ?
 
@@ -2431,11 +2431,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTEyMjQwNSwtMTc3MzM4NzQ2OCwtMj
-M4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3
-MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEwNDExNzk4LC
-0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEz
-MjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAzLC
-05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkx
-OTYzODUyXX0=
+eyJoaXN0b3J5IjpbLTIwNjQzMzU1OTcsLTE3NzMzODc0NjgsLT
+IzODQzMjkzNiwtMTM4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4
+NzI1MSwxNjk3MTI2NTU3LC0xOTI2MTk2OTc0LDkxMDQxMTc5OC
+wtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMzE4NTY0MDQ4LC05MDQx
+MzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYwMy
+wtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5
+MTk2Mzg1Ml19
 -->
