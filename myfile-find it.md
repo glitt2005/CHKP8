@@ -2058,7 +2058,7 @@ Este tipo de proceso o **Event Loop**, pues, suponía un paso en la dirección c
 
 <br>
 
-### 	1. Funciones *callback* y el llamado "*callback hell*"
+### 	1. FUNCIONES  *CALLBACK*  Y EL LLAMADO "*CALLBACK HELL*"
 
 - Las funciones callback **son funciones que se pasan como argumento de otras funciones** para que sean ejecutadas en algún momento dentro de la ejecución de la función principal.
 - Constituyeron **la primera forma de manejar asincronismo** en Javascript.
@@ -2110,7 +2110,7 @@ Precisamente con las **promises** o **promesas** que acabamos de explicar en el 
 
 <br>
 
-### 	2. Promesas
+### 	2. PROMESAS
 
 
 Las promesas **resolvieron** algunos asuntos como:
@@ -2132,7 +2132,7 @@ No añadimos ejemplos de las *promesas*, ya que han quedado explicadas en el cap
 <br>
 <br>
 
-### 	3. Funciones <big>`async`</big> - <big>`await`</big>
+### 	3. FUNCIONES <big>`async`</big> - <big>`await`</big>
 
 
 A partir de **septiembre de 2017** (especificación ECMAScript2017), se incorporaron a JavaScript **las palabras clave** de `async` y `await` que constituyen **la forma más sencilla y moderna de manejar código asincrónico**:
@@ -2618,7 +2618,7 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzAwNDE5LC05MzEyMjU1MjMsMTkzMT
+eyJoaXN0b3J5IjpbNDcyMDExNTEzLC05MzEyMjU1MjMsMTkzMT
 M4MDAwOSwtMTg4ODUwODUxLDQ2NDY3NTA5MCwtNDA4ODYxNzI1
 LC03MzgzODM2NjMsMjA1ODI3MTg4MywyMTM2MzYwNDMzLDE2OT
 QwNDI1MzIsMzQzMTk0NDU5LDExMjk1NTMyNjEsMTIwNDkwODEz
