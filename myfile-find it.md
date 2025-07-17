@@ -1438,7 +1438,7 @@ miClase.miMetodoEstatico();
 
 <br>
 
-#### EJEMPLO 1 -MÉTODO ESTÁTICO:   Creamos un producto genérico para una empresa
+#### EJEMPLO 1 - Creamos un producto genérico para una empresa
 
 
 ```JavaScript
@@ -1462,7 +1462,7 @@ miClase.miMetodoEstatico();
 -  Se acceden a ellos **a través del nombre de la clase** (aquí `Producto`).
 <br>
 
-#### EJEMPLO 2 METODO ESTÁTICO:   Cliente entra y dice "Hola" (método de instancia)  se despide y dice "Adiós" (método estático)
+#### EJEMPLO 2 :   Cliente entra y dice "Hola" (método de instancia)  se despide y dice "Adiós" (método estático)
 ```JavaScript
 class Cliente {
   static despedirse() {
@@ -1483,11 +1483,14 @@ cliente1.despedirse();              // (4) Uncaught TypeError: cliente1.despedir
 console.log(cliente1.entrar());     // (5) Método no estático (requiere instancia): 'Hola'
 ```
 
-(1) Como vemos, el método **estático**  `despedirse()` se ejecuta sin problemas accediendo a él con el **nombre de la clase** delante.<br>
-(2) El método `entrar()` no es estático - **Necesita un instancia** para acceder a él. Nos da error.<br>
-(3) Creamos la instancia.<br>
-(4) El método `despedirse()` es **estático**, la forma de acceder a él es a través de la **clase**, **no de una instancia**.<br>
-(5) El método `entrar()` no es estático, ya hemos **creado la instancia y esta vez no nos da error**.
+  (1) Como vemos, el método **estático**  `despedirse()` se ejecuta
+    sin problemas accediendo a él con el **nombre de la clase**
+    delante.<br> (2) El método `entrar()` no es estático - **Necesita un
+    instancia** para acceder a él. Nos da error.<br> (3) Creamos la
+    instancia.<br> (4) El método `despedirse()` es **estático**, la
+    forma de acceder a él es a través de la **clase**, **no de una
+    instancia**.<br> (5) El método `entrar()` no es estático, ya hemos
+    **creado la instancia y esta vez no nos da error**.
 
 <br>
 
@@ -2454,11 +2457,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUyODc3NjY0LC0xNDc4NTAxMDQwLDE4Mz
-kzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1
-NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3ODMwNT
-IsLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5NzEyNjU1NywtMTky
-NjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NT
-UzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4
-NDMzMjMzXX0=
+eyJoaXN0b3J5IjpbMTEwMzAwNzI1MiwtMTQ3ODUwMTA0MCwxOD
+M5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMz
+NTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMD
+UyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5
+MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNz
+U1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1
+ODQzMzIzM119
 -->
