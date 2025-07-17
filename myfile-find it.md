@@ -762,13 +762,14 @@ Una de los procesos más comunes que te encuentras cuando estás implementando, 
 
 La desestructuración de arrays o arreglos permite extraer elementos específicos de un array y asignarlos a variables, utilizando **la posición de los elementos dentro del array.**
 
-En el siguiente ejemplo, **las dos comas extras (,) sustituyen** cada una de ellas a *un elemento del array siguiendo el orden:
+En el siguiente ejemplo, **las dos comas extras (,) sustituyen** cada una de ellas a un elemento del array **en ese orden**:
+<br>
 
 #### Arrays - EJEMPLO 1
 
 
 ```JavaScript
-const numeros = [1, 2, 3, 4, 5];// Desestructuración de un arreglo
+const numeros = [1, 2, 3, 4, 5];// Desconstrucción de un array
 const [primero, segundo, , , quinto] = numeros;
 
 console.log(primero); // Output: 1
@@ -2386,7 +2387,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzU2NzE0MSwzMTg1NjQwNDgsLTkwND
+eyJoaXN0b3J5IjpbMTA5NTcyNzU1MywzMTg1NjQwNDgsLTkwND
 EzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAz
 LC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
 kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
