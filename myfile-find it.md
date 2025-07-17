@@ -1542,14 +1542,14 @@ El método estático es útil cuando :
 </div>
 <br>
 <br>
-<div align="center"> <big> Ya que hay una **línea muy fina** entre:</big>  </div>
+<div align="center">  Ya que hay una **línea muy fina** entre:  </div>
 
 <br>
 <div align="center">
 <img src="disyuntiva.png"  width = "60%" alt="disyuntiva">
 </div>
 <br>
-<div align="center">  <big>y en la **programación orientada a objetos**,  existe el llamado algo llamado: </big> </div>
+<div align="center">  y en la **programación orientada a objetos**,  existe el llamado algo llamado:  </div>
 <br>
 <div align="center">
 <img src="PRU.png"  width = "40%" alt="principioresp.única">
@@ -2605,11 +2605,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyOTU1MzI2MSwxMjA0OTA4MTMzLDIzMj
-Y2NjMyNSwxNzcxNDczMDAxLDk2NzU2NjUsODE1ODM0MTc3LDIx
-MzU5MjkzNzksNTM4Mjc1OTU2LC0yMDU5NDA3MTI4LC0zMzQ5ND
-AxMjAsLTQ2NjYzNTU0MCwyMDMzODgyNzY3LDIwNjUxNTAxNDYs
-NDA3NjA4MjY2LC0yMDI1MzI4ODMsLTI1MjUyNjI3OSwtOTk1Mj
-kyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYyNzksMzM3MzAzMTU3
+eyJoaXN0b3J5IjpbMzQzMTk0NDU5LDExMjk1NTMyNjEsMTIwND
+kwODEzMywyMzI2NjYzMjUsMTc3MTQ3MzAwMSw5Njc1NjY1LDgx
+NTgzNDE3NywyMTM1OTI5Mzc5LDUzODI3NTk1NiwtMjA1OTQwNz
+EyOCwtMzM0OTQwMTIwLC00NjY2MzU1NDAsMjAzMzg4Mjc2Nywy
+MDY1MTUwMTQ2LDQwNzYwODI2NiwtMjAyNTMyODgzLC0yNTI1Mj
+YyNzksLTk5NTI5MjMzNCwtMTUwNzAxMTQ5OCwtMjUyNTI2Mjc5
 XX0=
 -->
