@@ -2412,9 +2412,13 @@ Deberíamos recibir los datos de <font color= "green">*jasonplaceholder*</font> 
 
 - Esto es parte de la razón por la que utilizando esas herramientas de **`async`-`await` se han convertido tan famosas en la comunidad de JavaScript**, ya que gracias a ellas, tenemos ** el control** de esto. 
 
+<br>
 
-Una vez más, si ejecuto esto unas cuantas veces seguidas, siempre, **siempre :
-- Obendremvamos a obtener primero nuestros datos de <font color= "green">*jasonplaceholder*</font>**.  Y  en segundo lugar los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dado. 
+
+Una vez más, si ejecuto esto unas cuantas veces seguidas, **siempre** :
+1.-	**Obendremos primero** nuestros datos de <font color= "green">*jasonplaceholder*</font>**.  
+2. 
+3.  Y  en **segundo** lugar los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dado. 
 
 <br>
 
@@ -2534,11 +2538,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MDkxMDMsLTEwNDUwNzc4MDAsLTU5Mz
-UxNTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2
-MTMsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNz
-AwNDEwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTExMzgw
-MzkyNDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2Mz
-YsLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0
-NTY0MTUwXX0=
+eyJoaXN0b3J5IjpbMTQwNzgzMTk5MCwtMTA0NTA3NzgwMCwtNT
+kzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMz
+NTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LD
+E3MDA0MTA5NjAsMTgzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEz
+ODAzOTI0NCwtNjk1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3Mz
+YzNiwtNTEyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUs
+MjQ1NjQxNTBdfQ==
 -->
