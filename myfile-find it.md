@@ -1519,26 +1519,26 @@ El método estático es útil cuando :
 	- **no requieren el uso de  `new`,** lo que permite **crear objetos de manera más flexible**.
 
 	
-
+<br>
 
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 
-**OJO!!** Cuando estemos creando una aplicación y estemos pensand en utilizar un método estático, primero deberíamos preguntarnos en profundidad:
+**OJO!!** Cuando estemos creando una aplicación y estemos pensando en utilizar un método estático, primero deberíamos preguntarnos en profundidad:
 
 <div align="center">
 <img src="pregunta.png"  width = "40%" alt="pregunta método estático">
 </div>
 <br>
 
-Ya que hay una línea muy fina entre:
+Ya que hay una **línea muy fina** entre:
 
 <div align="center">
 <img src="disyuntiva.png"  width = "60%" alt="disyuntiva">
 </div>
 <br>
 
-En la **programación orientada a objetos**,  existe el llamado algo llamado:
+Ya que, en la **programación orientada a objetos**,  existe el llamado algo llamado:
 <div align="center">
 <img src="PRU.png"  width = "40%" alt="principioresp.única">
 </div>
@@ -1546,6 +1546,7 @@ En la **programación orientada a objetos**,  existe el llamado algo llamado:
 El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **cada clase**  (función, etc.) debería **tener solo una tarea o responsabilidad** claramente definida, y **no intentar abarcar múltiples tareas** no relacionadas.
 
     
+<br>
 
     
     
@@ -2458,11 +2459,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NzQyNDEzNiwtMTMwMzA3OTY4NSwxMT
-AzMDA3MjUyLC0xNDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQx
-MzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1NTk3LC0xNzczMzg3ND
-Y4LC0yMzg0MzI5MzYsLTEzODU3ODMwNTIsLTg2NjExODc3MCw0
-ODA0ODcyNTEsMTY5NzEyNjU1NywtMTkyNjE5Njk3NCw5MTA0MT
-E3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0OCwt
-OTA0MTMyMjIxXX0=
+eyJoaXN0b3J5IjpbLTEwOTM3NTE1MTgsLTEzMDMwNzk2ODUsMT
+EwMzAwNzI1MiwtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0
+MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4Nz
+Q2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3NzAs
+NDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEwND
+ExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgs
+LTkwNDEzMjIyMV19
 -->
