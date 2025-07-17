@@ -1563,7 +1563,12 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 <img src="decepción.png"  width = "60%" alt="icono decepción">
 </div>
 <br>
+<br>
 
+<img src="decepción.png" Alt="icono de decepción">
+
+
+**OJO!!*
 
 Lo que una **promesa** nos permite es llamar a ***Twitter***, mostrar nuestra página, 
 o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**.
@@ -2466,11 +2471,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMz
-AzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOTM3
-MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEsLTIwNjQzMzU1OT
-csLTE3NzMzODc0NjgsLTIzODQzMjkzNiwtMTM4NTc4MzA1Miwt
-ODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC0xOTI2MT
-k2OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mjc1NTMs
-MzE4NTY0MDQ4XX0=
+eyJoaXN0b3J5IjpbMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MD
+c4MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUw
+MTA0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MS
+wtMjA2NDMzNTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0x
+Mzg1NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMj
+Y1NTcsLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQs
+MTA5NTcyNzU1M119
 -->
