@@ -2288,7 +2288,9 @@ loginActivities(login(), updateAccount());
 
 
 <br>
-Para que no nos lleve a pensar que está funcionando porque son los argumentos tienen los mismos nombres que las promesas, pondremos cualquier letra en los argumentos de la función àsuncyasíncrona:os nombres de los **argumentos** sean iguales a los de las variables,
+Para que no nos lleve a pensar que está funcionando porque son los argumentos tienen los mismos nombres que las promesas, pondremos cualquier letra en los argumentos de la función `async`:
+
+<br>
 
 
 <div align="center">
@@ -2296,9 +2298,7 @@ Para que no nos lleve a pensar que está funcionando porque son los argumentos t
 </div>
 
 <br>
-
-- 
--  Imprimiría **exactamente igual que el ejemplo anterior**.   )  P  **hemos cambiado sus nombres:** Solo se han cambiado nombres.
+ Imprimiría exactamente igual que el ejemplo anterior. Solo se han cambiado nombres.
 
 <br>
 <br>
@@ -2523,7 +2523,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzMwNzQ0NywtNTkzNTE1Nzc2LC0yMD
+eyJoaXN0b3J5IjpbMTI1MDQ1OTMwNywtNTkzNTE1Nzc2LC0yMD
 U2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMzNTYxMywtMTQ0NzQ2
 NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LDE3MDA0MTA5NjAsMT
 gzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEzODAzOTI0NCwtNjk1
