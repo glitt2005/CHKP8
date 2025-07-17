@@ -1515,19 +1515,18 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 El método estático es útil cuando :
 **-** se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica** 
 - **se prefiere evitar el uso de  `new`**  por simplicidad o por otras razones de diseño. Es decir, pueden usarse **para crear instancias de la clase de forma personalizada**  
-<br>
 
-- **cuando no necesitemos acceder a propiedades de instancia**: tiene que ver más **con la estructura** y menos con la instancia. Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo **como estático** 
+
+- **cuando no necesitemos acceder a propiedades de instancia**: tiene que ver más **con la estructura** y menos con la instancia. Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo **como estático.** 
+
 - cuando necesitemos **funciones de utilidad:**
 	-  a) **funciones auxiliares** (***helper modules***). Los métodos "helper" o auxiliares son funciones diseñadas para realizar tareas **específicas y reutilizables, simplificando el código y mejorando la legibilidad**. Estos métodos a menudo se encapsulan en un módulo o clase para **su fácil acceso y mantenimiento**
-	
 	- b) propósito general que **no están ligadas a un objeto en particular**, por ejemplo:
 		- como métodos para **manipular arrays**
 		-  realizar **cálculos matemáticos** 
-		<br>
+
 -  **Como funciones de fábrica**.-   es una función que **devuelve un objeto** nuevo cada vez que se llama:
 	-  cuando un **método estático** se utiliza para ello,  **para crear objetos**, y se convierte en una **función fábrica**
-	
 	- **no requieren el uso de  `new`,** lo que permite **crear objetos de manera más flexible**.
 
 	
@@ -2605,11 +2604,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNTkyOTM3OSw1MzgyNzU5NTYsLTIwNT
-k0MDcxMjgsLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4ODI3
-NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4MywtMj
-UyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0OTgsLTI1MjUy
-NjI3OSwzMzczMDMxNTcsODk2ODc2ODQ0LDU1Njg2NTkwNCwzMD
-c4MDc2NzgsMTgwNjEwOTU2NCwxMTcyMzc0ODQ5LC0xNTQ2MDI3
-NDAwXX0=
+eyJoaXN0b3J5IjpbODE1ODM0MTc3LDIxMzU5MjkzNzksNTM4Mj
+c1OTU2LC0yMDU5NDA3MTI4LC0zMzQ5NDAxMjAsLTQ2NjYzNTU0
+MCwyMDMzODgyNzY3LDIwNjUxNTAxNDYsNDA3NjA4MjY2LC0yMD
+I1MzI4ODMsLTI1MjUyNjI3OSwtOTk1MjkyMzM0LC0xNTA3MDEx
+NDk4LC0yNTI1MjYyNzksMzM3MzAzMTU3LDg5Njg3Njg0NCw1NT
+Y4NjU5MDQsMzA3ODA3Njc4LDE4MDYxMDk1NjQsMTE3MjM3NDg0
+OV19
 -->
