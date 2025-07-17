@@ -1091,19 +1091,22 @@ Se ven los dos tipos
 
  Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más la última forma más moderna.** No obstante es importante conocer los dos y tener ambas posibilidades.
 
------
+<br>
 
 
-**NOTA**: el tipo de copia que se crea en estos casos es una **copia superficial**, en comparación con una **copia profunda**:
+**NOTA**:
+El tipo de copia que se crea en estos casos es una **copia superficial**, en comparación con una **copia profunda** :
 
 - una **copia superficial** (*shallow copy*) crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
 
 - una **copia profunda** (*deep copy*), por otro lado, crea un nuevo objeto y **copia recursivamente todos los elementos**, es decir, **incluyendo los objetos y arrays anidados**, para que no compartan referencias con el objeto original.
 
+<br>
+<br>
 
 ## 4.  PASAR ARGUMENTOS A FUNCIONES 
 
-Esto es algo **muy común**. Para explicarlo, tomaremos de la  de la biblioteca el objeto **Math** (disponible en todo JavaScript), y utilizaremos **el método`max()`**, este método: 
+Esto es algo **muy común**. Para explicarlo, tomaremos de la biblioteca, el objeto **Math** (disponible en todo JavaScript), y utilizaremos **el método`max()`**.  Este método: 
 - se utiliza para encontrar **el valor más grande de una lista de números**
 - **si** se proporciona un argumento que **no es un número**,  `Math.max()`  **devuelve  `NaN`**  (Not a Number)
 
@@ -2428,7 +2431,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTYxMzUyNjMsLTU4ODYxODQ4MSwtMj
+eyJoaXN0b3J5IjpbLTEwOTM3MjAyMjIsLTU4ODYxODQ4MSwtMj
 A2NDMzNTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1
 NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NT
 csLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5
