@@ -2103,10 +2103,11 @@ Todo ello gracias a que las **promesas**  constituyen operaciones asíncronas qu
 </div>
 
 <br>
-No ponemos ejemplos porque queda explicado en un punto anterior.
+No añadimos ejemplos de las *promesas*, ya que han quedado explicadas en el capítulo anterior.
+<br>
 <br>
 
-### 	3. Funciones <big>`async`</big> y <big>`await`</big>
+### 	3. Funciones <big>`async`</big> - <big>`await`</big>
 
 
 A partir de **septiembre de 2017** (especificación ECMAScript2017), se incorporaron a JavaScript **las palabras clave** de `async` y `await` que constituyen **la forma más sencilla y moderna de manejar código asincrónico**:
@@ -2496,7 +2497,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3NDQ2MDgxNSwtMjA0NDU3MzYzNiwtNT
+eyJoaXN0b3J5IjpbLTQxMTYwODA5NSwtMjA0NDU3MzYzNiwtNT
 EyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQx
 NTAsLTExMzYyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLT
 g4MTgyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMy
