@@ -2305,8 +2305,8 @@ Imprimiría **exactamente igual que el ejemplo anterior**. Solo se han cambiado 
 <br>
 <br>
 
-#### EJEMPLO   `async`  -  `await` con cierres, MODIFICANDO NOMBRES DE LOS PARÁMETROS:
-b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunque no tenga sentido práctico, pero para mostrar cómo funcionaría) :
+#### EJEMPLO   `async`  -  `await` con cierres, CAMBIANDO EL ORDEN DE LAS PROMESAS:
+
 
 
 
@@ -2317,7 +2317,8 @@ b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunq
 </div>
 
 <br>
-
+- Aunque no tenga ningún sentido práctico, pero pra mmbiado los dos `await`
+b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunque no tenga sentido práctico, pero para mostrar cómo funcionaría) :
 -  El total de segundos seguirían siendo **exactamente igual que el ejemplo anterior: 4 segundos**.  
 -  Sin embargo:
 	- A los **2 segundos** imprimiría la función **`updateAccount()`**
@@ -2526,11 +2527,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ5MzQwNjUsLTU5MzUxNTc3NiwtMj
-A1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2MTMsLTE0NDc0
-NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNzAwNDEwOTYwLD
-E4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTExMzgwMzkyNDQsLTY5
-NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2MzYsLTUxMjg1OT
-ExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC0x
-MTM2MjI2N119
+eyJoaXN0b3J5IjpbLTk4ODIyNTg1OCwtNTkzNTE1Nzc2LC0yMD
+U2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMzNTYxMywtMTQ0NzQ2
+NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LDE3MDA0MTA5NjAsMT
+gzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEzODAzOTI0NCwtNjk1
+MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5MT
+E4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTEx
+MzYyMjY3XX0=
 -->
