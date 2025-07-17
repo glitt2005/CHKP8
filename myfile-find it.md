@@ -926,8 +926,8 @@ En este caso **la variable `usuario` ya contiene** el valor de **`edad`**, con l
 <br>
 
 ###  6. APLICACIONES
-Aplicaciones que nos encontramos a diario en la que utilizamos la deconstrucción de arrays y objetos en JavaScript es **al conectarse con una API externa**. 
-Esta devuelve típicamente **estructuras tipo array y objetos** (con todo tipo de claves y valores diferentes). 
+- Aplicaciones que nos encontramos a diario en la que utilizamos la deconstrucción de arrays y objetos en JavaScript es **al conectarse con una API externa**. 
+- La **API** devuelve típicamente **estructuras tipo array y objetos** (con todo tipo de claves y valores diferentes). 
 
 **En versiones antiguas de JavaScript** tenías que 
 - **crear** algún tipo de función que sacara cada uno de esos valores, 
@@ -935,7 +935,7 @@ Esta devuelve típicamente **estructuras tipo array y objetos** (con todo tipo d
 -  **almacerlas** en variables, y 
 - **pasarlas en la función** que estés creando. 
 
-Pero en **versiones modernas de JavaScript**, lo que realmente se puede utilizar es la **deconstrucción** del el objeto.
+Pero en **versiones modernas de JavaScript**, lo que realmente se puede utilizar es la **deconstrucción** del objeto.
 
 Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos **facilita enormemente la extracción de estos datos específicos de estructuras complejas**, así como su asignación a variables individuales, que de otro modo sería tan tedioso trabajar con los tipos de datos que una API devuelve.
 <br>
@@ -2393,11 +2393,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNz
-U2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIy
-MSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAzLC05NT
-cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
-ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
-I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
-NDgyXX0=
+eyJoaXN0b3J5IjpbLTI0NzM2NjY2NSwtMTkyNjE5Njk3NCw5MT
+A0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0
+OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOT
+IyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5
+MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMT
+QwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2
+MDBdfQ==
 -->
