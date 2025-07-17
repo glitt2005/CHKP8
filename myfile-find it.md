@@ -998,8 +998,9 @@ precisamente por cómo JavaScript interpreta los arrays:  **un conjunto de “cu
 
 ## 3. COPIAR ARRAYS
 
-- Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JavaScript, se sobreentiende que **no tienes que hacer cambios en una estructura de datos ya creada**. Es una CONVENCIÓN COMÚN. Una variable declarada con **const** nos da precisamente esa seguridad, ya que nos daría error si más tarde en el programa intentamos cambiar la estructura de datos de esta variable.
-Otra situación que puede pasar, es que **añadamos un string** a algo en este array que contiene números, y luego **otra parte del programa considera que solo había números enteros** (porque en principio era así), y ejecuta un proceso sobre esa estructura:  **nos daría error**.
+- Cuando trabajas con arrays basados en **React**, **Angular** y otras plataformas de JavaScript, se sobreentiende que **no tienes que hacer cambios en una estructura de datos ya creada**: esto se trata en realidad de una CONVENCIÓN COMÚN. 
+-  Una variable declarada con **const** nos da precisamente esa seguridad, ya que nos daría error si más tarde en el programa intentamos cambiar la estructura de datos de esta variable.
+- Otra situación que puede pasar, es que **añadamos un string** a algo en este array que contiene números, y luego **otra parte del programa considera que solo había números enteros** (porque en principio era así), y ejecuta un proceso sobre esa estructura:  **nos daría error**.
 
 **UNA BUENA PRÁCTICA**  
 Lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
@@ -2401,11 +2402,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDM1NzQ5NCwtMTkyNjE5Njk3NCw5MT
-A0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0
-OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOT
-IyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5
-MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMT
-QwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2
-MDBdfQ==
+eyJoaXN0b3J5IjpbLTEyODUwMDUzMzEsLTE5MjYxOTY5NzQsOT
+EwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQw
+NDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMT
+kyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTcz
+OTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLD
+E0MDY2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkx
+NjAwXX0=
 -->
