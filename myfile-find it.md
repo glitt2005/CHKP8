@@ -1859,9 +1859,7 @@ Promise.all(iterable)
 
  1. Es un método que toma como **entrada un iterable de promesas** que toma  y **devuelve una sola promesa**. 
  2. Esta promesa se cumple **cuando se cumplen todas las promesas** de esa entrada (incluso cuando se pase un iterable vacío).
- 3. Se **rechazará  en el momento en el que se rechace cualquiera de las promesas** del iterable de entrada,  **devolviendo
-
-** la razón de este **primer rechazo**.
+ 3. Se **rechazará  en el momento en el que se rechace cualquiera de las promesas** del iterable de entrada,  **devolviendo** la razón de este **primer rechazo**.
 
 
 <br>
@@ -2479,7 +2477,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc3NTI3MDE1LDI0NTY0MTUwLC0xMTM2Mj
+eyJoaXN0b3J5IjpbMTgwODA4MTMxLDI0NTY0MTUwLC0xMTM2Mj
 I2NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMs
 LTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMj
 AzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0
