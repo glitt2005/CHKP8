@@ -1553,10 +1553,11 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
     
 # 7. ¿Qué es una promesa en JS?
 
-Para entender el concepto de **Promesa** o **Promise** en líneas generales, una de las formas más comunes de trabajar con **Promises** o **Promesas* es cuando te comunicas con **APIs**.  
+- Para entender el concepto de **Promesa** o **Promise** en líneas generales, una de las formas más comunes de trabajar con **Promises** o **Promesas** es cuando te comunicas con **APIs**.  
 
-Por ejemplo me conecto a una **API de *Twitter***, para poder obtener todas las **publicaciones**. Así que llamo a una **URL (un endpoint**) y las recibo.
--	¿qué pasaría en mi aplicación **si Twitter se cae**? Si un usuario va a la página, pero solo podría ver algo que es parte de la memoria intermedia (bufer) como unos puntos suspensivas "………………… " o algo así:   Sería **una experiencia no agradable para cualquier usuario**.
+- Por ejemplo me conecto a una **API de *Twitter***, para poder obtener todas las **publicaciones**. Así que llamo a una **URL (un endpoint**) y las recibo.
+			-   
+-	 ¿qué pasaría en mi aplicación **si Twitter se cae**? Si un usuario va a la página, pero solo podría ver algo que es parte de la memoria intermedia (bufer) como unos puntos suspensivas "………………… " o algo así:   Sería **una experiencia no agradable para cualquier usuario**.
 
 Lo que una **promesa** nos permite es llamar a ***Twitter***, mostrar nuestra página, 
 o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**.
@@ -2459,11 +2460,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTM3NTE1MTgsLTEzMDMwNzk2ODUsMT
-EwMzAwNzI1MiwtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0
-MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4Nz
-Q2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3NzAs
-NDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEwND
-ExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgs
-LTkwNDEzMjIyMV19
+eyJoaXN0b3J5IjpbMTI5MTk1MzU0OSwtMTMwMzA3OTY4NSwxMT
+AzMDA3MjUyLC0xNDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQx
+MzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1NTk3LC0xNzczMzg3ND
+Y4LC0yMzg0MzI5MzYsLTEzODU3ODMwNTIsLTg2NjExODc3MCw0
+ODA0ODcyNTEsMTY5NzEyNjU1NywtMTkyNjE5Njk3NCw5MTA0MT
+E3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0OCwt
+OTA0MTMyMjIxXX0=
 -->
