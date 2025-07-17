@@ -2129,7 +2129,9 @@ Todo ello gracias a que las **promesas**  constituyen operaciones asíncronas qu
 </div>
 
 <br>
+
 No añadimos ejemplos de las *promesas*, ya que han quedado explicadas en el capítulo anterior.
+
 <br>
 <br>
 
@@ -2619,11 +2621,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjc0Nzk3OSwtOTMxMjI1NTIzLDE5Mz
-EzODAwMDksLTE4ODg1MDg1MSw0NjQ2NzUwOTAsLTQwODg2MTcy
-NSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNjM2MDQzMywxNj
-k0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYxLDEyMDQ5MDgx
-MzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NTY2NSw4MTU4Mz
-QxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTYsLTIwNTk0MDcxMjhd
-fQ==
+eyJoaXN0b3J5IjpbNjcyNzQyNTcsLTkzMTIyNTUyMywxOTMxMz
+gwMDA5LC0xODg4NTA4NTEsNDY0Njc1MDkwLC00MDg4NjE3MjUs
+LTczODM4MzY2MywyMDU4MjcxODgzLDIxMzYzNjA0MzMsMTY5ND
+A0MjUzMiwzNDMxOTQ0NTksMTEyOTU1MzI2MSwxMjA0OTA4MTMz
+LDIzMjY2NjMyNSwxNzcxNDczMDAxLDk2NzU2NjUsODE1ODM0MT
+c3LDIxMzU5MjkzNzksNTM4Mjc1OTU2LC0yMDU5NDA3MTI4XX0=
+
 -->
