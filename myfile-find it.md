@@ -1581,6 +1581,8 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 <br>
 <br>
 <br>
+<br>
+
 
 
 
@@ -1588,11 +1590,11 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 
 - Una **promesa** ejecuta realmente una tarea que **no queremos que ocurra en tiempo real**; podemos desarrollar cualquier funcionalidad nueva en la que sea conveniente **que no se procese inmediatamente**, como una **consulta** a una base de datos o **API** externa.
 
-Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de forma asíncrona.** Esto significa que puedes hacer tareas como ésta de llamar servicios externos y usar APIs, y poder tomar y en realidad, **elegir  qué elementos** de tu página o en tu aplicación **se cargarán directamente, y cuáles pueden tardar más tiempo**.
+- Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de forma asíncrona.** Esto significa que puedes hacer tareas como ésta de llamar servicios externos y usar APIs, y poder tomar y en realidad, **elegir  qué elementos** de tu página o en tu aplicación **se cargarán directamente, y cuáles pueden tardar más tiempo**.
 
-- Efectivamente, algo muy a favor de **Javascript** es que **trabaja directamente con la experiencia del usuario**. No sería deseable que el usuario se quede esperando durante un tiempo hasta que finalmente los datos se carguen.
+	- Efectivamente, algo muy a favor de **Javascript** es que **trabaja directamente con la experiencia del usuario**. No sería deseable que el usuario se quede esperando durante un tiempo hasta que finalmente los datos se carguen.
 
-- **La naturaleza de JavaScript es la comunicación con servicios externos**, como bases de datos, **APIs backend** ( l*as ***APIs backend*** se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend* ) o cualquier otro servicio fuera de la aplicación, **como las diferentes plataformas** de JavaScript  ***React, Angular y Vue***; JavaScript **recibe los datos como resultado de esta comunicación con dichos servicios externos.**
+-  **La naturaleza de JavaScript es la comunicación con servicios externos**, como bases de datos, **APIs backend** ( l*as ***APIs backend*** se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend* ) o cualquier otro servicio fuera de la aplicación, **como las diferentes plataformas** de JavaScript  ***React, Angular y Vue***; JavaScript **recibe los datos como resultado de esta comunicación con dichos servicios externos.**
 - La utilización de herramientas como las **promesas** son el pilar central de **podamos confiar** en que el proceso se desarrollará **tan fluidamente como sea posible**.
 <br>
 
@@ -2608,11 +2610,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODI3MTg4MywyMTM2MzYwNDMzLDE2OT
-QwNDI1MzIsMzQzMTk0NDU5LDExMjk1NTMyNjEsMTIwNDkwODEz
-MywyMzI2NjYzMjUsMTc3MTQ3MzAwMSw5Njc1NjY1LDgxNTgzND
-E3NywyMTM1OTI5Mzc5LDUzODI3NTk1NiwtMjA1OTQwNzEyOCwt
-MzM0OTQwMTIwLC00NjY2MzU1NDAsMjAzMzg4Mjc2NywyMDY1MT
-UwMTQ2LDQwNzYwODI2NiwtMjAyNTMyODgzLC0yNTI1MjYyNzld
+eyJoaXN0b3J5IjpbLTk5NzMyNjM0NiwyMDU4MjcxODgzLDIxMz
+YzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0NTksMTEyOTU1MzI2
+MSwxMjA0OTA4MTMzLDIzMjY2NjMyNSwxNzcxNDczMDAxLDk2Nz
+U2NjUsODE1ODM0MTc3LDIxMzU5MjkzNzksNTM4Mjc1OTU2LC0y
+MDU5NDA3MTI4LC0zMzQ5NDAxMjAsLTQ2NjYzNTU0MCwyMDMzOD
+gyNzY3LDIwNjUxNTAxNDYsNDA3NjA4MjY2LC0yMDI1MzI4ODNd
 fQ==
 -->
