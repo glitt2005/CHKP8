@@ -937,7 +937,7 @@ En este caso **la variable `usuario` ya contiene** el valor de **`edad`**, con l
 
 Pero en **versiones modernas de JavaScript**, lo que realmente se puede utilizar es la **deconstrucción** del objeto.
 
-Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos **facilita enormemente la extracción de estos datos específicos de estructuras complejas**, así como su asignación a variables individuales, que de otro modo sería tan tedioso trabajar con los tipos de datos que una API devuelve.
+Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos **facilita enormemente la extracción de estos datos específicos de estructuras complejas**, así como su asignación a variables individuales, que de otro modo sería tan **tedioso** trabajar con los tipos de datos que una **API** devuelve.
 <br>
 <br>
 
@@ -947,7 +947,7 @@ Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos *
 
 **El operador de extensión** (también llamado operador de propagación) o **Spread Operator** es una herramienta muy potente de las plataformas más populares de JavaScript. Básicamente, **toma los elementos de un iterable** (arrays, cadenas, u objetos) **y los "desempaqueta" individualmente**.
 
-**FIN**: Su objetoto es facilitar **la manipulación y combinación de datos de manera concisa**.
+**OBJETIVO**: Su objeto es facilitar **la manipulación y combinación de datos de manera concisa**.
 **SINTAXIS**: 3 puntos seguidos (...) de algún tipo de palabra.
 
 
@@ -961,6 +961,8 @@ let cadena = "Mundo";
 let array = [...cadena];
 console.log(array); // ["M", "u", "n", "d", "o"]
 ```
+<br>
+
 ## 2. COMBINAR  ARRAYS
 
 a) Comparemos poniendo el **operador de extensión**:
@@ -2393,7 +2395,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NzM2NjY2NSwtMTkyNjE5Njk3NCw5MT
+eyJoaXN0b3J5IjpbLTIyNzU2OTg4MSwtMTkyNjE5Njk3NCw5MT
 A0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0
 OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOT
 IyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5
