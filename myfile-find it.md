@@ -1638,7 +1638,7 @@ EXPLICACIÓN:
 -   **`reject(error)`:**
     
     -   Esta función se usa para indicar que la operación asíncrona **ha fallado.**
-    -   **`error`**  es una **descripción del error**, que puede ser cualquier tipo de valor, aunque **se recomienda usar un objeto  `Error`  para facilitar la depuración**,  [según Stack Overflow en español](https://es.stackoverflow.com/questions/64265/qu%C3%A9-es-una-promesa-en-javascript).
+    -   **`error`**  es una **descripción del error**, que puede ser cualquier tipo de valor, aunque **se recomienda usar un objeto  `Error`  para facilitar la depuración**.
     -   El error se pasará al bloque  `catch()`  o al siguiente  `then()`  con un segundo argumento (el manejador de rechazo) en la cadena de promesas.
 	    - El método  **`catch()`** se usa para **manejar errores o casos de rechazo en una promesa**. Se ejecuta cuando la promesa asociada es rechazada, permitiendo ejecutar código específico para **manejar el error**, **como mostrar un mensaje o realizar alguna acción correctiva.**
 
@@ -2471,11 +2471,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzcxMTk4OTAsLTg2OTYwNjM2MSwtMT
-EwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5
-NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMz
-I5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0x
-MzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOT
-M3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEsLTIwNjQzMzU1
-OTcsLTE3NzMzODc0NjhdfQ==
+eyJoaXN0b3J5IjpbMTc2MDA3NDUyOSwtODY5NjA2MzYxLC0xMT
+AwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0
+ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMj
+ksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEz
+MDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUwMTA0MCwxODM5Mz
+czMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5
+NywtMTc3MzM4NzQ2OF19
 -->
