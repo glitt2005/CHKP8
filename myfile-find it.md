@@ -2542,14 +2542,14 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 	
 	Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
 <br>
-2. Pero el tipo de situación de los ejemplos mencionados, donde **estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que, de todas formas,  **quisiéramos contactar con la que no falla**, y en este caso, necesitaríamos envolverlas con el bloque **`try`- `catch` de forma individual.**
+2. Pero el tipo de situación de los ejemplos mencionados, donde **estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que, de todas formas,  **quisiéramos contactar con la que no falla**, y en este caso, **necesitaríamos envolverlas** con el bloque **`try`- `catch` de forma individual.**
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExOTg3NzA1NywtMTU0NjAyNzQwMCwtMj
+eyJoaXN0b3J5IjpbMTE3MjM3NDg0OSwtMTU0NjAyNzQwMCwtMj
 A3NDYyNzY2Nyw5NDg1MzU5MjIsLTEwNDUwNzc4MDAsLTU5MzUx
 NTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2MT
 MsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNzAw
