@@ -1994,7 +1994,7 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 
 
 <div align="center">
-<img src="eventLoop.png" width = "50%" alt="event Loop">
+<img src="eventLoop.png" width = "60%" alt="event Loop">
 </div>
 
 <br>
@@ -2494,11 +2494,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNT
-Y0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtODY5NjA2MzYx
-LC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMT
-Y2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLDExODAz
-NTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4MDgwMz
-AsLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUwMTA0MCwx
-ODM5MzczMDAzXX0=
+eyJoaXN0b3J5IjpbMTk1NTUyMjEzMSwtNTEyODU5MTE4LC01OT
+k4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMzYyMjY3
+LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMT
+I2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0
+MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5Mj
+EsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0x
+NDc4NTAxMDQwXX0=
 -->
