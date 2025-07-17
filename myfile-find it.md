@@ -1778,7 +1778,7 @@ fetch('<Tu URL>', {})
 
 <br>
 
-####    EJEMPLO 1 `fetch()` - Convirtiendo a datos *json* y listando todos los recursos
+####    EJEMPLO 1 - `fetch()` - Convirtiendo a datos *json* y listando todos los recursos
 
 
 
@@ -1807,7 +1807,7 @@ No se visualiza bien, pero como son datos **JSON**, y vemos un objeto, un **arra
 <br>
 
   
-#### EJEMPLO 2 `fetch()` - Utilizando el bucle `forEach()`
+#### EJEMPLO 2  - `fetch()` - Utilizando el bucle `forEach()`
 
 
 ```js
@@ -1866,7 +1866,9 @@ Y es que, efectivamente, si intentamos capturar este tipo de URL o  **endpoint A
 ## Agrupar  promesas
 
 
+
 En JavaScript, cuando tenemos **promesas** 	que son muy **parecidas**, las podemos agrupar y gestionar **para tratarlas igual**. Se pueden utilizar dos métodos:   `Promise.all()`, y  `Promise.allSettled()` . Esto se ve mucho en **páginas web** y **aplicaciones de móvil**.
+<br>
 <br>
 
 
@@ -2616,11 +2618,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTIyNTUyMywxOTMxMzgwMDA5LC0xOD
-g4NTA4NTEsNDY0Njc1MDkwLC00MDg4NjE3MjUsLTczODM4MzY2
-MywyMDU4MjcxODgzLDIxMzYzNjA0MzMsMTY5NDA0MjUzMiwzND
-MxOTQ0NTksMTEyOTU1MzI2MSwxMjA0OTA4MTMzLDIzMjY2NjMy
-NSwxNzcxNDczMDAxLDk2NzU2NjUsODE1ODM0MTc3LDIxMzU5Mj
-kzNzksNTM4Mjc1OTU2LC0yMDU5NDA3MTI4LC0zMzQ5NDAxMjBd
-fQ==
+eyJoaXN0b3J5IjpbMTgxNzAwNDE5LC05MzEyMjU1MjMsMTkzMT
+M4MDAwOSwtMTg4ODUwODUxLDQ2NDY3NTA5MCwtNDA4ODYxNzI1
+LC03MzgzODM2NjMsMjA1ODI3MTg4MywyMTM2MzYwNDMzLDE2OT
+QwNDI1MzIsMzQzMTk0NDU5LDExMjk1NTMyNjEsMTIwNDkwODEz
+MywyMzI2NjYzMjUsMTc3MTQ3MzAwMSw5Njc1NjY1LDgxNTgzND
+E3NywyMTM1OTI5Mzc5LDUzODI3NTk1NiwtMjA1OTQwNzEyOF19
+
 -->
