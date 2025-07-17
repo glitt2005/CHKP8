@@ -1579,7 +1579,11 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 <br>
 
     
-    
+ <br>
+
+--------------------------
+
+  
     
 # 7. ¿Qué es una promesa en JS?
 
@@ -1989,7 +1993,11 @@ Promise.allSettled([promesa1, promesa2, promesa3])
 <br>
 <br>
 
----
+<br>
+
+--------------------------
+
+
 
 
 
@@ -2644,11 +2652,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzU4MDk1NiwyNjE1OTQ5NDcsLTIwND
-M1MDAwNzksMzY1NTY1MzMsLTY5MTg2ODc3MCwtMTYzNzIwMzM3
-NCw1MjYzMzcyMzEsMTMzODQ3MDIwMSw2NzI3NDI1NywtOTMxMj
-I1NTIzLDE5MzEzODAwMDksLTE4ODg1MDg1MSw0NjQ2NzUwOTAs
-LTQwODg2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNj
-M2MDQzMywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYx
-XX0=
+eyJoaXN0b3J5IjpbLTExMTI0MTkxOTMsMjYxNTk0OTQ3LC0yMD
+QzNTAwMDc5LDM2NTU2NTMzLC02OTE4Njg3NzAsLTE2MzcyMDMz
+NzQsNTI2MzM3MjMxLDEzMzg0NzAyMDEsNjcyNzQyNTcsLTkzMT
+IyNTUyMywxOTMxMzgwMDA5LC0xODg4NTA4NTEsNDY0Njc1MDkw
+LC00MDg4NjE3MjUsLTczODM4MzY2MywyMDU4MjcxODgzLDIxMz
+YzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0NTksMTEyOTU1MzI2
+MV19
 -->
