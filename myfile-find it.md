@@ -1254,7 +1254,7 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 
 - **Una clase** es simplemente una lista de definiciones que indican exactamente cómo debería comportarse.
 -  **Una clase** numerará **atributos** para **describir** lo que se supone que debe hacer la clase y su **comportamiento**. 
-
+<br>
 
 #### EJEMPLO: Imaginemos la clase `Usuario`:
 - CLASE: Cada vez que **un nuevo usuario** accede un sitio web y se registra, el programa **revisará la clase `Usuario` y verá esa esa estructura**. Es lo mismo que decir que "es importante ver **cómo debería comportarse ese usuario**", para pasar luego al siguiente paso. 
@@ -2599,7 +2599,7 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwNDYxNzI2LC0yMDU5NDA3MTI4LC0zMz
+eyJoaXN0b3J5IjpbNDUwMjYwNTI0LC0yMDU5NDA3MTI4LC0zMz
 Q5NDAxMjAsLTQ2NjYzNTU0MCwyMDMzODgyNzY3LDIwNjUxNTAx
 NDYsNDA3NjA4MjY2LC0yMDI1MzI4ODMsLTI1MjUyNjI3OSwtOT
 k1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYyNzksMzM3MzAz
