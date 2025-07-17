@@ -1502,18 +1502,18 @@ console.log(cliente1.entrar());     // (5) Método no estático (requiere instan
 
 
 El método estático es útil cuando :
-- se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica** 
-- **se prefiere evitar el uso de  `new`**  por simplicidad o por otras razones de diseño. Es decir, pueden usarse **para crear instancias de la clase de forma personalizada**.  
+**-** se necesita crear instancias de una clase con cierta lógica de inicialización o **configuración específica** 
+- **se prefiere evitar el uso de  `new`**  por simplicidad o por otras razones de diseño. Es decir, pueden usarse **para crear instancias de la clase de forma personalizada**  
 
-- **cuando no necesitemos acceder a propiedades de instancia**: tiene que ver más **con la estructura** y menos con la instancia. Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo como estático. 
+- **cuando no necesitemos acceder a propiedades de instancia**: tiene que ver más **con la estructura** y menos con la instancia. Si un método no necesita acceder a datos específicos de un objeto, es **más eficiente** declararlo **como estático** 
 - cuando necesitemos **funciones de utilidad:**
-	-  a) **funciones auxiliares** (***helper modules***). Los métodos "helper" o auxiliares son funciones diseñadas para realizar tareas **específicas y reutilizables, simplificando el código y mejorando la legibilidad**. Estos métodos a menudo se encapsulan en un módulo o clase para **su fácil acceso y mantenimiento**.
+	-  a) **funciones auxiliares** (***helper modules***). Los métodos "helper" o auxiliares son funciones diseñadas para realizar tareas **específicas y reutilizables, simplificando el código y mejorando la legibilidad**. Estos métodos a menudo se encapsulan en un módulo o clase para **su fácil acceso y mantenimiento**
 	
 	- b) propósito general que **no están ligadas a un objeto en particular**, por ejemplo:
 		- como métodos para **manipular arrays**
-		-  realizar **cálculos matemáticos**. 
+		-  realizar **cálculos matemáticos** 
 		
--  **Funciones de fábrica**.-   función que **devuelve un objeto** nuevo cada vez que se llama:
+-  **Como funciones de fábrica**.-   es una función que **devuelve un objeto** nuevo cada vez que se llama:
 	-  cuando un **método estático** se utiliza para ello,  **para crear objetos**, y se convierte en una **función fábrica**
 	
 	- **no requieren el uso de  `new`,** lo que permite **crear objetos de manera más flexible**.
@@ -1524,7 +1524,7 @@ El método estático es útil cuando :
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 
-Ojo! Cuando estemos creando una aplicación y estemos pensand en utilizar un método estático, primero deberíamos preguntarnos en profundidad:
+**OJO!!** Cuando estemos creando una aplicación y estemos pensand en utilizar un método estático, primero deberíamos preguntarnos en profundidad:
 
 <div align="center">
 <img src="pregunta.png"  width = "40%" alt="pregunta método estático">
@@ -2458,11 +2458,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMT
-Q3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYx
-ODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOT
-M2LC0xMzg1NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2
-OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MD
-k2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwx
-MjcyMzA5ODM5XX0=
+eyJoaXN0b3J5IjpbMTU2NzQyNDEzNiwtMTMwMzA3OTY4NSwxMT
+AzMDA3MjUyLC0xNDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQx
+MzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1NTk3LC0xNzczMzg3ND
+Y4LC0yMzg0MzI5MzYsLTEzODU3ODMwNTIsLTg2NjExODc3MCw0
+ODA0ODcyNTEsMTY5NzEyNjU1NywtMTkyNjE5Njk3NCw5MTA0MT
+E3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0OCwt
+OTA0MTMyMjIxXX0=
 -->
