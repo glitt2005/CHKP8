@@ -1036,8 +1036,10 @@ Vemos que **cambia las dos variables**.
 
 
 
-Lo que está ocurriendo es que aquíuí **no está pasando una copia, sino una referencia**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **como consecuencia MODIFICANDO TAMBIÉN LA VARIABLE FUENTE.** Tenemos dos soluciones a esto:
+Lo que está ocurriendo es que aquí **no está pasando una copia, sino una referencia**. Y lo que esto significa es que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**,  y como consecuencia estás **modificando también la variable original.** 
 
+Tenemos dos soluciones a esto:
+<br>
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
 El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama **sin argumentos** toma todos los elementos del array, o sea, **crea una copia de todos los elementos del array original** superficial (shallow copy) del array original. 
@@ -2421,11 +2423,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyMzY3OTk2LC0xMzg1NzgzMDUyLC04Nj
-YxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5
-NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMT
-g1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIz
-MywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNj
-gxOTczOTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4
-MDkxXX0=
+eyJoaXN0b3J5IjpbMTU3MDQ0MzkwNSwtMTM4NTc4MzA1MiwtOD
+Y2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC0xOTI2MTk2
+OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMz
+E4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMy
+MzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMT
+Y4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3
+ODA5MV19
 -->
