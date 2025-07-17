@@ -2128,7 +2128,9 @@ async function miFuncion() {
 Proporcionan:
 -	**Mayor legibilidad**: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
 -	**Manejo de errores** de forma similar a como se haría con código **síncrono**
--	**Sintaxis más limpia**: elimina la necesidad de anidar `then()` y `catch()` al trabajar con promesas haciendo código más limpio y conciseo.
+-	**Sintaxis más limpia**: elimina la necesidad de anidar `then()` y `catch()` al trabajar con promesas haciendo código más limpio y conciso.
+
+<br>
 
 
 <br>
@@ -2504,11 +2506,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDczODI1NSwtNjk1MjY3MDcsMjA1Mj
-U5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5MTE4LC01OTk4MjU3
-NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMzYyMjY3LC04Nj
-k2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMy
-MjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNz
-EsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkw
-NzgwODAzMF19
+eyJoaXN0b3J5IjpbLTExMzgwMzkyNDQsLTY5NTI2NzA3LDIwNT
+I1OTY5OTMsLTIwNDQ1NzM2MzYsLTUxMjg1OTExOCwtNTk5ODI1
+NzUyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtOD
+Y5NjA2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkz
+MjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3Mz
+cxLDExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5
+MDc4MDgwMzBdfQ==
 -->
