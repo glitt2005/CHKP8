@@ -1694,12 +1694,12 @@ sleepyGreeting
 
 1. `data` es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
 Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la respuesta:
-	**"entonces** (en inglés, "then"), haz esto, esto y esto"  (lo que ponga despues del `then()`** .
+	**"entonces** (en inglés, "then"), **haz esto, esto y esto"**  (todo lo que ponga despues del `then()`) .
 	
-	En nuestro caso sería nuestro string <font color=green>**“Hello……”.**</font>. En otros ejemplos, correspondería a las **peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.**
+	En nuestro caso, sería nuestro string <font color=green>**“Hello……”.**</font>. En otros ejemplos, correspondería a las **peticiones de publicación JSON, o tweets, o lo que quiera que haga cuando estemos llamando.**
 	<br>
 
-2.  **`catch(err => { console.error(err); })`**  es un método que se utiliza para manejar errores asíncronos, específicamente en el contexto de promesas.   En otras palabras, es una forma de **asegurar que si una operación asíncrona falla, el error se capture y se muestre en la consola**, permitiendo a los desarrolladores responder adecuadamente. Analicemos cada parte:
+2.  **`catch(err => { console.error(err); })`**  es un método que se utiliza para manejar errores asíncronos, específicamente en el **contexto de promesas**.   En otras palabras, es una forma de **asegurar que si una operación asíncrona falla, el error se capture y se muestre en la consola**, permitiendo a los desarrolladores responder adecuadamente. Analicemos cada parte:
 		
 	-   **`.catch()`:**
     
@@ -2473,11 +2473,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE5ODU2NTYsLTExMzYyMjY3LC04Nj
-k2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMy
-MjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNz
-EsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkw
-NzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0xNDc4NT
-AxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgx
-LC0yMDY0MzM1NTk3XX0=
+eyJoaXN0b3J5IjpbMTIzMzM3MzI4MywtMTEzNjIyNjcsLTg2OT
+YwNjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIy
+MDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MS
+wxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3
+ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MD
+EwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEs
+LTIwNjQzMzU1OTddfQ==
 -->
