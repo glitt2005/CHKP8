@@ -2136,10 +2136,11 @@ Proporcionan:
 </div>
 
 <br>
+<br>
 
-#### EJEMPLO:
+#### EJEMPLO `async`- `await`:
 
-(Evitamos incluir los `reject`  para mostrar más claramente el propósito de la explicación de `async`/`await`)
+(Evitamos incluir los `reject`  para mostrar más claramente el propósito de la explicación de `async`-`await`)
 ```js
 const login = () => {
   return new Promise((resolve, reject) => {
@@ -2171,7 +2172,7 @@ loginActivities();  // retorna 'Updating last login...'
 - Simplemente hemos declarado una lista de **cuándo queremos que cada uno de estos procesos ocurran y el orden** en el que queremos que ocurran.
 <br>
 
-
+#### ¿cómo funciona 
 
 **1**. En el primer `await`, al anteponer esta palabra clave justo ahí,  se **suspenderá la ejecución de** `async` hasta que la función de `login()`  , es decir, la **Promise no termine** su ejecución.  Después, ejecutará `async`, es decir harán  `console.log(returnedLogin)`. En un mundo real devolvería las **licencias del usuario, su nombre y ese tipo de cosas en lugar de un string**.
 
@@ -2497,11 +2498,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQwNzk3ODksLTIwNDQ1NzM2MzYsLT
-UxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0
-MTUwLC0xMTM2MjI2NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC
-04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIz
-Mjg5MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5ND
-kzMywtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUs
-MTEwMzAwNzI1Ml19
+eyJoaXN0b3J5IjpbMTYxNTMyNDk3NiwtMjA0NDU3MzYzNiwtNT
+EyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQx
+NTAsLTExMzYyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLT
+g4MTgyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMy
+ODkwMDAsLTEyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OT
+MzLC03MTU1NzQ5MjEsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwx
+MTAzMDA3MjUyXX0=
 -->
