@@ -1542,7 +1542,10 @@ El método estático es útil cuando :
 </div>
 <br>
 
-Ya que hay una **línea muy fina** entre:
+<div style="text-align: center;">  
+Ya que hay una **línea muy fina** entre.  
+</div>
+
 
 <div align="center">
 <img src="disyuntiva.png"  width = "60%" alt="disyuntiva">
@@ -2604,11 +2607,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1ODM0MTc3LDIxMzU5MjkzNzksNTM4Mj
-c1OTU2LC0yMDU5NDA3MTI4LC0zMzQ5NDAxMjAsLTQ2NjYzNTU0
-MCwyMDMzODgyNzY3LDIwNjUxNTAxNDYsNDA3NjA4MjY2LC0yMD
-I1MzI4ODMsLTI1MjUyNjI3OSwtOTk1MjkyMzM0LC0xNTA3MDEx
-NDk4LC0yNTI1MjYyNzksMzM3MzAzMTU3LDg5Njg3Njg0NCw1NT
-Y4NjU5MDQsMzA3ODA3Njc4LDE4MDYxMDk1NjQsMTE3MjM3NDg0
-OV19
+eyJoaXN0b3J5IjpbOTY3NTY2NSw4MTU4MzQxNzcsMjEzNTkyOT
+M3OSw1MzgyNzU5NTYsLTIwNTk0MDcxMjgsLTMzNDk0MDEyMCwt
+NDY2NjM1NTQwLDIwMzM4ODI3NjcsMjA2NTE1MDE0Niw0MDc2MD
+gyNjYsLTIwMjUzMjg4MywtMjUyNTI2Mjc5LC05OTUyOTIzMzQs
+LTE1MDcwMTE0OTgsLTI1MjUyNjI3OSwzMzczMDMxNTcsODk2OD
+c2ODQ0LDU1Njg2NTkwNCwzMDc4MDc2NzgsMTgwNjEwOTU2NF19
+
 -->
