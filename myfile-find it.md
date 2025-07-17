@@ -592,7 +592,7 @@ ii ) **DECLARACIÓN de función tradicional o regular**
 
 
 
-iii ) **Función flecha**:
+iii ) **Función FLECHA**:
 
 <div align="center">
 <img src="funcionFlecha1.png" width="50%" Alt="funcionFlecha1">
@@ -600,7 +600,7 @@ iii ) **Función flecha**:
 <br>
 <br>
 
-En realidad, **si comparamos una función regular con una flecha**, en lugar de tener que escribir "function" cada vez que queremos declarar una función, eliminar esa palabra y utilizar <big><strong> => </strong></big>  justo delante de las llaves <big><strong> { } </strong></big>   para para declarar una función de flecha. 
+En realidad, **si comparamos una función regular con una flecha**, en lugar de tener que escribir "***function***" cada vez que queremos declarar una función, eliminar esa palabra y utilizar <big><strong> => </strong></big>  justo delante de las llaves <big><strong> { } </strong></big>   para para declarar una función de flecha. 
 
 
 
@@ -653,8 +653,8 @@ obj.obtenerValorFlecha(); // Salida: 10
 
 ## 3) EN RESUMEN
 
-##### 1. VENTAJAS DE LAS FUNCIONES FLECHA
-- **Contexto Léxico:** A diferencia de las funciones regulares, las funciones flecha **no tienen su propio enlace a  `this`.** En cambio,  `this`  dentro de una función flecha se refiere al contexto léxico, es decir, al **valor de  `this`  en el ámbito donde la función flecha fue definida. Esto evita errores comunes** relacionados con el contexto de  `this`  al usar funciones de **callback** dentro de **métodos de objetos o en otros contextos donde  `this`  podría cambiar dinámicamente.**
+#### 1. VENTAJAS DE LAS FUNCIONES FLECHA
+- **Contexto Léxico:** A diferencia de las funciones regulares, las funciones flecha **no tienen su propio enlace a  `this`.** En cambio,  `this`  dentro de una función flecha se refiere al contexto léxico, es decir, al **valor de  `this`  **en el ámbito donde la función flecha fue definida. Esto evita errores comunes** relacionados con el contexto de  `this`  al usar funciones de **callback** dentro de **métodos de objetos o en otros contextos donde  `this`  podría cambiar dinámicamente.**
 
 
     
@@ -667,7 +667,7 @@ obj.obtenerValorFlecha(); // Salida: 10
 <br>
     
 
-##### 2. LIMITACIONES DE LAS FUNCIONES FLECHA
+#### 2. LIMITACIONES DE LAS FUNCIONES FLECHA
 
 - **No pueden usarse como constructores** (no se pueden llamar con **`new`**).
 - **No tienen su propio objeto `arguments`** con la lista de argumentos pasados a la función, ya que solo acceden a los argumentos del ámbito léxico que las rodea.
@@ -2378,7 +2378,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwNTc4NDQxLDMxODU2NDA0OCwtOTA0MT
+eyJoaXN0b3J5IjpbMzQ3NjgyNjc1LDMxODU2NDA0OCwtOTA0MT
 MyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOTIyOTA2MDMs
 LTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOT
 E5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkw
