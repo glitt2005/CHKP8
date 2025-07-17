@@ -2047,7 +2047,7 @@ Este tipo de proceso o **Event Loop**, pues, suponía un paso en la dirección c
   // Simula una tarea que tarda un tiempo en completarse
   setTimeout(function() {
     const resultado = "La tarea asíncrona ha finalizado";
-    callback(resultado); //Llama a la func.callback con el resultado
+    callback(resultado); //Llama a la func.callback con el rdo.
   }, 2000); // Espera 2 segundos
 }
 
@@ -2058,7 +2058,7 @@ function miCallback(resultado) {
 tareaAsincrona(miCallback); // Llama a la función tareaAsincrona, 
 							//pasando miCallback como callback
 console.log("La ejecución continúa..."); // Se imprime ANTES 
-	//				de que se ejecute el callback
+									//	de ejecutarse el callback
 ```
 
 
@@ -2489,11 +2489,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzM0MTE2NCwtMTU2NDYxOTM5NSwyND
-U2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEwMDgzODA2
-MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMT
-cyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2
-OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Nj
-g1LDExMDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywt
-NzAyNDEzMjk4XX0=
+eyJoaXN0b3J5IjpbNzI2NTUwNDI3LC0xNTY0NjE5Mzk1LDI0NT
+Y0MTUwLC0xMTM2MjI2NywtODY5NjA2MzYxLC0xMTAwODM4MDYw
+LC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNz
+IzMjg5MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5
+NDkzMywtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2OD
+UsMTEwMzAwNzI1MiwtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03
+MDI0MTMyOThdfQ==
 -->
