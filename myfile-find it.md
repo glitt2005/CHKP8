@@ -2090,6 +2090,7 @@ console.log("La ejecución continúa..."); // Se imprime ANTES
 - En este código asíncrono, donde cada operación **depende del resultado de la anterior, generaba una estructura en forma de pirámide**. Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, **hasta que no hubieras realizado las tareas que están por encima de ella.** 
 - Tenías que **codificar cada posible proceso que piensas que pudiera ocurrir** para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. **Debías tener muy claro la secuencia específica, y codificar eso**.
 
+<br>
 
 Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, lo cual no hizo sino añadir **más hándicaps** a las ***callback***: 
 
@@ -2618,11 +2619,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyMDExNTEzLC05MzEyMjU1MjMsMTkzMT
-M4MDAwOSwtMTg4ODUwODUxLDQ2NDY3NTA5MCwtNDA4ODYxNzI1
-LC03MzgzODM2NjMsMjA1ODI3MTg4MywyMTM2MzYwNDMzLDE2OT
-QwNDI1MzIsMzQzMTk0NDU5LDExMjk1NTMyNjEsMTIwNDkwODEz
-MywyMzI2NjYzMjUsMTc3MTQ3MzAwMSw5Njc1NjY1LDgxNTgzND
-E3NywyMTM1OTI5Mzc5LDUzODI3NTk1NiwtMjA1OTQwNzEyOF19
-
+eyJoaXN0b3J5IjpbLTUyNjc0Nzk3OSwtOTMxMjI1NTIzLDE5Mz
+EzODAwMDksLTE4ODg1MDg1MSw0NjQ2NzUwOTAsLTQwODg2MTcy
+NSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNjM2MDQzMywxNj
+k0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYxLDEyMDQ5MDgx
+MzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NTY2NSw4MTU4Mz
+QxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTYsLTIwNTk0MDcxMjhd
+fQ==
 -->
