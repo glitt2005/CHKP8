@@ -2271,10 +2271,14 @@ Explicado de una forma sencilla, el cierre es una función **que puede ser anida
 <br>
 
 **VENTAJAS:**
+<br>
+
 -	Legibilidad
 -	Gestión del Código
 <br>
+
 #### EJEMPLO   `async`  -  `await` con cierres:
+
 ```js
 const login = () => {
   return new Promise((resolve, reject) => {
@@ -2621,11 +2625,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzODQ3MDIwMSw2NzI3NDI1NywtOTMxMj
-I1NTIzLDE5MzEzODAwMDksLTE4ODg1MDg1MSw0NjQ2NzUwOTAs
-LTQwODg2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNj
-M2MDQzMywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYx
-LDEyMDQ5MDgxMzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NT
-Y2NSw4MTU4MzQxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTZdfQ==
+eyJoaXN0b3J5IjpbNTI2MzM3MjMxLDEzMzg0NzAyMDEsNjcyNz
+QyNTcsLTkzMTIyNTUyMywxOTMxMzgwMDA5LC0xODg4NTA4NTEs
+NDY0Njc1MDkwLC00MDg4NjE3MjUsLTczODM4MzY2MywyMDU4Mj
+cxODgzLDIxMzYzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0NTks
+MTEyOTU1MzI2MSwxMjA0OTA4MTMzLDIzMjY2NjMyNSwxNzcxND
+czMDAxLDk2NzU2NjUsODE1ODM0MTc3LDIxMzU5MjkzNzldfQ==
 
 -->
