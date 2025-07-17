@@ -2363,7 +2363,7 @@ Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado 
 
 <br>
 
-### 2)  <big>`async`</big> - <big>`await`</big> EN COMUAPI: bloque `try{}`- `catch()`
+### 2)  <big>`async`</big> - <big>`await`</big> EN COMUNICACIONES API: BLOQUE `try{}`- `catch()`
 
  - [x] Capturaremos **2 URLs** (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el **bloque  `try` - `catch`** 
@@ -2625,11 +2625,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzY2ODkxMSwtNjkxODY4NzcwLC0xNj
-M3MjAzMzc0LDUyNjMzNzIzMSwxMzM4NDcwMjAxLDY3Mjc0MjU3
-LC05MzEyMjU1MjMsMTkzMTM4MDAwOSwtMTg4ODUwODUxLDQ2ND
-Y3NTA5MCwtNDA4ODYxNzI1LC03MzgzODM2NjMsMjA1ODI3MTg4
-MywyMTM2MzYwNDMzLDE2OTQwNDI1MzIsMzQzMTk0NDU5LDExMj
-k1NTMyNjEsMTIwNDkwODEzMywyMzI2NjYzMjUsMTc3MTQ3MzAw
-MV19
+eyJoaXN0b3J5IjpbMzY1NTY1MzMsLTY5MTg2ODc3MCwtMTYzNz
+IwMzM3NCw1MjYzMzcyMzEsMTMzODQ3MDIwMSw2NzI3NDI1Nywt
+OTMxMjI1NTIzLDE5MzEzODAwMDksLTE4ODg1MDg1MSw0NjQ2Nz
+UwOTAsLTQwODg2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMs
+MjEzNjM2MDQzMywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NT
+UzMjYxLDEyMDQ5MDgxMzMsMjMyNjY2MzI1LDE3NzE0NzMwMDFd
+fQ==
 -->
