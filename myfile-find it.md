@@ -1678,7 +1678,7 @@ sleepyGreeting
 4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, que es particular de los métodos correspondientes de `resolve()` y `reject()`.
 5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**.  Generalmente, **cuando trabajas con promesas**,  tu expectativa es que aquello que quieres obtener, **no lo obtengas de forma inmediata**. **Puede tardar bien milisegundos o unos segundos.**    Este temporizador nos permite controlar esto, e incluso **imitar lo que obtendríamos si llamamos a una API** o algo parecido.   Esta función toma dos argumentos:  
 						-		*una función*  a ejecutar &nbsp; **`resolve(valor)`** y **`reject(mensaje)`**
-						-		*retraso o "delay"*:&nbsp; &nbsp; **el tiempo de espera en milisegundos** (2 Segundos en este caso)
+						-		*retraso o "delay"*:&nbsp; &nbsp; **el tiempo de espera en milisegundos** (2 segundos en este caso).
 			
 
 6.	Finalmente, **llamamos a la función.** Por CONVENCIÓN COMÚN, utilizamos la sintaxis de:
@@ -2473,11 +2473,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzYyMjY3LC04Njk2MDYzNjEsLTExMD
-A4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4
-MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNzEsMTE4MDM1MjMyOS
-wyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkwNzgwODAzMCwtMTMw
-MzA3OTY4NSwxMTAzMDA3MjUyLC0xNDc4NTAxMDQwLDE4MzkzNz
-MwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1NTk3
-LC0xNzczMzg3NDY4XX0=
+eyJoaXN0b3J5IjpbMTI5NDkwMTk5OSwtMTEzNjIyNjcsLTg2OT
+YwNjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIy
+MDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MS
+wxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3
+ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MD
+EwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEs
+LTIwNjQzMzU1OTddfQ==
 -->
