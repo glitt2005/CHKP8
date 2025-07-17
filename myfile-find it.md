@@ -1085,7 +1085,7 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 <br>
 <br>
 <br>
-<img src="interrogacion.png" align="left" width="90">   <big><br>**¿Forma a)  - tradicional <br> NDO EXACTAMENTE?**</big>
+<img src="interrogacion.png" align="left" width="90">   <big><br>¿Forma a)  - tradicional o <br> Forma b) moderna?</big>
 
 <br>
 <br>
@@ -2600,11 +2600,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE0Mzg4MzYsLTI1MjUyNjI3OSwtOT
-k1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYyNzksMzM3MzAz
-MTU3LDg5Njg3Njg0NCw1NTY4NjU5MDQsMzA3ODA3Njc4LDE4MD
-YxMDk1NjQsMTE3MjM3NDg0OSwtMTU0NjAyNzQwMCwtMjA3NDYy
-NzY2Nyw5NDg1MzU5MjIsLTEwNDUwNzc4MDAsLTU5MzUxNTc3Ni
-wtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2MTMsLTE0
-NDc0NjQ3NDJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjUzMjg4MywtMjUyNTI2Mjc5LC05OT
+UyOTIzMzQsLTE1MDcwMTE0OTgsLTI1MjUyNjI3OSwzMzczMDMx
+NTcsODk2ODc2ODQ0LDU1Njg2NTkwNCwzMDc4MDc2NzgsMTgwNj
+EwOTU2NCwxMTcyMzc0ODQ5LC0xNTQ2MDI3NDAwLC0yMDc0NjI3
+NjY3LDk0ODUzNTkyMiwtMTA0NTA3NzgwMCwtNTkzNTE1Nzc2LC
+0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMzNTYxMywtMTQ0
+NzQ2NDc0Ml19
 -->
