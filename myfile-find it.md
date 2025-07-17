@@ -2549,11 +2549,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 # B) EJERCICIOS PRÁCTICOS CHECKPOINT 8
 
-
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzQyNDQ2NiwxMTcyMzc0ODQ5LC0xNT
+eyJoaXN0b3J5IjpbLTk3MzM4OTI4NiwxMTcyMzc0ODQ5LC0xNT
 Q2MDI3NDAwLC0yMDc0NjI3NjY3LDk0ODUzNTkyMiwtMTA0NTA3
 NzgwMCwtNTkzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MD
 EsMTI5ODMzNTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5
