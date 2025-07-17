@@ -1090,7 +1090,11 @@ Vemos que **cambia las dos variables**.
 
 
 
-- Se ven los dos tipos......
+- Se  ven  **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**.
+
+-  Sin embargo, en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de extensión**.  
+
+Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más la última forma más moderna.** No obstante es importante conocer los dos y tener ambas posibilidades.
 <br>
 <img src="interrogacion.png" align="left" width="90">   <big><br>¿Forma a)  - tradicional o <br> Forma b) moderna?</big>
 
@@ -1099,11 +1103,9 @@ Vemos que **cambia las dos variables**.
 <br
 Se ven los dos tipos
 
-- Se ven  **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
 
-- Sin embargo, en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de extensión**.  
 
- Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más la última forma más moderna.** No obstante es importante conocer los dos y tener ambas posibilidades.
+
 
 <br>
 
@@ -2607,11 +2609,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzg4Mjc2NywyMDY1MTUwMTQ2LDQwNz
-YwODI2NiwtMjAyNTMyODgzLC0yNTI1MjYyNzksLTk5NTI5MjMz
-NCwtMTUwNzAxMTQ5OCwtMjUyNTI2Mjc5LDMzNzMwMzE1Nyw4OT
-Y4NzY4NDQsNTU2ODY1OTA0LDMwNzgwNzY3OCwxODA2MTA5NTY0
-LDExNzIzNzQ4NDksLTE1NDYwMjc0MDAsLTIwNzQ2Mjc2NjcsOT
-Q4NTM1OTIyLC0xMDQ1MDc3ODAwLC01OTM1MTU3NzYsLTIwNTYz
-Mzc0NzFdfQ==
+eyJoaXN0b3J5IjpbLTQ2NjYzNTU0MCwyMDMzODgyNzY3LDIwNj
+UxNTAxNDYsNDA3NjA4MjY2LC0yMDI1MzI4ODMsLTI1MjUyNjI3
+OSwtOTk1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYyNzksMz
+M3MzAzMTU3LDg5Njg3Njg0NCw1NTY4NjU5MDQsMzA3ODA3Njc4
+LDE4MDYxMDk1NjQsMTE3MjM3NDg0OSwtMTU0NjAyNzQwMCwtMj
+A3NDYyNzY2Nyw5NDg1MzU5MjIsLTEwNDUwNzc4MDAsLTU5MzUx
+NTc3Nl19
 -->
