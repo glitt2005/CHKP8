@@ -1360,6 +1360,7 @@ En este ejemplo:
 -   La **clase**  `Coche`  tiene un **constructor** que toma **tres parámetros**:  `marca`,  `modelo`  y  `año`.
 -   Cuando se crea la **instancia**  `miCoche`, se pasan los **valores**  `'Toyota'`,  `'Corolla'`  y  `2020`  **al constructor**.
 -   El **constructor asigna estos valores a las propiedades del objeto**, usando  `this.marca`,  `this.modelo`  y  `this.año`.
+<br>
 
 
  ## 2. MÉTODOS DE INSTANCIA
@@ -1376,14 +1377,17 @@ En este ejemplo:
 - Con **la misma sintaxis que las funciones, pero sin la palabra clave** **_function_**  para métodos públicos. 
 - Los métodos pueden **acceder a las propiedades de la instancia** actual utilizando **`this`**.
 
+<br>
+
+
  ### EJEMPLO 1 - Métodos de Instancia
 <div align="center">
-<img src="metodoInstancia.png" width="65%" Alt="método de instancia">
+<img src="metodoInstancia.png" width="75%" Alt="método de instancia">
 </div>
 
 - En el **`console.log`** del método de la instancia **`renderDetails()`**  necesitamos poner el **`this`** en **`this.name`**  para poder acceder al valor de **`name`** del argumento.
 - Cuando instanciamos y pasamos los valores entre llaves `new Instructor({name: "Jon Snow"}`; nos dirige **al contructor.**
-- En la **instancia de método`renderDetails()` no tenemos acceso este argumento**: sólo lo tiene el constructor, así que la única manera de acceder es añadir la palabra clave **`this`**  **a los atributos** creados dentro de los constructores.
+- En la **instancia de método`renderDetails()` no tenemos acceso este argumento**: sólo lo tiene **el constructor**, así que la única manera de acceder es añadir la palabra clave **`this`**  **a los atributos** creados **dentro de los constructores**.
 
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
@@ -2449,11 +2453,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0Mzc0MTA4LC0xNDc4NTAxMDQwLDE4Mz
-kzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1
-NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3ODMwNT
-IsLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5NzEyNjU1NywtMTky
-NjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NT
-UzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4
-NDMzMjMzXX0=
+eyJoaXN0b3J5IjpbLTIyMTg2MDY3OSwtMTQ3ODUwMTA0MCwxOD
+M5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMz
+NTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMD
+UyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5
+MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNz
+U1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1
+ODQzMzIzM119
 -->
