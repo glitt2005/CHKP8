@@ -1565,7 +1565,7 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 <br>
 <br>
 
-<img src="decepción.png" Alt="icono de decepción">
+<img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 
 **OJO!!*
@@ -2471,11 +2471,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MD
-c4MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUw
-MTA0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MS
-wtMjA2NDMzNTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0x
-Mzg1NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMj
-Y1NTcsLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQs
-MTA5NTcyNzU1M119
+eyJoaXN0b3J5IjpbMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MT
+U1NzQ5MjEsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3
+MjUyLC0xNDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OC
+wtNTg4NjE4NDgxLC0yMDY0MzM1NTk3LC0xNzczMzg3NDY4LC0y
+Mzg0MzI5MzYsLTEzODU3ODMwNTIsLTg2NjExODc3MCw0ODA0OD
+cyNTEsMTY5NzEyNjU1NywtMTkyNjE5Njk3NCw5MTA0MTE3OTgs
+LTI3NTYwOTYyNF19
 -->
