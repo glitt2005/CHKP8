@@ -2425,13 +2425,13 @@ Una vez más, si ejecuto esto unas cuantas veces seguidas, **siempre** :
 
 ### 2)   Los bloques <big>`try()`</big> - <big>`catch()`</big> en comunicaciones API.
 
-Como ya hemos mencionado, Si en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try()`, el bloque de `catch()`lo ignoraria.
+Como ya hemos mencionado, si en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try{}`, el bloque de `catch()`lo ignoraría por completo.
 
 
 
-En el caso (frecuente)  de que falle una API, es muy importante poder configurar un proceso para que suceda exactamente lo que queremos. 
-Esto puede ser simplemente que **al conectarse un usuario a una aplicación** (que haga el "login") **le avisemos de que hay un problema.**
-Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentran dentro de la página de su perfil: si hay algún problema con Instagram o alguna **demora con sus APIs**, estaría bien poner en algún lado del programa algo para que diga "**error al contactar a Instagram**", o "**por favor, inténtelode nuevo en otro momento**" algo similar. 
+- En el caso (frecuente)  de que falle una API, es muy importante poder configurar un proceso para que suceda exactamente lo que queremos. 
+- Esto puede ser simplemente que **al conectarse un usuario a una aplicación** (que haga el "login") **le avisemos de que hay un problema.**
+	-	Por ej. ***queremos generar las fotos de Instagram*** de alguien que se encuentran dentro de la página de su perfil: si hay algún problema con Instagram o alguna **demora con sus APIs**, estaría bien poner en algún lado del programa algo para que diga "**error al contactar a Instagram**", o "**por favor, inténtelode nuevo en otro momento**" algo similar. 
 
 
 Imaginemos que hay un error, y no hemos puesto letra s en el primer la primera promesa, la de <font color= "green">*jasonplaceholder*</font> , 
@@ -2539,11 +2539,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODg2ODMsLTEwNDUwNzc4MDAsLTU5Mz
-UxNTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2
-MTMsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNz
-AwNDEwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTExMzgw
-MzkyNDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2Mz
-YsLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0
-NTY0MTUwXX0=
+eyJoaXN0b3J5IjpbLTE3NDYyNjg0MDcsLTEwNDUwNzc4MDAsLT
+U5MzUxNTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgz
+MzU2MTMsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1Ni
+wxNzAwNDEwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTEx
+MzgwMzkyNDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1Nz
+M2MzYsLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1
+LDI0NTY0MTUwXX0=
 -->
