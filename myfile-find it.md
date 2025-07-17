@@ -2544,16 +2544,19 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 <br>
 2. Pero el tipo de situación de los ejemplos mencionados, donde **estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que, de todas formas,  **quisiéramos contactar con la que no falla**, y en este caso, **necesitaríamos envolverlas** con el bloque **`try`- `catch` de forma individual.**
 
+------------------------
+
+# EJERCICIOS PRÁCTIOS
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MjM3NDg0OSwtMTU0NjAyNzQwMCwtMj
-A3NDYyNzY2Nyw5NDg1MzU5MjIsLTEwNDUwNzc4MDAsLTU5MzUx
-NTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2MT
-MsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNzAw
-NDEwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTExMzgwMz
-kyNDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2MzYs
-LTUxMjg1OTExOF19
+eyJoaXN0b3J5IjpbLTEzNDQ4NjcwNzcsMTE3MjM3NDg0OSwtMT
+U0NjAyNzQwMCwtMjA3NDYyNzY2Nyw5NDg1MzU5MjIsLTEwNDUw
+Nzc4MDAsLTU5MzUxNTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2ND
+AxLDEyOTgzMzU2MTMsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4
+OTEwNDc1NiwxNzAwNDEwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMz
+M5MDQsLTExMzgwMzkyNDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMs
+LTIwNDQ1NzM2MzZdfQ==
 -->
