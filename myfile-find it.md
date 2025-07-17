@@ -2458,7 +2458,7 @@ queryApis();   //typeError: Failed to fetch
 
 ```
 - En este caso **¡se detiene el proceso entero!.**  No ha podido terminar el primero y se para todo aquí.
-- Imprime el error: *typeError: Failed to fetch*
+- Imprime el error: **typeError: Failed to fetch**
 <br>
 
 #### EJEMPLO  C  -   falta la letra "s" en el "https" de la SEGUNDA promesa: 
@@ -2479,11 +2479,11 @@ async function queryApis() {
 }
 queryApis();   
 // datos de la primera promesa
-// TypeError: Failed to fetch  (correspondiente a la segunda promesa)
+// typeError: Failed to fetch  (correspondiente a la segunda promesa)
 
 ```
-- Retornaría **los datos del primer bloque de  `try`**
--  Y  también retornaría TypeError: Failed to fetch.  Pero da ninguna información respecto **a qué Promesa ha fallado exactamente** . Aquí obviamente lo sabríamos por descarate, pero si tuvieramos muchas promesas, no sabríamos cuál falla.
+- Retorna **los datos del primer bloque de  `try{}`**
+-  Y  también retorna ***typeError: Failed to fetch.***  Pero no da ninguna información respecto **a qué Promesa ha fallado exactamente** . Aquí obviamente lo sabríamos por descarate, pero si tuvieramos muchas promesas, no sabríamos cuál falla.
 
 #### EJEMPLO  C   -   ENVOLVIENDO PROMESAS con los bloques <big>`try()`</big> - <big>`catch()` : 
 - Ademas de los bloquestg try catch individuales, añadiremos la descripción precisamente para proporcionar información para la identificación del fallo. 
@@ -2543,11 +2543,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzI3MTEwMywtMTA0NTA3NzgwMCwtNT
-kzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMz
-NTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LD
-E3MDA0MTA5NjAsMTgzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEz
-ODAzOTI0NCwtNjk1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3Mz
-YzNiwtNTEyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUs
-MjQ1NjQxNTBdfQ==
+eyJoaXN0b3J5IjpbOTgxMjY5NjgwLC0xMDQ1MDc3ODAwLC01OT
+M1MTU3NzYsLTIwNTYzMzc0NzEsLTUwODI1NjQwMSwxMjk4MzM1
+NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMT
+cwMDQxMDk2MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4
+MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0NTczNj
+M2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwy
+NDU2NDE1MF19
 -->
