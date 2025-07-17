@@ -2209,11 +2209,11 @@ y no en secuencia?<h3>
 <br>
 <br>
 
-### 3.1  Uso de  "cierres o "closures" con <big>`async`</big> - <big>`await`</big>
+### 3.1  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
 
-Los cierres o closures en Javascript son una herramienta poderosa que, combinada con las funciones asíncronas, permite mantener el estado y acceder a variables externas en operaciones asíncronas.
+Los **cierres** o clausuras ("closures") en Javascript son **una herramienta poderosa** que, combinada con las funciones asíncronas, permite **mantener el estado y acceder a variables externas** en operaciones **asíncronas**.
 
- `Async/await`  no altera la funcionalidad de los cierres, pero puede afectar **la forma en que se accede a ellos en código asíncrono**.
+ `Async`- `await`  no altera la funcionalidad de los cierres, pero puede afectar **la forma en que se accede a ellos en código asíncrono**.
 
 *Un cierre se produce cuando una función "recuerda" su ámbito léxico, es decir, las variables que estaban disponibles en el momento de su creación, incluso si esa función se ejecuta fuera de ese ámbito. En otras palabras, **una función interna** puede **acceder a variables de su función contenedora (externa)** incluso después de que la función externa haya terminado de ejecutarse.*[Accede aquí para explicación más amplia](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
 
@@ -2506,7 +2506,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMTMwMjUwNCwtMTEzODAzOTI0NCwtNj
+eyJoaXN0b3J5IjpbMTgwNDA3NjQ1NCwtMTEzODAzOTI0NCwtNj
 k1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5
 MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLT
 ExMzYyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgy
