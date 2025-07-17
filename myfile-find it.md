@@ -559,7 +559,7 @@ console.log('dos parámetros, función FLECHA EN UNA SOLA LÍNEA ' + hello9('mil
 **COMPAREMOS** LA SINTAXIS de los 3 tipos de función diferentes:
 <br>
 
-i.a ) **Expresión de Función Anónima**
+i.a ) **EXPRESIÓN de Función Anónima**
 <div align="center">
 <img src="expresionDeFuncion.png" width="55%" Alt="expresionDefuncion">
 </div>
@@ -567,7 +567,7 @@ i.a ) **Expresión de Función Anónima**
 <br>
 <br>
 
-i.b ) **Expresión de Función Nombrada**
+i.b ) **EXPRESIÓN de Función Nombrada**
 <div align="center">
 <img src="funcionDeclaradanombrada.png" width="60%" Alt="función declarada nombrada">
 </div>
@@ -581,10 +581,10 @@ i.b ) **Expresión de Función Nombrada**
 <br>
 
 
-ii ) **Declaración de función tradicional o regular**
+ii ) **DECLARACIÓN de función tradicional o regular**
 
 <div align="center">
-<img src="funcionDeclarada.png" width="50%" Alt="funcion declarada anónima">
+<img src="funcionDeclarada.png" width="68%" Alt="funcion declarada anónima">
 </div>
 <br>
 <br>
@@ -2378,11 +2378,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3Mj
-MwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0
-LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4OD
-Q4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5
-LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMT
-g4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNTIzNzk4
-MTk1XX0=
+eyJoaXN0b3J5IjpbOTAwNTc4NDQxLDMxODU2NDA0OCwtOTA0MT
+MyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOTIyOTA2MDMs
+LTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOT
+E5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkw
+LDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwND
+Y3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQwNjEzLDM4NzE0MzQx
+OF19
 -->
