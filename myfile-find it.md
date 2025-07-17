@@ -1205,11 +1205,13 @@ Es una de las formas más comunes de hacer **la deconstrucción de objetos** uti
 
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
-OJO!! **El operador de extensión ... debe colocarse al final de los demás elementos del objeto**.  Generaríamos un error si tratamos de hacer `const {abridor, ...relevos, cerrador}....`. Este error, diría algo así como `// SyntaxError: Rest element must be last element`.
+**OJO!!  El operador de extensión ... debe colocarse al final de los demás elementos del objeto**.  Generaríamos un error si tratamos de hacer `const {abridor, ...relevos, cerrador}....`. Este error, diría algo así como `// SyntaxError: Rest element must be last element`.
 
 -----
 
 # 6 ¿Qué es la programación orientada a objetos?
+<BR>
+
 ## 1. INTRODUCCIÓN
 
 - **Durante años**, las versiones antiguas de **JavaScript no incluían** los componentes de programación orientada a objetos, como **clases e instanciación**, lo cual estuvo bien durante un tiempo. 
@@ -1228,8 +1230,8 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 
 <div style="display: flex;">  
-<img src="planoCasa.png" width="40%"  Alt="plano de una Casa" style="float: left; margin-left: 20px;">  
- <img src="casaEstruct.png" width="25%" Alt="estructura de una Casa" style="float: right;">  
+<img src="planoCasa.png" width="50%"  Alt="plano de una Casa" style="float: left; margin-left: 20px;">  
+ <img src="casaEstruct.png" width="30%" Alt="estructura de una Casa" style="float: right;">  
 </div>
 
 
@@ -2433,11 +2435,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NzAzMTEzLC01ODg2MTg0ODEsLTIwNj
-QzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQzMjkzNiwtMTM4NTc4
-MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC
-0xOTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3
-Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOS
-w2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUy
-MTA2OTVdfQ==
+eyJoaXN0b3J5IjpbLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0yMD
+Y0MzM1NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3
+ODMwNTIsLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5NzEyNjU1Ny
+wtMTkyNjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYyNCwxMDk1
+NzI3NTUzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4Mz
+ksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtODY1
+MjEwNjk1XX0=
 -->
