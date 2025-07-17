@@ -1060,7 +1060,7 @@ console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ### b) Forma moderna: operador de extensión
 
 #### SINTAXIS:
-<big>`[…variableOriginal];` </big>
+`[…variableOriginal];` 
 <br>
 #### EJEMPLO:
 
@@ -2422,11 +2422,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQzMTkzMDQsLTE3NzMzODc0NjgsLT
-IzODQzMjkzNiwtMTM4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4
-NzI1MSwxNjk3MTI2NTU3LC0xOTI2MTk2OTc0LDkxMDQxMTc5OC
-wtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMzE4NTY0MDQ4LC05MDQx
-MzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYwMy
-wtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5
-MTk2Mzg1Ml19
+eyJoaXN0b3J5IjpbMjA0ODU0MTA4NywtMTc3MzM4NzQ2OCwtMj
+M4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3
+MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEwNDExNzk4LC
+0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEz
+MjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAzLC
+05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkx
+OTYzODUyXX0=
 -->
