@@ -1770,8 +1770,6 @@ fetch('<Tu URL>', {})
 - `response`
 - `data`
 	
-
-
 - 	Si la solicitud devuelve un error, se ejecutará **el método  `catch()`**:  éste  se puede omitir en Fetch API.  
 **Se usa solo** cuando `fetch()` no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
 
@@ -2618,11 +2616,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NTczNTY3LC03MzgzODM2NjMsMjA1OD
-I3MTg4MywyMTM2MzYwNDMzLDE2OTQwNDI1MzIsMzQzMTk0NDU5
-LDExMjk1NTMyNjEsMTIwNDkwODEzMywyMzI2NjYzMjUsMTc3MT
-Q3MzAwMSw5Njc1NjY1LDgxNTgzNDE3NywyMTM1OTI5Mzc5LDUz
-ODI3NTk1NiwtMjA1OTQwNzEyOCwtMzM0OTQwMTIwLC00NjY2Mz
-U1NDAsMjAzMzg4Mjc2NywyMDY1MTUwMTQ2LDQwNzYwODI2Nl19
-
+eyJoaXN0b3J5IjpbLTQwODg2MTcyNSwtNzM4MzgzNjYzLDIwNT
+gyNzE4ODMsMjEzNjM2MDQzMywxNjk0MDQyNTMyLDM0MzE5NDQ1
+OSwxMTI5NTUzMjYxLDEyMDQ5MDgxMzMsMjMyNjY2MzI1LDE3Nz
+E0NzMwMDEsOTY3NTY2NSw4MTU4MzQxNzcsMjEzNTkyOTM3OSw1
+MzgyNzU5NTYsLTIwNTk0MDcxMjgsLTMzNDk0MDEyMCwtNDY2Nj
+M1NTQwLDIwMzM4ODI3NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjZd
+fQ==
 -->
