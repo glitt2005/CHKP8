@@ -1620,7 +1620,7 @@ Una buena práctica es añadir la palabra **"Promise"** **al nombre de la variab
 </div>
 <br>
 
-Explicación:
+EXPLICACIÓN:
 
 -   **`new Promise((resolve, reject) => { ... })`:**
     
@@ -2470,7 +2470,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjA3NjMyNywtMTEwMDgzODA2MCwtOD
+eyJoaXN0b3J5IjpbLTg2OTYwNjM2MSwtMTEwMDgzODA2MCwtOD
 gxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMTcyMzI4
 OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5Mz
 MsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDEx
