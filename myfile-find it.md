@@ -1031,6 +1031,9 @@ console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 
 <br>
 <br>
+<br>
+<br>
+
 
 
 Vemos que **cambia las dos variables.**  Aquí **no está pasando una copia, sino una referencia**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **como consecuencia MODIFICANDO TAMBIÉN LA VARIABLE FUENTE.** Tenemos dos soluciones a esto:
@@ -2418,11 +2421,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5Nz
-EyNjU1NywtMTkyNjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYy
-NCwxMDk1NzI3NTUzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNz
-IzMDk4MzksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3
-NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4NTIsOD
-g0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2MjY0MzI3
-OV19
+eyJoaXN0b3J5IjpbLTEzODU3ODMwNTIsLTg2NjExODc3MCw0OD
+A0ODcyNTEsMTY5NzEyNjU1NywtMTkyNjE5Njk3NCw5MTA0MTE3
+OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0OCwtOT
+A0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOTIyOTA2
+MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLT
+EzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYz
+MzkwXX0=
 -->
