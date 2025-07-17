@@ -1564,7 +1564,7 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 <br>
 <br>
 <br>
-<img src="decepcion.png" align="left" width="90">   qué pasaría en mi aplicación **si Twitter se cae**? Si un usuario va a la página, pero solo podría ver algo que es parte de la memoria intermedia (bufer) como unos puntos suspensivas "………………… " o algo así:   Sería **una experiencia no agradable para cualquier usuario**.
+<img src="alegria.png" align="left" width="90">   Lo que una **promesa** nos permite es llamar a ***Twitter***, mostrar nuestra página,  o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**..
 <br>
 
 
@@ -2470,11 +2470,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NDA5NzM1NSwtODgxODI5NzQzLC0xMj
-Y5MzIyMDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQz
-NzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMS
-wxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0
-Nzg1MDEwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MT
-g0ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQzMjkz
-NiwtMTM4NTc4MzA1Ml19
+eyJoaXN0b3J5IjpbLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMT
+I2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0
+MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5Mj
+EsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0x
+NDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwtNTg4Nj
+E4NDgxLC0yMDY0MzM1NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5
+MzYsLTEzODU3ODMwNTJdfQ==
 -->
