@@ -2172,7 +2172,7 @@ loginActivities();  // retorna 'Updating last login...'
 - Simplemente hemos declarado una lista de **cuándo queremos que cada uno de estos procesos ocurran y el orden** en el que queremos que ocurran.
 <br>
 
-#### ¿cómo funciona 
+#### ¿Cómo funciona este proceso?
 
 **1**. En el primer `await`, al anteponer esta palabra clave justo ahí,  se **suspenderá la ejecución de** `async` hasta que la función de `login()`  , es decir, la **Promise no termine** su ejecución.  Después, ejecutará `async`, es decir harán  `console.log(returnedLogin)`. En un mundo real devolvería las **licencias del usuario, su nombre y ese tipo de cosas en lugar de un string**.
 
@@ -2498,7 +2498,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNTMyNDk3NiwtMjA0NDU3MzYzNiwtNT
+eyJoaXN0b3J5IjpbMjA1MjU5Njk5MywtMjA0NDU3MzYzNiwtNT
 EyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQx
 NTAsLTExMzYyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLT
 g4MTgyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMy
