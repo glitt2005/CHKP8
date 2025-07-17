@@ -1571,14 +1571,14 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 
 
 
-- Una **promesa** ejecuta realmente una tarea que **no queremos que ocurra en tiempo real**; podemos desarrollar cualquier funcionalidad nueva en la que sea conveniente **que no se procese inmediatamente**, como una consulta a una base de datos o API externa.
+- Una **promesa** ejecuta realmente una tarea que **no queremos que ocurra en tiempo real**; podemos desarrollar cualquier funcionalidad nueva en la que sea conveniente **que no se procese inmediatamente**, como una **consulta** a una base de datos o **API** externa.
 
 Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de forma asíncrona.** Esto significa que puedes hacer tareas como ésta de llamar servicios externos y usar APIs, y poder tomar y en realidad, **elegir  qué elementos** de tu página o en tu aplicación **se cargarán directamente, y cuáles pueden tardar más tiempo**.
 
 - Efectivamente, algo muy a favor de **Javascript** es que **trabaja directamente con la experiencia del usuario**. No sería deseable que el usuario se quede esperando durante un tiempo hasta que finalmente los datos se carguen.
 
-- **La naturaleza de JavaScript es la comunicación con servicios externos**, como bases de datos, **APIs backend** ( l*as ***APIs backend*** se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend* ) o cualquier otro servicio fuera de la aplicación, como las diferentes plataformas de JavaScript como ***React, Angular y Vue***; JavaScript **recibe los datos como resultado de esta comunicación con dichos servicios externos.**
-- La utilización de heramientas como las **promesas** son el pilar central de podamos confiar en que el proceso se desarrollará tan fluidamente como sea posible.
+- **La naturaleza de JavaScript es la comunicación con servicios externos**, como bases de datos, **APIs backend** ( l*as ***APIs backend*** se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend* ) o cualquier otro servicio fuera de la aplicación, **como las diferentes plataformas** de JavaScript  ***React, Angular y Vue***; JavaScript **recibe los datos como resultado de esta comunicación con dichos servicios externos.**
+- La utilización de herramientas como las **promesas** son el pilar central de podamos confiar en que el proceso se desarrollará tan fluidamente como sea posible.
 
 CONVENCIÓN COMÚN:	
 Los argumentos de la función `Promise()` son `resolve` y `reject`.  Antes era `success` y  `failure`, pero ahora lo más extendido son los primeros.
@@ -2469,11 +2469,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDY2NDYsLTExMDA4MzgwNjAsLTg4MT
-gyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkw
-MDAsLTEyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC
-03MTU1NzQ5MjEsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAz
-MDA3MjUyLC0xNDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMz
-I5OCwtNTg4NjE4NDgxLC0yMDY0MzM1NTk3LC0xNzczMzg3NDY4
-LC0yMzg0MzI5MzZdfQ==
+eyJoaXN0b3J5IjpbOTI1NDcwNDMyLC0xMTAwODM4MDYwLC04OD
+E4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5
+MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMy
+wtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUsMTEw
+MzAwNzI1MiwtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0MT
+MyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4NzQ2
+OCwtMjM4NDMyOTM2XX0=
 -->
