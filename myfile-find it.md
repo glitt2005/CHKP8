@@ -2237,7 +2237,7 @@ y no en secuencia?<h3>
 <br>
 <br>
 
-## 3.1  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
+## 1)  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
 
 Los **cierres** o clausuras ("closures") en Javascript son **una herramienta poderosa** que, combinada con las funciones asíncronas, permite **mantener el estado y acceder a variables externas** en operaciones **asíncronas**.
 
@@ -2621,11 +2621,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDUwNjExNjcsNjcyNzQyNTcsLTkzMT
-IyNTUyMywxOTMxMzgwMDA5LC0xODg4NTA4NTEsNDY0Njc1MDkw
-LC00MDg4NjE3MjUsLTczODM4MzY2MywyMDU4MjcxODgzLDIxMz
-YzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0NTksMTEyOTU1MzI2
-MSwxMjA0OTA4MTMzLDIzMjY2NjMyNSwxNzcxNDczMDAxLDk2Nz
-U2NjUsODE1ODM0MTc3LDIxMzU5MjkzNzksNTM4Mjc1OTU2XX0=
+eyJoaXN0b3J5IjpbMTMzODQ3MDIwMSw2NzI3NDI1NywtOTMxMj
+I1NTIzLDE5MzEzODAwMDksLTE4ODg1MDg1MSw0NjQ2NzUwOTAs
+LTQwODg2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNj
+M2MDQzMywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYx
+LDEyMDQ5MDgxMzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NT
+Y2NSw4MTU4MzQxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTZdfQ==
 
 -->
