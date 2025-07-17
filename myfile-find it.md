@@ -1564,7 +1564,6 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 </div>
 <br>
 
-**OJO!!*
 
 Lo que una **promesa** nos permite es llamar a ***Twitter***, mostrar nuestra página, 
 o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**.
@@ -2467,11 +2466,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMT
-gwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4
-MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MDEwND
-AsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEsLTIw
-NjQzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQzMjkzNiwtMTM4NT
-c4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3
-LC0xOTI2MTk2OTc0XX0=
+eyJoaXN0b3J5IjpbLTE1NDAyNTQ1NjAsMTcyMzI4OTAwMCwtMT
+IwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3
+NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNT
+IsLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01
+ODg2MTg0ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0NjgsLTIzOD
+QzMjkzNiwtMTM4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1
+MSwxNjk3MTI2NTU3XX0=
 -->
