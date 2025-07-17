@@ -1822,7 +1822,7 @@ postsPromise_2
 En este caso **no ha dado error**, por eso **no ha tenido que ejecutar el `catch()`**, pero hay muchas veces que puede hacerlo. 
 - Por ejemplo, muy típico es no tener en cuenta la "s" final de la url `https:  //.......` ; o bien una API con *https* o *http* que esté utilizando un **sistema completamente seguro**.
 
-Y es que, efectivamente, si intentamos capturar este tipo de URL o  **endpoint API** y se trata de sitios web no seguros, hay mucha probabilidad de que estemos trayendo diversos **elementos a tu propia aplicación que no son seguros**. Por ello, **JavaScript lo bloqueará** y nos imprimera este **error**  al ejecutar la función `catch()` .
+Y es que, efectivamente, si intentamos capturar este tipo de URL o  **endpoint API** y son sitios web no seguros, hay mucha probabilidad de que estemos trayendo diversos **elementos a tu propia aplicación que no son seguros**. Por ello, **JavaScript lo bloqueará** y nos imprimirá este **error**  al ejecutar la función `catch()` .
 
 
 <br>
@@ -1830,7 +1830,7 @@ Y es que, efectivamente, si intentamos capturar este tipo de URL o  **endpoint A
 
 
 <div align="center">
-<img src="error.png" width = "60%" alt="error, catch()">
+<img src="error.png" alt="error, catch()">
 </div>
 
 <br>
@@ -2477,11 +2477,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MTM1MzIzLC0xMTM2MjI2NywtODY5Nj
-A2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIw
-MjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLD
-ExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4
-MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUwMT
-A0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwt
-MjA2NDMzNTU5N119
+eyJoaXN0b3J5IjpbMjQ1NjQxNTAsLTExMzYyMjY3LC04Njk2MD
+YzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMyMjAy
+MSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNzEsMT
+E4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkwNzgw
+ODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0xNDc4NTAxMD
+QwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0y
+MDY0MzM1NTk3XX0=
 -->
