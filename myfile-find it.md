@@ -2025,11 +2025,11 @@ Esto imprime:
 - El `setTimeout()` ha hecho que esta tarea asincrónica **no bloquee el resto de tareas**, que se han ejecutado antes sin problema.
 <br>
 
-Este tipo de proceso o **Event Loop**, pues era un paso en la dirección correcta. En este punto, **se desarrolló la faceta asíncrona de JavaScript**: entraron a formar parte progresivamente:
+Este tipo de proceso o **Event Loop**, pues, suponía un paso en la dirección correcta. En este punto, **se desarrolló la faceta asíncrona de JavaScript**: entraron a formar parte progresivamente:
 
  - [x] las funciones **callback** 
  - [x]  las **promesas** 
- - [x]  y finalmente, las funciones <big>**`async`**</big> y  <big> **`await`**</big>
+ - [x]  y finalmente, las funciones <big>**`async`**</big> -  <big> **`await`**</big>
 
 <br>
 
@@ -2058,7 +2058,7 @@ function miCallback(resultado) {
 tareaAsincrona(miCallback); // Llama a la función tareaAsincrona, pasando miCallback como callback
 console.log("La ejecución continúa..."); //  Este mensaje se imprime ANTES de que se ejecute el callback
 ```
-<br>
+
 
 - En este código asíncrono, donde cada operación **depende del resultado de la anterior, generaba una estructura en forma de pirámide**. Por ejemplo, no podías realizar la tarea de “hacer llamadas a la API”, **hasta que no hubieras realizado las tareas que están por encima de ella.** 
 - Tenías que **codificar cada posible proceso que piensas que pudiera ocurrir** para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. **Debías tener muy claro la secuencia específica, y codificar eso**.
@@ -2487,7 +2487,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTg0OTYzNywtMTU2NDYxOTM5NSwyND
+eyJoaXN0b3J5IjpbLTE2NzczMDg3NCwtMTU2NDYxOTM5NSwyND
 U2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEwMDgzODA2
 MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMT
 cyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2
