@@ -1311,7 +1311,7 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 .  
 <br>
 
-####  EJEMPLO DE CLASE E INSTANCIA:
+####  EJEMPLO DE CLASE Y DE INSTANCIA:
 
  - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**
 <div align="center">
@@ -2600,11 +2600,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4Mjc1OTU2LC0yMDU5NDA3MTI4LC0zMz
-Q5NDAxMjAsLTQ2NjYzNTU0MCwyMDMzODgyNzY3LDIwNjUxNTAx
-NDYsNDA3NjA4MjY2LC0yMDI1MzI4ODMsLTI1MjUyNjI3OSwtOT
-k1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYyNzksMzM3MzAz
-MTU3LDg5Njg3Njg0NCw1NTY4NjU5MDQsMzA3ODA3Njc4LDE4MD
-YxMDk1NjQsMTE3MjM3NDg0OSwtMTU0NjAyNzQwMCwtMjA3NDYy
-NzY2N119
+eyJoaXN0b3J5IjpbMTkzMDE2NzI4Myw1MzgyNzU5NTYsLTIwNT
+k0MDcxMjgsLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4ODI3
+NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4MywtMj
+UyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0OTgsLTI1MjUy
+NjI3OSwzMzczMDMxNTcsODk2ODc2ODQ0LDU1Njg2NTkwNCwzMD
+c4MDc2NzgsMTgwNjEwOTU2NCwxMTcyMzc0ODQ5LC0xNTQ2MDI3
+NDAwXX0=
 -->
