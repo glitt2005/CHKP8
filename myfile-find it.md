@@ -1819,9 +1819,10 @@ postsPromise_2
 <br>
 <br>
 
-En este caso **no ha dado error**, por eso **no ha tenido que ejecutar el `catch()`**, pero hay muchas veces que puede hacerlo. Por ejemplo, muy típico es no tener en cuenta la "s" final de la url `https:  //.......` ; o bien una API con *https* o *http* que esté utilizando un **sistema completamente seguro**.
+En este caso **no ha dado error**, por eso **no ha tenido que ejecutar el `catch()`**, pero hay muchas veces que puede hacerlo. 
+- Por ejemplo, muy típico es no tener en cuenta la "s" final de la url `https:  //.......` ; o bien una API con *https* o *http* que esté utilizando un **sistema completamente seguro**.
 
-Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL o  **endpoint API** y no es seguro, hay mucha probabilidad de que estés trayendo diversos **elementos a tu propia aplicación que no son seguros**. Por ello, **JavaScript lo bloqueará** y nos imprimera este **error**  al ejecutar la función `catch()` .
+Y es que, efectivamente, si intentamos capturar este tipo de URL o  **endpoint API** y se trata de sitios web no seguros, hay mucha probabilidad de que estemos trayendo diversos **elementos a tu propia aplicación que no son seguros**. Por ello, **JavaScript lo bloqueará** y nos imprimera este **error**  al ejecutar la función `catch()` .
 
 
 <br>
@@ -2476,7 +2477,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4NjI3MzEyLC0xMTM2MjI2NywtODY5Nj
+eyJoaXN0b3J5IjpbMTU2MTM1MzIzLC0xMTM2MjI2NywtODY5Nj
 A2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIw
 MjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLD
 ExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4
