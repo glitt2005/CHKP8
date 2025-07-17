@@ -2215,7 +2215,7 @@ Los **cierres** o clausuras ("closures") en Javascript son **una herramienta pod
 
  `Async`- `await`  no altera la funcionalidad de los cierres, pero **puede afectar la forma en que se accede a ellos en código asíncrono**.
 
-"*Un cierre se produce cuando una función "recuerda" su ámbito léxico, es decir, las variables que estaban disponibles en el momento de su creación, incluso si esa función se ejecuta fuera de ese ámbito. En otras palabras, **una función interna** puede **acceder a variables de su función contenedora (externa)** incluso después de que la función externa haya terminado de ejecutarse.* [Para ampliar esta información haciendo click aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
+"*Un cierre se produce cuando una función "recuerda" su ámbito léxico, es decir, las variables que estaban disponibles en el momento de su creación, incluso si esa función se ejecuta fuera de ese ámbito. En otras palabras, **una función interna** puede **acceder a variables de su función contenedora (externa)** incluso después de que la función externa haya terminado de ejecutarse.* [Para ampliar esta información, haz click aquí](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
 
 Explicado de una forma sencilla, el cierre es una función **que puede ser anidada (colocada dentro de una variable), y luego puede ser pasada como argumentos de otras funciones**.
 
@@ -2506,11 +2506,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzEwMTU0NiwtMTEzODAzOTI0NCwtNj
-k1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5
-MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLT
-ExMzYyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgy
-OTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMD
-AsLTEyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03
-MTU1NzQ5MjFdfQ==
+eyJoaXN0b3J5IjpbLTE4OTQzMzM5MDQsLTExMzgwMzkyNDQsLT
+Y5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2MzYsLTUxMjg1
+OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC
+0xMTM2MjI2NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC04ODE4
+Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5MD
+AwLC0xMjAzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMywt
+NzE1NTc0OTIxXX0=
 -->
