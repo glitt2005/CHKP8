@@ -2194,9 +2194,10 @@ loginActivities();  // retorna 'Updating last login...'
 
 -	**Optimización del rendimiento: evita que el programa se bloquee esperando resultados**, lo que a su vez mejora la experiencia de usuario
 
-Pero.....
+
 <br>
-<img src="interrogacion.png" align="left" width="90"> <h3>  ¿Y si queremos que los todos los procesos se<br> ejecuten a la vez 
+<img src="interrogacion.png" align="left" width="90"> <h3>  Pero.....<br>
+¿Y si queremos que los todos los procesos se<br> ejecuten a la vez 
 y no en secuencia?<h3>
 
 
@@ -2501,11 +2502,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5ODMxMzkwNywyMDUyNTk2OTkzLC0yMD
-Q0NTczNjM2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYx
-OTM5NSwyNDU2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMT
-EwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5
-NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMz
-I5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0x
-MzAzMDc5Njg1XX0=
+eyJoaXN0b3J5IjpbLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwND
+Q1NzM2MzYsLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5
+Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtODY5NjA2MzYxLC0xMT
+AwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0
+ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMj
+ksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEz
+MDMwNzk2ODVdfQ==
 -->
