@@ -2277,7 +2277,7 @@ Explicado de una forma sencilla, el cierre es una función **que puede ser anida
 -	Gestión del Código
 <br>
 
-#### EJEMPLO   `async`  -  `await` con cierres:
+#### EJEMPLO 1 -   `async`  -  `await` con cierres:
 
 ```js
 const login = () => {
@@ -2318,7 +2318,7 @@ loginActivities(login(), updateAccount());
 
 <br>
 
-#### EJEMPLO   `async`  -  `await` con cierres, MODIFICANDO NOMBRES DE LOS PARÁMETROS:
+#### EJEMPLO 2 -   `async`  -  `await` con cierres, MODIFICANDO NOMBRES DE LOS PARÁMETROS:
 
 
 <br>
@@ -2338,7 +2338,7 @@ Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado 
 <br>
 <br>
 
-#### EJEMPLO   `async`  -  `await` con cierres, CAMBIANDO EL ORDEN DE LAS PROMESAS:
+#### EJEMPLO  3 -  `async`  -  `await` con cierres, CAMBIANDO EL ORDEN DE LAS PROMESAS:
 
 
 
@@ -2625,11 +2625,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2MzM3MjMxLDEzMzg0NzAyMDEsNjcyNz
-QyNTcsLTkzMTIyNTUyMywxOTMxMzgwMDA5LC0xODg4NTA4NTEs
-NDY0Njc1MDkwLC00MDg4NjE3MjUsLTczODM4MzY2MywyMDU4Mj
-cxODgzLDIxMzYzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0NTks
-MTEyOTU1MzI2MSwxMjA0OTA4MTMzLDIzMjY2NjMyNSwxNzcxND
-czMDAxLDk2NzU2NjUsODE1ODM0MTc3LDIxMzU5MjkzNzldfQ==
+eyJoaXN0b3J5IjpbLTE2MzcyMDMzNzQsNTI2MzM3MjMxLDEzMz
+g0NzAyMDEsNjcyNzQyNTcsLTkzMTIyNTUyMywxOTMxMzgwMDA5
+LC0xODg4NTA4NTEsNDY0Njc1MDkwLC00MDg4NjE3MjUsLTczOD
+M4MzY2MywyMDU4MjcxODgzLDIxMzYzNjA0MzMsMTY5NDA0MjUz
+MiwzNDMxOTQ0NTksMTEyOTU1MzI2MSwxMjA0OTA4MTMzLDIzMj
+Y2NjMyNSwxNzcxNDczMDAxLDk2NzU2NjUsODE1ODM0MTc3XX0=
 
 -->
