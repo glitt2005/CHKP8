@@ -1025,7 +1025,7 @@ console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
 console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
 
-
+Vemos que **cambia las dos variables**.
 <br>
 <img src="interrogacion.png" align="left" width="90">   <big>¿QUÉ ESTÁ PASANDO EXACTAMENTE</big>
 
@@ -1036,7 +1036,7 @@ console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 
 
 
-Vemos que **cambia las dos variables.**  Aquí **no está pasando una copia, sino una referencia**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **como consecuencia MODIFICANDO TAMBIÉN LA VARIABLE FUENTE.** Tenemos dos soluciones a esto:
+Lo que está ocurriendo es que aquíuí **no está pasando una copia, sino una referencia**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **como consecuencia MODIFICANDO TAMBIÉN LA VARIABLE FUENTE.** Tenemos dos soluciones a esto:
 
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
@@ -2421,11 +2421,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODU3ODMwNTIsLTg2NjExODc3MCw0OD
-A0ODcyNTEsMTY5NzEyNjU1NywtMTkyNjE5Njk3NCw5MTA0MTE3
-OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0OCwtOT
-A0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOTIyOTA2
-MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLT
-EzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYz
-MzkwXX0=
+eyJoaXN0b3J5IjpbNDMyMzY3OTk2LC0xMzg1NzgzMDUyLC04Nj
+YxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5
+NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMT
+g1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIz
+MywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNj
+gxOTczOTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4
+MDkxXX0=
 -->
