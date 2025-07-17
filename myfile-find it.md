@@ -2404,13 +2404,17 @@ Deberíamos recibir los datos de <font color= "green">*jasonplaceholder*</font> 
 2.-  Lo bueno de esto es que **da igual cuántas veces ejecutemos esto**.  Incluso aunque la API de <font color= "green">*jasonplaceholder*</font>  funcione muy despacio (durante unos minutos por ejemplo) y la de  <font color= "green">*fakestoreapi*</font>  va muy rápido, **siempre nos va a devolver los datos en el mismo orden que lo hemos escrito** o codificado, ya que  lo hemos envuelto todo en este proceso `async` y luego aplicamos `await` a cada una de las promesas.
 
 3.- Esto lo convierte **en algo muy potente**, cuando trabajamos con datos **y no sabemos cuándo vamos a recibir los datos de la API,** o de una conexión de base de datos. 
+<br>
 
-Imaginemos una situación en la que **todo este proceso gire en torno a que la primera promesa**:  por ejemplo si estamos autenticando con  <font color= "green">*fakestoreapi*</font>  y estamos enviando nuestras credenciales a  <font color= "green">*fakestoreapi*</font>  y **resulta que cada una de las otras llamadas de API requiere esas credenciales**. 
+
+- Imaginemos una situación en la que **todo este proceso gire en torno a que la primera promesa**:  por ejemplo si estamos autenticando con  <font color= "green">*fakestoreapi*</font>  y estamos enviando nuestras credenciales a  <font color= "green">*fakestoreapi*</font>  y **resulta que cada una de las otras llamadas de API requiere esas credenciales**. 
 **En esta situación es absolutamente necesario este tipo de proceso**, ya que no  podríamos hacer las siguientes llamadas de API si la primera no ha podido ejecutarse,
 
-Esto es parte de la razón por la que utilizando esas herramientas de **`async`-`await` se han convertido tan famosas en la comunidad de JavaScript**, ya que gracias a ellas, tenemos ** el control** de esto. 
+- Esto es parte de la razón por la que utilizando esas herramientas de **`async`-`await` se han convertido tan famosas en la comunidad de JavaScript**, ya que gracias a ellas, tenemos ** el control** de esto. 
 
-Si ejecuto esto unas cuantas veces seguidas, siempre, **siempre vamos a obtener primero nuestros datos de <font color= "green">*jasonplaceholder*</font>**  Y  en segundo lugar los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dado. 
+
+Una vez más, si ejecuto esto unas cuantas veces seguidas, siempre, **siempre :
+- Obendremvamos a obtener primero nuestros datos de <font color= "green">*jasonplaceholder*</font>**.  Y  en segundo lugar los de  <font color= "green">*fakestoreapi*</font> , que es lo que podemos necesitar en un momento dado. 
 
 <br>
 
@@ -2530,11 +2534,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzgzNjEwOCwtMTA0NTA3NzgwMCwtNT
-kzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMz
-NTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LD
-E3MDA0MTA5NjAsMTgzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEz
-ODAzOTI0NCwtNjk1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3Mz
-YzNiwtNTEyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUs
-MjQ1NjQxNTBdfQ==
+eyJoaXN0b3J5IjpbNDU5MDkxMDMsLTEwNDUwNzc4MDAsLTU5Mz
+UxNTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2
+MTMsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNz
+AwNDEwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTExMzgw
+MzkyNDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2Mz
+YsLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0
+NTY0MTUwXX0=
 -->
