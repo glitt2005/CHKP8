@@ -2079,6 +2079,7 @@ Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, lo 
 
 
 <br>
+<br>
 
 Precisamente con las **promises** o **promesas** que acabamos de explicar en el capítulo anterior.
 
@@ -2092,8 +2093,8 @@ Las promesas **resolvieron** algunos asuntos como:
 -	**El lío del código anidado**
 
 Todo ello gracias a que las **promesas**  constituyen operaciones asíncronas que podían manejar:
--	Proceso de **tareas con éxito** -a través de la método.then()
--	**Manejo de errores** a través del método catch()
+-	Proceso de **tareas con éxito** -a través del método `then()` 
+-	**Manejo de errores** a través del método `catch()`	 .
 
 <br>
 
@@ -2495,11 +2496,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQ1NzM2MzYsLTUxMjg1OTExOCwtNT
-k5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2
-NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLT
-EyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAz
-NDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OT
-IxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1Miwt
-MTQ3ODUwMTA0MF19
+eyJoaXN0b3J5IjpbLTU3NDQ2MDgxNSwtMjA0NDU3MzYzNiwtNT
+EyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQx
+NTAsLTExMzYyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLT
+g4MTgyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMy
+ODkwMDAsLTEyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OT
+MzLC03MTU1NzQ5MjEsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwx
+MTAzMDA3MjUyXX0=
 -->
