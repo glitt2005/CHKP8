@@ -451,8 +451,8 @@ EN RESUMEN:
 | Variable | Propósito |
 | --- | --- |
 | **`var`** | **solo** situaciones donde necesitas un **alcance de función específico** (o para funciones de práctica y aprendizaje de codificación). **Evitar el uso de  **`var`**** debido a sus problemas de ámbito y *hoisting*|
-| **`let`**  | para variables que puedan ser reasignadas |
-| **`const`** | Spara declarar variables que no van a cambiar su valor a lo largo del programa |
+| **`let`**  | para variables que puedan ser **reasignadas** |
+| **`const`** | para declarar **variables que no van a cambiar** su valor a lo largo del programa |
 
 
 ---
@@ -463,7 +463,7 @@ EN RESUMEN:
 # 3 ¿Qué es una función de flecha?
 
 <div align="center">
-<img src="funcionFlecha0.png" width="50%">
+<img src="funcionFlecha0.png" width="40%">
 </div>
 
 <br>
@@ -2378,11 +2378,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NTE0ODg3MCwtOTA0MTMyMjIxLDEyNz
-IzMDk4MzksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3
-NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4NTIsOD
-g0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2MjY0MzI3
-OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0ODIsLT
-E4ODg5ODIxMywtNDA3MTQwNjEzLDM4NzE0MzQxOCwtMTUyMzc5
-ODE5NV19
+eyJoaXN0b3J5IjpbMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3Mj
+MwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0
+LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4OD
+Q4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5
+LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMT
+g4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQzNDE4LC0xNTIzNzk4
+MTk1XX0=
 -->
