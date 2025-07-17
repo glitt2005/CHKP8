@@ -1628,11 +1628,13 @@ const promesa = new Promise((resolve, reject) => {
 
 });
 ```
+<br>
 
 -   **`new Promise((resolve, reject) => { ... })`:**
     
     Crea una **nueva instancia de promesa**. El constructor `new`toma una función con dos parámetros:  `resolve`  y  `reject`.
-    <
+    <br>
+    
 #### BUENA PRÁCTICA
 
 Una buena práctica es añadir la palabra **"Promise"** **al nombre de la variable**, para identificar el propósito en futuros accesos al programa. Al ser así de **descriptivo**, facilitará cualquier interpretación y/o modificación del mismo: por ejemplo **`postsPromise = fetch("https:// aaa.bbbbbbb.com/posts")`**  si tratamos de obtener las publicaciones o "***posts***" de una página web (p.ej. *Twitter*).
@@ -2613,11 +2615,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYxMjU3MjUzLDIwNTgyNzE4ODMsMjEzNj
-M2MDQzMywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYx
-LDEyMDQ5MDgxMzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NT
-Y2NSw4MTU4MzQxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTYsLTIw
-NTk0MDcxMjgsLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4OD
-I3NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4M119
-
+eyJoaXN0b3J5IjpbLTczODM4MzY2MywyMDU4MjcxODgzLDIxMz
+YzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0NTksMTEyOTU1MzI2
+MSwxMjA0OTA4MTMzLDIzMjY2NjMyNSwxNzcxNDczMDAxLDk2Nz
+U2NjUsODE1ODM0MTc3LDIxMzU5MjkzNzksNTM4Mjc1OTU2LC0y
+MDU5NDA3MTI4LC0zMzQ5NDAxMjAsLTQ2NjYzNTU0MCwyMDMzOD
+gyNzY3LDIwNjUxNTAxNDYsNDA3NjA4MjY2LC0yMDI1MzI4ODNd
+fQ==
 -->
