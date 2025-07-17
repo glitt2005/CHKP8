@@ -1234,7 +1234,6 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
  <img src="casaEstruct.png" width="35%" Alt="estructura de una Casa" style="float: right;">  
 </div>
 
-
 - cuantas plantas tiene
 - tabiques, para cada dormitorio
 - ubicaciones de puertas
@@ -1243,7 +1242,7 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 Nos hacemos una idea.  **Esto NO es una casa**. Es la **estructura**.
 
-Esta **estructura** la podemos asociar con lo que en Javascript corresponde a una **clase**.
+Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a una **clase**.
 
 **UNA CLASE:**
 
@@ -1252,7 +1251,7 @@ Esta **estructura** la podemos asociar con lo que en Javascript corresponde a un
 
 
 #### EJEMPLO: Imaginemos la clase `Usuario`:
-- CLASE: Cada vez que **un nuevo usuario** accede al sitio y se registra, el programa **revisará la clase `Usuario` y verá esa esa estructura**. Es lo mismo que decir que "es importante ver **cómo debería comportarse ese usuario**", para pasar luego al siguiente paso. 
+- CLASE: Cada vez que **un nuevo usuario** accede un sitio web y se registra, el programa **revisará la clase `Usuario` y verá esa esa estructura**. Es lo mismo que decir que "es importante ver **cómo debería comportarse ese usuario**", para pasar luego al siguiente paso. 
 - INSTANCIACIÓN: Es un término complejo. Significa que tomamos ese plano y **creamos con él un objeto real**.
 
 En nuestro ejemplo:
@@ -1264,7 +1263,7 @@ En nuestro ejemplo:
 	- **qué tipo de atributos** queremos que estén disponibles para el usuario, **como obtener su apellido o algo similar**, que su aplicación necesita. (**datos**)
 
 
-Entonces, recapitulando, lo que hará el programa será:
+El programa haría lo siguiente:
 1.  **examinar** el plano 
 2.  **crear e instanciar un objeto con él**, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse **en algo terminado**, en ese **objeto real**.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior. 
 3.  Luego puedo **hacer otro objeto** con otro nombre y **basarlo en la misma plantilla** o estructura. Serían dos objetos distintos que tienen una misma estructura.
@@ -2435,11 +2434,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01OD
-g2MTg0ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQz
-MjkzNiwtMTM4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MS
-wxNjk3MTI2NTU3LC0xOTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1
-NjA5NjI0LDEwOTU3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMj
-EsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3
-MTUzNjc0XX0=
+eyJoaXN0b3J5IjpbLTk0OTkyNjU1NSwxODM5MzczMDAzLC03MD
+I0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4
+NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3Nz
+AsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEw
+NDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwND
+gsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTky
+MjkwNjAzXX0=
 -->
