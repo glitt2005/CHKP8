@@ -1254,7 +1254,7 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 - CLASE: Cada vez que **un nuevo usuario** accede un sitio web y se registra, el programa **revisará la clase `Usuario` y verá esa esa estructura**. Es lo mismo que decir que "es importante ver **cómo debería comportarse ese usuario**", para pasar luego al siguiente paso. 
 - INSTANCIACIÓN: Es un término complejo. Significa que tomamos ese plano y **creamos con él un objeto real**.
 
-En nuestro ejemplo:
+*En nuestro ejemplo:*
 - tenemos una **clase `Usuario`** 
 - con un **nombre** de usuario 
 - y algunas **funciones**, 
@@ -1263,9 +1263,9 @@ En nuestro ejemplo:
 	- **qué tipo de atributos** queremos que estén disponibles para el usuario, **como obtener su apellido o algo similar**, que su aplicación necesita. (**datos**)
 
 
-El programa haría lo siguiente:
-1.  **examinar** el plano 
-2.  **crear e instanciar un objeto con él**, el cual será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse **en algo terminado**, en ese **objeto real**.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior. 
+*El programa haría lo siguiente:*
+1.  **examinar** el plano, en este caso, la estructura
+2.  **crear e instanciar un objeto con ella**, que será el objeto con el que trabajarán. Este es el momento en el que deja de ser un simple plano para convertirse **en algo terminado**, en ese **objeto real**.  Hemos creado un "ejemplar" de algo, basado en la estructura anterior. 
 3.  Luego puedo **hacer otro objeto** con otro nombre y **basarlo en la misma plantilla** o estructura. Serían dos objetos distintos que tienen una misma estructura.
 
 
@@ -2434,7 +2434,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0OTkyNjU1NSwxODM5MzczMDAzLC03MD
+eyJoaXN0b3J5IjpbLTIyNDQ0NzY5MCwxODM5MzczMDAzLC03MD
 I0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4
 NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3Nz
 AsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEw
