@@ -2336,8 +2336,8 @@ Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado 
  - [x] Capturaremos **2 URLs** (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el **bloque  `try` - `catch`** 
  - [x] Veremos cómo usar las funciones **`then()`con `catch()`**, pero trabajando con **múltiples promesas**. Combinándolos con `await` implementaremos una forma diferente de manejar los errores.
-  
-
+ <br>
+  ### 3.2.1 Explicando bloque ` try - catch`
  `try`…`catch`
 	 -  se utiliza para  _**capturar excepciones**_  que pueden ocurrir durante la ejecución de código en  JavaScript.
 	 - nos permite  **gestionar errores que ocurren durante la ejecución**, sin interrumpir el flujo general del programa  _(gestionándolo de forma controlada)_.
@@ -2529,11 +2529,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4NzE0OTgyLC0xMDQ1MDc3ODAwLC01OT
-M1MTU3NzYsLTIwNTYzMzc0NzEsLTUwODI1NjQwMSwxMjk4MzM1
-NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMT
-cwMDQxMDk2MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4
-MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0NTczNj
-M2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwy
-NDU2NDE1MF19
+eyJoaXN0b3J5IjpbMTYwNTAwMjk4MywtMTA0NTA3NzgwMCwtNT
+kzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMz
+NTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LD
+E3MDA0MTA5NjAsMTgzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEz
+ODAzOTI0NCwtNjk1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3Mz
+YzNiwtNTEyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUs
+MjQ1NjQxNTBdfQ==
 -->
