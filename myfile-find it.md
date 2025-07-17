@@ -1011,7 +1011,9 @@ precisamente por cómo JavaScript interpreta los arrays:  **un conjunto de “cu
 - Lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
 De esta forma **evitamos crear los menos efectos secundarios posibles**
 
-- Debido a que **el método `push()`, como ya hemos dicho, cambia la variable original**, si hacemos la siguiente asignación con la intención de realizar una copia, seguiríamos con problema:
+- Debido a que **el método `push()`, como ya hemos dicho, cambia la variable original**, si hacemos la siguiente asignación con la intención de realizar una copia, seguiríamos con **problema**:
+
+#### EJEMPLO con `push()`
 
 ```JavaScript
 const numbers = [1,2,3,4];
@@ -1022,6 +1024,11 @@ updatedNumbers.push(5);
 console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
 console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
+
+
+AQUÍ EL IC
+
+
 Vemos que **cambia las dos variables.**  Aquí **no está pasando una copia, sino una referencia**, lo que significa que si haces una modificación en **updatedNumbers**, también lo haces en **numbers**, **como consecuencia MODIFICANDO TAMBIÉN LA VARIABLE FUENTE.** Tenemos dos soluciones a esto:
 
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
@@ -2407,7 +2414,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTY1OTg1MzIsLTE5MjYxOTY5NzQsOT
+eyJoaXN0b3J5IjpbLTE5MzgwMjYwMDIsLTE5MjYxOTY5NzQsOT
 EwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQw
 NDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMT
 kyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTcz
