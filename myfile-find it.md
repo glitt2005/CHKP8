@@ -2209,7 +2209,7 @@ y no en secuencia?<h3>
 <br>
 <br>
 
-### 3.1  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
+## 3.1  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
 
 Los **cierres** o clausuras ("closures") en Javascript son **una herramienta poderosa** que, combinada con las funciones asíncronas, permite **mantener el estado y acceder a variables externas** en operaciones **asíncronas**.
 
@@ -2331,7 +2331,7 @@ Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado 
 
 <br>
 
-### 3.2  <big>`async`</big> - <big>`await`</big> en comunicaciones API: bloque `try{}`- `catch()`
+## 3.2  <big>`async`</big> - <big>`await`</big> en comunicaciones API: bloque `try{}`- `catch()`
 
  - [x] Capturaremos **2 URLs** (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el **bloque  `try` - `catch`** 
@@ -2529,11 +2529,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk5NjA4NzAsLTEwNDUwNzc4MDAsLT
-U5MzUxNTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgz
-MzU2MTMsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1Ni
-wxNzAwNDEwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTEx
-MzgwMzkyNDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1Nz
-M2MzYsLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1
-LDI0NTY0MTUwXX0=
+eyJoaXN0b3J5IjpbNDE4NzE0OTgyLC0xMDQ1MDc3ODAwLC01OT
+M1MTU3NzYsLTIwNTYzMzc0NzEsLTUwODI1NjQwMSwxMjk4MzM1
+NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMT
+cwMDQxMDk2MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4
+MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0NTczNj
+M2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwy
+NDU2NDE1MF19
 -->
