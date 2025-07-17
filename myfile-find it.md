@@ -1709,10 +1709,10 @@ Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la
     
 	    Esta es una **función flecha** (arrow function) que actúa como el **manejador de errores.**
     
-    -   **`err`:** Es el parámetro de la función, que **representa el objeto de error** que se ha producido. Este objeto contiene **información sobre el error, como su tipo y mensaje**.
-    -   **`{ console.error(err); }`:**  Dentro de la función,  **`console.error(err)`**  se utiliza para **registrar el error en la consola del navegador** o del entorno donde se ejecuta el código. Esto ayuda a los desarrolladores a **identificar y depurar problemas.**
+	    -   **`err`:** Es el parámetro de la función, que **representa el objeto de error** que se ha producido. Este objeto contiene **información sobre el error, como su tipo y mensaje**.
+	    -   **`{ console.error(err); }`:**  Dentro de la función,  **`console.error(err)`**  se utiliza para **registrar el error en la consola del navegador** o del entorno donde se ejecuta el código. Esto ayuda a los desarrolladores a **identificar y depurar problemas.**
     
-
+<br>
 
 ## Método <big>`fetch()`</big> para  solicitudes de red 
 
@@ -2473,7 +2473,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzM3MzI4MywtMTEzNjIyNjcsLTg2OT
+eyJoaXN0b3J5IjpbLTIzNDc2OTg5OSwtMTEzNjIyNjcsLTg2OT
 YwNjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIy
 MDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MS
 wxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3
