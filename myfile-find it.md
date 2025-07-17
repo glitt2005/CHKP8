@@ -1,4 +1,5 @@
 # A) EJERCICIOS TEÓRICOS CHECKPOINT 8
+---
 
 # 1.  ¿Qué tipo de bucles hay en JS?
 
@@ -300,6 +301,7 @@ Como vemos, el bucle **`do - while`**  tiene una sintaxis similar al bucle **`wh
 
 
 
+<br>
 
 --------------------------
 
@@ -459,7 +461,10 @@ EN RESUMEN:
 | **`const`** | para declarar **variables que no van a cambiar** su valor a lo largo del programa |
 
 
----
+<br>
+
+--------------------------
+
 
 
 
@@ -683,6 +688,10 @@ obj.obtenerValorFlecha(); // Salida: 10
 #### 3. USO RECOMENDAADO
 
 Son útiles **cuando se quiere mantener el `this` del contexto envolvente**, como en ***callbacks*** o **métodos de objetos** donde **no** se requiere que **`this` apunte al objeto que llama a la función.**
+
+<br>
+
+--------------------------
 
 
 # 4 ¿Qué es la deconstrucción de variables?
@@ -944,6 +953,10 @@ Pero en **versiones modernas de JavaScript**, lo que realmente se puede utilizar
 Una vez hemos identificado el **nombre del objeto u array** a deconstruir, nos **facilita enormemente la extracción de estos datos específicos de estructuras complejas**, así como su asignación a variables individuales, que de otro modo sería tan **tedioso** trabajar con los tipos de datos que una **API** devuelve.
 <br>
 <br>
+<br>
+
+--------------------------
+
 
 
 # 5 ¿Qué hace el operador de extensión en JS?
@@ -1213,7 +1226,11 @@ Es una de las formas más comunes de hacer **la deconstrucción de objetos** uti
 
 **OJO!!  El operador de extensión ... debe colocarse al final de los demás elementos del objeto**.  Generaríamos un error si tratamos de hacer `const {abridor, ...relevos, cerrador}....`. Este error, diría algo así como `// SyntaxError: Rest element must be last element`.
 
------
+<br>
+
+--------------------------
+
+
 
 # 6 ¿Qué es la programación orientada a objetos?
 <BR>
@@ -2627,11 +2644,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxNTk0OTQ3LC0yMDQzNTAwMDc5LDM2NT
-U2NTMzLC02OTE4Njg3NzAsLTE2MzcyMDMzNzQsNTI2MzM3MjMx
-LDEzMzg0NzAyMDEsNjcyNzQyNTcsLTkzMTIyNTUyMywxOTMxMz
-gwMDA5LC0xODg4NTA4NTEsNDY0Njc1MDkwLC00MDg4NjE3MjUs
-LTczODM4MzY2MywyMDU4MjcxODgzLDIxMzYzNjA0MzMsMTY5ND
-A0MjUzMiwzNDMxOTQ0NTksMTEyOTU1MzI2MSwxMjA0OTA4MTMz
+eyJoaXN0b3J5IjpbMTU3NzU4MDk1NiwyNjE1OTQ5NDcsLTIwND
+M1MDAwNzksMzY1NTY1MzMsLTY5MTg2ODc3MCwtMTYzNzIwMzM3
+NCw1MjYzMzcyMzEsMTMzODQ3MDIwMSw2NzI3NDI1NywtOTMxMj
+I1NTIzLDE5MzEzODAwMDksLTE4ODg1MDg1MSw0NjQ2NzUwOTAs
+LTQwODg2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNj
+M2MDQzMywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYx
 XX0=
 -->
