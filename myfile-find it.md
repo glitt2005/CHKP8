@@ -1083,7 +1083,13 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 <br>
 <br>
 <br>
+<br>
+<br>
+<img src="interrogacion.png" align="left" width="90">   <big><br>**¿Forma a)  - tradicional <br> NDO EXACTAMENTE?**</big>
 
+<br>
+<br>
+<br
 Se ven los dos tipos
 
 - Se ven  **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
@@ -2594,11 +2600,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MjUyNjI3OSwtOTk1MjkyMzM0LC0xNT
-A3MDExNDk4LC0yNTI1MjYyNzksMzM3MzAzMTU3LDg5Njg3Njg0
-NCw1NTY4NjU5MDQsMzA3ODA3Njc4LDE4MDYxMDk1NjQsMTE3Mj
-M3NDg0OSwtMTU0NjAyNzQwMCwtMjA3NDYyNzY2Nyw5NDg1MzU5
-MjIsLTEwNDUwNzc4MDAsLTU5MzUxNTc3NiwtMjA1NjMzNzQ3MS
-wtNTA4MjU2NDAxLDEyOTgzMzU2MTMsLTE0NDc0NjQ3NDIsNzI3
-MTQxMTkwXX0=
+eyJoaXN0b3J5IjpbLTE4NTE0Mzg4MzYsLTI1MjUyNjI3OSwtOT
+k1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYyNzksMzM3MzAz
+MTU3LDg5Njg3Njg0NCw1NTY4NjU5MDQsMzA3ODA3Njc4LDE4MD
+YxMDk1NjQsMTE3MjM3NDg0OSwtMTU0NjAyNzQwMCwtMjA3NDYy
+NzY2Nyw5NDg1MzU5MjIsLTEwNDUwNzc4MDAsLTU5MzUxNTc3Ni
+wtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2MTMsLTE0
+NDc0NjQ3NDJdfQ==
 -->
