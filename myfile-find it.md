@@ -2222,14 +2222,20 @@ Explicado de una forma sencilla, el cierre es una función **que puede ser anida
 ##### ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
 <br>
 <img src="interrogacion.png" align="left" width="90"> <h3>  Y.....<br>
- ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?<h3>
+ ¿QUÉ SIGNIFICA “MANTENER EL ESTADO DE UNA FUNCIÓN”?
+<h3>
 
 
 
 <br>
 <br>
 
-- En cierres o clausuras, “mantener el estado” significa que una función puede **acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma).** Estas variables **“existen” en la memoria** incluso **después** de que la función que las creó **ha terminado de ejecutarse**, y pueden ser **accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.** - Es decir, en el contexto de async/await, los cierres pueden ser utilizados para mantener el estado de las variables dentro de las funciones asíncronas, permitiendo que las funciones await accedan a ellas.
+### 3.1  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
+
+En cierres o clausuras, “mantener el estado” significa que una función puede **acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma).** Estas variables **“existen” en la memoria** incluso **después** de que la función que las creó **ha terminado de ejecutarse**, y pueden ser **accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.**
+ - Es decir, en el contexto de async/await, los cierres pueden ser utilizados para mantener el estado de las variables dentro de las funciones asíncronas, permitiendo que las funciones await accedan a ellas.
+
+- 
 
 
 VENTAJAS:
@@ -2512,11 +2518,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMDQxMDk2MCwxODM4MjI3ODUyLC0xOD
-k0MzMzOTA0LC0xMTM4MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2
-OTkzLC0yMDQ0NTczNjM2LC01MTI4NTkxMTgsLTU5OTgyNTc1Mi
-wtMTU2NDYxOTM5NSwyNDU2NDE1MCwtMTEzNjIyNjcsLTg2OTYw
-NjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIyMD
-IxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MSwx
-MTgwMzUyMzI5XX0=
+eyJoaXN0b3J5IjpbNzg5MTA0NzU2LDE3MDA0MTA5NjAsMTgzOD
+IyNzg1MiwtMTg5NDMzMzkwNCwtMTEzODAzOTI0NCwtNjk1MjY3
+MDcsMjA1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5MTE4LC
+01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMzYy
+MjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0My
+wtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEy
+MDM0MzczNzFdfQ==
 -->
