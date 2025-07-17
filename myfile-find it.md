@@ -1133,7 +1133,7 @@ Aquí la cosa es diferente: en este caso, interpreta que sólo estamos pasando *
 
 Para arreglar esto, solo tenemos que añadir la **sintaxis de los tres puntos (…) del operador de extensión** y así poder implementar la **deconstrucción del array**:
 
-<br>
+
 
 
 #### EJEMPLO 3 - operador de extensión
@@ -1174,12 +1174,13 @@ console.log(abridor); // "Verlander"
 console.log(cerrador); // "Giles"
 ```
 
-Para **los fijos**: ponemos **las claves** como parte del nombre de la variable.
+Para **los fijos**: ponemos **las claves** como parte del **nombre de la variable.**
+<br>
 <br>
 
 B) EXTRAYENDO LOS ELEMENTOS OPCIONALES O VARIABLES:
 
-Añadiremos un elemento más com parte del nombre de la variable (tipo objeto), haciendo uso del **operador de extensión** o *spread operator*:
+Añadiremos un elemento más como parte del nombre de la variable (de tipo "objeto), haciendo uso del **operador de extensión** o *spread operator*:
 ```Javascript
 const {abridor,cerrador, ...relevos} = {
     abridor: 'Verlander',
@@ -2431,11 +2432,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDI2Mzc2OSwtNTg4NjE4NDgxLC0yMD
-Y0MzM1NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3
-ODMwNTIsLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5NzEyNjU1Ny
-wtMTkyNjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYyNCwxMDk1
-NzI3NTUzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4Mz
-ksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtODY1
-MjEwNjk1XX0=
+eyJoaXN0b3J5IjpbLTE4OTIyNzMzNDksLTU4ODYxODQ4MSwtMj
+A2NDMzNTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1
+NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NT
+csLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5
+NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5OD
+M5LDY1ODQzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2
+NTIxMDY5NV19
 -->
