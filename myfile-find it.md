@@ -1667,13 +1667,15 @@ sleepyGreeting
     console.error(err);
   });
   ```
+  <BR>
+  
 1.	Creamos una **variable** que llamamos `sleepyGreeting`,
 
 2.	**Asignamos a la variable** la creación de una **nueva promesa** new Promise().
 
 3.	**Promise()**, toma **como argumento una función**. Como primer argumento (aquí no ponemos los opcionales) toma **una función**, por ello se llama  **callback**. 
 
-4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, mencionada,  especialmente para utilizar los métodos correspondientes de `resolve()` y `reject()`.
+4.	**Esta función callback** (que en este caso sera función flecha) **tiene dos argumentos**:`resolve` y `reject`, mencionada convención común, que es particular de los métodos correspondientes de `resolve()` y `reject()`.
 5.	 Creamos **dos métodos de `setTimeout()`**,  con el fin de poner **temporizadores**.  Generalmente, **cuando trabajas con promesas**, una de las regla es que tu expectativa es que aquello que quieres obtener, **no lo obtengas de forma inmediata**. **Puede tardar bien milisegundos o unos segundos.**    Este temporizador nos permite manipularlo e incluso **imitar lo que obtendríamos si llamamos a una API** o algo parecido.   Esta función toma dos argumentos:  <br>
 			-	*una función* a ejecutar  **`resolve(valor)`** y **`reject(mensaje)`**
 			-	*retraso*: **el tiempo de espera en milisegundos** (2 Segundos en este caso)
@@ -2471,7 +2473,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTk2Mzg4MzgsLTg2OTYwNjM2MSwtMT
+eyJoaXN0b3J5IjpbLTEzMDYxODM5MTUsLTg2OTYwNjM2MSwtMT
 EwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5
 NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMz
 I5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0x
