@@ -654,7 +654,7 @@ obj.obtenerValorFlecha(); // Salida: 10
 
 <br>
 
-## 3) EN RESUMEN
+### 3) EN RESUMEN
 
 #### 1. VENTAJAS DE LAS FUNCIONES FLECHA
 - **Contexto Léxico:** A diferencia de las funciones regulares, las funciones flecha **no tienen su propio enlace a  `this`.** En cambio,  `this`  dentro de una función flecha **se refiere al contexto léxico**, es decir, al valor de  `this`  **en el ámbito donde la función flecha fue definida. Esto evita errores comunes** relacionados con el contexto de  `this`  al usar funciones de ***callback*** dentro de **métodos de objetos o en otros contextos donde  `this`  podría cambiar dinámicamente.**
@@ -1008,10 +1008,10 @@ precisamente por cómo JavaScript interpreta los arrays:  **un conjunto de “cu
 
 ####  BUENAS PRÁCTICAS
   
-Lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
+- Lo más **limpio y seguro** es hacer una **copia** de esa variable original, y luego usar **let** para hacer nuestras modificaciones. 
 De esta forma **evitamos crear los menos efectos secundarios posibles**
 
-Debido a que **el método `push()`, como ya hemos dicho, cambia la variable original**, si hacemos la siguiente asignación con la intención de realizar una copia, seguiríamos con problema:
+- Debido a que **el método `push()`, como ya hemos dicho, cambia la variable original**, si hacemos la siguiente asignación con la intención de realizar una copia, seguiríamos con problema:
 
 ```JavaScript
 const numbers = [1,2,3,4];
@@ -2407,11 +2407,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2NzgwMTI3LC0xOTI2MTk2OTc0LDkxMD
-QxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMzE4NTY0MDQ4
-LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5Mj
-I5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3Mzkz
-OCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxND
-A2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYw
-MF19
+eyJoaXN0b3J5IjpbLTIxMTY1OTg1MzIsLTE5MjYxOTY5NzQsOT
+EwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQw
+NDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMT
+kyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTcz
+OTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLD
+E0MDY2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkx
+NjAwXX0=
 -->
