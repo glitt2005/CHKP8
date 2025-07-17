@@ -2128,7 +2128,7 @@ async function miFuncion() {
 Proporcionan:
 -	**Mayor legibilidad**: tiene aspecto de código síncrono, lo que facilita su lectura y comprensión
 -	**Manejo de errores** de forma similar a como se haría con código **síncrono**
--	**Sintaxis más limpia**: elimina la necesidad de anidar `then()` y `catch()` al trabajar con promesas haciendo código más limpio y conciso.
+-	**Sintaxis más limpia**: **elimina la necesidad de anidar** `then()` y `catch()` al trabajar con promesas haciendo código más limpio y conciso.
 
 <br>
 
@@ -2209,7 +2209,7 @@ y no en secuencia?<h3>
 <br>
 <br>
 
-### 3.1  Uso de  "cierres o "closures" con <big>`async`</big> y <big>`await`</big>
+### 3.1  Uso de  "cierres o "closures" con <big>`async`</big> - <big>`await`</big>
 
 Los cierres o closures en Javascript son una herramienta poderosa que, combinada con las funciones asíncronas, permite mantener el estado y acceder a variables externas en operaciones asíncronas.
 
@@ -2506,11 +2506,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzgwMzkyNDQsLTY5NTI2NzA3LDIwNT
-I1OTY5OTMsLTIwNDQ1NzM2MzYsLTUxMjg1OTExOCwtNTk5ODI1
-NzUyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtOD
-Y5NjA2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkz
-MjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3Mz
-cxLDExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5
-MDc4MDgwMzBdfQ==
+eyJoaXN0b3J5IjpbMTIzMTMwMjUwNCwtMTEzODAzOTI0NCwtNj
+k1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5
+MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLT
+ExMzYyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgy
+OTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMD
+AsLTEyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03
+MTU1NzQ5MjFdfQ==
 -->
