@@ -2530,9 +2530,10 @@ queryApis();
 <br>
 <img src="interrogacion.png" align="left" width="90">  
 
-### CUÁNDO  ENVOLVER LAS PROMESAS CON BLOQUES `try{}` - `catch()` DE FORMA INDIVIDUAL <br>Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE try() - catch()?
+### CUÁNDO  ENVOLVER LAS PROMESAS CON BLOQUES `try{}` - `catch()` DE FORMA INDIVIDUAL <br>Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE `try{}` - `catch()`?
 
 
+<br>
 
 Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catch`**  o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que
 
@@ -2546,11 +2547,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzQ2Mjc2NjcsOTQ4NTM1OTIyLC0xMD
-Q1MDc3ODAwLC01OTM1MTU3NzYsLTIwNTYzMzc0NzEsLTUwODI1
-NjQwMSwxMjk4MzM1NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MC
-w3ODkxMDQ3NTYsMTcwMDQxMDk2MCwxODM4MjI3ODUyLC0xODk0
-MzMzOTA0LC0xMTM4MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2OT
-kzLC0yMDQ0NTczNjM2LC01MTI4NTkxMTgsLTU5OTgyNTc1Miwt
-MTU2NDYxOTM5NV19
+eyJoaXN0b3J5IjpbLTE1NDYwMjc0MDAsLTIwNzQ2Mjc2NjcsOT
+Q4NTM1OTIyLC0xMDQ1MDc3ODAwLC01OTM1MTU3NzYsLTIwNTYz
+Mzc0NzEsLTUwODI1NjQwMSwxMjk4MzM1NjEzLC0xNDQ3NDY0Nz
+QyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMTcwMDQxMDk2MCwxODM4
+MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4MDM5MjQ0LC02OTUyNj
+cwNywyMDUyNTk2OTkzLC0yMDQ0NTczNjM2LC01MTI4NTkxMTgs
+LTU5OTgyNTc1Ml19
 -->
