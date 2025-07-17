@@ -801,7 +801,7 @@ console.log(itemQuinto);        // Output: 5
 
 ### 3. DECONSTRUCCIÓN DE OBJETOS:
 
-La desestructuración de objetos permite extraer **propiedades específicas de un objeto y asignarlas a variables con nombres iguales a las propiedades** o con nombres distintos usando un alias.
+La desestructuración de objetos permite extraer **propiedades específicas de un objeto y asignarlas a variables**, bien mediantes nombres iguales a las propiedades, o con nombres distintos usando un alias.
 <br>
 
 ####  Objetos - EJEMPLO 1:
@@ -2388,11 +2388,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNzg5MzU5LDEwOTU3Mjc1NTMsMzE4NT
-Y0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMs
-MTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MT
-k3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5
-MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MD
-U5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2
-MTNdfQ==
+eyJoaXN0b3J5IjpbMTU1MDA0NjM5MSwxMDk1NzI3NTUzLDMxOD
+U2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMz
+LDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2OD
+E5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgw
+OTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNT
+A1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQw
+NjEzXX0=
 -->
