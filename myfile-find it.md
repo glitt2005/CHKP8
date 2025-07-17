@@ -1408,10 +1408,10 @@ class Coche {
 const miCoche = new Coche('Toyota', 'Corolla', 2020);
 console.log(miCoche);  // Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 2020 }
 ```
--   La clase  `Coche`  tiene un constructor que toma tres parámetros:  `marca`,  `modelo`  y  `año`.
--   Cuando se crea la instancia  `miCoche`, se pasan los valores  `'Toyota'`,  `'Corolla'`  y  `2020`  al constructor.
--   El constructor asigna estos valores a las propiedades del objeto, usando  `this.marca`,  `this.modelo`  y  `this.año`.
-- **Ignora** la propiedad año que el constructor contiene **por defecto**. Ésta, `'año': 2019` , solo hubiera salido si al pasar los parámentros en la instancia **no hubiera incluido el valor para `'año'`**, es decir que con:
+-   La **clase**  `Coche`  tiene un constructor que toma **tres parámetros**:  `marca`,  `modelo`  y  `año`.
+-   Cuando se crea la **instancia**  `miCoche`, se pasan los valores  `'Toyota'`,  `'Corolla'`  y  `2020`  al constructor.
+-   El **constructor asigna estos valores a las propiedades** del objeto, usando  `this.marca`,  `this.modelo`  y  `this.año`.
+- **Ignora la propiedad** `año que el constructor contiene **por defecto**. Ésta, `'año': 2019` , solo hubiera salido si al pasar los parámentros en la instancia **no hubiera incluido el valor para `'año'`**, es decir que con:
 	 `const miCoche = new Coche('Toyota', 'Corolla');`
 		**imprimiría**    `//Coche { marca: 'Toyota', modelo: 'Corolla', 'año': 2019 }`
 		<br>
@@ -2453,7 +2453,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMTg2MDY3OSwtMTQ3ODUwMTA0MCwxOD
+eyJoaXN0b3J5IjpbLTgwMDgwMDUzMywtMTQ3ODUwMTA0MCwxOD
 M5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMz
 NTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMD
 UyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5
