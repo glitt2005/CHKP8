@@ -1755,9 +1755,9 @@ fetch('<Tu URL>', {})
 
 <br>
 
-####    EJEMPLO 1 `fetch()` - Convirtiendo a datos *json*
+####    EJEMPLO 1 `fetch()` - Convirtiendo a datos *json* y listando todos los recursos
 
-1. Conviertiendo datos a **json** y listando todos los recursos de estos datos json.
+
 
 ```js
 const postsPromise = fetch('https://jsonplaceholder.typicode.com/posts')
@@ -1780,13 +1780,13 @@ Y esta impresión será algo similar a esto:
 
 
 
-No se visualiza bien, pero como son datos **JSON**, y vemos un objeto, un **array** llamado   ** `posts` ** conteniendo muchos datos, lógicamente en forma de pares  clave:valor. Vemos muchas claves repetidas como: `title`, `content`, `created_at` , con sus respectivos valores.
+No se visualiza bien, pero como son datos **JSON**, y vemos un objeto, un **array** llamado    `posts`  conteniendo muchos datos, lógicamente en forma de pares  clave:valor. Vemos muchas claves repetidas como: `title`, `content`, `created_at` , con sus respectivos valores.
 <br>
 
   
-#### EJEMPLO 2 `fetch()` - Utilizando el bucle forEach()
+#### EJEMPLO 2 `fetch()` - Utilizando el bucle `forEach()`
 
-2. Trabajando con los datos **json** : con bucle `forEach()`
+
 ```js
 
 const postsPromise_2 = fetch('https://jsonplaceholder.typicode.com/posts')
@@ -2476,11 +2476,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMjgxMTk0MiwtMTEzNjIyNjcsLTg2OT
-YwNjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIy
-MDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MS
-wxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3
-ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MD
-EwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEs
-LTIwNjQzMzU1OTddfQ==
+eyJoaXN0b3J5IjpbNjcwMzAxMzMzLC0xMTM2MjI2NywtODY5Nj
+A2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIw
+MjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLD
+ExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4
+MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUwMT
+A0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwt
+MjA2NDMzNTU5N119
 -->
