@@ -2540,16 +2540,16 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 1. Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
 	-	Por ejemplo **si las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>). 
 	
-	Sería una situación donde **no querríamos envolverlas individualmente**, ya que de todas formas,  **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
+	Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
 <br>
-2. Pero el tipo de situación de los ejemplos mencionados, donde **estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que **quisiéramos contactar con la que no falla de todas formas,** y entonces necesitaríamos envolverlas con el bloque **`try`- `catch` de forma individual.**
+2. Pero el tipo de situación de los ejemplos mencionados, donde **estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que, de todas formas,  **quisiéramos contactar con la que no falla**, y en este caso, necesitaríamos envolverlas con el bloque **`try`- `catch` de forma individual.**
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTAxMzg2NCwtMTU0NjAyNzQwMCwtMj
+eyJoaXN0b3J5IjpbMjExOTg3NzA1NywtMTU0NjAyNzQwMCwtMj
 A3NDYyNzY2Nyw5NDg1MzU5MjIsLTEwNDUwNzc4MDAsLTU5MzUx
 NTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2MT
 MsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNzAw
