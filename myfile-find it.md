@@ -1765,6 +1765,8 @@ fetch('<Tu URL>', {})
 	2.  **Las opciones a configurar en la petición.** Aquí se puede configurar el método de solicitud aquí (este es un **parámetro opcional**).
 
 -  **`fetch()`  devuelve una promesa** que se resuelve al objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta. Es decir, representa la respuesta a la solicitud realizada.  Y dado que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**
+- CONVENCIÓN COMÚN
+	- `Response`
 <br>
 - CONVENCIÓN COMÚN:    La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:  
 - `Response`, 
@@ -2617,11 +2619,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODg1MDg1MSw0NjQ2NzUwOTAsLTQwOD
-g2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNjM2MDQz
-MywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYxLDEyMD
-Q5MDgxMzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NTY2NSw4
-MTU4MzQxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTYsLTIwNTk0MD
-cxMjgsLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4ODI3Njdd
+eyJoaXN0b3J5IjpbMTkzMTM4MDAwOSwtMTg4ODUwODUxLDQ2ND
+Y3NTA5MCwtNDA4ODYxNzI1LC03MzgzODM2NjMsMjA1ODI3MTg4
+MywyMTM2MzYwNDMzLDE2OTQwNDI1MzIsMzQzMTk0NDU5LDExMj
+k1NTMyNjEsMTIwNDkwODEzMywyMzI2NjYzMjUsMTc3MTQ3MzAw
+MSw5Njc1NjY1LDgxNTgzNDE3NywyMTM1OTI5Mzc5LDUzODI3NT
+k1NiwtMjA1OTQwNzEyOCwtMzM0OTQwMTIwLC00NjY2MzU1NDBd
 fQ==
 -->
