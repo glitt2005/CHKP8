@@ -907,7 +907,7 @@ const { nombre, edad = 45 } = usuario;
 console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 45
 ```
-En este caso **la variable `usuario` NO CONTIENE** el par clave:valor correspondiente a la clave de `edad`, por lo que al deconstruir, podemos añadir el nombre de la edad a la variable y por tanto nuestro nuevo dato **es utilizado por defecto**.
+En este caso **la variable `usuario` no contiene** el par clave:valor correspondiente a la clave de **`edad`**, por lo que al deconstruir, podemos añadir el nombre de la edad a la variable y por tanto nuestro nuevo dato **es utilizado por defecto**.
 
 <br>
 
@@ -921,7 +921,7 @@ console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 10
 ```
 
-En este caso **la variable `usuario` YA CONTIENE** el valor de edad, con lo que  **ignora por completo la clave que pasamos al deconstruir**, ya que **sólo lo utilizará realmente en caso de no existir en la variable**.
+En este caso **la variable `usuario` ya contiene** el valor de **`edad`**, con lo que  **ignora por completo la clave que pasamos al deconstruir**, ya que sólo lo utilizará realmente en caso de no existir en la variable.
 
 <br>
 
@@ -2393,11 +2393,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NT
-cyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5
-LDY1ODQzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NT
-IxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4
-NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3NjI2NDMyNzksMTcwOD
-QyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1NDgyLC0xODg4OTgy
-MTNdfQ==
+eyJoaXN0b3J5IjpbLTE5MjYxOTY5NzQsOTEwNDExNzk4LC0yNz
+U2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIy
+MSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAzLC05NT
+cxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYz
+ODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3Nj
+I2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1
+NDgyXX0=
 -->
