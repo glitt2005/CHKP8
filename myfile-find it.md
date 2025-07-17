@@ -682,7 +682,7 @@ Son útiles **cuando se quiere mantener el `this` del contexto envolvente**, com
 
 
 # 4 ¿Qué es la deconstrucción de variables?
-En JavaScript, **deconstrucción** (o *desconstructing*) y **desestructuración** (o *destructuring*) son términos que se refieren a la misma característica del lenguaje, introducida en ECMAScript 6 (**ES6**). Ambos términos se utilizan indistintamente para describir la **sintaxis que permite intercambiar valores de variables de manera más concisa.**
+En JavaScript, **deconstrucción** (*"desconstructing"*) y **desestructuración** (*"destructuring"*) son términos que se refieren a la misma característica del lenguaje, introducida en ECMAScript 6 (**ES6**). Ambos términos se utilizan indistintamente para describir la **sintaxis que permite intercambiar valores de variables de manera más concisa.**
 
 <br>
 <br>
@@ -724,7 +724,7 @@ En JavaScript, **deconstrucción** (o *desconstructing*) y **desestructuración*
 <br>
 
 **NOTA**:
-- La destructuración **no cambia la variable en sí misma.** Crea nuevas variables yi asigna valores extraidos de la estructura de datos original. **La variable original queda intacta**.
+- La destructuración **no cambia la variable en sí misma.** Crea nuevas variables y asigna valores extraidos de la estructura de datos original. **La variable original queda intacta**.
 
 ###   1. INTERCAMBIO DE VALORES DE VARIABLE:
 Un ejemplo básico para el intercambio de turnos en un juego sería hacer uso de la desestructuración **para intercambiar los valores de las variables que representan los jugadores actuales**.
@@ -2382,11 +2382,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI5ODk4NzksMzE4NTY0MDQ4LC05MD
-QxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYw
-MywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMT
-M5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMz
-OTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMj
-A0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQz
-NDE4XX0=
+eyJoaXN0b3J5IjpbLTI5ODg4NDMwNCwzMTg1NjQwNDgsLTkwND
+EzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAz
+LC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
+kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
+MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
+Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
+MThdfQ==
 -->
