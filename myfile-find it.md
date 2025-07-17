@@ -2112,8 +2112,8 @@ No añadimos ejemplos de las *promesas*, ya que han quedado explicadas en el cap
 
 A partir de **septiembre de 2017** (especificación ECMAScript2017), se incorporaron a JavaScript **las palabras clave** de `async` y `await` que constituyen **la forma más sencilla y moderna de manejar código asincrónico**:
 
-- `async` convierte una función normal en una asíncrona y devuelve una Promise.
-- `await` se usa dentro de las funciones `async` para **pausar una ejecución hasta que la Promise se resuelve**
+- `async` :  convierte una función normal en una asíncrona y **devuelve una  promesa**.
+- `await` : se usa dentro de las funciones `async` para **pausar una ejecución hasta que la Promise se resuelve**.
 <br>
 #### SINTAXIS BÁSICA:
 ```js
@@ -2497,11 +2497,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMTYwODA5NSwtMjA0NDU3MzYzNiwtNT
-EyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQx
-NTAsLTExMzYyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLT
-g4MTgyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMy
-ODkwMDAsLTEyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OT
-MzLC03MTU1NzQ5MjEsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwx
-MTAzMDA3MjUyXX0=
+eyJoaXN0b3J5IjpbLTE1NDQwNzk3ODksLTIwNDQ1NzM2MzYsLT
+UxMjg1OTExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0
+MTUwLC0xMTM2MjI2NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC
+04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIz
+Mjg5MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5ND
+kzMywtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUs
+MTEwMzAwNzI1Ml19
 -->
