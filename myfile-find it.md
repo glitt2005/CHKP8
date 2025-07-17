@@ -1563,7 +1563,9 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 <img src="decepcion.png"  width = "10%" alt="icono decepción">
 </div>
 <br>
-
+<br>
+<img src="decepción.png" align="right" width="90"> <h3>  ¿Y si queremos que los todos los procesos se<br> ejecuten a la vez 
+y no en secuencia?<h3>
 
 Lo que una **promesa** nos permite es llamar a ***Twitter***, mostrar nuestra página, 
 o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**.
@@ -2466,11 +2468,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDAyNTQ1NjAsMTcyMzI4OTAwMCwtMT
-IwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3
-NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNT
-IsLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01
-ODg2MTg0ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0NjgsLTIzOD
-QzMjkzNiwtMTM4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1
-MSwxNjk3MTI2NTU3XX0=
+eyJoaXN0b3J5IjpbLTQ5MjgzMzQ5OCwxNzIzMjg5MDAwLC0xMj
+AzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0
+OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1Mi
+wtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4
+ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4NzQ2OCwtMjM4ND
+MyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3MjUx
+LDE2OTcxMjY1NTddfQ==
 -->
