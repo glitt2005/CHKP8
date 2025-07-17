@@ -1844,9 +1844,11 @@ Y es que, efectivamente, si intentamos capturar este tipo de URL o  **endpoint A
 
 
 En JavaScript, cuando tenemos **promesas** 	que son muy **parecidas**, las podemos agrupar y gestionar **para tratarlas igual**. Se pueden utilizar dos métodos:   `Promise.all()`, y  `Promise.allSettled()` . Esto se ve mucho en **páginas web** y **aplicaciones de móvil**.
+<br>
 
 
 ### 1.  El método <big>`Promise.all()`</big>
+<br>
 
 #### SINTAXIS
 
@@ -1864,7 +1866,7 @@ Promise.all(iterable)
 
 <br>
 
-#### EJEMPLO
+#### EJEMPLO  ´promise
 
 
 
@@ -1889,10 +1891,11 @@ Promise.all([promesa1, promesa2, promesa3])
 - **Si alguna** de las promesas **se rechazara, el  `catch()`  se ejecutaría,** mostrando el error.
 
 <br>
-
+<br>
 
 ### 2.   El método <big>`Promise.allSettled()`</big>
 
+<br>
 
 
 #### SINTAXIS
@@ -2477,11 +2480,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODA4MTMxLDI0NTY0MTUwLC0xMTM2Mj
-I2NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMs
-LTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMj
-AzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0
-OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1Mi
-wtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4
-ODYxODQ4MV19
+eyJoaXN0b3J5IjpbLTEyOTU0ODE4NTgsMjQ1NjQxNTAsLTExMz
+YyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0
+MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLT
+EyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1
+NzQ5MjEsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3Mj
+UyLC0xNDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwt
+NTg4NjE4NDgxXX0=
 -->
