@@ -2370,7 +2370,7 @@ Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado 
  - [x] Veremos cómo usar las funciones **`then()`con `catch()`**, pero trabajando con **múltiples promesas**. Combinándolos con `await` implementaremos una forma diferente de manejar los errores.
  <br>
  
-  ### 1)  Explicando bloque ` try - catch`
+  ### A)   Explicando bloque ` try - catch`
   
  `try`…`catch`
 	 -  se utiliza para  _**capturar excepciones**_  que pueden ocurrir durante la ejecución de código en  JavaScript.
@@ -2625,11 +2625,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTg2ODc3MCwtMTYzNzIwMzM3NCw1Mj
-YzMzcyMzEsMTMzODQ3MDIwMSw2NzI3NDI1NywtOTMxMjI1NTIz
-LDE5MzEzODAwMDksLTE4ODg1MDg1MSw0NjQ2NzUwOTAsLTQwOD
-g2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNjM2MDQz
-MywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYxLDEyMD
-Q5MDgxMzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NTY2NV19
-
+eyJoaXN0b3J5IjpbMjA3MTkyMjcwLC02OTE4Njg3NzAsLTE2Mz
+cyMDMzNzQsNTI2MzM3MjMxLDEzMzg0NzAyMDEsNjcyNzQyNTcs
+LTkzMTIyNTUyMywxOTMxMzgwMDA5LC0xODg4NTA4NTEsNDY0Nj
+c1MDkwLC00MDg4NjE3MjUsLTczODM4MzY2MywyMDU4MjcxODgz
+LDIxMzYzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0NTksMTEyOT
+U1MzI2MSwxMjA0OTA4MTMzLDIzMjY2NjMyNSwxNzcxNDczMDAx
+XX0=
 -->
