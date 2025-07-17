@@ -1551,6 +1551,7 @@ El método estático es útil cuando :
 <br>
 <div align="center">  y en la PROGRAMACIÓN ORIENTADA A OBJETOS  existe el llamado algo llamado:  </div>
 <br>
+<br>
 <div align="center">
 <img src="PRU.png"  width = "40%" alt="principioresp.única">
 </div>
@@ -2605,11 +2606,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjM2MDQzMywxNjk0MDQyNTMyLDM0Mz
-E5NDQ1OSwxMTI5NTUzMjYxLDEyMDQ5MDgxMzMsMjMyNjY2MzI1
-LDE3NzE0NzMwMDEsOTY3NTY2NSw4MTU4MzQxNzcsMjEzNTkyOT
-M3OSw1MzgyNzU5NTYsLTIwNTk0MDcxMjgsLTMzNDk0MDEyMCwt
-NDY2NjM1NTQwLDIwMzM4ODI3NjcsMjA2NTE1MDE0Niw0MDc2MD
-gyNjYsLTIwMjUzMjg4MywtMjUyNTI2Mjc5LC05OTUyOTIzMzRd
-fQ==
+eyJoaXN0b3J5IjpbLTE2NjA0MDI5NjMsMjEzNjM2MDQzMywxNj
+k0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYxLDEyMDQ5MDgx
+MzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NTY2NSw4MTU4Mz
+QxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTYsLTIwNTk0MDcxMjgs
+LTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4ODI3NjcsMjA2NT
+E1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4MywtMjUyNTI2Mjc5
+XX0=
 -->
