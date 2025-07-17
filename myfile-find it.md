@@ -2438,7 +2438,7 @@ Como ya hemos mencionado, si en el ejemplo anterior funcionara todo perfectament
 Imaginemos que **hay un error**, y **falta la letra "s"** en la primera promesa, la de <font color= "green">*jasonplaceholder*</font>
 <br>
 
-#### EJEMPLO  A    -    falta la letra "s" en el "https" de la PRIMERA promesa: 
+#### EJEMPLO  B    -    falta la letra "s" en el "https" de la PRIMERA promesa: 
 
 ```js
 async function queryApis() {
@@ -2458,8 +2458,9 @@ queryApis();   //typeError: Failed to fetch
 
 ```
 - En este caso **¡se detiene el proceso entero!.**  No ha podido terminar el primero y se para todo aquí.
+- Imprime el error: *typeError: Failed to fetch*
 <br>
-#### EJEMPLO  B   -   falta la letra "s" en el "https" de la SEGUNDA promesa: 
+#### EJEMPLO  C  -   falta la letra "s" en el "https" de la SEGUNDA promesa: 
 
 ```js
 async function queryApis() {
@@ -2541,7 +2542,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzI4NDYxMCwtMTA0NTA3NzgwMCwtNT
+eyJoaXN0b3J5IjpbMTUxNjAxNjQ3MSwtMTA0NTA3NzgwMCwtNT
 kzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMz
 NTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LD
 E3MDA0MTA5NjAsMTgzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEz
