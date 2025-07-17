@@ -1577,7 +1577,7 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 <br>
 <br>
 <br>
-<img src="alegria.png" align="left" width="90">   Lo que una  PROMESA nos permite es llamar a ***Twitter***, mostrar nuestra página,  o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**..
+<img src="alegria.png" align="left" width="90">   Lo que una  PROMESA nos permite es llamar a TWITTER, mostrar nuestra página,  y CUANDO LAS PUBLICACIONES FINALMENTE LLEGUEN DE LA API, QUE LAS MUESTREre**..
 <br>
 
 
@@ -2606,11 +2606,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4NTk4NzEwLDIxMzYzNjA0MzMsMTY5ND
-A0MjUzMiwzNDMxOTQ0NTksMTEyOTU1MzI2MSwxMjA0OTA4MTMz
-LDIzMjY2NjMyNSwxNzcxNDczMDAxLDk2NzU2NjUsODE1ODM0MT
-c3LDIxMzU5MjkzNzksNTM4Mjc1OTU2LC0yMDU5NDA3MTI4LC0z
-MzQ5NDAxMjAsLTQ2NjYzNTU0MCwyMDMzODgyNzY3LDIwNjUxNT
-AxNDYsNDA3NjA4MjY2LC0yMDI1MzI4ODMsLTI1MjUyNjI3OV19
-
+eyJoaXN0b3J5IjpbLTI4NzA1NTgyNiwyMTM2MzYwNDMzLDE2OT
+QwNDI1MzIsMzQzMTk0NDU5LDExMjk1NTMyNjEsMTIwNDkwODEz
+MywyMzI2NjYzMjUsMTc3MTQ3MzAwMSw5Njc1NjY1LDgxNTgzND
+E3NywyMTM1OTI5Mzc5LDUzODI3NTk1NiwtMjA1OTQwNzEyOCwt
+MzM0OTQwMTIwLC00NjY2MzU1NDAsMjAzMzg4Mjc2NywyMDY1MT
+UwMTQ2LDQwNzYwODI2NiwtMjAyNTMyODgzLC0yNTI1MjYyNzld
+fQ==
 -->
