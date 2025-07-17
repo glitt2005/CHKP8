@@ -1062,7 +1062,7 @@ console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 #### SINTAXIS:
 `[…variableOriginal];` 
 <br>
-#### EJEMPLO:
+#### EJEMPLO - operador de extensión:
 
 
 ```JavaScript
@@ -1074,6 +1074,15 @@ updatedNumbers.push(5);
 console.log(numbers);  //imprime [ 1, 2, 3, 4 ]
 console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 ```
+<br>
+
+<br>
+<img src="interrogacion.png" align="left" width="90"> <h3>  ¿Y si queremos que los todos los procesos se<br> ejecuten a la vez 
+y no en secuencia?<h3>
+
+
+
+<br>
 <br>
 
 ###  ¿ Forma a)-tradicional  o  Forma b)-moderna ?
@@ -2422,7 +2431,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODU0MTA4NywtMTc3MzM4NzQ2OCwtMj
+eyJoaXN0b3J5IjpbMTM1OTEyMjQwNSwtMTc3MzM4NzQ2OCwtMj
 M4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3NzAsNDgwNDg3
 MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEwNDExNzk4LC
 0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwNDgsLTkwNDEz
