@@ -1780,7 +1780,7 @@ Y esta impresión será algo similar a esto:
 
 
 
-No se visualiza bien, pero como son datos **JSON**, y vemos un objeto, un **array** llamado    `posts`  conteniendo muchos datos, lógicamente en forma de pares  clave:valor. Vemos muchas claves repetidas como: `title`, `content`, `created_at` , con sus respectivos valores.
+No se visualiza bien, pero como son datos **JSON**, y vemos un objeto, un **array** llamado    `posts`  conteniendo muchos datos, lógicamente en forma de pares  **clave:valor**. Vemos muchas **claves repetidas** como: `title`, `content`, `created_at` , con sus respectivos valores.
 <br>
 
   
@@ -1805,9 +1805,9 @@ postsPromise_2
 ```
 
   
-(1*) Iteramos sobre el objeto que nos interesa, que es  `posts`, con el bucle `forEach()` (que está tomando como argumento una función flecha).
+(1*) Iteramos sobre el objeto que nos interesa, que en este caso es  `posts`, a través del bucle `forEach()` (que está tomando como argumento una función flecha).
 
-(2*)  En esa iteración solo nos interesa uno de las claves: `title`, así que extraerá todos valores para cada una de estas claves `title`repetidas. Se visualizaría algo así:
+(2*)  En esa iteración solo nos interesa uno de las claves: `title`, por lo que extraerá todos los valores para cada una de estas claves `title`repetidas. Se visualizaría algo así:
 <br>
 
 
@@ -1819,7 +1819,7 @@ postsPromise_2
 <br>
 <br>
 
-En este caso no ha dado error, por eso no ha tenido que ejecutar el `catch()`, pero hay muchas veces que puede hacerlo. Por ejemplo, muy típico es no tener en cuenta la "s" final de la url `https:  //.......` ; o bien una API con *https* o *http* que esté utilizando un **sistema completamente seguro**.
+En este caso **no ha dado error**, por eso **no ha tenido que ejecutar el `catch()`**, pero hay muchas veces que puede hacerlo. Por ejemplo, muy típico es no tener en cuenta la "s" final de la url `https:  //.......` ; o bien una API con *https* o *http* que esté utilizando un **sistema completamente seguro**.
 
 Y efectivamente, si intentas capturar (utilizar el `fetch()` , este tipo de URL o  **endpoint API** y no es seguro, hay mucha probabilidad de que estés trayendo diversos **elementos a tu propia aplicación que no son seguros**. Por ello, **JavaScript lo bloqueará** y nos imprimera este **error**  al ejecutar la función `catch()` .
 
@@ -2476,7 +2476,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwMzAxMzMzLC0xMTM2MjI2NywtODY5Nj
+eyJoaXN0b3J5IjpbOTc4NjI3MzEyLC0xMTM2MjI2NywtODY5Nj
 A2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIw
 MjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLD
 ExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4
