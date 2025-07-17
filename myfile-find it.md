@@ -1028,7 +1028,7 @@ console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 
 Vemos que **cambia las dos variables**.
 <br>
-<img src="interrogacion.png" align="left" width="90">   <big>¿QUÉ ESTÁ PASANDO EXACTAMENTE</big>
+<img src="interrogacion.png" align="left" width="90">   <big><br>¿QUÉ ESTÁ PASANDO EXACTAMENTE</big>
 
 <br>
 <br>
@@ -2594,11 +2594,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3ODA3Njc4LDE4MDYxMDk1NjQsMTE3Mj
-M3NDg0OSwtMTU0NjAyNzQwMCwtMjA3NDYyNzY2Nyw5NDg1MzU5
-MjIsLTEwNDUwNzc4MDAsLTU5MzUxNTc3NiwtMjA1NjMzNzQ3MS
-wtNTA4MjU2NDAxLDEyOTgzMzU2MTMsLTE0NDc0NjQ3NDIsNzI3
-MTQxMTkwLDc4OTEwNDc1NiwxNzAwNDEwOTYwLDE4MzgyMjc4NT
-IsLTE4OTQzMzM5MDQsLTExMzgwMzkyNDQsLTY5NTI2NzA3LDIw
-NTI1OTY5OTNdfQ==
+eyJoaXN0b3J5IjpbNTU2ODY1OTA0LDMwNzgwNzY3OCwxODA2MT
+A5NTY0LDExNzIzNzQ4NDksLTE1NDYwMjc0MDAsLTIwNzQ2Mjc2
+NjcsOTQ4NTM1OTIyLC0xMDQ1MDc3ODAwLC01OTM1MTU3NzYsLT
+IwNTYzMzc0NzEsLTUwODI1NjQwMSwxMjk4MzM1NjEzLC0xNDQ3
+NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMTcwMDQxMDk2MC
+wxODM4MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4MDM5MjQ0LC02
+OTUyNjcwN119
 -->
