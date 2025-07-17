@@ -1592,19 +1592,21 @@ Una **promesa** o bien:
 
 ### Proceso de codificación de las promesas
 - En general, con las **funciones, clases**, etc **no dedicamos** mucho **tiempo** pensando en las **eventualidades** negativas de que ocurriera **errores**.
-- 
-- Sin embargo una **promesae** te obliga a crear un sistema entero dividido prácticamente **50/50** :
-	-	**50%** del tiempo lo dedicamos a codificar sobre situaciones en las que el proceso **se resuelve con éxito**
+
+- Sin embargo una **promesa** te obliga a crear un sistema entero dividido prácticamente **50/50** :
+	-	**50%** del tiempo lo dedicamos a codificar sobre situaciones en las que el proceso **se resuelve con éxito,**
 	-	y el otro **50%** lo pasamos creando los tipos de proceso que ocurrirán **si se produce un error.**
 
-<br>### 
+<br> 
 
 ####  SINTAXIS básica de una promesa.
 ```JavaScript
 const promesa = new Promise((resolve, reject) => {  
+
 // Aquí se realiza la operación asíncrona :
 // Si la operación es exitosa, se llama a resolve(valor) 
 // Si ocurre un error, se llama a reject(error)  
+
 });
 ```
 #### BUENA PRÁCTICA:
@@ -2472,7 +2474,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjc2NDU0NywtMTEwMDgzODA2MCwtOD
+eyJoaXN0b3J5IjpbLTc2OTk1NjA2MCwtMTEwMDgzODA2MCwtOD
 gxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMTcyMzI4
 OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5Mz
 MsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDEx
