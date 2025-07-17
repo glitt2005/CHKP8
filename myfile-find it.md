@@ -1681,7 +1681,7 @@ sleepyGreeting
 						-		*retraso o "delay"*:&nbsp; &nbsp; **el tiempo de espera en milisegundos** (2 segundos en este caso).
 			
 
-6.	Finalmente, **llamamos a la función.** Por CONVENCIÓN COMÚN, lo hacemos con la sintaxis de:
+6.	Finalmente, **llamamos a la función.** Por CONVENCIÓN COMÚN, lo hacemos con la **sintaxis** de:
 
 
 
@@ -1690,7 +1690,7 @@ sleepyGreeting
 	 - [x] **Indentación** antes de poner los métodos **`then()` y `catch()`**     
 <br>
 
-### Llamada a la función: métodos <big>`then()` </big>y  <big>`catch()` :
+### Llamada a la función: métodos <big>`then()` </big>y  <big>`catch()`</big> del EJEMPLO anterior :
 
 1. `data` es convención común para referirse a los datos recibidos; para el almacenamiento de los datos.  
 Significa que cuando llamamos a la función (`sleepyGreeting()`) y obtengamos la respuesta:
@@ -2473,11 +2473,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyMDM0MDU1LC0xMTM2MjI2NywtODY5Nj
-A2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIw
-MjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLD
-ExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4
-MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUwMT
-A0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwt
-MjA2NDMzNTU5N119
+eyJoaXN0b3J5IjpbLTE4Mjk5NDIwMTcsLTExMzYyMjY3LC04Nj
+k2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMy
+MjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNz
+EsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkw
+NzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0xNDc4NT
+AxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgx
+LC0yMDY0MzM1NTk3XX0=
 -->
