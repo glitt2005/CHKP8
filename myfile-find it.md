@@ -2281,7 +2281,8 @@ loginActivities(login(), updateAccount());
 ```
 
  1. El total que se tardará son **4 segundos** (no 6 como en el ejemplo    anterior sin los cierres).  Después de esos 4 segundos, **las dos funciones imprimirían a la vez.**
- 2.  Los **nombres de los argumentos no tienen por qué ser los de las funciones**, pero lo hacemos porque son más descriptivos así.  MOSTREMOS ESTE PUNTO CON EL SIGUIENTE EJEMPLO:
+ 
+ 3.  Los **nombres de los argumentos no tienen por qué ser los de las funciones**, pero lo hacemos porque son más descriptivos así.  MOSTREMOS ESTE PUNTO CON EL SIGUIENTE EJEMPLO:
 
 <br>
 
@@ -2300,7 +2301,7 @@ Para que no nos lleve a pensar que está funcionando porque son los argumentos t
 
 <br>
 
-Imprimiría **exactamente igual que el ejemplo anterior**. Solo se han cambiado nombres.
+Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado nombres.
 
 <br>
 <br>
@@ -2317,9 +2318,10 @@ Imprimiría **exactamente igual que el ejemplo anterior**. Solo se han cambiado 
 </div>
 
 <br>
-- Aunque no tenga ningún sentido práctico, pero pra mmbiado los dos `await`
-b)  Aquí cambiamos, además **el orden de las dos funciones asíncronas** (aunque no tenga sentido práctico, pero para mostrar cómo funcionaría) :
--  El total de segundos seguirían siendo **exactamente igual que el ejemplo anterior: 4 segundos**.  
+
+- Aunque no tenga ningún sentido práctico, pero para mostrar cómo funcionaría, hemos cambiado el orden de los dos `await`
+
+-  El **total** de segundos seguirían siendo **exactamente igual que el ejemplo anterior: 4 segundos**.  
 -  Sin embargo:
 	- A los **2 segundos** imprimiría la función **`updateAccount()`**
 	-  **Transcurridos los siguientes 2 segundos**, se imprimiría **`login()` .**
@@ -2527,7 +2529,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODIyNTg1OCwtNTkzNTE1Nzc2LC0yMD
+eyJoaXN0b3J5IjpbMjAzMzAzNDE2NSwtNTkzNTE1Nzc2LC0yMD
 U2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMzNTYxMywtMTQ0NzQ2
 NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LDE3MDA0MTA5NjAsMT
 gzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEzODAzOTI0NCwtNjk1
