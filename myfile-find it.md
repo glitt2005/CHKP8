@@ -1609,6 +1609,10 @@ const promesa = new Promise((resolve, reject) => {
 
 });
 ```
+
+-   **`new Promise((resolve, reject) => { ... })`:**
+    
+    Crea una **nueva instancia de promesa**. El constructor `new`toma una función con dos parámetros:  `resolve`  y  `reject`.
 #### BUENA PRÁCTICA
 
 Una buena práctica es añadir la palabra **"Promise"** **al nombre de la variable**, para identificar el propósito en futuros accesos al programa. Al ser así de **descriptivo**, facilitará cualquier interpretación y/o modificación del mismo: por ejemplo **`postsPromise = fetch("https:// aaa.bbbbbbb.com/posts")`**  si tratamos de obtener las publicaciones o "***posts***" de una página web (p.ej. *Twitter*).
@@ -1622,16 +1626,13 @@ Una buena práctica es añadir la palabra **"Promise"** **al nombre de la variab
 
 EXPLICACIÓN:
 
--   **`new Promise((resolve, reject) => { ... })`:**
-    
-    Crea una **nueva instancia de promesa**. El constructor `new`toma una función con dos parámetros:  `resolve`  y  `reject`.
     
 -   **`resolve(valor)`:**
     
     -   Esta función se usa para indicar que la operación asíncrona ha terminado **con éxito.**
     -   `valor`  **es el resultado de la operación, que se pasará al siguiente bloque  `then()`**  en la cadena de promesas.
     -   Si  `valor`  es otra promesa, se "aplanará" (pondrá en una sola capa todas las promesas anidadas) y su resultado se usará como el resultado de esta promesa.
-    -
+    
 	    - **`then()`:**  se usa para **encadenar funciones a una promesa, permitiendo manejar el resultado exitoso** de una operación asíncrona. Cuando la promesa se resuelve, la función  `then()`  se ejecuta con el valor de la promesa, y **si devuelve otra promesa, el encadenamiento continúa con esa nueva promesa**.
     
 -   **`reject(error)`:**
@@ -2470,11 +2471,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTYwNjM2MSwtMTEwMDgzODA2MCwtOD
-gxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMTcyMzI4
-OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5Mz
-MsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDEx
-MDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywtNzAyND
-EzMjk4LC01ODg2MTg0ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0
-NjgsLTIzODQzMjkzNl19
+eyJoaXN0b3J5IjpbLTE0NzcxMTk4OTAsLTg2OTYwNjM2MSwtMT
+EwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5
+NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMz
+I5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0x
+MzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOT
+M3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEsLTIwNjQzMzU1
+OTcsLTE3NzMzODc0NjhdfQ==
 -->
