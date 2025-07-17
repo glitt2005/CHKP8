@@ -846,7 +846,7 @@ console.log(dorsal);   // Imprime: 10
 
 
 **OJO!!** Lo hemos mencionado, pero recalcamos que  **los nombres que ponemos para la extracción o deconstrucción deben coincidir exactamente con los nombres de las claves del objeto.** 
-En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último para poder **mapear a los atributos de la variable `jugador`**  **al deconstruir** debemos poner **estos mismos nombres con exactitud**, es decir,   `nombre`, `posición`y `dorsal`.
+En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último para poder **mapear a los atributos de la variable** `jugador`,  **al deconstruir** debemos pasar **estos mismos nombres con exactitud**, es decir,   `nombre`, `posición`y `dorsal`.
 
 
 <br>
@@ -2389,11 +2389,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDczODU2NiwtMjc1NjA5NjI0LDEwOT
-U3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgz
-OSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04Nj
-UyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0
-ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MD
-g0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4
-MjEzXX0=
+eyJoaXN0b3J5IjpbLTEzODEyNTI5NDcsLTI3NTYwOTYyNCwxMD
+k1NzI3NTUzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4
+MzksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtOD
+Y1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2
+NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNz
+A4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5
+ODIxM119
 -->
