@@ -2237,7 +2237,7 @@ y no en secuencia?<h3>
 <br>
 <br>
 
-###  1)  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
+###  1)  USO DE "CIERRES" O "CLOSURES" con <big>`async`</big> - <big>`await`</big>
 
 Los **cierres** o clausuras ("closures") en Javascript son **una herramienta poderosa** que, combinada con las funciones asíncronas, permite **mantener el estado y acceder a variables externas** en operaciones **asíncronas**.
 
@@ -2363,7 +2363,7 @@ Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado 
 
 <br>
 
-### 2)  <big>`async`</big> - <big>`await`</big> en comunicaciones API: bloque `try{}`- `catch()`
+### 2)  <big>`async`</big> - <big>`await`</big> EN COMUAPI: bloque `try{}`- `catch()`
 
  - [x] Capturaremos **2 URLs** (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el **bloque  `try` - `catch`** 
@@ -2455,7 +2455,7 @@ Una vez más, si ejecuto esto unas cuantas veces seguidas, **siempre** :
 
 <br>
 
-### 3)   Los bloques <big>`try()`</big> - <big>`catch()`</big> en comunicaciones API.
+### B)   Los bloques <big>`try()`</big> - <big>`catch()`</big> en comunicaciones API.
 
 Como ya hemos mencionado, si en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try{}`, el bloque de `catch()`lo ignoraría por completo.
 
@@ -2625,11 +2625,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MTkyMjcwLC02OTE4Njg3NzAsLTE2Mz
-cyMDMzNzQsNTI2MzM3MjMxLDEzMzg0NzAyMDEsNjcyNzQyNTcs
-LTkzMTIyNTUyMywxOTMxMzgwMDA5LC0xODg4NTA4NTEsNDY0Nj
-c1MDkwLC00MDg4NjE3MjUsLTczODM4MzY2MywyMDU4MjcxODgz
-LDIxMzYzNjA0MzMsMTY5NDA0MjUzMiwzNDMxOTQ0NTksMTEyOT
-U1MzI2MSwxMjA0OTA4MTMzLDIzMjY2NjMyNSwxNzcxNDczMDAx
-XX0=
+eyJoaXN0b3J5IjpbMTkzNzY2ODkxMSwtNjkxODY4NzcwLC0xNj
+M3MjAzMzc0LDUyNjMzNzIzMSwxMzM4NDcwMjAxLDY3Mjc0MjU3
+LC05MzEyMjU1MjMsMTkzMTM4MDAwOSwtMTg4ODUwODUxLDQ2ND
+Y3NTA5MCwtNDA4ODYxNzI1LC03MzgzODM2NjMsMjA1ODI3MTg4
+MywyMTM2MzYwNDMzLDE2OTQwNDI1MzIsMzQzMTk0NDU5LDExMj
+k1NTMyNjEsMTIwNDkwODEzMywyMzI2NjYzMjUsMTc3MTQ3MzAw
+MV19
 -->
