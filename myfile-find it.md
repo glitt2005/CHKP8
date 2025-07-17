@@ -898,7 +898,7 @@ La deconstrucción permite establecer valores por defecto para las variables, **
 #### EJEMPLOS
 
 
-a) EL VALOR QUE PASAMOS AL DECONSTRUIR **ES UTILIZADO**
+a) EL VALOR QUE PASAMOS AL DECONSTRUIR **ES UTILIZADO**-No existía valor declarado
 
 ```JavaScript
 const usuario = { nombre: 'Sammy' };
@@ -907,7 +907,10 @@ const { nombre, edad = 45 } = usuario;
 console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 45
 ```
-b) EL VALOR QUE PASAMOS AL DECONSTRUIR **ES IGNORADO**
+a) En este caso **la variable `usuario` NO CONTIENE** el par clave:valor correspondiente a la clave de `edad`, por lo que al deconstruir, podemos añadir el nombre de la edad a la variable y por tanto nuestro nuevo dato **es utilizado por defecto**.
+
+
+b) EL VALOR QUE PASAMOS AL DECONSTRUIR **ES IGNORADO**- Existía valor declarado
 
 ```JavaScript
 const usuario = { nombre: 'Sammy', edad: 10};
@@ -916,7 +919,7 @@ const { nombre, edad = 45 } = usuario;
 console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 10
 ```
-a) En este caso **la variable `usuario` NO CONTIENE** el par clave:valor correspondiente a la clave de `edad`, por lo que al deconstruir, podemos añadir el nombre de la edad a la variable y por tanto nuestro nuevo dato **es utilizado por defecto**.
+
 b) En este caso **la variable `usuario` YA CONTIENE** el valor de edad, con lo que  **ignora por completo la clave que pasamos al deconstruir**, ya que **sólo lo utilizará realmente en caso de no existir en la variable**.
 
 <br>
@@ -2389,11 +2392,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjQ3OTcyLC0yNzU2MDk2MjQsMTA5NT
-cyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5
-LDY1ODQzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NT
-IxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4
-NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3NjI2NDMyNzksMTcwOD
-QyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1NDgyLC0xODg4OTgy
-MTNdfQ==
+eyJoaXN0b3J5IjpbMTY2ODI1MDg2OSwtMjc1NjA5NjI0LDEwOT
+U3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgz
+OSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04Nj
+UyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0
+ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MD
+g0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4
+MjEzXX0=
 -->
