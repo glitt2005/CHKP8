@@ -855,7 +855,7 @@ En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero n
 ### 4. DESESTRUCTURACIÓN CON PARÁMETROS DE FUNCIONES:
 La desestructuración también se puede utilizar **al pasar argumentos a funciones.**
 
-
+<br>
 
 ####  Parámetros de funciones - EJEMPLO 1:
 
@@ -890,7 +890,7 @@ Por ello, necesitaremos poner unos **valores por defecto** para esos objetos.
 
 #### SINTAXIS:
 
-#####  EJEMPLO:  Imprimimos los días de la semana
+
 La **sintaxis** muy parecida a cómo utilizamos los argumentos por defecto en los tipos de valores de variable normales **cuando simplemente pasas un único elemento como argumento**. Pero ahora debemos integrar eso en un objeto.
 
 La desestructuración permite establecer valores por defecto para las variables, **en el eventual caso de que la propiedad o elemento del array  no exista.**
@@ -2389,11 +2389,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODEyNTI5NDcsLTI3NTYwOTYyNCwxMD
-k1NzI3NTUzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4
-MzksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtOD
-Y1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2
-NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNz
-A4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5
-ODIxM119
+eyJoaXN0b3J5IjpbMTk3MjU3NjY0NCwtMjc1NjA5NjI0LDEwOT
+U3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgz
+OSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04Nj
+UyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0
+ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MD
+g0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4
+MjEzXX0=
 -->
