@@ -1645,7 +1645,7 @@ EXPLICACIÓN:
 
 <br>
 
-### Secuencia del proceso de creación de una promesa con un ejemplo:
+### Secuencia del proceso de creación de una promesa,  a través de un EJEMPLO:
 
 
 ```JavaScript
@@ -2471,11 +2471,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDA3NDUyOSwtODY5NjA2MzYxLC0xMT
-AwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0
-ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMj
-ksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEz
-MDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUwMTA0MCwxODM5Mz
-czMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5
-NywtMTc3MzM4NzQ2OF19
+eyJoaXN0b3J5IjpbLTE1OTk2Mzg4MzgsLTg2OTYwNjM2MSwtMT
+EwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5
+NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMz
+I5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0x
+MzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOT
+M3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEsLTIwNjQzMzU1
+OTcsLTE3NzMzODc0NjhdfQ==
 -->
