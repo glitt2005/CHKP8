@@ -907,8 +907,9 @@ const { nombre, edad = 45 } = usuario;
 console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 45
 ```
-a) En este caso **la variable `usuario` NO CONTIENE** el par clave:valor correspondiente a la clave de `edad`, por lo que al deconstruir, podemos añadir el nombre de la edad a la variable y por tanto nuestro nuevo dato **es utilizado por defecto**.
+En este caso **la variable `usuario` NO CONTIENE** el par clave:valor correspondiente a la clave de `edad`, por lo que al deconstruir, podemos añadir el nombre de la edad a la variable y por tanto nuestro nuevo dato **es utilizado por defecto**.
 
+<br>
 
 b) EL VALOR QUE PASAMOS AL DECONSTRUIR **ES IGNORADO**- Existía valor declarado
 
@@ -920,7 +921,7 @@ console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 10
 ```
 
-b) En este caso **la variable `usuario` YA CONTIENE** el valor de edad, con lo que  **ignora por completo la clave que pasamos al deconstruir**, ya que **sólo lo utilizará realmente en caso de no existir en la variable**.
+En este caso **la variable `usuario` YA CONTIENE** el valor de edad, con lo que  **ignora por completo la clave que pasamos al deconstruir**, ya que **sólo lo utilizará realmente en caso de no existir en la variable**.
 
 <br>
 
@@ -2392,11 +2393,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODI1MDg2OSwtMjc1NjA5NjI0LDEwOT
-U3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgz
-OSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04Nj
-UyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0
-ODYsMTk2MjA3ODA5MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MD
-g0MjU3NDgsMTA1MDU5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4
-MjEzXX0=
+eyJoaXN0b3J5IjpbOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NT
+cyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5
+LDY1ODQzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NT
+IxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4
+NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3NjI2NDMyNzksMTcwOD
+QyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1NDgyLC0xODg4OTgy
+MTNdfQ==
 -->
