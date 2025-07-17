@@ -760,7 +760,9 @@ Una de los procesos más comunes que te encuentras cuando estás implementando, 
 
 ### 2. DECONSTRUCCIÓN DE ARRAYS:
 
-La desestructuración de arrays o arreglos permite extraer elementos específicos de un arreglo y asignarlos a variables, **utilizando la posición de los elementos dentro del arreglo.** Aquí **las dos comas extras (,) sustituyen** cada una de ellas a **un elemento del array siguiendo el orden**:
+La desestructuración de arrays o arreglos permite extraer elementos específicos de un array y asignarlos a variables, utilizando **la posición de los elementos dentro del array.**
+
+En el siguiente ejemplo, **las dos comas extras (,) sustituyen** cada una de ellas a *un elemento del array siguiendo el orden:
 
 #### Arrays - EJEMPLO 1
 
@@ -2384,11 +2386,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY3MDYzMDIsMzE4NTY0MDQ4LC05MD
-QxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYw
-MywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMT
-M5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5MSwxNDA2NjMz
-OTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MDU5MTYwMCwtMj
-A0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2MTMsMzg3MTQz
-NDE4XX0=
+eyJoaXN0b3J5IjpbMTU3MzU2NzE0MSwzMTg1NjQwNDgsLTkwND
+EzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAz
+LC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
+kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
+MCw3NjI2NDMyNzksMTcwODQyNTc0OCwxMDUwNTkxNjAwLC0yMD
+Q2NzI1NDgyLC0xODg4OTgyMTMsLTQwNzE0MDYxMywzODcxNDM0
+MThdfQ==
 -->
