@@ -2237,15 +2237,15 @@ Explicado de una forma sencilla, el cierre es una función **que puede ser anida
 - En cierres o clausuras, “mantener el estado” significa que una función puede **acceder a variables que estén declaradas en un ámbito superior (es decir, fuera de la función misma).** 
 	- Estas variables **“existen” en la memoria** incluso **después** de que la función que las creó **ha terminado de ejecutarse**,
 	-  y pueden ser **accedidas por otras funciones que estén dentro del mismo ámbito o que tengan acceso a ellas a través de referencias.**
- - Es decir, en el contexto de `async` - `await`, los cierres pueden ser utilizados para mantener el estado de las variables dentro de las funciones asíncronas, permitiendo que las funciones await accedan a ellas.
+ - Es decir, en el contexto de `async` - `await`, los cierres pueden ser utilizados para **mantener el estado de las variables dentro de las funciones asíncronas**, permitiendo que las funciones `await` accedan a ellas.
 
 
+<br>
 
-
-VENTAJAS:
+**VENTAJAS:**
 -	Legibilidad
 -	Gestión del Código
-
+<br>
 #### EJEMPLO:
 ```js
 const login = () => {
@@ -2522,11 +2522,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTYzMzc0NzEsLTUwODI1NjQwMSwxMj
-k4MzM1NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3
-NTYsMTcwMDQxMDk2MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC
-0xMTM4MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0
-NTczNjM2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOT
-M5NSwyNDU2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEw
-MDgzODA2MF19
+eyJoaXN0b3J5IjpbMTQzOTAzNTUwNSwtMjA1NjMzNzQ3MSwtNT
+A4MjU2NDAxLDEyOTgzMzU2MTMsLTE0NDc0NjQ3NDIsNzI3MTQx
+MTkwLDc4OTEwNDc1NiwxNzAwNDEwOTYwLDE4MzgyMjc4NTIsLT
+E4OTQzMzM5MDQsLTExMzgwMzkyNDQsLTY5NTI2NzA3LDIwNTI1
+OTY5OTMsLTIwNDQ1NzM2MzYsLTUxMjg1OTExOCwtNTk5ODI1Nz
+UyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtODY5
+NjA2MzYxXX0=
 -->
