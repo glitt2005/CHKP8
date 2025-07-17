@@ -1048,11 +1048,11 @@ El método  `slice()`  en JavaScript se utiliza para extraer una porción de una
 
 ```JavaScript
 const numbers = [1,2,3,4];
-const updatedNumbers = numbers;
+const updatedNumbers = numbers.slice();
 
 updatedNumbers.push(5);
 
-console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
+console.log(numbers); //imprime  [ 1, 2, 3, 4]
 console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
 <br>
@@ -2422,11 +2422,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMzODc0NjgsLTIzODQzMjkzNiwtMT
-M4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2
-NTU3LC0xOTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LD
-EwOTU3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMw
-OTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC
-04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4
-MTY0ODZdfQ==
+eyJoaXN0b3J5IjpbLTE1MzQzMTkzMDQsLTE3NzMzODc0NjgsLT
+IzODQzMjkzNiwtMTM4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4
+NzI1MSwxNjk3MTI2NTU3LC0xOTI2MTk2OTc0LDkxMDQxMTc5OC
+wtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMzE4NTY0MDQ4LC05MDQx
+MzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYwMy
+wtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MTk3MzkzOCwtMTM5
+MTk2Mzg1Ml19
 -->
