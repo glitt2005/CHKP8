@@ -2516,7 +2516,9 @@ queryApis();
 ```
 - Retorna **los datos del primer bloque de  `try{}`**
 -  Y  también retorna ***typeError: Failed to fetch.***  Pero **no da ninguna información** respecto **a cuál de las promesas ha fallado exactamente** . Aquí obviamente lo sabríamos por descarate, pero si tuvieramos muchas promesas, no sabríamos cuál falla.
+
 <br>
+
 #### EJEMPLO  D  -   ENVOLVIENDO PROMESAS con los bloques <big>`try`</big> - <big>`catch` </big>, <br> falta la letra "s" en el *https* de la primera promesa
 
 1.- Envolveremos cada promesa con un bloque  **`try` - `catch` de forma individual**
@@ -2625,11 +2627,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1NTY1MzMsLTY5MTg2ODc3MCwtMTYzNz
-IwMzM3NCw1MjYzMzcyMzEsMTMzODQ3MDIwMSw2NzI3NDI1Nywt
-OTMxMjI1NTIzLDE5MzEzODAwMDksLTE4ODg1MDg1MSw0NjQ2Nz
-UwOTAsLTQwODg2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMs
-MjEzNjM2MDQzMywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NT
-UzMjYxLDEyMDQ5MDgxMzMsMjMyNjY2MzI1LDE3NzE0NzMwMDFd
-fQ==
+eyJoaXN0b3J5IjpbLTIwNDM1MDAwNzksMzY1NTY1MzMsLTY5MT
+g2ODc3MCwtMTYzNzIwMzM3NCw1MjYzMzcyMzEsMTMzODQ3MDIw
+MSw2NzI3NDI1NywtOTMxMjI1NTIzLDE5MzEzODAwMDksLTE4OD
+g1MDg1MSw0NjQ2NzUwOTAsLTQwODg2MTcyNSwtNzM4MzgzNjYz
+LDIwNTgyNzE4ODMsMjEzNjM2MDQzMywxNjk0MDQyNTMyLDM0Mz
+E5NDQ1OSwxMTI5NTUzMjYxLDEyMDQ5MDgxMzMsMjMyNjY2MzI1
+XX0=
 -->
