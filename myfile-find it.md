@@ -1681,7 +1681,7 @@ sleepyGreeting
 						-		*retraso o "delay"*:&nbsp; &nbsp; **el tiempo de espera en milisegundos** (2 segundos en este caso).
 			
 
-6.	Finalmente, **llamamos a la función.** Por CONVENCIÓN COMÚN, utilizamos la sintaxis de:
+6.	Finalmente, **llamamos a la función.** Por CONVENCIÓN COMÚN, lo hacemos con la sintaxis de:
 
 
 
@@ -2473,11 +2473,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDkwMTk5OSwtMTEzNjIyNjcsLTg2OT
-YwNjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIy
-MDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MS
-wxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3
-ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MD
-EwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEs
-LTIwNjQzMzU1OTddfQ==
+eyJoaXN0b3J5IjpbNjQyMDM0MDU1LC0xMTM2MjI2NywtODY5Nj
+A2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIw
+MjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLD
+ExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4
+MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUwMT
+A0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwt
+MjA2NDMzNTU5N119
 -->
