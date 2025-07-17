@@ -821,6 +821,8 @@ const { nombre: nombrePersona, edad: edadPersona } = persona;
 console.log(nombrePersona); // Output: Sammy
 console.log(edadPersona);   // Output: 45
 ```
+<br>
+
 ####   Objetos - EJEMPLO 2:
 
 
@@ -843,8 +845,7 @@ console.log(dorsal);   // Imprime: 10
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
 
-
-**Los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** 
+OJO!! Lo hemos mencionado, pero recalcamos que  **los nombres de los argumentos, deben coincidir exactamente con los nombres de las claves del objeto.** 
 En general, si ponemos otros nombres a los argumentos sí funcionaría, **pero no en deconstrucción**. En este último ejemplo, para que  `nombre`, `posición`y `dorsal`    se mapeen a los atributos de la variable `jugador` **las claves que pasamos, deben  tener exactamente el mismo nombre que las claves de la variable** a la que mapean . 
 
 
@@ -2388,7 +2389,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY2MTI2MTgwLDEwOTU3Mjc1NTMsMzE4NT
+eyJoaXN0b3J5IjpbNTk2NDM5ODAzLDEwOTU3Mjc1NTMsMzE4NT
 Y0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMs
 MTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MT
 k3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5
