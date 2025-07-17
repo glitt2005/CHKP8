@@ -2549,11 +2549,52 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 # B) EJERCICIOS PRÁCTICOS CHECKPOINT 8
 
+```js
+/*  EJERCICIO 1
+ Cree un bucle for en JS que imprima cada nombre en esta lista.
+ miLista = “velma”, “exploradora”, “jane”, “john”, “harry”
+ */
+
+ const miLista = [
+   "velma",
+   "exploradora",
+   "jane",
+   "john",
+   "harry"]; 
+
+miLista.forEach((elemento) => {
+  console.log(elemento);
+  });
+
+
+/*  EJERCICIO 2
+
+Cree un bucle while que recorra la misma lista 
+y también imprima los nombres. 
+Nota: Recuerda crear un contador para que el ciclo no sea infinito.
+*/
+
+
+var miDiario = ["lunes","martes","miércoles", "jueves", "sabado", "domingo"];
+
+var item = 0;
+while (item < miDiario.length) {
+  console.log(miDiario[item]); item++;
+}
+
+
+/*  EJERCICIO 3
+Cree una función de flecha que devuelva "Hola mundo".
+*/
+
+holaMundo = () => {console.log("Hola mundo")};
+holaMundo();
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3MzM4OTI4NiwxMTcyMzc0ODQ5LC0xNT
+eyJoaXN0b3J5IjpbMTgwNjEwOTU2NCwxMTcyMzc0ODQ5LC0xNT
 Q2MDI3NDAwLC0yMDc0NjI3NjY3LDk0ODUzNTkyMiwtMTA0NTA3
 NzgwMCwtNTkzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MD
 EsMTI5ODMzNTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5
