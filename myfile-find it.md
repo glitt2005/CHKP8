@@ -2331,7 +2331,7 @@ Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado 
 
 <br>
 
-### 3.2  <big>`async`</big> - <big>`await`</big> en comunicaciones API.
+### 3.2  <big>`async`</big> - <big>`await`</big> en comunicaciones API: bloque `try{}`- `catch()`
 
  - [x] Capturaremos 2 URLs (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el bloque  `try` - `catch` 
@@ -2529,11 +2529,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDUwNzc4MDAsLTU5MzUxNTc3NiwtMj
-A1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2MTMsLTE0NDc0
-NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNzAwNDEwOTYwLD
-E4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTExMzgwMzkyNDQsLTY5
-NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2MzYsLTUxMjg1OT
-ExOCwtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC0x
-MTM2MjI2N119
+eyJoaXN0b3J5IjpbNjc3OTY0MDU4LC0xMDQ1MDc3ODAwLC01OT
+M1MTU3NzYsLTIwNTYzMzc0NzEsLTUwODI1NjQwMSwxMjk4MzM1
+NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMT
+cwMDQxMDk2MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4
+MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0NTczNj
+M2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwy
+NDU2NDE1MF19
 -->
