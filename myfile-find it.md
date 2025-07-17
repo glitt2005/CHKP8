@@ -2066,11 +2066,11 @@ console.log("La ejecución continúa..."); // Se imprime ANTES
 - Tenías que **codificar cada posible proceso que piensas que pudiera ocurrir** para asegurarte de que no ocurriera demasiado temprano o en un orden que no interese. **Debías tener muy claro la secuencia específica, y codificar eso**.
 
 
-Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, no hizo sino añadir más hándicaps a las callback: 
+Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, lo cual no hizo sino añadir **más hándicaps** a las ***callback***: 
 
--   **Callback hell (infierno de callbacks):** Los numerosos anidamientos de ***callbacks*** hicieron que el código pudiera volverse **difícil de leer y mantener**.
--   **Dificultad para depurar:** En situaciones complejas, **puede ser complicado rastrear el flujo de ejecución**, era todo un reto el discernir qué debía ocurrir en cada momento, cuando se utilizan muchos callbacks.
--   **Pérdida de contexto:** El contexto  `this`  dentro de un callback puede no ser el esperado.
+-   **Callback hell (infierno de callbacks):** Los numerosos anidamientos de ***callbacks*** hicieron que el código pudiera volverse **muy difícil de leer y mantener**.
+-   **Dificultad para depurar:** En situaciones complejas, **puede ser complicado rastrear el flujo de ejecución**, era todo **un reto** el discernir qué debía ocurrir en cada momento, cuando se utilizan muchos callbacks.
+-   **Pérdida de contexto:** El contexto  `this`  dentro de un callback puede **no ser el esperado**.
 
 <br>
  
@@ -2489,11 +2489,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2NTUwNDI3LC0xNTY0NjE5Mzk1LDI0NT
-Y0MTUwLC0xMTM2MjI2NywtODY5NjA2MzYxLC0xMTAwODM4MDYw
-LC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNz
-IzMjg5MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5
-NDkzMywtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2OD
-UsMTEwMzAwNzI1MiwtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03
-MDI0MTMyOThdfQ==
+eyJoaXN0b3J5IjpbLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwyND
+U2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEwMDgzODA2
+MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMT
+cyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2
+OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Nj
+g1LDExMDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywt
+NzAyNDEzMjk4XX0=
 -->
