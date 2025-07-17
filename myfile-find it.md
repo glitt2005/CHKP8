@@ -1609,16 +1609,12 @@ const promesa = new Promise((resolve, reject) => {
 
 });
 ```
-#### BUENA PRÁCTICA:
+#### BUENA PRÁCTICA
 
-Una buena práctica es añadir la palabra **Promise** **al nombre de la variable**, para identificar el propósito en futuros accesos al programa. Al ser así de **descriptivo**, facilitará cualquier interpretación y/o modificación del mismo: por ejemplos **`postsPromise = fetch( "https:// aaa.bbbbbbb.com/posts")`**  si tratamos de obtener las publicaciones o "***posts***" de una página web (p.ej. *Twitter*).
+Una buena práctica es añadir la palabra **"Promise"** **al nombre de la variable**, para identificar el propósito en futuros accesos al programa. Al ser así de **descriptivo**, facilitará cualquier interpretación y/o modificación del mismo: por ejemplo **`postsPromise = fetch("https:// aaa.bbbbbbb.com/posts")`**  si tratamos de obtener las publicaciones o "***posts***" de una página web (p.ej. *Twitter*).
 
 
 ### Proceso básico promesa
-
-
-
-
 <div align="center">
 <img src="basicoPromesa.png"  width = "55%" alt="proceso básico promesa">
 </div>
@@ -2474,7 +2470,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTk1NjA2MCwtMTEwMDgzODA2MCwtOD
+eyJoaXN0b3J5IjpbMTExMjA3NjMyNywtMTEwMDgzODA2MCwtOD
 gxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMTcyMzI4
 OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5Mz
 MsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDEx
