@@ -1578,18 +1578,21 @@ Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de 
 - Efectivamente, algo muy a favor de **Javascript** es que **trabaja directamente con la experiencia del usuario**. No sería deseable que el usuario se quede esperando durante un tiempo hasta que finalmente los datos se carguen.
 
 - **La naturaleza de JavaScript es la comunicación con servicios externos**, como bases de datos, **APIs backend** ( l*as ***APIs backend*** se ejecutan en el servidor y gestionan la aplicación y la interacción con la base de datos; en esencia, son el motor que impulsa la funcionalidad visible en el frontend* ) o cualquier otro servicio fuera de la aplicación, **como las diferentes plataformas** de JavaScript  ***React, Angular y Vue***; JavaScript **recibe los datos como resultado de esta comunicación con dichos servicios externos.**
-- La utilización de herramientas como las **promesas** son el pilar central de podamos confiar en que el proceso se desarrollará tan fluidamente como sea posible.
+- La utilización de herramientas como las **promesas** son el pilar central de **podamos confiar** en que el proceso se desarrollará **tan fluidamente como sea posible**.
+<br>
 
-CONVENCIÓN COMÚN:	
+#### CONVENCIÓN COMÚN:	
+
 Los argumentos de la función `Promise()` son `resolve` y `reject`.  Antes era `success` y  `failure`, pero ahora lo más extendido son los primeros.
-
+<br>
 Una **promesa** o bien:
-- funciona y **resuelve** ese código. Por ejemplo, algún tipo de respuesta con éxito -si nos comunicamos con una API, nos devolverá los datos de esa API y podremos manejarlos; o
-- no funciona y por lo tanto devuelve algún tipo de **error**. 
+- funciona y **resuelve** ese código. Por ejemplo, algún tipo de respuesta con **éxito** -si nos comunicamos con una API, nos devolverá los datos de esa API y podremos manejarlos; o
+- **no funciona** y por lo tanto devuelve algún tipo de **error**. 
 
 
 ### Proceso de codificación de las promesas
-- En general, con las **funciones, clases**, etc **no dedicamos** mucho **tiempo** pensando en las **eventualidades** negativas de que ocurriera **errores**
+- En general, con las **funciones, clases**, etc **no dedicamos** mucho **tiempo** pensando en las **eventualidades** negativas de que ocurriera **errores**.
+- 
 - Sin embargo una **promesae** te obliga a crear un sistema entero dividido prácticamente **50/50** :
 	-	**50%** del tiempo lo dedicamos a codificar sobre situaciones en las que el proceso **se resuelve con éxito**
 	-	y el otro **50%** lo pasamos creando los tipos de proceso que ocurrirán **si se produce un error.**
@@ -2469,11 +2472,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1NDcwNDMyLC0xMTAwODM4MDYwLC04OD
-E4Mjk3NDMsLTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5
-MDAwLC0xMjAzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMy
-wtNzE1NTc0OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUsMTEw
-MzAwNzI1MiwtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0MT
-MyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4NzQ2
-OCwtMjM4NDMyOTM2XX0=
+eyJoaXN0b3J5IjpbMTUxNjc2NDU0NywtMTEwMDgzODA2MCwtOD
+gxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMTcyMzI4
+OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5Mz
+MsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDEx
+MDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywtNzAyND
+EzMjk4LC01ODg2MTg0ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0
+NjgsLTIzODQzMjkzNl19
 -->
