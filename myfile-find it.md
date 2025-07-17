@@ -1088,11 +1088,11 @@ Se ven los dos tipos
 ###  ¿ Forma a)-tradicional  o  Forma b)-moderna ?
 
 
-Se ven  **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
+- Se ven  **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
 
-Pero en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de extensión**.  
+- Sin embargo, en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de extensión**.  
 
-Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más el último.** No obstante es importante **conocer los dos y tener ambas posibilidades**.
+ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más la última forma más moderna.** No obstante es importante **conocer los dos y tener ambas posibilidades**.
 
 -----
 
@@ -2431,11 +2431,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMT
-c3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYx
-MTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5Nz
-QsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1
-NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMy
-wxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgx
-OTczOTM4XX0=
+eyJoaXN0b3J5IjpbNjUxOTQ0OTA2LC01ODg2MTg0ODEsLTIwNj
+QzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQzMjkzNiwtMTM4NTc4
+MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC
+0xOTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3
+Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOS
+w2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUy
+MTA2OTVdfQ==
 -->
