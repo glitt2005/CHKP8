@@ -1096,17 +1096,6 @@ Vemos que **cambia las dos variables**.
 
 Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más la última forma más moderna.** No obstante es importante conocer los dos y tener ambas posibilidades.
 <br>
-<img src="interrogacion.png" align="left" width="90">   <big><br>¿Forma a)  - tradicional o <br> Forma b) moderna?</big>
-
-<br>
-<br>
-<br
-Se ven los dos tipos
-
-
-
-
-
 <br>
 
 
@@ -2609,11 +2598,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjYzNTU0MCwyMDMzODgyNzY3LDIwNj
-UxNTAxNDYsNDA3NjA4MjY2LC0yMDI1MzI4ODMsLTI1MjUyNjI3
-OSwtOTk1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYyNzksMz
-M3MzAzMTU3LDg5Njg3Njg0NCw1NTY4NjU5MDQsMzA3ODA3Njc4
-LDE4MDYxMDk1NjQsMTE3MjM3NDg0OSwtMTU0NjAyNzQwMCwtMj
-A3NDYyNzY2Nyw5NDg1MzU5MjIsLTEwNDUwNzc4MDAsLTU5MzUx
-NTc3Nl19
+eyJoaXN0b3J5IjpbLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMz
+M4ODI3NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4
+MywtMjUyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0OTgsLT
+I1MjUyNjI3OSwzMzczMDMxNTcsODk2ODc2ODQ0LDU1Njg2NTkw
+NCwzMDc4MDc2NzgsMTgwNjEwOTU2NCwxMTcyMzc0ODQ5LC0xNT
+Q2MDI3NDAwLC0yMDc0NjI3NjY3LDk0ODUzNTkyMiwtMTA0NTA3
+NzgwMF19
 -->
