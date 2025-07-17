@@ -1299,14 +1299,16 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 - Cada vez que se crea una clase, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
 - **No siempre están** en todas las clases, pero muy habitualmente sí
 - Tareas: **fijar** valores, **llamar** a otras funciones, etc.
-- **El constructor define el método que se ejecuta al crear una nueva instancia de la clase**. 
+- El constructor **define el método** que se ejecuta **al crear** una nueva **instancia** de la clase. 
  - Una **clase** en sí **no ejecuta nada** (son como hemos dicho un conjunto de reglas y pautas para la ejecución)
  -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto** (lo haremos con la palabra clave **`new`** ).
- - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**.  
+.  
 <br>
 #### EJEMPLO DE CLASE E INSTANCIA:
+
+ - Haremos uso de la  **deconstrucción** (anteriormente explicada), y pasaremos un nombre, o sea, `name`, **como objeto**
 <div align="center">
-<img src="claseConstructor.png" width="65%" Alt="clase e instancia">
+<img src="claseConstructor.png" width="85%" Alt="clase e instancia">
 </div>
 
 -	El hecho de crear una **instancia** nos dirige automáticamente **al `constructor`.**
@@ -2441,11 +2443,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjY3MjkzMiwxODM5MzczMDAzLC03MD
-I0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4
-NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3Nz
-AsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEw
-NDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1MywzMTg1NjQwND
-gsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTky
-MjkwNjAzXX0=
+eyJoaXN0b3J5IjpbLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywtNz
+AyNDEzMjk4LC01ODg2MTg0ODEsLTIwNjQzMzU1OTcsLTE3NzMz
+ODc0NjgsLTIzODQzMjkzNiwtMTM4NTc4MzA1MiwtODY2MTE4Nz
+cwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC0xOTI2MTk2OTc0LDkx
+MDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMzE4NTY0MD
+Q4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5
+MjI5MDYwM119
 -->
