@@ -1766,7 +1766,10 @@ fetch('<Tu URL>', {})
 
 -  **`fetch()`  devuelve una promesa** que se resuelve al objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta. Es decir, representa la respuesta a la solicitud realizada.  Y dado que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**
 <br>
-- CONVENCIÓN COMÚN:    La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:  `response`   y   `data`.
+- CONVENCIÓN COMÚN:    La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:  
+- `Response`, 
+- `Response`, 
+- `response`   y   `data`.
 	
 - 	Si la solicitud devuelve un error, se ejecutará **el método  `catch()`**:  éste  se puede omitir en Fetch API.  
 **Se usa solo** cuando `fetch()` no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
@@ -2614,11 +2617,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY0Njc1MDkwLC00MDg4NjE3MjUsLTczOD
-M4MzY2MywyMDU4MjcxODgzLDIxMzYzNjA0MzMsMTY5NDA0MjUz
-MiwzNDMxOTQ0NTksMTEyOTU1MzI2MSwxMjA0OTA4MTMzLDIzMj
-Y2NjMyNSwxNzcxNDczMDAxLDk2NzU2NjUsODE1ODM0MTc3LDIx
-MzU5MjkzNzksNTM4Mjc1OTU2LC0yMDU5NDA3MTI4LC0zMzQ5ND
-AxMjAsLTQ2NjYzNTU0MCwyMDMzODgyNzY3LDIwNjUxNTAxNDZd
+eyJoaXN0b3J5IjpbLTE4ODg1MDg1MSw0NjQ2NzUwOTAsLTQwOD
+g2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNjM2MDQz
+MywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYxLDEyMD
+Q5MDgxMzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NTY2NSw4
+MTU4MzQxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTYsLTIwNTk0MD
+cxMjgsLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4ODI3Njdd
 fQ==
 -->
