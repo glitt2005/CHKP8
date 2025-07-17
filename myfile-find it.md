@@ -2073,8 +2073,13 @@ Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, lo 
 -   **Pérdida de contexto:** El contexto  `this`  dentro de un callback puede **no ser el esperado**.
 
 <br>
- 
-¿Y cómo solucionó esto JavaScript?  Con las **promises** o **promesas**.
+ <br>
+<img src="interrogacion.png" align="left" width="90">   ¿Y  CÓMO SOLUCIONÓ JAVASCRIPT ESTE GRAN PROBLEMA?
+
+
+
+<br>
+ Precisamente con  las **promises** o **promesas**.
 
 <br>
 
@@ -2489,11 +2494,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwyND
-U2NDE1MCwtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEwMDgzODA2
-MCwtODgxODI5NzQzLC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMT
-cyMzI4OTAwMCwtMTIwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2
-OTQ5MzMsLTcxNTU3NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Nj
-g1LDExMDMwMDcyNTIsLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywt
-NzAyNDEzMjk4XX0=
+eyJoaXN0b3J5IjpbMTQxNzExMzY2OCwtNTk5ODI1NzUyLC0xNT
+Y0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtODY5NjA2MzYx
+LC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMT
+Y2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLDExODAz
+NTIzMjksMjAwNzY5NDkzMywtNzE1NTc0OTIxLDE5MDc4MDgwMz
+AsLTEzMDMwNzk2ODUsMTEwMzAwNzI1MiwtMTQ3ODUwMTA0MCwx
+ODM5MzczMDAzXX0=
 -->
