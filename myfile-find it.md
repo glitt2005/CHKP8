@@ -2079,7 +2079,7 @@ Llegó lo que se hizo famoso como **callback hell** o infierno de callbacks, lo 
 
 
 <br>
- Precisamente con  las **promises** o **promesas**.
+ Precisamente con  las **promises** o **promesas** que acabamos de explicar en el capítulo anterior.
 
 <br>
 
@@ -2494,7 +2494,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzExMzY2OCwtNTk5ODI1NzUyLC0xNT
+eyJoaXN0b3J5IjpbLTUxMjg1OTExOCwtNTk5ODI1NzUyLC0xNT
 Y0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2MjI2NywtODY5NjA2MzYx
 LC0xMTAwODM4MDYwLC04ODE4Mjk3NDMsLTEyNjkzMjIwMjEsMT
 Y2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMjAzNDM3MzcxLDExODAz
