@@ -1230,8 +1230,8 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 
 
 <div style="display: flex;">  
-<img src="planoCasa.png" width="50%"  Alt="plano de una Casa" style="float: left; margin-left: 20px;">  
- <img src="casaEstruct.png" width="30%" Alt="estructura de una Casa" style="float: right;">  
+<img src="planoCasa.png" width="58%"  Alt="plano de una Casa" style="float: left; margin-left: 20px;">  
+ <img src="casaEstruct.png" width="35%" Alt="estructura de una Casa" style="float: right;">  
 </div>
 
 
@@ -2435,11 +2435,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0yMD
-Y0MzM1NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3
-ODMwNTIsLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5NzEyNjU1Ny
-wtMTkyNjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYyNCwxMDk1
-NzI3NTUzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4Mz
-ksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtODY1
-MjEwNjk1XX0=
+eyJoaXN0b3J5IjpbMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01OD
+g2MTg0ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQz
+MjkzNiwtMTM4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MS
+wxNjk3MTI2NTU3LC0xOTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1
+NjA5NjI0LDEwOTU3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMj
+EsMTI3MjMwOTgzOSw2NTg0MzMyMzMsMTE5MjI5MDYwMywtOTU3
+MTUzNjc0XX0=
 -->
