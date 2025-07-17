@@ -1317,7 +1317,8 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 -	Al acceder a **`name`** mediante **`this.name` estamos añadiendo el atributo `name`** a **`this.name`**.
 
 -	Los colores aquí muestran perfectamente que son cosas diferentes:
-	-	 los dos <font color = blue> **`name` en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  **<font color = darkred>  `name` en color rojo**</font> en `this.name` hace referencia **a una instancia de la clase `Instructor`,** precisamente la instancia que hemos creado asignándola a la variable `jon`.  En esta instancia en específico, le decimos que **almacene cualquier `name`** (`this.name = name`) **que sea pasado como parámetro con este objeto.**
+	-	 los dos <font color = blue> **`name` en color azul** </font>hacen referencia al **mismo elemento dentro del objeto**, pero el siguiente  **<font color = darkred>  `name` en color rojo**</font> en `this.name` hace referencia **a una instancia de la clase `Instructor`,** precisamente la instancia que hemos creado asignándola a la variable `jon`.  
+	-	En esta instancia en específico, le decimos que **almacene cualquier `name`** (`this.name = name`) **que sea pasado como parámetro con este objeto.**
 
 
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
@@ -2444,11 +2445,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODk4MDQ3OTksLTE0Nzg1MDEwNDAsMT
-gzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEsLTIwNjQz
-MzU1OTcsLTE3NzMzODc0NjgsLTIzODQzMjkzNiwtMTM4NTc4Mz
-A1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC0x
-OTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mj
-c1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2
-NTg0MzMyMzNdfQ==
+eyJoaXN0b3J5IjpbNzQ0OTA4NDcwLC0xNDc4NTAxMDQwLDE4Mz
+kzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1
+NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3ODMwNT
+IsLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5NzEyNjU1NywtMTky
+NjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NT
+UzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4
+NDMzMjMzXX0=
 -->
