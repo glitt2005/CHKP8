@@ -450,7 +450,7 @@ EN RESUMEN:
 
 | Variable | Propósito |
 | --- | --- |
-| **`var`** | sólo situaciones donde necesitas un alcance de función específico (o para funciones de práctica y aprendizaje de codificación.Evitar el uso de  **`var`** debido a sus problemas de ámbito y *hoisting*|
+| **`var`** | **solo** situaciones donde necesitas un **alcance de función específico** (o para funciones de práctica y aprendizaje de codificación). **Evitar el uso de  **`var`**** debido a sus problemas de ámbito y *hoisting*|
 | **`let`**  | para variables que puedan ser reasignadas |
 | **`const`** | Spara declarar variables que no van a cambiar su valor a lo largo del programa |
 
@@ -2378,11 +2378,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1OD
-QzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5
-NSwxNjgxOTczOTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOT
-YyMDc4MDkxLDE0MDY2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0
-OCwxMDUwNTkxNjAwLC0yMDQ2NzI1NDgyLC0xODg4OTgyMTMsLT
-QwNzE0MDYxMywzODcxNDM0MTgsLTE1MjM3OTgxOTUsMjk2NzU3
-NzBdfQ==
+eyJoaXN0b3J5IjpbLTI0NTE0ODg3MCwtOTA0MTMyMjIxLDEyNz
+IzMDk4MzksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3
+NCwtODY1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4NTIsOD
+g0ODE2NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2MjY0MzI3
+OSwxNzA4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0ODIsLT
+E4ODg5ODIxMywtNDA3MTQwNjEzLDM4NzE0MzQxOCwtMTUyMzc5
+ODE5NV19
 -->
