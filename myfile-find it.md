@@ -2363,7 +2363,7 @@ Imprimiría **exactamente igual** que el ejemplo anterior. Solo se han cambiado 
 
 <br>
 
-## 3.2  <big>`async`</big> - <big>`await`</big> en comunicaciones API: bloque `try{}`- `catch()`
+### 2)  <big>`async`</big> - <big>`await`</big> en comunicaciones API: bloque `try{}`- `catch()`
 
  - [x] Capturaremos **2 URLs** (endpoints APIs) utilizando el async y await.
  - [x] Utilizaremos el **bloque  `try` - `catch`** 
@@ -2455,7 +2455,7 @@ Una vez más, si ejecuto esto unas cuantas veces seguidas, **siempre** :
 
 <br>
 
-### 2)   Los bloques <big>`try()`</big> - <big>`catch()`</big> en comunicaciones API.
+### 3)   Los bloques <big>`try()`</big> - <big>`catch()`</big> en comunicaciones API.
 
 Como ya hemos mencionado, si en el ejemplo anterior funcionara todo perfectamente, ejecutaría el bloque `try{}`, el bloque de `catch()`lo ignoraría por completo.
 
@@ -2562,7 +2562,7 @@ queryApis();
 <br>
 <img src="interrogacion.png" align="left" width="90">  
 
-### ¿CUÁNDO  ENVOLVER LAS PROMESAS CON BLOQUES `try{}` - `catch()` DE FORMA INDIVIDUAL <br>Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE `try{}` - `catch()`?
+#### ¿CUÁNDO  ENVOLVER LAS PROMESAS CON BLOQUES `try{}` - `catch()` DE FORMA INDIVIDUAL <br>Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE `try{}` - `catch()`?
 
 
 <br>
@@ -2625,7 +2625,7 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTU0MTI3NSwtMTYzNzIwMzM3NCw1Mj
+eyJoaXN0b3J5IjpbLTY5MTg2ODc3MCwtMTYzNzIwMzM3NCw1Mj
 YzMzcyMzEsMTMzODQ3MDIwMSw2NzI3NDI1NywtOTMxMjI1NTIz
 LDE5MzEzODAwMDksLTE4ODg1MDg1MSw0NjQ2NzUwOTAsLTQwOD
 g2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNjM2MDQz
