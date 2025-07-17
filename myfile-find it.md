@@ -1079,18 +1079,18 @@ console.log(updatedNumbers); //imprime [ 1, 2, 3, 4, 5 ]
 
 <br>
 <img src="interrogacion.png" align="left" width="90"> <h3>  ¿Forma a) - tradicional<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o<br> Forma b) - moderna?<h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o<br> Forma b) moderna?<h3>
 <br>
 <br>
 <br>
 
+Se ven los dos tipos
 
-El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama **sin argumentos** toma todos los elementos del array, o sea, **crea una copia de todos los elementos del array original**. 
+- Se ven  **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
 
- Se ven **los dos tipos** de comportamientos en las aplicaciones reales, ya que los desarrolladores han aplicado ambos durante muchos años: el método **`slice()`** ha estado siempre **muy extendido**. 
--  Sin embargo, en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de extensión**.
+- Sin embargo, en los últimos años, y si miramos en las aplicaciones creadas en **Angular**, o **View**, se aprecia **cada vez con más frecuencia la predominancia del operador de extensión**.  
 
-Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más la última forma más moderna.** No obstante es importante conocer los dos y tener ambas posibilidades.
+ Ambos funcionan de igual manera, pero quizá la **tendencia es a usar más la última forma más moderna.** No obstante es importante conocer los dos y tener ambas posibilidades.
 
 <br>
 
@@ -2594,11 +2594,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTI5MjMzNCwtMTUwNzAxMTQ5OCwtMj
-UyNTI2Mjc5LDMzNzMwMzE1Nyw4OTY4NzY4NDQsNTU2ODY1OTA0
-LDMwNzgwNzY3OCwxODA2MTA5NTY0LDExNzIzNzQ4NDksLTE1ND
-YwMjc0MDAsLTIwNzQ2Mjc2NjcsOTQ4NTM1OTIyLC0xMDQ1MDc3
-ODAwLC01OTM1MTU3NzYsLTIwNTYzMzc0NzEsLTUwODI1NjQwMS
-wxMjk4MzM1NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkx
-MDQ3NTZdfQ==
+eyJoaXN0b3J5IjpbLTI1MjUyNjI3OSwtOTk1MjkyMzM0LC0xNT
+A3MDExNDk4LC0yNTI1MjYyNzksMzM3MzAzMTU3LDg5Njg3Njg0
+NCw1NTY4NjU5MDQsMzA3ODA3Njc4LDE4MDYxMDk1NjQsMTE3Mj
+M3NDg0OSwtMTU0NjAyNzQwMCwtMjA3NDYyNzY2Nyw5NDg1MzU5
+MjIsLTEwNDUwNzc4MDAsLTU5MzUxNTc3NiwtMjA1NjMzNzQ3MS
+wtNTA4MjU2NDAxLDEyOTgzMzU2MTMsLTE0NDc0NjQ3NDIsNzI3
+MTQxMTkwXX0=
 -->
