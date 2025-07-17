@@ -2530,15 +2530,17 @@ queryApis();
 <br>
 <img src="interrogacion.png" align="left" width="90">  
 
-### CUÁNDO  ENVOLVER LAS PROMESAS CON BLOQUES `try{}` - `catch()` DE FORMA INDIVIDUAL <br>Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE `try{}` - `catch()`?
+### ¿CUÁNDO  ENVOLVER LAS PROMESAS CON BLOQUES `try{}` - `catch()` DE FORMA INDIVIDUAL <br>Y CUÁNDO PONER TODAS LAS PROMESAS EN UN SOLO BLOQUE `try{}` - `catch()`?
 
 
 <br>
 
-Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catch`**  o un bloque de este tipo individualmente para cada promise, podemos tener casos en los que
+Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catch`**  o un bloque de este tipo individualmente para cada promesa, podemos tener diferentes situaciones:
 
--	Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
-	-	Por ejemplo **si las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>). Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
+1. Si necesitamos **que se detenga el proceso entero** al incurrir en algún error, y que no siga ejecutando las demás funciones. 
+	-	Por ejemplo **si las promesas están conectadas**, como sería el caso de **una autentificación para la segunda promesa** (aquí    <font color= "green">*fakestoreapi*</font>). 
+	
+	Sería una situación donde **no querríamos envolverlas individualmente**, ya que **no debería iniciarse ningún otro proceso sin tener credenciales de usuario**.
 
 -	Pero en este tipo de situación del ejemplo mencionado **donde estamos contactando con dos APIs diferentes**, entonces si una falla, es posible que **quisiéramos contactar con la que no falla de todas formas,** y entonces necesitaríamos envolverlas con el bloque **`try`- `catch` de forma individual.**
 
@@ -2547,11 +2549,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDYwMjc0MDAsLTIwNzQ2Mjc2NjcsOT
-Q4NTM1OTIyLC0xMDQ1MDc3ODAwLC01OTM1MTU3NzYsLTIwNTYz
-Mzc0NzEsLTUwODI1NjQwMSwxMjk4MzM1NjEzLC0xNDQ3NDY0Nz
-QyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMTcwMDQxMDk2MCwxODM4
-MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4MDM5MjQ0LC02OTUyNj
-cwNywyMDUyNTk2OTkzLC0yMDQ0NTczNjM2LC01MTI4NTkxMTgs
-LTU5OTgyNTc1Ml19
+eyJoaXN0b3J5IjpbLTg1MTc0MTkzMCwtMTU0NjAyNzQwMCwtMj
+A3NDYyNzY2Nyw5NDg1MzU5MjIsLTEwNDUwNzc4MDAsLTU5MzUx
+NTc3NiwtMjA1NjMzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2MT
+MsLTE0NDc0NjQ3NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNzAw
+NDEwOTYwLDE4MzgyMjc4NTIsLTE4OTQzMzM5MDQsLTExMzgwMz
+kyNDQsLTY5NTI2NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2MzYs
+LTUxMjg1OTExOF19
 -->
