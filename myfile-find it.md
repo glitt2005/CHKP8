@@ -1541,16 +1541,16 @@ El método estático es útil cuando :
 <img src="pregunta.png"  width = "40%" alt="pregunta método estático">
 </div>
 <br>
-
+<br>
 <div align="center">  Ya que hay una **línea muy fina** entre:  </div>
 
-
+<br>
 <div align="center">
 <img src="disyuntiva.png"  width = "60%" alt="disyuntiva">
 </div>
 <br>
-
-Ya que, en la **programación orientada a objetos**,  existe el llamado algo llamado:
+<div align="center">  Ya que, en la **programación orientada a objetos**,  existe el llamado algo llamado:  </div>
+<br>
 <div align="center">
 <img src="PRU.png"  width = "40%" alt="principioresp.única">
 </div>
@@ -2605,11 +2605,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NT
-Y2NSw4MTU4MzQxNzcsMjEzNTkyOTM3OSw1MzgyNzU5NTYsLTIw
-NTk0MDcxMjgsLTMzNDk0MDEyMCwtNDY2NjM1NTQwLDIwMzM4OD
-I3NjcsMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMjUzMjg4Mywt
-MjUyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0OTgsLTI1Mj
-UyNjI3OSwzMzczMDMxNTcsODk2ODc2ODQ0LDU1Njg2NTkwNF19
-
+eyJoaXN0b3J5IjpbMTIwNDkwODEzMywyMzI2NjYzMjUsMTc3MT
+Q3MzAwMSw5Njc1NjY1LDgxNTgzNDE3NywyMTM1OTI5Mzc5LDUz
+ODI3NTk1NiwtMjA1OTQwNzEyOCwtMzM0OTQwMTIwLC00NjY2Mz
+U1NDAsMjAzMzg4Mjc2NywyMDY1MTUwMTQ2LDQwNzYwODI2Niwt
+MjAyNTMyODgzLC0yNTI1MjYyNzksLTk5NTI5MjMzNCwtMTUwNz
+AxMTQ5OCwtMjUyNTI2Mjc5LDMzNzMwMzE1Nyw4OTY4NzY4NDRd
+fQ==
 -->
