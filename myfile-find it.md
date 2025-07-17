@@ -1857,9 +1857,11 @@ Promise.all(iterable)
 
 #### PROCESO
 
-- Es un método que toma como **entrada un iterable de promesas** que toma  y **devuelve una sola promesa**. 
-- Esta promesa se cumple **cuando se cumplen todas las promesas** de esa entrada (incluso cuando se pase un iterable vacío).
-- Se **rechazará  en el momento en el que se rechace cualquiera de las promesas** del iterable de entrada,  **devolviendo** la razón de este **primer rechazo**.
+ 1. Es un método que toma como **entrada un iterable de promesas** que toma  y **devuelve una sola promesa**. 
+ 2. Esta promesa se cumple **cuando se cumplen todas las promesas** de esa entrada (incluso cuando se pase un iterable vacío).
+ 3. Se **rechazará  en el momento en el que se rechace cualquiera de las promesas** del iterable de entrada,  **devolviendo
+
+** la razón de este **primer rechazo**.
 
 
 <br>
@@ -2477,11 +2479,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1NjQxNTAsLTExMzYyMjY3LC04Njk2MD
-YzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMyMjAy
-MSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNzEsMT
-E4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkwNzgw
-ODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0xNDc4NTAxMD
-QwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0y
-MDY0MzM1NTk3XX0=
+eyJoaXN0b3J5IjpbODc3NTI3MDE1LDI0NTY0MTUwLC0xMTM2Mj
+I2NywtODY5NjA2MzYxLC0xMTAwODM4MDYwLC04ODE4Mjk3NDMs
+LTEyNjkzMjIwMjEsMTY2ODk0ODA1OSwxNzIzMjg5MDAwLC0xMj
+AzNDM3MzcxLDExODAzNTIzMjksMjAwNzY5NDkzMywtNzE1NTc0
+OTIxLDE5MDc4MDgwMzAsLTEzMDMwNzk2ODUsMTEwMzAwNzI1Mi
+wtMTQ3ODUwMTA0MCwxODM5MzczMDAzLC03MDI0MTMyOTgsLTU4
+ODYxODQ4MV19
 -->
