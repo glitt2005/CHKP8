@@ -1569,10 +1569,9 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 
 
 
-Lo que una **promesa** nos permite es llamar a ***Twitter***, mostrar nuestra página, 
-o	y **cuando las publicaciones finalmente lleguen de la API, que las muestre**.
 
-- Una **promesa** hace realmente una tarea que **no queremos que ocurra en tiempo real**; podemos desarrollar cualquier funcionalidad nueva en la que sea conveniente **que no se procese inmediatamente**, como una consulta a una base de datos o API externa.
+
+- Una **promesa** ejecuta realmente una tarea que **no queremos que ocurra en tiempo real**; podemos desarrollar cualquier funcionalidad nueva en la que sea conveniente **que no se procese inmediatamente**, como una consulta a una base de datos o API externa.
 
 Esto es algo que tiene muy positivo JavaScript: **su capacidad para trabajar de forma asíncrona.** Esto significa que puedes hacer tareas como ésta de llamar servicios externos y usar APIs, y poder tomar y en realidad, **elegir  qué elementos** de tu página o en tu aplicación **se cargarán directamente, y cuáles pueden tardar más tiempo**.
 
@@ -2470,11 +2469,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMT
-I2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0
-MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5Mj
-EsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0x
-NDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwtNTg4Nj
-E4NDgxLC0yMDY0MzM1NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5
-MzYsLTEzODU3ODMwNTJdfQ==
+eyJoaXN0b3J5IjpbLTU0NDY2NDYsLTExMDA4MzgwNjAsLTg4MT
+gyOTc0MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkw
+MDAsLTEyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC
+03MTU1NzQ5MjEsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAz
+MDA3MjUyLC0xNDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMz
+I5OCwtNTg4NjE4NDgxLC0yMDY0MzM1NTk3LC0xNzczMzg3NDY4
+LC0yMzg0MzI5MzZdfQ==
 -->
