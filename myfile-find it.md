@@ -1323,7 +1323,10 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 
 <img src="iconoPrecauc.png" Alt="icono de cuidado">
 
-Cuando quiera que el **constructor** tome un **objeto** como argumento, entonces **al instanciar también tenemos que poner un objeto como argumento!!**
+**OJO!!** Cuando quiera que el **constructor** tome un **objeto** como argumento, entonces **al instanciar también tenemos que poner un objeto como argumento!!**
+<
+
+#### ACCEDIENDO A LA CLAVE DE LA INSTANCIA:
 
 
 La variable `jon` se llama **instancia de la clase Instructor**.  En cuanto al tipo de dato, es **un objeto**. De hecho si hacemos:
@@ -2445,11 +2448,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0OTA4NDcwLC0xNDc4NTAxMDQwLDE4Mz
-kzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0yMDY0MzM1
-NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3ODMwNT
-IsLTg2NjExODc3MCw0ODA0ODcyNTEsMTY5NzEyNjU1NywtMTky
-NjE5Njk3NCw5MTA0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NT
-UzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4
-NDMzMjMzXX0=
+eyJoaXN0b3J5IjpbMTQyMzU3MDM4NCwtMTQ3ODUwMTA0MCwxOD
+M5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMz
+NTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMD
+UyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5
+MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNz
+U1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1
+ODQzMzIzM119
 -->
