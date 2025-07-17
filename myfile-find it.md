@@ -2227,7 +2227,7 @@ Explicado de una forma sencilla, el cierre es una función **que puede ser anida
 
 
 
-<br>
+
 <br>
 
 ### 
@@ -2520,11 +2520,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODMzNTYxMywtMTQ0NzQ2NDc0Miw3Mj
-cxNDExOTAsNzg5MTA0NzU2LDE3MDA0MTA5NjAsMTgzODIyNzg1
-MiwtMTg5NDMzMzkwNCwtMTEzODAzOTI0NCwtNjk1MjY3MDcsMj
-A1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5MTE4LC01OTk4
-MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMzYyMjY3LC
-04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2
-OTMyMjAyMV19
+eyJoaXN0b3J5IjpbLTUwODI1NjQwMSwxMjk4MzM1NjEzLC0xND
+Q3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMTcwMDQxMDk2
+MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4MDM5MjQ0LC
+02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0NTczNjM2LC01MTI4
+NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwyNDU2NDE1MC
+wtMTEzNjIyNjcsLTg2OTYwNjM2MSwtMTEwMDgzODA2MCwtODgx
+ODI5NzQzXX0=
 -->
