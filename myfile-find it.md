@@ -1283,19 +1283,22 @@ Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a 
 	-  Son **variables** que se definen dentro de la función constructora **para almacenar datos sobre el objeto**.
 	- Se **acceden y modifican** utilizando la palabra clave  **`this`  seguida del nombre de la propiedad**.
 - Un constructor **se invoca con** la palabra clave  **`new`**. 
+ <br>
+
 
 #### SINTAXIS BÁSICA DEL CONTRUCTOR
 
 <div align="center">
 <img src="constructorSintaxis.png" Alt="sintaxis constructor">
 </div>
+<br>
 
 #### ALGUNOS CONCEPTOS CLAVE DEL CONSTRUCTOR
 
 
-- Cada vez que creemos, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
-- No siempre están en todas las clases, pero muy habitualmente sí
-- Tareas: fijar valores, llamar a otras funciones, etc.
+- Cada vez que se crea una clase, el nombre de **constructor** es una **palabra clave reservada para las clases**,  específicamente utilizada dentro de ellas. 
+- **No siempre están** en todas las clases, pero muy habitualmente sí
+- Tareas: **fijar** valores, **llamar** a otras funciones, etc.
 - **El constructor define el método que se ejecuta al crear una nueva instancia de la clase**. 
  - Una **clase** en sí **no ejecuta nada** (son como hemos dicho un conjunto de reglas y pautas para la ejecución)
  -  Es **la instancia**, la que **ejecuta todos los procesos** que queramos cada vez que **creemos un nuevo objeto** (lo haremos con la palabra clave **`new`** ).
@@ -2438,7 +2441,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTgwMzQyMywxODM5MzczMDAzLC03MD
+eyJoaXN0b3J5IjpbMTU1MjY3MjkzMiwxODM5MzczMDAzLC03MD
 I0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMzNTU5NywtMTc3MzM4
 NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMDUyLC04NjYxMTg3Nz
 AsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5MjYxOTY5NzQsOTEw
