@@ -2010,7 +2010,7 @@ Javascript es un programa **sincrónico y monohilo por naturaleza**. Esto signif
 	- puede generar tiempos de espera largos
 	- e interfaces de usuario bloqueados.
 
-### 	0. EVENT LOOP
+## 	0. EVENT LOOP
 **Para resolver** este comportamiento sincrónico, JavaScript utilizaba las **tareas asincrónicas o “temporizadores”**, a través del método `setTimeout()`, que se ejecuta **en segundo plano y no afecta a la resolución de las demás tareas**.
 
 
@@ -2058,7 +2058,7 @@ Este tipo de proceso o **Event Loop**, pues, suponía un paso en la dirección c
 
 <br>
 
-### 	1. FUNCIONES  *CALLBACK*  Y EL LLAMADO "*CALLBACK HELL*"
+## 	1. FUNCIONES  *CALLBACK*  Y EL LLAMADO "*CALLBACK HELL*"
 
 - Las funciones callback **son funciones que se pasan como argumento de otras funciones** para que sean ejecutadas en algún momento dentro de la ejecución de la función principal.
 - Constituyeron **la primera forma de manejar asincronismo** en Javascript.
@@ -2111,7 +2111,7 @@ Precisamente con las **promises** o **promesas** que acabamos de explicar en el 
 
 <br>
 
-### 	2. PROMESAS
+## 	2. PROMESAS
 
 
 Las promesas **resolvieron** algunos asuntos como:
@@ -2135,7 +2135,7 @@ No añadimos ejemplos de las **promesas**, ya que han quedado explicadas en el c
 <br>
 <br>
 
-### 	3. FUNCIONES <big>`async`</big> - <big>`await`</big>
+## 	3. FUNCIONES <big>`async`</big> - <big>`await`</big>
 
 
 A partir de **septiembre de 2017** (especificación ECMAScript2017), se incorporaron a JavaScript **las palabras clave** de `async` y `await` que constituyen **la forma más sencilla y moderna de manejar código asincrónico**:
@@ -2237,7 +2237,7 @@ y no en secuencia?<h3>
 <br>
 <br>
 
-## 1)  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
+###  1)  Uso de  "cierres" o "closures" con <big>`async`</big> - <big>`await`</big>
 
 Los **cierres** o clausuras ("closures") en Javascript son **una herramienta poderosa** que, combinada con las funciones asíncronas, permite **mantener el estado y acceder a variables externas** en operaciones **asíncronas**.
 
@@ -2625,11 +2625,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzcyMDMzNzQsNTI2MzM3MjMxLDEzMz
-g0NzAyMDEsNjcyNzQyNTcsLTkzMTIyNTUyMywxOTMxMzgwMDA5
-LC0xODg4NTA4NTEsNDY0Njc1MDkwLC00MDg4NjE3MjUsLTczOD
-M4MzY2MywyMDU4MjcxODgzLDIxMzYzNjA0MzMsMTY5NDA0MjUz
-MiwzNDMxOTQ0NTksMTEyOTU1MzI2MSwxMjA0OTA4MTMzLDIzMj
-Y2NjMyNSwxNzcxNDczMDAxLDk2NzU2NjUsODE1ODM0MTc3XX0=
+eyJoaXN0b3J5IjpbMTIwNTU0MTI3NSwtMTYzNzIwMzM3NCw1Mj
+YzMzcyMzEsMTMzODQ3MDIwMSw2NzI3NDI1NywtOTMxMjI1NTIz
+LDE5MzEzODAwMDksLTE4ODg1MDg1MSw0NjQ2NzUwOTAsLTQwOD
+g2MTcyNSwtNzM4MzgzNjYzLDIwNTgyNzE4ODMsMjEzNjM2MDQz
+MywxNjk0MDQyNTMyLDM0MzE5NDQ1OSwxMTI5NTUzMjYxLDEyMD
+Q5MDgxMzMsMjMyNjY2MzI1LDE3NzE0NzMwMDEsOTY3NTY2NV19
 
 -->
