@@ -1562,6 +1562,10 @@ El **Principio de Responsabilidad Única** (PRU) en JavaScript  significa que **
 <br>
 <img src="decepcion.png" align="right" width="90">   qué pasaría en mi aplicación **si Twitter se cae**? Si un usuario va a la página, pero solo podría ver algo que es parte de la memoria intermedia (bufer) como unos puntos suspensivas "………………… " o algo así:   Sería **una experiencia no agradable para cualquier usuario**.
 <br>
+<br>
+<br>
+<img src="decepcion.png" align="left" width="90">   qué pasaría en mi aplicación **si Twitter se cae**? Si un usuario va a la página, pero solo podría ver algo que es parte de la memoria intermedia (bufer) como unos puntos suspensivas "………………… " o algo así:   Sería **una experiencia no agradable para cualquier usuario**.
+<br>
 
 
 
@@ -2466,11 +2470,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTgyOTc0MywtMTI2OTMyMjAyMSwxNj
-Y4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNzEsMTE4MDM1
-MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkwNzgwODAzMC
-wtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0xNDc4NTAxMDQwLDE4
-MzkzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgxLC0yMDY0Mz
-M1NTk3LC0xNzczMzg3NDY4LC0yMzg0MzI5MzYsLTEzODU3ODMw
-NTIsLTg2NjExODc3MF19
+eyJoaXN0b3J5IjpbLTk1NDA5NzM1NSwtODgxODI5NzQzLC0xMj
+Y5MzIyMDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQz
+NzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMS
+wxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0
+Nzg1MDEwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MT
+g0ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQzMjkz
+NiwtMTM4NTc4MzA1Ml19
 -->
