@@ -2288,7 +2288,7 @@ loginActivities(login(), updateAccount());
 
 
 <br>
-
+Para que no nos lleve a pensar que está funcionando porque son l porque es necesario que los nombres de los **argumentos** sean iguales a los de las variables,
 
 
 <div align="center">
@@ -2297,8 +2297,8 @@ loginActivities(login(), updateAccount());
 
 <br>
 
-
--  Imprimiría **exactamente igual que el ejemplo anterior**.  a)  Para mostrar que esto es así y no nos lleve a pensar que esto funciona porque es necesario que los nombres de los **argumentos** sean iguales a los de las variables,  **hemos cambiado sus nombres:** Solo se han cambiado nombres.
+- 
+-  Imprimiría **exactamente igual que el ejemplo anterior**.   )  P  **hemos cambiado sus nombres:** Solo se han cambiado nombres.
 
 <br>
 <br>
@@ -2523,11 +2523,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQxNDUzNTQsLTU5MzUxNTc3NiwtMjA1Nj
-MzNzQ3MSwtNTA4MjU2NDAxLDEyOTgzMzU2MTMsLTE0NDc0NjQ3
-NDIsNzI3MTQxMTkwLDc4OTEwNDc1NiwxNzAwNDEwOTYwLDE4Mz
-gyMjc4NTIsLTE4OTQzMzM5MDQsLTExMzgwMzkyNDQsLTY5NTI2
-NzA3LDIwNTI1OTY5OTMsLTIwNDQ1NzM2MzYsLTUxMjg1OTExOC
-wtNTk5ODI1NzUyLC0xNTY0NjE5Mzk1LDI0NTY0MTUwLC0xMTM2
-MjI2N119
+eyJoaXN0b3J5IjpbLTcxMjIzMTQ3NCwtNTkzNTE1Nzc2LC0yMD
+U2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMzNTYxMywtMTQ0NzQ2
+NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LDE3MDA0MTA5NjAsMT
+gzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEzODAzOTI0NCwtNjk1
+MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3MzYzNiwtNTEyODU5MT
+E4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTEx
+MzYyMjY3XX0=
 -->
