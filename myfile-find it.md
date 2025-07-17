@@ -782,7 +782,7 @@ En esencia, la **desconstrucción** facilita la extracción de datos de estructu
 En el EJEMPLO 1,  habría resultado **mucho más largo y tedioso** el hacer algo como:
 
 ```JavaScript
-const numeros = [1, 2, 3, 4, 5];
+const numeros = [1, 2, 3, 4, 5];  // Sin desconstrucción del array
 
 const itemPrimero = numeros[0]; 
 console.log(itemPrimero);       // Output: 1
@@ -801,7 +801,7 @@ console.log(itemQuinto);        // Output: 5
 
 ### 3. DECONSTRUCCIÓN DE OBJETOS:
 
-La desestructuración de objetos permite extraer **propiedades específicas de un objeto y asignarlas a variables**, bien mediantes nombres iguales a las propiedades, o con nombres distintos usando un alias.
+La desestructuración de objetos permite extraer **propiedades específicas de un objeto y asignarlas a variables**, bien mediantes **nombres iguales** a las propiedades, o con nombres distintos usando un **alias**.
 <br>
 
 ####  Objetos - EJEMPLO 1:
@@ -809,14 +809,14 @@ La desestructuración de objetos permite extraer **propiedades específicas de u
 
 
 ```JavaScript
-const persona = {  nombre: 'Sammy',  edad: 45,  ciudad: 'Madrid'};// Desestructuración con nombres de variables iguales a las propiedades
+const persona = {  nombre: 'Sammy',  edad: 45,  ciudad: 'Madrid'};// Desconstrucción con nombres de variables iguales a las propiedades
 const { nombre, edad, ciudad } = persona; 
 
 console.log(nombre); // Output: Sammy
 console.log(edad);   // Output: 30
 console.log(ciudad); // Output: Madrid
 
-// Desestructuración con alias
+// Desconstrucción con alias
 const { nombre: nombrePersona, edad: edadPersona } = persona;
 console.log(nombrePersona); // Output: Sammy
 console.log(edadPersona);   // Output: 45
@@ -831,7 +831,7 @@ const jugador = {
   dorsal: 10
 };
 
-// Desestructuración del objeto jugador
+// Desconstrucción del objeto jugador
 const { nombre, posicion, dorsal } = jugador;
 
 console.log(nombre);   // Imprime: Messi
@@ -2388,11 +2388,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDA0NjM5MSwxMDk1NzI3NTUzLDMxOD
-U2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMz
-LDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2OD
-E5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgw
-OTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNT
-A1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5ODIxMywtNDA3MTQw
-NjEzXX0=
+eyJoaXN0b3J5IjpbMzY2MTI2MTgwLDEwOTU3Mjc1NTMsMzE4NT
+Y0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMyMzMs
+MTE5MjI5MDYwMywtOTU3MTUzNjc0LC04NjUyMTA2OTUsMTY4MT
+k3MzkzOCwtMTM5MTk2Mzg1Miw4ODQ4MTY0ODYsMTk2MjA3ODA5
+MSwxNDA2NjMzOTAsNzYyNjQzMjc5LDE3MDg0MjU3NDgsMTA1MD
+U5MTYwMCwtMjA0NjcyNTQ4MiwtMTg4ODk4MjEzLC00MDcxNDA2
+MTNdfQ==
 -->
