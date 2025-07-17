@@ -1153,6 +1153,7 @@ Finalmente conseguimos hacerlo:  lo convierte en un conjunto de argumentos de fu
 Este proceso **es muy típico en las plataformas modernas de JavaScript.**
 <br>
 
+<br>
 
 ##  5. COMBINACIÓN DE PROPIEDADES DE VARIOS OBJETOS EN UNO NUEVO
 
@@ -1248,7 +1249,7 @@ Comencemos con **una analogía**. Crear un **plano de una casa**:
 Nos hacemos una idea.  **Esto NO es una casa**. Es la **estructura**.
 
 Esta **estructura** la podemos asociar con lo que, en Javascript, corresponde a una **clase**.
-
+<br>
 **UNA CLASE:**
 
 - **Una clase** es simplemente una lista de definiciones que indican exactamente cómo debería comportarse.
@@ -2598,11 +2599,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTk0MDcxMjgsLTMzNDk0MDEyMCwtND
-Y2NjM1NTQwLDIwMzM4ODI3NjcsMjA2NTE1MDE0Niw0MDc2MDgy
-NjYsLTIwMjUzMjg4MywtMjUyNTI2Mjc5LC05OTUyOTIzMzQsLT
-E1MDcwMTE0OTgsLTI1MjUyNjI3OSwzMzczMDMxNTcsODk2ODc2
-ODQ0LDU1Njg2NTkwNCwzMDc4MDc2NzgsMTgwNjEwOTU2NCwxMT
-cyMzc0ODQ5LC0xNTQ2MDI3NDAwLC0yMDc0NjI3NjY3LDk0ODUz
-NTkyMl19
+eyJoaXN0b3J5IjpbOTEwNDYxNzI2LC0yMDU5NDA3MTI4LC0zMz
+Q5NDAxMjAsLTQ2NjYzNTU0MCwyMDMzODgyNzY3LDIwNjUxNTAx
+NDYsNDA3NjA4MjY2LC0yMDI1MzI4ODMsLTI1MjUyNjI3OSwtOT
+k1MjkyMzM0LC0xNTA3MDExNDk4LC0yNTI1MjYyNzksMzM3MzAz
+MTU3LDg5Njg3Njg0NCw1NTY4NjU5MDQsMzA3ODA3Njc4LDE4MD
+YxMDk1NjQsMTE3MjM3NDg0OSwtMTU0NjAyNzQwMCwtMjA3NDYy
+NzY2N119
 -->
