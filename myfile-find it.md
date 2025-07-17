@@ -1724,19 +1724,7 @@ El método  `fetch()`  :
 
 #### SINTAXIS:
 
-- Acepta **dos parámetros:**
-	1.  **La URL a la que enviar la petición** (este es un parámetro obligatorio).
-	2.  **Las opciones a configurar en la petición.** Aquí se puede configurar el método de solicitud aquí (este es un **parámetro opcional**).
 
--  **`fetch()`  devuelve una promesa** que se resuelve al objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta. Es decir, representa la respuesta a la solicitud realizada.  Y dado que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**
-<br>
-
-#### CONVENCIÓN COMÚN:  
-
-* La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:
-	-  `response` 
-	-  `data`
-	
 ```js
 fetch('<Tu URL>', {})
   .then(response => {
@@ -1746,6 +1734,18 @@ fetch('<Tu URL>', {})
     // Si hay un error en la petición, lo manejamos aqui 
   })
 ```
+
+- Acepta **dos parámetros:**
+	1.  **La URL a la que enviar la petición** (este es un parámetro obligatorio).
+	2.  **Las opciones a configurar en la petición.** Aquí se puede configurar el método de solicitud aquí (este es un **parámetro opcional**).
+
+-  **`fetch()`  devuelve una promesa** que se resuelve al objeto  `Response`, el cual contiene información sobre la respuesta, como el estado, encabezados y el cuerpo de la respuesta. Es decir, representa la respuesta a la solicitud realizada.  Y dado que se trata de una **promesa**, necesitamos agregar los métodos  **`.then()`  y  `.catch()`.**
+<br>
+- **CONVENCIÓN COMÚN:**    La respuesta con los datos se suele representar, por convención común, sobre todo con dos denominaciones:
+	-  `response` 
+	-  `data`
+	
+
 
 - 	Si la solicitud devuelve un error, se ejecutará **el método  `catch()`**:  éste  se puede omitir en Fetch API.  
 **Se usa solo** cuando `fetch()` no puede realizar una solicitud a la API, como por ejemplo **si no hay conexión de red o no se encuentra la URL**.
@@ -2473,11 +2473,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNDc2OTg5OSwtMTEzNjIyNjcsLTg2OT
-YwNjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQzLC0xMjY5MzIy
-MDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMTIwMzQzNzM3MS
-wxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3NDkyMSwxOTA3
-ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNTIsLTE0Nzg1MD
-EwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0ODEs
-LTIwNjQzMzU1OTddfQ==
+eyJoaXN0b3J5IjpbLTE0NTI0NDkwNTIsLTExMzYyMjY3LC04Nj
+k2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0MywtMTI2OTMy
+MjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLTEyMDM0MzczNz
+EsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1NzQ5MjEsMTkw
+NzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3MjUyLC0xNDc4NT
+AxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwtNTg4NjE4NDgx
+LC0yMDY0MzM1NTk3XX0=
 -->
