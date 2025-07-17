@@ -887,15 +887,15 @@ function mostrarNumeros([primero, segundo]) {
 Muchas veces **no conocemos los valores que obtendremos, sea como resultado de una petición API** o  datos de formularios o de cualquier otra fuente con los que tratemos con **objetos**.  A menudo sólo tenemos trozos de lo que necesitamos.
 
 Por ello, necesitaremos poner unos **valores por defecto** para esos objetos.
-
+<br>
 #### SINTAXIS deconstrucción con parámetros de funciones:
 
 
 La **sintaxis** muy parecida a cómo utilizamos los argumentos por defecto en los tipos de valores de variable normales **cuando simplemente pasas un único elemento como argumento**. Pero ahora debemos integrar eso en un objeto.
 
-La desestructuración permite establecer valores por defecto para las variables, **en el eventual caso de que la propiedad o elemento del array  no exista.**
-
-##### EJEMPLOS:
+La deconstrucción permite establecer valores por defecto para las variables, **en el eventual caso de que la propiedad o elemento del array  no exista.**
+<br>
+#### EJEMPLOS
 
 
 a) EL VALOR QUE PASAMOS AL DECONSTRUIR **ES UTILIZADO**
@@ -2389,11 +2389,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQzNDc1NzcsLTI3NTYwOTYyNCwxMD
-k1NzI3NTUzLDMxODU2NDA0OCwtOTA0MTMyMjIxLDEyNzIzMDk4
-MzksNjU4NDMzMjMzLDExOTIyOTA2MDMsLTk1NzE1MzY3NCwtOD
-Y1MjEwNjk1LDE2ODE5NzM5MzgsLTEzOTE5NjM4NTIsODg0ODE2
-NDg2LDE5NjIwNzgwOTEsMTQwNjYzMzkwLDc2MjY0MzI3OSwxNz
-A4NDI1NzQ4LDEwNTA1OTE2MDAsLTIwNDY3MjU0ODIsLTE4ODg5
-ODIxM119
+eyJoaXN0b3J5IjpbLTM4NjQ3OTcyLC0yNzU2MDk2MjQsMTA5NT
+cyNzU1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5
+LDY1ODQzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NT
+IxMDY5NSwxNjgxOTczOTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4
+NiwxOTYyMDc4MDkxLDE0MDY2MzM5MCw3NjI2NDMyNzksMTcwOD
+QyNTc0OCwxMDUwNTkxNjAwLC0yMDQ2NzI1NDgyLC0xODg4OTgy
+MTNdfQ==
 -->
