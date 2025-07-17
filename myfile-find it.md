@@ -725,6 +725,8 @@ En JavaScript, **deconstrucción** (*"desconstructing"*) y **desestructuración*
 
 **NOTA**:
 - La destructuración **no cambia la variable en sí misma.** Crea nuevas variables y asigna valores extraidos de la estructura de datos original. **La variable original queda intacta**.
+<br>
+
 
 ###   1. INTERCAMBIO DE VALORES DE VARIABLE:
 Un ejemplo básico para el intercambio de turnos en un juego sería hacer uso de la desestructuración **para intercambiar los valores de las variables que representan los jugadores actuales**.
@@ -2382,7 +2384,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODg4NDMwNCwzMTg1NjQwNDgsLTkwND
+eyJoaXN0b3J5IjpbMjExNjQzMDQ5MCwzMTg1NjQwNDgsLTkwND
 EzMjIyMSwxMjcyMzA5ODM5LDY1ODQzMzIzMywxMTkyMjkwNjAz
 LC05NTcxNTM2NzQsLTg2NTIxMDY5NSwxNjgxOTczOTM4LC0xMz
 kxOTYzODUyLDg4NDgxNjQ4NiwxOTYyMDc4MDkxLDE0MDY2MzM5
