@@ -1090,7 +1090,7 @@ Vemos que **cambia las dos variables**.
 
 
 
-Se ven los dos tipos......
+- Se ven los dos tipos......
 <br>
 <img src="interrogacion.png" align="left" width="90">   <big><br>¿Forma a)  - tradicional o <br> Forma b) moderna?</big>
 
@@ -2607,11 +2607,11 @@ holaMundo();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTE1MDE0Niw0MDc2MDgyNjYsLTIwMj
-UzMjg4MywtMjUyNTI2Mjc5LC05OTUyOTIzMzQsLTE1MDcwMTE0
-OTgsLTI1MjUyNjI3OSwzMzczMDMxNTcsODk2ODc2ODQ0LDU1Nj
-g2NTkwNCwzMDc4MDc2NzgsMTgwNjEwOTU2NCwxMTcyMzc0ODQ5
-LC0xNTQ2MDI3NDAwLC0yMDc0NjI3NjY3LDk0ODUzNTkyMiwtMT
-A0NTA3NzgwMCwtNTkzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgy
-NTY0MDFdfQ==
+eyJoaXN0b3J5IjpbMjAzMzg4Mjc2NywyMDY1MTUwMTQ2LDQwNz
+YwODI2NiwtMjAyNTMyODgzLC0yNTI1MjYyNzksLTk5NTI5MjMz
+NCwtMTUwNzAxMTQ5OCwtMjUyNTI2Mjc5LDMzNzMwMzE1Nyw4OT
+Y4NzY4NDQsNTU2ODY1OTA0LDMwNzgwNzY3OCwxODA2MTA5NTY0
+LDExNzIzNzQ4NDksLTE1NDYwMjc0MDAsLTIwNzQ2Mjc2NjcsOT
+Q4NTM1OTIyLC0xMDQ1MDc3ODAwLC01OTM1MTU3NzYsLTIwNTYz
+Mzc0NzFdfQ==
 -->
