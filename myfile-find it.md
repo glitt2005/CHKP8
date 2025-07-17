@@ -2487,14 +2487,15 @@ queryApis();
 <br>
 #### EJEMPLO  D  -   ENVOLVIENDO PROMESAS con los bloques <big>`try`</big> - <big>`catch` </big>, <br> falta la letra "s" en el *https* de la primera promesa
 
-1.- Envolveremos cada promesa con un bloques  `try` - `catch` individuales, añadiremos la descripción precisamente para proporcionar información para la identificación del fallo. 
-- Quitamos la letra  "**s**" del ***https*** de LA **PRIMERA** PROMESA:
+1.- Envolveremos cada promesa con un bloque  **`try` - `catch` de forma individual**
+2.- Añadiremos **la descripción** precisamente para proporcionar **información para la identificación del fallo**. 
+
 
 
 ```js
 async function queryApis() {
   try {
-    const postsPromise = fetch('https://jsonplaceholder.typicode.com/todos/1') ;
+    const postsPromise = fetch('http://jsonplaceholder.typicode.com/todos/1') ;
     const posts = await postsPromise.then(res => res.json());
     console.log(posts);
 
@@ -2544,11 +2545,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNDIyNDY4MywtMTA0NTA3NzgwMCwtNT
-kzNTE1Nzc2LC0yMDU2MzM3NDcxLC01MDgyNTY0MDEsMTI5ODMz
-NTYxMywtMTQ0NzQ2NDc0Miw3MjcxNDExOTAsNzg5MTA0NzU2LD
-E3MDA0MTA5NjAsMTgzODIyNzg1MiwtMTg5NDMzMzkwNCwtMTEz
-ODAzOTI0NCwtNjk1MjY3MDcsMjA1MjU5Njk5MywtMjA0NDU3Mz
-YzNiwtNTEyODU5MTE4LC01OTk4MjU3NTIsLTE1NjQ2MTkzOTUs
-MjQ1NjQxNTBdfQ==
+eyJoaXN0b3J5IjpbMjgzMjI2MDc3LC0xMDQ1MDc3ODAwLC01OT
+M1MTU3NzYsLTIwNTYzMzc0NzEsLTUwODI1NjQwMSwxMjk4MzM1
+NjEzLC0xNDQ3NDY0NzQyLDcyNzE0MTE5MCw3ODkxMDQ3NTYsMT
+cwMDQxMDk2MCwxODM4MjI3ODUyLC0xODk0MzMzOTA0LC0xMTM4
+MDM5MjQ0LC02OTUyNjcwNywyMDUyNTk2OTkzLC0yMDQ0NTczNj
+M2LC01MTI4NTkxMTgsLTU5OTgyNTc1MiwtMTU2NDYxOTM5NSwy
+NDU2NDE1MF19
 -->
