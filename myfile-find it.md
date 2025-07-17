@@ -1338,7 +1338,7 @@ console.log(jon);
 
  Y precisamente por ello, podemos acceder al atributo **`name`**  mediante la nomenclatura con punto o **dot notation** de los objetos:
 <div align="center">
-<img src="instancia.png" width="65%" Alt="instancia muestra atributo">
+<img src="instancia.png" width="62%" Alt="instancia muestra atributo">
 </div>
 
 #### OTRO EJEMPLO:
@@ -1384,6 +1384,7 @@ En este ejemplo:
 <div align="center">
 <img src="metodoInstancia.png" width="75%" Alt="método de instancia">
 </div>
+<br>
 
 - En el **`console.log`** del método de la instancia **`renderDetails()`**  necesitamos poner el **`this`** en **`this.name`**  para poder acceder al valor de **`name`** del argumento.
 - Cuando instanciamos y pasamos los valores entre llaves `new Instructor({name: "Jon Snow"}`; nos dirige **al contructor.**
@@ -2457,11 +2458,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzAwNzI1MiwtMTQ3ODUwMTA0MCwxOD
-M5MzczMDAzLC03MDI0MTMyOTgsLTU4ODYxODQ4MSwtMjA2NDMz
-NTU5NywtMTc3MzM4NzQ2OCwtMjM4NDMyOTM2LC0xMzg1NzgzMD
-UyLC04NjYxMTg3NzAsNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5
-MjYxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNz
-U1MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1
-ODQzMzIzM119
+eyJoaXN0b3J5IjpbMzM1NjMwMjY3LDExMDMwMDcyNTIsLTE0Nz
+g1MDEwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01ODg2MTg0
+ODEsLTIwNjQzMzU1OTcsLTE3NzMzODc0NjgsLTIzODQzMjkzNi
+wtMTM4NTc4MzA1MiwtODY2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3
+MTI2NTU3LC0xOTI2MTk2OTc0LDkxMDQxMTc5OCwtMjc1NjA5Nj
+I0LDEwOTU3Mjc1NTMsMzE4NTY0MDQ4LC05MDQxMzIyMjEsMTI3
+MjMwOTgzOV19
 -->
