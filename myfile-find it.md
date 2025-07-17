@@ -1042,10 +1042,7 @@ Tenemos **dos soluciones** a esto:
 <br>
 ### a) Forma tradicional: añadir </big>`slice()`</big> a la variable original
 
-El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama **sin argumentos** toma todos los elementos del array, o sea, **crea una copia de todos los elementos del array original** superficial (shallow copy) del array original. 
-- **Una copia superficial** o shallow copy crea un nuevo objeto, pero los elementos internos (si son objetos o arrays) **son referenciados desde el objeto original**. 
-- **Una copia profunda** (deep copy), por otro lado, crea un nuevo objeto y copia recursivamente todos los elementos, incluyendo los objetos y arrays anidados, para que no compartan referencias con el objeto original.
-
+El método  `slice()`  en JavaScript se utiliza para extraer una porción de una array. Cuando se llama **sin argumentos** toma todos los elementos del array, o sea, **crea una copia de todos los elementos del array original**. 
 
 ```JavaScript
 const numbers = [1,2,3,4];
@@ -1056,7 +1053,7 @@ updatedNumbers.push(5);
 console.log(numbers); //imprime  [ 1, 2, 3, 4, 5 ]
 console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 ```
-
+<br>
 
 ### b) Forma moderna: operador de extensión
 
@@ -2423,7 +2420,7 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTA2MTUwMywtMTM4NTc4MzA1MiwtOD
+eyJoaXN0b3J5IjpbLTIzODQzMjkzNiwtMTM4NTc4MzA1MiwtOD
 Y2MTE4NzcwLDQ4MDQ4NzI1MSwxNjk3MTI2NTU3LC0xOTI2MTk2
 OTc0LDkxMDQxMTc5OCwtMjc1NjA5NjI0LDEwOTU3Mjc1NTMsMz
 E4NTY0MDQ4LC05MDQxMzIyMjEsMTI3MjMwOTgzOSw2NTg0MzMy
