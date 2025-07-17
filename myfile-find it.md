@@ -1944,6 +1944,8 @@ Promise.allSettled([promesa1, promesa2, promesa3])
 - En este ejemplo,  `Promise.allSettled()`  devuelve un array con los resultados de cada promesa, **incluso aunque una de ellas se haya rechazado.** 
 
 - Esto permite **gestionar de forma más flexible** los casos en los que algunas promesas pueden fallar **sin detener el proceso completo**.
+<br>
+<br>
 
 ---
 
@@ -2485,11 +2487,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMzI3MDUzMywyNDU2NDE1MCwtMTEzNj
-IyNjcsLTg2OTYwNjM2MSwtMTEwMDgzODA2MCwtODgxODI5NzQz
-LC0xMjY5MzIyMDIxLDE2Njg5NDgwNTksMTcyMzI4OTAwMCwtMT
-IwMzQzNzM3MSwxMTgwMzUyMzI5LDIwMDc2OTQ5MzMsLTcxNTU3
-NDkyMSwxOTA3ODA4MDMwLC0xMzAzMDc5Njg1LDExMDMwMDcyNT
-IsLTE0Nzg1MDEwNDAsMTgzOTM3MzAwMywtNzAyNDEzMjk4LC01
-ODg2MTg0ODFdfQ==
+eyJoaXN0b3J5IjpbLTE1NjQ2MTkzOTUsMjQ1NjQxNTAsLTExMz
+YyMjY3LC04Njk2MDYzNjEsLTExMDA4MzgwNjAsLTg4MTgyOTc0
+MywtMTI2OTMyMjAyMSwxNjY4OTQ4MDU5LDE3MjMyODkwMDAsLT
+EyMDM0MzczNzEsMTE4MDM1MjMyOSwyMDA3Njk0OTMzLC03MTU1
+NzQ5MjEsMTkwNzgwODAzMCwtMTMwMzA3OTY4NSwxMTAzMDA3Mj
+UyLC0xNDc4NTAxMDQwLDE4MzkzNzMwMDMsLTcwMjQxMzI5OCwt
+NTg4NjE4NDgxXX0=
 -->
