@@ -1027,7 +1027,7 @@ console.log(updatedNumbers);//imprime  [ 1, 2, 3, 4, 5 ]
 
 
 <br>
-<img src="interrogacion.png" align="left" width="90"> <h3>  ¿QUÉ ESTÁ PASANDO EXACTAMENTE<h3>
+<img src="interrogacion.png" align="left" width="90">   **¿QUÉ ESTÁ PASANDO EXACTAMENTE**>
 
 <br>
 
@@ -2417,11 +2417,11 @@ Para diferenciar cuándo envolver todas las promesas en un solo  **`try` - `catc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzEyNjU1NywtMTkyNjE5Njk3NCw5MT
-A0MTE3OTgsLTI3NTYwOTYyNCwxMDk1NzI3NTUzLDMxODU2NDA0
-OCwtOTA0MTMyMjIxLDEyNzIzMDk4MzksNjU4NDMzMjMzLDExOT
-IyOTA2MDMsLTk1NzE1MzY3NCwtODY1MjEwNjk1LDE2ODE5NzM5
-MzgsLTEzOTE5NjM4NTIsODg0ODE2NDg2LDE5NjIwNzgwOTEsMT
-QwNjYzMzkwLDc2MjY0MzI3OSwxNzA4NDI1NzQ4LDEwNTA1OTE2
-MDBdfQ==
+eyJoaXN0b3J5IjpbNDgwNDg3MjUxLDE2OTcxMjY1NTcsLTE5Mj
+YxOTY5NzQsOTEwNDExNzk4LC0yNzU2MDk2MjQsMTA5NTcyNzU1
+MywzMTg1NjQwNDgsLTkwNDEzMjIyMSwxMjcyMzA5ODM5LDY1OD
+QzMzIzMywxMTkyMjkwNjAzLC05NTcxNTM2NzQsLTg2NTIxMDY5
+NSwxNjgxOTczOTM4LC0xMzkxOTYzODUyLDg4NDgxNjQ4NiwxOT
+YyMDc4MDkxLDE0MDY2MzM5MCw3NjI2NDMyNzksMTcwODQyNTc0
+OF19
 -->
